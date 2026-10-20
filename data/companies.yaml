@@ -1,0 +1,361 @@
+# Company registry. Loaded into tracker.models.Company.
+#
+# slug:       our internal kebab-case id (used in listing ids). NOT the ATS board token.
+# tier:       1 = must-have, 2 = nice-to-have
+# ats:        greenhouse | lever | ashby | smartrecruiters | workday | custom | unknown
+# ats_config: e.g. {board_token: ...} (greenhouse), {site: ...} (lever/ashby),
+#             {company_id: ...} (smartrecruiters), {host: ..., tenant: ..., site: ...} (workday)
+# enabled:    only enabled companies are fetched; requires ats != unknown
+
+companies:
+  # --- Big tech / product ---
+  - name: Google
+    slug: google
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Microsoft
+    slug: microsoft
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Amazon
+    slug: amazon
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Apple
+    slug: apple
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Adobe
+    slug: adobe
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Atlassian
+    slug: atlassian
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Uber
+    slug: uber
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Salesforce
+    slug: salesforce
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Oracle
+    slug: oracle
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Intuit
+    slug: intuit
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: ServiceNow
+    slug: servicenow
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Nvidia
+    slug: nvidia
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Qualcomm
+    slug: qualcomm
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Intel
+    slug: intel
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: AMD
+    slug: amd
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Texas Instruments
+    slug: texas-instruments
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Cisco
+    slug: cisco
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Walmart Global Tech
+    slug: walmart-global-tech
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Nutanix
+    slug: nutanix
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Rubrik
+    slug: rubrik
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Cohesity
+    slug: cohesity
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Databricks
+    slug: databricks
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Snowflake
+    slug: snowflake
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Stripe
+    slug: stripe
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Twilio
+    slug: twilio
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Rippling
+    slug: rippling
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: PayPal
+    slug: paypal
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Visa
+    slug: visa
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Mastercard
+    slug: mastercard
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: American Express
+    slug: american-express
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  # --- Finance / quant ---
+  - name: Goldman Sachs
+    slug: goldman-sachs
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: JPMorgan Chase
+    slug: jpmorgan-chase
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Morgan Stanley
+    slug: morgan-stanley
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: "D. E. Shaw"
+    slug: de-shaw
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Tower Research Capital
+    slug: tower-research-capital
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Graviton Research Capital
+    slug: graviton-research-capital
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Arcesium
+    slug: arcesium
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: AlphaGrep
+    slug: alphagrep
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Quadeye
+    slug: quadeye
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  # --- Indian product companies ---
+  - name: Flipkart
+    slug: flipkart
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Swiggy
+    slug: swiggy
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Zomato
+    slug: zomato
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Razorpay
+    slug: razorpay
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: CRED
+    slug: cred
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: PhonePe
+    slug: phonepe
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Meesho
+    slug: meesho
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Zepto
+    slug: zepto
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Groww
+    slug: groww
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Postman
+    slug: postman
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: BrowserStack
+    slug: browserstack
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Freshworks
+    slug: freshworks
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Zoho
+    slug: zoho
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Sprinklr
+    slug: sprinklr
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: "Media.net"
+    slug: media-net
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Juspay
+    slug: juspay
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: InMobi
+    slug: inmobi
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: ShareChat
+    slug: sharechat
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
+  - name: Dream11
+    slug: dream11
+    tier: 2
+    ats: unknown
+    ats_config: {}
+    enabled: false
