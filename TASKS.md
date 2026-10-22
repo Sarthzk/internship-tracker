@@ -37,7 +37,7 @@ Goal: a clean Python project and a verified list of ~50 companies with their ATS
 - [ ] 👤 Run `uv run python scripts/detect_ats.py` and review the report.
 - [ ] 👤 For Workday / custom companies, open the careers page with browser dev tools (Network tab, filter Fetch/XHR) and note the JSON endpoint in `docs/CUSTOM_PORTALS.md`.
 - [ ] 👤 Pick the final ~50: fill in `ats` + `ats_config`, set `enabled: true`, set `tier`. Aim for **at most ~8 custom-portal companies** at launch; the rest should be standard ATS types.
-- [ ] 👤 Create the GitHub repo `internship-tracker` (public) and push.
+- [x] 👤 Create the GitHub repo `internship-tracker` (public) and push.
 
 ### Acceptance criteria
 - `uv sync`, `uv run ruff check .`, and `uv run pytest` all pass.
