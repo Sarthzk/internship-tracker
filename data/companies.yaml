@@ -1,361 +1,451 @@
 # Company registry. Loaded into tracker.models.Company.
 #
-# slug:       our internal kebab-case id (used in listing ids). NOT the ATS board token.
-# tier:       1 = must-have, 2 = nice-to-have
-# ats:        greenhouse | lever | ashby | smartrecruiters | workday | custom | unknown
-# ats_config: e.g. {board_token: ...} (greenhouse), {site: ...} (lever/ashby),
-#             {company_id: ...} (smartrecruiters), {host: ..., tenant: ..., site: ...} (workday)
-# enabled:    only enabled companies are fetched; requires ats != unknown
+# slug:        our internal kebab-case id (used in listing ids). NOT the ATS board token.
+# tier:        1 = must-have, 2 = nice-to-have
+# ats:         greenhouse | lever | ashby | smartrecruiters | workday | eightfold | oracle_hcm
+#              | phenom | custom | unknown
+# ats_config:  greenhouse {board_token}, lever/ashby {site}, smartrecruiters {company_id},
+#              workday {host, tenant, site}, eightfold {host, domain}, oracle_hcm {host, site}
+# careers_url: where students find the company's openings (also what fingerprint_platforms.py fetches)
+# enabled:     only enabled companies are fetched; requires ats != unknown
 
 companies:
-  # --- Big tech / product ---
   - name: Google
     slug: google
-    tier: 1
-    ats: unknown
+    tier: 2
+    ats: custom
     ats_config: {}
+    careers_url: https://www.google.com/about/careers/applications/jobs/results/?q=intern&location=India
     enabled: false
+    notes: 'Skipped at launch: job data is embedded in HTML (AF_initDataCallback), fragile to parse. docs/VERIFIED_ENDPOINTS.md
+      section D.'
   - name: Microsoft
     slug: microsoft
     tier: 1
-    ats: unknown
-    ats_config: {}
+    ats: eightfold
+    ats_config: {host: apply.careers.microsoft.com, domain: microsoft.com}
+    careers_url: https://apply.careers.microsoft.com
     enabled: false
+    notes: docs/VERIFIED_ENDPOINTS.md section B1. Fetcher is built in Phase 4.
   - name: Amazon
     slug: amazon
     tier: 1
-    ats: unknown
+    ats: custom
     ats_config: {}
+    careers_url: https://www.amazon.jobs
     enabled: false
+    notes: 'Custom fetcher: docs/VERIFIED_ENDPOINTS.md section C1.'
   - name: Apple
     slug: apple
-    tier: 1
-    ats: unknown
+    tier: 2
+    ats: custom
     ats_config: {}
+    careers_url: https://jobs.apple.com/en-in/search?search=intern&location=india-INDC
     enabled: false
+    notes: 'Skipped at launch: no public JSON endpoint found. docs/VERIFIED_ENDPOINTS.md section D.'
   - name: Adobe
     slug: adobe
     tier: 1
-    ats: unknown
-    ats_config: {}
+    ats: phenom
+    ats_config: {host: careers.adobe.com}
+    careers_url: https://careers.adobe.com
     enabled: false
+    notes: docs/VERIFIED_ENDPOINTS.md section B3. Request body not captured. Phenom fetcher only if 3+ companies
+      use Phenom; otherwise tier 2.
   - name: Atlassian
     slug: atlassian
     tier: 1
-    ats: unknown
+    ats: custom
     ats_config: {}
+    careers_url: https://www.atlassian.com/company/careers
     enabled: false
+    notes: 'Custom fetcher: docs/VERIFIED_ENDPOINTS.md section C2.'
   - name: Uber
     slug: uber
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://uber.com/global/en/careers
     enabled: false
+    notes: 'Phase 0 candidate: smartrecruiters company_id=uber (1 job, 0 India). Low confidence.'
   - name: Salesforce
     slug: salesforce
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.salesforce.com
     enabled: false
   - name: Oracle
     slug: oracle
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.oracle.com
     enabled: false
   - name: Intuit
     slug: intuit
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://jobs.intuit.com
     enabled: false
   - name: ServiceNow
     slug: servicenow
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.servicenow.com
     enabled: false
   - name: Nvidia
     slug: nvidia
     tier: 1
-    ats: unknown
-    ats_config: {}
+    ats: workday
+    ats_config: {host: nvidia.wd5.myworkdayjobs.com, tenant: nvidia, site: NVIDIAExternalCareerSite}
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
     enabled: false
+    notes: 'Endpoint seen in browser: /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs. Fetcher is built in
+      Phase 4.'
   - name: Qualcomm
     slug: qualcomm
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.qualcomm.com
     enabled: false
   - name: Intel
     slug: intel
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://jobs.intel.com
     enabled: false
   - name: AMD
     slug: amd
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.amd.com
     enabled: false
   - name: Texas Instruments
     slug: texas-instruments
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.ti.com
     enabled: false
   - name: Cisco
     slug: cisco
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://jobs.cisco.com
     enabled: false
   - name: Walmart Global Tech
     slug: walmart-global-tech
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.walmart.com
     enabled: false
   - name: Nutanix
     slug: nutanix
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://nutanix.com/company/careers
     enabled: false
   - name: Rubrik
     slug: rubrik
     tier: 1
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: rubrik}
+    careers_url: https://boards.greenhouse.io/rubrik
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: Cohesity
     slug: cohesity
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://cohesity.com/company/careers
     enabled: false
   - name: Databricks
     slug: databricks
     tier: 1
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: databricks}
+    careers_url: https://boards.greenhouse.io/databricks
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: Snowflake
     slug: snowflake
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.snowflake.com
     enabled: false
+    notes: 'Phase 0 candidate: ashby site=snowflake (360 jobs, 6 India). Verify.'
   - name: Stripe
     slug: stripe
     tier: 1
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: stripe}
+    careers_url: https://boards.greenhouse.io/stripe
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: Twilio
     slug: twilio
     tier: 1
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: twilio}
+    careers_url: https://boards.greenhouse.io/twilio
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: Rippling
     slug: rippling
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://rippling.com/careers
     enabled: false
   - name: PayPal
     slug: paypal
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://paypal.eightfold.ai/careers
     enabled: false
   - name: Visa
     slug: visa
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://corporate.visa.com/en/jobs
     enabled: false
   - name: Mastercard
     slug: mastercard
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://careers.mastercard.com
     enabled: false
   - name: American Express
     slug: american-express
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://aexp.eightfold.ai/careers
     enabled: false
-  # --- Finance / quant ---
   - name: Goldman Sachs
     slug: goldman-sachs
     tier: 1
-    ats: unknown
+    ats: custom
     ats_config: {}
+    careers_url: https://higher.gs.com
     enabled: false
+    notes: 'Custom fetcher (GraphQL): docs/VERIFIED_ENDPOINTS.md section C3.'
   - name: JPMorgan Chase
     slug: jpmorgan-chase
     tier: 1
-    ats: unknown
-    ats_config: {}
+    ats: oracle_hcm
+    ats_config: {host: jpmc.fa.oraclecloud.com, site: CX_1001}
+    careers_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
     enabled: false
+    notes: docs/VERIFIED_ENDPOINTS.md section B2. Fetcher is built in Phase 4.
   - name: Morgan Stanley
     slug: morgan-stanley
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://morganstanley.com/careers/career-opportunities-search
     enabled: false
-  - name: "D. E. Shaw"
+    notes: The student programs page 404'd; careers URL is the career-opportunities-search page.
+  - name: D. E. Shaw
     slug: de-shaw
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://deshaw.com/careers
     enabled: false
   - name: Tower Research Capital
     slug: tower-research-capital
     tier: 1
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: towerresearchcapital}
+    careers_url: https://boards.greenhouse.io/towerresearchcapital
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: Graviton Research Capital
     slug: graviton-research-capital
     tier: 1
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: gravitonresearchcapital}
+    careers_url: https://boards.greenhouse.io/gravitonresearchcapital
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: Arcesium
     slug: arcesium
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://arcesium.com/careers
     enabled: false
   - name: AlphaGrep
     slug: alphagrep
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://alphagrep.com/careers
     enabled: false
   - name: Quadeye
     slug: quadeye
     tier: 1
     ats: unknown
     ats_config: {}
+    careers_url: https://quadeye.com/careers
     enabled: false
-  # --- Indian product companies ---
   - name: Flipkart
     slug: flipkart
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://flipkartcareers.com
     enabled: false
   - name: Swiggy
     slug: swiggy
     tier: 2
-    ats: unknown
-    ats_config: {}
+    ats: smartrecruiters
+    ats_config: {company_id: swiggy}
+    careers_url: https://jobs.smartrecruiters.com/swiggy
     enabled: false
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+      Fetcher is built in Phase 4.
   - name: Zomato
     slug: zomato
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://eternal.com/careers
     enabled: false
+    notes: 'Phase 0 candidate: lever site=eternal (4 jobs, 0 India); may be a different company. Verify.'
   - name: Razorpay
     slug: razorpay
     tier: 2
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: razorpaysoftwareprivatelimited}
+    careers_url: https://boards.greenhouse.io/razorpaysoftwareprivatelimited
+    enabled: true
+    notes: 'Verified: 26 jobs, 20 India. Board token is not ''razorpay'' (docs/VERIFIED_ENDPOINTS.md section
+      A).'
   - name: CRED
     slug: cred
     tier: 2
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: lever
+    ats_config: {site: cred}
+    careers_url: https://jobs.lever.co/cred
+    enabled: true
+    notes: 'Verified: 9 jobs, 8 India (docs/VERIFIED_ENDPOINTS.md section A).'
   - name: PhonePe
     slug: phonepe
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://phonepe.com/careers
     enabled: false
   - name: Meesho
     slug: meesho
     tier: 2
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: lever
+    ats_config: {site: meesho}
+    careers_url: https://jobs.lever.co/meesho
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: Zepto
     slug: zepto
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://zeptonow.com/careers
     enabled: false
   - name: Groww
     slug: groww
     tier: 2
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: groww}
+    careers_url: https://boards.greenhouse.io/groww
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: Postman
     slug: postman
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://postman.com/company/careers
     enabled: false
   - name: BrowserStack
     slug: browserstack
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://browserstack.com/careers
     enabled: false
   - name: Freshworks
     slug: freshworks
     tier: 2
-    ats: unknown
-    ats_config: {}
+    ats: smartrecruiters
+    ats_config: {company_id: freshworks}
+    careers_url: https://jobs.smartrecruiters.com/freshworks
     enabled: false
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+      Fetcher is built in Phase 4.
   - name: Zoho
     slug: zoho
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://zoho.com/careers
     enabled: false
   - name: Sprinklr
     slug: sprinklr
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://sprinklr.com/careers
     enabled: false
-  - name: "Media.net"
+  - name: Media.net
     slug: media-net
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://media.net/careers
     enabled: false
+    notes: 'Phase 0 candidate: smartrecruiters company_id=medianet (1 job, 0 India). Low confidence.'
   - name: Juspay
     slug: juspay
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://juspay.io/careers
     enabled: false
   - name: InMobi
     slug: inmobi
     tier: 2
-    ats: unknown
-    ats_config: {}
-    enabled: false
+    ats: greenhouse
+    ats_config: {board_token: inmobi}
+    careers_url: https://boards.greenhouse.io/inmobi
+    enabled: true
+    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
   - name: ShareChat
     slug: sharechat
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://sharechat.com/careers
     enabled: false
   - name: Dream11
     slug: dream11
     tier: 2
     ats: unknown
     ats_config: {}
+    careers_url: https://dreamsports.group/careers
     enabled: false

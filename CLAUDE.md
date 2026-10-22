@@ -52,7 +52,7 @@ data/companies.yaml        company registry (name, slug, ats, ats config, tier)
 data/listings.json         all listings, open and closed
 data/health.json           per-company fetcher health
 tracker/models.py          Pydantic models: Company, RawPosting, Listing, Enrichment, HealthRecord
-tracker/fetchers/          one module per ATS: greenhouse, lever, ashby, smartrecruiters, workday
+tracker/fetchers/          one module per ATS: greenhouse, lever, ashby, smartrecruiters, workday, eightfold, oracle_hcm (phenom only if 3+ companies use it)
 tracker/fetchers/custom/   one module per company with a custom portal
 tracker/filters.py         India location matching, internship detection, category classification
 tracker/diff.py            merge fetched postings into existing listings

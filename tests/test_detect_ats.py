@@ -7,6 +7,7 @@ from scripts.detect_ats import (
     detect,
     get_json,
     is_india,
+    names_match,
     parse_ashby,
     parse_greenhouse,
     parse_lever,
@@ -184,4 +185,69 @@ async def test_detect_end_to_end():
     report = render_report([stripe, acme], results)
     assert "## Detected (1 of 2 companies)" in report
     assert "`ats: greenhouse, ats_config: {board_token: stripe}`" in report
-    assert "| Acme Corp | smartrecruiters/`acmecorp`" in report
+    assert "smartrecruiters" not in report.split("## Needs manual check")[0].split("## Weak")[1]
+    assert "- Acme Corp (`acme-corp`)" in report
+
+
+# --- SmartRecruiters false-positive rule ---
+
+
+@pytest.mark.parametrize(
+    "ours,theirs,expected",
+    [
+        ("Swiggy", "SWIGGY", True),
+        ("Media.net", "medianet", True),
+        ("Walmart Global Tech", "Walmart", True),
+        ("Visa", "Visa Inc.", True),
+        ("AMD", "AMDOCS", False),
+        ("American Express", "American Eagle", False),
+        ("Stripe", None, False),
+        ("Stripe", "", False),
+    ],
+)
+def test_names_match(ours, theirs, expected):
+    assert names_match(ours, theirs) is expected
+
+
+def _sr_payload(name: str, total: int = 3) -> dict:
+    job = {"location": {"country": "in"}, "company": {"name": name}}
+    return {"totalFound": total, "content": [job] * min(total, 3) if total else []}
+
+
+async def _run_detect(acme: Company, sr_status: int, sr_body: dict) -> tuple[list, str]:
+    respx.get(url__regex=r"https://api\.smartrecruiters\.com/.*").mock(
+        return_value=httpx.Response(sr_status, json=sr_body)
+    )
+    respx.route().mock(return_value=httpx.Response(404))
+    async with httpx.AsyncClient() as client:
+        results = await detect([acme], client, delay=0)
+    return results, render_report([acme], results)
+
+
+@respx.mock
+async def test_smartrecruiters_name_mismatch_is_dropped():
+    results, report = await _run_detect(company("Acme", "acme"), 200, _sr_payload("Other Corp"))
+    assert results == []
+    assert "- Acme (`acme`)" in report
+
+
+@respx.mock
+async def test_smartrecruiters_matching_name_with_jobs_is_a_match():
+    results, report = await _run_detect(company("Acme", "acme"), 200, _sr_payload("ACME"))
+    assert [(r.spec.ats, r.slug) for r in results if r.is_match] == [("smartrecruiters", "acme")]
+    assert "`ats: smartrecruiters, ats_config: {company_id: acme}`" in report
+
+
+@respx.mock
+async def test_smartrecruiters_empty_board_is_not_reported_as_weak_hit(monkeypatch):
+    results, report = await _run_detect(company("Acme", "acme"), 200, _sr_payload("Acme", 0))
+    assert results == []
+    assert "smartrecruiters/" not in report
+
+
+@respx.mock
+async def test_smartrecruiters_500_is_not_reported_as_error(monkeypatch):
+    monkeypatch.setattr("scripts.detect_ats.asyncio.sleep", _no_sleep)
+    results, report = await _run_detect(company("Acme", "acme"), 500, {})
+    assert results == []
+    assert "smartrecruiters/" not in report and "HTTP 500" not in report

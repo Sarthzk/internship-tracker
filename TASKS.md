@@ -16,7 +16,7 @@ Goal: a clean Python project and a verified list of ~50 companies with their ATS
 - [x] `.gitignore` for Python, `.env`, `.venv`, caches.
 - [x] `.env.example` listing every env var from CLAUDE.md with empty values.
 - [x] `tracker/models.py`: Pydantic models `Company`, `RawPosting`, `Listing`, `Enrichment`, `HealthRecord`, exactly as in the CLAUDE.md data model. Add unit tests for validation (bad enum values rejected, datetimes must be timezone-aware).
-- [x] `Company` model fields: `name`, `slug`, `tier` (1 = must-have, 2 = nice-to-have), `ats` (`greenhouse`, `lever`, `ashby`, `smartrecruiters`, `workday`, `custom`, `unknown`), `ats_config` (dict: e.g. `board_token`, `site`, `company_id`, or Workday `host` + `tenant` + `site`), `enabled` (bool), `notes` (optional).
+- [x] `Company` model fields: `name`, `slug`, `tier` (1 = must-have, 2 = nice-to-have), `ats` (`greenhouse`, `lever`, `ashby`, `smartrecruiters`, `workday`, `eightfold`, `oracle_hcm`, `phenom`, `custom`, `unknown`), `ats_config` (dict: e.g. `board_token`, `site`, `company_id`, Workday `host` + `tenant` + `site`, Eightfold `host` + `domain`, Oracle HCM `host` + `site`), `enabled` (bool), `notes` (optional).
 - [x] `data/companies.yaml` seeded with the candidate list below, all `ats: unknown`, `enabled: false`.
 - [x] `scripts/detect_ats.py`: for each company with `ats: unknown`, try likely slugs (lowercased name, without spaces/punctuation, common variants) against:
   - Greenhouse: `GET https://boards-api.greenhouse.io/v1/boards/{slug}/jobs`
@@ -43,6 +43,45 @@ Goal: a clean Python project and a verified list of ~50 companies with their ATS
 - `uv sync`, `uv run ruff check .`, and `uv run pytest` all pass.
 - `detect_ats.py` runs end-to-end and produces the report.
 - companies.yaml loads into `Company` models without errors.
+
+---
+
+## Phase 0.5 — Platform fingerprinting for unresolved companies
+
+Goal: find out which hiring system each unresolved company uses, locally and with no manual browsing. Read `docs/VERIFIED_ENDPOINTS.md` first (it holds findings from manual inspection on 21 Oct 2026 and the list of companies still unresolved in section E).
+
+### Tasks
+- [x] Copy `VERIFIED_ENDPOINTS.md` into `docs/` if it is not there already.
+- [x] Update `tracker/models.py`, `data/companies.yaml` loading, and the CLAUDE.md fetcher list so the `ats` enum includes `eightfold`, `oracle_hcm`, `phenom` (add tests).
+- [x] Update `data/companies.yaml` with everything already verified in `docs/VERIFIED_ENDPOINTS.md` (sections A to C): set `ats`, `ats_config`, `tier`, and `enabled: false` for any company whose fetcher is not built yet. Set `ats: custom` for Amazon, Atlassian and Goldman Sachs with the notes pointing at section C. Mark Google and Apple `tier: 2`, `enabled: false`, with the reason in `notes`.
+- [x] Fix the false positives from Phase 0: remove SmartRecruiters from the detection logic unless the response has at least one job AND the returned company name loosely matches the company. Re-run detection logic tests accordingly.
+- [x] `scripts/fingerprint_platforms.py`: for each company with `ats: unknown` (or listed in section E of VERIFIED_ENDPOINTS.md), fetch its careers URL(s) with httpx (follow redirects, polite User-Agent, 20s timeout, 1 request at a time with a short delay) and search the HTML, redirect chain, and linked URLs for these signatures:
+  - Workday: `myworkdayjobs.com` (extract `host`, `tenant`, `site` from the URL: `https://{tenant}.wd{N}.myworkdayjobs.com/{locale?}/{site}`)
+  - Eightfold: `eightfold.ai`, `/api/pcsx/`, `pcsx` (extract host)
+  - Oracle HCM: `oraclecloud.com/hcmUI/CandidateExperience` (extract host + `sites/{site}`)
+  - Phenom: `phenompeople.com`, `cdn.phenompeople`
+  - Greenhouse: `greenhouse.io/{slug}`, `job-boards.greenhouse.io/{slug}`, `boards.greenhouse.io/{slug}`; Lever: `jobs.lever.co/{slug}`; Ashby: `jobs.ashbyhq.com/{slug}`; SmartRecruiters: `jobs.smartrecruiters.com/{slug}`
+  - Others to record but not support yet: iCIMS, Taleo, SuccessFactors, Avature, Jobvite, Workable, Zoho Recruit, Darwinbox, Keka, Freshteam, Recruitee, Breezy
+  - If the static HTML shows nothing (JavaScript-rendered page), record `js-rendered` and do not guess.
+- [x] Add a "careers URL" field to `Company` (`careers_url`, optional) and fill it for every company in companies.yaml (use the starting points in the table below; fix redirects found by the script).
+- [x] For each hit on greenhouse / lever / ashby / eightfold / oracle_hcm / workday, **verify the guess with a live API call** (the same endpoints described in `docs/VERIFIED_ENDPOINTS.md` and Phase 0) and record job count + India count. Do not mark anything verified without a successful response containing at least one job.
+- [x] Write `data/platform_report.md`: table of company → platform → config → verified? → India job count → notes; then a summary count per platform (e.g. "Workday: 9, Eightfold: 3, ..."). Do NOT modify companies.yaml automatically for unverified guesses; the report only suggests.
+- [x] Tests for the signature extractors using small saved HTML fixtures (no network).
+
+### Starting careers URLs
+
+Salesforce `careers.salesforce.com`, Oracle `careers.oracle.com`, Intuit `jobs.intuit.com`, ServiceNow `careers.servicenow.com`, Qualcomm `careers.qualcomm.com`, Intel `jobs.intel.com`, AMD `careers.amd.com`, Texas Instruments `careers.ti.com`, Cisco `jobs.cisco.com`, Walmart Global Tech `careers.walmart.com`, Uber `uber.com/global/en/careers`, Visa `corporate.visa.com/en/jobs`, Mastercard `careers.mastercard.com`, PayPal `paypal.eightfold.ai/careers` (guess), American Express `aexp.eightfold.ai/careers` (guess), Morgan Stanley `morganstanley.com/careers/career-opportunities-search`, Flipkart `flipkartcareers.com`, PhonePe `phonepe.com/careers`, Zepto `zeptonow.com/careers`, Postman `postman.com/company/careers`, BrowserStack `browserstack.com/careers`, Zoho `zoho.com/careers`, Sprinklr `sprinklr.com/careers`, Juspay `juspay.io/careers`, ShareChat `sharechat.com/careers`, Dream11 `dreamsports.group/careers`, Media.net `media.net/careers`, Zomato `eternal.com/careers`, D. E. Shaw `deshaw.com/careers`, Arcesium `arcesium.com/careers`, AlphaGrep `alphagrep.com/careers`, Quadeye `quadeye.com/careers`, Nutanix `nutanix.com/company/careers`, Cohesity `cohesity.com/company/careers`, Rippling `rippling.com/careers`, Snowflake `careers.snowflake.com`.
+
+These are best guesses. If one 404s, record it in the report; do not invent alternatives.
+
+### 👤 Human tasks
+- [ ] 👤 Run `uv run python scripts/fingerprint_platforms.py` and share `data/platform_report.md`.
+- [ ] 👤 For anything marked `js-rendered` or `unknown`, we decide together whether to open the page in the browser or drop the company.
+
+### Acceptance criteria
+- `uv run ruff check .` and `uv run pytest` pass with no network access.
+- The report covers every company that was unresolved.
+- No company is marked verified without a live response containing jobs.
 
 ---
 
@@ -142,14 +181,17 @@ Goal: students get instant alerts; you get told when a fetcher breaks.
 
 ---
 
-## Phase 4 — Coverage (Workday, SmartRecruiters, custom) + LLM enrichment
+## Phase 4 — Coverage (Workday, SmartRecruiters, Eightfold, Oracle HCM, custom) + LLM enrichment
 
 Goal: cover all ~50 companies and fill in batch / duration / term.
 
 ### Tasks
 - [ ] `tracker/fetchers/smartrecruiters.py` with fixture tests.
 - [ ] `tracker/fetchers/workday.py`: POST to `https://{host}/wday/cxs/{tenant}/{site}/jobs` with JSON `{"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": "intern"}`, paginate using `total`, build the posting URL from `externalPath`, and fetch the detail endpoint only for postings that pass the India + internship filters (to get the description for enrichment). Fixture tests.
-- [ ] Custom fetchers in `tracker/fetchers/custom/`, one module per company documented in `docs/CUSTOM_PORTALS.md`, each with a fixture test. Register them by company slug.
+- [ ] `tracker/fetchers/eightfold.py`: generic Eightfold PCSX fetcher (`GET https://{host}/api/pcsx/search?domain={domain}&query=intern&location=India&start=N`, paginate with `start`). Details and response shape in `docs/VERIFIED_ENDPOINTS.md` section B1. Covers Microsoft and any other company Phase 0.5 verified on Eightfold. Fixture tests.
+- [ ] `tracker/fetchers/oracle_hcm.py`: generic Oracle HCM fetcher (section B2). Because the keyword filter does not narrow results, page through results and apply our own filters; use the structured fields (`StudyLevel`, `WorkDurationMonths`) to pre-fill enrichment where present. Covers JPMorgan and any other company Phase 0.5 verified on Oracle HCM. Fixture tests.
+- [ ] `tracker/fetchers/phenom.py`: **only if** Phase 0.5 found 3 or more companies on Phenom People. Otherwise skip (treat Adobe as tier 2).
+- [ ] Custom fetchers in `tracker/fetchers/custom/`, one module per company documented in `docs/CUSTOM_PORTALS.md`, each with a fixture test. Register them by company slug. Priority order: `amazon.py` (section C1), `atlassian.py` (C2), `goldman.py` (C3, fail loudly on GraphQL schema errors). Google and Apple are tier 2: do not build them unless the human asks.
 - [ ] Verify all fetchers work from GitHub Actions (some sites block cloud IPs). Record any that are blocked in `docs/CUSTOM_PORTALS.md` and disable them rather than hacking around blocks.
 - [ ] `tracker/enrich.py`:
   - for NEW listings only, call Groq with the title + description text and ask for JSON matching `Enrichment` (minus model / enriched_at)
@@ -164,7 +206,7 @@ Goal: cover all ~50 companies and fill in batch / duration / term.
 - [ ] 👤 Review enrichment on 15 real listings; tweak the prompt if it guesses.
 
 ### Acceptance criteria
-- At least 45 of the enabled companies fetch successfully from GitHub Actions.
+- At least 40 of the enabled companies fetch successfully from GitHub Actions (the launch list may be smaller than 50 if some portals can't be covered reliably).
 - Enrichment never invents values on the test fixtures.
 
 **🚀 Full public launch after this phase:** LinkedIn post, r/developersIndia, college groups.

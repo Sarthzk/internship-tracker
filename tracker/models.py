@@ -28,10 +28,31 @@ UtcDatetime = Annotated[AwareDatetime, AfterValidator(_to_utc)]
 BatchYear = Annotated[int, Field(ge=2000, le=2100)]
 
 Source = Literal[
-    "greenhouse", "lever", "ashby", "smartrecruiters", "workday", "custom", "community"
+    "greenhouse",
+    "lever",
+    "ashby",
+    "smartrecruiters",
+    "workday",
+    "eightfold",
+    "oracle_hcm",
+    "phenom",
+    "custom",
+    "community",
 ]
 
 SLUG_PATTERN = r"^[a-z0-9]+(-[a-z0-9]+)*$"
+
+# ats_config keys a company needs once its ATS is known. `custom` and `unknown` have no schema,
+# and `phenom` has no fetcher yet, so its config is free-form.
+REQUIRED_ATS_CONFIG: dict[str, tuple[str, ...]] = {
+    "greenhouse": ("board_token",),
+    "lever": ("site",),
+    "ashby": ("site",),
+    "smartrecruiters": ("company_id",),
+    "workday": ("host", "tenant", "site"),
+    "eightfold": ("host", "domain"),
+    "oracle_hcm": ("host", "site"),
+}
 
 
 class AtsType(StrEnum):
@@ -40,6 +61,9 @@ class AtsType(StrEnum):
     ashby = "ashby"
     smartrecruiters = "smartrecruiters"
     workday = "workday"
+    eightfold = "eightfold"
+    oracle_hcm = "oracle_hcm"
+    phenom = "phenom"
     custom = "custom"
     unknown = "unknown"
 
@@ -78,13 +102,17 @@ class Company(_Model):
     tier: Literal[1, 2]  # 1 = must-have, 2 = nice-to-have
     ats: AtsType
     ats_config: dict[str, Any] = Field(default_factory=dict)
+    careers_url: str | None = Field(default=None, pattern=r"^https?://\S+$")
     enabled: bool = False
     notes: str | None = None
 
     @model_validator(mode="after")
-    def _enabled_needs_known_ats(self) -> Company:
+    def _check_ats_and_config(self) -> Company:
         if self.enabled and self.ats == AtsType.unknown:
             raise ValueError(f"company {self.slug!r} is enabled but ats is 'unknown'")
+        missing = [k for k in REQUIRED_ATS_CONFIG.get(self.ats, ()) if not self.ats_config.get(k)]
+        if missing:
+            raise ValueError(f"company {self.slug!r} ({self.ats}) is missing ats_config: {missing}")
         return self
 
 

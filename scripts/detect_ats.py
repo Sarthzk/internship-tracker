@@ -92,6 +92,33 @@ def slug_guesses(name: str) -> list[str]:
     return list(seen)[:MAX_GUESSES]
 
 
+# --- company name matching ----------------------------------------------------------------
+
+_NAME_NOISE = {
+    "inc", "ltd", "llc", "llp", "pvt", "private", "limited", "corp", "corporation", "co",
+    "company", "the", "and", "group", "technologies", "technology", "india",
+}  # fmt: skip
+
+
+def _name_tokens(name: str) -> set[str]:
+    return {t for t in re.findall(r"[a-z0-9]+", name.lower()) if t not in _NAME_NOISE}
+
+
+def names_match(ours: str, theirs: str | None) -> bool:
+    """Loose company-name match: one side's tokens contain the other's, or same compact string.
+
+    "SWIGGY" ~ "Swiggy", "medianet" ~ "Media.net", but "AMD" !~ "AMDOCS".
+    """
+    if not theirs:
+        return False
+    a, b = _name_tokens(ours), _name_tokens(theirs)
+    if not a or not b:
+        return False
+    if a <= b or b <= a:
+        return True
+    return "".join(sorted(a)) == "".join(sorted(b))
+
+
 # --- per-ATS parsing ------------------------------------------------------------------------
 
 
@@ -164,6 +191,9 @@ class AtsSpec:
     url: Callable[[str], str]
     parse: Callable[[Any], Board | None]
     config_key: str
+    # SmartRecruiters answers 200/empty/500 for any slug, so only a board with jobs AND a
+    # company name that matches ours counts; everything else is dropped from the report.
+    needs_name_match: bool = False
 
 
 ATS_SPECS: list[AtsSpec] = [
@@ -190,6 +220,7 @@ ATS_SPECS: list[AtsSpec] = [
         lambda s: f"https://api.smartrecruiters.com/v1/companies/{s}/postings?limit=100",
         parse_smartrecruiters,
         "company_id",
+        needs_name_match=True,
     ),
 ]
 
@@ -263,6 +294,10 @@ async def _host_worker(
                     result.board = spec.parse(data)
             except ProbeError as exc:
                 result.error = str(exc)
+            if spec.needs_name_match and not (
+                result.is_match and names_match(company.name, result.board.api_company_name)
+            ):
+                result.board = result.error = None
             if result.is_match:
                 matched.add(company.slug)
                 log.info("%s: %s/%s (%d jobs)", company.name, spec.ats, slug, result.board.total)

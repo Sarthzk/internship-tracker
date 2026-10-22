@@ -218,6 +218,53 @@ def test_company_rejects_invalid(overrides):
 
 def test_company_enabled_with_known_ats():
     company = Company.model_validate(
-        company_data(ats="workday", enabled=True, ats_config={"host": "x", "tenant": "y"})
+        company_data(
+            ats="workday", enabled=True, ats_config={"host": "x", "tenant": "y", "site": "z"}
+        )
     )
     assert company.enabled
+
+
+# --- Phase 0.5: new ATS values, careers_url, ats_config completeness ---
+
+
+@pytest.mark.parametrize("ats", ["eightfold", "oracle_hcm", "phenom"])
+def test_company_accepts_new_ats_values(ats):
+    config = {"host": "h.example.com", "domain": "example.com", "site": "s"}
+    assert Company.model_validate(company_data(ats=ats, ats_config=config)).ats == ats
+
+
+@pytest.mark.parametrize("source", ["eightfold", "oracle_hcm", "phenom"])
+def test_listing_accepts_new_sources(source):
+    data = listing_data(source=source, id=f"{source}:stripe:123")
+    assert Listing.model_validate(data).source == source
+
+
+def test_company_careers_url_optional_and_validated():
+    assert Company.model_validate(company_data()).careers_url is None
+    ok = Company.model_validate(company_data(careers_url="https://deshaw.com/careers"))
+    assert ok.careers_url == "https://deshaw.com/careers"
+    for bad in ("deshaw.com/careers", "ftp://deshaw.com", "https://a b"):
+        with pytest.raises(ValidationError):
+            Company.model_validate(company_data(careers_url=bad))
+
+
+@pytest.mark.parametrize(
+    "ats,config",
+    [
+        ("greenhouse", {}),
+        ("lever", {"board_token": "x"}),
+        ("smartrecruiters", {"site": "x"}),
+        ("workday", {"host": "h", "tenant": "t"}),
+        ("eightfold", {"host": "h"}),
+        ("oracle_hcm", {"site": "CX_1"}),
+    ],
+)
+def test_company_rejects_incomplete_ats_config(ats, config):
+    with pytest.raises(ValidationError, match="missing ats_config"):
+        Company.model_validate(company_data(ats=ats, ats_config=config))
+
+
+@pytest.mark.parametrize("ats", ["unknown", "custom", "phenom"])
+def test_company_config_free_for_unknown_custom_phenom(ats):
+    assert Company.model_validate(company_data(ats=ats, ats_config={})).ats == ats
