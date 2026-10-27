@@ -1,6 +1,6 @@
-"""WhatsApp alerts via CallMeBot: new internships to the owner, plus health alerts.
+"""Telegram alerts: new internships to the owner, plus health alerts.
 
-CallMeBot takes the API key in the URL query string, so request URLs must never be logged.
+The Telegram Bot API takes the bot token in the URL path, so request URLs must never be logged.
 Everything here logs only exception class names and HTTP status codes, and `tracker.main`
 silences the httpx request logger.
 """
@@ -20,46 +20,55 @@ from tracker.models import HealthRecord, Listing
 
 log = logging.getLogger(__name__)
 
-CALLMEBOT_URL = "https://api.callmebot.com/whatsapp.php"
+TELEGRAM_API = "https://api.telegram.org"
 COMBINE_AT = 5  # this many new listings at once -> a few combined messages instead of many
-MAX_CHARS = 1500
+MAX_CHARS = 3500  # Telegram allows 4096 characters per message
 FAILURE_ALERT_AFTER = 3  # consecutive failures before the owner is told
-_ERROR_WORDS = ("error", "invalid", "incorrect", "not found", "forbidden")
 
 
 class Sender(Protocol):
     async def send(self, text: str) -> bool: ...
 
 
-class CallMeBot:
-    def __init__(self, client: httpx.AsyncClient, phone: str, apikey: str) -> None:
+class Telegram:
+    def __init__(self, client: httpx.AsyncClient, token: str, chat_id: str) -> None:
         self._client = client
-        self._phone = phone
-        self._apikey = apikey
+        self._token = token
+        self._chat_id = chat_id
 
     @classmethod
     def from_env(
         cls, client: httpx.AsyncClient, env: Mapping[str, str] | None = None
-    ) -> CallMeBot | None:
+    ) -> Telegram | None:
         env = os.environ if env is None else env
-        phone, apikey = env.get("CALLMEBOT_PHONE", ""), env.get("CALLMEBOT_APIKEY", "")
-        if not phone or not apikey:
-            log.warning("CALLMEBOT_PHONE / CALLMEBOT_APIKEY not set: WhatsApp alerts are skipped")
+        token, chat_id = env.get("TELEGRAM_BOT_TOKEN", ""), env.get("TELEGRAM_CHAT_ID", "")
+        if not token or not chat_id:
+            log.warning(
+                "TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set: Telegram alerts are skipped"
+            )
             return None
-        return cls(client, phone, apikey)
+        return cls(client, token, chat_id)
 
     async def send(self, text: str) -> bool:
-        params = {"phone": self._phone, "text": text, "apikey": self._apikey}
+        body = {
+            "chat_id": self._chat_id,
+            "text": text,
+            "link_preview_options": {"is_disabled": True},
+        }
         try:
-            response = await self._client.get(CALLMEBOT_URL, params=params)
+            response = await self._client.post(
+                f"{TELEGRAM_API}/bot{self._token}/sendMessage", json=body
+            )
         except httpx.HTTPError as exc:
-            log.warning("CallMeBot request failed: %s", type(exc).__name__)
+            log.warning("Telegram request failed: %s", type(exc).__name__)
             return False
-        body = response.text.lower()
-        if response.status_code != 200 or any(word in body for word in _ERROR_WORDS):
-            log.warning("CallMeBot rejected the message: HTTP %d", response.status_code)
-            return False
-        return True
+        try:
+            ok = response.status_code == 200 and response.json().get("ok") is True
+        except ValueError:
+            ok = False
+        if not ok:
+            log.warning("Telegram rejected the message: HTTP %d", response.status_code)
+        return ok
 
 
 @dataclass

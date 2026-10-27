@@ -7,7 +7,7 @@ This file is read by Claude Code at the start of every session. It contains the 
 `internship-tracker` automatically monitors the career portals of ~50 companies that Indian students want to intern at, detects **new tech internship postings located in India (or remote-India)**, and publishes them in three places:
 
 1. `data/listings.json`: the single source of truth (the "database").
-2. WhatsApp alerts to the owner's phone via CallMeBot (the main goal: know within ~15–45 minutes).
+2. Telegram alerts to the owner's phone via a Telegram bot (the main goal: know within ~15–45 minutes).
 3. `README.md`: auto-generated tables that students browse on GitHub.
 
 Everything runs on a GitHub Actions cron job (every 15 minutes; GitHub may start runs late). **There is no server, no database, and no hosting.** Keep it that way unless TASKS.md explicitly says otherwise.
@@ -17,7 +17,7 @@ Everything runs on a GitHub Actions cron job (every 15 minutes; GitHub may start
 - Python 3.12, managed with **uv** (`uv sync`, `uv run ...`)
 - `httpx` (async) for HTTP, `pydantic` v2 for schemas, `pyyaml` for config
 - `groq` SDK for LLM enrichment (model name from env var `GROQ_MODEL`)
-- WhatsApp alerts via the CallMeBot HTTP API, called directly with `httpx` (no extra library)
+- Telegram Bot API (`sendMessage`) called directly with `httpx` (no Telegram library)
 - Dev: `pytest`, `pytest-asyncio`, `respx` (mocking httpx), `ruff` (lint + format)
 
 Do not add new dependencies unless a task requires it. If you think one is needed, say why in your summary.
@@ -29,7 +29,7 @@ uv sync                                   # install
 uv run ruff check . && uv run ruff format --check .
 uv run pytest                             # all tests, must never hit the network
 uv run python -m tracker run              # one full pipeline run
-uv run python -m tracker run --dry-run    # no WhatsApp, no LLM, no file writes; prints a summary
+uv run python -m tracker run --dry-run    # no Telegram, no LLM, no file writes; prints a summary
 uv run python -m tracker readme           # regenerate README from listings.json only
 ```
 
@@ -40,7 +40,7 @@ companies.yaml → fetchers (per ATS type) → normalize to RawPosting
   → filters (India location + internship + tech category)
   → diff against listings.json (new / still open / missing)
   → enrich NEW listings via Groq (optional, capped per run; later phase)
-  → notify WhatsApp for listings where notified == false
+  → notify Telegram for listings where notified == false
   → save listings.json + health.json
   → regenerate README.md + README-archive.md (later phase)
 ```
@@ -58,7 +58,7 @@ tracker/filters.py         India location matching, internship detection, catego
 tracker/diff.py            merge fetched postings into existing listings
 tracker/enrich.py          Groq extraction of batch / duration / term / stipend
 tracker/readme.py          README + archive generation
-tracker/notify.py          WhatsApp alerts (CallMeBot): new listings + admin/health alerts
+tracker/notify.py          Telegram alerts: new listings + admin/health alerts
 tracker/health.py          fetcher health tracking and alert decisions
 tracker/main.py            orchestration + CLI (python -m tracker)
 scripts/                   one-off helper scripts (e.g. ATS detection)
@@ -86,7 +86,7 @@ tests/fixtures/            recorded JSON responses from each ATS
 | status | enum | `open`, `closed` |
 | missed_runs | int | Consecutive successful runs where it was absent |
 | closed_at | datetime or null | |
-| notified | bool | Set true only after the WhatsApp send succeeds |
+| notified | bool | Set true only after the Telegram send succeeds |
 | enrichment | Enrichment or null | See below |
 
 `Enrichment` fields: `eligible_batches` (list of graduation years, e.g. `[2027, 2028]`, or null), `term` (`summer`, `winter`, `six_month`, `other`, `unknown`), `duration_months` (int or null), `stipend` (str or null, only if explicitly stated), `degree` (str or null), `model`, `enriched_at`.
@@ -101,9 +101,9 @@ tests/fixtures/            recorded JSON responses from each ATS
 2. **Never store full job descriptions.** Descriptions may be fetched and passed to the LLM in memory, but only the extracted `Enrichment` fields are saved. We publish title, company, location, and a link to the official page, nothing more.
 3. **Enrichment must not guess.** If the text does not state a batch, duration, or stipend, the field is null / `unknown`. The prompt and validation must enforce this.
 4. **Be polite to career sites.** Identify with a User-Agent: `internship-tracker/<version> (+https://github.com/<owner>/internship-tracker)`. At most 1 concurrent request per host, a small delay between requests to the same host, 20s timeouts, retry with exponential backoff (max 3 attempts) only on network errors, 429, and 5xx. Where an API supports it, ask the server for India + "intern" results only instead of paging through every job.
-5. **Tests never touch the network.** Use `respx` with fixtures in `tests/fixtures/`. Use fake Groq/WhatsApp clients in tests.
-6. **Notifications are idempotent.** A listing is sent to WhatsApp once. Set `notified = true` only after CallMeBot returns success; failed sends retry on the next run. The first time a company is fetched, its existing listings are marked notified and summarised in one message instead of one message each.
-7. **Secrets come only from environment variables:** `CALLMEBOT_PHONE`, `CALLMEBOT_APIKEY`, `GROQ_API_KEY`, `GROQ_MODEL`. Never log or commit them. CallMeBot takes the key in the URL query string, so never log CallMeBot request URLs (log errors without the URL). If one is missing, that step is skipped with a warning, not a crash.
+5. **Tests never touch the network.** Use `respx` with fixtures in `tests/fixtures/`. Use fake Groq/Telegram clients in tests.
+6. **Notifications are idempotent.** A listing is sent to Telegram once. Set `notified = true` only after Telegram returns `ok: true`; failed sends retry on the next run. The first time a company is fetched, its existing listings are marked notified and summarised in one message instead of one message each.
+7. **Secrets come only from environment variables:** `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `GROQ_API_KEY`, `GROQ_MODEL`. Never log or commit them. The Telegram Bot API takes the token in the URL path, so never log Telegram request URLs (log errors without the URL). If one is missing, that step is skipped with a warning, not a crash.
 8. **One company failing must never crash the run.** Catch, record in health, continue.
 9. **The README has a generated section** between `<!-- LISTINGS:START -->` and `<!-- LISTINGS:END -->`. Only `tracker/readme.py` writes inside it. Text outside the markers is hand-written and must be preserved.
 

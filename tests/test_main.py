@@ -142,7 +142,7 @@ def test_cli_dry_run_prints_summary(tmp_path, capsys):
     assert not (tmp_path / "listings.json").exists()
 
 
-# --- WhatsApp wiring ---
+# --- Telegram wiring ---
 
 
 class FakeSender:

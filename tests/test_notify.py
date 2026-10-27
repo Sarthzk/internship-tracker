@@ -1,3 +1,4 @@
+import json
 import logging
 from datetime import UTC, datetime
 
@@ -7,10 +8,10 @@ import respx
 from tracker.http import make_client
 from tracker.models import HealthRecord, Listing
 from tracker.notify import (
-    CALLMEBOT_URL,
     COMBINE_AT,
+    TELEGRAM_API,
     Alert,
-    CallMeBot,
+    Telegram,
     deliver,
     deliver_health_alerts,
     format_listing,
@@ -20,7 +21,9 @@ from tracker.notify import (
 )
 
 NOW = datetime(2026, 10, 20, 12, 0, tzinfo=UTC)
-KEY = "s3cr3t-key-123"
+TOKEN = "123456:s3cr3t-token"
+CHAT = "987654321"
+SEND_URL = f"{TELEGRAM_API}/bot{TOKEN}/sendMessage"
 
 
 class FakeSender:
@@ -76,10 +79,10 @@ def test_many_listings_are_combined():
 
 
 def test_combined_messages_are_split_to_fit():
-    many = [listing(i, title="T" * 140) for i in range(1, 31)]
+    many = [listing(i, title="T" * 140) for i in range(1, 61)]
     alerts = plan_alerts(many)
     assert len(alerts) > 1
-    assert all(len(a.text) < 2000 for a in alerts)
+    assert all(len(a.text) < 4096 for a in alerts)
     assert sorted(i for a in alerts for i in a.ids) == sorted(li.id for li in many)
     assert f"(1/{len(alerts)})" in alerts[0].text
 
@@ -153,54 +156,63 @@ async def test_flag_only_set_when_alert_was_delivered():
     assert health["acme"].failure_alerted is True
 
 
-# --- CallMeBot client ---
+# --- Telegram client ---
+
+OK = {"ok": True, "result": {"message_id": 1}}
 
 
-async def test_callmebot_sends_phone_text_and_key():
+async def test_telegram_posts_chat_id_and_text():
     with respx.mock:
-        route = respx.get(CALLMEBOT_URL).respond(200, text="<b>Message queued.</b>")
+        route = respx.post(SEND_URL).respond(200, json=OK)
         async with make_client(delay=0, backoff=0) as client:
-            ok = await CallMeBot(client, "+919876543210", KEY).send("hello & welcome")
+            ok = await Telegram(client, TOKEN, CHAT).send("hello & welcome")
     assert ok is True
-    params = route.calls.last.request.url.params
-    assert params["phone"] == "+919876543210" and params["text"] == "hello & welcome"
-    assert params["apikey"] == KEY
+    body = json.loads(route.calls.last.request.content)
+    assert body["chat_id"] == CHAT and body["text"] == "hello & welcome"
 
 
-async def test_callmebot_error_body_counts_as_failure():
+async def test_telegram_not_ok_body_counts_as_failure():
     with respx.mock:
-        respx.get(CALLMEBOT_URL).respond(200, text="ERROR: APIKey is invalid")
+        respx.post(SEND_URL).respond(200, json={"ok": False})
         async with make_client(delay=0, backoff=0) as client:
-            assert await CallMeBot(client, "+91", KEY).send("x") is False
-
-
-async def test_callmebot_http_error_and_network_error_are_failures():
+            assert await Telegram(client, TOKEN, CHAT).send("x") is False
     with respx.mock:
-        respx.get(CALLMEBOT_URL).respond(503)
+        respx.post(SEND_URL).respond(200, text="not json")
         async with make_client(delay=0, backoff=0) as client:
-            assert await CallMeBot(client, "+91", KEY).send("x") is False
+            assert await Telegram(client, TOKEN, CHAT).send("x") is False
+
+
+async def test_telegram_http_error_and_network_error_are_failures():
     with respx.mock:
-        respx.get(CALLMEBOT_URL).mock(side_effect=httpx.ConnectError("boom"))
+        respx.post(SEND_URL).respond(401, json={"ok": False, "description": "Unauthorized"})
         async with make_client(delay=0, backoff=0) as client:
-            assert await CallMeBot(client, "+91", KEY).send("x") is False
+            assert await Telegram(client, TOKEN, CHAT).send("x") is False
+    with respx.mock:
+        respx.post(SEND_URL).respond(503)
+        async with make_client(delay=0, backoff=0) as client:
+            assert await Telegram(client, TOKEN, CHAT).send("x") is False
+    with respx.mock:
+        respx.post(SEND_URL).mock(side_effect=httpx.ConnectError("boom"))
+        async with make_client(delay=0, backoff=0) as client:
+            assert await Telegram(client, TOKEN, CHAT).send("x") is False
 
 
-async def test_api_key_never_appears_in_logs(caplog):
+async def test_bot_token_never_appears_in_logs(caplog):
     caplog.set_level(logging.DEBUG)
     with respx.mock:
-        respx.get(CALLMEBOT_URL).respond(503)
+        respx.post(SEND_URL).respond(503)
         async with make_client(delay=0, backoff=0) as client:
-            await CallMeBot(client, "+919876543210", KEY).send("x")
+            await Telegram(client, TOKEN, CHAT).send("x")
     with respx.mock:
-        respx.get(CALLMEBOT_URL).mock(side_effect=httpx.ConnectError("boom"))
+        respx.post(SEND_URL).mock(side_effect=httpx.ConnectError("boom"))
         async with make_client(delay=0, backoff=0) as client:
-            await CallMeBot(client, "+919876543210", KEY).send("x")
-    assert KEY not in caplog.text and "919876543210" not in caplog.text
+            await Telegram(client, TOKEN, CHAT).send("x")
+    assert TOKEN not in caplog.text and "s3cr3t" not in caplog.text
 
 
 async def test_from_env_skips_with_warning_when_secrets_missing(caplog):
     async with make_client() as client:
-        assert CallMeBot.from_env(client, {}) is None
-        assert CallMeBot.from_env(client, {"CALLMEBOT_PHONE": "+91"}) is None
-        assert CallMeBot.from_env(client, {"CALLMEBOT_PHONE": "+91", "CALLMEBOT_APIKEY": "k"})
-    assert "WhatsApp alerts are skipped" in caplog.text
+        assert Telegram.from_env(client, {}) is None
+        assert Telegram.from_env(client, {"TELEGRAM_BOT_TOKEN": "t"}) is None
+        assert Telegram.from_env(client, {"TELEGRAM_BOT_TOKEN": "t", "TELEGRAM_CHAT_ID": "1"})
+    assert "Telegram alerts are skipped" in caplog.text

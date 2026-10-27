@@ -23,11 +23,11 @@ jobs:
 
       - run: uv sync --frozen
 
-      # Missing secrets are fine: the run still updates data/, it just skips WhatsApp.
+      # Missing secrets are fine: the run still updates data/, it just skips Telegram.
       - name: Run tracker
         env:
-          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
-          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: uv run python -m tracker run
 
       - name: Commit changes

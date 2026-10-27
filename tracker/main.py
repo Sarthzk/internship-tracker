@@ -19,8 +19,8 @@ from tracker.health import record_fetch
 from tracker.http import make_client
 from tracker.models import Company, HealthRecord, Listing, RawPosting, Status, load_companies
 from tracker.notify import (
-    CallMeBot,
     Sender,
+    Telegram,
     deliver,
     deliver_health_alerts,
     format_crash,
@@ -48,7 +48,7 @@ class RunSummary:
     failed: dict[str, str] = field(default_factory=dict)
     merge: MergeResult = field(default_factory=lambda: MergeResult(listings=[]))
     wrote: bool = False
-    alerts_sent: int = 0  # listings delivered to WhatsApp this run
+    alerts_sent: int = 0  # listings delivered to Telegram this run
     alerts_pending: int = 0  # listings still waiting (no sender, or a send failed)
 
     @property
@@ -149,7 +149,7 @@ async def _notify(
     sender: Sender | None,
     pause: float,
 ) -> None:
-    """Send WhatsApp alerts and record `notified` / `failure_alerted` before the data is saved."""
+    """Send Telegram alerts and record `notified` / `failure_alerted` before the data is saved."""
     listings = summary.merge.listings
     names = {c.slug: c.name for c in enabled}
 
@@ -187,7 +187,7 @@ def print_summary(summary: RunSummary, dry_run: bool) -> None:
         f"reopened: {len(summary.merge.reopened_ids)}, total open: {summary.open_count}"
     )
     if not dry_run:
-        print(f"WhatsApp: {summary.alerts_sent} sent, {summary.alerts_pending} waiting")
+        print(f"Telegram: {summary.alerts_sent} sent, {summary.alerts_pending} waiting")
     by_id = {li.id: li for li in summary.merge.listings}
     for listing_id in summary.merge.new_ids:
         li = by_id[listing_id]
@@ -197,7 +197,7 @@ def print_summary(summary: RunSummary, dry_run: bool) -> None:
 async def _run_cli(dry_run: bool, data_dir: Path) -> int:
     companies = load_companies(data_dir / "companies.yaml")
     async with make_client() as client:
-        sender = None if dry_run else CallMeBot.from_env(client)
+        sender = None if dry_run else Telegram.from_env(client)
         try:
             summary = await run(companies, client, data_dir, dry_run=dry_run, sender=sender)
         except Exception as exc:
@@ -251,7 +251,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         level=logging.INFO if args.verbose else logging.WARNING,
         format="%(levelname)s %(name)s: %(message)s",
     )
-    # httpx logs every request URL at INFO, and CallMeBot URLs contain the API key.
+    # httpx logs every request URL at INFO, and Telegram URLs contain the bot token.
     for noisy in ("httpx", "httpcore"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
     if args.command == "check":

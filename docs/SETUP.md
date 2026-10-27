@@ -1,50 +1,51 @@
-# Setup: WhatsApp alerts and GitHub Actions
+# Setup: Telegram alerts and GitHub Actions
 
 You do this once. It takes about 10 minutes.
 
-## 1. Get your CallMeBot API key
+## 1. Create your Telegram bot
 
-CallMeBot is a free service that sends WhatsApp messages **to your own number only**. It is
-unofficial, so it can be slow or stop working; that is why the tracker also tells you when a send
-fails (it retries on the next run).
+1. In Telegram, open a chat with **@BotFather** (check it has the blue verified tick).
+2. Send `/newbot`, then choose a name and a username ending in `bot`.
+3. BotFather replies with the **bot token** (looks like `123456789:AA...`). Keep it private.
+4. Open your new bot's chat and press **Start** (send it any message). A bot cannot message you
+   until you have done this.
 
-Follow the official steps on <https://www.callmebot.com/blog/free-api-whatsapp-messages/>. The
-contact number and the exact sentence to send can change, so use what that page says. In short:
+## 2. Find your chat id
 
-1. Save CallMeBot's WhatsApp number in your phone contacts.
-2. From WhatsApp, send it the activation message shown on that page.
-3. It replies with your **API key** (a short number). Keep it private.
+After sending your bot a message, open this in a browser (replace `<TOKEN>`; do not share the page):
 
-Your phone number must include the country code, for example `+919876543210`.
+`https://api.telegram.org/bot<TOKEN>/getUpdates`
 
-## 2. Test it from your laptop (optional)
+Look for `"chat":{"id":123456789,...}`. That number is your **chat id**.
+
+## 3. Test it from your laptop (optional)
 
 ```bash
-export CALLMEBOT_PHONE="+919876543210"
-export CALLMEBOT_APIKEY="your-key"
+export TELEGRAM_BOT_TOKEN="your-token"
+export TELEGRAM_CHAT_ID="your-chat-id"
 uv run python -m tracker run
 ```
 
 If this is the first run for a company you get one "Now tracking ..." message. Otherwise you get
-one message per new internship. Never paste the key into a file in this repo.
+one message per new internship. Never paste the token into a file in this repo.
 
-## 3. Add the GitHub secrets
+## 4. Add the GitHub secrets
 
 Repository → Settings → Secrets and variables → Actions → New repository secret:
 
 | Name | Value |
 |---|---|
-| `CALLMEBOT_PHONE` | your number with country code, e.g. `+919876543210` |
-| `CALLMEBOT_APIKEY` | the key CallMeBot sent you |
+| `TELEGRAM_BOT_TOKEN` | the token BotFather sent you |
+| `TELEGRAM_CHAT_ID` | your chat id |
 
-Without these the workflow still updates `data/`; it just skips WhatsApp (with a warning in the log).
+Without these the workflow still updates `data/`; it just skips Telegram (with a warning in the log).
 
-## 4. Run the workflow once by hand
+## 5. Run the workflow once by hand
 
 Actions tab → **scrape** → Run workflow. When it finishes:
 
-- the log ends with `WhatsApp: N sent, M waiting`,
-- you receive the messages on WhatsApp,
+- the log ends with `Telegram: N sent, M waiting`,
+- you receive the messages on Telegram,
 - a `chore(data): update listings` commit appears if anything changed,
 - running it again right away sends nothing and commits nothing.
 
@@ -54,7 +55,7 @@ late, so expect alerts within roughly 15 to 45 minutes of a posting appearing.
 GitHub pauses scheduled workflows in a repository with no activity for 60 days. If alerts stop,
 check the Actions tab and re-enable the workflow.
 
-## 5. Checking a new company from GitHub's servers
+## 6. Checking a new company from GitHub's servers
 
 Some career sites block cloud IPs. Before enabling a company, run Actions → **cloud-check** with
 its slug (for example `nvidia,intel`). It prints posting counts and saves nothing. If it fails

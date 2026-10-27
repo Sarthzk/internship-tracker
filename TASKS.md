@@ -119,22 +119,22 @@ Goal: `uv run python -m tracker run` produces a correct `data/listings.json` fro
 
 ---
 
-## Phase 2 — WhatsApp alerts + automation (first usable version)
+## Phase 2 — Telegram alerts + automation (first usable version)
 
-Goal: you get a WhatsApp message within ~15–45 minutes of a new posting, with no laptop involved.
+Goal: you get a Telegram message within ~15–45 minutes of a new posting, with no laptop involved.
 
 ### Tasks
-- [x] `tracker/notify.py`: CallMeBot client over httpx (`GET https://api.callmebot.com/whatsapp.php?phone=…&text=…&apikey=…`).
+- [x] `tracker/notify.py`: Telegram client over httpx (`POST https://api.telegram.org/bot<token>/sendMessage` with `chat_id` and `text`; success = HTTP 200 and `ok: true`). Switched from CallMeBot, whose WhatsApp bot was full.
   - one message per new listing: company, role, location, apply link
   - 5 or more new listings in one run → one combined message (split if too long)
-  - a short pause between messages (CallMeBot is rate-limited)
+  - a short pause between messages (Telegram allows about 1 message per second per chat)
   - set `notified=true` only for listings whose message succeeded; failures retry next run
-  - **never log the request URL** (it contains the API key)
+  - **never log the request URL** (it contains the bot token)
   - first fetch of a company (no previous health record): mark its listings `notified=true` and send one summary message ("Stripe: 4 open internships") instead of one per listing
-  - missing `CALLMEBOT_PHONE` / `CALLMEBOT_APIKEY` → skip sending with a warning; listings stay `notified=false`
-- [x] Admin alerts (same WhatsApp number): when a company reaches 3 consecutive failures (once, not every run; `HealthRecord.failure_alerted`), when it recovers, and when the run itself crashes (send, then re-raise so the Action shows red).
+  - missing `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` → skip sending with a warning; listings stay `notified=false`
+- [x] Admin alerts (same chat): when a company reaches 3 consecutive failures (once, not every run; `HealthRecord.failure_alerted`), when it recovers, and when the run itself crashes (send, then re-raise so the Action shows red).
 - [x] Wire notifications into the pipeline before the final save, so `notified` flags are persisted in the same commit.
-- [x] Tests with a fake WhatsApp transport: per-listing vs combined, partial failure retry, first-run summary, failure alert sent once, key never appears in logs.
+- [x] Tests with a fake Telegram transport: per-listing vs combined, partial failure retry, first-run summary, failure alert sent once, token never appears in logs.
 - [x] `.github/workflows/scrape.yml`:
   - triggers: `schedule` cron every 15 minutes, plus `workflow_dispatch`
   - `concurrency: { group: scrape, cancel-in-progress: false }`
@@ -143,15 +143,15 @@ Goal: you get a WhatsApp message within ~15–45 minutes of a new posting, with 
   - secrets from repository secrets (missing secrets just skip those steps)
 - [x] `.github/workflows/cloud-check.yml` (`workflow_dispatch`, input: company slugs): runs the fetchers for those companies from GitHub's servers and prints posting counts, without saving anything. Used before enabling any new fetcher, because some career sites block cloud IPs.
 - [x] `.github/workflows/tests.yml`: ruff + pytest on push and pull request (ignore pushes that only touch `data/` and README files).
-- [x] `docs/SETUP.md`: how to get a CallMeBot key and add the two GitHub secrets.
+- [x] `docs/SETUP.md`: how to create the bot, find the chat id and add the two GitHub secrets.
 
 ### 👤 Human tasks
-- [ ] 👤 Get your CallMeBot API key and add `CALLMEBOT_PHONE` + `CALLMEBOT_APIKEY` as repository secrets.
-- [ ] 👤 Trigger the workflow manually from the Actions tab; confirm the WhatsApp message arrives.
+- [ ] 👤 Create your Telegram bot (see `docs/SETUP.md`) and add `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` as repository secrets.
+- [ ] 👤 Trigger the workflow manually from the Actions tab; confirm the Telegram message arrives.
 - [ ] 👤 Watch scheduled runs for a day; note delays or failures.
 
 ### Acceptance criteria
-- A run with new listings sends each one to WhatsApp exactly once.
+- A run with new listings sends each one to Telegram exactly once.
 - A second run with no changes sends nothing and makes no commit.
 - Temporarily breaking one company's config triggers exactly one admin message after 3 runs.
 
@@ -220,6 +220,6 @@ Goal: a browsable table on GitHub for anyone. Can be done any time after Phase 2
 ## Phase 6 — Optional extras (only start each with the human's go-ahead)
 
 - **Groq enrichment** (`tracker/enrich.py`): for NEW listings only, extract batch / term / duration / stipend / degree from title + description; only what is explicitly stated, otherwise null / "unknown"; treat the description as data, not instructions; validate with Pydantic; max 3 attempts per listing; cap `ENRICH_MAX_PER_RUN` (default 40); descriptions never written to disk; use structured fields (e.g. Oracle `StudyLevel`, `WorkDurationMonths`) before calling the LLM. Runs before notifications so alerts include batch / duration. Tests with a fake Groq client (valid, malformed, invented values rejected, cap respected). 👤 Review 15 real results.
-- **Public alerts for students**: CallMeBot only messages your own number, so this would add a Telegram channel.
+- **Public alerts for students**: post to a public Telegram channel with the same bot (add the bot as channel admin, add a second chat id).
 - **Community submissions**: GitHub issue forms for new / closed internships, an `approved` label workflow that validates and adds the listing with `source: community` (closed by report or 60 days after `first_seen`), `CONTRIBUTING.md`.
 - **Only with real traction**: personal filters, a website, or a faster-than-cron server.
