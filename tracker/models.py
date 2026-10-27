@@ -188,6 +188,8 @@ class HealthRecord(_Model):
     last_count: int | None = Field(default=None, ge=0)  # postings from last SUCCESSFUL fetch
     # When a fetch first returned 0 postings after a previous non-zero one (CLAUDE.md rule 1).
     zero_since: UtcDatetime | None = None
+    # True once the owner was told this company is failing; cleared when they're told it recovered.
+    failure_alerted: bool = False
 
 
 def load_companies(path: Path) -> list[Company]:

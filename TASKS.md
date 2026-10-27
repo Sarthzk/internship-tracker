@@ -124,7 +124,7 @@ Goal: `uv run python -m tracker run` produces a correct `data/listings.json` fro
 Goal: you get a WhatsApp message within ~15–45 minutes of a new posting, with no laptop involved.
 
 ### Tasks
-- [ ] `tracker/notify.py`: CallMeBot client over httpx (`GET https://api.callmebot.com/whatsapp.php?phone=…&text=…&apikey=…`).
+- [x] `tracker/notify.py`: CallMeBot client over httpx (`GET https://api.callmebot.com/whatsapp.php?phone=…&text=…&apikey=…`).
   - one message per new listing: company, role, location, apply link
   - 5 or more new listings in one run → one combined message (split if too long)
   - a short pause between messages (CallMeBot is rate-limited)
@@ -132,18 +132,18 @@ Goal: you get a WhatsApp message within ~15–45 minutes of a new posting, with 
   - **never log the request URL** (it contains the API key)
   - first fetch of a company (no previous health record): mark its listings `notified=true` and send one summary message ("Stripe: 4 open internships") instead of one per listing
   - missing `CALLMEBOT_PHONE` / `CALLMEBOT_APIKEY` → skip sending with a warning; listings stay `notified=false`
-- [ ] Admin alerts (same WhatsApp number): when a company reaches 3 consecutive failures (once, not every run; add a flag to `HealthRecord`), when it recovers, and when the run itself crashes (send, then re-raise so the Action shows red).
-- [ ] Wire notifications into the pipeline before the final save, so `notified` flags are persisted in the same commit.
-- [ ] Tests with a fake WhatsApp transport: per-listing vs combined, partial failure retry, first-run summary, failure alert sent once, key never appears in logs.
-- [ ] `.github/workflows/scrape.yml`:
+- [x] Admin alerts (same WhatsApp number): when a company reaches 3 consecutive failures (once, not every run; `HealthRecord.failure_alerted`), when it recovers, and when the run itself crashes (send, then re-raise so the Action shows red).
+- [x] Wire notifications into the pipeline before the final save, so `notified` flags are persisted in the same commit.
+- [x] Tests with a fake WhatsApp transport: per-listing vs combined, partial failure retry, first-run summary, failure alert sent once, key never appears in logs.
+- [x] `.github/workflows/scrape.yml`:
   - triggers: `schedule` cron every 15 minutes, plus `workflow_dispatch`
   - `concurrency: { group: scrape, cancel-in-progress: false }`
   - `permissions: contents: write`
   - steps: checkout, install uv, `uv sync`, run pipeline, commit and push only if `data/` changed, with message `chore(data): update listings`; on push conflict, pull with rebase and retry once
   - secrets from repository secrets (missing secrets just skip those steps)
-- [ ] `.github/workflows/cloud-check.yml` (`workflow_dispatch`, input: company slugs): runs the fetchers for those companies from GitHub's servers and prints posting counts, without saving anything. Used before enabling any new fetcher, because some career sites block cloud IPs.
-- [ ] `.github/workflows/tests.yml`: ruff + pytest on push and pull request (ignore pushes that only touch `data/` and README files).
-- [ ] `docs/SETUP.md`: how to get a CallMeBot key and add the two GitHub secrets.
+- [x] `.github/workflows/cloud-check.yml` (`workflow_dispatch`, input: company slugs): runs the fetchers for those companies from GitHub's servers and prints posting counts, without saving anything. Used before enabling any new fetcher, because some career sites block cloud IPs.
+- [x] `.github/workflows/tests.yml`: ruff + pytest on push and pull request (ignore pushes that only touch `data/` and README files).
+- [x] `docs/SETUP.md`: how to get a CallMeBot key and add the two GitHub secrets.
 
 ### 👤 Human tasks
 - [ ] 👤 Get your CallMeBot API key and add `CALLMEBOT_PHONE` + `CALLMEBOT_APIKEY` as repository secrets.

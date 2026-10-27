@@ -1,1 +1,173 @@
-"""Telegram channel posts + admin DMs."""
+"""WhatsApp alerts via CallMeBot: new internships to the owner, plus health alerts.
+
+CallMeBot takes the API key in the URL query string, so request URLs must never be logged.
+Everything here logs only exception class names and HTTP status codes, and `tracker.main`
+silences the httpx request logger.
+"""
+
+from __future__ import annotations
+
+import asyncio
+import logging
+import os
+from collections.abc import Iterable, Mapping
+from dataclasses import dataclass, field
+from typing import Protocol
+
+import httpx
+
+from tracker.models import HealthRecord, Listing
+
+log = logging.getLogger(__name__)
+
+CALLMEBOT_URL = "https://api.callmebot.com/whatsapp.php"
+COMBINE_AT = 5  # this many new listings at once -> a few combined messages instead of many
+MAX_CHARS = 1500
+FAILURE_ALERT_AFTER = 3  # consecutive failures before the owner is told
+_ERROR_WORDS = ("error", "invalid", "incorrect", "not found", "forbidden")
+
+
+class Sender(Protocol):
+    async def send(self, text: str) -> bool: ...
+
+
+class CallMeBot:
+    def __init__(self, client: httpx.AsyncClient, phone: str, apikey: str) -> None:
+        self._client = client
+        self._phone = phone
+        self._apikey = apikey
+
+    @classmethod
+    def from_env(
+        cls, client: httpx.AsyncClient, env: Mapping[str, str] | None = None
+    ) -> CallMeBot | None:
+        env = os.environ if env is None else env
+        phone, apikey = env.get("CALLMEBOT_PHONE", ""), env.get("CALLMEBOT_APIKEY", "")
+        if not phone or not apikey:
+            log.warning("CALLMEBOT_PHONE / CALLMEBOT_APIKEY not set: WhatsApp alerts are skipped")
+            return None
+        return cls(client, phone, apikey)
+
+    async def send(self, text: str) -> bool:
+        params = {"phone": self._phone, "text": text, "apikey": self._apikey}
+        try:
+            response = await self._client.get(CALLMEBOT_URL, params=params)
+        except httpx.HTTPError as exc:
+            log.warning("CallMeBot request failed: %s", type(exc).__name__)
+            return False
+        body = response.text.lower()
+        if response.status_code != 200 or any(word in body for word in _ERROR_WORDS):
+            log.warning("CallMeBot rejected the message: HTTP %d", response.status_code)
+            return False
+        return True
+
+
+@dataclass
+class Alert:
+    text: str
+    ids: list[str] = field(default_factory=list)  # listing ids this message covers
+
+
+def _where(listing: Listing) -> str:
+    return "; ".join(listing.locations) or "location not stated"
+
+
+def format_listing(listing: Listing) -> str:
+    return f"🆕 {listing.company}: {listing.title[:150]}\n📍 {_where(listing)}\n🔗 {listing.url}"
+
+
+def plan_alerts(listings: Iterable[Listing]) -> list[Alert]:
+    """One message per listing, or a few combined messages once there are COMBINE_AT or more."""
+    pending = sorted(listings, key=lambda li: (li.company, li.title, li.id))
+    if len(pending) < COMBINE_AT:
+        return [Alert(format_listing(li), [li.id]) for li in pending]
+
+    chunks: list[list[Listing]] = [[]]
+    size = 0
+    for li in pending:
+        entry = f"• {li.company}: {li.title[:150]} ({_where(li)})\n  {li.url}"
+        if chunks[-1] and size + len(entry) > MAX_CHARS:
+            chunks.append([])
+            size = 0
+        chunks[-1].append(li)
+        size += len(entry) + 1
+    alerts = []
+    for n, chunk in enumerate(chunks, start=1):
+        header = f"🆕 {len(pending)} new internships" + (
+            f" ({n}/{len(chunks)})" if len(chunks) > 1 else ""
+        )
+        lines = [f"• {li.company}: {li.title[:150]} ({_where(li)})\n  {li.url}" for li in chunk]
+        alerts.append(Alert(header + "\n\n" + "\n".join(lines), [li.id for li in chunk]))
+    return alerts
+
+
+def format_tracking_started(open_counts: Mapping[str, int]) -> str:
+    """One summary for companies fetched successfully for the first time (no per-job flood)."""
+    total = sum(open_counts.values())
+    parts = ", ".join(f"{name} ({n})" for name, n in sorted(open_counts.items()))
+    return (
+        f"📋 Now tracking {len(open_counts)} companies. "
+        f"{total} India tech internships already open: {parts}. "
+        "You'll only be alerted about new ones from now on."
+    )
+
+
+async def deliver(sender: Sender, alerts: list[Alert], pause: float = 2.0) -> set[str]:
+    """Send alerts in order; returns the listing ids delivered.
+
+    Stops at the first failure so a down or rate-limited service isn't hammered; the remaining
+    listings stay un-notified and are retried on the next run.
+    """
+    delivered: set[str] = set()
+    for n, alert in enumerate(alerts):
+        if n and pause:
+            await asyncio.sleep(pause)
+        if not await sender.send(alert.text):
+            break
+        delivered.update(alert.ids)
+    return delivered
+
+
+@dataclass
+class HealthAlert:
+    slug: str
+    text: str
+    alerted: bool  # value of HealthRecord.failure_alerted once this message is delivered
+
+
+def plan_health_alerts(
+    health: Mapping[str, HealthRecord], names: Mapping[str, str]
+) -> list[HealthAlert]:
+    """Tell the owner once when a company starts failing, and once when it recovers."""
+    alerts = []
+    for slug in sorted(names):
+        record = health.get(slug)
+        if record is None:
+            continue
+        name = names[slug]
+        if record.consecutive_failures >= FAILURE_ALERT_AFTER and not record.failure_alerted:
+            text = (
+                f"⚠️ {name} has failed {record.consecutive_failures} runs in a row: "
+                f"{record.last_error or 'unknown error'}"
+            )
+            alerts.append(HealthAlert(slug, text, alerted=True))
+        elif record.consecutive_failures == 0 and record.failure_alerted:
+            alerts.append(HealthAlert(slug, f"✅ {name} is working again.", alerted=False))
+    return alerts
+
+
+async def deliver_health_alerts(
+    sender: Sender,
+    alerts: list[HealthAlert],
+    health: dict[str, HealthRecord],
+    pause: float = 2.0,
+) -> None:
+    for n, alert in enumerate(alerts):
+        if n and pause:
+            await asyncio.sleep(pause)
+        if await sender.send(alert.text):
+            health[alert.slug].failure_alerted = alert.alerted
+
+
+def format_crash(error: BaseException) -> str:
+    return f"🚨 internship-tracker run crashed: {type(error).__name__}: {str(error)[:300]}"

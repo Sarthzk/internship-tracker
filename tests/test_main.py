@@ -140,3 +140,148 @@ def test_cli_dry_run_prints_summary(tmp_path, capsys):
     out = capsys.readouterr().out
     assert code == 0 and "companies OK: 1" in out and "NEW Acme" in out
     assert not (tmp_path / "listings.json").exists()
+
+
+# --- WhatsApp wiring ---
+
+
+class FakeSender:
+    def __init__(self) -> None:
+        self.sent: list[str] = []
+        self.ok = True
+
+    async def send(self, text: str) -> bool:
+        if self.ok:
+            self.sent.append(text)
+        return self.ok
+
+
+def old_health(tmp_path) -> None:
+    """Pretend both companies were fetched successfully before, so it is not a first run."""
+    from tracker.models import HealthRecord
+    from tracker.storage import save_health
+
+    save_health(
+        tmp_path / "health.json",
+        {
+            "acme": HealthRecord(company_slug="acme", last_success=T0.date(), last_count=1),
+            "beta": HealthRecord(company_slug="beta", last_success=T0.date(), last_count=0),
+        },
+    )
+
+
+async def test_new_listing_is_sent_once_and_marked_notified(tmp_path):
+    old_health(tmp_path)
+    sender = FakeSender()
+    with respx.mock:
+        respx.get(GH).respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        respx.get(LV).respond(200, json=[])
+        first = await go(tmp_path, sender=sender, pause=0)
+        second = await go(tmp_path, now=T0 + timedelta(minutes=15), sender=sender, pause=0)
+    assert len(sender.sent) == 1 and "Software Engineer Intern" in sender.sent[0]
+    assert first.alerts_sent == 1 and second.alerts_sent == 0
+    [li] = load_listings(tmp_path / "listings.json")
+    assert li.notified is True
+
+
+async def test_failed_send_is_retried_next_run(tmp_path):
+    old_health(tmp_path)
+    sender = FakeSender()
+    sender.ok = False
+    with respx.mock:
+        respx.get(GH).respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        respx.get(LV).respond(200, json=[])
+        down = await go(tmp_path, sender=sender, pause=0)
+        [li] = load_listings(tmp_path / "listings.json")
+        assert li.notified is False and down.alerts_pending == 1
+        sender.ok = True
+        await go(tmp_path, now=T0 + timedelta(minutes=15), sender=sender, pause=0)
+    assert len(sender.sent) == 1
+    assert load_listings(tmp_path / "listings.json")[0].notified is True
+
+
+async def test_no_sender_leaves_listings_unnotified(tmp_path):
+    old_health(tmp_path)
+    with respx.mock:
+        respx.get(GH).respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        respx.get(LV).respond(200, json=[])
+        summary = await go(tmp_path, sender=None)
+    assert summary.alerts_pending == 1
+    assert load_listings(tmp_path / "listings.json")[0].notified is False
+
+
+async def test_first_fetch_sends_one_summary_not_one_per_listing(tmp_path):
+    sender = FakeSender()
+    with respx.mock:
+        respx.get(GH).respond(
+            200,
+            json=gh_jobs(("Software Engineer Intern", "Pune"), ("Data Science Intern", "Mumbai")),
+        )
+        respx.get(LV).respond(200, json=[])
+        await go(tmp_path, sender=sender, pause=0)
+        await go(tmp_path, now=T0 + timedelta(minutes=15), sender=sender, pause=0)
+    assert len(sender.sent) == 1 and "Now tracking 2 companies" in sender.sent[0]
+    assert "Acme (2)" in sender.sent[0]
+    assert all(li.notified for li in load_listings(tmp_path / "listings.json"))
+
+
+async def test_company_failing_on_first_try_is_not_a_first_fetch_yet(tmp_path):
+    sender = FakeSender()
+    with respx.mock:
+        gh = respx.get(GH).respond(503)
+        respx.get(LV).respond(200, json=[])
+        await go(tmp_path, sender=sender, pause=0)
+        gh.respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        await go(tmp_path, now=T0 + timedelta(minutes=15), sender=sender, pause=0)
+    assert any("Acme (1)" in m for m in sender.sent)
+
+
+async def test_admin_alert_once_after_three_failures_and_once_on_recovery(tmp_path):
+    old_health(tmp_path)
+    sender = FakeSender()
+    with respx.mock:
+        gh = respx.get(GH).respond(503)
+        respx.get(LV).respond(200, json=[])
+        for i in range(6):
+            await go(tmp_path, now=T0 + timedelta(minutes=15 * i), sender=sender, pause=0)
+        down = [m for m in sender.sent if "failed" in m]
+        assert len(down) == 1 and "Acme has failed 3 runs" in down[0]
+        gh.respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        for i in range(6, 9):
+            await go(tmp_path, now=T0 + timedelta(minutes=15 * i), sender=sender, pause=0)
+    assert len([m for m in sender.sent if "working again" in m]) == 1
+
+
+async def test_dry_run_never_sends(tmp_path):
+    sender = FakeSender()
+    with respx.mock:
+        respx.get(GH).respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        respx.get(LV).respond(200, json=[])
+        await go(tmp_path, dry_run=True, sender=sender, pause=0)
+    assert sender.sent == []
+
+
+def test_check_command_prints_counts_and_writes_nothing(tmp_path, capsys):
+    (tmp_path / "companies.yaml").write_text(
+        "companies:\n  - {name: Acme, slug: acme, tier: 1, ats: greenhouse,"
+        " ats_config: {board_token: acme}, enabled: false}\n"
+    )
+    with respx.mock:
+        respx.get(GH).respond(
+            200, json=gh_jobs(("Software Engineer Intern", "Pune"), ("Chef", "Pune"))
+        )
+        code = main(["check", "--companies", "acme", "--data-dir", str(tmp_path)])
+    assert code == 0
+    assert "OK   acme: 2 postings, 1 India tech internships" in capsys.readouterr().out
+    assert [p.name for p in tmp_path.iterdir()] == ["companies.yaml"]
+
+
+def test_check_command_fails_loudly(tmp_path, capsys):
+    (tmp_path / "companies.yaml").write_text(
+        "companies:\n  - {name: Acme, slug: acme, tier: 1, ats: greenhouse,"
+        " ats_config: {board_token: acme}, enabled: true}\n"
+    )
+    with respx.mock:
+        respx.get(GH).respond(404)
+        assert main(["check", "--companies", "acme", "--data-dir", str(tmp_path)]) == 1
+    assert main(["check", "--companies", "nope", "--data-dir", str(tmp_path)]) == 2

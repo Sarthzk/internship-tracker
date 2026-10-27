@@ -91,7 +91,7 @@ tests/fixtures/            recorded JSON responses from each ATS
 
 `Enrichment` fields: `eligible_batches` (list of graduation years, e.g. `[2027, 2028]`, or null), `term` (`summer`, `winter`, `six_month`, `other`, `unknown`), `duration_months` (int or null), `stipend` (str or null, only if explicitly stated), `degree` (str or null), `model`, `enriched_at`.
 
-`HealthRecord` fields (`health.json`): `company_slug`, `last_success` (date), `consecutive_failures`, `last_error`, `last_count` (postings from the last successful fetch), `zero_since` (UTC datetime when a 0-postings result first followed a non-zero one). No per-run timestamps.
+`HealthRecord` fields (`health.json`): `company_slug`, `last_success` (date), `consecutive_failures`, `last_error`, `last_count` (postings from the last successful fetch), `zero_since` (UTC datetime when a 0-postings result first followed a non-zero one), `failure_alerted` (owner already told it's failing; cleared on recovery). No per-run timestamps.
 
 `listings.json` and `health.json` are written with sorted keys, 2-space indent, and listings sorted by `id`, so git diffs stay small and readable. **A run where nothing real changed must leave both files byte-for-byte identical** (the workflow only commits real changes).
 
