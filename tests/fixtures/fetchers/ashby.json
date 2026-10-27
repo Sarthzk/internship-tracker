@@ -1,0 +1,10 @@
+{
+  "jobs": [
+    {"id": "cc-3333", "title": "Software Engineering Intern", "jobUrl": "https://jobs.ashbyhq.com/acme/cc-3333",
+     "location": "Hyderabad", "secondaryLocations": [{"location": "Remote - India"}],
+     "isRemote": false, "isListed": true, "publishedAt": "2026-10-05T00:00:00.000+00:00",
+     "descriptionPlain": "Build things."},
+    {"id": "dd-4444", "title": "Hidden Intern", "jobUrl": "https://jobs.ashbyhq.com/acme/dd-4444",
+     "location": "Pune", "isListed": false}
+  ]
+}

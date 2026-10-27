@@ -1,0 +1,11 @@
+{
+  "jobs": [
+    {"id": 7001, "title": "Software Engineer Intern", "absolute_url": "https://boards.greenhouse.io/acme/jobs/7001",
+     "location": {"name": "Bengaluru, India"}, "first_published": "2026-10-01T09:30:00-04:00"},
+    {"id": 7002, "title": "Senior Backend Engineer", "absolute_url": "https://boards.greenhouse.io/acme/jobs/7002",
+     "location": {"name": "Remote - US"}, "first_published": null},
+    {"id": 7003, "title": "Data Science Intern", "absolute_url": "https://boards.greenhouse.io/acme/jobs/7003",
+     "location": {}}
+  ],
+  "meta": {"total": 3}
+}

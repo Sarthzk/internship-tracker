@@ -1,0 +1,90 @@
+[
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Rubrik",
+    "company_slug": "rubrik",
+    "date_posted": "2026-09-06",
+    "enrichment": null,
+    "external_id": "8166514",
+    "first_seen": "2026-10-27T07:36:29.514766Z",
+    "id": "greenhouse:rubrik:8166514",
+    "is_remote": false,
+    "last_seen": "2026-10-27",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": false,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "ENG Project/ Program - Intern",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8166514?gh_jid=8166514"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Rubrik",
+    "company_slug": "rubrik",
+    "date_posted": "2026-10-13",
+    "enrichment": null,
+    "external_id": "8266405",
+    "first_seen": "2026-10-27T07:36:29.514766Z",
+    "id": "greenhouse:rubrik:8266405",
+    "is_remote": false,
+    "last_seen": "2026-10-27",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": false,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "Industrial Trainee",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Stripe",
+    "company_slug": "stripe",
+    "date_posted": "2026-07-10",
+    "enrichment": null,
+    "external_id": "8031833",
+    "first_seen": "2026-10-27T07:36:29.514766Z",
+    "id": "greenhouse:stripe:8031833",
+    "is_remote": false,
+    "last_seen": "2026-10-27",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": false,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "Software Engineer, Intern",
+    "url": "https://stripe.com/jobs/search?gh_jid=8031833"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Tower Research Capital",
+    "company_slug": "tower-research-capital",
+    "date_posted": "2026-08-20",
+    "enrichment": null,
+    "external_id": "8143756",
+    "first_seen": "2026-10-27T07:36:29.514766Z",
+    "id": "greenhouse:tower-research-capital:8143756",
+    "is_remote": false,
+    "last_seen": "2026-10-27",
+    "locations": [
+      "Gurgaon"
+    ],
+    "missed_runs": 0,
+    "notified": false,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "Intern - AI/ML",
+    "url": "https://www.tower-research.com/open-positions/?gh_jid=8143756"
+  }
+]

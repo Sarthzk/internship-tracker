@@ -1,0 +1,8 @@
+[
+  {"id": "aaaa-1111", "text": "Machine Learning Intern", "hostedUrl": "https://jobs.lever.co/acme/aaaa-1111",
+   "createdAt": 1790000000000, "workplaceType": "hybrid",
+   "categories": {"location": "Pune", "allLocations": ["Pune", "Mumbai"]},
+   "descriptionPlain": "Work on models."},
+  {"id": "bbbb-2222", "text": "Staff Engineer", "hostedUrl": "https://jobs.lever.co/acme/bbbb-2222",
+   "createdAt": null, "workplaceType": "remote", "categories": {"location": "Remote"}}
+]

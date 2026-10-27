@@ -91,23 +91,23 @@ Goal: `uv run python -m tracker run` produces a correct `data/listings.json` fro
 
 ### Tasks
 - [x] Apply the 9 verified companies from `data/platform_report.md` to `companies.yaml` (`enabled: false` until their fetcher exists) and commit the report.
-- [ ] `tracker/http.py`: a shared `httpx.AsyncClient` factory with the User-Agent, 20s timeout, per-host concurrency limit of 1, small per-host delay, and retry with exponential backoff (max 3 attempts; network errors, 429, 5xx only). Tests: retries on 503, no retry on 404.
-- [ ] `tracker/fetchers/base.py`: the fetcher interface and a registry mapping `ats` → fetch function.
-- [ ] `tracker/fetchers/greenhouse.py`, `lever.py`, `ashby.py`: fetch all postings and normalize to `RawPosting` (external_id, title, locations, is_remote, url, date_posted if available, description text in memory only). Record one real response per ATS into `tests/fixtures/` (trimmed to a few postings) and test normalization against it.
-- [ ] `tracker/filters.py`: `is_india_location`, `is_internship`, `classify_category`, `is_tech`. Table-driven tests covering at least:
+- [x] `tracker/http.py`: a shared `httpx.AsyncClient` factory with the User-Agent, 20s timeout, per-host concurrency limit of 1, small per-host delay, and retry with exponential backoff (max 3 attempts; network errors, 429, 5xx only). Tests: retries on 503, no retry on 404.
+- [x] `tracker/fetchers/base.py`: the fetcher interface and a registry mapping `ats` → fetch function.
+- [x] `tracker/fetchers/greenhouse.py`, `lever.py`, `ashby.py`: fetch all postings and normalize to `RawPosting` (external_id, title, locations, is_remote, url, date_posted if available, description text in memory only). Record one real response per ATS into `tests/fixtures/` (trimmed to a few postings) and test normalization against it.
+- [x] `tracker/filters.py`: `is_india_location`, `is_internship`, `classify_category`, `is_tech`. Table-driven tests covering at least:
   - "Bengaluru, Karnataka, India" ✅, "Remote - India" ✅, "Indianapolis, IN" ❌, "Indiana" ❌, "Pune" ✅
   - "Software Engineer Intern" ✅, "Summer Analyst 2027" ✅, "Internal Tools Engineer" ❌, "International Sales Manager" ❌, "Senior Intern Program Manager" ❌
   - category samples for every enum value, and non-tech titles dropped
-- [ ] `tracker/storage.py`: load/save `listings.json` and `health.json` (deterministic formatting as in CLAUDE.md; missing file = empty). Test: saving unchanged data twice gives identical bytes.
-- [ ] `tracker/diff.py`: pure function `merge(existing, fetched_by_company, fetch_status_by_company, today) -> (listings, new_ids)` implementing rule 1 in CLAUDE.md exactly. Tests:
+- [x] `tracker/storage.py`: load/save `listings.json` and `health.json` (deterministic formatting as in CLAUDE.md; missing file = empty). Test: saving unchanged data twice gives identical bytes.
+- [x] `tracker/diff.py`: pure function `merge(existing, fetched_by_company, fetch_status_by_company, today) -> (listings, new_ids)` implementing rule 1 in CLAUDE.md exactly. Tests:
   - new posting gets added with status open, `notified=false`
   - existing posting updates `last_seen` (a date) and resets `missed_runs`
   - absent posting after a **successful** fetch increments `missed_runs`; closes at 3
   - absent posting after a **failed** fetch does not change
   - company returning 0 postings after previously returning >0 is treated as failed, until it has returned 0 for 24 hours (`zero_since`), after which the zero counts as a success
   - closed posting that reappears is reopened
-- [ ] `tracker/health.py`: update per-company `HealthRecord` (last_success date, consecutive_failures, last_error, last_count, zero_since). No per-run timestamps.
-- [ ] `tracker/main.py` + `tracker/__main__.py`: CLI with `run` and `--dry-run`. Load enabled companies, fetch all concurrently (one failure never crashes the run), filter, diff, save. Print a summary: companies OK / failed, new, closed, total open.
+- [x] `tracker/health.py`: update per-company `HealthRecord` (last_success date, consecutive_failures, last_error, last_count, zero_since). No per-run timestamps.
+- [x] `tracker/main.py` + `tracker/__main__.py`: CLI with `run` and `--dry-run`. Load enabled companies, fetch all concurrently (one failure never crashes the run), filter, diff, save. Print a summary: companies OK / failed, new, closed, total open.
 
 ### Acceptance criteria
 - All tests pass with no network access.
