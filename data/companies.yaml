@@ -26,7 +26,7 @@ companies:
     ats_config: {host: apply.careers.microsoft.com, domain: microsoft.com}
     careers_url: https://apply.careers.microsoft.com
     enabled: false
-    notes: docs/VERIFIED_ENDPOINTS.md section B1. Fetcher is built in Phase 4.
+    notes: docs/VERIFIED_ENDPOINTS.md section B1. Fetcher is built in Phase 3.
   - name: Amazon
     slug: amazon
     tier: 1
@@ -63,11 +63,11 @@ companies:
   - name: Uber
     slug: uber
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://uber.com/global/en/careers
+    ats: oracle_hcm
+    ats_config: {host: iaziqy.fa.ocs.oraclecloud.com, site: UberCareers}
+    careers_url: https://jobs.uber.com/en/
     enabled: false
-    notes: 'Phase 0 candidate: smartrecruiters company_id=uber (1 job, 0 India). Low confidence.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
   - name: Salesforce
     slug: salesforce
     tier: 1
@@ -82,6 +82,7 @@ companies:
     ats_config: {}
     careers_url: https://careers.oracle.com
     enabled: false
+    notes: 'Careers URL redirects to /en/sites/jobsearch, which may be Oracle HCM. Confirm in Phase 4.'
   - name: Intuit
     slug: intuit
     tier: 1
@@ -103,22 +104,23 @@ companies:
     ats_config: {host: nvidia.wd5.myworkdayjobs.com, tenant: nvidia, site: NVIDIAExternalCareerSite}
     careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
     enabled: false
-    notes: 'Endpoint seen in browser: /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs. Fetcher is built in
-      Phase 4.'
+    notes: 'Endpoint seen in browser: /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs. Fetcher is built in Phase 3.'
   - name: Qualcomm
     slug: qualcomm
     tier: 1
-    ats: unknown
-    ats_config: {}
+    ats: eightfold
+    ats_config: {host: app.eightfold.ai, domain: qualcomm.com}
     careers_url: https://careers.qualcomm.com
     enabled: false
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3. Note: generic app.eightfold.ai host, re-check when building the fetcher.'
   - name: Intel
     slug: intel
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://jobs.intel.com
+    ats: workday
+    ats_config: {host: intel.wd1.myworkdayjobs.com, tenant: intel, site: External}
+    careers_url: https://intel.wd1.myworkdayjobs.com/External
     enabled: false
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
   - name: AMD
     slug: amd
     tier: 1
@@ -126,6 +128,7 @@ companies:
     ats_config: {}
     careers_url: https://careers.amd.com
     enabled: false
+    notes: 'Uses iCIMS (internal-amd.icims.com), which has no fetcher. Decide in Phase 4.'
   - name: Texas Instruments
     slug: texas-instruments
     tier: 1
@@ -133,6 +136,7 @@ companies:
     ats_config: {}
     careers_url: https://careers.ti.com
     enabled: false
+    notes: 'Careers URL redirects to /en/sites/CX, which looks like Oracle HCM. Confirm in Phase 4.'
   - name: Cisco
     slug: cisco
     tier: 1
@@ -140,6 +144,7 @@ companies:
     ats_config: {}
     careers_url: https://jobs.cisco.com
     enabled: false
+    notes: 'Phenom signal (text mention only) in fingerprint report; confirm in Phase 4.'
   - name: Walmart Global Tech
     slug: walmart-global-tech
     tier: 1
@@ -184,7 +189,7 @@ companies:
     ats_config: {}
     careers_url: https://careers.snowflake.com
     enabled: false
-    notes: 'Phase 0 candidate: ashby site=snowflake (360 jobs, 6 India). Verify.'
+    notes: 'Phenom signal (text mention only) in fingerprint report; Phase 0 also saw ashby site=snowflake. Confirm in Phase 4.'
   - name: Stripe
     slug: stripe
     tier: 1
@@ -211,24 +216,27 @@ companies:
   - name: PayPal
     slug: paypal
     tier: 1
-    ats: unknown
-    ats_config: {}
+    ats: eightfold
+    ats_config: {host: paypal.eightfold.ai, domain: paypal.com}
     careers_url: https://paypal.eightfold.ai/careers
     enabled: false
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
   - name: Visa
     slug: visa
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://corporate.visa.com/en/jobs
+    ats: workday
+    ats_config: {host: visa.wd5.myworkdayjobs.com, tenant: visa, site: Visa}
+    careers_url: https://visa.wd5.myworkdayjobs.com/Visa
     enabled: false
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
   - name: Mastercard
     slug: mastercard
     tier: 1
-    ats: unknown
-    ats_config: {}
+    ats: workday
+    ats_config: {host: mastercard.wd1.myworkdayjobs.com, tenant: mastercard, site: CorporateCareers}
     careers_url: https://careers.mastercard.com
     enabled: false
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3. Careers site also shows Phenom; Workday is the data source.'
   - name: American Express
     slug: american-express
     tier: 1
@@ -251,15 +259,15 @@ companies:
     ats_config: {host: jpmc.fa.oraclecloud.com, site: CX_1001}
     careers_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
     enabled: false
-    notes: docs/VERIFIED_ENDPOINTS.md section B2. Fetcher is built in Phase 4.
+    notes: docs/VERIFIED_ENDPOINTS.md section B2. Fetcher is built in Phase 3.
   - name: Morgan Stanley
     slug: morgan-stanley
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://morganstanley.com/careers/career-opportunities-search
+    ats: eightfold
+    ats_config: {host: morganstanley.eightfold.ai, domain: morganstanley.com}
+    careers_url: https://morganstanley.eightfold.ai/careers
     enabled: false
-    notes: The student programs page 404'd; careers URL is the career-opportunities-search page.
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
   - name: D. E. Shaw
     slug: de-shaw
     tier: 1
@@ -304,6 +312,14 @@ companies:
     ats_config: {}
     careers_url: https://quadeye.com/careers
     enabled: false
+  - name: Barclays
+    slug: barclays
+    tier: 1
+    ats: unknown
+    ats_config: {}
+    careers_url: https://search.jobs.barclays
+    enabled: false
+    notes: 'Added 2026-10-27; checked in the Phase 4 browser pass.'
   - name: Flipkart
     slug: flipkart
     tier: 2
@@ -319,7 +335,7 @@ companies:
     careers_url: https://jobs.smartrecruiters.com/swiggy
     enabled: false
     notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
-      Fetcher is built in Phase 4.
+      Fetcher is built in Phase 3.
   - name: Zomato
     slug: zomato
     tier: 2
@@ -385,10 +401,11 @@ companies:
   - name: BrowserStack
     slug: browserstack
     tier: 2
-    ats: unknown
-    ats_config: {}
+    ats: workday
+    ats_config: {host: browserstack.wd3.myworkdayjobs.com, tenant: browserstack, site: External}
     careers_url: https://browserstack.com/careers
     enabled: false
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
   - name: Freshworks
     slug: freshworks
     tier: 2
@@ -397,7 +414,7 @@ companies:
     careers_url: https://jobs.smartrecruiters.com/freshworks
     enabled: false
     notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
-      Fetcher is built in Phase 4.
+      Fetcher is built in Phase 3.
   - name: Zoho
     slug: zoho
     tier: 2
@@ -408,18 +425,19 @@ companies:
   - name: Sprinklr
     slug: sprinklr
     tier: 2
-    ats: unknown
-    ats_config: {}
+    ats: workday
+    ats_config: {host: sprinklr.wd1.myworkdayjobs.com, tenant: sprinklr, site: careers}
     careers_url: https://sprinklr.com/careers
     enabled: false
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
   - name: Media.net
     slug: media-net
     tier: 2
     ats: unknown
     ats_config: {}
-    careers_url: https://media.net/careers
+    careers_url: https://careers.media.net/
     enabled: false
-    notes: 'Phase 0 candidate: smartrecruiters company_id=medianet (1 job, 0 India). Low confidence.'
+    notes: 'Unresolved; checked in the Phase 4 browser pass.'
   - name: Juspay
     slug: juspay
     tier: 2
@@ -435,17 +453,11 @@ companies:
     careers_url: https://boards.greenhouse.io/inmobi
     enabled: true
     notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
-  - name: ShareChat
-    slug: sharechat
+  - name: Persistent Systems
+    slug: persistent-systems
     tier: 2
     ats: unknown
     ats_config: {}
-    careers_url: https://sharechat.com/careers
+    careers_url: https://www.persistent.com/careers/
     enabled: false
-  - name: Dream11
-    slug: dream11
-    tier: 2
-    ats: unknown
-    ats_config: {}
-    careers_url: https://dreamsports.group/careers
-    enabled: false
+    notes: 'Added 2026-10-27; checked in the Phase 4 browser pass.'

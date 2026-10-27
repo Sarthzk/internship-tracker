@@ -91,4 +91,6 @@ Greenhouse, Lever and Ashby were probed with common slugs and returned nothing f
 
 ## E. Not yet resolved (Phase 0.5 will detect)
 
-Morgan Stanley (the student programs page 404'd; try `/careers/career-opportunities-search`), Salesforce, Oracle, Intuit, ServiceNow, Qualcomm, Intel, AMD, Texas Instruments, Cisco, Walmart Global Tech, Uber, Visa, Mastercard, PayPal, American Express, Flipkart, PhonePe, Zepto, Postman, BrowserStack, Zoho, Sprinklr, Juspay, ShareChat, Dream11, Media.net, Zomato, D. E. Shaw, Arcesium, AlphaGrep, Quadeye, Nutanix, Cohesity, Rippling, Snowflake (verify).
+Morgan Stanley (the student programs page 404'd; try `/careers/career-opportunities-search`), Salesforce, Oracle, Intuit, ServiceNow, Qualcomm, Intel, AMD, Texas Instruments, Cisco, Walmart Global Tech, Uber, Visa, Mastercard, PayPal, American Express, Flipkart, PhonePe, Zepto, Postman, BrowserStack, Zoho, Sprinklr, Juspay, Media.net, Zomato, D. E. Shaw, Arcesium, AlphaGrep, Quadeye, Nutanix, Cohesity, Rippling, Snowflake (verify).
+
+**Update 27 Oct 2026:** `scripts/fingerprint_platforms.py` resolved Uber (Oracle HCM), Qualcomm, PayPal, Morgan Stanley (Eightfold), Intel, Visa, Mastercard, BrowserStack, Sprinklr (Workday); see `data/platform_report.md`. Dream11 and ShareChat were dropped from the list; Barclays and Persistent Systems were added (unresolved).

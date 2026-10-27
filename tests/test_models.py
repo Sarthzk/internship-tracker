@@ -33,7 +33,7 @@ def listing_data(**overrides) -> dict:
         "external_id": "123",
         "date_posted": "2026-10-01",
         "first_seen": NOW,
-        "last_seen": NOW,
+        "last_seen": "2026-10-20",
     }
     data.update(overrides)
     return data
@@ -73,7 +73,7 @@ def test_listing_rejects_bad_enum_values(field, value):
         Listing.model_validate(listing_data(**{field: value}))
 
 
-@pytest.mark.parametrize("field", ["first_seen", "last_seen", "closed_at"])
+@pytest.mark.parametrize("field", ["first_seen", "closed_at"])
 def test_listing_rejects_naive_datetimes(field):
     with pytest.raises(ValidationError):
         Listing.model_validate(listing_data(**{field: NAIVE}))
@@ -87,8 +87,14 @@ def test_listing_normalizes_datetimes_to_utc():
 
 
 def test_listing_accepts_iso_string_with_offset():
-    listing = Listing.model_validate(listing_data(last_seen="2026-10-20T12:00:00Z"))
-    assert listing.last_seen == NOW
+    listing = Listing.model_validate(listing_data(first_seen="2026-10-20T12:00:00Z"))
+    assert listing.first_seen == NOW
+
+
+def test_listing_last_seen_is_a_date():
+    listing = Listing.model_validate(listing_data())
+    assert listing.last_seen == date(2026, 10, 20)
+    assert listing.model_dump(mode="json")["last_seen"] == "2026-10-20"
 
 
 def test_listing_rejects_mismatched_id():
@@ -182,12 +188,17 @@ def test_health_record_defaults():
     assert record.consecutive_failures == 0
     assert record.last_success is None
     assert record.last_count is None
+    assert record.zero_since is None
 
 
-@pytest.mark.parametrize("field", ["last_attempt", "last_success"])
-def test_health_record_rejects_naive_datetimes(field):
+def test_health_record_rejects_naive_zero_since():
     with pytest.raises(ValidationError):
-        HealthRecord.model_validate({"company_slug": "stripe", field: NAIVE})
+        HealthRecord.model_validate({"company_slug": "stripe", "zero_since": NAIVE})
+
+
+def test_health_record_has_no_per_run_timestamp():
+    with pytest.raises(ValidationError):
+        HealthRecord.model_validate({"company_slug": "stripe", "last_attempt": NOW})
 
 
 # --- Company ---

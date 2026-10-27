@@ -47,7 +47,7 @@ def test_custom_and_skipped_companies():
 
 
 def test_only_companies_with_a_built_fetcher_type_are_enabled():
-    # Phase 1 builds greenhouse / lever / ashby; everything else stays disabled until Phase 4.
+    # Phase 1 builds greenhouse / lever / ashby; everything else stays disabled until Phase 3.
     for c in load_companies(COMPANIES_YAML):
         if c.enabled:
             assert c.ats in {"greenhouse", "lever", "ashby"}, c.slug
@@ -55,5 +55,28 @@ def test_only_companies_with_a_built_fetcher_type_are_enabled():
 
 def test_unresolved_companies_are_the_section_e_list():
     unresolved = {c.name for c in load_companies(COMPANIES_YAML) if c.ats == "unknown"}
-    assert len(unresolved) == 36
-    assert {"Snowflake", "Zomato", "Uber", "Media.net", "Morgan Stanley", "PayPal"} <= unresolved
+    assert len(unresolved) == 27
+    assert {"Snowflake", "Zomato", "Media.net", "Barclays", "Persistent Systems"} <= unresolved
+
+
+def test_platform_report_verified_companies():
+    by_slug = {c.slug: c for c in load_companies(COMPANIES_YAML)}
+    expected = {
+        "uber": "oracle_hcm",
+        "qualcomm": "eightfold",
+        "paypal": "eightfold",
+        "morgan-stanley": "eightfold",
+        "intel": "workday",
+        "visa": "workday",
+        "mastercard": "workday",
+        "browserstack": "workday",
+        "sprinklr": "workday",
+    }
+    for slug, ats in expected.items():
+        assert by_slug[slug].ats == ats, slug
+        assert not by_slug[slug].enabled, slug
+
+
+def test_removed_companies_are_gone():
+    slugs = {c.slug for c in load_companies(COMPANIES_YAML)}
+    assert not {"dream11", "sharechat"} & slugs

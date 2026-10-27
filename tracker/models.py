@@ -154,7 +154,8 @@ class Listing(_Model):
     external_id: str
     date_posted: date | None = None
     first_seen: UtcDatetime
-    last_seen: UtcDatetime
+    # A date, not a datetime: it only changes once a day, so runs don't commit noise.
+    last_seen: date
     status: Status = Status.open
     missed_runs: int = Field(default=0, ge=0)
     closed_at: UtcDatetime | None = None
@@ -174,14 +175,19 @@ class Listing(_Model):
 
 
 class HealthRecord(_Model):
-    """Per-company fetcher health, stored in data/health.json."""
+    """Per-company fetcher health, stored in data/health.json.
+
+    Only fields that change when something actually happens are stored (no per-run timestamps),
+    so a quiet run leaves health.json byte-for-byte unchanged.
+    """
 
     company_slug: str
-    last_attempt: UtcDatetime | None = None
-    last_success: UtcDatetime | None = None
+    last_success: date | None = None  # day of the last successful fetch
     consecutive_failures: int = Field(default=0, ge=0)
     last_error: str | None = None
     last_count: int | None = Field(default=None, ge=0)  # postings from last SUCCESSFUL fetch
+    # When a fetch first returned 0 postings after a previous non-zero one (CLAUDE.md rule 1).
+    zero_since: UtcDatetime | None = None
 
 
 def load_companies(path: Path) -> list[Company]:
