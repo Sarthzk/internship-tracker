@@ -15,7 +15,7 @@
       "Bangalore"
     ],
     "missed_runs": 0,
-    "notified": false,
+    "notified": true,
     "source": "greenhouse",
     "status": "open",
     "title": "ENG Project/ Program - Intern",
@@ -37,7 +37,7 @@
       "Bangalore"
     ],
     "missed_runs": 0,
-    "notified": false,
+    "notified": true,
     "source": "greenhouse",
     "status": "open",
     "title": "Industrial Trainee",
@@ -59,7 +59,7 @@
       "Bengaluru"
     ],
     "missed_runs": 0,
-    "notified": false,
+    "notified": true,
     "source": "greenhouse",
     "status": "open",
     "title": "Software Engineer, Intern",
@@ -81,7 +81,7 @@
       "Gurgaon"
     ],
     "missed_runs": 0,
-    "notified": false,
+    "notified": true,
     "source": "greenhouse",
     "status": "open",
     "title": "Intern - AI/ML",
