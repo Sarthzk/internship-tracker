@@ -10,7 +10,7 @@ This file is read by Claude Code at the start of every session. It contains the 
 2. Telegram alerts to the owner's phone via a Telegram bot (the main goal: know within ~15–45 minutes).
 3. `README.md`: auto-generated tables that students browse on GitHub.
 
-Everything runs on a GitHub Actions cron job (every 15 minutes; GitHub may start runs late). **There is no server, no database, and no hosting.** Keep it that way unless TASKS.md explicitly says otherwise.
+Everything runs on GitHub Actions: an outside timer triggers the workflow every 10 minutes (`workflow_dispatch`, see docs/SETUP.md section 7) because GitHub's own cron is unreliable and kept as a backup. **There is no server, no database, and no hosting.** Keep it that way unless TASKS.md explicitly says otherwise.
 
 ## Stack
 

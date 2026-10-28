@@ -1,8 +1,11 @@
 name: scrape
 
 on:
+  # Fallback only: GitHub often delays or skips scheduled runs on quiet repos (gaps of hours).
+  # The real trigger is an outside timer calling workflow_dispatch every 10 minutes
+  # (docs/SETUP.md, section 7). Minutes are off the busy :00/:15/:30/:45 marks on purpose.
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 concurrency:
