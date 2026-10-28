@@ -71,17 +71,19 @@ companies:
   - name: Salesforce
     slug: salesforce
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://careers.salesforce.com
+    ats: workday
+    ats_config: {host: salesforce.wd12.myworkdayjobs.com, tenant: salesforce, site: External_Career_Site}
+    careers_url: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
     enabled: false
+    notes: 'Workday; found 2026-10-28; not yet cloud-checked.'
   - name: Oracle
     slug: oracle
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://careers.oracle.com
+    ats: oracle_hcm
+    ats_config: {host: eeho.fa.us2.oraclecloud.com, site: CX_45001}
+    careers_url: https://careers.oracle.com/en/sites/jobsearch
     enabled: false
+    notes: 'Oracle HCM; host and site guessed from known Oracle tenant, found 2026-10-28; not yet cloud-checked.'
     notes: 'Careers URL redirects to /en/sites/jobsearch, which may be Oracle HCM. Confirm in Phase 4.'
   - name: Intuit
     slug: intuit
@@ -93,10 +95,11 @@ companies:
   - name: ServiceNow
     slug: servicenow
     tier: 1
-    ats: unknown
-    ats_config: {}
+    ats: smartrecruiters
+    ats_config: {company_id: ServiceNow}
     careers_url: https://careers.servicenow.com
     enabled: false
+    notes: 'SmartRecruiters public API (the careers site itself shows a Cloudflare challenge, which we do not touch). Found 2026-10-28; not yet cloud-checked.'
   - name: Nvidia
     slug: nvidia
     tier: 1
@@ -132,18 +135,20 @@ companies:
   - name: Texas Instruments
     slug: texas-instruments
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://careers.ti.com
+    ats: oracle_hcm
+    ats_config: {host: edbz.fa.us2.oraclecloud.com, site: CX}
+    careers_url: https://careers.ti.com/en/sites/CX
     enabled: false
+    notes: 'Oracle HCM; found 2026-10-28; not yet cloud-checked.'
     notes: 'Careers URL redirects to /en/sites/CX, which looks like Oracle HCM. Confirm in Phase 4.'
   - name: Cisco
     slug: cisco
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://jobs.cisco.com
+    ats: workday
+    ats_config: {host: cisco.wd5.myworkdayjobs.com, tenant: cisco, site: Cisco_Careers}
+    careers_url: https://cisco.wd5.myworkdayjobs.com/Cisco_Careers
     enabled: false
+    notes: 'Workday (careers.cisco.com front end); found 2026-10-28; not yet cloud-checked.'
     notes: 'Phenom signal (text mention only) in fingerprint report; confirm in Phase 4.'
   - name: Walmart Global Tech
     slug: walmart-global-tech
@@ -240,10 +245,11 @@ companies:
   - name: American Express
     slug: american-express
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://aexp.eightfold.ai/careers
+    ats: oracle_hcm
+    ats_config: {host: egug.fa.us2.oraclecloud.com, site: CX_1}
+    careers_url: https://careers.americanexpress.com/en/sites/CX_1/jobs
     enabled: false
+    notes: 'Oracle HCM behind careers.americanexpress.com (redirects to egug.fa.us2.oraclecloud.com). Found 2026-10-28 in the browser; not yet cloud-checked.'
   - name: Goldman Sachs
     slug: goldman-sachs
     tier: 1
