@@ -333,9 +333,8 @@ companies:
     ats: smartrecruiters
     ats_config: {company_id: swiggy}
     careers_url: https://jobs.smartrecruiters.com/swiggy
-    enabled: false
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
-      Fetcher is built in Phase 3.
+    enabled: true
+    notes: SmartRecruiters fetcher built; live-checked and cloud-checked 2026-10-27.
   - name: Zomato
     slug: zomato
     tier: 2
@@ -412,9 +411,8 @@ companies:
     ats: smartrecruiters
     ats_config: {company_id: freshworks}
     careers_url: https://jobs.smartrecruiters.com/freshworks
-    enabled: false
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
-      Fetcher is built in Phase 3.
+    enabled: true
+    notes: SmartRecruiters fetcher built; live-checked and cloud-checked 2026-10-27.
   - name: Zoho
     slug: zoho
     tier: 2
