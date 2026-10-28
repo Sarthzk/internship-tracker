@@ -12,7 +12,7 @@ from pathlib import Path
 
 import httpx
 
-from tracker import fetchers
+from tracker import fetchers, readme
 from tracker.diff import MergeResult, merge
 from tracker.filters import keep
 from tracker.health import record_fetch
@@ -243,7 +243,9 @@ def main(argv: Sequence[str] | None = None) -> int:
     check_parser = sub.add_parser("check", help="fetch some companies and print counts only")
     check_parser.add_argument("--companies", required=True, help="comma-separated company slugs")
     check_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
-    for p in (run_parser, check_parser):
+    readme_parser = sub.add_parser("readme", help="regenerate README.md and README-archive.md")
+    readme_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
+    for p in (run_parser, check_parser, readme_parser):
         p.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -254,6 +256,10 @@ def main(argv: Sequence[str] | None = None) -> int:
     # httpx logs every request URL at INFO, and Telegram URLs contain the bot token.
     for noisy in ("httpx", "httpcore"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
+    if args.command == "readme":
+        changed = readme.generate(args.data_dir, args.data_dir.parent)
+        print("README updated." if changed else "README already up to date.")
+        return 0
     if args.command == "check":
         slugs = [s.strip() for s in args.companies.split(",") if s.strip()]
         return asyncio.run(_check_cli(slugs, args.data_dir))

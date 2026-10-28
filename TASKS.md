@@ -200,17 +200,17 @@ Goal: every still-unknown company is either covered or consciously dropped.
 Goal: a browsable table on GitHub for anyone. Can be done any time after Phase 2.
 
 ### Tasks
-- [ ] `tracker/readme.py`: generate the section between the `<!-- LISTINGS:START -->` / `<!-- LISTINGS:END -->` markers:
+- [x] `tracker/readme.py`: generate the section between the `<!-- LISTINGS:START -->` / `<!-- LISTINGS:END -->` markers:
   - a summary line: total open internships, last updated date in IST
   - one table per category (only categories with open listings), sorted newest first
   - columns: Company | Role | Location | Batch | Duration | Apply | Age
   - Batch / Duration show "—" when unknown; Apply is a markdown link to the official URL; Age is days since `date_posted` (or `first_seen` if missing), shown as `0d`, `3d`, etc.
   - escape `|` and newlines in all cell text
   - must be deterministic, so a quiet run doesn't change the README (Age changes at most once a day)
-- [ ] `README-archive.md`: closed listings from the last 90 days, same columns plus closed date.
-- [ ] Hand-written README content outside the markers: what this is, how it works (2–3 lines), how to contribute (placeholder), disclaimer ("links go to official career pages; always verify on the company site").
-- [ ] Snapshot tests for README generation using a small fixture listings set.
-- [ ] `uv run python -m tracker readme` regenerates READMEs only; the scrape workflow also commits README changes.
+- [x] `README-archive.md`: closed listings from the last 90 days, same columns plus closed date.
+- [x] Hand-written README content outside the markers: what this is, how it works (2–3 lines), how to contribute (placeholder), disclaimer ("links go to official career pages; always verify on the company site").
+- [x] Snapshot tests for README generation using a small fixture listings set.
+- [x] `uv run python -m tracker readme` regenerates READMEs only; the scrape workflow also commits README changes.
 
 ### 👤 Human tasks
 - [ ] 👤 Check the README renders well on GitHub (desktop and mobile).
