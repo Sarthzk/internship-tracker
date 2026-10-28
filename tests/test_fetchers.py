@@ -84,5 +84,5 @@ async def test_http_error_raises_fetch_error():
 
 
 def test_registry_has_no_fetcher_for_unknown_ats():
-    c = company("unknown", {})
+    c = Company(name="Acme", slug="acme", tier=1, ats="unknown", ats_config={}, enabled=False)
     assert get_fetcher(c) is None
