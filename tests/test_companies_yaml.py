@@ -56,7 +56,7 @@ def test_only_companies_with_a_built_fetcher_type_are_enabled():
 
 def test_unresolved_companies_are_still_listed():
     unresolved = {c.name for c in load_companies(COMPANIES_YAML) if c.ats == "unknown"}
-    assert len(unresolved) == 18
+    assert len(unresolved) == 13
     assert {"Snowflake", "Zomato", "Media.net", "Persistent Systems"} <= unresolved
 
 

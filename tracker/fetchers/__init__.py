@@ -21,6 +21,8 @@ from tracker.fetchers.custom import (  # noqa: F401  (registers fetchers)
     barclays,
     goldman,
     google,
+    juspay,
+    quadeye,
     rippling,
 )
 
