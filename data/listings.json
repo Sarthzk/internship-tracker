@@ -2,6 +2,161 @@
   {
     "category": "other",
     "closed_at": null,
+    "company": "Microsoft",
+    "company_slug": "microsoft",
+    "date_posted": "2026-02-27",
+    "enrichment": null,
+    "external_id": "1970393556641091",
+    "first_seen": "2026-10-28T14:56:24.864120Z",
+    "id": "eightfold:microsoft:1970393556641091",
+    "is_remote": false,
+    "last_seen": "2026-10-28",
+    "locations": [
+      "India, Multiple Locations, Multiple Locations"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Research Sciences INTERN",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556641091"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Microsoft",
+    "company_slug": "microsoft",
+    "date_posted": "2026-10-26",
+    "enrichment": null,
+    "external_id": "1970393556917519",
+    "first_seen": "2026-10-28T14:56:24.864120Z",
+    "id": "eightfold:microsoft:1970393556917519",
+    "is_remote": false,
+    "last_seen": "2026-10-28",
+    "locations": [
+      "India, Multiple Locations, Multiple Locations"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Applied Sciences INTERN",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556917519"
+  },
+  {
+    "category": "product",
+    "closed_at": null,
+    "company": "Microsoft",
+    "company_slug": "microsoft",
+    "date_posted": "2026-08-25",
+    "enrichment": null,
+    "external_id": "1970393556978896",
+    "first_seen": "2026-10-28T14:56:24.864120Z",
+    "id": "eightfold:microsoft:1970393556978896",
+    "is_remote": false,
+    "last_seen": "2026-10-28",
+    "locations": [
+      "India, Multiple Locations, Multiple Locations"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Product Management INTERN",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556978896"
+  },
+  {
+    "category": "product",
+    "closed_at": null,
+    "company": "Microsoft",
+    "company_slug": "microsoft",
+    "date_posted": "2026-09-10",
+    "enrichment": null,
+    "external_id": "1970393556992502",
+    "first_seen": "2026-10-28T14:56:24.864120Z",
+    "id": "eightfold:microsoft:1970393556992502",
+    "is_remote": false,
+    "last_seen": "2026-10-28",
+    "locations": [
+      "India, Multiple Locations, Multiple Locations"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Product Design INTERN",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556992502"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Microsoft",
+    "company_slug": "microsoft",
+    "date_posted": "2026-10-23",
+    "enrichment": null,
+    "external_id": "1970393557043380",
+    "first_seen": "2026-10-28T14:56:24.864120Z",
+    "id": "eightfold:microsoft:1970393557043380",
+    "is_remote": false,
+    "last_seen": "2026-10-28",
+    "locations": [
+      "India, Multiple Locations, Multiple Locations"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Security Research INTERN",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557043380"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Qualcomm",
+    "company_slug": "qualcomm",
+    "date_posted": "2026-09-09",
+    "enrichment": null,
+    "external_id": "446719784824",
+    "first_seen": "2026-10-28T14:56:24.864120Z",
+    "id": "eightfold:qualcomm:446719784824",
+    "is_remote": false,
+    "last_seen": "2026-10-28",
+    "locations": [
+      "Bangalore, India",
+      "Hyderabad, Telangāna, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Interim Engineering Intern_2027_HW",
+    "url": "https://careers.qualcomm.com/careers/job/446719784824"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Qualcomm",
+    "company_slug": "qualcomm",
+    "date_posted": "2026-09-15",
+    "enrichment": null,
+    "external_id": "446719785836",
+    "first_seen": "2026-10-28T14:56:24.864120Z",
+    "id": "eightfold:qualcomm:446719785836",
+    "is_remote": false,
+    "last_seen": "2026-10-28",
+    "locations": [
+      "Hyderabad, Telangāna, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Interim Engineering Intern_2027_SW",
+    "url": "https://careers.qualcomm.com/careers/job/446719785836"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
     "company": "Rubrik",
     "company_slug": "rubrik",
     "date_posted": "2026-09-06",
@@ -86,5 +241,27 @@
     "status": "open",
     "title": "Intern - AI/ML",
     "url": "https://www.tower-research.com/open-positions/?gh_jid=8143756"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Nvidia",
+    "company_slug": "nvidia",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "JR2024423",
+    "first_seen": "2026-10-28T14:56:24.864120Z",
+    "id": "workday:nvidia:JR2024423",
+    "is_remote": false,
+    "last_seen": "2026-10-28",
+    "locations": [
+      "India, Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "PhD Intern, AI ML in Wireless L1/L2 - Fall 2026",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423"
   }
 ]

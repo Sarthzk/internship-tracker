@@ -1,5 +1,32 @@
 [
   {
+    "company_slug": "amazon",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 1,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "atlassian",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 373,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "browserstack",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 14,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
     "company_slug": "cred",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -12,7 +39,25 @@
     "company_slug": "databricks",
     "consecutive_failures": 0,
     "failure_alerted": false,
-    "last_count": 893,
+    "last_count": 895,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "freshworks",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 12,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 5,
     "last_error": null,
     "last_success": "2026-10-28",
     "zero_since": null
@@ -39,22 +84,13 @@
     "company_slug": "inmobi",
     "consecutive_failures": 0,
     "failure_alerted": false,
-    "last_count": 78,
+    "last_count": 79,
     "last_error": null,
     "last_success": "2026-10-28",
     "zero_since": null
   },
   {
-    "company_slug": "meesho",
-    "consecutive_failures": 0,
-    "failure_alerted": false,
-    "last_count": 53,
-    "last_error": null,
-    "last_success": "2026-10-28",
-    "zero_since": null
-  },
-  {
-    "company_slug": "razorpay",
+    "company_slug": "intel",
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 28,
@@ -63,10 +99,100 @@
     "zero_since": null
   },
   {
+    "company_slug": "jpmorgan-chase",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 160,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "mastercard",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 98,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "meesho",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 52,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "microsoft",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 6,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 2,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "nvidia",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 73,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "paypal",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 0,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "qualcomm",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 3,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "razorpay",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 24,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
     "company_slug": "rubrik",
     "consecutive_failures": 0,
     "failure_alerted": false,
-    "last_count": 151,
+    "last_count": 150,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "sprinklr",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 6,
     "last_error": null,
     "last_success": "2026-10-28",
     "zero_since": null
@@ -75,7 +201,16 @@
     "company_slug": "stripe",
     "consecutive_failures": 0,
     "failure_alerted": false,
-    "last_count": 714,
+    "last_count": 717,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "swiggy",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 57,
     "last_error": null,
     "last_success": "2026-10-28",
     "zero_since": null
@@ -93,7 +228,25 @@
     "company_slug": "twilio",
     "consecutive_failures": 0,
     "failure_alerted": false,
-    "last_count": 131,
+    "last_count": 135,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "uber",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 340,
+    "last_error": null,
+    "last_success": "2026-10-28",
+    "zero_since": null
+  },
+  {
+    "company_slug": "visa",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 37,
     "last_error": null,
     "last_success": "2026-10-28",
     "zero_since": null
