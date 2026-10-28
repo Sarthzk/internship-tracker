@@ -71,7 +71,7 @@ Batch and Duration show "—" unless known.
 
 | Company | Role | Location | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|
-| American Express | Apprentice | Gurugram, HR, India | — | — | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015791) | 2d |
+| American Express | Apprentice | Gurugram, HR, India | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015791) | 2d |
 | Microsoft | Applied Sciences INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556917519) | 3d |
 | Adobe | 2027 Intern - Research PhD Intern | Bangalore, Karnātaka, India | — | — | [Apply](https://careers.adobe.com/us/en/job/R173016) | 10d |
 | Rubrik | Industrial Trainee | Bangalore | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405) | 16d |
