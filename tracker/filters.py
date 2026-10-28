@@ -179,6 +179,7 @@ NON_TECH = _words(
     "communications",
     "public relations",
     "legal",
+    "patent",
     "counsel",
     "sales",
     "business development",

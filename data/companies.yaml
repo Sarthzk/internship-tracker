@@ -25,8 +25,8 @@ companies:
     ats: eightfold
     ats_config: {host: apply.careers.microsoft.com, domain: microsoft.com}
     careers_url: https://apply.careers.microsoft.com
-    enabled: false
-    notes: docs/VERIFIED_ENDPOINTS.md section B1. Fetcher is built in Phase 3.
+    enabled: true
+    notes: docs/VERIFIED_ENDPOINTS.md section B1. Eightfold fetcher built and cloud-checked 2026-10-27.
   - name: Amazon
     slug: amazon
     tier: 1
@@ -111,8 +111,8 @@ companies:
     ats: eightfold
     ats_config: {host: careers.qualcomm.com, domain: qualcomm.com}
     careers_url: https://careers.qualcomm.com
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3. Host switched from the generic app.eightfold.ai to careers.qualcomm.com (same results).'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Eightfold fetcher built and cloud-checked 2026-10-27. Host switched from the generic app.eightfold.ai to careers.qualcomm.com (same results).'
   - name: Intel
     slug: intel
     tier: 1
@@ -219,8 +219,8 @@ companies:
     ats: eightfold
     ats_config: {host: paypal.eightfold.ai, domain: paypal.com}
     careers_url: https://paypal.eightfold.ai/careers
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Eightfold fetcher built and cloud-checked 2026-10-27.'
   - name: Visa
     slug: visa
     tier: 1
@@ -266,8 +266,8 @@ companies:
     ats: eightfold
     ats_config: {host: morganstanley.eightfold.ai, domain: morganstanley.com}
     careers_url: https://morganstanley.eightfold.ai/careers
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Eightfold fetcher built and cloud-checked 2026-10-27.'
   - name: D. E. Shaw
     slug: de-shaw
     tier: 1
