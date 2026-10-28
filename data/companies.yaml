@@ -37,12 +37,12 @@ companies:
     notes: 'Custom fetcher: docs/VERIFIED_ENDPOINTS.md section C1.'
   - name: Apple
     slug: apple
-    tier: 2
+    tier: 1
     ats: custom
     ats_config: {}
     careers_url: https://jobs.apple.com/en-in/search?search=intern&location=india-INDC
     enabled: false
-    notes: 'Skipped at launch: no public JSON endpoint found. docs/VERIFIED_ENDPOINTS.md section D.'
+    notes: 'Custom fetcher: results are embedded as JSON in the search page. Found 2026-10-28; not yet cloud-checked.'
   - name: Adobe
     slug: adobe
     tier: 1

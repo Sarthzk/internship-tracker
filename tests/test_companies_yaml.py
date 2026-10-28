@@ -43,8 +43,8 @@ def test_custom_and_skipped_companies():
     for slug in ("amazon", "atlassian", "goldman-sachs"):
         assert by_slug[slug].ats == "custom" and by_slug[slug].enabled
         assert "docs/VERIFIED_ENDPOINTS.md section C" in by_slug[slug].notes
-    for slug in ("google", "apple"):
-        assert by_slug[slug].tier == 2 and not by_slug[slug].enabled and by_slug[slug].notes
+    assert by_slug["google"].tier == 2 and not by_slug["google"].enabled
+    assert by_slug["google"].notes
 
 
 def test_only_companies_with_a_built_fetcher_type_are_enabled():
