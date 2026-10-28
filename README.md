@@ -19,36 +19,61 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Batch and Duration show "—" unless known.
 
 <!-- LISTINGS:START -->
-**12 open internships** across 6 companies · Last updated: 2026-10-29 (IST)
+**27 open internships** across 12 companies · Last updated: 2026-10-29 (IST)
 
-### Software Engineering (4)
+### Software Engineering (10)
 
 | Company | Role | Location | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|
+| Juspay | Product Solution Engineer Intern | Bangalore | — | — | [Apply](https://joinus.juspay.in/?jobId=PSE02) | 0d |
+| Juspay | Software Development Engineer Backend Intern | Bangalore | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE02) | 0d |
+| Juspay | Software Development Engineer Backend Intern | Mumbai | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE04) | 0d |
 | Microsoft | Security Research INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557043380) | 6d |
 | Qualcomm | Interim Engineering Intern\_2027\_SW | Hyderabad, Telangāna, India | — | — | [Apply](https://careers.qualcomm.com/careers/job/446719785836) | 44d |
 | Qualcomm | Interim Engineering Intern\_2027\_HW | Bangalore, India; Hyderabad, Telangāna, India | — | — | [Apply](https://careers.qualcomm.com/careers/job/446719784824) | 50d |
+| Google | Software Engineering PhD Intern, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India; Pune, Maharashtra, India | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109976286780105414) | 52d |
+| Quadeye | Intern - Software Developer (Product) | Gurgaon, Haryana, India | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318440) | 79d |
 | Stripe | Software Engineer, Intern | Bengaluru | — | — | [Apply](https://stripe.com/jobs/search?gh_jid=8031833) | 111d |
+| Quadeye | Intern - Systems Engineer | Gurgaon, Haryana, India | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318430) | 122d |
 
-### Data & ML (2)
+### Data & ML (5)
 
 | Company | Role | Location | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|
+| Google | Research Scientist PhD Intern, Summer 2027 | Hyderabad, Telangana, India | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/87534302853505734) | 1d |
 | Nvidia | PhD Intern, AI ML in Wireless L1/L2 - Fall 2026 | India, Bengaluru | — | — | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423) | 1d |
+| Apple | PhD Intern, Apple Ads (Machine Learning) | Hyderabad, India | — | — | [Apply](https://jobs.apple.com/en-in/details/200684719/phd-intern-apple-ads-machine-learning?team=SFTWR) | 39d |
+| Apple | PhD Intern, Machine Learning: MSI, Product Operations Team | Bengaluru, India | — | — | [Apply](https://jobs.apple.com/en-in/details/200676908/phd-intern-machine-learning-msi-product-operations-team?team=OPMFG) | 42d |
 | Tower Research Capital | Intern - AI/ML | Gurgaon | — | — | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8143756) | 70d |
 
-### Product (2)
+### Quant & Trading (1)
 
 | Company | Role | Location | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|
+| Quadeye | Intern - Quant Researcher | Gurgaon, Haryana, India | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318371) | 122d |
+
+### Hardware & Silicon (1)
+
+| Company | Role | Location | Batch | Duration | Apply | Age |
+|---|---|---|---|---|---|---|
+| Google | Silicon Engineering Intern, PhD, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109375266236572358) | 52d |
+
+### Product (4)
+
+| Company | Role | Location | Batch | Duration | Apply | Age |
+|---|---|---|---|---|---|---|
+| Juspay | Product Designer Intern | Bangalore | — | — | [Apply](https://joinus.juspay.in/?jobId=PDE01) | 0d |
+| Google | User Experience Design Intern, Summer 2027, YouTube UX | Bengaluru, Karnataka, India | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/78252225691820742) | 1d |
 | Microsoft | Product Design INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556992502) | 49d |
 | Microsoft | Product Management INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556978896) | 65d |
 
-### Other (4)
+### Other (6)
 
 | Company | Role | Location | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|
+| American Express | Apprentice | Gurugram, HR, India | — | — | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015791) | 2d |
 | Microsoft | Applied Sciences INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556917519) | 3d |
+| Adobe | 2027 Intern - Research PhD Intern | Bangalore, Karnātaka, India | — | — | [Apply](https://careers.adobe.com/us/en/job/R173016) | 10d |
 | Rubrik | Industrial Trainee | Bangalore | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405) | 16d |
 | Rubrik | ENG Project/ Program - Intern | Bangalore | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8166514?gh_jid=8166514) | 53d |
 | Microsoft | Research Sciences INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556641091) | 244d |
