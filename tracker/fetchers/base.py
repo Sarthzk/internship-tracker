@@ -46,14 +46,22 @@ def get_fetcher(company: Company) -> FetchFn | None:
     return FETCHERS.get(company.ats)
 
 
-async def get_json(client: httpx.AsyncClient, url: str, **kwargs) -> object:
-    response = await client.get(url, **kwargs)
+async def request_json(client: httpx.AsyncClient, method: str, url: str, **kwargs) -> object:
+    response = await client.request(method, url, **kwargs)
     if response.status_code != 200:
         raise FetchError(f"HTTP {response.status_code} from {response.url.host}")
     try:
         return response.json()
     except ValueError as exc:
         raise FetchError(f"invalid JSON from {response.url.host}") from exc
+
+
+async def get_json(client: httpx.AsyncClient, url: str, **kwargs) -> object:
+    return await request_json(client, "GET", url, **kwargs)
+
+
+async def post_json(client: httpx.AsyncClient, url: str, **kwargs) -> object:
+    return await request_json(client, "POST", url, **kwargs)
 
 
 def parse_iso_date(value: object) -> date | None:

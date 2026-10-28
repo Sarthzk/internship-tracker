@@ -84,5 +84,5 @@ async def test_http_error_raises_fetch_error():
 
 
 def test_registry_has_no_fetcher_for_unbuilt_ats():
-    c = company("workday", {"host": "h", "tenant": "t", "site": "s"})
+    c = company("eightfold", {"host": "h", "domain": "d"})
     assert get_fetcher(c) is None
