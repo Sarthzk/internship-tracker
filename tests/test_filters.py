@@ -33,6 +33,8 @@ def test_is_india_location(locations, expected):
     "title,expected",
     [
         ("Software Engineer Intern", True),
+        ("Interim Engineering Intern_2027_HW", True),
+        ("Interim Engineer", False),
         ("Summer Analyst 2027", True),
         ("Engineering Internship - Summer 2027", True),
         ("SDE Co-op", True),

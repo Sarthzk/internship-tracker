@@ -12,8 +12,10 @@ from tracker.models import Category, RawPosting
 
 
 def _words(*phrases: str) -> re.Pattern[str]:
+    # Not `\b`: an underscore counts as a word character there, and titles like
+    # "Engineering Intern_2027_HW" must still match "intern".
     alternation = "|".join(sorted(phrases, key=len, reverse=True))
-    return re.compile(rf"\b(?:{alternation})\b", re.IGNORECASE)
+    return re.compile(rf"(?<![^\W_])(?:{alternation})(?![^\W_])", re.IGNORECASE)
 
 
 INDIA = _words(

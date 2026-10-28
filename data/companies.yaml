@@ -109,10 +109,10 @@ companies:
     slug: qualcomm
     tier: 1
     ats: eightfold
-    ats_config: {host: app.eightfold.ai, domain: qualcomm.com}
+    ats_config: {host: careers.qualcomm.com, domain: qualcomm.com}
     careers_url: https://careers.qualcomm.com
     enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3. Note: generic app.eightfold.ai host, re-check when building the fetcher.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3. Host switched from the generic app.eightfold.ai to careers.qualcomm.com (same results).'
   - name: Intel
     slug: intel
     tier: 1
