@@ -14,6 +14,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: read  # the run-gap watchdog reads previous run times
 
 jobs:
   scrape:
@@ -31,6 +32,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: uv run python -m tracker run
 
       - name: Regenerate README

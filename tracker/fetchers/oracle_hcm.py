@@ -25,6 +25,9 @@ MAX_PAGES = 20
 KEYWORD = "intern"
 API = "https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
 JOB_URL = "https://{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{id}"
+# A company's own careers domain in front of Oracle (ats_config `public_host`) serves the same
+# page without the /hcmUI/CandidateExperience prefix.
+PUBLIC_JOB_URL = "https://{host}/en/sites/{site}/job/{id}"
 
 
 async def _query(
@@ -65,7 +68,12 @@ def find_india_location_id(item: dict) -> str | None:
 
 
 def normalize(company: Company, requisitions: list[object]) -> list[RawPosting]:
-    host, site = company.ats_config["host"], company.ats_config["site"]
+    cfg = company.ats_config
+    site = cfg["site"]
+    if cfg.get("public_host"):
+        host, job_url = cfg["public_host"], PUBLIC_JOB_URL
+    else:
+        host, job_url = cfg["host"], JOB_URL
     postings = []
     for job in requisitions:
         if not isinstance(job, dict) or job.get("Id") is None or not job.get("Title"):
@@ -84,7 +92,7 @@ def normalize(company: Company, requisitions: list[object]) -> list[RawPosting]:
                 title=str(job["Title"]).strip(),
                 locations=locations,
                 is_remote="remote" in workplace or mentions_remote(*locations),
-                url=JOB_URL.format(host=host, site=site, id=job["Id"]),
+                url=job_url.format(host=host, site=site, id=job["Id"]),
                 date_posted=parse_iso_date(job.get("PostedDate")),
             )
         )

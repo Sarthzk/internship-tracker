@@ -5,7 +5,8 @@
 # ats:         greenhouse | lever | ashby | smartrecruiters | workday | eightfold | oracle_hcm
 #              | phenom | custom | unknown
 # ats_config:  greenhouse {board_token}, lever/ashby {site}, smartrecruiters {company_id},
-#              workday {host, tenant, site}, eightfold {host, domain}, oracle_hcm {host, site}
+#              workday {host, tenant, site}, eightfold {host, domain}, oracle_hcm {host, site, public_host?},
+#              phenom {host, locale?}
 # careers_url: where students find the company's openings (also what fingerprint_platforms.py fetches)
 # enabled:     only enabled companies are fetched; requires ats != unknown
 
@@ -246,7 +247,7 @@ companies:
     slug: american-express
     tier: 1
     ats: oracle_hcm
-    ats_config: {host: egug.fa.us2.oraclecloud.com, site: CX_1}
+    ats_config: {host: egug.fa.us2.oraclecloud.com, site: CX_1, public_host: careers.americanexpress.com}
     careers_url: https://careers.americanexpress.com/en/sites/CX_1/jobs
     enabled: true
     notes: 'Oracle HCM behind careers.americanexpress.com (redirects to egug.fa.us2.oraclecloud.com). Found 2026-10-28 in the browser; cloud-checked 2026-10-28.'

@@ -159,3 +159,17 @@ async def test_http_error_raises():
         respx.get(API).respond(403)
         with pytest.raises(FetchError, match="403"):
             await run_fetch()
+
+
+def test_job_url_uses_oracle_host_by_default():
+    [p] = oracle_hcm.normalize(company(), [req(1)])
+    assert p.url == f"https://{HOST}/hcmUI/CandidateExperience/en/sites/{SITE}/job/5001"
+
+
+def test_job_url_uses_public_host_when_configured():
+    c = company().model_copy(
+        update={"ats_config": {"host": HOST, "site": SITE, "public_host": "careers.acme.com"}}
+    )
+    [p] = oracle_hcm.normalize(c, [req(1)])
+    assert p.url == f"https://careers.acme.com/en/sites/{SITE}/job/5001"
+    assert p.external_id == "5001"  # the listing id does not change

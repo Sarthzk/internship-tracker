@@ -5,7 +5,8 @@ from __future__ import annotations
 import argparse
 import asyncio
 import logging
-from collections.abc import Sequence
+import os
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
@@ -15,7 +16,7 @@ import httpx
 from tracker import fetchers, readme
 from tracker.diff import MergeResult, merge
 from tracker.filters import keep
-from tracker.health import record_fetch
+from tracker.health import record_fetch, run_gap_message
 from tracker.http import make_client
 from tracker.models import Company, HealthRecord, Listing, RawPosting, Status, load_companies
 from tracker.notify import (
@@ -33,6 +34,7 @@ from tracker.storage import load_health, load_listings, save_health, save_listin
 log = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+GITHUB_API = "https://api.github.com"
 
 
 @dataclass
@@ -194,10 +196,48 @@ def print_summary(summary: RunSummary, dry_run: bool) -> None:
         print(f"  NEW {li.company}: {li.title} ({'; '.join(li.locations)}) {li.url}")
 
 
+async def previous_run_start(
+    client: httpx.AsyncClient, env: Mapping[str, str] | None = None
+) -> datetime | None:
+    """When the last finished scrape run (other than this one) started, from the GitHub API.
+
+    Only works inside GitHub Actions (GITHUB_TOKEN, GITHUB_REPOSITORY); returns None otherwise or
+    on any error, since a missing check must never break a run."""
+    env = os.environ if env is None else env
+    token, repo = env.get("GITHUB_TOKEN", ""), env.get("GITHUB_REPOSITORY", "")
+    if not token or not repo:
+        return None
+    try:
+        response = await client.get(
+            f"{GITHUB_API}/repos/{repo}/actions/workflows/scrape.yml/runs",
+            params={"status": "completed", "per_page": 5},
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Accept": "application/vnd.github+json",
+                "X-GitHub-Api-Version": "2022-11-28",
+            },
+        )
+        response.raise_for_status()
+        runs = response.json()["workflow_runs"]
+        this_run = env.get("GITHUB_RUN_ID", "")
+        for run in runs:
+            if str(run["id"]) != this_run:
+                return datetime.fromisoformat(run["run_started_at"])
+    except (httpx.HTTPError, ValueError, KeyError, TypeError) as exc:
+        log.warning("could not check when the previous run started: %s", type(exc).__name__)
+    return None
+
+
 async def _run_cli(dry_run: bool, data_dir: Path) -> int:
     companies = load_companies(data_dir / "companies.yaml")
     async with make_client() as client:
         sender = None if dry_run else Telegram.from_env(client)
+        if sender is not None:
+            event = os.environ.get("GITHUB_EVENT_NAME", "unknown")
+            started = await previous_run_start(client)
+            gap = run_gap_message(started, datetime.now(UTC), event)
+            if gap:
+                await sender.send(gap)
         try:
             summary = await run(companies, client, data_dir, dry_run=dry_run, sender=sender)
         except Exception as exc:

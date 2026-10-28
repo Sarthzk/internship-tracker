@@ -46,3 +46,23 @@ def record_fetch(
     record.last_success = now.date()
     record.zero_since = None
     return record, True
+
+
+# The outside timer starts a run every 10 minutes; a longer gap means it stopped for a while.
+RUN_GAP_ALERT = timedelta(minutes=60)
+
+
+def run_gap_message(previous_start: datetime | None, now: datetime, event: str) -> str | None:
+    """Admin alert text when the previous run started more than RUN_GAP_ALERT ago, else None.
+
+    Only the first run after a gap sees the long gap, so this fires once per outage without
+    storing any state. `event` is how this run was started (GITHUB_EVENT_NAME)."""
+    if previous_start is None or now - previous_start <= RUN_GAP_ALERT:
+        return None
+    minutes = int((now - previous_start).total_seconds() // 60)
+    gap = f"{minutes // 60} h {minutes % 60} min" if minutes >= 60 else f"{minutes} min"
+    if event == "schedule":
+        cause = "This run came from GitHub's backup cron, so the 10-minute timer looks down."
+    else:
+        cause = "Runs are back now; check the 10-minute timer (cron-job.org) if this repeats."
+    return f"⏰ internship-tracker did not run for {gap}. {cause}"
