@@ -84,5 +84,5 @@ async def test_http_error_raises_fetch_error():
 
 
 def test_registry_has_no_fetcher_for_unbuilt_ats():
-    c = company("smartrecruiters", {"company_id": "c"})
+    c = company("phenom", {})
     assert get_fetcher(c) is None

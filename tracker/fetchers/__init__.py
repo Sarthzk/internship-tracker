@@ -9,6 +9,7 @@ from tracker.fetchers import (  # noqa: F401  (registers fetchers)
     greenhouse,
     lever,
     oracle_hcm,
+    smartrecruiters,
     workday,
 )
 from tracker.fetchers.base import FetchError, get_fetcher

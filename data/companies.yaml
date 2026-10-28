@@ -66,8 +66,8 @@ companies:
     ats: oracle_hcm
     ats_config: {host: iaziqy.fa.ocs.oraclecloud.com, site: UberCareers}
     careers_url: https://jobs.uber.com/en/
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Oracle HCM fetcher built and cloud-checked 2026-10-27 (pages every India match; no India interns open at that time).'
   - name: Salesforce
     slug: salesforce
     tier: 1
@@ -258,8 +258,8 @@ companies:
     ats: oracle_hcm
     ats_config: {host: jpmc.fa.oraclecloud.com, site: CX_1001}
     careers_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
-    enabled: false
-    notes: docs/VERIFIED_ENDPOINTS.md section B2. Fetcher is built in Phase 3.
+    enabled: true
+    notes: docs/VERIFIED_ENDPOINTS.md section B2. Oracle HCM fetcher built and cloud-checked 2026-10-27 (pages every India match; no India interns open at that time).
   - name: Morgan Stanley
     slug: morgan-stanley
     tier: 1
