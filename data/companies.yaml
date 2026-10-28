@@ -33,7 +33,7 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://www.amazon.jobs
-    enabled: false
+    enabled: true
     notes: 'Custom fetcher: docs/VERIFIED_ENDPOINTS.md section C1.'
   - name: Apple
     slug: apple
@@ -58,7 +58,7 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://www.atlassian.com/company/careers
-    enabled: false
+    enabled: true
     notes: 'Custom fetcher: docs/VERIFIED_ENDPOINTS.md section C2.'
   - name: Uber
     slug: uber
@@ -250,7 +250,7 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://higher.gs.com
-    enabled: false
+    enabled: true
     notes: 'Custom fetcher (GraphQL): docs/VERIFIED_ENDPOINTS.md section C3.'
   - name: JPMorgan Chase
     slug: jpmorgan-chase

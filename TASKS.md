@@ -168,7 +168,7 @@ Goal: ~35+ companies tracked. Build the shared fetchers that cover the most comp
 - [x] `tracker/fetchers/eightfold.py` → Microsoft, Qualcomm, PayPal, Morgan Stanley. `GET https://{host}/api/pcsx/search?domain={domain}&query=intern&location=India&start=N`, paginate with `start` (docs/VERIFIED_ENDPOINTS.md B1). Re-check Qualcomm's generic `app.eightfold.ai` host.
 - [x] `tracker/fetchers/oracle_hcm.py` → JPMorgan, Uber (+ Texas Instruments / Oracle if Phase 4 confirms). The keyword filter does not narrow results (B2): find a working location facet; if none, check these companies hourly instead of every 15 minutes.
 - [x] `tracker/fetchers/smartrecruiters.py` → Swiggy, Freshworks (re-verify both boards live first).
-- [ ] Custom fetchers in `tracker/fetchers/custom/`, registered by company slug: `amazon.py` (C1), `atlassian.py` (C2), `goldman.py` (C3, fail loudly on GraphQL schema errors).
+- [x] Custom fetchers in `tracker/fetchers/custom/`, registered by company slug: `amazon.py` (C1), `atlassian.py` (C2), `goldman.py` (C3, fail loudly on GraphQL schema errors).
 - [ ] `tracker/fetchers/phenom.py` → Adobe, Cisco, Snowflake: **only if** the browser check confirms all three are on Phenom. Otherwise Adobe becomes a custom fetcher or tier 2.
 - [ ] Record any site that blocks GitHub's servers in `docs/CUSTOM_PORTALS.md` and keep it disabled rather than working around the block.
 

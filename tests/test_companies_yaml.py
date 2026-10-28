@@ -41,7 +41,7 @@ def test_verified_entries_from_verified_endpoints_doc():
 def test_custom_and_skipped_companies():
     by_slug = {c.slug: c for c in load_companies(COMPANIES_YAML)}
     for slug in ("amazon", "atlassian", "goldman-sachs"):
-        assert by_slug[slug].ats == "custom" and not by_slug[slug].enabled
+        assert by_slug[slug].ats == "custom" and by_slug[slug].enabled
         assert "docs/VERIFIED_ENDPOINTS.md section C" in by_slug[slug].notes
     for slug in ("google", "apple"):
         assert by_slug[slug].tier == 2 and not by_slug[slug].enabled and by_slug[slug].notes
