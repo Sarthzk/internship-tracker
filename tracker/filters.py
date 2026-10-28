@@ -84,6 +84,10 @@ CATEGORY_KEYWORDS: list[tuple[Category, re.Pattern[str]]] = [
             "computer vision",
             "research scientist",
             "applied scientist",
+            "applied science",
+            "applied sciences",
+            "research sciences",
+            "research phd",
         ),
     ),
     (
@@ -105,6 +109,7 @@ CATEGORY_KEYWORDS: list[tuple[Category, re.Pattern[str]]] = [
             "electrical",
             "electronics",
             "semiconductor",
+            "hw",  # e.g. Qualcomm "Interim Engineering Intern_2027_HW"
         ),
     ),
     (

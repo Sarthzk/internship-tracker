@@ -62,6 +62,12 @@ def test_is_internship(title, expected):
         ("Software Engineer Intern", Category.swe),
         ("Backend Developer Intern", Category.swe),
         ("Summer Analyst 2027", Category.other),
+        ("Interim Engineering Intern_2027_HW", Category.hardware),
+        ("Interim Engineering Intern_2027_SW", Category.swe),
+        ("Research Sciences INTERN", Category.data_ml),
+        ("Applied Sciences INTERN", Category.data_ml),
+        ("2027 Intern - Research PhD Intern", Category.data_ml),
+        ("Security Research INTERN", Category.swe),
     ],
 )
 def test_classify_category(title, expected):
