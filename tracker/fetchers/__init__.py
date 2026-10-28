@@ -20,6 +20,7 @@ from tracker.fetchers.custom import (  # noqa: F401  (registers fetchers)
     atlassian,
     barclays,
     goldman,
+    google,
     rippling,
 )
 
