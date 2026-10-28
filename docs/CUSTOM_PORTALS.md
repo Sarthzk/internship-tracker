@@ -47,3 +47,28 @@ Notes: anything unusual (anti-bot headers, regional sub-sites, etc.).
 ---
 
 <!-- Add company sections below. -->
+
+## Phase 4 findings (2026-10-28)
+
+Resolved with existing fetchers (config only, cloud-checked, enabled): American Express (Oracle HCM,
+`egug.fa.us2.oraclecloud.com` / `CX_1`; the careers domain redirects there), Oracle (Oracle HCM
+`eeho.fa.us2.oraclecloud.com` / `CX_45001`), Texas Instruments (Oracle HCM `edbz.fa.us2.oraclecloud.com`
+/ `CX`), Salesforce (Workday `salesforce.wd12` / `External_Career_Site`), Cisco (Workday `cisco.wd5` /
+`Cisco_Careers`), ServiceNow (SmartRecruiters `ServiceNow`; the careers site itself sits behind a
+Cloudflare challenge, which we do not touch).
+
+Found, but needs a new fetcher (not built, waiting for keep/drop):
+
+| Company | Platform | Public JSON? | Notes |
+|---|---|---|---|
+| AMD | iCIMS "Jibe" | yes: `GET careers.amd.com/api/jobs?keywords=intern&page=N&limit=100` | `location=` filter does not take "India"; filter on `country`/`full_location`. 106 intern jobs worldwide = 2 requests. Fields: `req_id`, `title`, `country`, `full_location`, `posted_date`, `canonical_url`. 0 India interns right now. |
+| Rippling | own ATS `ats.rippling.com` | yes: `GET ats.rippling.com/api/v2/board/rippling/jobs?searchQuery=intern&page=0&pageSize=100` | `items[].locations[].countryCode`, `url`, `name`. 9 intern jobs worldwide. |
+| Adobe, Snowflake | Phenom | `POST /widgets` (body not captured) | Only 2 companies, below the "3+" threshold for a Phenom fetcher. |
+| Intuit, Barclays | Radancy TalentBrew | HTML fragments only | Needs HTML parsing; fragile. |
+| Nutanix | Umbraco job board (`/en/jobs/`) | HTML only | Server-rendered; fragile. |
+
+Not resolved: Walmart (`careers.walmart.com` is the US store site and ignores intern/India; the Global
+Tech India board was not found; the guessed Workday tenant returns 422), Cohesity (403 to our
+requests, not worked around), Arcesium (429 on the first request), Persistent Systems (custom Angular
+app, no feed seen), and not yet looked at: D. E. Shaw, AlphaGrep, Quadeye, Flipkart, Zomato (Eternal),
+PhonePe, Zepto, Postman, Zoho, Media.net, Juspay.
