@@ -95,3 +95,20 @@ unexpected layout raises). Both fail loudly if the page layout changes.
 **Meta: not feasible.** `metacareers.com` loads jobs through a Facebook "Comet" GraphQL app that needs
 per-session tokens (`lsd`, `doc_id`) taken from the page and rotated often. No stable public endpoint, so Meta
 is not in the company list. Check https://www.metacareers.com/jobs manually (filter Internship + India).
+
+### Update 2026-10-28 (final Phase 4 pass)
+
+Enabled, cloud-checked: **Quadeye** (`/api/zoho-recruit/job-openings`; posting pages on
+`quadeye.zohorecruit.in/jobs/Careers/{id}`), **Juspay** (`joinus.juspay.in/api/careerJobOpening?limit=1000`;
+interns are marked by `job_type: Intern`, so " Intern" is appended to such titles; apply link
+`joinus.juspay.in/?jobId={job_id}`), **AlphaGrep** (Greenhouse board `alphagrepsecurities`, found in
+`/assets/greenhouse-legacy.js`), **PhonePe** (SmartRecruiters `PHONEPELIMITED`), **Postman** (Workday
+`postman.wd108` / `careers`), **Adobe** and **Snowflake** (Phenom `POST /widgets`; a generic Phenom fetcher was
+built for just two companies, below the usual 3+ bar, because Adobe is a priority; Snowflake lists no India
+postings right now).
+
+Looked at and skipped (reason): D. E. Shaw (HTML list, titles carry the location, only US interns open; could be
+scraped later), Flipkart (its own page is a static mock; the real board is TurboHire behind a token handshake and has ~11
+non-tech roles), Zepto (Darwinbox, 1 open job), Zoho (2 open roles, support/sales), Media.net (5 positions, none
+engineering), Zomato/Eternal (referral-only, no public listings), Intuit and Nutanix (HTML-only portals), Walmart,
+Cohesity, Arcesium (owner said ignore), Persistent (blocked), Meta (tokens).

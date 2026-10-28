@@ -48,8 +48,8 @@ companies:
     ats: phenom
     ats_config: {host: careers.adobe.com}
     careers_url: https://careers.adobe.com
-    enabled: false
-    notes: 'Phenom fetcher (POST /widgets, India + intern). Built with only 2 Phenom companies (Adobe, Snowflake), below the usual 3+ bar, because Adobe is a priority. Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Phenom fetcher (POST /widgets, India + intern). Built with only 2 Phenom companies (Adobe, Snowflake), below the usual 3+ bar, because Adobe is a priority. Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: Atlassian
     slug: atlassian
     tier: 1
@@ -192,8 +192,8 @@ companies:
     ats: phenom
     ats_config: {host: careers.snowflake.com}
     careers_url: https://careers.snowflake.com
-    enabled: false
-    notes: 'Phenom (POST /widgets), confirmed 2026-10-28; no India postings listed at all right now. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Phenom (POST /widgets), confirmed 2026-10-28; no India postings listed at all right now. Cloud-checked 2026-10-28.'
   - name: Stripe
     slug: stripe
     tier: 1
@@ -310,16 +310,16 @@ companies:
     ats: greenhouse
     ats_config: {board_token: alphagrepsecurities}
     careers_url: https://alpha-grep.com/career/
-    enabled: false
-    notes: 'Greenhouse board alphagrepsecurities (found in the career page script). Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Greenhouse board alphagrepsecurities (found in the career page script). Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: Quadeye
     slug: quadeye
     tier: 1
     ats: custom
     ats_config: {}
     careers_url: https://www.quadeye.com/jobs
-    enabled: false
-    notes: 'Custom fetcher: /api/zoho-recruit/job-openings JSON; posting pages on quadeye.zohorecruit.in. Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Custom fetcher: /api/zoho-recruit/job-openings JSON; posting pages on quadeye.zohorecruit.in. Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: Barclays
     slug: barclays
     tier: 1
@@ -375,8 +375,8 @@ companies:
     ats: smartrecruiters
     ats_config: {company_id: PHONEPELIMITED}
     careers_url: https://www.phonepe.com/careers/job-openings/
-    enabled: false
-    notes: 'SmartRecruiters PHONEPELIMITED (job links on the openings page). Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'SmartRecruiters PHONEPELIMITED (job links on the openings page). Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: Meesho
     slug: meesho
     tier: 2
@@ -406,8 +406,8 @@ companies:
     ats: workday
     ats_config: {host: postman.wd108.myworkdayjobs.com, tenant: postman, site: careers}
     careers_url: https://postman.wd108.myworkdayjobs.com/careers
-    enabled: false
-    notes: 'Workday (job links on the open-positions page). Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday (job links on the open-positions page). Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: BrowserStack
     slug: browserstack
     tier: 2
@@ -453,8 +453,8 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://juspay.io/careers
-    enabled: false
-    notes: 'Custom fetcher: joinus.juspay.in/api/careerJobOpening JSON; interns marked by job_type. Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Custom fetcher: joinus.juspay.in/api/careerJobOpening JSON; interns marked by job_type. Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: InMobi
     slug: inmobi
     tier: 2

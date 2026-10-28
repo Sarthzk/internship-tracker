@@ -169,8 +169,8 @@ Goal: ~35+ companies tracked. Build the shared fetchers that cover the most comp
 - [x] `tracker/fetchers/oracle_hcm.py` → JPMorgan, Uber (+ Texas Instruments / Oracle if Phase 4 confirms). The keyword filter does not narrow results (B2): find a working location facet; if none, check these companies hourly instead of every 15 minutes.
 - [x] `tracker/fetchers/smartrecruiters.py` → Swiggy, Freshworks (re-verify both boards live first).
 - [x] Custom fetchers in `tracker/fetchers/custom/`, registered by company slug: `amazon.py` (C1), `atlassian.py` (C2), `goldman.py` (C3, fail loudly on GraphQL schema errors).
-- [ ] `tracker/fetchers/phenom.py` → Adobe, Cisco, Snowflake: **only if** the browser check confirms all three are on Phenom. Otherwise Adobe becomes a custom fetcher or tier 2.
-- [ ] Record any site that blocks GitHub's servers in `docs/CUSTOM_PORTALS.md` and keep it disabled rather than working around the block.
+- [x] (done for Adobe + Snowflake only; Cisco is Workday) `tracker/fetchers/phenom.py` → Adobe, Cisco, Snowflake: **only if** the browser check confirms all three are on Phenom. Otherwise Adobe becomes a custom fetcher or tier 2.
+- [x] Record any site that blocks GitHub's servers in `docs/CUSTOM_PORTALS.md` and keep it disabled rather than working around the block.
 
 ### Acceptance criteria
 - Every enabled company fetches successfully from GitHub Actions.
@@ -183,8 +183,8 @@ Goal: ~35+ companies tracked. Build the shared fetchers that cover the most comp
 Goal: every still-unknown company is either covered or consciously dropped.
 
 ### Tasks
-- [ ] For each `ats: unknown` company, open its careers page in the built-in browser (read-only), watch the network requests for the job-search API, and write the findings into `docs/CUSTOM_PORTALS.md` (endpoint, method, request shape, pagination, India filter, notes). Priority: tier 1 first. Includes Barclays and Persistent Systems, and confirming Cisco / Snowflake (Phenom?), Texas Instruments / Oracle (Oracle HCM?), and AMD (iCIMS).
-- [ ] Companies on an already-supported platform: add the `ats_config`, cloud-check, enable.
+- [x] For each `ats: unknown` company, open its careers page in the built-in browser (read-only), watch the network requests for the job-search API, and write the findings into `docs/CUSTOM_PORTALS.md` (endpoint, method, request shape, pagination, India filter, notes). Priority: tier 1 first. Includes Barclays and Persistent Systems, and confirming Cisco / Snowflake (Phenom?), Texas Instruments / Oracle (Oracle HCM?), and AMD (iCIMS).
+- [x] Companies on an already-supported platform: add the `ats_config`, cloud-check, enable.
 - [ ] Others: a small custom fetcher each, **at most ~8 custom fetchers in total** (they break most often). The rest are dropped or parked as tier 2 with a note.
 
 ### 👤 Human tasks
