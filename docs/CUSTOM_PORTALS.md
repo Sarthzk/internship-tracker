@@ -72,3 +72,17 @@ Tech India board was not found; the guessed Workday tenant returns 422), Cohesit
 requests, not worked around), Arcesium (429 on the first request), Persistent Systems (custom Angular
 app, no feed seen), and not yet looked at: D. E. Shaw, AlphaGrep, Quadeye, Flipkart, Zomato (Eternal),
 PhonePe, Zepto, Postman, Zoho, Media.net, Juspay.
+
+### Update 2026-10-28 (later)
+
+Built and enabled (custom fetchers, cloud-checked): AMD, Rippling, Barclays (TalentBrew results HTML; the
+parsed count must equal the page's own total or the fetch fails).
+
+**Persistent Systems: blocked, not enabled.** `careers.persistent.com` is a Zwayam site. The job list comes from
+`POST https://public.zwayam.com/jobs/search` (multipart form: `filterCri` = JSON such as
+`{"paginationStartNo":0,"selectedCall":"sort","sortCriteria":{"name":"modifiedDate","isAscending":false},"anyOfTheseWords":"intern"}`,
+`domain=careers.persistent.com`, `companyId=MTYzNDQ=`; jobs under `data.data[]._source`: `id`, `jobTitle`,
+`location`, `jobUrl`, `modifiedDate`). Scripted clients (curl, httpx) get their connection reset (Akamai bot
+protection), so we do not call it. The public per-job page URL was also not found (the Apply button opens a
+profile chatbot), so a trustworthy link cannot be built. Needs the owner's call: keep checking by hand, or ask
+Persistent's recruiters for a feed.

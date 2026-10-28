@@ -130,8 +130,8 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://careers.amd.com
-    enabled: false
-    notes: 'Custom fetcher: iCIMS Jibe /api/jobs. Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Custom fetcher: iCIMS Jibe /api/jobs. Found 2026-10-28; cloud-checked 2026-10-28.'
     notes: 'Uses iCIMS (internal-amd.icims.com), which has no fetcher. Decide in Phase 4.'
   - name: Texas Instruments
     slug: texas-instruments
@@ -218,8 +218,8 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://ats.rippling.com/rippling/jobs
-    enabled: false
-    notes: 'Custom fetcher: ats.rippling.com board API. Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Custom fetcher: ats.rippling.com board API. Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: PayPal
     slug: paypal
     tier: 1
@@ -326,8 +326,8 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://search.jobs.barclays
-    enabled: false
-    notes: 'Custom fetcher: Radancy TalentBrew results HTML. Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Custom fetcher: Radancy TalentBrew results HTML. Found 2026-10-28; cloud-checked 2026-10-28.'
     notes: 'Added 2026-10-27; checked in the Phase 4 browser pass.'
   - name: Flipkart
     slug: flipkart
