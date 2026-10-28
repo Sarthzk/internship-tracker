@@ -9,6 +9,7 @@ from tracker.fetchers import (  # noqa: F401  (registers fetchers)
     greenhouse,
     lever,
     oracle_hcm,
+    phenom,
     smartrecruiters,
     workday,
 )

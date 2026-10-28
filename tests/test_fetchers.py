@@ -83,6 +83,6 @@ async def test_http_error_raises_fetch_error():
                 await get_fetcher(c)(c, client)
 
 
-def test_registry_has_no_fetcher_for_unbuilt_ats():
-    c = company("phenom", {})
+def test_registry_has_no_fetcher_for_unknown_ats():
+    c = company("unknown", {})
     assert get_fetcher(c) is None
