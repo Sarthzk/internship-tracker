@@ -13,5 +13,6 @@ from tracker.fetchers import (  # noqa: F401  (registers fetchers)
     workday,
 )
 from tracker.fetchers.base import FetchError, get_fetcher
+from tracker.fetchers.custom import amazon, atlassian, goldman  # noqa: F401  (registers fetchers)
 
 __all__ = ["FetchError", "get_fetcher"]

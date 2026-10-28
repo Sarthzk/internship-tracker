@@ -80,6 +80,7 @@ def test_classify_category(title, expected):
         ("Sales Development Intern", False),
         ("Finance Operations Intern", False),
         ("Video Editor Intern", False),
+        ("Financial Analyst Intern", False),
         ("Interim Patent Intern", False),
         ("Social Media Intern", False),
     ],

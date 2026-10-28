@@ -187,6 +187,7 @@ NON_TECH = _words(
     "customer success",
     "customer support",
     "finance",
+    "financial",
     "accounting",
     "accountant",
     "audit",
