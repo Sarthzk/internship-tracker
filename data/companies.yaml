@@ -16,8 +16,8 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://www.google.com/about/careers/applications/jobs/results/?q=intern&location=India
-    enabled: false
-    notes: 'Custom fetcher: positional data embedded in the results page (ds:1); fragile, fails loudly. Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Custom fetcher: positional data embedded in the results page (ds:1); fragile, fails loudly. Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: Microsoft
     slug: microsoft
     tier: 1
@@ -40,8 +40,8 @@ companies:
     ats: custom
     ats_config: {}
     careers_url: https://jobs.apple.com/en-in/search?search=intern&location=india-INDC
-    enabled: false
-    notes: 'Custom fetcher: results are embedded as JSON in the search page. Found 2026-10-28; not yet cloud-checked.'
+    enabled: true
+    notes: 'Custom fetcher: results are embedded as JSON in the search page. Found 2026-10-28; cloud-checked 2026-10-28.'
   - name: Adobe
     slug: adobe
     tier: 1

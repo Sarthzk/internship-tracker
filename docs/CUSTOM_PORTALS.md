@@ -86,3 +86,12 @@ parsed count must equal the page's own total or the fetch fails).
 protection), so we do not call it. The public per-job page URL was also not found (the Apply button opens a
 profile chatbot), so a trustworthy link cannot be built. Needs the owner's call: keep checking by hand, or ask
 Persistent's recruiters for a feed.
+
+Also built and enabled (cloud-checked 2026-10-28): **Apple** (the search page embeds its results as JSON in
+`window.__staticRouterHydrationData`; `location=india-INDC&search=intern`, 20 per page, ~5 pages) and
+**Google** (`ds:1` data block on the results page, `q=intern&location=India`; positional arrays, so any
+unexpected layout raises). Both fail loudly if the page layout changes.
+
+**Meta: not feasible.** `metacareers.com` loads jobs through a Facebook "Comet" GraphQL app that needs
+per-session tokens (`lsd`, `doc_id`) taken from the page and rotated often. No stable public endpoint, so Meta
+is not in the company list. Check https://www.metacareers.com/jobs manually (filter Internship + India).
