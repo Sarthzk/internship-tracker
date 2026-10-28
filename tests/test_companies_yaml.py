@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from tracker.fetchers import get_fetcher
 from tracker.models import load_companies
 
 COMPANIES_YAML = Path(__file__).resolve().parent.parent / "data" / "companies.yaml"
@@ -47,10 +48,10 @@ def test_custom_and_skipped_companies():
 
 
 def test_only_companies_with_a_built_fetcher_type_are_enabled():
-    # Phase 1 builds greenhouse / lever / ashby; everything else stays disabled until Phase 3.
+    # A company is only switched on once its fetcher exists (and passed the cloud check).
     for c in load_companies(COMPANIES_YAML):
         if c.enabled:
-            assert c.ats in {"greenhouse", "lever", "ashby"}, c.slug
+            assert get_fetcher(c) is not None, c.slug
 
 
 def test_unresolved_companies_are_the_section_e_list():
@@ -74,7 +75,8 @@ def test_platform_report_verified_companies():
     }
     for slug, ats in expected.items():
         assert by_slug[slug].ats == ats, slug
-        assert not by_slug[slug].enabled, slug
+        if get_fetcher(by_slug[slug]) is None:
+            assert not by_slug[slug].enabled, slug
 
 
 def test_removed_companies_are_gone():

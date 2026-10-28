@@ -103,8 +103,8 @@ companies:
     ats: workday
     ats_config: {host: nvidia.wd5.myworkdayjobs.com, tenant: nvidia, site: NVIDIAExternalCareerSite}
     careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
-    enabled: false
-    notes: 'Endpoint seen in browser: /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs. Fetcher is built in Phase 3.'
+    enabled: true
+    notes: 'Endpoint seen in browser: /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs. Workday fetcher built and cloud-checked 2026-10-27.'
   - name: Qualcomm
     slug: qualcomm
     tier: 1
@@ -119,8 +119,8 @@ companies:
     ats: workday
     ats_config: {host: intel.wd1.myworkdayjobs.com, tenant: intel, site: External}
     careers_url: https://intel.wd1.myworkdayjobs.com/External
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27.'
   - name: AMD
     slug: amd
     tier: 1
@@ -227,16 +227,16 @@ companies:
     ats: workday
     ats_config: {host: visa.wd5.myworkdayjobs.com, tenant: visa, site: Visa}
     careers_url: https://visa.wd5.myworkdayjobs.com/Visa
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27.'
   - name: Mastercard
     slug: mastercard
     tier: 1
     ats: workday
     ats_config: {host: mastercard.wd1.myworkdayjobs.com, tenant: mastercard, site: CorporateCareers}
     careers_url: https://careers.mastercard.com
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3. Careers site also shows Phenom; Workday is the data source.'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27. Careers site also shows Phenom; Workday is the data source.'
   - name: American Express
     slug: american-express
     tier: 1
@@ -404,8 +404,8 @@ companies:
     ats: workday
     ats_config: {host: browserstack.wd3.myworkdayjobs.com, tenant: browserstack, site: External}
     careers_url: https://browserstack.com/careers
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27.'
   - name: Freshworks
     slug: freshworks
     tier: 2
@@ -428,8 +428,8 @@ companies:
     ats: workday
     ats_config: {host: sprinklr.wd1.myworkdayjobs.com, tenant: sprinklr, site: careers}
     careers_url: https://sprinklr.com/careers
-    enabled: false
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Fetcher is built in Phase 3.'
+    enabled: true
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27.'
   - name: Media.net
     slug: media-net
     tier: 2
