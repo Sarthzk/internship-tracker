@@ -12,11 +12,13 @@ import logging
 import os
 from collections.abc import Iterable, Mapping
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import Protocol
 
 import httpx
 
 from tracker.models import HealthRecord, Listing
+from tracker.readme import IST
 
 log = logging.getLogger(__name__)
 
@@ -180,3 +182,52 @@ async def deliver_health_alerts(
 
 def format_crash(error: BaseException) -> str:
     return f"🚨 internship-tracker run crashed: {type(error).__name__}: {str(error)[:300]}"
+
+
+MAX_ALERT_MESSAGES = 10  # per run; anything beyond stays un-notified and goes out next run
+DIGEST_HOUR_IST = 9
+
+
+def digest_due(now: datetime, previous_start: datetime | None) -> bool:
+    """True for the first run of the day inside 09:00-09:09 IST.
+
+    No stored state: with a run every 10 minutes the window holds one or two runs, so the digest
+    is skipped when the previous run already started inside this window or later."""
+    local = now.astimezone(IST)
+    if local.hour != DIGEST_HOUR_IST or local.minute >= 10:
+        return False
+    window_start = local.replace(minute=0, second=0, microsecond=0)
+    return previous_start is None or previous_start.astimezone(IST) < window_start
+
+
+def format_churn(churn: Mapping[str, tuple[int, int]]) -> str:
+    """One admin message for companies whose listings were replaced wholesale (name -> (new, gone))."""
+    lines = [
+        f"• {name}: {new} new while {gone} known ones vanished"
+        for name, (new, gone) in sorted(churn.items())
+    ]
+    return (
+        "⚠️ Possible site change, so these were NOT sent as new internships "
+        "(they are in the README):\n" + "\n".join(lines)
+    )
+
+
+def format_recovered() -> str:
+    return "✅ internship-tracker is running normally again."
+
+
+def format_daily_digest(
+    enabled: int,
+    failing: Mapping[str, str],
+    open_count: int,
+    new_last_day: int,
+) -> str:
+    """The 9 AM status message: reassurance that the tracker is alive, and what is wrong."""
+    lines = [
+        "☀️ Daily report",
+        f"{enabled - len(failing)} of {enabled} companies OK",
+    ]
+    for name, error in sorted(failing.items()):
+        lines.append(f"  ⚠️ {name}: {error[:80]}")
+    lines.append(f"{open_count} open India internships, {new_last_day} new in the last 24 hours")
+    return "\n".join(lines)

@@ -6,7 +6,7 @@ import respx
 
 from tracker.health import RUN_GAP_ALERT, run_gap_message
 from tracker.http import make_client
-from tracker.main import GITHUB_API, previous_run_start
+from tracker.main import GITHUB_API, PreviousRun, previous_run
 
 NOW = datetime(2026, 10, 29, 12, 0, tzinfo=UTC)
 ENV = {"GITHUB_TOKEN": "ghs_s3cr3t", "GITHUB_REPOSITORY": "me/tracker", "GITHUB_RUN_ID": "99"}
@@ -34,7 +34,7 @@ def test_alert_after_long_gap_names_the_cause():
 
 async def lookup(env=ENV):
     async with make_client(delay=0, backoff=0) as client:
-        return await previous_run_start(client, env)
+        return await previous_run(client, env)
 
 
 async def test_skipped_outside_github_actions():
@@ -45,13 +45,13 @@ async def test_returns_start_of_previous_run_skipping_this_one():
     runs = {
         "workflow_runs": [
             {"id": 99, "run_started_at": "2026-10-29T11:58:00Z"},
-            {"id": 98, "run_started_at": "2026-10-29T11:48:00Z"},
+            {"id": 98, "run_started_at": "2026-10-29T11:48:00Z", "conclusion": "success"},
         ]
     }
     with respx.mock:
         route = respx.get(RUNS_URL).respond(200, json=runs)
         started = await lookup()
-    assert started == datetime(2026, 10, 29, 11, 48, tzinfo=UTC)
+    assert started == PreviousRun(datetime(2026, 10, 29, 11, 48, tzinfo=UTC), "success")
     request = route.calls.last.request
     assert request.headers["Authorization"] == "Bearer ghs_s3cr3t"
     assert request.url.params["status"] == "completed"

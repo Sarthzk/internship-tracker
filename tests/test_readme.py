@@ -181,3 +181,62 @@ def snapshot_listings() -> list[Listing]:
 
 def test_snapshot_of_open_tables():
     assert render_listings(snapshot_listings(), NOW) == SNAPSHOT.read_text(encoding="utf-8")
+
+
+# --- status page ---
+
+
+def company(slug: str, name: str, enabled: bool = True, tier: int = 1):
+    from tracker.models import Company
+
+    ats = "greenhouse" if enabled else "unknown"
+    cfg = {"board_token": slug} if enabled else {}
+    return Company(name=name, slug=slug, tier=tier, ats=ats, ats_config=cfg, enabled=enabled)
+
+
+def test_status_page_orders_failing_first_and_counts_open_internships():
+    from tracker.models import HealthRecord
+    from tracker.readme import render_status
+
+    companies = [
+        company("zed", "Zed"),
+        company("acme", "Acme"),
+        company("fresh", "Fresh"),
+        company("off", "Off", enabled=False),
+        company("bad", "Bad|Co"),
+    ]
+    health = {
+        "zed": HealthRecord(company_slug="zed", last_success=date(2026, 10, 29)),
+        "acme": HealthRecord(company_slug="acme", last_success=date(2026, 10, 28)),
+        "bad": HealthRecord(
+            company_slug="bad",
+            last_success=date(2026, 10, 27),
+            consecutive_failures=3,
+            last_error="FetchError: HTTP 429 from bad.example",
+        ),
+    }
+    listings = [listing(1, company_slug="zed", id="lever:zed:1"), closed(2, 3)]
+    text = render_status(companies, health, listings, NOW)
+    assert (
+        "**4 companies tracked** · 2 OK · 1 failing · 1 not tracked · Last updated: 2026-10-29"
+        in text
+    )
+    rows = [line for line in text.splitlines() if line.startswith("| ") and "Company" not in line]
+    names = [row.split(" | ")[0].removeprefix("| ") for row in rows]
+    assert names == ["Bad\\|Co", "Acme", "Zed", "Fresh", "Off"]
+    assert "⚠️ failing for 3 runs: FetchError: HTTP 429 from bad.example" in rows[0]
+    assert "| Zed | greenhouse | ✅ OK | 2026-10-29 | 1 |" in rows[2]
+    assert "⏳ waiting for the first run" in rows[3] and "⏸ not tracked" in rows[4]
+
+
+def test_generate_writes_status_page_when_companies_exist(tmp_path: Path):
+    data = tmp_path / "data"
+    save_listings(data / "listings.json", [listing(1)])
+    (data / "companies.yaml").write_text(
+        "companies:\n  - {name: Acme, slug: acme, tier: 1, ats: greenhouse,"
+        " ats_config: {board_token: acme}, enabled: true}\n",
+        encoding="utf-8",
+    )
+    assert readme.generate(data, tmp_path, NOW) is True
+    assert "| Acme | greenhouse |" in (tmp_path / "STATUS.md").read_text(encoding="utf-8")
+    assert readme.generate(data, tmp_path, NOW + timedelta(hours=2)) is False

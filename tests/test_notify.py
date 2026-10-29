@@ -216,3 +216,25 @@ async def test_from_env_skips_with_warning_when_secrets_missing(caplog):
         assert Telegram.from_env(client, {"TELEGRAM_BOT_TOKEN": "t"}) is None
         assert Telegram.from_env(client, {"TELEGRAM_BOT_TOKEN": "t", "TELEGRAM_CHAT_ID": "1"})
     assert "Telegram alerts are skipped" in caplog.text
+
+
+# --- guard and digest messages ---
+
+
+def test_digest_lists_failures_and_totals():
+    from tracker.notify import format_daily_digest
+
+    text = format_daily_digest(
+        100, {"Microsoft": "FetchError: HTTP 429 from apply.careers.microsoft.com"}, 35, 4
+    )
+    assert "99 of 100 companies OK" in text and "Microsoft: FetchError" in text
+    assert "35 open India internships, 4 new in the last 24 hours" in text
+    assert "⚠️" not in format_daily_digest(100, {}, 0, 0)
+
+
+def test_churn_and_recovered_messages():
+    from tracker.notify import format_churn, format_recovered
+
+    text = format_churn({"Acme": (6, 7)})
+    assert "Acme: 6 new while 7 known ones vanished" in text and "NOT sent" in text
+    assert "running normally" in format_recovered()

@@ -1,4 +1,4 @@
-"""README + archive generation.
+"""README, archive and status page generation.
 
 Everything here is a pure function of the listings and `now`, so a quiet run reproduces the
 same text. The only things that change without a real change are the "last updated" date and
@@ -7,12 +7,13 @@ the Age column, both at most once a day.
 
 from __future__ import annotations
 
+from collections import Counter
 from collections.abc import Iterable
 from datetime import UTC, date, datetime, timedelta, timezone
 from pathlib import Path
 
-from tracker.models import Category, Listing, Status
-from tracker.storage import load_listings
+from tracker.models import Category, Company, HealthRecord, Listing, Status, load_companies
+from tracker.storage import load_health, load_listings
 
 START = "<!-- LISTINGS:START -->"
 END = "<!-- LISTINGS:END -->"
@@ -167,6 +168,65 @@ def render_archive(listings: Iterable[Listing], now: datetime) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
+STATUS_HEADER = "| Company | Platform | Status | Last success | Open internships |"
+
+
+def _status(company: Company, record: HealthRecord | None) -> tuple[int, str]:
+    """(sort rank, text): failing companies first, then OK, waiting, and not tracked."""
+    if not company.enabled:
+        return 3, "⏸ not tracked"
+    if record is None or record.last_success is None and record.consecutive_failures == 0:
+        return 2, "⏳ waiting for the first run"
+    if record.consecutive_failures:
+        runs = _count(record.consecutive_failures, "run")
+        reason = f": {cell(record.last_error)[:70]}" if record.last_error else ""
+        return 0, f"⚠️ failing for {runs}{reason}"
+    return 1, "✅ OK"
+
+
+def render_status(
+    companies: Iterable[Company],
+    health: dict[str, HealthRecord],
+    listings: Iterable[Listing],
+    now: datetime,
+) -> str:
+    """The whole STATUS.md: one row per company, so anyone can see what is being watched."""
+    open_by_company = Counter(li.company_slug for li in listings if li.status == Status.open)
+    rows = []
+    for company in companies:
+        rank, text = _status(company, health.get(company.slug))
+        record = health.get(company.slug)
+        last = record.last_success.isoformat() if record and record.last_success else NONE
+        rows.append(
+            (
+                (rank, company.tier, company.name.lower()),
+                (
+                    f"| {cell(company.name)} | {company.ats} | {text} | {last} | "
+                    f"{open_by_company[company.slug]} |"
+                ),
+            )
+        )
+    rows.sort(key=lambda row: row[0])
+    ranks = Counter(key[0] for key, _ in rows)
+    lines = [
+        "# Tracker status",
+        "",
+        (
+            "Live health of every company the tracker watches, refreshed on each run. "
+            "[Back to the open internships](README.md)."
+        ),
+        "",
+        (
+            f"**{ranks[0] + ranks[1] + ranks[2]} companies tracked** · {ranks[1]} OK · "
+            f"{ranks[0]} failing · {ranks[3]} not tracked "
+            f"· Last updated: {_local(now).isoformat()} (IST)"
+        ),
+        "",
+        *_table([row for _, row in rows], STATUS_HEADER),
+    ]
+    return "\n".join(lines) + "\n"
+
+
 def replace_section(readme: str, section: str) -> str:
     """Put `section` between the markers, leaving every other character of `readme` alone.
 
@@ -195,4 +255,10 @@ def generate(data_dir: Path, root: Path, now: datetime | None = None) -> bool:
         readme_path, replace_section(current, render_listings(listings, now))
     )
     changed |= write_if_changed(root / "README-archive.md", render_archive(listings, now))
+    companies_path = data_dir / "companies.yaml"
+    if companies_path.exists():
+        status = render_status(
+            load_companies(companies_path), load_health(data_dir / "health.json"), listings, now
+        )
+        changed |= write_if_changed(root / "STATUS.md", status)
     return changed

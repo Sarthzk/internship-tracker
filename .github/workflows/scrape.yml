@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
+    inputs:
+      simulate_failure:
+        description: "Demo only: fail on purpose to show the failure alert"
+        type: boolean
+        default: false
 
 concurrency:
   group: scrape
@@ -27,8 +32,17 @@ jobs:
 
       - run: uv sync --frozen
 
+      # Bad data in the repo stops the run before anything is sent or committed.
+      - name: Validate data
+        run: uv run python -m tracker validate
+
       # Missing secrets are fine: the run still updates data/, it just skips Telegram.
+      - name: Simulated failure (demo only)
+        if: ${{ inputs.simulate_failure }}
+        run: exit 1
+
       - name: Run tracker
+        id: tracker
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -42,10 +56,28 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data README.md README-archive.md
+          git add data README.md README-archive.md STATUS.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
           git commit -m "chore(data): update listings"
           git push || { git pull --rebase && git push; }
+
+      # Covers failures Python never sees (checkout, install, validation, commit). When the tracker
+      # step itself failed it already sent its own crash message. Only the first failure alerts.
+      - name: Alert if the workflow itself failed
+        if: failure() && steps.tracker.outcome != 'failure'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then exit 0; fi
+          previous=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/scrape.yml/runs?status=completed&per_page=3" \
+            | jq -r --argjson id "$GITHUB_RUN_ID" '[.workflow_runs[] | select(.id != $id)][0].conclusion // ""' || true)
+          if [ "$previous" = "failure" ]; then echo "Previous run also failed; already alerted."; exit 0; fi
+          curl -s -o /dev/null --max-time 20 -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=🚨 internship-tracker: the workflow failed before the tracker could finish (install, data check or commit). See the Actions tab." || true

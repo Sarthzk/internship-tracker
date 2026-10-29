@@ -8,7 +8,7 @@ import logging
 import os
 from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 import httpx
@@ -16,25 +16,33 @@ import httpx
 from tracker import fetchers, readme
 from tracker.diff import MergeResult, merge
 from tracker.filters import keep
-from tracker.health import record_fetch, run_gap_message
+from tracker.guards import find_id_churn
+from tracker.health import is_recovery, record_fetch, run_gap_message, should_send_crash_alert
 from tracker.http import make_client
 from tracker.models import Company, HealthRecord, Listing, RawPosting, Status, load_companies
 from tracker.notify import (
+    MAX_ALERT_MESSAGES,
     Sender,
     Telegram,
     deliver,
     deliver_health_alerts,
+    digest_due,
+    format_churn,
     format_crash,
+    format_daily_digest,
+    format_recovered,
     format_tracking_started,
     plan_alerts,
     plan_health_alerts,
 )
 from tracker.storage import load_health, load_listings, save_health, save_listings
+from tracker.validate import DataError, check_files, check_listings
 
 log = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 GITHUB_API = "https://api.github.com"
+FETCH_TIMEOUT = 120.0  # seconds one company may take, including paging and retries
 
 
 @dataclass
@@ -58,13 +66,21 @@ class RunSummary:
         return sum(1 for li in self.merge.listings if li.status == "open")
 
 
-async def fetch_company(company: Company, client: httpx.AsyncClient) -> FetchOutcome:
-    """Never raises: one company failing must not crash the run (CLAUDE.md rule 8)."""
+async def fetch_company(
+    company: Company, client: httpx.AsyncClient, timeout: float = FETCH_TIMEOUT
+) -> FetchOutcome:
+    """Never raises: one company failing must not crash the run (CLAUDE.md rule 8).
+
+    A company that takes longer than `timeout` seconds counts as failed, so one stuck site
+    cannot use up the whole run's time limit."""
     fetch = fetchers.get_fetcher(company)
     if fetch is None:
         return FetchOutcome(company, error=f"no fetcher for ats={company.ats}")
     try:
-        return FetchOutcome(company, postings=await fetch(company, client))
+        postings = await asyncio.wait_for(fetch(company, client), timeout)
+        return FetchOutcome(company, postings=postings)
+    except TimeoutError:
+        return FetchOutcome(company, error=f"TimeoutError: no answer within {timeout:.0f}s")
     except Exception as exc:  # noqa: BLE001 - deliberately broad, see docstring
         # Message only: httpx errors can embed request URLs.
         return FetchOutcome(company, error=f"{type(exc).__name__}: {exc}"[:300])
@@ -135,6 +151,9 @@ async def run(
             log.warning("%s: fetch failed: %s", slug, record.last_error)
 
     summary.merge = merge(existing, fetched, succeeded, now)
+    errors, _ = check_listings(summary.merge.listings, {c.slug for c in companies})
+    if errors:  # before anything is sent or saved
+        raise DataError("; ".join(errors[:5]))
     if not dry_run:
         await _notify(summary, health, enabled, first_fetch, sender, pause)
         changed = save_listings(listings_path, summary.merge.listings)
@@ -165,11 +184,24 @@ async def _notify(
         if sender is not None and not await sender.send(format_tracking_started(counts)):
             log.warning("could not send the 'now tracking' summary")
 
+    # Listings replaced wholesale (ids changed) are not alerts; tell the owner once instead.
+    churn = find_id_churn(summary.merge, first_fetch)
+    if churn:
+        held = {listing_id for ids, _ in churn.values() for listing_id in ids}
+        for li in listings:
+            if li.id in held:
+                li.notified = True
+        report = {names.get(slug, slug): (len(ids), gone) for slug, (ids, gone) in churn.items()}
+        if sender is not None and not await sender.send(format_churn(report)):
+            log.warning("could not send the 'possible site change' message")
+
     pending = [li for li in listings if li.status == Status.open and not li.notified]
     if sender is None:
         summary.alerts_pending = len(pending)
         return
-    delivered = await deliver(sender, plan_alerts(pending), pause)
+    # At most MAX_ALERT_MESSAGES per run; the rest stay un-notified and go out next run.
+    alerts = plan_alerts(pending)[:MAX_ALERT_MESSAGES]
+    delivered = await deliver(sender, alerts, pause)
     for li in pending:
         if li.id in delivered:
             li.notified = True
@@ -196,10 +228,16 @@ def print_summary(summary: RunSummary, dry_run: bool) -> None:
         print(f"  NEW {li.company}: {li.title} ({'; '.join(li.locations)}) {li.url}")
 
 
-async def previous_run_start(
+@dataclass
+class PreviousRun:
+    started: datetime
+    conclusion: str | None  # "success", "failure", "cancelled", ...
+
+
+async def previous_run(
     client: httpx.AsyncClient, env: Mapping[str, str] | None = None
-) -> datetime | None:
-    """When the last finished scrape run (other than this one) started, from the GitHub API.
+) -> PreviousRun | None:
+    """The last finished scrape run other than this one, from the GitHub API.
 
     Only works inside GitHub Actions (GITHUB_TOKEN, GITHUB_REPOSITORY); returns None otherwise or
     on any error, since a missing check must never break a run."""
@@ -222,28 +260,49 @@ async def previous_run_start(
         this_run = env.get("GITHUB_RUN_ID", "")
         for run in runs:
             if str(run["id"]) != this_run:
-                return datetime.fromisoformat(run["run_started_at"])
+                started = datetime.fromisoformat(run["run_started_at"])
+                return PreviousRun(started, run.get("conclusion"))
     except (httpx.HTTPError, ValueError, KeyError, TypeError) as exc:
-        log.warning("could not check when the previous run started: %s", type(exc).__name__)
+        log.warning("could not look up the previous run: %s", type(exc).__name__)
     return None
+
+
+def digest_text(summary: RunSummary, companies: Sequence[Company], now: datetime) -> str:
+    """The 9 AM message built from this run's results."""
+    names = {c.slug: c.name for c in companies}
+    failing = {names.get(slug, slug): error for slug, error in summary.failed.items()}
+    since = now - timedelta(hours=24)
+    new_last_day = sum(
+        1 for li in summary.merge.listings if li.status == Status.open and li.first_seen >= since
+    )
+    enabled = sum(1 for c in companies if c.enabled)
+    return format_daily_digest(enabled, failing, summary.open_count, new_last_day)
 
 
 async def _run_cli(dry_run: bool, data_dir: Path) -> int:
     companies = load_companies(data_dir / "companies.yaml")
     async with make_client() as client:
         sender = None if dry_run else Telegram.from_env(client)
+        previous = await previous_run(client) if sender is not None else None
+        conclusion = previous.conclusion if previous else None
         if sender is not None:
             event = os.environ.get("GITHUB_EVENT_NAME", "unknown")
-            started = await previous_run_start(client)
-            gap = run_gap_message(started, datetime.now(UTC), event)
+            gap = run_gap_message(previous.started if previous else None, datetime.now(UTC), event)
             if gap:
                 await sender.send(gap)
         try:
             summary = await run(companies, client, data_dir, dry_run=dry_run, sender=sender)
         except Exception as exc:
-            if sender is not None:
+            # Only the first failed run alerts; while it keeps failing, stay quiet.
+            if sender is not None and should_send_crash_alert(conclusion):
                 await sender.send(format_crash(exc))
             raise
+        if sender is not None:
+            now = datetime.now(UTC)
+            if is_recovery(conclusion):
+                await sender.send(format_recovered())
+            if digest_due(now, previous.started if previous else None):
+                await sender.send(digest_text(summary, companies, now))
     print_summary(summary, dry_run)
     return 0
 
@@ -283,9 +342,11 @@ def main(argv: Sequence[str] | None = None) -> int:
     check_parser = sub.add_parser("check", help="fetch some companies and print counts only")
     check_parser.add_argument("--companies", required=True, help="comma-separated company slugs")
     check_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
+    validate_parser = sub.add_parser("validate", help="check the data files; exit 1 on errors")
+    validate_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     readme_parser = sub.add_parser("readme", help="regenerate README.md and README-archive.md")
     readme_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
-    for p in (run_parser, check_parser, readme_parser):
+    for p in (run_parser, check_parser, readme_parser, validate_parser):
         p.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -296,6 +357,14 @@ def main(argv: Sequence[str] | None = None) -> int:
     # httpx logs every request URL at INFO, and Telegram URLs contain the bot token.
     for noisy in ("httpx", "httpcore"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
+    if args.command == "validate":
+        errors, warnings = check_files(args.data_dir)
+        for line in warnings:
+            print(f"warning: {line}")
+        for line in errors:
+            print(f"ERROR: {line}")
+        print("data OK" if not errors else f"{len(errors)} error(s)")
+        return 1 if errors else 0
     if args.command == "readme":
         changed = readme.generate(args.data_dir, args.data_dir.parent)
         print("README updated." if changed else "README already up to date.")

@@ -73,3 +73,55 @@ def test_last_count_follows_zero_changes():
     prev = HealthRecord(company_slug="acme", last_count=0)
     record, ok = record_fetch(prev, "acme", count=3, error=None, now=T0)
     assert ok and record.last_count == 3
+
+
+# --- sharp drops (CLAUDE.md rule 1) ---
+
+
+def test_sharp_drop_is_a_failure_at_first():
+    prev = HealthRecord(company_slug="acme", last_count=100)
+    record, ok = record_fetch(prev, "acme", count=30, error=None, now=T0)
+    assert not ok and record.zero_since == T0 and record.last_count == 100
+    assert record.last_error == "returned only 30 postings (previously 100)"
+
+
+def test_sharp_drop_accepted_after_24_hours_and_moves_the_reference():
+    prev = HealthRecord(company_slug="acme", last_count=100, zero_since=T0)
+    record, ok = record_fetch(prev, "acme", count=30, error=None, now=T0 + timedelta(hours=24))
+    assert ok and record.last_count == 30 and record.zero_since is None
+
+
+def test_drop_that_recovers_clears_the_grace_clock():
+    prev = HealthRecord(company_slug="acme", last_count=100, zero_since=T0)
+    record, ok = record_fetch(prev, "acme", count=96, error=None, now=T0 + timedelta(hours=1))
+    assert ok and record.zero_since is None and record.last_count == 100
+
+
+def test_moderate_or_small_drops_are_normal():
+    for count in (60, 51, 95):  # not below half
+        _, ok = record_fetch(
+            HealthRecord(company_slug="a", last_count=100), "a", count=count, error=None, now=T0
+        )
+        assert ok, count
+    _, ok = record_fetch(  # halved, but only 8 postings: below DROP_MIN
+        HealthRecord(company_slug="a", last_count=16), "a", count=7, error=None, now=T0
+    )
+    assert ok
+
+
+def test_reference_moves_when_count_leaves_its_band():
+    prev = HealthRecord(company_slug="acme", last_count=100)
+    assert record_fetch(prev, "acme", count=115, error=None, now=T0)[0].last_count == 100
+    assert record_fetch(prev, "acme", count=130, error=None, now=T0)[0].last_count == 130
+
+
+# --- crash alert de-duplication ---
+
+
+def test_crash_alert_only_on_first_failure():
+    from tracker.health import is_recovery, should_send_crash_alert
+
+    assert should_send_crash_alert(None) and should_send_crash_alert("success")
+    assert should_send_crash_alert("cancelled")
+    assert not should_send_crash_alert("failure")
+    assert is_recovery("failure") and not is_recovery("success") and not is_recovery(None)

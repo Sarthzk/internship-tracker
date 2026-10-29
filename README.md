@@ -11,7 +11,8 @@ internships located in India for tech roles, and compares them with what it saw 
 New postings are saved to [`data/listings.json`](data/listings.json) and this page is regenerated.
 There is no server and no database: this repository is the database.
 
-Closed listings from the last 90 days are in [README-archive.md](README-archive.md).
+Closed listings from the last 90 days are in [README-archive.md](README-archive.md). The live
+health of every company being watched is in [STATUS.md](STATUS.md).
 
 ## Open internships
 

@@ -6,9 +6,23 @@ from datetime import datetime, timedelta
 
 from tracker.models import HealthRecord
 
-# A zero-postings result after a non-zero one is treated as a failure until it has lasted this long.
+# A suspicious result (zero postings, or a sharp drop) is treated as a failure until it has lasted
+# this long. `HealthRecord.zero_since` records when it first appeared.
 ZERO_GRACE = timedelta(hours=24)
 MAX_ERROR_LENGTH = 300
+# A fall counts as sharp when postings halve and at least this many disappear.
+DROP_MIN = 10
+# `last_count` is the reference level for the drop check. It is rewritten only when the count
+# leaves this band (20% or at least BAND_MIN postings), so normal drift does not touch health.json.
+BAND_MIN = 5
+
+
+def is_suspicious_drop(last_count: int, count: int) -> bool:
+    """Zero after some postings, or postings halving by at least DROP_MIN: probably a site problem,
+    not real closures (CLAUDE.md rule 1)."""
+    if last_count <= 0:
+        return False
+    return count == 0 or (last_count - count >= DROP_MIN and count * 2 < last_count)
 
 
 def record_fetch(
@@ -32,19 +46,21 @@ def record_fetch(
         record.last_error = (error or "unknown error")[:MAX_ERROR_LENGTH]
         return record, False
 
-    if count == 0 and (record.last_count or 0) > 0:
+    last = record.last_count
+    if last is not None and is_suspicious_drop(last, count):
         if record.zero_since is None:
             record.zero_since = now
         if now - record.zero_since < ZERO_GRACE:
             record.consecutive_failures += 1
-            record.last_error = f"returned 0 postings (previously {record.last_count})"
+            what = "0 postings" if count == 0 else f"only {count} postings"
+            record.last_error = f"returned {what} (previously {last})"
             return record, False
 
     record.consecutive_failures = 0
     record.last_error = None
-    # Only the zero / non-zero state matters (rule 1), so a small change in the number of postings
-    # must not rewrite health.json: that would commit on most runs.
-    if record.last_count is None or (record.last_count == 0) != (count == 0):
+    # A small change in the number of postings must not rewrite health.json (that would commit on
+    # most runs), so the reference level only moves when the count leaves its band.
+    if last is None or (last == 0) != (count == 0) or abs(count - last) > max(BAND_MIN, last // 5):
         record.last_count = count
     record.last_success = now.date()
     record.zero_since = None
@@ -69,3 +85,14 @@ def run_gap_message(previous_start: datetime | None, now: datetime, event: str) 
     else:
         cause = "Runs are back now; check the 10-minute timer (cron-job.org) if this repeats."
     return f"⏰ internship-tracker did not run for {gap}. {cause}"
+
+
+def should_send_crash_alert(previous_conclusion: str | None) -> bool:
+    """Alert on the first failed run only: while the previous run also failed, stay quiet so a
+    persistent crash does not send a message every 10 minutes."""
+    return previous_conclusion != "failure"
+
+
+def is_recovery(previous_conclusion: str | None) -> bool:
+    """True when this run succeeded right after a failed one."""
+    return previous_conclusion == "failure"

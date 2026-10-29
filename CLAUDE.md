@@ -60,6 +60,8 @@ tracker/enrich.py          Groq extraction of batch / duration / term / stipend
 tracker/readme.py          README + archive generation
 tracker/notify.py          Telegram alerts: new listings + admin/health alerts
 tracker/health.py          fetcher health tracking and alert decisions
+tracker/guards.py          run-level safety checks (id churn)
+tracker/validate.py        data checks before anything is sent or committed (`python -m tracker validate`)
 tracker/main.py            orchestration + CLI (python -m tracker)
 scripts/                   one-off helper scripts (e.g. ATS detection)
 tests/fixtures/            recorded JSON responses from each ATS
@@ -91,13 +93,13 @@ tests/fixtures/            recorded JSON responses from each ATS
 
 `Enrichment` fields: `eligible_batches` (list of graduation years, e.g. `[2027, 2028]`, or null), `term` (`summer`, `winter`, `six_month`, `other`, `unknown`), `duration_months` (int or null), `stipend` (str or null, only if explicitly stated), `degree` (str or null), `model`, `enriched_at`.
 
-`HealthRecord` fields (`health.json`): `company_slug`, `last_success` (date), `consecutive_failures`, `last_error`, `last_count` (postings at the first successful fetch or the last time it switched between zero and non-zero; deliberately not updated on small changes, so quiet runs leave the file identical), `zero_since` (UTC datetime when a 0-postings result first followed a non-zero one), `failure_alerted` (owner already told it's failing; cleared on recovery). No per-run timestamps.
+`HealthRecord` fields (`health.json`): `company_slug`, `last_success` (date), `consecutive_failures`, `last_error`, `last_count` (reference level of postings: set at the first successful fetch and moved only when the count leaves a band of 20% or 5 postings around it, or switches between zero and non-zero, so normal drift leaves the file identical), `zero_since` (UTC datetime when a suspiciously low result, zero or a sharp drop, first appeared), `failure_alerted` (owner already told it's failing; cleared on recovery). No per-run timestamps.
 
 `listings.json` and `health.json` are written with sorted keys, 2-space indent, and listings sorted by `id`, so git diffs stay small and readable. **A run where nothing real changed must leave both files byte-for-byte identical** (the workflow only commits real changes).
 
 ## Non-negotiable rules
 
-1. **Never falsely close a listing.** A listing only increments `missed_runs` when its company's fetch **succeeded**. A fetch counts as failed if it raised an error, OR returned zero postings when the previous successful fetch returned more than zero. That zero-result rule only holds for 24 hours: if a company keeps returning zero for 24 hours (tracked by `HealthRecord.zero_since`), the zero is accepted as real and counts as a success, so listings of a company with genuinely no internships can close. Close only when `missed_runs >= CLOSE_AFTER_MISSES` (default 3). If a closed listing reappears, reopen it and reset `missed_runs`.
+1. **Never falsely close a listing.** A listing only increments `missed_runs` when its company's fetch **succeeded**. A fetch counts as failed if it raised an error, timed out (120 s per company), OR looked suspiciously low: zero postings, or postings that halved (and fell by at least 10) compared with the company's reference level `HealthRecord.last_count`. That suspicion only holds for 24 hours: if a company keeps returning the low result for 24 hours (tracked by `HealthRecord.zero_since`), it is accepted as real and counts as a success, so listings of a company that really shrank can close. Close only when `missed_runs >= CLOSE_AFTER_MISSES` (default 3). If a closed listing reappears, reopen it and reset `missed_runs`.
 2. **Never store full job descriptions.** Descriptions may be fetched and passed to the LLM in memory, but only the extracted `Enrichment` fields are saved. We publish title, company, location, and a link to the official page, nothing more.
 3. **Enrichment must not guess.** If the text does not state a batch, duration, or stipend, the field is null / `unknown`. The prompt and validation must enforce this.
 4. **Be polite to career sites.** Identify with a User-Agent: `internship-tracker/<version> (+https://github.com/<owner>/internship-tracker)`. At most 1 concurrent request per host, a small delay between requests to the same host, 20s timeouts, retry with exponential backoff (max 3 attempts) only on network errors, 429, and 5xx. Where an API supports it, ask the server for India + "intern" results only instead of paging through every job.
@@ -105,6 +107,7 @@ tests/fixtures/            recorded JSON responses from each ATS
 6. **Notifications are idempotent.** A listing is sent to Telegram once. Set `notified = true` only after Telegram returns `ok: true`; failed sends retry on the next run. The first time a company is fetched, its existing listings are marked notified and summarised in one message instead of one message each.
 7. **Secrets come only from environment variables:** `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `GROQ_API_KEY`, `GROQ_MODEL`. Never log or commit them. The Telegram Bot API takes the token in the URL path, so never log Telegram request URLs (log errors without the URL). If one is missing, that step is skipped with a warning, not a crash.
 8. **One company failing must never crash the run.** Catch, record in health, continue.
+   Related safety nets: bad data (`tracker/validate.py`) stops a run before it notifies or saves; a crash alerts only on the first failed run (and a ✅ follows recovery); listings replaced wholesale at one company (new ones appear while as many known ones vanish) are reported in one admin message instead of alerts; at most 10 Telegram messages per run; a daily 09:00 IST digest reports health.
 9. **The README has a generated section** between `<!-- LISTINGS:START -->` and `<!-- LISTINGS:END -->`. Only `tracker/readme.py` writes inside it. Text outside the markers is hand-written and must be preserved.
 
 ## Filtering rules (summary; details live in tracker/filters.py)

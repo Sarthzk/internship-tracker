@@ -42,9 +42,19 @@ def load_listings(path: Path) -> list[Listing]:
     return [Listing.model_validate(item) for item in json.loads(path.read_text(encoding="utf-8"))]
 
 
+def listings_text(listings: list[Listing]) -> str:
+    """The exact canonical file contents for these listings."""
+    return _dumps(sorted(listings, key=lambda li: li.id))
+
+
+def health_text(health: dict[str, HealthRecord]) -> str:
+    """The exact canonical file contents for this health data."""
+    return _dumps([health[slug] for slug in sorted(health)])
+
+
 def save_listings(path: Path, listings: list[Listing]) -> bool:
     """Returns True if the file changed."""
-    return _write_if_changed(path, _dumps(sorted(listings, key=lambda li: li.id)))
+    return _write_if_changed(path, listings_text(listings))
 
 
 def load_health(path: Path) -> dict[str, HealthRecord]:
@@ -56,4 +66,4 @@ def load_health(path: Path) -> dict[str, HealthRecord]:
 
 def save_health(path: Path, health: dict[str, HealthRecord]) -> bool:
     """Returns True if the file changed."""
-    return _write_if_changed(path, _dumps([health[slug] for slug in sorted(health)]))
+    return _write_if_changed(path, health_text(health))
