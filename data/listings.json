@@ -576,6 +576,141 @@
     "url": "https://careers.adobe.com/us/en/job/R173016"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Deutsche Bank",
+    "company_slug": "deutsche-bank",
+    "date_posted": "2026-10-28",
+    "enrichment": null,
+    "external_id": "R0357981",
+    "first_seen": "2026-10-29T09:10:42.406658Z",
+    "id": "workday:deutsche-bank:R0357981",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "(do not use) Mumbai Nirlon Know. Pk B4-B5",
+      "Pune - Business Bay",
+      "Jaipur",
+      "Bangalore, Raheja Towers, 26-27 M. G. Road"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice Hiring for 2026- 2027",
+    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/do-not-use-Mumbai-Nirlon-Know-Pk-B4-B5/Apprentice---Non-Technology_R0357981"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Marvell",
+    "company_slug": "marvell",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "2604253",
+    "first_seen": "2026-10-29T09:10:42.406658Z",
+    "id": "workday:marvell:2604253",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Research Intern, Physical AI and GPU (PhD)",
+    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253"
+  },
+  {
+    "category": "hardware",
+    "closed_at": null,
+    "company": "Marvell",
+    "company_slug": "marvell",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "2604254",
+    "first_seen": "2026-10-29T09:10:42.406658Z",
+    "id": "workday:marvell:2604254",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Research Intern (PhD), FPGA & Silicon Prototyping",
+    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD----FPGA---Silicon-Prototyping_2604254"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Marvell",
+    "company_slug": "marvell",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "2604255",
+    "first_seen": "2026-10-29T09:10:42.406658Z",
+    "id": "workday:marvell:2604255",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Research Intern (PhD), AI-Scale Protocols & Simulation",
+    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Marvell",
+    "company_slug": "marvell",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "2604256",
+    "first_seen": "2026-10-29T09:10:42.406658Z",
+    "id": "workday:marvell:2604256",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Research Intern (PhD), Storage Systems for AI",
+    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Marvell",
+    "company_slug": "marvell",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "2604257",
+    "first_seen": "2026-10-29T09:10:42.406658Z",
+    "id": "workday:marvell:2604257",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Research Intern (PhD), Autonomous Infrastructure and Telemetry",
+    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---Autonomous-Infrastructure-and-Telemetry_2604257"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "Nvidia",
@@ -596,5 +731,51 @@
     "status": "open",
     "title": "PhD Intern, AI ML in Wireless L1/L2 - Fall 2026",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "NXP",
+    "company_slug": "nxp",
+    "date_posted": "2025-08-14",
+    "enrichment": null,
+    "external_id": "R-10052538",
+    "first_seen": "2026-10-29T09:10:42.406658Z",
+    "id": "workday:nxp:R-10052538",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "Noida",
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Technical Internship  (2026)",
+    "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Noida/Internship----SoC--IP-Design---2024-_R-10052538"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "NXP",
+    "company_slug": "nxp",
+    "date_posted": "2026-09-07",
+    "enrichment": null,
+    "external_id": "R-10066434",
+    "first_seen": "2026-10-29T09:10:42.406658Z",
+    "id": "workday:nxp:R-10066434",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "Bangalore",
+      "Noida"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Technical Internship 2027",
+    "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangalore/Technical-Internship-2027_R-10066434"
   }
 ]

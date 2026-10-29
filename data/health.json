@@ -72,6 +72,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "analog-devices",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 19,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
     "company_slug": "anthropic",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -94,6 +103,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 101,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
+    "company_slug": "applied-materials",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 71,
     "last_error": null,
     "last_success": "2026-10-29",
     "zero_since": null
@@ -126,7 +144,34 @@
     "zero_since": null
   },
   {
+    "company_slug": "blackrock",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 20,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
     "company_slug": "browserstack",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 14,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
+    "company_slug": "cadence",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 29,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
+    "company_slug": "capital-one",
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 14,
@@ -193,6 +238,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 396,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
+    "company_slug": "deutsche-bank",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 117,
     "last_error": null,
     "last_success": "2026-10-29",
     "zero_since": null
@@ -396,6 +450,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "marvell",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 8,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
     "company_slug": "mastercard",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -414,11 +477,20 @@
     "zero_since": null
   },
   {
-    "company_slug": "microsoft",
+    "company_slug": "micron",
     "consecutive_failures": 0,
     "failure_alerted": false,
-    "last_count": 6,
+    "last_count": 332,
     "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
+    "company_slug": "microsoft",
+    "consecutive_failures": 1,
+    "failure_alerted": false,
+    "last_count": 6,
+    "last_error": "FetchError: HTTP 429 from apply.careers.microsoft.com",
     "last_success": "2026-10-29",
     "zero_since": null
   },
@@ -490,6 +562,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 74,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
+    "company_slug": "nxp",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 48,
     "last_error": null,
     "last_success": "2026-10-29",
     "zero_since": null
@@ -586,10 +667,10 @@
   },
   {
     "company_slug": "qualcomm",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 3,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from careers.qualcomm.com",
     "last_success": "2026-10-29",
     "zero_since": null
   },
@@ -778,6 +859,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 368,
+    "last_error": null,
+    "last_success": "2026-10-29",
+    "zero_since": null
+  },
+  {
+    "company_slug": "wells-fargo",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 103,
     "last_error": null,
     "last_success": "2026-10-29",
     "zero_since": null
