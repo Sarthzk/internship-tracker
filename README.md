@@ -20,7 +20,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Batch and Duration show "—" unless known.
 
 <!-- LISTINGS:START -->
-**35 open internships** across 15 companies · Last updated: 2026-10-29 (IST)
+**36 open internships** across 15 companies · Last updated: 2026-10-29 (IST)
 
 ### Software Engineering (12)
 
@@ -78,10 +78,11 @@ Batch and Duration show "—" unless known.
 | Microsoft | Product Design INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556992502) | 49d |
 | Microsoft | Product Management INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556978896) | 65d |
 
-### Other (4)
+### Other (5)
 
 | Company | Role | Location | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|
+| Deutsche Bank | Apprentice Hiring for 2026- 2027 | Mumbai, Nirlon Knowledge Park | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Nirlon-Knowledge-Park/Apprentice-Hiring-for-2026--2027_R0456794-1) | 0d |
 | Deutsche Bank | Apprentice Hiring for 2026- 2027 | (do not use) Mumbai Nirlon Know. Pk B4-B5; Pune - Business Bay; Jaipur +1 more | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/do-not-use-Mumbai-Nirlon-Know-Pk-B4-B5/Apprentice---Non-Technology_R0357981) | 1d |
 | American Express | Apprentice | Gurugram, HR, India | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015791) | 2d |
 | Rubrik | Industrial Trainee | Bangalore | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405) | 16d |

@@ -601,6 +601,28 @@
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/do-not-use-Mumbai-Nirlon-Know-Pk-B4-B5/Apprentice---Non-Technology_R0357981"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Deutsche Bank",
+    "company_slug": "deutsche-bank",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "R0456794-1",
+    "first_seen": "2026-10-29T10:31:05.024204Z",
+    "id": "workday:deutsche-bank:R0456794-1",
+    "is_remote": false,
+    "last_seen": "2026-10-29",
+    "locations": [
+      "Mumbai, Nirlon Knowledge Park"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice Hiring for 2026- 2027",
+    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Nirlon-Knowledge-Park/Apprentice-Hiring-for-2026--2027_R0456794-1"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "Marvell",
