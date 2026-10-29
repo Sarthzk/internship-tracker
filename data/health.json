@@ -487,7 +487,7 @@
   },
   {
     "company_slug": "microsoft",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 6,
     "last_error": "FetchError: HTTP 429 from apply.careers.microsoft.com",
