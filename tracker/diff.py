@@ -3,11 +3,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from tracker.models import Listing, Status
 
 CLOSE_AFTER_MISSES = 3
+RETAIN_CLOSED_DAYS = 180  # the archive page shows 90; the rest is kept as a buffer
 
 
 @dataclass
@@ -16,6 +17,18 @@ class MergeResult:
     new_ids: list[str] = field(default_factory=list)
     closed_ids: list[str] = field(default_factory=list)
     reopened_ids: list[str] = field(default_factory=list)
+
+
+def prune_closed(
+    listings: list[Listing], now: datetime, days: int = RETAIN_CLOSED_DAYS
+) -> list[Listing]:
+    """Drop listings that closed more than `days` ago, so listings.json does not grow forever."""
+    cutoff = now - timedelta(days=days)
+    return [
+        li
+        for li in listings
+        if not (li.status == Status.closed and li.closed_at is not None and li.closed_at < cutoff)
+    ]
 
 
 def merge(

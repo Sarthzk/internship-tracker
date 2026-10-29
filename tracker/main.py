@@ -14,7 +14,7 @@ from pathlib import Path
 import httpx
 
 from tracker import fetchers, readme
-from tracker.diff import MergeResult, merge
+from tracker.diff import MergeResult, merge, prune_closed
 from tracker.filters import keep
 from tracker.guards import find_id_churn
 from tracker.health import is_recovery, record_fetch, run_gap_message, should_send_crash_alert
@@ -151,6 +151,7 @@ async def run(
             log.warning("%s: fetch failed: %s", slug, record.last_error)
 
     summary.merge = merge(existing, fetched, succeeded, now)
+    summary.merge.listings = prune_closed(summary.merge.listings, now)
     errors, _ = check_listings(summary.merge.listings, {c.slug for c in companies})
     if errors:  # before anything is sent or saved
         raise DataError("; ".join(errors[:5]))

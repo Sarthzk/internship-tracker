@@ -183,3 +183,18 @@ def test_digest_due_only_in_the_nine_am_window():
 def test_digest_not_repeated_when_the_previous_run_was_in_the_same_window():
     previous = datetime(2026, 10, 29, 3, 31, tzinfo=UTC)  # 09:01 IST, already in the window
     assert not digest_due(IST_NINE, previous)
+
+
+# --- B2: old closed listings are pruned ---
+
+
+def test_closed_listings_older_than_180_days_are_dropped():
+    from tracker.diff import prune_closed
+
+    def closed_ago(n: int, days: int) -> Listing:
+        return old_listing(n).model_copy(
+            update={"status": "closed", "closed_at": T0 - timedelta(days=days)}
+        )
+
+    kept = prune_closed([old_listing(1), closed_ago(2, 179), closed_ago(3, 181)], T0)
+    assert [li.external_id for li in kept] == ["1", "2"]
