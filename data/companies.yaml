@@ -193,8 +193,8 @@ companies:
     ats: ashby
     ats_config: {site: snowflake}
     careers_url: https://jobs.ashbyhq.com/snowflake
-    enabled: false
-    notes: 'Ashby board snowflake (363 jobs, 9 in India on 2026-10-29). Replaces the Phenom feed, which listed no India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Ashby board snowflake (363 jobs, 9 in India on 2026-10-29). Replaces the Phenom feed, which listed no India postings. Cloud-checked 2026-10-29.'
   - name: Stripe
     slug: stripe
     tier: 1
@@ -478,349 +478,349 @@ companies:
     ats: greenhouse
     ats_config: {board_token: okta}
     careers_url: https://boards.greenhouse.io/okta
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: MongoDB
     slug: mongodb
     tier: 2
     ats: greenhouse
     ats_config: {board_token: mongodb}
     careers_url: https://boards.greenhouse.io/mongodb
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Zscaler
     slug: zscaler
     tier: 2
     ats: greenhouse
     ats_config: {board_token: zscaler}
     careers_url: https://boards.greenhouse.io/zscaler
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Pure Storage
     slug: pure-storage
     tier: 2
     ats: greenhouse
     ats_config: {board_token: purestorage}
     careers_url: https://boards.greenhouse.io/purestorage
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Sarvam AI
     slug: sarvam-ai
     tier: 2
     ats: ashby
     ats_config: {site: sarvam}
     careers_url: https://jobs.ashbyhq.com/sarvam
-    enabled: false
-    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: GitLab
     slug: gitlab
     tier: 2
     ats: greenhouse
     ats_config: {board_token: gitlab}
     careers_url: https://boards.greenhouse.io/gitlab
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Zeta
     slug: zeta
     tier: 2
     ats: lever
     ats_config: {site: zeta}
     careers_url: https://jobs.lever.co/zeta
-    enabled: false
-    notes: 'Public lever board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public lever board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Fivetran
     slug: fivetran
     tier: 2
     ats: greenhouse
     ats_config: {board_token: fivetran}
     careers_url: https://boards.greenhouse.io/fivetran
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: IMC Trading
     slug: imc-trading
     tier: 2
     ats: greenhouse
     ats_config: {board_token: imc}
     careers_url: https://boards.greenhouse.io/imc
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Mindtickle
     slug: mindtickle
     tier: 2
     ats: lever
     ats_config: {site: mindtickle}
     careers_url: https://jobs.lever.co/mindtickle
-    enabled: false
-    notes: 'Public lever board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public lever board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Elastic
     slug: elastic
     tier: 2
     ats: greenhouse
     ats_config: {board_token: elastic}
     careers_url: https://boards.greenhouse.io/elastic
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Navan
     slug: navan
     tier: 2
     ats: greenhouse
     ats_config: {board_token: tripactions}
     careers_url: https://boards.greenhouse.io/tripactions
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Agoda
     slug: agoda
     tier: 2
     ats: greenhouse
     ats_config: {board_token: agoda}
     careers_url: https://boards.greenhouse.io/agoda
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Kong
     slug: kong
     tier: 2
     ats: ashby
     ats_config: {site: kong}
     careers_url: https://jobs.ashbyhq.com/kong
-    enabled: false
-    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: AQR Capital
     slug: aqr-capital
     tier: 2
     ats: greenhouse
     ats_config: {board_token: aqr}
     careers_url: https://boards.greenhouse.io/aqr
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Druva
     slug: druva
     tier: 2
     ats: greenhouse
     ats_config: {board_token: druva}
     careers_url: https://boards.greenhouse.io/druva
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Coinbase
     slug: coinbase
     tier: 2
     ats: greenhouse
     ats_config: {board_token: coinbase}
     careers_url: https://boards.greenhouse.io/coinbase
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Datadog
     slug: datadog
     tier: 2
     ats: greenhouse
     ats_config: {board_token: datadog}
     careers_url: https://boards.greenhouse.io/datadog
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Airbnb
     slug: airbnb
     tier: 2
     ats: greenhouse
     ats_config: {board_token: airbnb}
     careers_url: https://boards.greenhouse.io/airbnb
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Roblox
     slug: roblox
     tier: 2
     ats: greenhouse
     ats_config: {board_token: roblox}
     careers_url: https://boards.greenhouse.io/roblox
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: WorldQuant
     slug: worldquant
     tier: 2
     ats: greenhouse
     ats_config: {board_token: worldquant}
     careers_url: https://boards.greenhouse.io/worldquant
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Sumo Logic
     slug: sumo-logic
     tier: 2
     ats: greenhouse
     ats_config: {board_token: sumologic}
     careers_url: https://boards.greenhouse.io/sumologic
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: LaunchDarkly
     slug: launchdarkly
     tier: 2
     ats: greenhouse
     ats_config: {board_token: launchdarkly}
     careers_url: https://boards.greenhouse.io/launchdarkly
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: JFrog
     slug: jfrog
     tier: 2
     ats: greenhouse
     ats_config: {board_token: jfrog}
     careers_url: https://boards.greenhouse.io/jfrog
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Anyscale
     slug: anyscale
     tier: 2
     ats: ashby
     ats_config: {site: anyscale}
     careers_url: https://jobs.ashbyhq.com/anyscale
-    enabled: false
-    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Coursera
     slug: coursera
     tier: 2
     ats: greenhouse
     ats_config: {board_token: coursera}
     careers_url: https://boards.greenhouse.io/coursera
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Mixpanel
     slug: mixpanel
     tier: 2
     ats: greenhouse
     ats_config: {board_token: mixpanel}
     careers_url: https://boards.greenhouse.io/mixpanel
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Figma
     slug: figma
     tier: 2
     ats: greenhouse
     ats_config: {board_token: figma}
     careers_url: https://boards.greenhouse.io/figma
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Observe.AI
     slug: observe-ai
     tier: 2
     ats: greenhouse
     ats_config: {board_token: observeai}
     careers_url: https://boards.greenhouse.io/observeai
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Anthropic
     slug: anthropic
     tier: 2
     ats: greenhouse
     ats_config: {board_token: anthropic}
     careers_url: https://boards.greenhouse.io/anthropic
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Jump Trading
     slug: jump-trading
     tier: 2
     ats: greenhouse
     ats_config: {board_token: jumptrading}
     careers_url: https://boards.greenhouse.io/jumptrading
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Waymo
     slug: waymo
     tier: 2
     ats: greenhouse
     ats_config: {board_token: waymo}
     careers_url: https://boards.greenhouse.io/waymo
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Grafana Labs
     slug: grafana-labs
     tier: 2
     ats: greenhouse
     ats_config: {board_token: grafanalabs}
     careers_url: https://boards.greenhouse.io/grafanalabs
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Notion
     slug: notion
     tier: 2
     ats: ashby
     ats_config: {site: notion}
     careers_url: https://jobs.ashbyhq.com/notion
-    enabled: false
-    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: New Relic
     slug: new-relic
     tier: 2
     ats: greenhouse
     ats_config: {board_token: newrelic}
     careers_url: https://boards.greenhouse.io/newrelic
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Cockroach Labs
     slug: cockroach-labs
     tier: 2
     ats: greenhouse
     ats_config: {board_token: cockroachlabs}
     careers_url: https://boards.greenhouse.io/cockroachlabs
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Temporal
     slug: temporal
     tier: 2
     ats: ashby
     ats_config: {site: temporal}
     careers_url: https://jobs.ashbyhq.com/temporal
-    enabled: false
-    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: OpenAI
     slug: openai
     tier: 2
     ats: ashby
     ats_config: {site: openai}
     careers_url: https://jobs.ashbyhq.com/openai
-    enabled: false
-    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Amplitude
     slug: amplitude
     tier: 2
     ats: ashby
     ats_config: {site: amplitude}
     careers_url: https://jobs.ashbyhq.com/amplitude
-    enabled: false
-    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public ashby board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Vercel
     slug: vercel
     tier: 2
     ats: greenhouse
     ats_config: {board_token: vercel}
     careers_url: https://boards.greenhouse.io/vercel
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Scale AI
     slug: scale-ai
     tier: 2
     ats: greenhouse
     ats_config: {board_token: scaleai}
     careers_url: https://boards.greenhouse.io/scaleai
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Duolingo
     slug: duolingo
     tier: 2
     ats: greenhouse
     ats_config: {board_token: duolingo}
     careers_url: https://boards.greenhouse.io/duolingo
-    enabled: false
-    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Ixigo
     slug: ixigo
     tier: 2
     ats: smartrecruiters
     ats_config: {company_id: ixigo}
     careers_url: https://jobs.smartrecruiters.com/ixigo
-    enabled: false
-    notes: 'Public smartrecruiters board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public smartrecruiters board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Paytm
     slug: paytm
     tier: 2
     ats: lever
     ats_config: {site: paytm}
     careers_url: https://jobs.lever.co/paytm
-    enabled: false
-    notes: 'Public lever board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Public lever board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
