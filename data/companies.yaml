@@ -830,77 +830,77 @@ companies:
     ats: workday
     ats_config: {host: marvell.wd1.myworkdayjobs.com, tenant: marvell, site: MarvellCareers}
     careers_url: https://marvell.wd1.myworkdayjobs.com/MarvellCareers
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Micron
     slug: micron
     tier: 1
     ats: workday
     ats_config: {host: micron.wd1.myworkdayjobs.com, tenant: micron, site: External}
     careers_url: https://micron.wd1.myworkdayjobs.com/External
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: NXP
     slug: nxp
     tier: 1
     ats: workday
     ats_config: {host: nxp.wd3.myworkdayjobs.com, tenant: nxp, site: careers}
     careers_url: https://nxp.wd3.myworkdayjobs.com/careers
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Cadence
     slug: cadence
     tier: 1
     ats: workday
     ats_config: {host: cadence.wd1.myworkdayjobs.com, tenant: cadence, site: External_Careers}
     careers_url: https://cadence.wd1.myworkdayjobs.com/External_Careers
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Analog Devices
     slug: analog-devices
     tier: 1
     ats: workday
     ats_config: {host: analogdevices.wd1.myworkdayjobs.com, tenant: analogdevices, site: External}
     careers_url: https://analogdevices.wd1.myworkdayjobs.com/External
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Applied Materials
     slug: applied-materials
     tier: 1
     ats: workday
     ats_config: {host: amat.wd1.myworkdayjobs.com, tenant: amat, site: External}
     careers_url: https://amat.wd1.myworkdayjobs.com/External
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Wells Fargo
     slug: wells-fargo
     tier: 1
     ats: workday
     ats_config: {host: wf.wd1.myworkdayjobs.com, tenant: wf, site: WellsFargoJobs}
     careers_url: https://wf.wd1.myworkdayjobs.com/WellsFargoJobs
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: BlackRock
     slug: blackrock
     tier: 1
     ats: workday
     ats_config: {host: blackrock.wd1.myworkdayjobs.com, tenant: blackrock, site: BlackRock_Professional}
     careers_url: https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Deutsche Bank
     slug: deutsche-bank
     tier: 1
     ats: workday
     ats_config: {host: db.wd3.myworkdayjobs.com, tenant: db, site: DBWebsite}
     careers_url: https://db.wd3.myworkdayjobs.com/DBWebsite
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
   - name: Capital One
     slug: capital-one
     tier: 1
     ats: workday
     ats_config: {host: capitalone.wd12.myworkdayjobs.com, tenant: capitalone, site: Capital_One}
     careers_url: https://capitalone.wd12.myworkdayjobs.com/Capital_One
-    enabled: false
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Not yet cloud-checked.'
+    enabled: true
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'

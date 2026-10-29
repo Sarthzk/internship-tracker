@@ -205,6 +205,8 @@ NON_TECH = _words(
     "administrative",
     "office",
     "compliance",
+    "cfo",
+    "technician",
 )
 
 
