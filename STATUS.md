@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Qualcomm | eightfold | ⚠️ failing for 3 runs: FetchError: HTTP 429 from careers.qualcomm.com | 2026-10-29 | 2 |
+| Micron | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-10-29 | 0 |
 | Adobe | phenom | ✅ OK | 2026-10-29 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-10-29 | 0 |
 | Amazon | custom | ✅ OK | 2026-10-29 | 0 |
@@ -30,7 +30,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-10-29 | 0 |
 | Marvell | workday | ✅ OK | 2026-10-29 | 5 |
 | Mastercard | workday | ✅ OK | 2026-10-29 | 0 |
-| Micron | workday | ✅ OK | 2026-10-29 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-10-29 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-10-29 | 0 |
 | Nvidia | workday | ✅ OK | 2026-10-29 | 1 |
@@ -38,6 +37,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Oracle | oracle_hcm | ✅ OK | 2026-10-29 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-10-29 | 0 |
 | Quadeye | custom | ✅ OK | 2026-10-29 | 3 |
+| Qualcomm | eightfold | ✅ OK | 2026-10-29 | 2 |
 | Rippling | custom | ✅ OK | 2026-10-29 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-10-29 | 2 |
 | Salesforce | workday | ✅ OK | 2026-10-29 | 0 |
