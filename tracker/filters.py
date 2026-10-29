@@ -223,9 +223,23 @@ def _tech_category(title: str) -> Category | None:
     return None
 
 
+# Words that make a role non-tech even when a tech word ("IT Recruitment") is also present.
+ALWAYS_NON_TECH = _words(
+    "recruiting",
+    "recruiter",
+    "recruitment",
+    "talent acquisition",
+    "human resources",
+    "company secretary",
+)
+
+
 def is_tech(title: str) -> bool:
-    """Tech keywords win over non-tech ones ("Software Engineer Intern, Finance Systems" is tech).
-    A title with neither (e.g. "Summer Analyst 2027") is kept as `other`."""
+    """Tech keywords win over non-tech ones ("Software Engineer Intern, Finance Systems" is tech),
+    except for ALWAYS_NON_TECH words. A title with neither (e.g. "Summer Analyst 2027") is kept as
+    `other`."""
+    if ALWAYS_NON_TECH.search(title):
+        return False
     return _tech_category(title) is not None or not NON_TECH.search(title)
 
 
