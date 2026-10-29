@@ -42,7 +42,10 @@ def record_fetch(
 
     record.consecutive_failures = 0
     record.last_error = None
-    record.last_count = count
+    # Only the zero / non-zero state matters (rule 1), so a small change in the number of postings
+    # must not rewrite health.json: that would commit on most runs.
+    if record.last_count is None or (record.last_count == 0) != (count == 0):
+        record.last_count = count
     record.last_success = now.date()
     record.zero_since = None
     return record, True

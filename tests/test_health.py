@@ -60,3 +60,16 @@ def test_zero_on_first_ever_fetch_is_a_success():
 def test_long_error_is_truncated():
     record, _ = record_fetch(None, "acme", count=None, error="x" * 1000, now=T0)
     assert len(record.last_error) == 300
+
+
+def test_last_count_is_not_rewritten_by_small_changes():
+    prev = HealthRecord(company_slug="acme", last_count=5)
+    record, ok = record_fetch(prev, "acme", count=7, error=None, now=T0)
+    assert ok and record.last_count == 5
+    assert record == record_fetch(record, "acme", count=6, error=None, now=T0)[0]
+
+
+def test_last_count_follows_zero_changes():
+    prev = HealthRecord(company_slug="acme", last_count=0)
+    record, ok = record_fetch(prev, "acme", count=3, error=None, now=T0)
+    assert ok and record.last_count == 3
