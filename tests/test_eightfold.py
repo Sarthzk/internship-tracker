@@ -121,3 +121,25 @@ async def test_http_error_raises():
         respx.get(SEARCH).respond(403)
         with pytest.raises(FetchError, match="403"):
             await run_fetch()
+
+
+async def test_posting_links_use_public_host_while_search_uses_the_search_host():
+    company = Company(
+        name="Acme",
+        slug="acme",
+        tier=1,
+        ats="eightfold",
+        ats_config={
+            "host": "acme.eightfold.ai",
+            "domain": "acme.com",
+            "public_host": "careers.acme.com",
+        },
+        enabled=True,
+    )
+    body = {"data": {"count": 1, "positions": [position(1)]}}
+    with respx.mock:
+        route = respx.get("https://acme.eightfold.ai/api/pcsx/search").respond(200, json=body)
+        async with make_client(delay=0, backoff=0) as client:
+            [p] = await eightfold.fetch(company, client)
+    assert route.called  # the search went to the plain Eightfold host
+    assert p.url.startswith("https://careers.acme.com/")

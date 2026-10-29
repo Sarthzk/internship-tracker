@@ -76,4 +76,6 @@ async def fetch(company: Company, client: httpx.AsyncClient) -> list[RawPosting]
         positions += data["positions"]
         if len(positions) >= count:
             break
-    return normalize(company, host, positions)
+    # `public_host`: the company's own careers domain for the posting links. Searching through it
+    # is often rate-limited for GitHub's shared IPs, so the search uses the plain Eightfold host.
+    return normalize(company, company.ats_config.get("public_host", host), positions)
