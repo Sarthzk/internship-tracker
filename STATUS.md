@@ -2,7 +2,7 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**100 companies tracked** · 90 OK · 0 failing · 12 not tracked · Last updated: 2026-10-29 (IST)
+**100 companies tracked** · 100 OK · 0 failing · 12 not tracked · Last updated: 2026-10-29 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
@@ -11,20 +11,29 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Amazon | custom | ✅ OK | 2026-10-29 | 0 |
 | AMD | custom | ✅ OK | 2026-10-29 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-10-29 | 1 |
+| Analog Devices | workday | ✅ OK | 2026-10-29 | 0 |
 | Apple | custom | ✅ OK | 2026-10-29 | 2 |
+| Applied Materials | workday | ✅ OK | 2026-10-29 | 0 |
 | Atlassian | custom | ✅ OK | 2026-10-29 | 0 |
 | Barclays | custom | ✅ OK | 2026-10-29 | 0 |
+| BlackRock | workday | ✅ OK | 2026-10-29 | 0 |
+| Cadence | workday | ✅ OK | 2026-10-29 | 0 |
+| Capital One | workday | ✅ OK | 2026-10-29 | 0 |
 | Cisco | workday | ✅ OK | 2026-10-29 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-10-29 | 0 |
+| Deutsche Bank | workday | ✅ OK | 2026-10-29 | 1 |
 | Goldman Sachs | custom | ✅ OK | 2026-10-29 | 0 |
 | Google | custom | ✅ OK | 2026-10-29 | 4 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-10-29 | 0 |
 | Intel | workday | ✅ OK | 2026-10-29 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-10-29 | 0 |
+| Marvell | workday | ✅ OK | 2026-10-29 | 5 |
 | Mastercard | workday | ✅ OK | 2026-10-29 | 0 |
+| Micron | workday | ✅ OK | 2026-10-29 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-10-29 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-10-29 | 0 |
 | Nvidia | workday | ✅ OK | 2026-10-29 | 1 |
+| NXP | workday | ✅ OK | 2026-10-29 | 2 |
 | Oracle | oracle_hcm | ✅ OK | 2026-10-29 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-10-29 | 0 |
 | Quadeye | custom | ✅ OK | 2026-10-29 | 3 |
@@ -40,6 +49,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Twilio | greenhouse | ✅ OK | 2026-10-29 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-10-29 | 0 |
 | Visa | workday | ✅ OK | 2026-10-29 | 0 |
+| Wells Fargo | workday | ✅ OK | 2026-10-29 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-10-29 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-10-29 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-10-29 | 0 |
@@ -96,16 +106,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | WorldQuant | greenhouse | ✅ OK | 2026-10-29 | 0 |
 | Zeta | lever | ✅ OK | 2026-10-29 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-10-29 | 0 |
-| Analog Devices | workday | ⏳ waiting for the first run | — | 0 |
-| Applied Materials | workday | ⏳ waiting for the first run | — | 0 |
-| BlackRock | workday | ⏳ waiting for the first run | — | 0 |
-| Cadence | workday | ⏳ waiting for the first run | — | 0 |
-| Capital One | workday | ⏳ waiting for the first run | — | 0 |
-| Deutsche Bank | workday | ⏳ waiting for the first run | — | 0 |
-| Marvell | workday | ⏳ waiting for the first run | — | 0 |
-| Micron | workday | ⏳ waiting for the first run | — | 0 |
-| NXP | workday | ⏳ waiting for the first run | — | 0 |
-| Wells Fargo | workday | ⏳ waiting for the first run | — | 0 |
 | Arcesium | unknown | ⏸ not tracked | — | 0 |
 | Cohesity | unknown | ⏸ not tracked | — | 0 |
 | D. E. Shaw | unknown | ⏸ not tracked | — | 0 |
