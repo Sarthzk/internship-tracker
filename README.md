@@ -20,7 +20,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Batch and Duration show "—" unless known.
 
 <!-- LISTINGS:START -->
-**36 open internships** across 15 companies · Last updated: 2026-10-30 (IST)
+**35 open internships** across 14 companies · Last updated: 2026-10-30 (IST)
 
 ### Software Engineering (12)
 
@@ -39,7 +39,7 @@ Batch and Duration show "—" unless known.
 | Quadeye | Intern - Systems Engineer | Gurgaon, Haryana, India | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318430) | 123d |
 | NXP | Technical Internship (2026) | Noida; Bangalore | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Noida/Internship----SoC--IP-Design---2024-_R-10052538) | 442d |
 
-### Data & ML (11)
+### Data & ML (10)
 
 | Company | Role | Location | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|
@@ -52,7 +52,6 @@ Batch and Duration show "—" unless known.
 | Adobe | 2027 Intern - Research PhD Intern | Bangalore, Karnātaka, India | — | — | [Apply](https://careers.adobe.com/us/en/job/R173016) | 11d |
 | Apple | PhD Intern, Apple Ads (Machine Learning) | Hyderabad, India | — | — | [Apply](https://jobs.apple.com/en-in/details/200684719/phd-intern-apple-ads-machine-learning?team=SFTWR) | 40d |
 | Apple | PhD Intern, Machine Learning: MSI, Product Operations Team | Bengaluru, India | — | — | [Apply](https://jobs.apple.com/en-in/details/200676908/phd-intern-machine-learning-msi-product-operations-team?team=OPMFG) | 43d |
-| Tower Research Capital | Intern - AI/ML | Gurgaon | — | — | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8143756) | 71d |
 | Microsoft | Research Sciences INTERN | India, Multiple Locations, Multiple Locations | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556641091) | 245d |
 
 ### Quant & Trading (1)

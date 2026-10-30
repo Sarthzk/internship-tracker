@@ -511,7 +511,7 @@
   },
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-10-30T05:01:11.312824Z",
     "company": "Tower Research Capital",
     "company_slug": "tower-research-capital",
     "date_posted": "2026-08-20",
@@ -524,10 +524,10 @@
     "locations": [
       "Gurgaon"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "greenhouse",
-    "status": "open",
+    "status": "closed",
     "title": "Intern - AI/ML",
     "url": "https://www.tower-research.com/open-positions/?gh_jid=8143756"
   },
