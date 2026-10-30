@@ -61,6 +61,7 @@ tracker/readme.py          README + archive generation
 tracker/notify.py          Telegram alerts: new listings + admin/health alerts
 tracker/health.py          fetcher health tracking and alert decisions
 tracker/guards.py          run-level safety checks (id churn)
+tracker/schedule.py        which companies are due this run (`check_every_minutes`, default 10)
 tracker/validate.py        data checks before anything is sent or committed (`python -m tracker validate`)
 tracker/main.py            orchestration + CLI (python -m tracker)
 scripts/                   one-off helper scripts (e.g. ATS detection)

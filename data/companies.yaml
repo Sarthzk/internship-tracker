@@ -9,6 +9,7 @@
 #              phenom {host, locale?}
 # careers_url: where students find the company's openings (also what fingerprint_platforms.py fetches)
 # enabled:     only enabled companies are fetched; requires ats != unknown
+# check_every_minutes: optional, a multiple of 10 (default 10); for sites that rate-limit us
 
 companies:
   - name: Google
@@ -22,6 +23,7 @@ companies:
   - name: Microsoft
     slug: microsoft
     tier: 1
+    check_every_minutes: 30
     ats: eightfold
     ats_config: {host: microsoft.eightfold.ai, domain: microsoft.com, public_host: apply.careers.microsoft.com}
     careers_url: https://apply.careers.microsoft.com
@@ -110,6 +112,7 @@ companies:
   - name: Qualcomm
     slug: qualcomm
     tier: 1
+    check_every_minutes: 30
     ats: eightfold
     ats_config: {host: qualcomm.eightfold.ai, domain: qualcomm.com, public_host: careers.qualcomm.com}
     careers_url: https://careers.qualcomm.com

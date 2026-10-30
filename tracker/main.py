@@ -41,6 +41,7 @@ from tracker.notify import (
     plan_alerts,
     plan_health_alerts,
 )
+from tracker.schedule import is_due
 from tracker.storage import load_health, load_listings, save_health, save_listings
 from tracker.validate import DataError, check_files, check_listings
 
@@ -130,7 +131,8 @@ async def run(
 ) -> RunSummary:
     now = now or datetime.now(UTC)
     enabled = [c for c in companies if c.enabled]
-    outcomes = await asyncio.gather(*(fetch_company(c, client) for c in enabled))
+    due = [c for c in enabled if is_due(c, now)]  # the others are left untouched this run
+    outcomes = await asyncio.gather(*(fetch_company(c, client) for c in due))
 
     listings_path, health_path = data_dir / "listings.json", data_dir / "health.json"
     existing = load_listings(listings_path)

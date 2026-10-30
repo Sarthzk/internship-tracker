@@ -57,6 +57,11 @@ report is the proof it is alive: if it does not arrive at 09:00 IST, check Actio
 Set `enabled: false` (or `true`) in `data/companies.yaml` and commit. Its listings stay as they are.
 Turn a company on only after the cloud-check passes for it.
 
+### Check a noisy company less often
+A site that rate-limits GitHub's shared IPs (HTTP 429 on many runs) can be checked less often: add
+`check_every_minutes: 30` (a multiple of 10) to its entry in `data/companies.yaml`. Alerts for that
+company can then arrive up to that many minutes late. Microsoft and Qualcomm use 30.
+
 ### Add a company (3 steps)
 1. Find its platform: open its careers page, DevTools -> Network -> Fetch/XHR while searching.
    Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle HCM, Eightfold and Phenom need only a

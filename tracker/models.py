@@ -105,9 +105,14 @@ class Company(_Model):
     careers_url: str | None = Field(default=None, pattern=r"^https?://\S+$")
     enabled: bool = False
     notes: str | None = None
+    # How often to check this company, in minutes: a multiple of 10 (the run interval). Heavy or
+    # rate-limited sites use a larger value; see tracker/schedule.py.
+    check_every_minutes: int = Field(default=10, ge=10, le=1440)
 
     @model_validator(mode="after")
     def _check_ats_and_config(self) -> Company:
+        if self.check_every_minutes % 10:
+            raise ValueError(f"company {self.slug!r}: check_every_minutes must be a multiple of 10")
         if self.enabled and self.ats == AtsType.unknown:
             raise ValueError(f"company {self.slug!r} is enabled but ats is 'unknown'")
         missing = [k for k in REQUIRED_ATS_CONFIG.get(self.ats, ()) if not self.ats_config.get(k)]
