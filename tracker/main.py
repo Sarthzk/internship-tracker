@@ -6,6 +6,7 @@ import argparse
 import asyncio
 import logging
 import os
+import re
 from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field
 from datetime import UTC, datetime, timedelta
@@ -96,7 +97,10 @@ async def fetch_company(
 def build_listings(company: Company, postings: list[RawPosting], now: datetime) -> list[Listing]:
     """Filter to India tech internships and turn them into (not yet merged) Listings."""
     listings: dict[str, Listing] = {}
+    excluded = [re.compile(pattern, re.IGNORECASE) for pattern in company.exclude_titles]
     for posting in postings:
+        if any(pattern.search(posting.title) for pattern in excluded):
+            continue
         category = keep(posting)
         if category is None:
             continue

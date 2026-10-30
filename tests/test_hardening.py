@@ -220,3 +220,42 @@ async def test_stale_lookup_sends_no_gap_alert_and_no_recovery(monkeypatch, data
     monkeypatch.setenv("GITHUB_RUN_NUMBER", "50")
     await _run_cli(False, data_dir)
     assert sender.sent == []
+
+
+# --- per-company exclude_titles ---
+
+
+def test_exclude_titles_drops_matching_titles_for_that_company_only():
+    import pytest as _pytest
+    from pydantic import ValidationError
+
+    from tracker.main import build_listings
+    from tracker.models import Company, RawPosting
+
+    def posting(n: int, title: str) -> RawPosting:
+        return RawPosting(
+            company_slug="db",
+            source="workday",
+            external_id=str(n),
+            title=title,
+            locations=["Pune, India"],
+            url=f"https://db.example/{n}",
+        )
+
+    postings = [
+        posting(1, "Apprentice Hiring for 2026- 2027"),
+        posting(2, "Software Engineer Intern"),
+    ]
+    base = {
+        "name": "Db",
+        "slug": "db",
+        "tier": 1,
+        "ats": "greenhouse",
+        "ats_config": {"board_token": "db"},
+        "enabled": True,
+    }
+    with_rule = Company(**base, exclude_titles=["apprentice hiring"])
+    assert [li.external_id for li in build_listings(with_rule, postings, T0)] == ["2"]
+    assert len(build_listings(Company(**base), postings, T0)) == 2
+    with _pytest.raises(ValidationError):
+        Company(**base, exclude_titles=["(unclosed"])

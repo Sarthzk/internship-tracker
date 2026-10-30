@@ -249,9 +249,15 @@ def classify_category(title: str) -> Category:
     return _tech_category(title) or Category.other
 
 
+# Some career sites label a posting's category in its own link ("Apprentice---Non-Technology").
+NON_TECH_URL = re.compile(r"non[-_ ]?tech(?:nology|nical)?(?![a-z])", re.IGNORECASE)
+
+
 def keep(posting: RawPosting) -> Category | None:
     """The category if this is an India tech internship, else None (drop it)."""
     if not is_internship(posting.title):
+        return None
+    if NON_TECH_URL.search(posting.url):
         return None
     if not is_india_location(posting.locations):
         return None

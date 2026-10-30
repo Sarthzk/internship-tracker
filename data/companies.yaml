@@ -9,6 +9,7 @@
 #              phenom {host, locale?}
 # careers_url: where students find the company's openings (also what fingerprint_platforms.py fetches)
 # enabled:     only enabled companies are fetched; requires ats != unknown
+# exclude_titles: optional list of regexes; titles matching one are dropped for this company
 # check_every_minutes: optional, a multiple of 10 (default 10); for sites that rate-limit us
 
 companies:
@@ -894,6 +895,7 @@ companies:
   - name: Deutsche Bank
     slug: deutsche-bank
     tier: 1
+    exclude_titles: ['apprentice hiring']
     ats: workday
     ats_config: {host: db.wd3.myworkdayjobs.com, tenant: db, site: DBWebsite}
     careers_url: https://db.wd3.myworkdayjobs.com/DBWebsite

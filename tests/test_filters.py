@@ -117,3 +117,21 @@ def test_keep_requires_all_three():
     assert keep(posting("Software Engineer Intern", ["Indianapolis, IN"])) is None
     assert keep(posting("Software Engineer", ["Bengaluru"])) is None
     assert keep(posting("Marketing Intern", ["Bengaluru"])) is None
+
+
+def test_postings_labelled_non_technology_in_their_link_are_dropped():
+    from tracker.models import RawPosting
+
+    def posting(url: str) -> RawPosting:
+        return RawPosting(
+            company_slug="db",
+            source="workday",
+            external_id="1",
+            title="Apprentice",
+            locations=["Mumbai, India"],
+            url=url,
+        )
+
+    assert keep(posting("https://db.example/job/Mumbai/Apprentice---Non-Technology_R1")) is None
+    assert keep(posting("https://db.example/job/Mumbai/Apprentice---Technology_R1")) is not None
+    assert keep(posting("https://db.example/job/Pune/Nontechnical-Intern_R2")) is None

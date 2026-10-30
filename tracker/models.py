@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from datetime import UTC, date, datetime
 from enum import StrEnum
 from pathlib import Path
@@ -108,9 +109,19 @@ class Company(_Model):
     # How often to check this company, in minutes: a multiple of 10 (the run interval). Heavy or
     # rate-limited sites use a larger value; see tracker/schedule.py.
     check_every_minutes: int = Field(default=10, ge=10, le=1440)
+    # Regular expressions (case-insensitive) for titles to drop at this company, for roles that
+    # look like tech internships but are not (e.g. a bank's non-technology apprenticeship program).
+    exclude_titles: list[str] = Field(default_factory=list)
 
     @model_validator(mode="after")
     def _check_ats_and_config(self) -> Company:
+        for pattern in self.exclude_titles:
+            try:
+                re.compile(pattern)
+            except re.error as exc:
+                raise ValueError(
+                    f"company {self.slug!r}: bad exclude_titles pattern: {exc}"
+                ) from exc
         if self.check_every_minutes % 10:
             raise ValueError(f"company {self.slug!r}: check_every_minutes must be a multiple of 10")
         if self.enabled and self.ats == AtsType.unknown:
