@@ -593,7 +593,7 @@
       "Jaipur",
       "Bangalore, Raheja Towers, 26-27 M. G. Road"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -615,7 +615,7 @@
     "locations": [
       "Mumbai, Nirlon Knowledge Park"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
