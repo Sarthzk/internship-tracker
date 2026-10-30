@@ -82,3 +82,40 @@ async def test_one_request_at_a_time_per_host():
     async with make_client(inner=httpx.MockTransport(handler), delay=0, backoff=0) as client:
         await asyncio.gather(*(client.get(f"{URL}?n={i}") for i in range(5)))
     assert peak == 1
+
+
+async def test_429_waits_five_times_longer_than_a_server_error(monkeypatch):
+    waits: list[float] = []
+
+    async def fake_sleep(seconds: float) -> None:
+        waits.append(seconds)
+
+    monkeypatch.setattr("tracker.http.asyncio.sleep", fake_sleep)
+    with respx.mock:
+        respx.get(URL).mock(
+            side_effect=[httpx.Response(429), httpx.Response(429), httpx.Response(200)]
+        )
+        async with make_client(delay=0, backoff=1.0) as client:
+            assert (await client.get(URL)).status_code == 200
+        respx.get(URL).mock(
+            side_effect=[httpx.Response(503), httpx.Response(503), httpx.Response(200)]
+        )
+        async with make_client(delay=0, backoff=1.0) as client:
+            assert (await client.get(URL)).status_code == 200
+    assert [w for w in waits if w >= 1] == [5.0, 10.0, 1.0, 2.0]
+
+
+async def test_retry_after_header_still_wins(monkeypatch):
+    waits: list[float] = []
+
+    async def fake_sleep(seconds: float) -> None:
+        waits.append(seconds)
+
+    monkeypatch.setattr("tracker.http.asyncio.sleep", fake_sleep)
+    with respx.mock:
+        respx.get(URL).mock(
+            side_effect=[httpx.Response(429, headers={"Retry-After": "7"}), httpx.Response(200)]
+        )
+        async with make_client(delay=0, backoff=1.0) as client:
+            await client.get(URL)
+    assert [w for w in waits if w >= 1] == [7.0]

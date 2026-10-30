@@ -21,6 +21,7 @@ USER_AGENT = f"internship-tracker/{__version__} (+https://github.com/Sarthzk/int
 TIMEOUT_SECONDS = 20.0
 MAX_ATTEMPTS = 3
 MAX_BACKOFF_SECONDS = 30.0
+RATE_LIMIT_FACTOR = 5
 
 
 def _is_retryable(status_code: int) -> bool:
@@ -77,7 +78,10 @@ class PoliteTransport(httpx.AsyncBaseTransport):
                     return response
                 wait = _retry_after(response)
                 if wait is None:
-                    wait = self._backoff * 2**attempt
+                    # A rate limiter needs real time to cool down, so 429 waits 5x longer
+                    # (5 s, then 10 s) than a server error (1 s, then 2 s).
+                    factor = RATE_LIMIT_FACTOR if response.status_code == 429 else 1
+                    wait = self._backoff * factor * 2**attempt
                 await response.aclose()
                 log.info("%s %s: HTTP %d, retrying", request.method, host, response.status_code)
                 await asyncio.sleep(min(wait, MAX_BACKOFF_SECONDS))
