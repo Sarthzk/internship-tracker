@@ -44,14 +44,19 @@ async def test_skipped_outside_github_actions():
 async def test_returns_start_of_previous_run_skipping_this_one():
     runs = {
         "workflow_runs": [
-            {"id": 99, "run_started_at": "2026-10-29T11:58:00Z"},
-            {"id": 98, "run_started_at": "2026-10-29T11:48:00Z", "conclusion": "success"},
+            {"id": 99, "run_number": 50, "run_started_at": "2026-10-29T11:58:00Z"},
+            {
+                "id": 98,
+                "run_number": 49,
+                "run_started_at": "2026-10-29T11:48:00Z",
+                "conclusion": "success",
+            },
         ]
     }
     with respx.mock:
         route = respx.get(RUNS_URL).respond(200, json=runs)
         started = await lookup()
-    assert started == PreviousRun(datetime(2026, 10, 29, 11, 48, tzinfo=UTC), "success")
+    assert started == PreviousRun(datetime(2026, 10, 29, 11, 48, tzinfo=UTC), "success", 49)
     request = route.calls.last.request
     assert request.headers["Authorization"] == "Bearer ghs_s3cr3t"
     assert request.url.params["status"] == "completed"

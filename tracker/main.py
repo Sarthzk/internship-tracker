@@ -17,7 +17,13 @@ from tracker import fetchers, readme
 from tracker.diff import MergeResult, merge, prune_closed
 from tracker.filters import keep
 from tracker.guards import find_id_churn
-from tracker.health import is_recovery, record_fetch, run_gap_message, should_send_crash_alert
+from tracker.health import (
+    is_previous_run,
+    is_recovery,
+    record_fetch,
+    run_gap_message,
+    should_send_crash_alert,
+)
 from tracker.http import make_client
 from tracker.models import Company, HealthRecord, Listing, RawPosting, Status, load_companies
 from tracker.notify import (
@@ -233,6 +239,7 @@ def print_summary(summary: RunSummary, dry_run: bool) -> None:
 class PreviousRun:
     started: datetime
     conclusion: str | None  # "success", "failure", "cancelled", ...
+    number: int | None = None  # the workflow's sequential run number
 
 
 async def previous_run(
@@ -262,7 +269,7 @@ async def previous_run(
         for run in runs:
             if str(run["id"]) != this_run:
                 started = datetime.fromisoformat(run["run_started_at"])
-                return PreviousRun(started, run.get("conclusion"))
+                return PreviousRun(started, run.get("conclusion"), run.get("run_number"))
     except (httpx.HTTPError, ValueError, KeyError, TypeError) as exc:
         log.warning("could not look up the previous run: %s", type(exc).__name__)
     return None
@@ -280,11 +287,19 @@ def digest_text(summary: RunSummary, companies: Sequence[Company], now: datetime
     return format_daily_digest(enabled, failing, summary.open_count, new_last_day)
 
 
+def _this_run_number() -> int | None:
+    value = os.environ.get("GITHUB_RUN_NUMBER", "")
+    return int(value) if value.isdigit() else None
+
+
 async def _run_cli(dry_run: bool, data_dir: Path) -> int:
     companies = load_companies(data_dir / "companies.yaml")
     async with make_client() as client:
         sender = None if dry_run else Telegram.from_env(client)
         previous = await previous_run(client) if sender is not None else None
+        if previous is not None and not is_previous_run(previous.number, _this_run_number()):
+            log.warning("ignoring the previous-run lookup: it is not the run right before this one")
+            previous = None
         conclusion = previous.conclusion if previous else None
         if sender is not None:
             event = os.environ.get("GITHUB_EVENT_NAME", "unknown")

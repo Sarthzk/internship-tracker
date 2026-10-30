@@ -96,3 +96,14 @@ def should_send_crash_alert(previous_conclusion: str | None) -> bool:
 def is_recovery(previous_conclusion: str | None) -> bool:
     """True when this run succeeded right after a failed one."""
     return previous_conclusion == "failure"
+
+
+def is_previous_run(previous_number: int | None, this_number: int | None) -> bool:
+    """True when the run found by the GitHub API is the one right before this run.
+
+    Run numbers are sequential, so anything else means the API returned a stale or partial list
+    (an alert once claimed a 13 hour gap while runs were happening every 10 minutes). Such
+    data must not trigger or suppress alerts. Unknown numbers (local runs) are trusted."""
+    if previous_number is None or this_number is None:
+        return True
+    return previous_number == this_number - 1

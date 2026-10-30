@@ -198,3 +198,25 @@ def test_closed_listings_older_than_180_days_are_dropped():
 
     kept = prune_closed([old_listing(1), closed_ago(2, 179), closed_ago(3, 181)], T0)
     assert [li.external_id for li in kept] == ["1", "2"]
+
+
+# --- stale previous-run lookups must not raise false alarms ---
+
+
+def test_only_the_run_right_before_this_one_is_trusted():
+    from tracker.health import is_previous_run
+
+    assert is_previous_run(49, 50)
+    assert not is_previous_run(30, 50)  # stale: runs 31-49 are missing from the list
+    assert is_previous_run(None, 50) and is_previous_run(49, None)  # unknown (local run)
+
+
+async def test_stale_lookup_sends_no_gap_alert_and_no_recovery(monkeypatch, data_dir):
+    from tracker.main import RunSummary
+
+    sender = FakeSender()
+    stale = PreviousRun(datetime.now(UTC) - timedelta(hours=13), "failure", 30)
+    fake_environment(monkeypatch, sender, stale, RunSummary())
+    monkeypatch.setenv("GITHUB_RUN_NUMBER", "50")
+    await _run_cli(False, data_dir)
+    assert sender.sent == []
