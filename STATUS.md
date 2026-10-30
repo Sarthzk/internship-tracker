@@ -21,7 +21,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Capital One | workday | ✅ OK | 2026-10-30 | 0 |
 | Cisco | workday | ✅ OK | 2026-10-30 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-10-30 | 0 |
-| Deutsche Bank | workday | ✅ OK | 2026-10-30 | 2 |
+| Deutsche Bank | workday | ✅ OK | 2026-10-30 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-10-30 | 0 |
 | Google | custom | ✅ OK | 2026-10-30 | 4 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-10-30 | 0 |

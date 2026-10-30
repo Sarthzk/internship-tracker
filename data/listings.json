@@ -577,7 +577,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-10-30T18:50:43.440992Z",
     "company": "Deutsche Bank",
     "company_slug": "deutsche-bank",
     "date_posted": "2026-10-28",
@@ -593,16 +593,16 @@
       "Jaipur",
       "Bangalore, Raheja Towers, 26-27 M. G. Road"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice Hiring for 2026- 2027",
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/do-not-use-Mumbai-Nirlon-Know-Pk-B4-B5/Apprentice---Non-Technology_R0357981"
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-10-30T18:50:43.440992Z",
     "company": "Deutsche Bank",
     "company_slug": "deutsche-bank",
     "date_posted": null,
@@ -615,10 +615,10 @@
     "locations": [
       "Mumbai, Nirlon Knowledge Park"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice Hiring for 2026- 2027",
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Nirlon-Knowledge-Park/Apprentice-Hiring-for-2026--2027_R0456794-1"
   },
