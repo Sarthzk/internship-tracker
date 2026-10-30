@@ -62,7 +62,14 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): update listings"
-          git push || { git pull --rebase && git push; }
+          # Retry: another push (a code change, a retry of this job) may have landed meanwhile.
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push attempt $attempt failed; rebasing and retrying."
+            git pull --rebase || git rebase --abort || true
+            sleep $((attempt * 5))
+          done
+          exit 1
 
       # Covers failures Python never sees (checkout, install, validation, commit). When the tracker
       # step itself failed it already sent its own crash message. Only the first failure alerts.
