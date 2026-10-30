@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Oracle | oracle_hcm | ⚠️ failing for 1 run: ReadTimeout: | 2026-10-30 | 0 |
+| Oracle | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 500 from eeho.fa.us2.oraclecloud.com | 2026-10-30 | 0 |
 | Adobe | phenom | ✅ OK | 2026-10-30 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-10-30 | 0 |
 | Amazon | custom | ✅ OK | 2026-10-30 | 0 |

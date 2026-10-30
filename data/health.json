@@ -604,10 +604,10 @@
   },
   {
     "company_slug": "oracle",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 80,
-    "last_error": "ReadTimeout: ",
+    "last_error": "FetchError: HTTP 500 from eeho.fa.us2.oraclecloud.com",
     "last_success": "2026-10-30",
     "zero_since": null
   },
