@@ -238,3 +238,40 @@ def test_churn_and_recovered_messages():
     text = format_churn({"Acme": (6, 7)})
     assert "Acme: 6 new while 7 known ones vanished" in text and "NOT sent" in text
     assert "running normally" in format_recovered()
+
+
+def test_shared_outage_is_one_failure_message_and_one_recovery_message():
+    names = {"a": "Alpha", "b": "Beta", "c": "Gamma"}
+    health = {
+        slug: HealthRecord(
+            company_slug=slug, consecutive_failures=3, last_error="FetchError: invalid JSON"
+        )
+        for slug in names
+    }
+    [alert] = plan_health_alerts(health, names)
+    assert alert.slugs == ["a", "b", "c"] and alert.alerted is True
+    assert "3 companies" in alert.text and "Alpha, Beta, Gamma" in alert.text
+    assert alert.text.count("invalid JSON") == 1
+    for record in health.values():
+        record.failure_alerted = True
+        record.consecutive_failures = 0
+    [alert] = plan_health_alerts(health, names)
+    assert alert.slugs == ["a", "b", "c"] and alert.alerted is False
+    assert "3 companies are working again" in alert.text
+
+
+def test_different_errors_are_listed_per_company():
+    names = {"a": "Alpha", "b": "Beta"}
+    health = {
+        "a": HealthRecord(company_slug="a", consecutive_failures=3, last_error="HTTP 502"),
+        "b": HealthRecord(company_slug="b", consecutive_failures=3, last_error="timeout"),
+    }
+    [alert] = plan_health_alerts(health, names)
+    assert "• Alpha: HTTP 502" in alert.text and "• Beta: timeout" in alert.text
+
+
+async def test_grouped_flags_set_for_every_company_once_delivered():
+    names = {"a": "Alpha", "b": "Beta"}
+    health = {s: HealthRecord(company_slug=s, consecutive_failures=3) for s in names}
+    await deliver_health_alerts(FakeSender(), plan_health_alerts(health, names), health, pause=0)
+    assert all(r.failure_alerted for r in health.values())

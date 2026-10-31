@@ -141,29 +141,61 @@ async def deliver(sender: Sender, alerts: list[Alert], pause: float = 2.0) -> se
 
 @dataclass
 class HealthAlert:
-    slug: str
+    slugs: list[str]
     text: str
     alerted: bool  # value of HealthRecord.failure_alerted once this message is delivered
+
+
+def _common_error(errors: list[str]) -> str:
+    """The error text when every company failed with the same one (one shared outage)."""
+    return errors[0] if len(set(errors)) == 1 else ""
 
 
 def plan_health_alerts(
     health: Mapping[str, HealthRecord], names: Mapping[str, str]
 ) -> list[HealthAlert]:
-    """Tell the owner once when a company starts failing, and once when it recovers."""
-    alerts = []
+    """Tell the owner once when companies start failing, and once when they recover.
+
+    Companies that change state in the same run share one message, so a shared outage
+    (for example a Workday maintenance window) is one alert, not one per company.
+    """
+    failing: list[str] = []
+    recovered: list[str] = []
     for slug in sorted(names):
         record = health.get(slug)
         if record is None:
             continue
-        name = names[slug]
         if record.consecutive_failures >= FAILURE_ALERT_AFTER and not record.failure_alerted:
-            text = (
-                f"⚠️ {name} has failed {record.consecutive_failures} runs in a row: "
-                f"{record.last_error or 'unknown error'}"
-            )
-            alerts.append(HealthAlert(slug, text, alerted=True))
+            failing.append(slug)
         elif record.consecutive_failures == 0 and record.failure_alerted:
-            alerts.append(HealthAlert(slug, f"✅ {name} is working again.", alerted=False))
+            recovered.append(slug)
+
+    alerts = []
+    if len(failing) == 1:
+        slug = failing[0]
+        record = health[slug]
+        text = (
+            f"⚠️ {names[slug]} has failed {record.consecutive_failures} runs in a row: "
+            f"{record.last_error or 'unknown error'}"
+        )
+        alerts.append(HealthAlert([slug], text, alerted=True))
+    elif failing:
+        errors = [health[slug].last_error or "unknown error" for slug in failing]
+        lines = [f"⚠️ {len(failing)} companies are failing:"]
+        common = _common_error(errors)
+        if common:
+            lines.append(f"Same error for all: {common}")
+            lines.append(", ".join(names[slug] for slug in failing))
+        else:
+            lines.extend(f"• {names[slug]}: {error}" for slug, error in zip(failing, errors))
+        alerts.append(HealthAlert(failing, "\n".join(lines), alerted=True))
+    if len(recovered) == 1:
+        alerts.append(HealthAlert(recovered, f"✅ {names[recovered[0]]} is working again.", False))
+    elif recovered:
+        text = f"✅ {len(recovered)} companies are working again: " + ", ".join(
+            names[slug] for slug in recovered
+        )
+        alerts.append(HealthAlert(recovered, text, alerted=False))
     return alerts
 
 
@@ -177,7 +209,8 @@ async def deliver_health_alerts(
         if n and pause:
             await asyncio.sleep(pause)
         if await sender.send(alert.text):
-            health[alert.slug].failure_alerted = alert.alerted
+            for slug in alert.slugs:
+                health[slug].failure_alerted = alert.alerted
 
 
 def format_crash(error: BaseException) -> str:
