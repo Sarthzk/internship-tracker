@@ -275,3 +275,11 @@ async def test_grouped_flags_set_for_every_company_once_delivered():
     health = {s: HealthRecord(company_slug=s, consecutive_failures=3) for s in names}
     await deliver_health_alerts(FakeSender(), plan_health_alerts(health, names), health, pause=0)
     assert all(r.failure_alerted for r in health.values())
+
+
+async def test_channel_is_only_built_when_token_and_channel_are_set():
+    async with make_client(delay=0, backoff=0) as client:
+        assert Telegram.channel_from_env(client, {"TELEGRAM_BOT_TOKEN": "t"}) is None
+        assert Telegram.channel_from_env(client, {"TELEGRAM_CHANNEL_ID": "@c"}) is None
+        env = {"TELEGRAM_BOT_TOKEN": "t", "TELEGRAM_CHANNEL_ID": "@c"}
+        assert Telegram.channel_from_env(client, env) is not None

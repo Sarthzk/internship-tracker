@@ -285,3 +285,47 @@ def test_check_command_fails_loudly(tmp_path, capsys):
         respx.get(GH).respond(404)
         assert main(["check", "--companies", "acme", "--data-dir", str(tmp_path)]) == 1
     assert main(["check", "--companies", "nope", "--data-dir", str(tmp_path)]) == 2
+
+
+async def test_new_listings_go_to_the_channel_and_health_stays_with_the_owner(tmp_path):
+    old_health(tmp_path)
+    owner, channel = FakeSender(), FakeSender()
+    with respx.mock:
+        respx.get(GH).respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        respx.get(LV).respond(500)  # Beta keeps failing: that is an owner-only matter
+        for n in range(3):
+            await go(
+                tmp_path,
+                now=T0 + timedelta(minutes=10 * n),
+                sender=owner,
+                channel=channel,
+                pause=0,
+            )
+    assert len(channel.sent) == 1 and "Software Engineer Intern" in channel.sent[0]
+    assert all("Software Engineer Intern" not in text for text in owner.sent)
+    assert any("Beta" in text for text in owner.sent)
+    assert all("Beta" not in text for text in channel.sent)
+    [li] = load_listings(tmp_path / "listings.json")
+    assert li.notified is True
+
+
+async def test_listing_alert_falls_back_to_the_owner_without_a_channel(tmp_path):
+    old_health(tmp_path)
+    owner = FakeSender()
+    with respx.mock:
+        respx.get(GH).respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        respx.get(LV).respond(200, json=[])
+        await go(tmp_path, sender=owner, pause=0)
+    assert len(owner.sent) == 1
+
+
+async def test_failed_channel_send_keeps_the_listing_for_retry(tmp_path):
+    old_health(tmp_path)
+    owner, channel = FakeSender(), FakeSender()
+    channel.ok = False
+    with respx.mock:
+        respx.get(GH).respond(200, json=gh_jobs(("Software Engineer Intern", "Pune")))
+        respx.get(LV).respond(200, json=[])
+        await go(tmp_path, sender=owner, channel=channel, pause=0)
+    [li] = load_listings(tmp_path / "listings.json")
+    assert li.notified is False and owner.sent == []

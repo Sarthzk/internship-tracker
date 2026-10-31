@@ -51,6 +51,15 @@ class Telegram:
             return None
         return cls(client, token, chat_id)
 
+    @classmethod
+    def channel_from_env(
+        cls, client: httpx.AsyncClient, env: Mapping[str, str] | None = None
+    ) -> Telegram | None:
+        """The public channel for new-listing alerts (TELEGRAM_CHANNEL_ID), if one is set up."""
+        env = os.environ if env is None else env
+        token, channel = env.get("TELEGRAM_BOT_TOKEN", ""), env.get("TELEGRAM_CHANNEL_ID", "")
+        return cls(client, token, channel) if token and channel else None
+
     async def send(self, text: str) -> bool:
         body = {
             "chat_id": self._chat_id,

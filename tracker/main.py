@@ -134,6 +134,7 @@ async def run(
     now: datetime | None = None,
     sender: Sender | None = None,
     pause: float = 2.0,
+    channel: Sender | None = None,
     enricher: tuple[enrichment.Completer, str, int] | None = None,
 ) -> RunSummary:
     now = now or datetime.now(UTC)
@@ -179,7 +180,7 @@ async def run(
     if not dry_run:
         if enricher is not None:
             await _enrich(summary.merge.listings, enabled, inline, client, enricher)
-        await _notify(summary, health, enabled, first_fetch, sender, pause)
+        await _notify(summary, health, enabled, first_fetch, sender, pause, channel)
         changed = save_listings(listings_path, summary.merge.listings)
         changed |= save_health(health_path, health)
         summary.wrote = changed
@@ -232,8 +233,12 @@ async def _notify(
     first_fetch: set[str],
     sender: Sender | None,
     pause: float,
+    channel: Sender | None = None,
 ) -> None:
-    """Send Telegram alerts and record `notified` / `failure_alerted` before the data is saved."""
+    """Send Telegram alerts and record `notified` / `failure_alerted` before the data is saved.
+
+    New-listing alerts go to the public channel when there is one, otherwise to the owner. Everything
+    about how the tracker itself is doing (health, summaries, churn) goes only to the owner."""
     listings = summary.merge.listings
     names = {c.slug: c.name for c in enabled}
 
@@ -259,19 +264,20 @@ async def _notify(
             log.warning("could not send the 'possible site change' message")
 
     pending = [li for li in listings if li.status == Status.open and not li.notified]
-    if sender is None:
-        summary.alerts_pending = len(pending)
-        return
-    # At most MAX_ALERT_MESSAGES per run; the rest stay un-notified and go out next run.
-    alerts = plan_alerts(pending)[:MAX_ALERT_MESSAGES]
-    delivered = await deliver(sender, alerts, pause)
+    listing_sender = channel or sender
+    delivered: set[str] = set()
+    if listing_sender is not None:
+        # At most MAX_ALERT_MESSAGES per run; the rest stay un-notified and go out next run.
+        alerts = plan_alerts(pending)[:MAX_ALERT_MESSAGES]
+        delivered = await deliver(listing_sender, alerts, pause)
     for li in pending:
         if li.id in delivered:
             li.notified = True
     summary.alerts_sent = len(delivered)
     summary.alerts_pending = len(pending) - len(delivered)
 
-    await deliver_health_alerts(sender, plan_health_alerts(health, names), health, pause)
+    if sender is not None:
+        await deliver_health_alerts(sender, plan_health_alerts(health, names), health, pause)
 
 
 def print_summary(summary: RunSummary, dry_run: bool) -> None:
@@ -352,6 +358,7 @@ async def _run_cli(dry_run: bool, data_dir: Path) -> int:
     companies = load_companies(data_dir / "companies.yaml")
     async with make_client() as client:
         sender = None if dry_run else Telegram.from_env(client)
+        channel = None if dry_run else Telegram.channel_from_env(client)
         previous = await previous_run(client) if sender is not None else None
         if previous is not None and not is_previous_run(previous.number, _this_run_number()):
             log.warning("ignoring the previous-run lookup: it is not the run right before this one")
@@ -369,6 +376,7 @@ async def _run_cli(dry_run: bool, data_dir: Path) -> int:
                 data_dir,
                 dry_run=dry_run,
                 sender=sender,
+                channel=channel,
                 enricher=None if dry_run else enrichment.from_env(),
             )
         except Exception as exc:
