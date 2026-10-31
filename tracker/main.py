@@ -420,6 +420,18 @@ async def _check_cli(slugs: list[str], data_dir: Path) -> int:
     return 1 if failed else 0
 
 
+async def _channel_test_cli() -> int:
+    """Send one message to the public channel to prove the bot can post there."""
+    async with make_client() as client:
+        channel = Telegram.channel_from_env(client)
+        if channel is None:
+            print("TELEGRAM_BOT_TOKEN / TELEGRAM_CHANNEL_ID are not set")
+            return 2
+        ok = await channel.send("✅ Connected. New India tech internships will be posted here.")
+    print("channel message sent" if ok else "channel message FAILED (is the bot an admin?)")
+    return 0 if ok else 1
+
+
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="tracker", description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -431,6 +443,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     check_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     validate_parser = sub.add_parser("validate", help="check the data files; exit 1 on errors")
     validate_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
+    sub.add_parser("channel-test", help="send one test message to the public channel")
     readme_parser = sub.add_parser("readme", help="regenerate README.md and README-archive.md")
     readme_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     for p in (run_parser, check_parser, readme_parser, validate_parser):
@@ -444,6 +457,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     # httpx logs every request URL at INFO, and Telegram URLs contain the bot token.
     for noisy in ("httpx", "httpcore"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
+    if args.command == "channel-test":
+        return asyncio.run(_channel_test_cli())
     if args.command == "validate":
         errors, warnings = check_files(args.data_dir)
         for line in warnings:
