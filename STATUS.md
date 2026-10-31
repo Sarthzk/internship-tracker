@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**100 companies tracked** · 99 OK · 1 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
+**100 companies tracked** · 100 OK · 0 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Nvidia | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-10-31 | 1 |
 | Adobe | phenom | ✅ OK | 2026-10-31 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Amazon | custom | ✅ OK | 2026-10-31 | 0 |
@@ -33,6 +32,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Micron | workday | ✅ OK | 2026-10-31 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-10-31 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-10-31 | 0 |
+| Nvidia | workday | ✅ OK | 2026-10-31 | 1 |
 | NXP | workday | ✅ OK | 2026-10-31 | 2 |
 | Oracle | oracle_hcm | ✅ OK | 2026-10-31 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-10-31 | 0 |
