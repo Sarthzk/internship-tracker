@@ -2,7 +2,7 @@ import json
 from datetime import UTC, datetime
 
 from tracker.enrich import Extraction, enrich_new, extract, validate
-from tracker.models import Category, Listing, Term
+from tracker.models import Category, Listing, Status, Term
 
 NOW = datetime(2026, 10, 31, 8, 0, tzinfo=UTC)
 TEXT = (
@@ -116,16 +116,39 @@ async def test_text_is_sent_in_memory_only_and_instructions_inside_it_are_data()
     assert enrichment.eligible_batches is None
 
 
-async def test_enrich_new_respects_the_cap_and_only_touches_new_listings():
+async def test_enrich_new_respects_the_cap_and_skips_listings_without_text():
     listings = [listing(n) for n in range(5)]
-    descriptions = {li.id: TEXT for li in listings}
-    new_ids = {li.id for li in listings[:4]}
     completer = FakeCompleter(reply(eligible_batches=[2027]))
-    done = await enrich_new(
-        completer, "m", listings, descriptions, new_ids, NOW, max_per_run=2, pause=0
-    )
+
+    async def describe(li: Listing) -> str | None:
+        return None if li.external_id == "0" else TEXT
+
+    done = await enrich_new(completer, "m", listings, describe, NOW, max_per_run=2, pause=0)
     assert done == 2 and len(completer.calls) == 2
-    assert [li.enrichment is not None for li in listings] == [True, True, False, False, False]
+    assert [li.enrichment is not None for li in listings] == [False, True, True, False, False]
+
+
+async def test_failed_extraction_leaves_the_listing_for_a_later_run():
+    listings = [listing(1)]
+
+    async def describe(li: Listing) -> str | None:
+        return TEXT
+
+    assert await enrich_new(FakeCompleter("junk"), "m", listings, describe, NOW, pause=0) == 0
+    assert listings[0].enrichment is None
+
+
+async def test_already_enriched_and_closed_listings_are_left_alone():
+    done_one, closed = listing(1), listing(2)
+    done_one.enrichment = await extract(FakeCompleter(reply()), "m", "t", TEXT, NOW)
+    closed.status = Status.closed
+    completer = FakeCompleter(reply())
+
+    async def describe(li: Listing) -> str | None:
+        return TEXT
+
+    assert await enrich_new(completer, "m", [done_one, closed], describe, NOW, pause=0) == 0
+    assert completer.calls == []
 
 
 def test_vague_term_other_is_not_kept():

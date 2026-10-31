@@ -10,8 +10,9 @@ from __future__ import annotations
 import asyncio
 import json
 import logging
+import os
 import re
-from collections.abc import Mapping, Sequence
+from collections.abc import Awaitable, Callable, Mapping, Sequence
 from datetime import UTC, datetime
 from typing import Protocol
 
@@ -181,28 +182,45 @@ async def extract(
 async def enrich_new(
     completer: Completer,
     model: str,
-    listings: Sequence[Listing],
-    descriptions: Mapping[str, str],
-    new_ids: set[str],
+    candidates: Sequence[Listing],
+    describe: Callable[[Listing], Awaitable[str | None]],
     now: datetime | None = None,
     max_per_run: int = DEFAULT_MAX_PER_RUN,
     pause: float = PAUSE_BETWEEN_LISTINGS,
 ) -> int:
-    """Fill `enrichment` on new open listings that have none. Returns how many were enriched."""
+    """Fill `enrichment` on open listings that have none, at most `max_per_run` per run.
+
+    `describe` returns the posting text (or None, then the listing is skipped and tried again
+    on a later run). A listing whose extraction failed stays without enrichment, so it is
+    retried too. Returns how many were enriched."""
     now = now or datetime.now(UTC)
-    todo = [
-        li
-        for li in listings
-        if li.id in new_ids and li.status == Status.open and li.enrichment is None
-    ][:max_per_run]
-    done = 0
-    for n, listing in enumerate(todo):
-        if n and pause:
+    todo = [li for li in candidates if li.status == Status.open and li.enrichment is None]
+    done = attempted = 0
+    for listing in todo:
+        if attempted >= max_per_run:
+            break
+        description = await describe(listing)
+        if not description:
+            continue
+        if attempted and pause:
             await asyncio.sleep(pause)
-        enrichment = await extract(
-            completer, model, listing.title, descriptions.get(listing.id), now
-        )
+        attempted += 1
+        enrichment = await extract(completer, model, listing.title, description, now)
         if enrichment is not None:
             listing.enrichment = enrichment
             done += 1
     return done
+
+
+def from_env(env: Mapping[str, str] | None = None) -> tuple[Completer, str, int] | None:
+    """(completer, model, max per run) from GROQ_API_KEY / GROQ_MODEL, or None to skip the step."""
+    env = os.environ if env is None else env
+    key, model = env.get("GROQ_API_KEY", ""), env.get("GROQ_MODEL", "")
+    if not key or not model:
+        log.warning("GROQ_API_KEY / GROQ_MODEL not set: enrichment is skipped")
+        return None
+    try:
+        cap = int(env.get("ENRICH_MAX_PER_RUN", "") or DEFAULT_MAX_PER_RUN)
+    except ValueError:
+        cap = DEFAULT_MAX_PER_RUN
+    return GroqCompleter(key, model), model, max(cap, 0)

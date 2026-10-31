@@ -14,7 +14,9 @@ from pathlib import Path
 
 import httpx
 
+from tracker import enrich as enrichment
 from tracker import fetchers, readme
+from tracker.descriptions import can_fetch, fetch_description
 from tracker.diff import MergeResult, merge, prune_closed
 from tracker.filters import keep
 from tracker.guards import find_id_churn
@@ -132,6 +134,7 @@ async def run(
     now: datetime | None = None,
     sender: Sender | None = None,
     pause: float = 2.0,
+    enricher: tuple[enrichment.Completer, str, int] | None = None,
 ) -> RunSummary:
     now = now or datetime.now(UTC)
     enabled = [c for c in companies if c.enabled]
@@ -145,6 +148,7 @@ async def run(
     fetched: dict[str, list[Listing]] = {}
     succeeded: dict[str, bool] = {}
     first_fetch: set[str] = set()  # companies fetched successfully for the very first time
+    inline: dict[str, str] = {}  # descriptions that came with the job list (in memory only)
 
     for outcome in outcomes:
         slug = outcome.company.slug
@@ -157,6 +161,11 @@ async def run(
             first_fetch.add(slug)
         if ok and outcome.postings is not None:
             fetched[slug] = build_listings(outcome.company, outcome.postings, now)
+            for posting in outcome.postings:
+                if posting.description:
+                    inline[Listing.make_id(posting.source, slug, posting.external_id)] = (
+                        posting.description
+                    )
             summary.ok.append(slug)
         else:
             summary.failed[slug] = record.last_error or "unknown error"
@@ -168,11 +177,52 @@ async def run(
     if errors:  # before anything is sent or saved
         raise DataError("; ".join(errors[:5]))
     if not dry_run:
+        if enricher is not None:
+            await _enrich(summary.merge.listings, enabled, inline, client, enricher)
         await _notify(summary, health, enabled, first_fetch, sender, pause)
         changed = save_listings(listings_path, summary.merge.listings)
         changed |= save_health(health_path, health)
         summary.wrote = changed
     return summary
+
+
+ENRICH_TIMEOUT = 150  # seconds for the whole step; whatever is done by then is kept
+
+
+async def _enrich(
+    listings: list[Listing],
+    companies: Sequence[Company],
+    inline: Mapping[str, str],
+    client: httpx.AsyncClient,
+    enricher: tuple[enrichment.Completer, str, int],
+) -> None:
+    """Add batch / duration / stipend to open listings that have none. Never raises."""
+    completer, model, cap = enricher
+    by_slug = {c.slug: c for c in companies}
+    candidates = [
+        li
+        for li in listings
+        if li.status == Status.open
+        and li.enrichment is None
+        and li.company_slug in by_slug
+        and (li.id in inline or can_fetch(li))
+    ]
+    # Listings not yet announced first, so alerts carry the details; then the newest.
+    candidates.sort(key=lambda li: (li.notified, -li.first_seen.timestamp()))
+
+    async def describe(listing: Listing) -> str | None:
+        return inline.get(listing.id) or await fetch_description(
+            listing, by_slug[listing.company_slug], client
+        )
+
+    try:
+        done = await asyncio.wait_for(
+            enrichment.enrich_new(completer, model, candidates, describe, max_per_run=cap),
+            ENRICH_TIMEOUT,
+        )
+        log.info("enriched %d listing(s)", done)
+    except TimeoutError:
+        log.warning("enrichment stopped after %d s; the rest continues next run", ENRICH_TIMEOUT)
 
 
 async def _notify(
@@ -313,7 +363,14 @@ async def _run_cli(dry_run: bool, data_dir: Path) -> int:
             if gap:
                 await sender.send(gap)
         try:
-            summary = await run(companies, client, data_dir, dry_run=dry_run, sender=sender)
+            summary = await run(
+                companies,
+                client,
+                data_dir,
+                dry_run=dry_run,
+                sender=sender,
+                enricher=None if dry_run else enrichment.from_env(),
+            )
         except Exception as exc:
             # Only the first failed run alerts; while it keeps failing, stay quiet.
             if sender is not None and should_send_crash_alert(conclusion):

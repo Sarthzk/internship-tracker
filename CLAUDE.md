@@ -56,7 +56,8 @@ tracker/fetchers/          one module per ATS: greenhouse, lever, ashby, smartre
 tracker/fetchers/custom/   one module per company with a custom portal
 tracker/filters.py         India location matching, internship detection, category classification
 tracker/diff.py            merge fetched postings into existing listings
-tracker/enrich.py          Groq extraction of batch / duration / term / stipend
+tracker/enrich.py          Groq extraction of batch / duration / term / stipend / degree, checked against the text
+tracker/descriptions.py    fetch one listing's description text (in memory only) for enrichment
 tracker/readme.py          README + archive generation
 tracker/notify.py          Telegram alerts: new listings + admin/health alerts
 tracker/health.py          fetcher health tracking and alert decisions

@@ -83,8 +83,28 @@ def _where(listing: Listing) -> str:
     return "; ".join(listing.locations) or "location not stated"
 
 
+def details(listing: Listing) -> str:
+    """`Batch 2027 · 6 months · INR 50,000` from the enrichment, or "" when nothing is stated."""
+    info = listing.enrichment
+    if info is None:
+        return ""
+    parts = []
+    if info.eligible_batches:
+        parts.append("Batch " + ", ".join(str(y) for y in info.eligible_batches))
+    if info.duration_months:
+        parts.append(f"{info.duration_months} months")
+    if info.stipend:
+        parts.append(info.stipend)
+    return " · ".join(parts)
+
+
 def format_listing(listing: Listing) -> str:
-    return f"🆕 {listing.company}: {listing.title[:150]}\n📍 {_where(listing)}\n🔗 {listing.url}"
+    extra = details(listing)
+    lines = [f"🆕 {listing.company}: {listing.title[:150]}", f"📍 {_where(listing)}"]
+    if extra:
+        lines.append(f"🎓 {extra}")
+    lines.append(f"🔗 {listing.url}")
+    return "\n".join(lines)
 
 
 def plan_alerts(listings: Iterable[Listing]) -> list[Alert]:
