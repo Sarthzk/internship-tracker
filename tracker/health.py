@@ -19,7 +19,7 @@ BAND_MIN = 5
 
 def is_suspicious_drop(last_count: int, count: int) -> bool:
     """Zero after some postings, or postings halving by at least DROP_MIN: probably a site problem,
-    not real closures (CLAUDE.md rule 1)."""
+    not real closures."""
     if last_count <= 0:
         return False
     return count == 0 or (last_count - count >= DROP_MIN and count * 2 < last_count)

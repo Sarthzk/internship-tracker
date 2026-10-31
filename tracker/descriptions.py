@@ -1,6 +1,6 @@
 """Fetch the description text of one listing, for enrichment only.
 
-The text is passed to the LLM in memory and never stored (CLAUDE.md rule 2). Only sources whose
+The text is passed to the LLM in memory and never stored. Only sources whose
 detail endpoint is known are supported; for the others (custom portals, Phenom) there is no
 description and the listing is simply not enriched. Nothing here raises: a missing description
 must never break a run.

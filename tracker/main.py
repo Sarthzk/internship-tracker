@@ -79,7 +79,7 @@ class RunSummary:
 async def fetch_company(
     company: Company, client: httpx.AsyncClient, timeout: float = FETCH_TIMEOUT
 ) -> FetchOutcome:
-    """Never raises: one company failing must not crash the run (CLAUDE.md rule 8).
+    """Never raises: one company failing must not crash the run.
 
     A company that takes longer than `timeout` seconds counts as failed, so one stuck site
     cannot use up the whole run's time limit."""

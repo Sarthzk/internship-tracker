@@ -29,7 +29,7 @@ companies:
     ats_config: {host: microsoft.eightfold.ai, domain: microsoft.com, public_host: apply.careers.microsoft.com}
     careers_url: https://apply.careers.microsoft.com
     enabled: true
-    notes: docs/VERIFIED_ENDPOINTS.md section B1. Eightfold fetcher built and cloud-checked 2026-10-27.
+    notes: Eightfold fetcher built and cloud-checked 2026-10-27.
   - name: Amazon
     slug: amazon
     tier: 1
@@ -37,7 +37,7 @@ companies:
     ats_config: {}
     careers_url: https://www.amazon.jobs
     enabled: true
-    notes: 'Custom fetcher: docs/VERIFIED_ENDPOINTS.md section C1.'
+    notes: 'Custom fetcher.'
   - name: Apple
     slug: apple
     tier: 1
@@ -61,7 +61,7 @@ companies:
     ats_config: {}
     careers_url: https://www.atlassian.com/company/careers
     enabled: true
-    notes: 'Custom fetcher: docs/VERIFIED_ENDPOINTS.md section C2.'
+    notes: 'Custom fetcher.'
   - name: Uber
     slug: uber
     tier: 1
@@ -69,7 +69,7 @@ companies:
     ats_config: {host: iaziqy.fa.ocs.oraclecloud.com, site: UberCareers}
     careers_url: https://jobs.uber.com/en/
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Oracle HCM fetcher built and cloud-checked 2026-10-27 (pages every India match; no India interns open at that time).'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Oracle HCM fetcher built and cloud-checked 2026-10-27 (pages every India match; no India interns open at that time).'
   - name: Salesforce
     slug: salesforce
     tier: 1
@@ -118,7 +118,7 @@ companies:
     ats_config: {host: qualcomm.eightfold.ai, domain: qualcomm.com, public_host: careers.qualcomm.com}
     careers_url: https://careers.qualcomm.com
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Eightfold fetcher built and cloud-checked 2026-10-27. Host switched from the generic app.eightfold.ai to careers.qualcomm.com (same results).'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Eightfold fetcher built and cloud-checked 2026-10-27. Host switched from the generic app.eightfold.ai to careers.qualcomm.com (same results).'
   - name: Intel
     slug: intel
     tier: 1
@@ -126,7 +126,7 @@ companies:
     ats_config: {host: intel.wd1.myworkdayjobs.com, tenant: intel, site: External}
     careers_url: https://intel.wd1.myworkdayjobs.com/External
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Workday fetcher built and cloud-checked 2026-10-27.'
   - name: AMD
     slug: amd
     tier: 1
@@ -175,7 +175,7 @@ companies:
     ats_config: {board_token: rubrik}
     careers_url: https://boards.greenhouse.io/rubrik
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Cohesity
     slug: cohesity
     tier: 1
@@ -190,7 +190,7 @@ companies:
     ats_config: {board_token: databricks}
     careers_url: https://boards.greenhouse.io/databricks
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Snowflake
     slug: snowflake
     tier: 1
@@ -206,7 +206,7 @@ companies:
     ats_config: {board_token: stripe}
     careers_url: https://boards.greenhouse.io/stripe
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Twilio
     slug: twilio
     tier: 1
@@ -214,7 +214,7 @@ companies:
     ats_config: {board_token: twilio}
     careers_url: https://boards.greenhouse.io/twilio
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Rippling
     slug: rippling
     tier: 1
@@ -230,7 +230,7 @@ companies:
     ats_config: {host: paypal.eightfold.ai, domain: paypal.com}
     careers_url: https://paypal.eightfold.ai/careers
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Eightfold fetcher built and cloud-checked 2026-10-27.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Eightfold fetcher built and cloud-checked 2026-10-27.'
   - name: Visa
     slug: visa
     tier: 1
@@ -238,7 +238,7 @@ companies:
     ats_config: {host: visa.wd5.myworkdayjobs.com, tenant: visa, site: Visa}
     careers_url: https://visa.wd5.myworkdayjobs.com/Visa
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Workday fetcher built and cloud-checked 2026-10-27.'
   - name: Mastercard
     slug: mastercard
     tier: 1
@@ -246,7 +246,7 @@ companies:
     ats_config: {host: mastercard.wd1.myworkdayjobs.com, tenant: mastercard, site: CorporateCareers}
     careers_url: https://careers.mastercard.com
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27. Careers site also shows Phenom; Workday is the data source.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Workday fetcher built and cloud-checked 2026-10-27. Careers site also shows Phenom; Workday is the data source.'
   - name: American Express
     slug: american-express
     tier: 1
@@ -262,7 +262,7 @@ companies:
     ats_config: {}
     careers_url: https://higher.gs.com
     enabled: true
-    notes: 'Custom fetcher (GraphQL): docs/VERIFIED_ENDPOINTS.md section C3.'
+    notes: 'Custom fetcher (GraphQL).'
   - name: JPMorgan Chase
     slug: jpmorgan-chase
     tier: 1
@@ -270,7 +270,7 @@ companies:
     ats_config: {host: jpmc.fa.oraclecloud.com, site: CX_1001}
     careers_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
     enabled: true
-    notes: docs/VERIFIED_ENDPOINTS.md section B2. Oracle HCM fetcher built and cloud-checked 2026-10-27 (pages every India match; no India interns open at that time).
+    notes: Oracle HCM fetcher built and cloud-checked 2026-10-27 (pages every India match; no India interns open at that time).
   - name: Morgan Stanley
     slug: morgan-stanley
     tier: 1
@@ -278,7 +278,7 @@ companies:
     ats_config: {host: morganstanley.eightfold.ai, domain: morganstanley.com}
     careers_url: https://morganstanley.eightfold.ai/careers
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Eightfold fetcher built and cloud-checked 2026-10-27.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Eightfold fetcher built and cloud-checked 2026-10-27.'
   - name: D. E. Shaw
     slug: de-shaw
     tier: 1
@@ -293,7 +293,7 @@ companies:
     ats_config: {board_token: towerresearchcapital}
     careers_url: https://boards.greenhouse.io/towerresearchcapital
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Graviton Research Capital
     slug: graviton-research-capital
     tier: 1
@@ -301,7 +301,7 @@ companies:
     ats_config: {board_token: gravitonresearchcapital}
     careers_url: https://boards.greenhouse.io/gravitonresearchcapital
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Arcesium
     slug: arcesium
     tier: 1
@@ -364,8 +364,7 @@ companies:
     ats_config: {board_token: razorpaysoftwareprivatelimited}
     careers_url: https://boards.greenhouse.io/razorpaysoftwareprivatelimited
     enabled: true
-    notes: 'Verified: 26 jobs, 20 India. Board token is not ''razorpay'' (docs/VERIFIED_ENDPOINTS.md section
-      A).'
+    notes: 'Verified: 26 jobs, 20 India. Board token is not ''razorpay''.'
   - name: CRED
     slug: cred
     tier: 2
@@ -373,7 +372,7 @@ companies:
     ats_config: {site: cred}
     careers_url: https://jobs.lever.co/cred
     enabled: true
-    notes: 'Verified: 9 jobs, 8 India (docs/VERIFIED_ENDPOINTS.md section A).'
+    notes: 'Verified: 9 jobs, 8 India.'
   - name: PhonePe
     slug: phonepe
     tier: 2
@@ -389,7 +388,7 @@ companies:
     ats_config: {site: meesho}
     careers_url: https://jobs.lever.co/meesho
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Zepto
     slug: zepto
     tier: 2
@@ -404,7 +403,7 @@ companies:
     ats_config: {board_token: groww}
     careers_url: https://boards.greenhouse.io/groww
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Postman
     slug: postman
     tier: 2
@@ -420,7 +419,7 @@ companies:
     ats_config: {host: browserstack.wd3.myworkdayjobs.com, tenant: browserstack, site: External}
     careers_url: https://browserstack.com/careers
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Workday fetcher built and cloud-checked 2026-10-27.'
   - name: Freshworks
     slug: freshworks
     tier: 2
@@ -443,7 +442,7 @@ companies:
     ats_config: {host: sprinklr.wd1.myworkdayjobs.com, tenant: sprinklr, site: careers}
     careers_url: https://sprinklr.com/careers
     enabled: true
-    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27 (data/platform_report.md). Workday fetcher built and cloud-checked 2026-10-27.'
+    notes: 'Verified live by fingerprint_platforms.py on 2026-10-27. Workday fetcher built and cloud-checked 2026-10-27.'
   - name: Media.net
     slug: media-net
     tier: 2
@@ -467,7 +466,7 @@ companies:
     ats_config: {board_token: inmobi}
     careers_url: https://boards.greenhouse.io/inmobi
     enabled: true
-    notes: From the Phase 0 detection report; not re-verified live (docs/VERIFIED_ENDPOINTS.md section A).
+    notes: From the Phase 0 detection report; not re-verified live.
   - name: Persistent Systems
     slug: persistent-systems
     tier: 2

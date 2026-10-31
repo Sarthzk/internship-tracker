@@ -75,7 +75,7 @@ def test_last_count_follows_zero_changes():
     assert ok and record.last_count == 3
 
 
-# --- sharp drops (CLAUDE.md rule 1) ---
+# --- sharp drops ---
 
 
 def test_sharp_drop_is_a_failure_at_first():

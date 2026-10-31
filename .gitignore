@@ -20,3 +20,15 @@ htmlcov/
 .DS_Store
 .idea/
 .vscode/
+
+# Local only: project notes, runbooks, one-off research scripts and their tests/reports
+CLAUDE.md
+TASKS.md
+docs/
+scripts/
+data/ats_detection_report.md
+data/platform_report.md
+tests/test_detect_ats.py
+tests/test_fingerprint.py
+tests/fixtures/fingerprint/
+.claude/

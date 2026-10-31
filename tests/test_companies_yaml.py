@@ -42,7 +42,7 @@ def test_custom_companies():
     by_slug = {c.slug: c for c in load_companies(COMPANIES_YAML)}
     for slug in ("amazon", "atlassian", "goldman-sachs"):
         assert by_slug[slug].ats == "custom" and by_slug[slug].enabled
-        assert "docs/VERIFIED_ENDPOINTS.md section C" in by_slug[slug].notes
+        assert "Custom fetcher" in by_slug[slug].notes
     for slug in ("google", "apple"):
         assert by_slug[slug].ats == "custom" and by_slug[slug].notes
 

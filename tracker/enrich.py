@@ -1,6 +1,6 @@
 """Groq extraction of batch / duration / term / stipend.
 
-Only what the posting states is kept (CLAUDE.md rule 3): the model's answer is validated against
+Only what the posting states is kept: the model's answer is validated against
 the text itself, so a year, a duration or a stipend the text does not contain is dropped. The
 description is passed to the model in memory and never stored (rule 2).
 """

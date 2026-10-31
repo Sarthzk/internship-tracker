@@ -11,6 +11,17 @@ internships located in India for tech roles, and compares them with what it saw 
 New postings are saved to [`data/listings.json`](data/listings.json) and this page is regenerated.
 There is no server and no database: this repository is the database.
 
+## Run your own copy
+
+1. Fork this repository and enable GitHub Actions.
+2. Optional secrets (Settings → Secrets and variables → Actions): `TELEGRAM_BOT_TOKEN` and
+   `TELEGRAM_CHAT_ID` for alerts, `GROQ_API_KEY` and `GROQ_MODEL` for batch/duration extraction.
+   Anything missing is skipped.
+3. The `scrape` workflow runs on a backup schedule. For a reliable 10-minute cadence, call its
+   `workflow_dispatch` from an outside timer such as cron-job.org.
+4. Companies are listed in [`data/companies.yaml`](data/companies.yaml). Local use: `uv sync`,
+   `uv run pytest`, `uv run python -m tracker run --dry-run`.
+
 Closed listings from the last 90 days are in [README-archive.md](README-archive.md). The live
 health of every company being watched is in [STATUS.md](STATUS.md).
 

@@ -1,4 +1,4 @@
-"""Merge fetched postings into existing listings (CLAUDE.md rule 1). Pure: no I/O."""
+"""Merge fetched postings into existing listings. Pure: no I/O."""
 
 from __future__ import annotations
 

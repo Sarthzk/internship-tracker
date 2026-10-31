@@ -1,4 +1,4 @@
-"""Shared, polite HTTP client (CLAUDE.md rule 4).
+"""Shared, polite HTTP client.
 
 Politeness lives in a transport wrapper, so fetchers can use a plain `httpx.AsyncClient`:
 at most one in-flight request per host, a minimum delay between requests to the same host,

@@ -1,4 +1,4 @@
-"""Pydantic models. Keep in sync with the data model table in CLAUDE.md."""
+"""Pydantic models."""
 
 from __future__ import annotations
 
@@ -143,7 +143,7 @@ class RawPosting(_Model):
     is_remote: bool = False
     url: str
     date_posted: date | None = None
-    # In-memory only, for enrichment. Excluded from serialization (CLAUDE.md rule 2).
+    # In-memory only, for enrichment. Excluded from serialization.
     description: str | None = Field(default=None, exclude=True, repr=False)
 
 
@@ -204,7 +204,7 @@ class HealthRecord(_Model):
     last_count: int | None = Field(
         default=None, ge=0
     )  # postings at the last zero / non-zero change
-    # When a fetch first returned 0 postings after a previous non-zero one (CLAUDE.md rule 1).
+    # When a fetch first returned 0 postings after a previous non-zero one.
     zero_since: UtcDatetime | None = None
     # True once the owner was told this company is failing; cleared when they're told it recovered.
     failure_alerted: bool = False
