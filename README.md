@@ -11,6 +11,9 @@ internships located in India for tech roles, and compares them with what it saw 
 New postings are saved to [`data/listings.json`](data/listings.json) and this page is regenerated.
 There is no server and no database: this repository is the database.
 
+**Get alerts on Telegram:** the only official channel is [t.me/tech_internships](https://t.me/tech_internships).
+Any other channel using this name is not ours.
+
 Links always go to the company's official career page. We never ask for money, personal
 details or messages on WhatsApp/Telegram. Always apply on the company's site.
 
