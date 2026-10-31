@@ -32,6 +32,7 @@ from tracker.linkcheck import unexpected
 from tracker.models import Company, HealthRecord, Listing, RawPosting, Status, load_companies
 from tracker.notify import (
     MAX_ALERT_MESSAGES,
+    MAX_CHARS,
     Sender,
     Telegram,
     deliver,
@@ -456,13 +457,17 @@ async def _check_cli(slugs: list[str], data_dir: Path) -> int:
 
 
 async def _channel_test_cli() -> int:
-    """Send one message to the public channel to prove the bot can post there."""
+    """Send one message to the public channel: CHANNEL_MESSAGE if set (an announcement from the
+    owner), otherwise a test message proving the bot can post there."""
+    text = os.environ.get("CHANNEL_MESSAGE", "").strip()
     async with make_client() as client:
         channel = Telegram.channel_from_env(client)
         if channel is None:
             print("TELEGRAM_BOT_TOKEN / TELEGRAM_CHANNEL_ID are not set")
             return 2
-        ok = await channel.send("✅ Connected. New India tech internships will be posted here.")
+        ok = await channel.send(
+            text[:MAX_CHARS] or "✅ Connected. New India tech internships will be posted here."
+        )
     print("channel message sent" if ok else "channel message FAILED (is the bot an admin?)")
     return 0 if ok else 1
 

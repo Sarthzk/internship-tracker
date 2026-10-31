@@ -2,6 +2,11 @@ name: channel-test
 
 on:
   workflow_dispatch:
+    inputs:
+      message:
+        description: "Text to post in the channel (leave empty for a connection test)"
+        type: string
+        default: ""
 
 concurrency:
   group: channel-test
@@ -24,4 +29,5 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          CHANNEL_MESSAGE: ${{ inputs.message }}
         run: uv run python -m tracker channel-test
