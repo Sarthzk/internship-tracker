@@ -2,10 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**100 companies tracked** · 100 OK · 0 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
+**100 companies tracked** · 99 OK · 1 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-10-31 | 5 |
 | Adobe | phenom | ✅ OK | 2026-10-31 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Amazon | custom | ✅ OK | 2026-10-31 | 0 |
@@ -30,7 +31,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-10-31 | 5 |
 | Mastercard | workday | ✅ OK | 2026-10-31 | 0 |
 | Micron | workday | ✅ OK | 2026-10-31 | 0 |
-| Microsoft | eightfold | ✅ OK | 2026-10-31 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-10-31 | 0 |
 | Nvidia | workday | ✅ OK | 2026-10-31 | 1 |
 | NXP | workday | ✅ OK | 2026-10-31 | 2 |
