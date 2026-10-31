@@ -11,6 +11,9 @@ internships located in India for tech roles, and compares them with what it saw 
 New postings are saved to [`data/listings.json`](data/listings.json) and this page is regenerated.
 There is no server and no database: this repository is the database.
 
+Links always go to the company's official career page. We never ask for money, personal
+details or messages on WhatsApp/Telegram. Always apply on the company's site.
+
 Closed listings from the last 90 days are in [README-archive.md](README-archive.md). The live
 health of every company being watched is in [STATUS.md](STATUS.md).
 
@@ -97,3 +100,7 @@ This is an unofficial, community project and is not affiliated with any company 
 to the official career pages, but listings can be stale or changed: **always verify on the company
 site before applying.** Some companies publish their openings on pages that cannot be tracked
 automatically, so this list is not complete.
+
+---
+
+© 2026 Sarthak Mohite. All rights reserved. See [LICENSE](LICENSE).

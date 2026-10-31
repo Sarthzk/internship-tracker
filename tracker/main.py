@@ -28,6 +28,7 @@ from tracker.health import (
     should_send_crash_alert,
 )
 from tracker.http import make_client
+from tracker.linkcheck import unexpected
 from tracker.models import Company, HealthRecord, Listing, RawPosting, Status, load_companies
 from tracker.notify import (
     MAX_ALERT_MESSAGES,
@@ -39,6 +40,7 @@ from tracker.notify import (
     format_churn,
     format_crash,
     format_daily_digest,
+    format_held,
     format_recovered,
     format_tracking_started,
     plan_alerts,
@@ -46,7 +48,7 @@ from tracker.notify import (
 )
 from tracker.schedule import is_due
 from tracker.storage import load_health, load_listings, save_health, save_listings
-from tracker.validate import DataError, check_files, check_listings
+from tracker.validate import MAX_TEXT, DataError, check_files, check_listings
 
 log = logging.getLogger(__name__)
 
@@ -105,6 +107,13 @@ def build_listings(company: Company, postings: list[RawPosting], now: datetime) 
             continue
         category = keep(posting)
         if category is None:
+            continue
+        # One malformed posting must not stop the whole run at the data check: drop it here.
+        texts = [posting.title, *posting.locations]
+        if not posting.url.startswith("https://") or any(
+            len(text) > MAX_TEXT or URL_IN_TEXT.search(text) for text in texts
+        ):
+            log.warning("%s: dropped a malformed posting (%s)", company.slug, posting.external_id)
             continue
         listing_id = Listing.make_id(posting.source, company.slug, posting.external_id)
         listings[listing_id] = Listing(
@@ -180,13 +189,16 @@ async def run(
     if not dry_run:
         if enricher is not None:
             await _enrich(summary.merge.listings, enabled, inline, client, enricher)
-        await _notify(summary, health, enabled, first_fetch, sender, pause, channel)
+        await _notify(summary, health, enabled, first_fetch, sender, pause, channel, now)
         changed = save_listings(listings_path, summary.merge.listings)
         changed |= save_health(health_path, health)
         summary.wrote = changed
     return summary
 
 
+# A web address inside a title or location would turn into a live link on GitHub: never genuine.
+URL_IN_TEXT = re.compile(r"https?://|www\.", re.IGNORECASE)
+CHANNEL_DAILY_CAP = 30  # public channel alerts per 24 h; a flood beyond that goes to the owner
 ENRICH_TIMEOUT = 150  # seconds for the whole step; whatever is done by then is kept
 
 
@@ -234,6 +246,7 @@ async def _notify(
     sender: Sender | None,
     pause: float,
     channel: Sender | None = None,
+    now: datetime | None = None,
 ) -> None:
     """Send Telegram alerts and record `notified` / `failure_alerted` before the data is saved.
 
@@ -264,17 +277,39 @@ async def _notify(
             log.warning("could not send the 'possible site change' message")
 
     pending = [li for li in listings if li.status == Status.open and not li.notified]
-    listing_sender = channel or sender
+
+    # A link to a host we do not expect for that company is never posted; the owner reviews it.
+    held = unexpected(pending, {c.slug: c for c in enabled})
+    if held:
+        held_ids = {li.id for li in held}
+        pending = [li for li in pending if li.id not in held_ids]
+        fresh = [li for li in held if li.id in summary.merge.new_ids]  # tell the owner once
+        if fresh and sender is not None and not await sender.send(format_held(fresh)):
+            log.warning("could not send the 'held for review' message")
+
+    # The public channel gets at most CHANNEL_DAILY_CAP alerts a day; the rest go to the owner.
+    to_channel: list[Listing] = []
+    if channel is not None:
+        since = (now or datetime.now(UTC)) - timedelta(hours=24)
+        recent = sum(1 for li in listings if li.notified and li.first_seen >= since)
+        room = max(CHANNEL_DAILY_CAP - recent, 0)
+        to_channel, pending = pending[:room], pending[room:]
+        if pending:
+            log.warning("channel daily cap reached: %d alert(s) go to the owner", len(pending))
+
     delivered: set[str] = set()
-    if listing_sender is not None:
+    sent_to = [(channel, to_channel), (sender, pending)]
+    for destination, batch in sent_to:
+        if destination is None or not batch:
+            continue
         # At most MAX_ALERT_MESSAGES per run; the rest stay un-notified and go out next run.
-        alerts = plan_alerts(pending)[:MAX_ALERT_MESSAGES]
-        delivered = await deliver(listing_sender, alerts, pause)
-    for li in pending:
+        delivered |= await deliver(destination, plan_alerts(batch)[:MAX_ALERT_MESSAGES], pause)
+    waiting = to_channel + pending + held
+    for li in waiting:
         if li.id in delivered:
             li.notified = True
     summary.alerts_sent = len(delivered)
-    summary.alerts_pending = len(pending) - len(delivered)
+    summary.alerts_pending = len(waiting) - len(delivered)
 
     if sender is not None:
         await deliver_health_alerts(sender, plan_health_alerts(health, names), health, pause)

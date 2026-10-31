@@ -7,7 +7,7 @@ import respx
 from tests.test_main import GH, LV, FakeSender, go
 from tracker.main import main
 from tracker.models import HealthRecord, Listing
-from tracker.storage import save_health, save_listings
+from tracker.storage import load_listings, save_health, save_listings
 from tracker.validate import DataError, check_files, check_listings
 
 NOW = datetime(2026, 10, 29, 12, 0, tzinfo=UTC)
@@ -98,21 +98,45 @@ def test_cli_validate_exit_codes(tmp_path, capsys):
     assert "ERROR" in capsys.readouterr().out
 
 
-async def test_run_stops_before_notifying_or_saving_when_data_is_bad(tmp_path):
+async def test_one_malformed_posting_is_dropped_and_the_run_continues(tmp_path):
     sender = FakeSender()
-    bad = {
+    jobs = {
         "jobs": [
             {
                 "id": 1,
                 "title": "Software Engineer Intern",
                 "absolute_url": "http://insecure.example/1",
                 "location": {"name": "Pune"},
-            }
+            },
+            {
+                "id": 2,
+                "title": "Data Science Intern " + "x" * 400,
+                "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/2",
+                "location": {"name": "Pune"},
+            },
+            {
+                "id": 3,
+                "title": "Software Engineer Intern",
+                "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/3",
+                "location": {"name": "Pune"},
+            },
         ]
     }
     with respx.mock:
-        respx.get(GH).respond(200, json=bad)
+        respx.get(GH).respond(200, json=jobs)
+        respx.get(LV).respond(200, json=[])
+        await go(tmp_path, sender=sender, pause=0)
+    [li] = load_listings(tmp_path / "listings.json")
+    assert li.external_id == "3"
+
+
+async def test_run_stops_before_notifying_or_saving_when_stored_data_is_bad(tmp_path):
+    sender = FakeSender()
+    save_listings(tmp_path / "listings.json", [listing(1, url="http://insecure.example/1")])
+    before = (tmp_path / "listings.json").read_bytes()
+    with respx.mock:
+        respx.get(GH).respond(200, json={"jobs": []})
         respx.get(LV).respond(200, json=[])
         with pytest.raises(DataError):
             await go(tmp_path, sender=sender, pause=0)
-    assert sender.sent == [] and not (tmp_path / "listings.json").exists()
+    assert sender.sent == [] and (tmp_path / "listings.json").read_bytes() == before

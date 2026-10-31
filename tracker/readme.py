@@ -13,6 +13,7 @@ from collections.abc import Iterable
 from datetime import UTC, date, datetime, timedelta, timezone
 from pathlib import Path
 
+from tracker.linkcheck import unexpected
 from tracker.models import Category, Company, HealthRecord, Listing, Status, Term, load_companies
 from tracker.storage import load_health, load_listings
 
@@ -277,16 +278,19 @@ def generate(data_dir: Path, root: Path, now: datetime | None = None) -> bool:
     """Regenerate README.md (generated section only) and README-archive.md. True if changed."""
     now = now or datetime.now(UTC)
     listings = load_listings(data_dir / "listings.json")
+    companies_path = data_dir / "companies.yaml"
+    companies = load_companies(companies_path) if companies_path.exists() else None
+    if companies is not None:
+        # Links held for review (unexpected host) are not published here either.
+        held = {li.id for li in unexpected(listings, {c.slug: c for c in companies})}
+        listings = [li for li in listings if li.id not in held]
     readme_path = root / "README.md"
     current = readme_path.read_text(encoding="utf-8") if readme_path.exists() else ""
     changed = write_if_changed(
         readme_path, replace_section(current, render_listings(listings, now))
     )
     changed |= write_if_changed(root / "README-archive.md", render_archive(listings, now))
-    companies_path = data_dir / "companies.yaml"
-    if companies_path.exists():
-        status = render_status(
-            load_companies(companies_path), load_health(data_dir / "health.json"), listings, now
-        )
+    if companies is not None:
+        status = render_status(companies, load_health(data_dir / "health.json"), listings, now)
         changed |= write_if_changed(root / "STATUS.md", status)
     return changed

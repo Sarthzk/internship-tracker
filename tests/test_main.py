@@ -38,7 +38,7 @@ def gh_jobs(*jobs: tuple[str, str], first_id: int = 100) -> dict:
             {
                 "id": first_id + i,
                 "title": title,
-                "absolute_url": f"https://gh.example/{first_id + i}",
+                "absolute_url": f"https://job-boards.greenhouse.io/acme/jobs/{first_id + i}",
                 "location": {"name": location},
             }
             for i, (title, location) in enumerate(jobs)

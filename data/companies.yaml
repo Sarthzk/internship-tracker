@@ -10,6 +10,8 @@
 # careers_url: where students find the company's openings (also what fingerprint_platforms.py fetches)
 # enabled:     only enabled companies are fetched; requires ats != unknown
 # exclude_titles: optional list of regexes; titles matching one are dropped for this company
+# link_hosts:  optional extra hostnames posting links may use (the company's own careers site);
+#              links on any other host are held for the owner's review (tracker/linkcheck.py)
 # check_every_minutes: optional, a multiple of 10 (default 10); for sites that rate-limit us
 
 companies:
@@ -18,6 +20,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [www.google.com]
     careers_url: https://www.google.com/about/careers/applications/jobs/results/?q=intern&location=India
     enabled: true
     notes: 'Custom fetcher: positional data embedded in the results page (ds:1); fragile, fails loudly. Found 2026-10-28; cloud-checked 2026-10-28.'
@@ -35,6 +38,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [www.amazon.jobs]
     careers_url: https://www.amazon.jobs
     enabled: true
     notes: 'Custom fetcher.'
@@ -43,6 +47,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [jobs.apple.com]
     careers_url: https://jobs.apple.com/en-in/search?search=intern&location=india-INDC
     enabled: true
     notes: 'Custom fetcher: results are embedded as JSON in the search page. Found 2026-10-28; cloud-checked 2026-10-28.'
@@ -59,6 +64,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [campus-americas.icims.com, campus-globalcareers-atlassian.icims.com, careers-americas.icims.com, careers-apac-atlassian.icims.com, globalcareers-atlassian.icims.com, globalmobility-careers-atlassian.icims.com]
     careers_url: https://www.atlassian.com/company/careers
     enabled: true
     notes: 'Custom fetcher.'
@@ -132,6 +138,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [careers.amd.com]
     careers_url: https://careers.amd.com
     enabled: true
     notes: 'Custom fetcher: iCIMS Jibe /api/jobs. Found 2026-10-28; cloud-checked 2026-10-28.'
@@ -173,6 +180,7 @@ companies:
     tier: 1
     ats: greenhouse
     ats_config: {board_token: rubrik}
+    link_hosts: [www.rubrik.com]
     careers_url: https://boards.greenhouse.io/rubrik
     enabled: true
     notes: From the Phase 0 detection report; not re-verified live.
@@ -188,6 +196,7 @@ companies:
     tier: 1
     ats: greenhouse
     ats_config: {board_token: databricks}
+    link_hosts: [databricks.com]
     careers_url: https://boards.greenhouse.io/databricks
     enabled: true
     notes: From the Phase 0 detection report; not re-verified live.
@@ -204,6 +213,7 @@ companies:
     tier: 1
     ats: greenhouse
     ats_config: {board_token: stripe}
+    link_hosts: [stripe.com]
     careers_url: https://boards.greenhouse.io/stripe
     enabled: true
     notes: From the Phase 0 detection report; not re-verified live.
@@ -220,6 +230,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [ats.rippling.com]
     careers_url: https://ats.rippling.com/rippling/jobs
     enabled: true
     notes: 'Custom fetcher: ats.rippling.com board API. Found 2026-10-28; cloud-checked 2026-10-28.'
@@ -260,6 +271,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [higher.gs.com]
     careers_url: https://higher.gs.com
     enabled: true
     notes: 'Custom fetcher (GraphQL).'
@@ -291,6 +303,7 @@ companies:
     tier: 1
     ats: greenhouse
     ats_config: {board_token: towerresearchcapital}
+    link_hosts: [www.tower-research.com]
     careers_url: https://boards.greenhouse.io/towerresearchcapital
     enabled: true
     notes: From the Phase 0 detection report; not re-verified live.
@@ -322,6 +335,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [quadeye.zohorecruit.in]
     careers_url: https://www.quadeye.com/jobs
     enabled: true
     notes: 'Custom fetcher: /api/zoho-recruit/job-openings JSON; posting pages on quadeye.zohorecruit.in. Found 2026-10-28; cloud-checked 2026-10-28.'
@@ -330,6 +344,7 @@ companies:
     tier: 1
     ats: custom
     ats_config: {}
+    link_hosts: [search.jobs.barclays]
     careers_url: https://search.jobs.barclays
     enabled: true
     notes: 'Custom fetcher: Radancy TalentBrew results HTML. Found 2026-10-28; cloud-checked 2026-10-28.'
@@ -456,6 +471,7 @@ companies:
     tier: 2
     ats: custom
     ats_config: {}
+    link_hosts: [joinus.juspay.in]
     careers_url: https://juspay.io/careers
     enabled: true
     notes: 'Custom fetcher: joinus.juspay.in/api/careerJobOpening JSON; interns marked by job_type. Found 2026-10-28; cloud-checked 2026-10-28.'
@@ -480,6 +496,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: okta}
+    link_hosts: [www.okta.com]
     careers_url: https://boards.greenhouse.io/okta
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -488,6 +505,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: mongodb}
+    link_hosts: [www.mongodb.com]
     careers_url: https://boards.greenhouse.io/mongodb
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -536,6 +554,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: fivetran}
+    link_hosts: [www.fivetran.com]
     careers_url: https://boards.greenhouse.io/fivetran
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -560,6 +579,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: elastic}
+    link_hosts: [jobs.elastic.co]
     careers_url: https://boards.greenhouse.io/elastic
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -568,6 +588,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: tripactions}
+    link_hosts: [navan.com]
     careers_url: https://boards.greenhouse.io/tripactions
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -592,6 +613,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: aqr}
+    link_hosts: [careers.aqr.com]
     careers_url: https://boards.greenhouse.io/aqr
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -600,6 +622,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: druva}
+    link_hosts: [www.druva.com]
     careers_url: https://boards.greenhouse.io/druva
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -608,6 +631,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: coinbase}
+    link_hosts: [www.coinbase.com]
     careers_url: https://boards.greenhouse.io/coinbase
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -616,6 +640,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: datadog}
+    link_hosts: [careers.datadoghq.com]
     careers_url: https://boards.greenhouse.io/datadog
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -624,6 +649,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: airbnb}
+    link_hosts: [careers.airbnb.com]
     careers_url: https://boards.greenhouse.io/airbnb
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -632,6 +658,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: roblox}
+    link_hosts: [careers.roblox.com]
     careers_url: https://boards.greenhouse.io/roblox
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -664,6 +691,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: jfrog}
+    link_hosts: [join.jfrog.com]
     careers_url: https://boards.greenhouse.io/jfrog
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -704,6 +732,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: observeai}
+    link_hosts: [www.observe.ai]
     careers_url: https://boards.greenhouse.io/observeai
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -720,6 +749,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: jumptrading}
+    link_hosts: [www.jumptrading.com]
     careers_url: https://boards.greenhouse.io/jumptrading
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -728,6 +758,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: waymo}
+    link_hosts: [careers.withwaymo.com]
     careers_url: https://boards.greenhouse.io/waymo
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -760,6 +791,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: cockroachlabs}
+    link_hosts: [www.cockroachlabs.com]
     careers_url: https://boards.greenhouse.io/cockroachlabs
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
@@ -808,6 +840,7 @@ companies:
     tier: 2
     ats: greenhouse
     ats_config: {board_token: duolingo}
+    link_hosts: [careers.duolingo.com]
     careers_url: https://boards.greenhouse.io/duolingo
     enabled: true
     notes: 'Public greenhouse board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'

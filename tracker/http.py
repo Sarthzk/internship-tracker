@@ -22,6 +22,36 @@ TIMEOUT_SECONDS = 20.0
 MAX_ATTEMPTS = 3
 MAX_BACKOFF_SECONDS = 30.0
 RATE_LIMIT_FACTOR = 5
+MAX_RESPONSE_BYTES = 10 * 1024 * 1024  # far above any real job list; protects memory
+
+
+class ResponseTooLarge(httpx.HTTPError):
+    """A response body bigger than MAX_RESPONSE_BYTES: treated like any failed request."""
+
+
+class _LimitedStream(httpx.AsyncByteStream):
+    def __init__(self, inner: httpx.AsyncByteStream, limit: int) -> None:
+        self._inner = inner
+        self._limit = limit
+
+    async def __aiter__(self):
+        seen = 0
+        async for chunk in self._inner:
+            seen += len(chunk)
+            if seen > self._limit:
+                raise ResponseTooLarge(f"response larger than {self._limit} bytes")
+            yield chunk
+
+    async def aclose(self) -> None:
+        await self._inner.aclose()
+
+
+def _limited(response: httpx.Response, limit: int) -> httpx.Response:
+    length = response.headers.get("Content-Length", "")
+    if length.isdigit() and int(length) > limit:
+        raise ResponseTooLarge(f"response larger than {limit} bytes")
+    response.stream = _LimitedStream(response.stream, limit)  # type: ignore[arg-type]
+    return response
 
 
 def _is_retryable(status_code: int) -> bool:
@@ -41,8 +71,10 @@ class PoliteTransport(httpx.AsyncBaseTransport):
         delay: float = 1.0,
         backoff: float = 1.0,
         max_attempts: int = MAX_ATTEMPTS,
+        max_bytes: int = MAX_RESPONSE_BYTES,
     ) -> None:
         self._inner = inner or httpx.AsyncHTTPTransport()
+        self._max_bytes = max_bytes
         self._delay = delay
         self._backoff = backoff
         self._max_attempts = max_attempts
@@ -75,7 +107,7 @@ class PoliteTransport(httpx.AsyncBaseTransport):
                     continue
                 self._mark(host)
                 if last_attempt or not _is_retryable(response.status_code):
-                    return response
+                    return _limited(response, self._max_bytes)
                 wait = _retry_after(response)
                 if wait is None:
                     # A rate limiter needs real time to cool down, so 429 waits 5x longer

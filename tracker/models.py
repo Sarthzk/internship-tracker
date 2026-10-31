@@ -95,6 +95,9 @@ class _Model(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
 
+HOSTNAME = re.compile(r"(?=.{1,253}$)([a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}")
+
+
 class Company(_Model):
     """One entry in data/companies.yaml."""
 
@@ -112,6 +115,9 @@ class Company(_Model):
     # Regular expressions (case-insensitive) for titles to drop at this company, for roles that
     # look like tech internships but are not (e.g. a bank's non-technology apprenticeship program).
     exclude_titles: list[str] = Field(default_factory=list)
+    # Extra hostnames posting links may use (e.g. the company's own careers site). Links on any
+    # other host are held for review instead of being posted; see tracker/linkcheck.py.
+    link_hosts: list[str] = Field(default_factory=list)
 
     @model_validator(mode="after")
     def _check_ats_and_config(self) -> Company:
@@ -122,6 +128,9 @@ class Company(_Model):
                 raise ValueError(
                     f"company {self.slug!r}: bad exclude_titles pattern: {exc}"
                 ) from exc
+        for host in self.link_hosts:
+            if not HOSTNAME.fullmatch(host):
+                raise ValueError(f"company {self.slug!r}: bad link_hosts entry {host!r}")
         if self.check_every_minutes % 10:
             raise ValueError(f"company {self.slug!r}: check_every_minutes must be a multiple of 10")
         if self.enabled and self.ats == AtsType.unknown:

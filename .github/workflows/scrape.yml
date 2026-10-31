@@ -17,16 +17,19 @@ concurrency:
   group: scrape
   cancel-in-progress: false
 
-permissions:
-  contents: write
-  actions: read  # the run-gap watchdog reads previous run times
+permissions: {}
 
 jobs:
   scrape:
+    name: Check career sites and publish
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # commit the updated data/ and README files
+      actions: read  # the run-gap watchdog reads previous run times
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # Credentials stay so the job can push the data commit; it uploads no artifacts.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1 # zizmor: ignore[artipacked]
 
       - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
 
@@ -47,6 +50,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          # Kill switch: set the repository variable CHANNEL_PAUSED=true to stop channel posts.
+          CHANNEL_PAUSED: ${{ vars.CHANNEL_PAUSED }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ secrets.GROQ_MODEL }}

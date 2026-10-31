@@ -10,7 +10,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import os
-from collections.abc import Iterable, Mapping
+from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Protocol
@@ -55,9 +55,15 @@ class Telegram:
     def channel_from_env(
         cls, client: httpx.AsyncClient, env: Mapping[str, str] | None = None
     ) -> Telegram | None:
-        """The public channel for new-listing alerts (TELEGRAM_CHANNEL_ID), if one is set up."""
+        """The public channel for new-listing alerts (TELEGRAM_CHANNEL_ID), if one is set up.
+
+        CHANNEL_PAUSED=true (a repository variable, changeable from a phone) is the kill switch:
+        alerts then go to the owner only."""
         env = os.environ if env is None else env
         token, channel = env.get("TELEGRAM_BOT_TOKEN", ""), env.get("TELEGRAM_CHANNEL_ID", "")
+        if env.get("CHANNEL_PAUSED", "").strip().lower() in {"1", "true", "yes", "on"}:
+            log.warning("CHANNEL_PAUSED is set: new-listing alerts go to the owner only")
+            return None
         return cls(client, token, channel) if token and channel else None
 
     async def send(self, text: str) -> bool:
@@ -272,6 +278,20 @@ def format_churn(churn: Mapping[str, tuple[int, int]]) -> str:
         "⚠️ Possible site change, so these were NOT sent as new internships "
         "(they are in the README):\n" + "\n".join(lines)
     )
+
+
+def format_held(listings: Sequence[Listing]) -> str:
+    """Owner-only: listings not posted because their link is on a host we do not expect."""
+    lines = [
+        (
+            f"⏸ {len(listings)} new listing(s) held for review: the link is not on a site we "
+            "expect for that company. If the site is genuine, add its host to that company's "
+            "link_hosts in companies.yaml and it will be posted on the next run."
+        )
+    ]
+    for li in sorted(listings, key=lambda li: (li.company, li.title))[:20]:
+        lines.append(f"• {li.company}: {li.title[:100]}\n  {li.url[:300]}")
+    return "\n".join(lines)[:MAX_CHARS]
 
 
 def format_recovered() -> str:
