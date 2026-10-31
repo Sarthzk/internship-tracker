@@ -2,26 +2,27 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**100 companies tracked** · 84 OK · 16 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
+**100 companies tracked** · 83 OK · 17 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Analog Devices | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Applied Materials | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| BlackRock | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Cadence | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Cisco | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Deutsche Bank | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Intel | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Marvell | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 5 |
-| Mastercard | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Micron | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Nvidia | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 1 |
-| NXP | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 2 |
-| Visa | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Wells Fargo | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| BrowserStack | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Sprinklr | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Analog Devices | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Applied Materials | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| BlackRock | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Cadence | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Cisco | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Deutsche Bank | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Intel | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Marvell | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 5 |
+| Mastercard | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Micron | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Nvidia | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 1 |
+| NXP | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 2 |
+| Oracle | oracle_hcm | ⚠️ failing for 1 run: ReadTimeout: | 2026-10-31 | 0 |
+| Visa | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Wells Fargo | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| BrowserStack | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Sprinklr | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
 | Adobe | phenom | ✅ OK | 2026-10-31 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Amazon | custom | ✅ OK | 2026-10-31 | 0 |
@@ -38,7 +39,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-10-31 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-10-31 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-10-31 | 0 |
-| Oracle | oracle_hcm | ✅ OK | 2026-10-31 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-10-31 | 0 |
 | Quadeye | custom | ✅ OK | 2026-10-31 | 3 |
 | Qualcomm | eightfold | ✅ OK | 2026-10-31 | 2 |
