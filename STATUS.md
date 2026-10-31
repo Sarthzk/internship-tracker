@@ -2,14 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**100 companies tracked** · 96 OK · 4 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
+**100 companies tracked** · 99 OK · 1 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Capital One | workday | ⚠️ failing for 1 run: FetchError: HTTP 502 from capitalone.wd12.myworkdayjobs.com | 2026-10-31 | 0 |
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-10-31 | 5 |
-| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 502 from salesforce.wd12.myworkdayjobs.com | 2026-10-31 | 0 |
-| Postman | workday | ⚠️ failing for 1 run: FetchError: HTTP 401 from postman.wd108.myworkdayjobs.com | 2026-10-31 | 0 |
 | Adobe | phenom | ✅ OK | 2026-10-31 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Amazon | custom | ✅ OK | 2026-10-31 | 0 |
@@ -22,6 +19,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-10-31 | 0 |
 | BlackRock | workday | ✅ OK | 2026-10-31 | 0 |
 | Cadence | workday | ✅ OK | 2026-10-31 | 0 |
+| Capital One | workday | ✅ OK | 2026-10-31 | 0 |
 | Cisco | workday | ✅ OK | 2026-10-31 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-10-31 | 0 |
@@ -42,6 +40,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Qualcomm | eightfold | ✅ OK | 2026-10-31 | 2 |
 | Rippling | custom | ✅ OK | 2026-10-31 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-10-31 | 2 |
+| Salesforce | workday | ✅ OK | 2026-10-31 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-10-31 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-10-31 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-10-31 | 1 |
@@ -92,6 +91,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-10-31 | 0 |
 | Paytm | lever | ✅ OK | 2026-10-31 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-10-31 | 0 |
+| Postman | workday | ✅ OK | 2026-10-31 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-10-31 | 0 |
