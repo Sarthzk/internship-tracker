@@ -7,12 +7,13 @@ the Age column, both at most once a day.
 
 from __future__ import annotations
 
+import re
 from collections import Counter
 from collections.abc import Iterable
 from datetime import UTC, date, datetime, timedelta, timezone
 from pathlib import Path
 
-from tracker.models import Category, Company, HealthRecord, Listing, Status, load_companies
+from tracker.models import Category, Company, HealthRecord, Listing, Status, Term, load_companies
 from tracker.storage import load_health, load_listings
 
 START = "<!-- LISTINGS:START -->"
@@ -81,6 +82,33 @@ def _duration(listing: Listing) -> str:
     return f"{months} mo" if months else NONE
 
 
+_SEASON_YEAR = re.compile(r"\b(summer|winter|spring|fall|autumn)\W{0,3}(20\d\d)\b", re.IGNORECASE)
+_YEAR = re.compile(r"(?<!\d)(202\d)(?!\d)")
+_TERM_NAMES = {Term.summer: "Summer", Term.winter: "Winter", Term.six_month: "6 months"}
+MAX_DEGREE = 60
+
+
+def _term(listing: Listing) -> str:
+    """The season and year the title states ("Summer 2027"), else what the posting text states."""
+    match = _SEASON_YEAR.search(listing.title)
+    if match:
+        return f"{match.group(1).capitalize()} {match.group(2)}"
+    term = listing.enrichment.term if listing.enrichment else Term.unknown
+    year = _YEAR.search(listing.title)
+    if term in _TERM_NAMES:
+        return f"{_TERM_NAMES[term]} {year.group(1)}" if year else _TERM_NAMES[term]
+    return year.group(1) if year else NONE
+
+
+def _role(listing: Listing) -> str:
+    """The title, with the required degree in small text under it when the posting states one."""
+    degree = listing.enrichment.degree if listing.enrichment else None
+    if not degree:
+        return cell(listing.title)
+    short = degree if len(degree) <= MAX_DEGREE else degree[: MAX_DEGREE - 1].rstrip() + "…"
+    return f"{cell(listing.title)}<br><sub>🎓 {cell(short)}</sub>"
+
+
 def _local(moment: datetime) -> date:
     return moment.astimezone(IST).date()
 
@@ -102,8 +130,8 @@ def _table(rows: list[str], header: str) -> list[str]:
     return [header, "|" + "---|" * columns, *rows]
 
 
-OPEN_HEADER = "| Company | Role | Location | Batch | Duration | Apply | Age |"
-ARCHIVE_HEADER = "| Company | Role | Location | Batch | Duration | Apply | Posted | Closed |"
+OPEN_HEADER = "| Company | Role | Location | Term | Batch | Duration | Apply | Age |"
+ARCHIVE_HEADER = "| Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |"
 
 
 def render_listings(listings: Iterable[Listing], now: datetime) -> str:
@@ -127,7 +155,7 @@ def render_listings(listings: Iterable[Listing], now: datetime) -> str:
             continue
         group.sort(key=lambda li: (-_posted(li).toordinal(), li.company, li.title, li.id))
         rows = [
-            f"| {cell(li.company)} | {cell(li.title)} | {_location(li)} | {_batch(li)} | "
+            f"| {cell(li.company)} | {_role(li)} | {_location(li)} | {_term(li)} | {_batch(li)} | "
             f"{_duration(li)} | {link(li.url)} | {_age(li, today)} |"
             for li in group
         ]
@@ -157,7 +185,7 @@ def render_archive(listings: Iterable[Listing], now: datetime) -> str:
     ]
     if closed:
         rows = [
-            f"| {cell(li.company)} | {cell(li.title)} | {_location(li)} | {_batch(li)} | "
+            f"| {cell(li.company)} | {_role(li)} | {_location(li)} | {_term(li)} | {_batch(li)} | "
             f"{_duration(li)} | {link(li.url)} | {_posted(li).isoformat()} | "
             f"{_local(li.closed_at or now).isoformat()} |"
             for li in closed

@@ -3,7 +3,17 @@ from pathlib import Path
 
 from tracker import readme
 from tracker.models import Enrichment, Listing
-from tracker.readme import END, START, cell, link, render_archive, render_listings, replace_section
+from tracker.readme import (
+    END,
+    START,
+    _role,
+    _term,
+    cell,
+    link,
+    render_archive,
+    render_listings,
+    replace_section,
+)
 from tracker.storage import save_listings
 
 NOW = datetime(2026, 10, 29, 12, 0, tzinfo=UTC)  # 17:30 IST on 2026-10-29
@@ -52,9 +62,9 @@ def test_link_encodes_characters_that_end_the_target():
 def test_summary_and_columns():
     text = render_listings([listing(1)], NOW)
     assert "**1 open internship** across 1 company · Last updated: 2026-10-29 (IST)" in text
-    assert "| Company | Role | Location | Batch | Duration | Apply | Age |" in text
+    assert "| Company | Role | Location | Term | Batch | Duration | Apply | Age |" in text
     assert (
-        "| Acme | Software Engineer Intern 1 | Bengaluru | — | — | "
+        "| Acme | Software Engineer Intern 1 | Bengaluru | — | — | — | "
         "[Apply](https://example.com/jobs/1) | 3d |"
     ) in text
 
@@ -97,7 +107,7 @@ def test_hostile_text_cannot_break_the_table():
     li = listing(1, title="Evil | Intern\n| x |", company="A|B")
     text = render_listings([li], NOW)
     row = next(line for line in text.splitlines() if "Evil" in line)
-    assert row.count("|") - row.count("\\|") == 8  # 7 columns, unescaped pipes only at edges
+    assert row.count("|") - row.count("\\|") == 9  # 8 columns, unescaped pipes only at edges
 
 
 def test_no_open_listings_message():
@@ -240,3 +250,31 @@ def test_generate_writes_status_page_when_companies_exist(tmp_path: Path):
     assert readme.generate(data, tmp_path, NOW) is True
     assert "| Acme | greenhouse |" in (tmp_path / "STATUS.md").read_text(encoding="utf-8")
     assert readme.generate(data, tmp_path, NOW + timedelta(hours=2)) is False
+
+
+def test_term_comes_from_the_title_or_the_posting_text():
+    from tracker.models import Enrichment, Term
+
+    def term(title: str, enrichment_term: Term | None = None) -> str:
+        li = listing(1, title=title)
+        if enrichment_term:
+            li.enrichment = Enrichment(model="m", enriched_at=NOW, term=enrichment_term)
+        return _term(li)
+
+    assert term("Software Engineering PhD Intern, Summer 2027") == "Summer 2027"
+    assert term("PhD Intern, AI ML - Fall 2026") == "Fall 2026"
+    assert term("Interim Engineering Intern_2027_HW") == "2027"
+    assert term("SWE Intern", Term.summer) == "Summer"
+    assert term("SWE Intern 2027", Term.six_month) == "6 months 2027"
+    assert term("Software Engineer Intern") == "—"
+
+
+def test_degree_is_shown_under_the_title_and_shortened():
+    from tracker.models import Enrichment
+
+    li = listing(1)
+    li.enrichment = Enrichment(model="m", enriched_at=NOW, degree="PhD, MS or MTech")
+    assert "<br><sub>🎓 PhD, MS or MTech</sub>" in _role(li)
+    li.enrichment = Enrichment(model="m", enriched_at=NOW, degree="x" * 100)
+    assert _role(li).endswith("…</sub>") and len(_role(li)) < 130
+    assert _role(listing(2)) == "Software Engineer Intern 2"

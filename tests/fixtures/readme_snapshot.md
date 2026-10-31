@@ -2,18 +2,18 @@
 
 ### Software Engineering (1)
 
-| Company | Role | Location | Batch | Duration | Apply | Age |
-|---|---|---|---|---|---|---|
-| Google | Software Engineering Intern | Bengaluru | — | — | [Apply](https://example.com/jobs/1) | 3d |
+| Company | Role | Location | Term | Batch | Duration | Apply | Age |
+|---|---|---|---|---|---|---|---|
+| Google | Software Engineering Intern | Bengaluru | — | — | — | [Apply](https://example.com/jobs/1) | 3d |
 
 ### Data & ML (1)
 
-| Company | Role | Location | Batch | Duration | Apply | Age |
-|---|---|---|---|---|---|---|
-| Nvidia | ML Intern \| Summer | Pune; Hyderabad | 2027 | 3 mo | [Apply](https://example.com/jobs/2) | 1d |
+| Company | Role | Location | Term | Batch | Duration | Apply | Age |
+|---|---|---|---|---|---|---|---|
+| Nvidia | ML Intern \| Summer | Pune; Hyderabad | — | 2027 | 3 mo | [Apply](https://example.com/jobs/2) | 1d |
 
 ### Quant & Trading (1)
 
-| Company | Role | Location | Batch | Duration | Apply | Age |
-|---|---|---|---|---|---|---|
-| Quadeye | Quant Intern | Bengaluru (Remote) | — | — | [Apply](https://example.com/jobs/3) | 3d |
+| Company | Role | Location | Term | Batch | Duration | Apply | Age |
+|---|---|---|---|---|---|---|---|
+| Quadeye | Quant Intern | Bengaluru (Remote) | — | — | — | [Apply](https://example.com/jobs/3) | 3d |
