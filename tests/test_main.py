@@ -329,3 +329,10 @@ async def test_failed_channel_send_keeps_the_listing_for_retry(tmp_path):
         await go(tmp_path, sender=owner, channel=channel, pause=0)
     [li] = load_listings(tmp_path / "listings.json")
     assert li.notified is False and owner.sent == []
+
+
+def test_channel_test_command_without_secrets_exits_cleanly(monkeypatch, capsys):
+    monkeypatch.delenv("TELEGRAM_BOT_TOKEN", raising=False)
+    monkeypatch.delenv("TELEGRAM_CHANNEL_ID", raising=False)
+    assert main(["channel-test"]) == 2
+    assert "not set" in capsys.readouterr().out

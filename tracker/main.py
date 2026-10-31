@@ -443,10 +443,12 @@ def main(argv: Sequence[str] | None = None) -> int:
     check_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     validate_parser = sub.add_parser("validate", help="check the data files; exit 1 on errors")
     validate_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
-    sub.add_parser("channel-test", help="send one test message to the public channel")
+    channel_parser = sub.add_parser(
+        "channel-test", help="send one test message to the public channel"
+    )
     readme_parser = sub.add_parser("readme", help="regenerate README.md and README-archive.md")
     readme_parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
-    for p in (run_parser, check_parser, readme_parser, validate_parser):
+    for p in (run_parser, check_parser, readme_parser, validate_parser, channel_parser):
         p.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
