@@ -83,7 +83,7 @@ Batch and Duration show "—" unless known.
 |---|---|---|---|---|---|---|
 | American Express | Apprentice | Gurugram, HR, India | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015791) | 4d |
 | Rubrik | Industrial Trainee | Bangalore | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405) | 18d |
-| Rubrik | ENG Project/ Program - Intern | Bangalore | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8166514?gh_jid=8166514) | 55d |
+| Rubrik | ENG Project/ Program - Intern | Bangalore | 2027 | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8166514?gh_jid=8166514) | 55d |
 <!-- LISTINGS:END -->
 
 ## Contributing
