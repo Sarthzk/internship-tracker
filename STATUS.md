@@ -2,42 +2,39 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**100 companies tracked** · 84 OK · 16 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
+**100 companies tracked** · 97 OK · 3 failing · 12 not tracked · Last updated: 2026-10-31 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Analog Devices | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Applied Materials | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| BlackRock | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Cadence | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Cisco | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Deutsche Bank | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Intel | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Marvell | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 5 |
-| Mastercard | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Micron | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Nvidia | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 1 |
-| NXP | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 2 |
-| Visa | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Wells Fargo | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| BrowserStack | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
-| Sprinklr | workday | ⚠️ failing for 9 runs: FetchError: invalid JSON from static.community.workday.com | 2026-10-31 | 0 |
+| Applied Materials | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-10-31 | 0 |
+| Marvell | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-10-31 | 5 |
+| Wells Fargo | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-10-31 | 0 |
 | Adobe | phenom | ✅ OK | 2026-10-31 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Amazon | custom | ✅ OK | 2026-10-31 | 0 |
 | AMD | custom | ✅ OK | 2026-10-31 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-10-31 | 1 |
+| Analog Devices | workday | ✅ OK | 2026-10-31 | 0 |
 | Apple | custom | ✅ OK | 2026-10-31 | 2 |
 | Atlassian | custom | ✅ OK | 2026-10-31 | 0 |
 | Barclays | custom | ✅ OK | 2026-10-31 | 0 |
+| BlackRock | workday | ✅ OK | 2026-10-31 | 0 |
+| Cadence | workday | ✅ OK | 2026-10-31 | 0 |
 | Capital One | workday | ✅ OK | 2026-10-31 | 0 |
+| Cisco | workday | ✅ OK | 2026-10-31 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-10-31 | 0 |
+| Deutsche Bank | workday | ✅ OK | 2026-10-31 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-10-31 | 0 |
 | Google | custom | ✅ OK | 2026-10-31 | 4 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-10-31 | 0 |
+| Intel | workday | ✅ OK | 2026-10-31 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-10-31 | 0 |
+| Mastercard | workday | ✅ OK | 2026-10-31 | 0 |
+| Micron | workday | ✅ OK | 2026-10-31 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-10-31 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-10-31 | 0 |
+| Nvidia | workday | ✅ OK | 2026-10-31 | 1 |
+| NXP | workday | ✅ OK | 2026-10-31 | 2 |
 | Oracle | oracle_hcm | ✅ OK | 2026-10-31 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-10-31 | 0 |
 | Quadeye | custom | ✅ OK | 2026-10-31 | 3 |
@@ -52,12 +49,14 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Tower Research Capital | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Twilio | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-10-31 | 0 |
+| Visa | workday | ✅ OK | 2026-10-31 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-10-31 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Anyscale | ashby | ✅ OK | 2026-10-31 | 0 |
 | AQR Capital | greenhouse | ✅ OK | 2026-10-31 | 0 |
+| BrowserStack | workday | ✅ OK | 2026-10-31 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-10-31 | 0 |
@@ -98,6 +97,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Roblox | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-10-31 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-10-31 | 0 |
+| Sprinklr | workday | ✅ OK | 2026-10-31 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-10-31 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-10-31 | 0 |
 | Temporal | ashby | ✅ OK | 2026-10-31 | 0 |
