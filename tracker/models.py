@@ -98,6 +98,11 @@ class _Model(BaseModel):
 HOSTNAME = re.compile(r"(?=.{1,253}$)([a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}")
 
 
+CompanyTag = Literal[
+    "Big Tech", "Startup", "Fintech", "SaaS", "AI", "Quant", "Semiconductor", "Bank"
+]
+
+
 class Company(_Model):
     """One entry in data/companies.yaml."""
 
@@ -118,6 +123,8 @@ class Company(_Model):
     # Extra hostnames posting links may use (e.g. the company's own careers site). Links on any
     # other host are held for review instead of being posted; see tracker/linkcheck.py.
     link_hosts: list[str] = Field(default_factory=list)
+    # What kind of company this is; shown under the company name in the README.
+    tag: CompanyTag | None = None
 
     @model_validator(mode="after")
     def _check_ats_and_config(self) -> Company:

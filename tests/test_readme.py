@@ -278,3 +278,19 @@ def test_degree_is_shown_under_the_title_and_shortened():
     li.enrichment = Enrichment(model="m", enriched_at=NOW, degree="x" * 100)
     assert _role(li).endswith("…</sub>") and len(_role(li)) < 130
     assert _role(listing(2)) == "Software Engineer Intern 2"
+
+
+def test_company_tag_is_shown_in_small_text_under_the_name():
+    text = render_listings(
+        [listing(1), listing(2, id="lever:beta:2", company_slug="beta", company="Beta")],
+        NOW,
+        {"acme": "Startup"},
+    )
+    assert "| Acme<br><sub>Startup</sub> |" in text
+    assert "| Beta |" in text  # no tag, no change
+    assert render_listings([listing(1)], NOW) == render_listings([listing(1)], NOW, {})
+
+
+def test_company_tag_is_escaped_and_in_the_archive():
+    text = render_archive([closed(1, 5)], NOW, {"acme": "Fin|tech"})
+    assert "<sub>Fin\\|tech</sub>" in text
