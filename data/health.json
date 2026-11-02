@@ -487,7 +487,7 @@
   },
   {
     "company_slug": "microsoft",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 6,
     "last_error": "FetchError: HTTP 429 from microsoft.eightfold.ai",
