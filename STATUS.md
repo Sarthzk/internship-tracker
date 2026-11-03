@@ -2,7 +2,7 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**116 companies tracked** · 116 OK · 0 failing · 12 not tracked · Last updated: 2026-11-03 (IST)
+**116 companies tracked** · 116 OK · 0 failing · 12 not tracked · Last updated: 2026-11-04 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
