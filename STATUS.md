@@ -75,7 +75,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Glance | greenhouse | ✅ OK | 2026-11-03 | 1 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-03 | 0 |
-| Hevo Data | lever | ✅ OK | 2026-11-03 | 1 |
+| Hevo Data | lever | ✅ OK | 2026-11-03 | 2 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-03 | 0 |

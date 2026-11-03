@@ -676,6 +676,36 @@
     "url": "https://www.tower-research.com/open-positions/?gh_jid=8143756"
   },
   {
+    "category": "product",
+    "closed_at": null,
+    "company": "Hevo Data",
+    "company_slug": "hevo-data",
+    "date_posted": "2026-07-08",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-03T11:51:30.849094Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "433ffdef-3125-48ed-a131-52c697c321ee",
+    "first_seen": "2026-11-03T11:50:41.088425Z",
+    "id": "lever:hevo-data:433ffdef-3125-48ed-a131-52c697c321ee",
+    "is_remote": false,
+    "last_seen": "2026-11-03",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "lever",
+    "status": "open",
+    "title": "UX Design Intern",
+    "url": "https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee"
+  },
+  {
     "category": "swe",
     "closed_at": null,
     "company": "Hevo Data",
