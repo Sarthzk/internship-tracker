@@ -676,6 +676,36 @@
     "url": "https://www.tower-research.com/open-positions/?gh_jid=8143756"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Hevo Data",
+    "company_slug": "hevo-data",
+    "date_posted": "2026-09-21",
+    "enrichment": {
+      "degree": "B Tech in Computer Science or equivalent",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-03T06:11:29.019885Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "993a3ed3-3014-432f-b0f4-28d300d58d9a",
+    "first_seen": "2026-11-03T06:10:41.248990Z",
+    "id": "lever:hevo-data:993a3ed3-3014-432f-b0f4-28d300d58d9a",
+    "is_remote": false,
+    "last_seen": "2026-11-03",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "lever",
+    "status": "open",
+    "title": "Associate Software Development Engineer (SDE) Intern",
+    "url": "https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "American Express",

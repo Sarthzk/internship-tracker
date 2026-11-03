@@ -27,9 +27,9 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**36 open internships** across 14 companies · Last updated: 2026-11-03 (IST)
+**37 open internships** across 15 companies · Last updated: 2026-11-03 (IST)
 
-### Software Engineering (13)
+### Software Engineering (14)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -38,6 +38,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Mumbai | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE04) | 5d |
 | Marvell<br><sub>Semiconductor</sub> | Research Intern (PhD), Autonomous Infrastructure and Telemetry | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---Autonomous-Infrastructure-and-Telemetry_2604257) | 5d |
 | Microsoft<br><sub>Big Tech</sub> | Security Research INTERN<br><sub>🎓 Bachelor's Degree in Statistics, Mathematics, Computer Scie…</sub> | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557043380) | 11d |
+| Hevo Data<br><sub>SaaS</sub> | Associate Software Development Engineer (SDE) Intern<br><sub>🎓 B Tech in Computer Science or equivalent</sub> | Bangalore, India | — | — | — | [Apply](https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a) | 43d |
 | Qualcomm<br><sub>Semiconductor</sub> | Interim Engineering Intern\_2027\_SW<br><sub>🎓 Masters, Bachelors: Computer Science Engineering, Communica…</sub> | Hyderabad, Telangāna, India | 2027 | — | — | [Apply](https://careers.qualcomm.com/careers/job/446719785836) | 49d |
 | Google<br><sub>Big Tech</sub> | Software Engineering PhD Intern, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India; Pune, Maharashtra, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109976286780105414) | 57d |
 | NXP<br><sub>Semiconductor</sub> | Technical Internship 2027 | Bangalore; Noida | 2027 | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Bangalore/Technical-Internship-2027_R-10066434) | 57d |
