@@ -532,6 +532,38 @@
     "url": "https://www.rubrik.com/company/careers/departments/job.8166514?gh_jid=8166514"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Rubrik",
+    "company_slug": "rubrik",
+    "date_posted": "2026-09-06",
+    "enrichment": {
+      "degree": "Bachelor’s or Master’s degree, preferably in Computer Science",
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-03T04:41:25.760030Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "winter"
+    },
+    "external_id": "8166537",
+    "first_seen": "2026-11-03T04:40:40.226192Z",
+    "id": "greenhouse:rubrik:8166537",
+    "is_remote": false,
+    "last_seen": "2026-11-03",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "Software Engineer (CPD) - Winter Intern",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "Rubrik",
