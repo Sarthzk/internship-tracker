@@ -2,7 +2,7 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**100 companies tracked** · 100 OK · 0 failing · 12 not tracked · Last updated: 2026-11-03 (IST)
+**116 companies tracked** · 110 OK · 0 failing · 12 not tracked · Last updated: 2026-11-03 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
@@ -56,9 +56,11 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Anthropic | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Anyscale | ashby | ✅ OK | 2026-11-03 | 0 |
 | AQR Capital | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Atlan | ashby | ✅ OK | 2026-11-03 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-03 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Contentstack | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | CRED | lever | ✅ OK | 2026-11-03 | 0 |
 | Datadog | greenhouse | ✅ OK | 2026-11-03 | 0 |
@@ -69,8 +71,10 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Fivetran | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-03 | 0 |
 | GitLab | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Glance | greenhouse | ✅ OK | 2026-11-03 | 1 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| HighRadius | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-03 | 0 |
@@ -91,21 +95,33 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-11-03 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-03 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-03 | 0 |
+| Plane | ashby | ✅ OK | 2026-11-03 | 0 |
 | Postman | workday | ✅ OK | 2026-11-03 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Samsara | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-03 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| SigNoz | ashby | ✅ OK | 2026-11-03 | 0 |
 | Sprinklr | workday | ✅ OK | 2026-11-03 | 0 |
+| Squarepoint Capital | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-03 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-03 | 0 |
+| Toast | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Vercel | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-03 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-03 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Zuora | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Commvault | greenhouse | ⏳ waiting for the first run | — | 0 |
+| Hevo Data | lever | ⏳ waiting for the first run | — | 0 |
+| Sigmoid | greenhouse | ⏳ waiting for the first run | — | 0 |
+| Tekion | ashby | ⏳ waiting for the first run | — | 0 |
+| Turing | greenhouse | ⏳ waiting for the first run | — | 0 |
+| Zeta Global | greenhouse | ⏳ waiting for the first run | — | 0 |
 | Arcesium | unknown | ⏸ not tracked | — | 0 |
 | Cohesity | unknown | ⏸ not tracked | — | 0 |
 | D. E. Shaw | unknown | ⏸ not tracked | — | 0 |

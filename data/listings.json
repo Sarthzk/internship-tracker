@@ -500,6 +500,36 @@
     "url": "https://careers.qualcomm.com/careers/job/446719785836"
   },
   {
+    "category": "product",
+    "closed_at": null,
+    "company": "Glance",
+    "company_slug": "glance",
+    "date_posted": "2026-06-08",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-03T06:02:09.445397Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "7916115",
+    "first_seen": "2026-11-03T06:01:17.396031Z",
+    "id": "greenhouse:glance:7916115",
+    "is_remote": false,
+    "last_seen": "2026-11-03",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "UX Design - Intern",
+    "url": "https://job-boards.greenhouse.io/glance/jobs/7916115"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "Rubrik",
