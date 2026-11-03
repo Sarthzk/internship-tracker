@@ -82,3 +82,26 @@ def test_platform_report_verified_companies():
 def test_removed_companies_are_gone():
     slugs = {c.slug for c in load_companies(COMPANIES_YAML)}
     assert not {"dream11", "sharechat"} & slugs
+
+
+def test_every_enabled_company_has_a_tag():
+    missing = [c.slug for c in load_companies(COMPANIES_YAML) if c.enabled and not c.tag]
+    assert not missing, missing
+
+
+def test_no_ten_minute_run_queues_too_many_companies_on_one_platform():
+    """All due companies start together and share one request slot per host, so a run where
+    too many are due at once could push the last ones past the per-company timeout."""
+    from collections import Counter
+    from datetime import UTC, datetime, timedelta
+
+    from tracker.schedule import is_due
+
+    enabled = [c for c in load_companies(COMPANIES_YAML) if c.enabled]
+    start = datetime(2026, 11, 3, tzinfo=UTC)
+    worst = 0
+    for slot in range(144):  # every 10-minute slot of a day
+        now = start + timedelta(minutes=10 * slot)
+        per_platform = Counter(c.ats for c in enabled if is_due(c, now))
+        worst = max(worst, max(per_platform.values()))
+    assert worst <= 60, worst
