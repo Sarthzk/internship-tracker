@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import re
 from collections import Counter
-from collections.abc import Iterable
+from collections.abc import Iterable, Mapping
 from datetime import UTC, date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -110,6 +110,12 @@ def _role(listing: Listing) -> str:
     return f"{cell(listing.title)}<br><sub>🎓 {cell(short)}</sub>"
 
 
+def _company(listing: Listing, tags: Mapping[str, str]) -> str:
+    """The company name, with its kind (Startup, Fintech, ...) in small text under it."""
+    tag = tags.get(listing.company_slug)
+    return f"{cell(listing.company)}<br><sub>{cell(tag)}</sub>" if tag else cell(listing.company)
+
+
 def _local(moment: datetime) -> date:
     return moment.astimezone(IST).date()
 
@@ -135,9 +141,12 @@ OPEN_HEADER = "| Company | Role | Location | Term | Batch | Duration | Apply | A
 ARCHIVE_HEADER = "| Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |"
 
 
-def render_listings(listings: Iterable[Listing], now: datetime) -> str:
+def render_listings(
+    listings: Iterable[Listing], now: datetime, tags: Mapping[str, str] | None = None
+) -> str:
     """The generated section (without the markers): summary line plus one table per category."""
     today = _local(now)
+    tags = tags or {}
     open_listings = [li for li in listings if li.status == Status.open]
     companies = len({li.company_slug for li in open_listings})
     lines = [
@@ -156,16 +165,19 @@ def render_listings(listings: Iterable[Listing], now: datetime) -> str:
             continue
         group.sort(key=lambda li: (-_posted(li).toordinal(), li.company, li.title, li.id))
         rows = [
-            f"| {cell(li.company)} | {_role(li)} | {_location(li)} | {_term(li)} | {_batch(li)} | "
-            f"{_duration(li)} | {link(li.url)} | {_age(li, today)} |"
+            f"| {_company(li, tags)} | {_role(li)} | {_location(li)} | {_term(li)} | "
+            f"{_batch(li)} | {_duration(li)} | {link(li.url)} | {_age(li, today)} |"
             for li in group
         ]
         lines += [f"### {heading} ({len(group)})", "", *_table(rows, OPEN_HEADER), ""]
     return "\n".join(lines).rstrip() + "\n"
 
 
-def render_archive(listings: Iterable[Listing], now: datetime) -> str:
+def render_archive(
+    listings: Iterable[Listing], now: datetime, tags: Mapping[str, str] | None = None
+) -> str:
     """The whole README-archive.md: listings closed in the last ARCHIVE_DAYS days."""
+    tags = tags or {}
     cutoff = now - timedelta(days=ARCHIVE_DAYS)
     closed = [
         li
@@ -186,8 +198,8 @@ def render_archive(listings: Iterable[Listing], now: datetime) -> str:
     ]
     if closed:
         rows = [
-            f"| {cell(li.company)} | {_role(li)} | {_location(li)} | {_term(li)} | {_batch(li)} | "
-            f"{_duration(li)} | {link(li.url)} | {_posted(li).isoformat()} | "
+            f"| {_company(li, tags)} | {_role(li)} | {_location(li)} | {_term(li)} | "
+            f"{_batch(li)} | {_duration(li)} | {link(li.url)} | {_posted(li).isoformat()} | "
             f"{_local(li.closed_at or now).isoformat()} |"
             for li in closed
         ]
@@ -280,6 +292,7 @@ def generate(data_dir: Path, root: Path, now: datetime | None = None) -> bool:
     listings = load_listings(data_dir / "listings.json")
     companies_path = data_dir / "companies.yaml"
     companies = load_companies(companies_path) if companies_path.exists() else None
+    tags = {c.slug: c.tag for c in companies or [] if c.tag}
     if companies is not None:
         # Links held for review (unexpected host) are not published here either.
         held = {li.id for li in unexpected(listings, {c.slug: c for c in companies})}
@@ -287,9 +300,9 @@ def generate(data_dir: Path, root: Path, now: datetime | None = None) -> bool:
     readme_path = root / "README.md"
     current = readme_path.read_text(encoding="utf-8") if readme_path.exists() else ""
     changed = write_if_changed(
-        readme_path, replace_section(current, render_listings(listings, now))
+        readme_path, replace_section(current, render_listings(listings, now, tags))
     )
-    changed |= write_if_changed(root / "README-archive.md", render_archive(listings, now))
+    changed |= write_if_changed(root / "README-archive.md", render_archive(listings, now, tags))
     if companies is not None:
         status = render_status(companies, load_health(data_dir / "health.json"), listings, now)
         changed |= write_if_changed(root / "STATUS.md", status)

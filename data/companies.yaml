@@ -18,6 +18,7 @@ companies:
   - name: Google
     slug: google
     tier: 1
+    tag: Big Tech
     ats: custom
     ats_config: {}
     link_hosts: [www.google.com]
@@ -27,6 +28,7 @@ companies:
   - name: Microsoft
     slug: microsoft
     tier: 1
+    tag: Big Tech
     check_every_minutes: 30
     ats: eightfold
     ats_config: {host: microsoft.eightfold.ai, domain: microsoft.com, public_host: apply.careers.microsoft.com}
@@ -36,6 +38,7 @@ companies:
   - name: Amazon
     slug: amazon
     tier: 1
+    tag: Big Tech
     ats: custom
     ats_config: {}
     link_hosts: [www.amazon.jobs]
@@ -45,6 +48,7 @@ companies:
   - name: Apple
     slug: apple
     tier: 1
+    tag: Big Tech
     ats: custom
     ats_config: {}
     link_hosts: [jobs.apple.com]
@@ -54,6 +58,7 @@ companies:
   - name: Adobe
     slug: adobe
     tier: 1
+    tag: Big Tech
     ats: phenom
     ats_config: {host: careers.adobe.com}
     careers_url: https://careers.adobe.com
@@ -62,6 +67,7 @@ companies:
   - name: Atlassian
     slug: atlassian
     tier: 1
+    tag: Big Tech
     ats: custom
     ats_config: {}
     link_hosts: [campus-americas.icims.com, campus-globalcareers-atlassian.icims.com, careers-americas.icims.com, careers-apac-atlassian.icims.com, globalcareers-atlassian.icims.com, globalmobility-careers-atlassian.icims.com]
@@ -71,6 +77,7 @@ companies:
   - name: Uber
     slug: uber
     tier: 1
+    tag: Big Tech
     ats: oracle_hcm
     ats_config: {host: iaziqy.fa.ocs.oraclecloud.com, site: UberCareers}
     careers_url: https://jobs.uber.com/en/
@@ -79,6 +86,7 @@ companies:
   - name: Salesforce
     slug: salesforce
     tier: 1
+    tag: Big Tech
     ats: workday
     ats_config: {host: salesforce.wd12.myworkdayjobs.com, tenant: salesforce, site: External_Career_Site}
     careers_url: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
@@ -87,6 +95,7 @@ companies:
   - name: Oracle
     slug: oracle
     tier: 1
+    tag: Big Tech
     ats: oracle_hcm
     ats_config: {host: eeho.fa.us2.oraclecloud.com, site: CX_45001}
     careers_url: https://careers.oracle.com/en/sites/jobsearch
@@ -103,6 +112,7 @@ companies:
   - name: ServiceNow
     slug: servicenow
     tier: 1
+    tag: SaaS
     ats: smartrecruiters
     ats_config: {company_id: ServiceNow}
     careers_url: https://careers.servicenow.com
@@ -111,6 +121,7 @@ companies:
   - name: Nvidia
     slug: nvidia
     tier: 1
+    tag: Semiconductor
     ats: workday
     ats_config: {host: nvidia.wd5.myworkdayjobs.com, tenant: nvidia, site: NVIDIAExternalCareerSite}
     careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
@@ -119,6 +130,7 @@ companies:
   - name: Qualcomm
     slug: qualcomm
     tier: 1
+    tag: Semiconductor
     check_every_minutes: 30
     ats: eightfold
     ats_config: {host: qualcomm.eightfold.ai, domain: qualcomm.com, public_host: careers.qualcomm.com}
@@ -128,6 +140,7 @@ companies:
   - name: Intel
     slug: intel
     tier: 1
+    tag: Semiconductor
     ats: workday
     ats_config: {host: intel.wd1.myworkdayjobs.com, tenant: intel, site: External}
     careers_url: https://intel.wd1.myworkdayjobs.com/External
@@ -136,6 +149,7 @@ companies:
   - name: AMD
     slug: amd
     tier: 1
+    tag: Semiconductor
     ats: custom
     ats_config: {}
     link_hosts: [careers.amd.com]
@@ -146,6 +160,7 @@ companies:
   - name: Texas Instruments
     slug: texas-instruments
     tier: 1
+    tag: Semiconductor
     ats: oracle_hcm
     ats_config: {host: edbz.fa.us2.oraclecloud.com, site: CX}
     careers_url: https://careers.ti.com/en/sites/CX
@@ -155,6 +170,7 @@ companies:
   - name: Cisco
     slug: cisco
     tier: 1
+    tag: Big Tech
     ats: workday
     ats_config: {host: cisco.wd5.myworkdayjobs.com, tenant: cisco, site: Cisco_Careers}
     careers_url: https://cisco.wd5.myworkdayjobs.com/Cisco_Careers
@@ -178,6 +194,7 @@ companies:
   - name: Rubrik
     slug: rubrik
     tier: 1
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: rubrik}
     link_hosts: [www.rubrik.com]
@@ -194,6 +211,7 @@ companies:
   - name: Databricks
     slug: databricks
     tier: 1
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: databricks}
     link_hosts: [databricks.com]
@@ -203,6 +221,7 @@ companies:
   - name: Snowflake
     slug: snowflake
     tier: 1
+    tag: Big Tech
     ats: ashby
     ats_config: {site: snowflake}
     careers_url: https://jobs.ashbyhq.com/snowflake
@@ -211,6 +230,7 @@ companies:
   - name: Stripe
     slug: stripe
     tier: 1
+    tag: Fintech
     ats: greenhouse
     ats_config: {board_token: stripe}
     link_hosts: [stripe.com]
@@ -220,6 +240,7 @@ companies:
   - name: Twilio
     slug: twilio
     tier: 1
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: twilio}
     careers_url: https://boards.greenhouse.io/twilio
@@ -228,6 +249,7 @@ companies:
   - name: Rippling
     slug: rippling
     tier: 1
+    tag: SaaS
     ats: custom
     ats_config: {}
     link_hosts: [ats.rippling.com]
@@ -237,6 +259,7 @@ companies:
   - name: PayPal
     slug: paypal
     tier: 1
+    tag: Fintech
     ats: eightfold
     ats_config: {host: paypal.eightfold.ai, domain: paypal.com}
     careers_url: https://paypal.eightfold.ai/careers
@@ -245,6 +268,7 @@ companies:
   - name: Visa
     slug: visa
     tier: 1
+    tag: Fintech
     ats: workday
     ats_config: {host: visa.wd5.myworkdayjobs.com, tenant: visa, site: Visa}
     careers_url: https://visa.wd5.myworkdayjobs.com/Visa
@@ -253,6 +277,7 @@ companies:
   - name: Mastercard
     slug: mastercard
     tier: 1
+    tag: Fintech
     ats: workday
     ats_config: {host: mastercard.wd1.myworkdayjobs.com, tenant: mastercard, site: CorporateCareers}
     careers_url: https://careers.mastercard.com
@@ -261,6 +286,7 @@ companies:
   - name: American Express
     slug: american-express
     tier: 1
+    tag: Fintech
     ats: oracle_hcm
     ats_config: {host: egug.fa.us2.oraclecloud.com, site: CX_1, public_host: careers.americanexpress.com}
     careers_url: https://careers.americanexpress.com/en/sites/CX_1/jobs
@@ -269,6 +295,7 @@ companies:
   - name: Goldman Sachs
     slug: goldman-sachs
     tier: 1
+    tag: Bank
     ats: custom
     ats_config: {}
     link_hosts: [higher.gs.com]
@@ -278,6 +305,7 @@ companies:
   - name: JPMorgan Chase
     slug: jpmorgan-chase
     tier: 1
+    tag: Bank
     ats: oracle_hcm
     ats_config: {host: jpmc.fa.oraclecloud.com, site: CX_1001}
     careers_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
@@ -286,6 +314,7 @@ companies:
   - name: Morgan Stanley
     slug: morgan-stanley
     tier: 1
+    tag: Bank
     ats: eightfold
     ats_config: {host: morganstanley.eightfold.ai, domain: morganstanley.com}
     careers_url: https://morganstanley.eightfold.ai/careers
@@ -301,6 +330,7 @@ companies:
   - name: Tower Research Capital
     slug: tower-research-capital
     tier: 1
+    tag: Quant
     ats: greenhouse
     ats_config: {board_token: towerresearchcapital}
     link_hosts: [www.tower-research.com]
@@ -310,6 +340,7 @@ companies:
   - name: Graviton Research Capital
     slug: graviton-research-capital
     tier: 1
+    tag: Quant
     ats: greenhouse
     ats_config: {board_token: gravitonresearchcapital}
     careers_url: https://boards.greenhouse.io/gravitonresearchcapital
@@ -325,6 +356,7 @@ companies:
   - name: AlphaGrep
     slug: alphagrep
     tier: 1
+    tag: Quant
     ats: greenhouse
     ats_config: {board_token: alphagrepsecurities}
     careers_url: https://alpha-grep.com/career/
@@ -333,6 +365,7 @@ companies:
   - name: Quadeye
     slug: quadeye
     tier: 1
+    tag: Quant
     ats: custom
     ats_config: {}
     link_hosts: [quadeye.zohorecruit.in]
@@ -342,6 +375,7 @@ companies:
   - name: Barclays
     slug: barclays
     tier: 1
+    tag: Bank
     ats: custom
     ats_config: {}
     link_hosts: [search.jobs.barclays]
@@ -359,6 +393,7 @@ companies:
   - name: Swiggy
     slug: swiggy
     tier: 2
+    tag: Startup
     ats: smartrecruiters
     ats_config: {company_id: swiggy}
     careers_url: https://jobs.smartrecruiters.com/swiggy
@@ -375,6 +410,7 @@ companies:
   - name: Razorpay
     slug: razorpay
     tier: 2
+    tag: Fintech
     ats: greenhouse
     ats_config: {board_token: razorpaysoftwareprivatelimited}
     careers_url: https://boards.greenhouse.io/razorpaysoftwareprivatelimited
@@ -383,6 +419,7 @@ companies:
   - name: CRED
     slug: cred
     tier: 2
+    tag: Fintech
     ats: lever
     ats_config: {site: cred}
     careers_url: https://jobs.lever.co/cred
@@ -391,6 +428,7 @@ companies:
   - name: PhonePe
     slug: phonepe
     tier: 2
+    tag: Fintech
     ats: smartrecruiters
     ats_config: {company_id: PHONEPELIMITED}
     careers_url: https://www.phonepe.com/careers/job-openings/
@@ -399,6 +437,7 @@ companies:
   - name: Meesho
     slug: meesho
     tier: 2
+    tag: Startup
     ats: lever
     ats_config: {site: meesho}
     careers_url: https://jobs.lever.co/meesho
@@ -414,6 +453,7 @@ companies:
   - name: Groww
     slug: groww
     tier: 2
+    tag: Fintech
     ats: greenhouse
     ats_config: {board_token: groww}
     careers_url: https://boards.greenhouse.io/groww
@@ -422,6 +462,7 @@ companies:
   - name: Postman
     slug: postman
     tier: 2
+    tag: SaaS
     ats: workday
     ats_config: {host: postman.wd108.myworkdayjobs.com, tenant: postman, site: careers}
     careers_url: https://postman.wd108.myworkdayjobs.com/careers
@@ -430,6 +471,7 @@ companies:
   - name: BrowserStack
     slug: browserstack
     tier: 2
+    tag: SaaS
     ats: workday
     ats_config: {host: browserstack.wd3.myworkdayjobs.com, tenant: browserstack, site: External}
     careers_url: https://browserstack.com/careers
@@ -438,6 +480,7 @@ companies:
   - name: Freshworks
     slug: freshworks
     tier: 2
+    tag: SaaS
     ats: smartrecruiters
     ats_config: {company_id: freshworks}
     careers_url: https://jobs.smartrecruiters.com/freshworks
@@ -453,6 +496,7 @@ companies:
   - name: Sprinklr
     slug: sprinklr
     tier: 2
+    tag: SaaS
     ats: workday
     ats_config: {host: sprinklr.wd1.myworkdayjobs.com, tenant: sprinklr, site: careers}
     careers_url: https://sprinklr.com/careers
@@ -469,6 +513,7 @@ companies:
   - name: Juspay
     slug: juspay
     tier: 2
+    tag: Fintech
     ats: custom
     ats_config: {}
     link_hosts: [joinus.juspay.in]
@@ -478,6 +523,7 @@ companies:
   - name: InMobi
     slug: inmobi
     tier: 2
+    tag: Startup
     ats: greenhouse
     ats_config: {board_token: inmobi}
     careers_url: https://boards.greenhouse.io/inmobi
@@ -494,6 +540,7 @@ companies:
   - name: Okta
     slug: okta
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: okta}
     link_hosts: [www.okta.com]
@@ -503,6 +550,7 @@ companies:
   - name: MongoDB
     slug: mongodb
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: mongodb}
     link_hosts: [www.mongodb.com]
@@ -512,6 +560,7 @@ companies:
   - name: Zscaler
     slug: zscaler
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: zscaler}
     careers_url: https://boards.greenhouse.io/zscaler
@@ -520,6 +569,7 @@ companies:
   - name: Pure Storage
     slug: pure-storage
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: purestorage}
     careers_url: https://boards.greenhouse.io/purestorage
@@ -528,6 +578,7 @@ companies:
   - name: Sarvam AI
     slug: sarvam-ai
     tier: 2
+    tag: AI
     ats: ashby
     ats_config: {site: sarvam}
     careers_url: https://jobs.ashbyhq.com/sarvam
@@ -536,6 +587,7 @@ companies:
   - name: GitLab
     slug: gitlab
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: gitlab}
     careers_url: https://boards.greenhouse.io/gitlab
@@ -544,6 +596,7 @@ companies:
   - name: Zeta
     slug: zeta
     tier: 2
+    tag: Fintech
     ats: lever
     ats_config: {site: zeta}
     careers_url: https://jobs.lever.co/zeta
@@ -552,6 +605,7 @@ companies:
   - name: Fivetran
     slug: fivetran
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: fivetran}
     link_hosts: [www.fivetran.com]
@@ -561,6 +615,7 @@ companies:
   - name: IMC Trading
     slug: imc-trading
     tier: 2
+    tag: Quant
     ats: greenhouse
     ats_config: {board_token: imc}
     careers_url: https://boards.greenhouse.io/imc
@@ -569,6 +624,7 @@ companies:
   - name: Mindtickle
     slug: mindtickle
     tier: 2
+    tag: SaaS
     ats: lever
     ats_config: {site: mindtickle}
     careers_url: https://jobs.lever.co/mindtickle
@@ -577,6 +633,7 @@ companies:
   - name: Elastic
     slug: elastic
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: elastic}
     link_hosts: [jobs.elastic.co]
@@ -586,6 +643,7 @@ companies:
   - name: Navan
     slug: navan
     tier: 2
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: tripactions}
     link_hosts: [navan.com]
@@ -595,6 +653,7 @@ companies:
   - name: Agoda
     slug: agoda
     tier: 2
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: agoda}
     careers_url: https://boards.greenhouse.io/agoda
@@ -603,6 +662,7 @@ companies:
   - name: Kong
     slug: kong
     tier: 2
+    tag: SaaS
     ats: ashby
     ats_config: {site: kong}
     careers_url: https://jobs.ashbyhq.com/kong
@@ -611,6 +671,7 @@ companies:
   - name: AQR Capital
     slug: aqr-capital
     tier: 2
+    tag: Quant
     ats: greenhouse
     ats_config: {board_token: aqr}
     link_hosts: [careers.aqr.com]
@@ -620,6 +681,7 @@ companies:
   - name: Druva
     slug: druva
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: druva}
     link_hosts: [www.druva.com]
@@ -629,6 +691,7 @@ companies:
   - name: Coinbase
     slug: coinbase
     tier: 2
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: coinbase}
     link_hosts: [www.coinbase.com]
@@ -638,6 +701,7 @@ companies:
   - name: Datadog
     slug: datadog
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: datadog}
     link_hosts: [careers.datadoghq.com]
@@ -647,6 +711,7 @@ companies:
   - name: Airbnb
     slug: airbnb
     tier: 2
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: airbnb}
     link_hosts: [careers.airbnb.com]
@@ -656,6 +721,7 @@ companies:
   - name: Roblox
     slug: roblox
     tier: 2
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: roblox}
     link_hosts: [careers.roblox.com]
@@ -665,6 +731,7 @@ companies:
   - name: WorldQuant
     slug: worldquant
     tier: 2
+    tag: Quant
     ats: greenhouse
     ats_config: {board_token: worldquant}
     careers_url: https://boards.greenhouse.io/worldquant
@@ -673,6 +740,7 @@ companies:
   - name: Sumo Logic
     slug: sumo-logic
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: sumologic}
     careers_url: https://boards.greenhouse.io/sumologic
@@ -681,6 +749,7 @@ companies:
   - name: LaunchDarkly
     slug: launchdarkly
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: launchdarkly}
     careers_url: https://boards.greenhouse.io/launchdarkly
@@ -689,6 +758,7 @@ companies:
   - name: JFrog
     slug: jfrog
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: jfrog}
     link_hosts: [join.jfrog.com]
@@ -698,6 +768,7 @@ companies:
   - name: Anyscale
     slug: anyscale
     tier: 2
+    tag: SaaS
     ats: ashby
     ats_config: {site: anyscale}
     careers_url: https://jobs.ashbyhq.com/anyscale
@@ -706,6 +777,7 @@ companies:
   - name: Coursera
     slug: coursera
     tier: 2
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: coursera}
     careers_url: https://boards.greenhouse.io/coursera
@@ -714,6 +786,7 @@ companies:
   - name: Mixpanel
     slug: mixpanel
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: mixpanel}
     careers_url: https://boards.greenhouse.io/mixpanel
@@ -722,6 +795,7 @@ companies:
   - name: Figma
     slug: figma
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: figma}
     careers_url: https://boards.greenhouse.io/figma
@@ -730,6 +804,7 @@ companies:
   - name: Observe.AI
     slug: observe-ai
     tier: 2
+    tag: AI
     ats: greenhouse
     ats_config: {board_token: observeai}
     link_hosts: [www.observe.ai]
@@ -739,6 +814,7 @@ companies:
   - name: Anthropic
     slug: anthropic
     tier: 2
+    tag: AI
     ats: greenhouse
     ats_config: {board_token: anthropic}
     careers_url: https://boards.greenhouse.io/anthropic
@@ -747,6 +823,7 @@ companies:
   - name: Jump Trading
     slug: jump-trading
     tier: 2
+    tag: Quant
     ats: greenhouse
     ats_config: {board_token: jumptrading}
     link_hosts: [www.jumptrading.com]
@@ -756,6 +833,7 @@ companies:
   - name: Waymo
     slug: waymo
     tier: 2
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: waymo}
     link_hosts: [careers.withwaymo.com]
@@ -765,6 +843,7 @@ companies:
   - name: Grafana Labs
     slug: grafana-labs
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: grafanalabs}
     careers_url: https://boards.greenhouse.io/grafanalabs
@@ -773,6 +852,7 @@ companies:
   - name: Notion
     slug: notion
     tier: 2
+    tag: SaaS
     ats: ashby
     ats_config: {site: notion}
     careers_url: https://jobs.ashbyhq.com/notion
@@ -781,6 +861,7 @@ companies:
   - name: New Relic
     slug: new-relic
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: newrelic}
     careers_url: https://boards.greenhouse.io/newrelic
@@ -789,6 +870,7 @@ companies:
   - name: Cockroach Labs
     slug: cockroach-labs
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: cockroachlabs}
     link_hosts: [www.cockroachlabs.com]
@@ -798,6 +880,7 @@ companies:
   - name: Temporal
     slug: temporal
     tier: 2
+    tag: SaaS
     ats: ashby
     ats_config: {site: temporal}
     careers_url: https://jobs.ashbyhq.com/temporal
@@ -806,6 +889,7 @@ companies:
   - name: OpenAI
     slug: openai
     tier: 2
+    tag: AI
     ats: ashby
     ats_config: {site: openai}
     careers_url: https://jobs.ashbyhq.com/openai
@@ -814,6 +898,7 @@ companies:
   - name: Amplitude
     slug: amplitude
     tier: 2
+    tag: SaaS
     ats: ashby
     ats_config: {site: amplitude}
     careers_url: https://jobs.ashbyhq.com/amplitude
@@ -822,6 +907,7 @@ companies:
   - name: Vercel
     slug: vercel
     tier: 2
+    tag: SaaS
     ats: greenhouse
     ats_config: {board_token: vercel}
     careers_url: https://boards.greenhouse.io/vercel
@@ -830,6 +916,7 @@ companies:
   - name: Scale AI
     slug: scale-ai
     tier: 2
+    tag: AI
     ats: greenhouse
     ats_config: {board_token: scaleai}
     careers_url: https://boards.greenhouse.io/scaleai
@@ -838,6 +925,7 @@ companies:
   - name: Duolingo
     slug: duolingo
     tier: 2
+    tag: Big Tech
     ats: greenhouse
     ats_config: {board_token: duolingo}
     link_hosts: [careers.duolingo.com]
@@ -847,6 +935,7 @@ companies:
   - name: Ixigo
     slug: ixigo
     tier: 2
+    tag: Startup
     ats: smartrecruiters
     ats_config: {company_id: ixigo}
     careers_url: https://jobs.smartrecruiters.com/ixigo
@@ -855,6 +944,7 @@ companies:
   - name: Paytm
     slug: paytm
     tier: 2
+    tag: Fintech
     ats: lever
     ats_config: {site: paytm}
     careers_url: https://jobs.lever.co/paytm
@@ -863,6 +953,7 @@ companies:
   - name: Marvell
     slug: marvell
     tier: 1
+    tag: Semiconductor
     ats: workday
     ats_config: {host: marvell.wd1.myworkdayjobs.com, tenant: marvell, site: MarvellCareers}
     careers_url: https://marvell.wd1.myworkdayjobs.com/MarvellCareers
@@ -871,6 +962,7 @@ companies:
   - name: Micron
     slug: micron
     tier: 1
+    tag: Semiconductor
     ats: workday
     ats_config: {host: micron.wd1.myworkdayjobs.com, tenant: micron, site: External}
     careers_url: https://micron.wd1.myworkdayjobs.com/External
@@ -879,6 +971,7 @@ companies:
   - name: NXP
     slug: nxp
     tier: 1
+    tag: Semiconductor
     ats: workday
     ats_config: {host: nxp.wd3.myworkdayjobs.com, tenant: nxp, site: careers}
     careers_url: https://nxp.wd3.myworkdayjobs.com/careers
@@ -887,6 +980,7 @@ companies:
   - name: Cadence
     slug: cadence
     tier: 1
+    tag: Semiconductor
     ats: workday
     ats_config: {host: cadence.wd1.myworkdayjobs.com, tenant: cadence, site: External_Careers}
     careers_url: https://cadence.wd1.myworkdayjobs.com/External_Careers
@@ -895,6 +989,7 @@ companies:
   - name: Analog Devices
     slug: analog-devices
     tier: 1
+    tag: Semiconductor
     ats: workday
     ats_config: {host: analogdevices.wd1.myworkdayjobs.com, tenant: analogdevices, site: External}
     careers_url: https://analogdevices.wd1.myworkdayjobs.com/External
@@ -903,6 +998,7 @@ companies:
   - name: Applied Materials
     slug: applied-materials
     tier: 1
+    tag: Semiconductor
     ats: workday
     ats_config: {host: amat.wd1.myworkdayjobs.com, tenant: amat, site: External}
     careers_url: https://amat.wd1.myworkdayjobs.com/External
@@ -911,6 +1007,7 @@ companies:
   - name: Wells Fargo
     slug: wells-fargo
     tier: 1
+    tag: Bank
     ats: workday
     ats_config: {host: wf.wd1.myworkdayjobs.com, tenant: wf, site: WellsFargoJobs}
     careers_url: https://wf.wd1.myworkdayjobs.com/WellsFargoJobs
@@ -919,6 +1016,7 @@ companies:
   - name: BlackRock
     slug: blackrock
     tier: 1
+    tag: Bank
     ats: workday
     ats_config: {host: blackrock.wd1.myworkdayjobs.com, tenant: blackrock, site: BlackRock_Professional}
     careers_url: https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional
@@ -927,6 +1025,7 @@ companies:
   - name: Deutsche Bank
     slug: deutsche-bank
     tier: 1
+    tag: Bank
     exclude_titles: ['apprentice hiring']
     ats: workday
     ats_config: {host: db.wd3.myworkdayjobs.com, tenant: db, site: DBWebsite}
@@ -936,8 +1035,169 @@ companies:
   - name: Capital One
     slug: capital-one
     tier: 1
+    tag: Bank
     ats: workday
     ats_config: {host: capitalone.wd12.myworkdayjobs.com, tenant: capitalone, site: Capital_One}
     careers_url: https://capitalone.wd12.myworkdayjobs.com/Capital_One
     enabled: true
     notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
+  - name: Hevo Data
+    slug: hevo-data
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: lever
+    ats_config: {site: hevodata}
+    careers_url: https://jobs.lever.co/hevodata
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: HighRadius
+    slug: highradius
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: highradius}
+    careers_url: https://boards.greenhouse.io/highradius
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Turing
+    slug: turing
+    tier: 2
+    tag: Startup
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: turing}
+    careers_url: https://boards.greenhouse.io/turing
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: SigNoz
+    slug: signoz
+    tier: 2
+    tag: Startup
+    check_every_minutes: 20
+    ats: ashby
+    ats_config: {site: signoz}
+    careers_url: https://jobs.ashbyhq.com/signoz
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Plane
+    slug: plane
+    tier: 2
+    tag: Startup
+    check_every_minutes: 20
+    ats: ashby
+    ats_config: {site: plane}
+    careers_url: https://jobs.ashbyhq.com/plane
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Atlan
+    slug: atlan
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: ashby
+    ats_config: {site: atlan}
+    careers_url: https://jobs.ashbyhq.com/atlan
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Zuora
+    slug: zuora
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: zuora}
+    careers_url: https://boards.greenhouse.io/zuora
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Contentstack
+    slug: contentstack
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: contentstack}
+    careers_url: https://boards.greenhouse.io/contentstack
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Tekion
+    slug: tekion
+    tier: 2
+    tag: Startup
+    check_every_minutes: 20
+    ats: ashby
+    ats_config: {site: tekion}
+    careers_url: https://jobs.ashbyhq.com/tekion
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Glance
+    slug: glance
+    tier: 2
+    tag: Startup
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: glance}
+    careers_url: https://boards.greenhouse.io/glance
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Commvault
+    slug: commvault
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: commvault}
+    careers_url: https://boards.greenhouse.io/commvault
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Sigmoid
+    slug: sigmoid
+    tier: 2
+    tag: AI
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: sigmoid}
+    careers_url: https://boards.greenhouse.io/sigmoid
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Toast
+    slug: toast
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: toast}
+    careers_url: https://boards.greenhouse.io/toast
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Samsara
+    slug: samsara
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: samsara}
+    careers_url: https://boards.greenhouse.io/samsara
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Zeta Global
+    slug: zeta-global
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: zetaglobal}
+    careers_url: https://boards.greenhouse.io/zetaglobal
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: Squarepoint Capital
+    slug: squarepoint-capital
+    tier: 2
+    tag: Quant
+    check_every_minutes: 20
+    ats: greenhouse
+    ats_config: {board_token: squarepointcapital}
+    careers_url: https://boards.greenhouse.io/squarepointcapital
+    enabled: true
+    notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
