@@ -25,7 +25,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Goldman Sachs | custom | ✅ OK | 2026-11-03 | 0 |
 | Google | custom | ✅ OK | 2026-11-03 | 4 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-03 | 0 |
-| Intel | workday | ✅ OK | 2026-11-03 | 1 |
+| Intel | workday | ✅ OK | 2026-11-03 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-03 | 0 |
 | Marvell | workday | ✅ OK | 2026-11-03 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-03 | 0 |
