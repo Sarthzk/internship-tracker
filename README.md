@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**37 open internships** across 15 companies · Last updated: 2026-11-03 (IST)
+**38 open internships** across 16 companies · Last updated: 2026-11-03 (IST)
 
 ### Software Engineering (14)
 
@@ -87,10 +87,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Microsoft<br><sub>Big Tech</sub> | Product Management INTERN<br><sub>🎓 Master of Business Administration (MBA)</sub> | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556978896) | 70d |
 | Glance<br><sub>Startup</sub> | UX Design - Intern | Bengaluru | — | — | — | [Apply](https://job-boards.greenhouse.io/glance/jobs/7916115) | 148d |
 
-### Other (4)
+### Other (5)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Intel<br><sub>Semiconductor</sub> | Attraction Req : Intern<br><sub>🎓 Bachelor's degree / Masters in Computer Science/IT/Electron…</sub> | India, Bangalore | — | — | — | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777) | 0d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015382) | 1d |
 | American Express<br><sub>Fintech</sub> | Apprentice | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015791) | 7d |
 | Rubrik<br><sub>Big Tech</sub> | Industrial Trainee<br><sub>🎓 Chartered Accountancy (CA) qualification</sub> | Bangalore | — | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405) | 21d |

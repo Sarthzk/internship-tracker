@@ -835,6 +835,36 @@
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Nirlon-Knowledge-Park/Apprentice-Hiring-for-2026--2027_R0456794-1"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Intel",
+    "company_slug": "intel",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor's degree / Masters in Computer Science/IT/Electronics",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-03T09:51:31.723606Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR0279777",
+    "first_seen": "2026-11-03T09:50:42.245657Z",
+    "id": "workday:intel:JR0279777",
+    "is_remote": false,
+    "last_seen": "2026-11-03",
+    "locations": [
+      "India, Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Attraction Req : Intern",
+    "url": "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "Marvell",
