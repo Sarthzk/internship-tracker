@@ -830,6 +830,36 @@
   {
     "category": "other",
     "closed_at": null,
+    "company": "American Express",
+    "company_slug": "american-express",
+    "date_posted": "2026-11-04",
+    "enrichment": {
+      "degree": "Bachelor’s degree",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T13:02:07.763094Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26016056",
+    "first_seen": "2026-11-04T13:01:16.346216Z",
+    "id": "oracle_hcm:american-express:26016056",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Gurugram, HR, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "oracle_hcm",
+    "status": "open",
+    "title": "Apprentice",
+    "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26016056"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
     "company": "Adobe",
     "company_slug": "adobe",
     "date_posted": "2026-11-04",
