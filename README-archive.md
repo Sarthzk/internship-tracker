@@ -2,7 +2,7 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**6 closed** · Last updated: 2026-11-04 (IST)
+**6 closed** · Last updated: 2026-11-05 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
