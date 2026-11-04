@@ -379,6 +379,36 @@
     "url": "https://eaton.eightfold.ai/careers/job/687239705382"
   },
   {
+    "category": "core",
+    "closed_at": null,
+    "company": "Eaton",
+    "company_slug": "eaton",
+    "date_posted": "2026-10-28",
+    "enrichment": {
+      "degree": "BE/ Diploma Mechanical",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T22:11:58.422312Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "687239976322",
+    "first_seen": "2026-11-04T22:10:46.565444Z",
+    "id": "eightfold:eaton:687239976322",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Pune, Maharashtra, IND, 411045"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Apprentice - Materials",
+    "url": "https://eaton.eightfold.ai/careers/job/687239976322"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "Microsoft",
