@@ -289,6 +289,96 @@
     "url": "https://quadeye.zohorecruit.in/jobs/Careers/199893000002318440"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Eaton",
+    "company_slug": "eaton",
+    "date_posted": "2026-09-10",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T20:52:15.614030Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "687238812792",
+    "first_seen": "2026-11-04T20:51:05.533083Z",
+    "id": "eightfold:eaton:687238812792",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Pune, Maharashtra, IND, 411014"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Apprentice IT SAP ECC",
+    "url": "https://eaton.eightfold.ai/careers/job/687238812792"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Eaton",
+    "company_slug": "eaton",
+    "date_posted": "2026-10-09",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T20:52:15.614030Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "687239452576",
+    "first_seen": "2026-11-04T20:51:05.533083Z",
+    "id": "eightfold:eaton:687239452576",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Pune, Maharashtra, IND, 411014"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Apprentice. IT. Development Program",
+    "url": "https://eaton.eightfold.ai/careers/job/687239452576"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Eaton",
+    "company_slug": "eaton",
+    "date_posted": "2026-10-22",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T20:52:15.614030Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "687239705382",
+    "first_seen": "2026-11-04T20:51:05.533083Z",
+    "id": "eightfold:eaton:687239705382",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Pune, Maharashtra, IND, 411014"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Apprentice. IT. Development Program",
+    "url": "https://eaton.eightfold.ai/careers/job/687239705382"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "Microsoft",
@@ -949,6 +1039,96 @@
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Nirlon-Knowledge-Park/Apprentice-Hiring-for-2026--2027_R0456794-1"
   },
   {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "PhD in Computer Science / Data Sciences / AI",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T20:52:15.614030Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4043882-1",
+    "first_seen": "2026-11-04T20:51:05.533083Z",
+    "id": "workday:ge-healthcare:R4043882-1",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Research Intern - AI",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Research-Intern---AI_R4043882-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T20:52:15.614030Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5027950-2",
+    "first_seen": "2026-11-04T20:51:05.533083Z",
+    "id": "workday:ge-vernova:R5027950-2",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Chennai"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "DT Intern",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Hewlett Packard Enterprise",
+    "company_slug": "hpe",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T20:52:15.614030Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "1211843-2",
+    "first_seen": "2026-11-04T20:51:05.533083Z",
+    "id": "workday:hpe:1211843-2",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bengaluru, Karnātaka, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "College Intern",
+    "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2"
+  },
+  {
     "category": "other",
     "closed_at": "2026-11-03T13:20:44.023283Z",
     "company": "Intel",
@@ -977,6 +1157,36 @@
     "status": "closed",
     "title": "Attraction Req : Intern",
     "url": "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "LSEG",
+    "company_slug": "lseg",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "CA, CPA, or a similar professional qualification",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T20:52:15.614030Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0119252-1",
+    "first_seen": "2026-11-04T20:51:05.533083Z",
+    "id": "workday:lseg:R0119252-1",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "IND-Bangalore-TowerE,RMZ Infin"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/Intern_R0119252-1"
   },
   {
     "category": "data_ml",
