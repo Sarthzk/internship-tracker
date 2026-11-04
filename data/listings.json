@@ -92,7 +92,7 @@
   },
   {
     "category": "product",
-    "closed_at": null,
+    "closed_at": "2026-11-04T17:56:47.793308Z",
     "company": "Google",
     "company_slug": "google",
     "date_posted": "2026-10-28",
@@ -105,10 +105,10 @@
     "locations": [
       "Bengaluru, Karnataka, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "custom",
-    "status": "open",
+    "status": "closed",
     "title": "User Experience Design Intern, Summer 2027, YouTube UX",
     "url": "https://www.google.com/about/careers/applications/jobs/results/78252225691820742"
   },

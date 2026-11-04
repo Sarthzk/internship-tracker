@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**5 closed** · Last updated: 2026-11-04 (IST)
+**6 closed** · Last updated: 2026-11-04 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Google<br><sub>Big Tech</sub> | User Experience Design Intern, Summer 2027, YouTube UX | Bengaluru, Karnataka, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/78252225691820742) | 2026-10-28 | 2026-11-04 |
 | American Express<br><sub>Fintech</sub> | Apprentice | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015791) | 2026-10-27 | 2026-11-04 |
 | Intel<br><sub>Semiconductor</sub> | Attraction Req : Intern<br><sub>🎓 Bachelor's degree / Masters in Computer Science/IT/Electron…</sub> | India, Bangalore | — | — | — | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777) | 2026-11-03 | 2026-11-03 |
 | Deutsche Bank<br><sub>Bank</sub> | Apprentice Hiring for 2026- 2027 | (do not use) Mumbai Nirlon Know. Pk B4-B5; Pune - Business Bay; Jaipur +1 more | 2026 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/do-not-use-Mumbai-Nirlon-Know-Pk-B4-B5/Apprentice---Non-Technology_R0357981) | 2026-10-28 | 2026-10-31 |
