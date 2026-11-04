@@ -23,6 +23,18 @@ MAX_ATTEMPTS = 3
 MAX_BACKOFF_SECONDS = 30.0
 RATE_LIMIT_FACTOR = 5
 MAX_RESPONSE_BYTES = 10 * 1024 * 1024  # far above any real job list; protects memory
+# Platforms that rate-limit one client across all their customers' subdomains: every
+# `<company>.<suffix>` host shares one request queue (Eightfold answered 429 once several
+# companies on it were fetched at the same time).
+SHARED_HOST_SUFFIXES = ("eightfold.ai",)
+
+
+def throttle_key(host: str) -> str:
+    """The queue a host's requests wait in: the host itself, or its shared platform suffix."""
+    for suffix in SHARED_HOST_SUFFIXES:
+        if host == suffix or host.endswith("." + suffix):
+            return suffix
+    return host
 
 
 class ResponseTooLarge(httpx.HTTPError):
@@ -91,7 +103,7 @@ class PoliteTransport(httpx.AsyncBaseTransport):
         self._last_request[host] = asyncio.get_running_loop().time()
 
     async def handle_async_request(self, request: httpx.Request) -> httpx.Response:
-        host = request.url.host
+        host = throttle_key(request.url.host)
         async with self._locks[host]:
             for attempt in range(self._max_attempts):
                 last_attempt = attempt == self._max_attempts - 1
