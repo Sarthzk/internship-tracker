@@ -27,13 +27,12 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**41 open internships** across 16 companies · Last updated: 2026-11-04 (IST)
+**40 open internships** across 15 companies · Last updated: 2026-11-04 (IST)
 
-### Software Engineering (15)
+### Software Engineering (14)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
-| Wells Fargo<br><sub>Bank</sub> | 2027 Technology Program Intern<br><sub>🎓 Bachelor's degree in engineering</sub> | Bengaluru, India; Hyderabad, India | Summer 2027 | 2028 | — | [Apply](https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) | 0d |
 | Juspay<br><sub>Fintech</sub> | Product Solution Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PSE02) | 6d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE02) | 6d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Mumbai | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE04) | 6d |

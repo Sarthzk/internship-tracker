@@ -1222,7 +1222,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-04T13:40:47.411619Z",
     "company": "Wells Fargo",
     "company_slug": "wells-fargo",
     "date_posted": "2026-11-04",
@@ -1246,10 +1246,10 @@
       "Bengaluru, India",
       "Hyderabad, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "2027 Technology Program Intern",
     "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386"
   }
