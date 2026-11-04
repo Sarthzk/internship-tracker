@@ -2,11 +2,12 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
+**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-04 | 5 |
+| Eaton | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from eaton.eightfold.ai | 2026-11-04 | 3 |
 | Adobe | phenom | ✅ OK | 2026-11-04 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-04 | 0 |
@@ -79,7 +80,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Datadog | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Duolingo | greenhouse | ✅ OK | 2026-11-04 | 0 |
-| Eaton | eightfold | ✅ OK | 2026-11-04 | 3 |
 | Elastic | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Equifax | workday | ✅ OK | 2026-11-04 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-04 | 0 |
