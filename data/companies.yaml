@@ -1414,7 +1414,7 @@ companies:
     ats: workday
     ats_config: {host: gevernova.wd5.myworkdayjobs.com, tenant: gevernova, site: Vernova_ExternalSite}
     careers_url: https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite
-    exclude_titles: ['mechanical', 'manufacturing', 'sourcing']
+    exclude_titles: ['sourcing']
     enabled: true
     notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
   - name: Caterpillar
@@ -1425,7 +1425,7 @@ companies:
     ats: workday
     ats_config: {host: cat.wd5.myworkdayjobs.com, tenant: cat, site: CaterpillarCareers}
     careers_url: https://cat.wd5.myworkdayjobs.com/CaterpillarCareers
-    exclude_titles: ['mechanical', 'manufacturing', 'supply chain']
+    exclude_titles: ['supply chain']
     enabled: true
     notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
   - name: Shell
@@ -1436,7 +1436,7 @@ companies:
     ats: workday
     ats_config: {host: shell.wd3.myworkdayjobs.com, tenant: shell, site: ShellCareers}
     careers_url: https://shell.wd3.myworkdayjobs.com/ShellCareers
-    exclude_titles: ['geoscience', 'petroleum', 'chemical']
+    exclude_titles: ['geoscience']
     enabled: true
     notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
   - name: Eaton
@@ -1447,7 +1447,6 @@ companies:
     ats: eightfold
     ats_config: {host: eaton.eightfold.ai, domain: eaton.com}
     careers_url: https://eaton.eightfold.ai/careers
-    exclude_titles: ['materials', 'mechanical', 'electrical design']
     enabled: true
     notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
   - name: Cummins
@@ -1458,7 +1457,7 @@ companies:
     ats: oracle_hcm
     ats_config: {host: fa-espx-saasfaprod1.fa.ocs.oraclecloud.com, site: CX_1}
     careers_url: https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1
-    exclude_titles: ['mechanical', 'manufacturing', 'supply chain']
+    exclude_titles: ['supply chain']
     enabled: true
     notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
   - name: Johnson Controls
@@ -1469,7 +1468,7 @@ companies:
     ats: workday
     ats_config: {host: jci.wd5.myworkdayjobs.com, tenant: jci, site: JCI}
     careers_url: https://jci.wd5.myworkdayjobs.com/JCI
-    exclude_titles: ['mechanical', 'hvac', 'sales']
+    exclude_titles: ['sales']
     enabled: true
     notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
   - name: Rockwell Automation
@@ -1490,7 +1489,7 @@ companies:
     ats: workday
     ats_config: {host: ag.wd3.myworkdayjobs.com, tenant: ag, site: Airbus}
     careers_url: https://ag.wd3.myworkdayjobs.com/Airbus
-    exclude_titles: ['structures?', 'stress', 'manufacturing', 'procurement', 'supply chain', 'finance', '\\bhr\\b']
+    exclude_titles: ['procurement', 'supply chain', 'finance', '\\bhr\\b']
     enabled: true
     notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
   - name: Ericsson

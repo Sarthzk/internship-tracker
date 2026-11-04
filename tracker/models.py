@@ -75,6 +75,7 @@ class Category(StrEnum):
     quant = "quant"
     hardware = "hardware"
     product = "product"
+    core = "core"  # mechanical, aerospace, civil, manufacturing and other core engineering
     other = "other"
 
 

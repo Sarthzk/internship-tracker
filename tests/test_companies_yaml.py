@@ -1,3 +1,4 @@
+import re
 from pathlib import Path
 
 from tracker.fetchers import get_fetcher
@@ -118,3 +119,12 @@ def test_phase_10_entries_from_the_platform_report():
     assert by_slug["nokia"].ats == "oracle_hcm"
     assert by_slug["bosch"].ats_config == {"company_id": "BoschGroup"}
     assert by_slug["cohesity"].enabled and by_slug["cohesity"].ats == "workday"
+
+
+def test_core_engineering_roles_are_not_excluded_at_industrial_companies():
+    by_slug = {c.slug: c for c in load_companies(COMPANIES_YAML)}
+    for slug in ("airbus", "caterpillar", "cummins", "eaton", "ge-vernova", "johnson-controls"):
+        for word in ("mechanical", "manufacturing", "structures"):
+            assert not any(
+                re.search(p, word, re.IGNORECASE) for p in by_slug[slug].exclude_titles
+            ), slug

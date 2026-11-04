@@ -68,6 +68,17 @@ def test_is_internship(title, expected):
         ("Applied Sciences INTERN", Category.data_ml),
         ("2027 Intern - Research PhD Intern", Category.data_ml),
         ("Security Research INTERN", Category.swe),
+        ("Technical Data Authoring Intern - Airframe", Category.core),
+        ("Intern - Maintenance Engineering & Services", Category.core),
+        ("Internship - Technical Data", Category.core),
+        ("Mechanical Engineering Intern", Category.core),
+        ("Aerospace Structures Intern", Category.core),
+        ("Manufacturing Engineering Intern", Category.core),
+        ("Civil Engineering Intern", Category.core),
+        ("Software Engineer Intern, Manufacturing Systems", Category.swe),
+        ("Technical Data Analyst Intern", Category.data_ml),
+        ("Engineering Intern", Category.swe),
+        ("Technology Intern", Category.swe),
     ],
 )
 def test_classify_category(title, expected):

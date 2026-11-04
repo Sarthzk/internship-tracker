@@ -130,6 +130,7 @@ def test_all_category_values():
         "quant",
         "hardware",
         "product",
+        "core",
         "other",
     }
 
