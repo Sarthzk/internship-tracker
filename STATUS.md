@@ -2,10 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**116 companies tracked** · 116 OK · 0 failing · 12 not tracked · Last updated: 2026-11-04 (IST)
+**116 companies tracked** · 115 OK · 1 failing · 12 not tracked · Last updated: 2026-11-04 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Nvidia | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-04 | 1 |
 | Adobe | phenom | ✅ OK | 2026-11-04 | 2 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-04 | 0 |
@@ -32,7 +33,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Micron | workday | ✅ OK | 2026-11-04 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-04 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-04 | 0 |
-| Nvidia | workday | ✅ OK | 2026-11-04 | 1 |
 | NXP | workday | ✅ OK | 2026-11-04 | 2 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-04 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-04 | 0 |
