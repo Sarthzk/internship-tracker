@@ -60,7 +60,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BrowserStack | workday | ✅ OK | 2026-11-04 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-04 | 0 |
-| Commvault | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Commvault | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Contentstack | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | CRED | lever | ✅ OK | 2026-11-04 | 0 |
@@ -75,7 +75,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Glance | greenhouse | ✅ OK | 2026-11-04 | 1 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-04 | 0 |
-| Hevo Data | lever | ✅ OK | 2026-11-03 | 2 |
+| Hevo Data | lever | ✅ OK | 2026-11-04 | 2 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-04 | 0 |
@@ -105,21 +105,21 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Samsara | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-04 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-11-04 | 0 |
-| Sigmoid | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Sigmoid | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-04 | 0 |
 | Sprinklr | workday | ✅ OK | 2026-11-04 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-04 | 0 |
-| Tekion | ashby | ✅ OK | 2026-11-03 | 0 |
+| Tekion | ashby | ✅ OK | 2026-11-04 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-04 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-04 | 0 |
-| Turing | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Turing | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Vercel | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-04 | 0 |
-| Zeta Global | greenhouse | ✅ OK | 2026-11-03 | 0 |
+| Zeta Global | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Zuora | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Arcesium | unknown | ⏸ not tracked | — | 0 |
