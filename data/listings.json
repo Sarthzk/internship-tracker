@@ -1219,5 +1219,38 @@
     "status": "open",
     "title": "Technical Internship 2027",
     "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangalore/Technical-Internship-2027_R-10066434"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Wells Fargo",
+    "company_slug": "wells-fargo",
+    "date_posted": "2026-11-04",
+    "enrichment": {
+      "degree": "Bachelor's degree in engineering",
+      "duration_months": null,
+      "eligible_batches": [
+        2028
+      ],
+      "enriched_at": "2026-11-04T13:11:35.719239Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "summer"
+    },
+    "external_id": "R-557386",
+    "first_seen": "2026-11-04T13:10:45.546687Z",
+    "id": "workday:wells-fargo:R-557386",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bengaluru, India",
+      "Hyderabad, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "2027 Technology Program Intern",
+    "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386"
   }
 ]
