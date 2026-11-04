@@ -2,7 +2,7 @@ import httpx
 import pytest
 import respx
 
-from tracker.http import USER_AGENT, make_client
+from tracker.http import USER_AGENT, make_client, throttle_key
 
 URL = "https://api.example.com/jobs"
 
@@ -82,6 +82,32 @@ async def test_one_request_at_a_time_per_host():
     async with make_client(inner=httpx.MockTransport(handler), delay=0, backoff=0) as client:
         await asyncio.gather(*(client.get(f"{URL}?n={i}") for i in range(5)))
     assert peak == 1
+
+
+async def test_eightfold_companies_share_one_request_queue():
+    import asyncio
+
+    active = 0
+    peak = 0
+
+    async def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal active, peak
+        active += 1
+        peak = max(peak, active)
+        await asyncio.sleep(0.01)
+        active -= 1
+        return httpx.Response(200, json={})
+
+    hosts = ["microsoft.eightfold.ai", "citi.eightfold.ai", "eaton.eightfold.ai"]
+    async with make_client(inner=httpx.MockTransport(handler), delay=0, backoff=0) as client:
+        await asyncio.gather(*(client.get(f"https://{h}/api/pcsx/search") for h in hosts))
+    assert peak == 1
+
+
+def test_throttle_key():
+    assert throttle_key("microsoft.eightfold.ai") == "eightfold.ai"
+    assert throttle_key("boards-api.greenhouse.io") == "boards-api.greenhouse.io"
+    assert throttle_key("noteightfold.ai") == "noteightfold.ai"
 
 
 async def test_429_waits_five_times_longer_than_a_server_error(monkeypatch):
