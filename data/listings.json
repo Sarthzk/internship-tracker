@@ -1082,7 +1082,37 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390"
   },
   {
-    "category": "swe",
+    "category": "core",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T22:02:06.695246Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10449142",
+    "first_seen": "2026-11-04T22:01:13.786203Z",
+    "id": "workday:airbus:JR10449142",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship- Structures",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142"
+  },
+  {
+    "category": "core",
     "closed_at": null,
     "company": "Airbus",
     "company_slug": "airbus",
@@ -1112,7 +1142,7 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data-Support---Services_JR10449171"
   },
   {
-    "category": "swe",
+    "category": "core",
     "closed_at": null,
     "company": "Airbus",
     "company_slug": "airbus",
@@ -1202,7 +1232,7 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449386"
   },
   {
-    "category": "swe",
+    "category": "core",
     "closed_at": null,
     "company": "Airbus",
     "company_slug": "airbus",
@@ -1232,7 +1262,7 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449495"
   },
   {
-    "category": "swe",
+    "category": "core",
     "closed_at": null,
     "company": "Airbus",
     "company_slug": "airbus",
@@ -1262,7 +1292,7 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537"
   },
   {
-    "category": "swe",
+    "category": "core",
     "closed_at": null,
     "company": "Airbus",
     "company_slug": "airbus",

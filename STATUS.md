@@ -54,7 +54,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Abbott | workday | ✅ OK | 2026-11-04 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-04 | 0 |
-| Airbus | workday | ✅ OK | 2026-11-04 | 12 |
+| Airbus | workday | ✅ OK | 2026-11-04 | 13 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-04 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-04 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-04 | 0 |
