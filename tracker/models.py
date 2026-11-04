@@ -99,7 +99,17 @@ HOSTNAME = re.compile(r"(?=.{1,253}$)([a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a
 
 
 CompanyTag = Literal[
-    "Big Tech", "Startup", "Fintech", "SaaS", "AI", "Quant", "Semiconductor", "Bank"
+    "Big Tech",
+    "Startup",
+    "Fintech",
+    "SaaS",
+    "AI",
+    "Quant",
+    "Semiconductor",
+    "Bank",
+    "Finance",
+    "Industrial",
+    "Consumer",
 ]
 
 

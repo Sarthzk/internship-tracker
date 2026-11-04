@@ -56,7 +56,7 @@ def test_only_companies_with_a_built_fetcher_type_are_enabled():
 
 def test_unresolved_companies_are_still_listed():
     unresolved = {c.name for c in load_companies(COMPANIES_YAML) if c.ats == "unknown"}
-    assert len(unresolved) == 12
+    assert len(unresolved) == 11  # Cohesity resolved to Workday in Phase 10
     assert {"Zomato", "Media.net", "Persistent Systems"} <= unresolved
 
 
@@ -105,3 +105,16 @@ def test_no_ten_minute_run_queues_too_many_companies_on_one_platform():
         per_platform = Counter(c.ats for c in enabled if is_due(c, now))
         worst = max(worst, max(per_platform.values()))
     assert worst <= 60, worst
+
+
+def test_phase_10_entries_from_the_platform_report():
+    by_slug = {c.slug: c for c in load_companies(COMPANIES_YAML)}
+    assert by_slug["target"].ats_config == {
+        "host": "target.wd5.myworkdayjobs.com",
+        "tenant": "target",
+        "site": "targetcareers",
+    }
+    assert by_slug["citi"].ats == "eightfold"
+    assert by_slug["nokia"].ats == "oracle_hcm"
+    assert by_slug["bosch"].ats_config == {"company_id": "BoschGroup"}
+    assert by_slug["cohesity"].enabled and by_slug["cohesity"].ats == "workday"

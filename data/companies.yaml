@@ -204,10 +204,13 @@ companies:
   - name: Cohesity
     slug: cohesity
     tier: 1
-    ats: unknown
-    ats_config: {}
-    careers_url: https://cohesity.com/company/careers
-    enabled: false
+    tag: SaaS
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: cohesity.wd5.myworkdayjobs.com, tenant: cohesity, site: Cohesity_Careers}
+    careers_url: https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers
+    enabled: true
+    notes: Workday board found and verified 2026-11-05 (Phase 10).
   - name: Databricks
     slug: databricks
     tier: 1
@@ -1201,3 +1204,472 @@ companies:
     careers_url: https://boards.greenhouse.io/squarepointcapital
     enabled: true
     notes: Added 2026-11-03 (Phase 9); board and India jobs checked with scripts/detect_ats.py.
+  - name: HP
+    slug: hp
+    tier: 2
+    tag: Big Tech
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: hp.wd5.myworkdayjobs.com, tenant: hp, site: ExternalCareerSite}
+    careers_url: https://hp.wd5.myworkdayjobs.com/ExternalCareerSite
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Broadcom
+    slug: broadcom
+    tier: 2
+    tag: Semiconductor
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: broadcom.wd1.myworkdayjobs.com, tenant: broadcom, site: External_Career}
+    careers_url: https://broadcom.wd1.myworkdayjobs.com/External_Career
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: PTC
+    slug: ptc
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: ptc.wd1.myworkdayjobs.com, tenant: ptc, site: PTC}
+    careers_url: https://ptc.wd1.myworkdayjobs.com/PTC
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Palo Alto Networks
+    slug: palo-alto-networks
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: paloaltonetworks.wd5.myworkdayjobs.com, tenant: paloaltonetworks, site: panwexternalcareers}
+    careers_url: https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Workday
+    slug: workday
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: workday.wd5.myworkdayjobs.com, tenant: workday, site: Workday}
+    careers_url: https://workday.wd5.myworkdayjobs.com/Workday
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Fidelity Investments
+    slug: fidelity-investments
+    tier: 2
+    tag: Finance
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: fmr.wd1.myworkdayjobs.com, tenant: fmr, site: FidelityCareers}
+    careers_url: https://fmr.wd1.myworkdayjobs.com/FidelityCareers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: State Street
+    slug: state-street
+    tier: 2
+    tag: Bank
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: statestreet.wd1.myworkdayjobs.com, tenant: statestreet, site: Global}
+    careers_url: https://statestreet.wd1.myworkdayjobs.com/Global
+    exclude_titles: ['apprentice']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Northern Trust
+    slug: northern-trust
+    tier: 2
+    tag: Bank
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: ntrs.wd1.myworkdayjobs.com, tenant: ntrs, site: northerntrust}
+    careers_url: https://ntrs.wd1.myworkdayjobs.com/northerntrust
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: 'S&P Global'
+    slug: sp-global
+    tier: 2
+    tag: Finance
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: spgi.wd5.myworkdayjobs.com, tenant: spgi, site: SPGI_Careers}
+    careers_url: https://spgi.wd5.myworkdayjobs.com/SPGI_Careers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: LSEG
+    slug: lseg
+    tier: 2
+    tag: Finance
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: lseg.wd3.myworkdayjobs.com, tenant: lseg, site: Careers}
+    careers_url: https://lseg.wd3.myworkdayjobs.com/Careers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: TransUnion
+    slug: transunion
+    tier: 2
+    tag: Finance
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: transunion.wd5.myworkdayjobs.com, tenant: transunion, site: TransUnion}
+    careers_url: https://transunion.wd5.myworkdayjobs.com/TransUnion
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Equifax
+    slug: equifax
+    tier: 2
+    tag: Finance
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: equifax.wd5.myworkdayjobs.com, tenant: equifax, site: External}
+    careers_url: https://equifax.wd5.myworkdayjobs.com/External
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Citi
+    slug: citi
+    tier: 2
+    tag: Bank
+    check_every_minutes: 20
+    ats: eightfold
+    ats_config: {host: citi.eightfold.ai, domain: citi.com}
+    careers_url: https://citi.eightfold.ai/careers
+    exclude_titles: ['young apprentice']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Target
+    slug: target
+    tier: 2
+    tag: Consumer
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: target.wd5.myworkdayjobs.com, tenant: target, site: targetcareers}
+    careers_url: https://target.wd5.myworkdayjobs.com/targetcareers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Thomson Reuters
+    slug: thomson-reuters
+    tier: 2
+    tag: Finance
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: thomsonreuters.wd5.myworkdayjobs.com, tenant: thomsonreuters, site: External_Career_Site}
+    careers_url: https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Wolters Kluwer
+    slug: wolters-kluwer
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: wk.wd3.myworkdayjobs.com, tenant: wk, site: External}
+    careers_url: https://wk.wd3.myworkdayjobs.com/External
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Sabre
+    slug: sabre
+    tier: 2
+    tag: Consumer
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: sabre.wd1.myworkdayjobs.com, tenant: sabre, site: SabreJobs}
+    careers_url: https://sabre.wd1.myworkdayjobs.com/SabreJobs
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Bosch
+    slug: bosch
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: smartrecruiters
+    ats_config: {company_id: BoschGroup}
+    careers_url: https://jobs.smartrecruiters.com/BoschGroup
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Philips
+    slug: philips
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: philips.wd3.myworkdayjobs.com, tenant: philips, site: jobs-and-careers}
+    careers_url: https://philips.wd3.myworkdayjobs.com/jobs-and-careers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: GE HealthCare
+    slug: ge-healthcare
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: gehc.wd5.myworkdayjobs.com, tenant: gehc, site: GEHC_ExternalSite}
+    careers_url: https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: GE Vernova
+    slug: ge-vernova
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: gevernova.wd5.myworkdayjobs.com, tenant: gevernova, site: Vernova_ExternalSite}
+    careers_url: https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite
+    exclude_titles: ['mechanical', 'manufacturing', 'sourcing']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Caterpillar
+    slug: caterpillar
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: cat.wd5.myworkdayjobs.com, tenant: cat, site: CaterpillarCareers}
+    careers_url: https://cat.wd5.myworkdayjobs.com/CaterpillarCareers
+    exclude_titles: ['mechanical', 'manufacturing', 'supply chain']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Shell
+    slug: shell
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: shell.wd3.myworkdayjobs.com, tenant: shell, site: ShellCareers}
+    careers_url: https://shell.wd3.myworkdayjobs.com/ShellCareers
+    exclude_titles: ['geoscience', 'petroleum', 'chemical']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Eaton
+    slug: eaton
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: eightfold
+    ats_config: {host: eaton.eightfold.ai, domain: eaton.com}
+    careers_url: https://eaton.eightfold.ai/careers
+    exclude_titles: ['materials', 'mechanical', 'electrical design']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Cummins
+    slug: cummins
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: oracle_hcm
+    ats_config: {host: fa-espx-saasfaprod1.fa.ocs.oraclecloud.com, site: CX_1}
+    careers_url: https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1
+    exclude_titles: ['mechanical', 'manufacturing', 'supply chain']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Johnson Controls
+    slug: johnson-controls
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: jci.wd5.myworkdayjobs.com, tenant: jci, site: JCI}
+    careers_url: https://jci.wd5.myworkdayjobs.com/JCI
+    exclude_titles: ['mechanical', 'hvac', 'sales']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Rockwell Automation
+    slug: rockwell-automation
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: rockwellautomation.wd1.myworkdayjobs.com, tenant: rockwellautomation, site: External_Rockwell_Automation}
+    careers_url: https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Airbus
+    slug: airbus
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: ag.wd3.myworkdayjobs.com, tenant: ag, site: Airbus}
+    careers_url: https://ag.wd3.myworkdayjobs.com/Airbus
+    exclude_titles: ['structures?', 'stress', 'manufacturing', 'procurement', 'supply chain', 'finance', '\\bhr\\b']
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Ericsson
+    slug: ericsson
+    tier: 2
+    tag: Big Tech
+    check_every_minutes: 20
+    ats: eightfold
+    ats_config: {host: jobs.ericsson.com, domain: ericsson.com}
+    careers_url: https://jobs.ericsson.com/careers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Nokia
+    slug: nokia
+    tier: 2
+    tag: Big Tech
+    check_every_minutes: 20
+    ats: oracle_hcm
+    ats_config: {host: fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com, site: CX_1}
+    careers_url: https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Motorola Solutions
+    slug: motorola-solutions
+    tier: 2
+    tag: Big Tech
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: motorolasolutions.wd5.myworkdayjobs.com, tenant: motorolasolutions, site: Careers}
+    careers_url: https://motorolasolutions.wd5.myworkdayjobs.com/Careers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Ciena
+    slug: ciena
+    tier: 2
+    tag: Big Tech
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: ciena.wd5.myworkdayjobs.com, tenant: ciena, site: Careers}
+    careers_url: https://ciena.wd5.myworkdayjobs.com/Careers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Hewlett Packard Enterprise
+    slug: hpe
+    tier: 2
+    tag: Big Tech
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: hpe.wd5.myworkdayjobs.com, tenant: hpe, site: Jobsathpe}
+    careers_url: https://hpe.wd5.myworkdayjobs.com/Jobsathpe
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: F5
+    slug: f5
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: ffive.wd5.myworkdayjobs.com, tenant: ffive, site: f5jobs}
+    careers_url: https://ffive.wd5.myworkdayjobs.com/f5jobs
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Unisys
+    slug: unisys
+    tier: 2
+    tag: Big Tech
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: unisys.wd5.myworkdayjobs.com, tenant: unisys, site: External}
+    careers_url: https://unisys.wd5.myworkdayjobs.com/External
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Guidewire
+    slug: guidewire
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: guidewire.wd5.myworkdayjobs.com, tenant: guidewire, site: External}
+    careers_url: https://guidewire.wd5.myworkdayjobs.com/External
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Trimble
+    slug: trimble
+    tier: 2
+    tag: SaaS
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: trimble.wd1.myworkdayjobs.com, tenant: trimble, site: TrimbleCareers}
+    careers_url: https://trimble.wd1.myworkdayjobs.com/TrimbleCareers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: onsemi
+    slug: onsemi
+    tier: 2
+    tag: Semiconductor
+    check_every_minutes: 20
+    ats: oracle_hcm
+    ats_config: {host: hctz.fa.us2.oraclecloud.com, site: CX_1001}
+    careers_url: https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Zebra Technologies
+    slug: zebra-technologies
+    tier: 2
+    tag: Big Tech
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: zebra.wd501.myworkdayjobs.com, tenant: zebra, site: Zebra_careers}
+    careers_url: https://zebra.wd501.myworkdayjobs.com/Zebra_careers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Abbott
+    slug: abbott
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: abbott.wd5.myworkdayjobs.com, tenant: abbott, site: abbottcareers}
+    careers_url: https://abbott.wd5.myworkdayjobs.com/abbottcareers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Stryker
+    slug: stryker
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: stryker.wd1.myworkdayjobs.com, tenant: stryker, site: StrykerCareers}
+    careers_url: https://stryker.wd1.myworkdayjobs.com/StrykerCareers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Baxter
+    slug: baxter
+    tier: 2
+    tag: Industrial
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: baxter.wd1.myworkdayjobs.com, tenant: baxter, site: baxter}
+    careers_url: https://baxter.wd1.myworkdayjobs.com/baxter
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Ameriprise Financial
+    slug: ameriprise-financial
+    tier: 2
+    tag: Finance
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: ameriprise.wd5.myworkdayjobs.com, tenant: ameriprise, site: Ameriprise}
+    careers_url: https://ameriprise.wd5.myworkdayjobs.com/Ameriprise
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Invesco
+    slug: invesco
+    tier: 2
+    tag: Finance
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: invesco.wd1.myworkdayjobs.com, tenant: invesco, site: IVZ}
+    careers_url: https://invesco.wd1.myworkdayjobs.com/IVZ
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: US Bank
+    slug: us-bank
+    tier: 2
+    tag: Bank
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: usbank.wd1.myworkdayjobs.com, tenant: usbank, site: US_Bank_Careers}
+    careers_url: https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
+  - name: Cigna
+    slug: cigna
+    tier: 2
+    tag: Consumer
+    check_every_minutes: 20
+    ats: workday
+    ats_config: {host: cigna.wd5.myworkdayjobs.com, tenant: cigna, site: cignacareers}
+    careers_url: https://cigna.wd5.myworkdayjobs.com/cignacareers
+    enabled: true
+    notes: Added 2026-11-05 (Phase 10); platform verified by fingerprint_platforms.py, fetched OK with India intern search.
