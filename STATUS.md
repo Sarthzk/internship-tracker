@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Adobe | phenom | ✅ OK | 2026-11-04 | 1 |
+| Adobe | phenom | ✅ OK | 2026-11-04 | 2 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-04 | 0 |
 | AMD | custom | ✅ OK | 2026-11-04 | 0 |
