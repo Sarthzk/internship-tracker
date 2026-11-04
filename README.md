@@ -1,8 +1,8 @@
 # India Tech Internships Tracker
 
 An automatically updated list of **tech internships in India** (and remote-India) from the career
-pages of 110+ companies that Indian students want to intern at, from big tech and banks to
-startups: Google, Microsoft, Apple, Amazon, Nvidia, Goldman Sachs, Quadeye, Juspay, Hevo Data and
+pages of 160+ companies that Indian students want to intern at, from big tech and banks to
+startups: Google, Microsoft, Apple, Amazon, Nvidia, Goldman Sachs, Citi, Bosch, Quadeye, Juspay and
 more. A small label under each company name shows what kind of company it is.
 
 ## How it works
