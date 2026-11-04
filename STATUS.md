@@ -2,7 +2,7 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 139 OK · 1 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Cadence | workday | ✅ OK | 2026-11-04 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-04 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-04 | 0 |
+| Cohesity | workday | ✅ OK | 2026-11-04 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-04 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-04 | 0 |
@@ -53,28 +54,34 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Abbott | workday | ✅ OK | 2026-11-04 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| Airbus | workday | ✅ OK | 2026-11-04 | 12 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-04 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-04 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Anyscale | ashby | ✅ OK | 2026-11-04 | 0 |
 | AQR Capital | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Atlan | ashby | ✅ OK | 2026-11-04 | 0 |
+| Baxter | workday | ✅ OK | 2026-11-04 | 0 |
+| Bosch | smartrecruiters | ✅ OK | 2026-11-04 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-04 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-04 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-04 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-04 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-04 | 0 |
+| Citi | eightfold | ✅ OK | 2026-11-04 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Commvault | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Contentstack | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | CRED | lever | ✅ OK | 2026-11-04 | 0 |
+| Cummins | oracle_hcm | ✅ OK | 2026-11-04 | 0 |
 | Datadog | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Duolingo | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Eaton | eightfold | ✅ OK | 2026-11-04 | 3 |
 | Elastic | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| Equifax | workday | ✅ OK | 2026-11-04 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-04 | 0 |
 | F5 | workday | ✅ OK | 2026-11-04 | 0 |
 | Fidelity Investments | workday | ✅ OK | 2026-11-04 | 0 |
@@ -91,10 +98,13 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Hevo Data | lever | ✅ OK | 2026-11-04 | 2 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-04 | 1 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| HP | workday | ✅ OK | 2026-11-04 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| Invesco | workday | ✅ OK | 2026-11-04 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-04 | 0 |
 | JFrog | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| Johnson Controls | workday | ✅ OK | 2026-11-04 | 0 |
 | Jump Trading | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Juspay | custom | ✅ OK | 2026-11-04 | 4 |
 | Kong | ashby | ✅ OK | 2026-11-04 | 0 |
@@ -108,18 +118,24 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Navan | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | New Relic | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Nokia | oracle_hcm | ✅ OK | 2026-11-04 | 0 |
+| Northern Trust | workday | ✅ OK | 2026-11-04 | 0 |
 | Notion | ashby | ✅ OK | 2026-11-04 | 0 |
 | Observe.AI | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Okta | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | onsemi | oracle_hcm | ✅ OK | 2026-11-04 | 0 |
 | OpenAI | ashby | ✅ OK | 2026-11-04 | 0 |
+| Palo Alto Networks | workday | ✅ OK | 2026-11-04 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-04 | 0 |
+| Philips | workday | ✅ OK | 2026-11-04 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-04 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-04 | 0 |
 | Postman | workday | ✅ OK | 2026-11-04 | 0 |
+| PTC | workday | ✅ OK | 2026-11-04 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| Rockwell Automation | workday | ✅ OK | 2026-11-04 | 0 |
+| S&P Global | workday | ✅ OK | 2026-11-04 | 0 |
 | Sabre | workday | ✅ OK | 2026-11-04 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-04 | 0 |
@@ -133,42 +149,26 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Stryker | workday | ✅ OK | 2026-11-04 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-04 | 0 |
+| Target | workday | ✅ OK | 2026-11-04 | 0 |
 | Tekion | ashby | ✅ OK | 2026-11-04 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-04 | 0 |
+| Thomson Reuters | workday | ✅ OK | 2026-11-04 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| TransUnion | workday | ✅ OK | 2026-11-04 | 0 |
+| Trimble | workday | ✅ OK | 2026-11-04 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| Unisys | workday | ✅ OK | 2026-11-04 | 0 |
+| US Bank | workday | ✅ OK | 2026-11-04 | 0 |
 | Vercel | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Wolters Kluwer | workday | ✅ OK | 2026-11-04 | 0 |
 | Workday | workday | ✅ OK | 2026-11-04 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-04 | 0 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-04 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-04 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-04 | 0 |
 | Zuora | greenhouse | ✅ OK | 2026-11-04 | 0 |
-| Cohesity | workday | ⏳ waiting for the first run | — | 0 |
-| Airbus | workday | ⏳ waiting for the first run | — | 0 |
-| Baxter | workday | ⏳ waiting for the first run | — | 0 |
-| Bosch | smartrecruiters | ⏳ waiting for the first run | — | 0 |
-| Citi | eightfold | ⏳ waiting for the first run | — | 0 |
-| Cummins | oracle_hcm | ⏳ waiting for the first run | — | 0 |
-| Equifax | workday | ⏳ waiting for the first run | — | 0 |
-| HP | workday | ⏳ waiting for the first run | — | 0 |
-| Invesco | workday | ⏳ waiting for the first run | — | 0 |
-| Johnson Controls | workday | ⏳ waiting for the first run | — | 0 |
-| Northern Trust | workday | ⏳ waiting for the first run | — | 0 |
-| Palo Alto Networks | workday | ⏳ waiting for the first run | — | 0 |
-| Philips | workday | ⏳ waiting for the first run | — | 0 |
-| PTC | workday | ⏳ waiting for the first run | — | 0 |
-| Rockwell Automation | workday | ⏳ waiting for the first run | — | 0 |
-| S&P Global | workday | ⏳ waiting for the first run | — | 0 |
-| Target | workday | ⏳ waiting for the first run | — | 0 |
-| Thomson Reuters | workday | ⏳ waiting for the first run | — | 0 |
-| TransUnion | workday | ⏳ waiting for the first run | — | 0 |
-| Trimble | workday | ⏳ waiting for the first run | — | 0 |
-| Unisys | workday | ⏳ waiting for the first run | — | 0 |
-| US Bank | workday | ⏳ waiting for the first run | — | 0 |
-| Zebra Technologies | workday | ⏳ waiting for the first run | — | 0 |
 | Arcesium | unknown | ⏸ not tracked | — | 0 |
 | D. E. Shaw | unknown | ⏸ not tracked | — | 0 |
 | Intuit | unknown | ⏸ not tracked | — | 0 |

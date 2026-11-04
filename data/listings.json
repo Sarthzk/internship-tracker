@@ -993,6 +993,366 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10448021",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10448021",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "New Delhi"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship_ FSTD",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship--FSTD_JR10448021"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10448073",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10448073",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "New Delhi"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship_FSTD",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship-FSTD_JR10448073"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10448390",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10448390",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "FTM Intern",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "BTech (Aerospace/Mech)",
+      "duration_months": 3,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR10449171",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449171",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship - Technical Data Support & Services",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data-Support---Services_JR10449171"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "AME/BTech (Aerospace/Mech)",
+      "duration_months": 3,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR10449374",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449374",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Technical Data Authoring Intern - Airframe",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Authoring-Intern---Airframe_JR10449374"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "AME/BTech (Aerospace/Mech)",
+      "duration_months": 3,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR10449384",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449384",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Technical Data Analyst Intern",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449384"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "AME/BTech (Aerospace/Mech)",
+      "duration_months": 3,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR10449386",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449386",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Technical Data Analyst Intern",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449386"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "AME / degree level (or equivalent) in Engineering or a related discipline",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR10449495",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449495",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern - Maintenance Engineering & Services",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449495"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "AME/BTech (Aerospace/Mech)",
+      "duration_months": 3,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR10449537",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449537",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship - Technical Data",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "AME/BTech (Aerospace/Mech)",
+      "duration_months": 3,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR10449542",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449542",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship - Technical Data",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449542"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "MS/ Ph.D. in A.I./M.L.",
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10449573",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449573",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Artificial_Intelligence_For_Systems_Engineering_Intern",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "A.M.E / Bachelor / Master Degree",
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-04T21:02:18.369372Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10449695",
+    "first_seen": "2026-11-04T21:01:18.095155Z",
+    "id": "workday:airbus:JR10449695",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship- FTM MOC",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-10-30T18:50:43.440992Z",
     "company": "Deutsche Bank",
     "company_slug": "deutsche-bank",

@@ -27,12 +27,18 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**45 open internships** across 20 companies · Last updated: 2026-11-05 (IST)
+**57 open internships** across 21 companies · Last updated: 2026-11-05 (IST)
 
-### Software Engineering (17)
+### Software Engineering (23)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Airbus<br><sub>Industrial</sub> | Artificial\_Intelligence\_For\_Systems\_Engineering\_Intern<br><sub>🎓 MS/ Ph.D. in A.I./M.L.</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573) | 0d |
+| Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449495) | 0d |
+| Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537) | 0d |
+| Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449542) | 0d |
+| Airbus<br><sub>Industrial</sub> | Internship - Technical Data Support & Services<br><sub>🎓 BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data-Support---Services_JR10449171) | 0d |
+| Airbus<br><sub>Industrial</sub> | Technical Data Authoring Intern - Airframe<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Authoring-Intern---Airframe_JR10449374) | 0d |
 | Juspay<br><sub>Fintech</sub> | Product Solution Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PSE02) | 7d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE02) | 7d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Mumbai | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE04) | 7d |
@@ -51,10 +57,12 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Quadeye<br><sub>Quant</sub> | Intern - Systems Engineer | Gurgaon, Haryana, India | — | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318430) | 129d |
 | NXP<br><sub>Semiconductor</sub> | Technical Internship (2026) | Noida; Bangalore | 2026 | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Noida/Internship----SoC--IP-Design---2024-_R-10052538) | 448d |
 
-### Data & ML (11)
+### Data & ML (13)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Airbus<br><sub>Industrial</sub> | Technical Data Analyst Intern<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449384) | 0d |
+| Airbus<br><sub>Industrial</sub> | Technical Data Analyst Intern<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449386) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Research Intern - AI<br><sub>🎓 PhD in Computer Science / Data Sciences / AI</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Research-Intern---AI_R4043882-1) | 0d |
 | Marvell<br><sub>Semiconductor</sub> | Research Intern (PhD), AI-Scale Protocols & Simulation | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255) | 7d |
 | Marvell<br><sub>Semiconductor</sub> | Research Intern (PhD), Storage Systems for AI<br><sub>🎓 PhD, MS by Research, or MTech by Research program</sub> | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256) | 7d |
@@ -92,10 +100,14 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Hevo Data<br><sub>SaaS</sub> | UX Design Intern | Bangalore, India | — | — | — | [Apply](https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee) | 120d |
 | Glance<br><sub>Startup</sub> | UX Design - Intern | Bengaluru | — | — | — | [Apply](https://job-boards.greenhouse.io/glance/jobs/7916115) | 150d |
 
-### Other (7)
+### Other (11)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Airbus<br><sub>Industrial</sub> | FTM Intern | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390) | 0d |
+| Airbus<br><sub>Industrial</sub> | Internship- FTM MOC<br><sub>🎓 A.M.E / Bachelor / Master Degree</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695) | 0d |
+| Airbus<br><sub>Industrial</sub> | Internship\_ FSTD | New Delhi | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship--FSTD_JR10448021) | 0d |
+| Airbus<br><sub>Industrial</sub> | Internship\_FSTD | New Delhi | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship-FSTD_JR10448073) | 0d |
 | GE Vernova<br><sub>Industrial</sub> | DT Intern | Chennai | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2) | 0d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | College Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2) | 0d |
 | LSEG<br><sub>Finance</sub> | Intern<br><sub>🎓 CA, CPA, or a similar professional qualification</sub> | IND-Bangalore-TowerE,RMZ Infin | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/Intern_R0119252-1) | 0d |

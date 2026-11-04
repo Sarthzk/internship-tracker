@@ -36,6 +36,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "airbus",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 132,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "alphagrep",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -171,10 +180,28 @@
     "zero_since": null
   },
   {
+    "company_slug": "baxter",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 7,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "blackrock",
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 20,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "bosch",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 150,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -252,10 +279,28 @@
     "zero_since": null
   },
   {
+    "company_slug": "citi",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 4,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "cockroach-labs",
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 14,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "cohesity",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 8,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -301,6 +346,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 13,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "cummins",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 81,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -364,6 +418,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 404,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "equifax",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 21,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -531,6 +594,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "hp",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 39,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "hpe",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -567,6 +639,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "invesco",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 43,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "ixigo",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -580,6 +661,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 70,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "johnson-controls",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 54,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -756,6 +846,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "northern-trust",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 48,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "notion",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -828,6 +927,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "palo-alto-networks",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 57,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "paypal",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -841,6 +949,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 200,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "philips",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 38,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -868,6 +985,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 6,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "ptc",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 9,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -922,6 +1048,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 268,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "rockwell-automation",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 16,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -1026,6 +1161,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "sp-global",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 58,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "sprinklr",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -1089,6 +1233,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "target",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 30,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "tekion",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -1116,6 +1269,15 @@
     "zero_since": null
   },
   {
+    "company_slug": "thomson-reuters",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 41,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
     "company_slug": "toast",
     "consecutive_failures": 0,
     "failure_alerted": false,
@@ -1129,6 +1291,24 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 100,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "transunion",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 17,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "trimble",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 12,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -1156,6 +1336,24 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 343,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "unisys",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 27,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "us-bank",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 20,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
@@ -1219,6 +1417,15 @@
     "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 95,
+    "last_error": null,
+    "last_success": "2026-11-04",
+    "zero_since": null
+  },
+  {
+    "company_slug": "zebra-technologies",
+    "consecutive_failures": 0,
+    "failure_alerted": false,
+    "last_count": 12,
     "last_error": null,
     "last_success": "2026-11-04",
     "zero_since": null
