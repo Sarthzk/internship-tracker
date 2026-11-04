@@ -30,6 +30,7 @@ HEADINGS: dict[Category, str] = {
     Category.quant: "Quant & Trading",
     Category.hardware: "Hardware & Silicon",
     Category.product: "Product",
+    Category.core: "Core Engineering",
     Category.other: "Other",
 }
 
