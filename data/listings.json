@@ -859,7 +859,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-04T19:40:44.080211Z",
     "company": "Adobe",
     "company_slug": "adobe",
     "date_posted": "2026-11-04",
@@ -872,10 +872,10 @@
     "locations": [
       "Bangalore, Karnātaka, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "phenom",
-    "status": "open",
+    "status": "closed",
     "title": "2027 Intern - Research Intern",
     "url": "https://careers.adobe.com/us/en/job/R172424"
   },
