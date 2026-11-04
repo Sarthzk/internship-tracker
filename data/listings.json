@@ -624,6 +624,38 @@
     "url": "https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405"
   },
   {
+    "category": "product",
+    "closed_at": null,
+    "company": "Rubrik",
+    "company_slug": "rubrik",
+    "date_posted": "2026-11-04",
+    "enrichment": {
+      "degree": "MBA/management program",
+      "duration_months": 2,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-04T07:41:40.326278Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "8345283",
+    "first_seen": "2026-11-04T07:40:46.618761Z",
+    "id": "greenhouse:rubrik:8345283",
+    "is_remote": false,
+    "last_seen": "2026-11-04",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "Product Management Intern",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8345283?gh_jid=8345283"
+  },
+  {
     "category": "swe",
     "closed_at": null,
     "company": "Stripe",
