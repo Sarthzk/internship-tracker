@@ -239,6 +239,25 @@ def test_status_page_orders_failing_first_and_counts_open_internships():
     assert "⏳ waiting for the first run" in rows[3] and "⏸ not tracked" in rows[4]
 
 
+def test_status_shows_a_dropped_posting_count_as_verifying_not_failing():
+    from tracker.models import HealthRecord
+    from tracker.readme import render_status
+
+    companies = [company("acme", "Acme")]
+    health = {
+        "acme": HealthRecord(
+            company_slug="acme",
+            last_success=date(2026, 10, 28),
+            consecutive_failures=4,
+            last_error="returned 0 postings (previously 1)",
+            zero_since=NOW,
+        )
+    }
+    text = render_status(companies, health, [], NOW)
+    assert "🔍 verifying a drop in postings" in text
+    assert "· 0 failing ·" in text and "⚠️" not in text
+
+
 def test_generate_writes_status_page_when_companies_exist(tmp_path: Path):
     data = tmp_path / "data"
     save_listings(data / "listings.json", [listing(1)])

@@ -3,7 +3,7 @@
 `GET https://api.smartrecruiters.com/v1/companies/{company_id}/postings?q=intern&country=in`
 returns `content[]` and `totalFound`; the server already narrows to India + "intern". Page with
 `offset`. Note SmartRecruiters answers 200 with an empty list for company ids that do not exist,
-so a wrong `company_id` looks like "no postings" (the 24h zero-result rule then flags it).
+so a wrong `company_id` looks like "no postings" (the 1-hour zero-result rule then flags it).
 """
 
 from __future__ import annotations

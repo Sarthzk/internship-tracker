@@ -7,8 +7,10 @@ from datetime import datetime, timedelta
 from tracker.models import HealthRecord
 
 # A suspicious result (zero postings, or a sharp drop) is treated as a failure until it has lasted
-# this long. `HealthRecord.zero_since` records when it first appeared.
-ZERO_GRACE = timedelta(hours=24)
+# this long. `HealthRecord.zero_since` records when it first appeared. Long enough to ride out a
+# site glitch of a few checks; short enough that a posting that was really taken down does not
+# leave a company flagged for a day.
+ZERO_GRACE = timedelta(hours=1)
 MAX_ERROR_LENGTH = 300
 # A fall counts as sharp when postings halve and at least this many disappear.
 DROP_MIN = 10
@@ -23,6 +25,12 @@ def is_suspicious_drop(last_count: int, count: int) -> bool:
     if last_count <= 0:
         return False
     return count == 0 or (last_count - count >= DROP_MIN and count * 2 < last_count)
+
+
+def is_verifying_drop(record: HealthRecord) -> bool:
+    """True while a company's postings dropped suspiciously and we are waiting to see whether the
+    low result stays (a real removal) or goes away (a site glitch). Not an error of the fetcher."""
+    return record.zero_since is not None and (record.last_error or "").startswith("returned ")
 
 
 def record_fetch(
