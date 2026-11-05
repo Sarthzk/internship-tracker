@@ -1632,6 +1632,36 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Hewlett Packard Enterprise",
+    "company_slug": "hpe",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "College/University Graduate",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-05T10:11:59.005477Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "1215489-2",
+    "first_seen": "2026-11-05T10:10:45.207268Z",
+    "id": "workday:hpe:1215489-2",
+    "is_remote": false,
+    "last_seen": "2026-11-05",
+    "locations": [
+      "Bengaluru, Karnātaka, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "External Apprentice",
+    "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Apprentice_1215489-2"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-03T13:20:44.023283Z",
     "company": "Intel",
     "company_slug": "intel",
