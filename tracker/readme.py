@@ -13,6 +13,7 @@ from collections.abc import Iterable, Mapping
 from datetime import UTC, date, datetime, timedelta, timezone
 from pathlib import Path
 
+from tracker.health import is_verifying_drop
 from tracker.linkcheck import unexpected
 from tracker.models import Category, Company, HealthRecord, Listing, Status, Term, load_companies
 from tracker.storage import load_health, load_listings
@@ -219,6 +220,8 @@ def _status(company: Company, record: HealthRecord | None) -> tuple[int, str]:
         return 3, "⏸ not tracked"
     if record is None or record.last_success is None and record.consecutive_failures == 0:
         return 2, "⏳ waiting for the first run"
+    if record.consecutive_failures and is_verifying_drop(record):
+        return 1, "🔍 verifying a drop in postings"
     if record.consecutive_failures:
         runs = _count(record.consecutive_failures, "run")
         reason = f": {cell(record.last_error)[:70]}" if record.last_error else ""

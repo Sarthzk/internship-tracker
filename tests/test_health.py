@@ -1,6 +1,6 @@
 from datetime import UTC, datetime, timedelta
 
-from tracker.health import record_fetch
+from tracker.health import is_verifying_drop, record_fetch
 from tracker.models import HealthRecord
 
 T0 = datetime(2026, 10, 20, 12, 0, tzinfo=UTC)
@@ -34,21 +34,21 @@ def test_zero_after_nonzero_is_a_failure_at_first():
     assert not ok and record.zero_since == T0 and record.last_count == 5
 
 
-def test_zero_stays_a_failure_within_24_hours():
+def test_zero_stays_a_failure_within_the_grace_period():
     prev = HealthRecord(company_slug="acme", last_count=5, zero_since=T0)
-    _, ok = record_fetch(prev, "acme", count=0, error=None, now=T0 + timedelta(hours=23))
+    _, ok = record_fetch(prev, "acme", count=0, error=None, now=T0 + timedelta(minutes=50))
     assert not ok
 
 
-def test_zero_accepted_after_24_hours():
+def test_zero_accepted_after_the_grace_period():
     prev = HealthRecord(company_slug="acme", last_count=5, zero_since=T0)
-    record, ok = record_fetch(prev, "acme", count=0, error=None, now=T0 + timedelta(hours=24))
+    record, ok = record_fetch(prev, "acme", count=0, error=None, now=T0 + timedelta(hours=1))
     assert ok and record.last_count == 0 and record.zero_since is None
 
 
 def test_nonzero_clears_zero_since():
     prev = HealthRecord(company_slug="acme", last_count=5, zero_since=T0)
-    record, ok = record_fetch(prev, "acme", count=3, error=None, now=T0 + timedelta(hours=1))
+    record, ok = record_fetch(prev, "acme", count=3, error=None, now=T0 + timedelta(minutes=30))
     assert ok and record.zero_since is None
 
 
@@ -85,15 +85,15 @@ def test_sharp_drop_is_a_failure_at_first():
     assert record.last_error == "returned only 30 postings (previously 100)"
 
 
-def test_sharp_drop_accepted_after_24_hours_and_moves_the_reference():
+def test_sharp_drop_accepted_after_the_grace_period_and_moves_the_reference():
     prev = HealthRecord(company_slug="acme", last_count=100, zero_since=T0)
-    record, ok = record_fetch(prev, "acme", count=30, error=None, now=T0 + timedelta(hours=24))
+    record, ok = record_fetch(prev, "acme", count=30, error=None, now=T0 + timedelta(hours=1))
     assert ok and record.last_count == 30 and record.zero_since is None
 
 
 def test_drop_that_recovers_clears_the_grace_clock():
     prev = HealthRecord(company_slug="acme", last_count=100, zero_since=T0)
-    record, ok = record_fetch(prev, "acme", count=96, error=None, now=T0 + timedelta(hours=1))
+    record, ok = record_fetch(prev, "acme", count=96, error=None, now=T0 + timedelta(minutes=30))
     assert ok and record.zero_since is None and record.last_count == 100
 
 
@@ -125,3 +125,17 @@ def test_crash_alert_only_on_first_failure():
     assert should_send_crash_alert("cancelled")
     assert not should_send_crash_alert("failure")
     assert is_recovery("failure") and not is_recovery("success") and not is_recovery(None)
+
+
+def test_is_verifying_drop_only_for_a_low_result_not_for_errors():
+    low, _ = record_fetch(None, "acme", count=5, error=None, now=T0)
+    low, _ = record_fetch(low, "acme", count=0, error=None, now=T0 + timedelta(minutes=10))
+    assert is_verifying_drop(low)
+    broken, _ = record_fetch(
+        HealthRecord(company_slug="acme", last_count=5),
+        "acme",
+        count=None,
+        error="FetchError: HTTP 500",
+        now=T0,
+    )
+    assert not is_verifying_drop(broken)
