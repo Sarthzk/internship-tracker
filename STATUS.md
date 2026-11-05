@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-06 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Amazon | custom | ⚠️ failing for 36 runs: returned 0 postings (previously 1) | 2026-11-05 | 0 |
-| GE Vernova | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-05 | 1 |
+| Amazon | custom | ⚠️ failing for 37 runs: returned 0 postings (previously 1) | 2026-11-05 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-05 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | AMD | custom | ✅ OK | 2026-11-05 | 0 |
@@ -90,6 +89,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Fivetran | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-05 | 0 |
 | GE HealthCare | workday | ✅ OK | 2026-11-05 | 1 |
+| GE Vernova | workday | ✅ OK | 2026-11-05 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-05 | 1 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-05 | 0 |
