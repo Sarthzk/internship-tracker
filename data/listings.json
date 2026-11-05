@@ -1640,6 +1640,36 @@
       "degree": "College/University Graduate",
       "duration_months": null,
       "eligible_batches": null,
+      "enriched_at": "2026-11-05T10:32:24.143020Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "1215487-1",
+    "first_seen": "2026-11-05T10:31:00.799496Z",
+    "id": "workday:hpe:1215487-1",
+    "is_remote": false,
+    "last_seen": "2026-11-05",
+    "locations": [
+      "Bengaluru, Karnātaka, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "External Intern",
+    "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Hewlett Packard Enterprise",
+    "company_slug": "hpe",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "College/University Graduate",
+      "duration_months": null,
+      "eligible_batches": null,
       "enriched_at": "2026-11-05T10:11:59.005477Z",
       "model": "openai/gpt-oss-20b",
       "stipend": null,
@@ -1653,7 +1683,7 @@
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
