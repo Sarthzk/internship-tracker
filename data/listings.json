@@ -1881,6 +1881,66 @@
     "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangalore/Technical-Internship-2027_R-10066434"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Philips",
+    "company_slug": "philips",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "BTech / MTech",
+      "duration_months": 10,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-05T05:21:34.021295Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "583018",
+    "first_seen": "2026-11-05T05:20:41.851617Z",
+    "id": "workday:philips:583018",
+    "is_remote": false,
+    "last_seen": "2026-11-05",
+    "locations": [
+      "Pune"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern - HIC - Pune (Only for Selected Students - Others PLZ DO NOT APPLY)",
+    "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Pune/Intern---HIC---Pune_583018"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Philips",
+    "company_slug": "philips",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Architecture, Civil Engineering, etc.",
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-05T05:21:34.021295Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "590822",
+    "first_seen": "2026-11-05T05:20:41.851617Z",
+    "id": "workday:philips:590822",
+    "is_remote": false,
+    "last_seen": "2026-11-05",
+    "locations": [
+      "Chennai (ex Madras)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822"
+  },
+  {
     "category": "swe",
     "closed_at": "2026-11-04T18:50:46.141592Z",
     "company": "Wells Fargo",
