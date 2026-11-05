@@ -409,6 +409,36 @@
     "url": "https://eaton.eightfold.ai/careers/job/687239976322"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Eaton",
+    "company_slug": "eaton",
+    "date_posted": "2026-11-05",
+    "enrichment": {
+      "degree": "BE (Preferred Electrical , Electronics ,Mechanical,Production etc )",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-05T05:11:50.949478Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "687240066841",
+    "first_seen": "2026-11-05T05:10:42.492368Z",
+    "id": "eightfold:eaton:687240066841",
+    "is_remote": false,
+    "last_seen": "2026-11-05",
+    "locations": [
+      "Pune, Maharashtra, IND, 411045"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Intern - Quality",
+    "url": "https://eaton.eightfold.ai/careers/job/687240066841"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "Microsoft",
