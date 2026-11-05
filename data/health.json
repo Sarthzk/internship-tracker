@@ -55,7 +55,7 @@
   },
   {
     "company_slug": "amazon",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 1,
     "last_error": "returned 0 postings (previously 1)",
