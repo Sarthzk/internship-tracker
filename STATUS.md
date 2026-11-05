@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
+**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 403 from salesforce.wd12.myworkdayjobs.com | 2026-11-05 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-05 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-05 | 0 |
@@ -42,6 +41,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Qualcomm | eightfold | ✅ OK | 2026-11-05 | 2 |
 | Rippling | custom | ✅ OK | 2026-11-05 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-05 | 4 |
+| Salesforce | workday | ✅ OK | 2026-11-05 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-05 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-05 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-05 | 1 |
@@ -66,7 +66,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Broadcom | workday | ✅ OK | 2026-11-05 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-05 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-05 | 0 |
-| Ciena | workday | ✅ OK | 2026-11-05 | 0 |
+| Ciena | workday | ✅ OK | 2026-11-05 | 1 |
 | Cigna | workday | ✅ OK | 2026-11-05 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-05 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-05 | 0 |

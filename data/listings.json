@@ -1465,6 +1465,36 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Ciena",
+    "company_slug": "ciena",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-05T06:51:44.824345Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R031854",
+    "first_seen": "2026-11-05T06:50:42.824223Z",
+    "id": "workday:ciena:R031854",
+    "is_remote": false,
+    "last_seen": "2026-11-05",
+    "locations": [
+      "Gurugram"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "C/C++/Python/Jana Intern",
+    "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/C-C---Python-Jana-Intern_R031854"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-10-30T18:50:43.440992Z",
     "company": "Deutsche Bank",
     "company_slug": "deutsche-bank",
