@@ -126,7 +126,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-11-05 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-05 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-05 | 0 |
-| Philips | workday | ✅ OK | 2026-11-05 | 1 |
+| Philips | workday | ✅ OK | 2026-11-05 | 2 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-05 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-05 | 0 |
 | Postman | workday | ✅ OK | 2026-11-05 | 0 |

@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**63 open internships** across 23 companies · Last updated: 2026-11-05 (IST)
+**64 open internships** across 23 companies · Last updated: 2026-11-05 (IST)
 
 ### Software Engineering (18)
 
@@ -107,7 +107,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Technical Data Authoring Intern - Airframe<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Authoring-Intern---Airframe_JR10449374) | 0d |
 | Eaton<br><sub>Industrial</sub> | Apprentice - Materials<br><sub>🎓 BE/ Diploma Mechanical</sub> | Pune, Maharashtra, IND, 411045 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239976322) | 8d |
 
-### Other (15)
+### Other (16)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -121,6 +121,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | College Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2) | 0d |
 | Juspay<br><sub>Fintech</sub> | BD - Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=B-I01) | 0d |
 | LSEG<br><sub>Finance</sub> | Intern<br><sub>🎓 CA, CPA, or a similar professional qualification</sub> | IND-Bangalore-TowerE,RMZ Infin | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/Intern_R0119252-1) | 0d |
+| Philips<br><sub>Industrial</sub> | Intern<br><sub>🎓 Architecture, Civil Engineering, etc.</sub> | Chennai (ex Madras) | 6 months | — | 6 mo | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822) | 0d |
 | Philips<br><sub>Industrial</sub> | Intern - HIC - Pune (Only for Selected Students - Others PLZ DO NOT APPLY)<br><sub>🎓 BTech / MTech</sub> | Pune | — | — | 10 mo | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Pune/Intern---HIC---Pune_583018) | 0d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 1d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015382) | 3d |

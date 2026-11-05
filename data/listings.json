@@ -1964,7 +1964,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-05T06:40:40.713522Z",
+    "closed_at": null,
     "company": "Philips",
     "company_slug": "philips",
     "date_posted": null,
@@ -1985,10 +1985,10 @@
     "locations": [
       "Chennai (ex Madras)"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Intern",
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822"
   },
