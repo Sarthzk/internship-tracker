@@ -2,10 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-05 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 403 from salesforce.wd12.myworkdayjobs.com | 2026-11-05 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-05 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-05 | 0 |
@@ -41,7 +42,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Qualcomm | eightfold | ✅ OK | 2026-11-05 | 2 |
 | Rippling | custom | ✅ OK | 2026-11-05 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-05 | 4 |
-| Salesforce | workday | ✅ OK | 2026-11-05 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-05 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-05 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-05 | 1 |
@@ -106,7 +106,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | JFrog | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | Johnson Controls | workday | ✅ OK | 2026-11-05 | 0 |
 | Jump Trading | greenhouse | ✅ OK | 2026-11-05 | 0 |
-| Juspay | custom | ✅ OK | 2026-11-05 | 4 |
+| Juspay | custom | ✅ OK | 2026-11-05 | 5 |
 | Kong | ashby | ✅ OK | 2026-11-05 | 0 |
 | LaunchDarkly | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | LSEG | workday | ✅ OK | 2026-11-05 | 1 |
@@ -126,7 +126,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-11-05 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-05 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-05 | 0 |
-| Philips | workday | ✅ OK | 2026-11-05 | 2 |
+| Philips | workday | ✅ OK | 2026-11-05 | 1 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-05 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-05 | 0 |
 | Postman | workday | ✅ OK | 2026-11-05 | 0 |

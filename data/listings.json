@@ -135,6 +135,28 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/87534302853505734"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Juspay",
+    "company_slug": "juspay",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "B-I01",
+    "first_seen": "2026-11-05T06:40:40.713522Z",
+    "id": "custom:juspay:B-I01",
+    "is_remote": false,
+    "last_seen": "2026-11-05",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "custom",
+    "status": "open",
+    "title": "BD - Intern",
+    "url": "https://joinus.juspay.in/?jobId=B-I01"
+  },
+  {
     "category": "swe",
     "closed_at": null,
     "company": "Juspay",
@@ -1912,7 +1934,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-05T06:40:40.713522Z",
     "company": "Philips",
     "company_slug": "philips",
     "date_posted": null,
@@ -1933,10 +1955,10 @@
     "locations": [
       "Chennai (ex Madras)"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Intern",
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822"
   },
