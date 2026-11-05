@@ -1994,10 +1994,10 @@
   },
   {
     "category": "swe",
-    "closed_at": "2026-11-04T18:50:46.141592Z",
+    "closed_at": null,
     "company": "Wells Fargo",
     "company_slug": "wells-fargo",
-    "date_posted": "2026-11-04",
+    "date_posted": "2026-11-05",
     "enrichment": {
       "degree": "Bachelor's degree in engineering",
       "duration_months": null,
@@ -2013,15 +2013,15 @@
     "first_seen": "2026-11-04T13:10:45.546687Z",
     "id": "workday:wells-fargo:R-557386",
     "is_remote": false,
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "locations": [
       "Bengaluru, India",
       "Hyderabad, India"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "2027 Technology Program Intern",
     "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386"
   }

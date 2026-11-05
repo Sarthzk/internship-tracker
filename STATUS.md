@@ -50,7 +50,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Twilio | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-05 | 0 |
 | Visa | workday | ✅ OK | 2026-11-05 | 0 |
-| Wells Fargo | workday | ✅ OK | 2026-11-05 | 0 |
+| Wells Fargo | workday | ✅ OK | 2026-11-05 | 1 |
 | Abbott | workday | ✅ OK | 2026-11-05 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-05 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-05 | 0 |
