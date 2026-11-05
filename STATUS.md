@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Amazon | custom | ⚠️ failing for 6 runs: returned 0 postings (previously 1) | 2026-11-05 | 0 |
+| Amazon | custom | ⚠️ failing for 7 runs: returned 0 postings (previously 1) | 2026-11-05 | 0 |
 | GE Vernova | workday | ⚠️ failing for 1 run: FetchError: HTTP 404 from gevernova.wd5.myworkdayjobs.com | 2026-11-05 | 1 |
 | Adobe | phenom | ✅ OK | 2026-11-05 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-05 | 0 |
