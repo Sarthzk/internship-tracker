@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Amazon | custom | ⚠️ failing for 33 runs: returned 0 postings (previously 1) | 2026-11-05 | 0 |
+| Amazon | custom | ⚠️ failing for 34 runs: returned 0 postings (previously 1) | 2026-11-05 | 0 |
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-05 | 5 |
 | Adobe | phenom | ✅ OK | 2026-11-05 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-05 | 0 |
