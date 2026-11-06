@@ -2,10 +2,12 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**10 closed** · Last updated: 2026-11-07 (IST)
+**12 closed** · Last updated: 2026-11-07 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Philips<br><sub>Industrial</sub> | Intern - HIC - Pune (Only for Selected Students - Others PLZ DO NOT APPLY)<br><sub>🎓 BTech / MTech</sub> | Pune | — | — | 10 mo | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Pune/Intern---HIC---Pune_583018) | 2026-11-05 | 2026-11-07 |
+| Philips<br><sub>Industrial</sub> | Intern<br><sub>🎓 Architecture, Civil Engineering, etc.</sub> | Chennai (ex Madras) | 6 months | — | 6 mo | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822) | 2026-11-05 | 2026-11-07 |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1) | 2026-11-05 | 2026-11-07 |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Apprentice<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Apprentice_1215489-2) | 2026-11-05 | 2026-11-07 |
 | Ciena<br><sub>Big Tech</sub> | C/C++/Python/Jana Intern | Gurugram | — | — | — | [Apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/C-C---Python-Jana-Intern_R031854) | 2026-11-05 | 2026-11-06 |
