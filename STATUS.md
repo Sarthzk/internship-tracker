@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Marvell | workday | ⚠️ failing for 3 runs: ReadTimeout: | 2026-11-06 | 5 |
+| Marvell | workday | ⚠️ failing for 4 runs: ReadTimeout: | 2026-11-06 | 5 |
 | Adobe | phenom | ✅ OK | 2026-11-06 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-06 | 0 |
