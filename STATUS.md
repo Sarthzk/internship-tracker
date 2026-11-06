@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
+**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Marvell | workday | ⚠️ failing for 8 runs: ReadTimeout: | 2026-11-06 | 5 |
 | Adobe | phenom | ✅ OK | 2026-11-06 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-06 | 0 |
@@ -29,6 +28,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Intel | workday | ✅ OK | 2026-11-06 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-06 | 0 |
+| Marvell | workday | ✅ OK | 2026-11-06 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-06 | 0 |
 | Micron | workday | ✅ OK | 2026-11-06 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-06 | 5 |
