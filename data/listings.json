@@ -1571,6 +1571,37 @@
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Nirlon-Knowledge-Park/Apprentice-Hiring-for-2026--2027_R0456794-1"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": "2026-11-06",
+    "enrichment": {
+      "degree": "Bachelor or Master studies",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-06T13:51:57.544031Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4040613",
+    "first_seen": "2026-11-06T13:50:44.762750Z",
+    "id": "workday:ge-healthcare:R4040613",
+    "is_remote": false,
+    "last_seen": "2026-11-06",
+    "locations": [
+      "Krakow",
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Software Engineer Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "GE HealthCare",
