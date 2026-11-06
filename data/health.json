@@ -730,7 +730,7 @@
   },
   {
     "company_slug": "marvell",
-    "consecutive_failures": 6,
+    "consecutive_failures": 7,
     "failure_alerted": true,
     "last_count": 8,
     "last_error": "FetchError: HTTP 502 from marvell.wd1.myworkdayjobs.com",

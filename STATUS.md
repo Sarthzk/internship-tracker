@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Marvell | workday | ⚠️ failing for 6 runs: FetchError: HTTP 502 from marvell.wd1.myworkdayjobs.com | 2026-11-06 | 5 |
+| Marvell | workday | ⚠️ failing for 7 runs: FetchError: HTTP 502 from marvell.wd1.myworkdayjobs.com | 2026-11-06 | 5 |
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-06 | 5 |
 | Adobe | phenom | ✅ OK | 2026-11-06 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-06 | 0 |
