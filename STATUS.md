@@ -2,10 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-06 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-06 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Target | workday | ⚠️ failing for 1 run: ReadTimeout: | 2026-11-06 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-06 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-06 | 0 |
@@ -149,7 +150,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Stryker | workday | ✅ OK | 2026-11-06 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-06 | 0 |
-| Target | workday | ✅ OK | 2026-11-06 | 0 |
 | Tekion | ashby | ✅ OK | 2026-11-06 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-06 | 0 |
 | Thomson Reuters | workday | ✅ OK | 2026-11-06 | 0 |
