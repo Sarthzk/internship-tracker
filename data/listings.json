@@ -1661,6 +1661,36 @@
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND36-01-Bengaluru-Kalyani-Platina-Magnolia/Commercial-Development-Program-Intern_R4049083-1"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 24,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-06T09:32:07.259825Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4049088-1",
+    "first_seen": "2026-11-06T09:31:01.345025Z",
+    "id": "workday:ge-healthcare:R4049088-1",
+    "is_remote": false,
+    "last_seen": "2026-11-06",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Information Technology Development Program - Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Information-Technology-Development-Program---Intern_R4049088-1"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "GE Vernova",
