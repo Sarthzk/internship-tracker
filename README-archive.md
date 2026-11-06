@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**7 closed** · Last updated: 2026-11-06 (IST)
+**8 closed** · Last updated: 2026-11-06 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Ciena<br><sub>Big Tech</sub> | C/C++/Python/Jana Intern | Gurugram | — | — | — | [Apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/C-C---Python-Jana-Intern_R031854) | 2026-11-05 | 2026-11-06 |
 | Adobe<br><sub>Big Tech</sub> | 2027 Intern - Research Intern | Bangalore, Karnātaka, India | 2027 | — | — | [Apply](https://careers.adobe.com/us/en/job/R172424) | 2026-11-04 | 2026-11-05 |
 | Google<br><sub>Big Tech</sub> | User Experience Design Intern, Summer 2027, YouTube UX | Bengaluru, Karnataka, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/78252225691820742) | 2026-10-28 | 2026-11-04 |
 | American Express<br><sub>Fintech</sub> | Apprentice | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015791) | 2026-10-27 | 2026-11-04 |
