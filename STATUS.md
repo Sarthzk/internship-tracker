@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-06 (IST)
+**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-06 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Nvidia | workday | ⚠️ failing for 1 run: FetchError: HTTP 403 from nvidia.wd5.myworkdayjobs.com | 2026-11-06 | 1 |
 | Adobe | phenom | ✅ OK | 2026-11-06 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-06 | 0 |
@@ -34,6 +33,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Micron | workday | ✅ OK | 2026-11-06 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-06 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-06 | 0 |
+| Nvidia | workday | ✅ OK | 2026-11-06 | 1 |
 | NXP | workday | ✅ OK | 2026-11-06 | 2 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-06 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-06 | 0 |
@@ -88,7 +88,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Figma | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-06 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-06 | 2 |
+| GE HealthCare | workday | ✅ OK | 2026-11-06 | 3 |
 | GE Vernova | workday | ✅ OK | 2026-11-06 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-06 | 1 |

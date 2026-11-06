@@ -1607,6 +1607,36 @@
     "company_slug": "ge-healthcare",
     "date_posted": null,
     "enrichment": {
+      "degree": "Bachelors/technical program",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-06T09:11:50.373269Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4045415-1",
+    "first_seen": "2026-11-06T09:10:40.918333Z",
+    "id": "workday:ge-healthcare:R4045415-1",
+    "is_remote": false,
+    "last_seen": "2026-11-06",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "EID Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/EID-Intern_R4045415-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
       "degree": null,
       "duration_months": 2,
       "eligible_batches": null,
