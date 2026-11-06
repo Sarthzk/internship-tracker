@@ -1465,7 +1465,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-05T09:50:46.188361Z",
+    "closed_at": null,
     "company": "Ciena",
     "company_slug": "ciena",
     "date_posted": null,
@@ -1482,14 +1482,14 @@
     "first_seen": "2026-11-05T06:50:42.824223Z",
     "id": "workday:ciena:R031854",
     "is_remote": false,
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-06",
     "locations": [
       "Gurugram"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "C/C++/Python/Jana Intern",
     "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/C-C---Python-Jana-Intern_R031854"
   },
