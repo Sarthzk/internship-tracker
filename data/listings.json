@@ -1603,6 +1603,36 @@
   {
     "category": "other",
     "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 2,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-06T08:11:50.847069Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "summer"
+    },
+    "external_id": "R4049083-1",
+    "first_seen": "2026-11-06T08:10:45.029891Z",
+    "id": "workday:ge-healthcare:R4049083-1",
+    "is_remote": false,
+    "last_seen": "2026-11-06",
+    "locations": [
+      "IND36-01-Bengaluru-Kalyani Platina, Magnolia"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Commercial Development Program Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND36-01-Bengaluru-Kalyani-Platina-Magnolia/Commercial-Development-Program-Intern_R4049083-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
     "company": "GE Vernova",
     "company_slug": "ge-vernova",
     "date_posted": null,
