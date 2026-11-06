@@ -117,7 +117,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Motorola Solutions | workday | ✅ OK | 2026-11-06 | 0 |
 | Navan | greenhouse | ✅ OK | 2026-11-06 | 0 |
 | New Relic | greenhouse | ✅ OK | 2026-11-06 | 0 |
-| Nokia | oracle_hcm | ✅ OK | 2026-11-06 | 0 |
+| Nokia | oracle_hcm | ✅ OK | 2026-11-06 | 1 |
 | Northern Trust | workday | ✅ OK | 2026-11-06 | 0 |
 | Notion | ashby | ✅ OK | 2026-11-06 | 0 |
 | Observe.AI | greenhouse | ✅ OK | 2026-11-06 | 0 |

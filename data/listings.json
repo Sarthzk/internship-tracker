@@ -1031,6 +1031,36 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Nokia",
+    "company_slug": "nokia",
+    "date_posted": "2026-11-06",
+    "enrichment": {
+      "degree": "Ph.D. or MS Research program",
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-06T07:52:02.161241Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "39934",
+    "first_seen": "2026-11-06T07:50:58.657752Z",
+    "id": "oracle_hcm:nokia:39934",
+    "is_remote": false,
+    "last_seen": "2026-11-06",
+    "locations": [
+      "India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "oracle_hcm",
+    "status": "open",
+    "title": "Student Intern - Research",
+    "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39934"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-04T19:40:44.080211Z",
     "company": "Adobe",
     "company_slug": "adobe",
