@@ -2,10 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Cisco | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-07 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-07 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
@@ -19,7 +20,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BlackRock | workday | ✅ OK | 2026-11-07 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-07 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-07 | 0 |
-| Cisco | workday | ✅ OK | 2026-11-07 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-07 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-07 | 0 |
