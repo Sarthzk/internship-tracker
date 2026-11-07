@@ -2175,7 +2175,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-06T19:20:42.406653Z",
+    "closed_at": null,
     "company": "Philips",
     "company_slug": "philips",
     "date_posted": null,
@@ -2192,14 +2192,14 @@
     "first_seen": "2026-11-05T05:20:41.851617Z",
     "id": "workday:philips:583018",
     "is_remote": false,
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "locations": [
       "Pune"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Intern - HIC - Pune (Only for Selected Students - Others PLZ DO NOT APPLY)",
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Pune/Intern---HIC---Pune_583018"
   },
