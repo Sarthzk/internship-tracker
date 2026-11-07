@@ -1495,7 +1495,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-07T18:50:42.860411Z",
     "company": "Analog Devices",
     "company_slug": "analog-devices",
     "date_posted": null,
@@ -1516,10 +1516,10 @@
     "locations": [
       "India, Bangalore, Nova"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Product Application Intern",
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676"
   },
@@ -1684,7 +1684,7 @@
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -2235,7 +2235,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-07T18:50:42.860411Z",
     "company": "Wells Fargo",
     "company_slug": "wells-fargo",
     "date_posted": "2026-11-05",
@@ -2259,10 +2259,10 @@
       "Bengaluru, India",
       "Hyderabad, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "2027 Technology Program Intern",
     "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386"
   }

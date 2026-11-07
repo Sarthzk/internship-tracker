@@ -27,16 +27,15 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**69 open internships** across 25 companies · Last updated: 2026-11-08 (IST)
+**67 open internships** across 23 companies · Last updated: 2026-11-08 (IST)
 
-### Software Engineering (21)
+### Software Engineering (20)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | GE HealthCare<br><sub>Industrial</sub> | Information Technology Development Program - Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | 24 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Information-Technology-Development-Program---Intern_R4049088-1) | 2d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 2d |
 | Airbus<br><sub>Industrial</sub> | Artificial\_Intelligence\_For\_Systems\_Engineering\_Intern<br><sub>🎓 MS/ Ph.D. in A.I./M.L.</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573) | 3d |
-| Wells Fargo<br><sub>Bank</sub> | 2027 Technology Program Intern<br><sub>🎓 Bachelor's degree in engineering</sub> | Bengaluru, India; Hyderabad, India | Summer 2027 | 2028 | — | [Apply](https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) | 3d |
 | Juspay<br><sub>Fintech</sub> | Product Solution Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PSE02) | 10d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE02) | 10d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Mumbai | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE04) | 10d |
@@ -110,11 +109,10 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Technical Data Authoring Intern - Airframe<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Authoring-Intern---Airframe_JR10449374) | 3d |
 | Eaton<br><sub>Industrial</sub> | Apprentice - Materials<br><sub>🎓 BE/ Diploma Mechanical</sub> | Pune, Maharashtra, IND, 411045 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239976322) | 11d |
 
-### Other (18)
+### Other (17)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
-| Analog Devices<br><sub>Semiconductor</sub> | Product Application Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676) | 1d |
 | GE HealthCare<br><sub>Industrial</sub> | Commercial Development Program Intern | IND36-01-Bengaluru-Kalyani Platina, Magnolia | Summer | — | 2 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND36-01-Bengaluru-Kalyani-Platina-Magnolia/Commercial-Development-Program-Intern_R4049083-1) | 2d |
 | GE HealthCare<br><sub>Industrial</sub> | EID Intern<br><sub>🎓 Bachelors/technical program</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/EID-Intern_R4045415-1) | 2d |
 | Nokia<br><sub>Big Tech</sub> | Student Intern - Research<br><sub>🎓 Ph.D. or MS Research program</sub> | India | 6 months | — | 6 mo | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39934) | 2d |

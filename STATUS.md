@@ -6,13 +6,13 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 11 runs: FetchError: invalid JSON from community.workday.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 12 runs: FetchError: invalid JSON from community.workday.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-07 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
 | AMD | custom | ✅ OK | 2026-11-07 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-07 | 2 |
-| Analog Devices | workday | ✅ OK | 2026-11-07 | 1 |
+| Analog Devices | workday | ✅ OK | 2026-11-07 | 0 |
 | Apple | custom | ✅ OK | 2026-11-07 | 2 |
 | Applied Materials | workday | ✅ OK | 2026-11-07 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-07 | 0 |
@@ -50,7 +50,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Twilio | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-07 | 0 |
 | Visa | workday | ✅ OK | 2026-11-07 | 0 |
-| Wells Fargo | workday | ✅ OK | 2026-11-07 | 1 |
+| Wells Fargo | workday | ✅ OK | 2026-11-07 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-07 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-07 | 0 |

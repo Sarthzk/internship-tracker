@@ -2,10 +2,12 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**11 closed** · Last updated: 2026-11-08 (IST)
+**13 closed** · Last updated: 2026-11-08 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Analog Devices<br><sub>Semiconductor</sub> | Product Application Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676) | 2026-11-07 | 2026-11-08 |
+| Wells Fargo<br><sub>Bank</sub> | 2027 Technology Program Intern<br><sub>🎓 Bachelor's degree in engineering</sub> | Bengaluru, India; Hyderabad, India | Summer 2027 | 2028 | — | [Apply](https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) | 2026-11-05 | 2026-11-08 |
 | Philips<br><sub>Industrial</sub> | Intern<br><sub>🎓 Architecture, Civil Engineering, etc.</sub> | Chennai (ex Madras) | 6 months | — | 6 mo | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822) | 2026-11-05 | 2026-11-07 |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1) | 2026-11-05 | 2026-11-07 |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Apprentice<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Apprentice_1215489-2) | 2026-11-05 | 2026-11-07 |
