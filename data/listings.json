@@ -1516,7 +1516,7 @@
     "locations": [
       "India, Bangalore, Nova"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -1684,7 +1684,7 @@
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -2259,7 +2259,7 @@
       "Bengaluru, India",
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
