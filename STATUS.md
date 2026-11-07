@@ -2,15 +2,14 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
+**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| AMD | custom | ⚠️ failing for 1 run: FetchError: HTTP 404 from careers.amd.com | 2026-11-07 | 0 |
-| Microsoft | eightfold | ⚠️ failing for 2 runs: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-07 | 5 |
 | Adobe | phenom | ✅ OK | 2026-11-07 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
+| AMD | custom | ✅ OK | 2026-11-07 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-07 | 2 |
 | Analog Devices | workday | ✅ OK | 2026-11-07 | 0 |
 | Apple | custom | ✅ OK | 2026-11-07 | 2 |
@@ -32,6 +31,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-07 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-07 | 0 |
 | Micron | workday | ✅ OK | 2026-11-07 | 0 |
+| Microsoft | eightfold | ✅ OK | 2026-11-07 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-07 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-07 | 1 |
 | NXP | workday | ✅ OK | 2026-11-07 | 2 |
