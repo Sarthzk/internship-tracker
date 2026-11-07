@@ -730,7 +730,7 @@
   },
   {
     "company_slug": "marvell",
-    "consecutive_failures": 16,
+    "consecutive_failures": 17,
     "failure_alerted": true,
     "last_count": 8,
     "last_error": "ReadTimeout: ",
