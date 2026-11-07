@@ -7,7 +7,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-07 | 5 |
-| NXP | workday | ⚠️ failing for 7 runs: FetchError: invalid JSON from community.workday.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 8 runs: FetchError: invalid JSON from community.workday.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-07 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
