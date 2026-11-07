@@ -64,10 +64,10 @@
   },
   {
     "company_slug": "amd",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 107,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 404 from careers.amd.com",
     "last_success": "2026-11-07",
     "zero_since": null
   },
