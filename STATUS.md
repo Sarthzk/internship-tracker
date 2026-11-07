@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Marvell | workday | ⚠️ failing for 12 runs: FetchError: HTTP 502 from marvell.wd1.myworkdayjobs.com | 2026-11-07 | 5 |
-| Wells Fargo | workday | ⚠️ failing for 12 runs: FetchError: invalid JSON from community.workday.com | 2026-11-07 | 1 |
+| Marvell | workday | ⚠️ failing for 13 runs: ReadTimeout: | 2026-11-07 | 5 |
 | Adobe | phenom | ✅ OK | 2026-11-07 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
@@ -51,6 +50,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Twilio | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-07 | 0 |
 | Visa | workday | ✅ OK | 2026-11-07 | 0 |
+| Wells Fargo | workday | ✅ OK | 2026-11-07 | 1 |
 | Abbott | workday | ✅ OK | 2026-11-07 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-07 | 0 |
