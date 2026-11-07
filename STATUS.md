@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 13 runs: FetchError: invalid JSON from community.workday.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 14 runs: FetchError: invalid JSON from community.workday.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-07 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
@@ -88,7 +88,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Figma | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-07 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-07 | 5 |
+| GE HealthCare | workday | ✅ OK | 2026-11-07 | 4 |
 | GE Vernova | workday | ✅ OK | 2026-11-07 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-07 | 1 |
