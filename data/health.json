@@ -874,7 +874,7 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 20,
+    "consecutive_failures": 21,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: invalid JSON from community.workday.com",
