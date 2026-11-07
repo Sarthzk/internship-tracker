@@ -37,10 +37,10 @@
   },
   {
     "company_slug": "airbus",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 132,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 520 from ag.wd3.myworkdayjobs.com",
     "last_success": "2026-11-07",
     "zero_since": null
   },
@@ -217,10 +217,10 @@
   },
   {
     "company_slug": "browserstack",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 14,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 520 from browserstack.wd3.myworkdayjobs.com",
     "last_success": "2026-11-07",
     "zero_since": null
   },
@@ -379,10 +379,10 @@
   },
   {
     "company_slug": "deutsche-bank",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 117,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 520 from db.wd3.myworkdayjobs.com",
     "last_success": "2026-11-07",
     "zero_since": null
   },
@@ -874,10 +874,10 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 48,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 520 from nxp.wd3.myworkdayjobs.com",
     "last_success": "2026-11-07",
     "zero_since": null
   },
@@ -955,10 +955,10 @@
   },
   {
     "company_slug": "philips",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 38,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 520 from philips.wd3.myworkdayjobs.com",
     "last_success": "2026-11-07",
     "zero_since": null
   },

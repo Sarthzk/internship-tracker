@@ -2,10 +2,15 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
+**163 companies tracked** · 158 OK · 5 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Deutsche Bank | workday | ⚠️ failing for 1 run: FetchError: HTTP 520 from db.wd3.myworkdayjobs.com | 2026-11-07 | 0 |
+| NXP | workday | ⚠️ failing for 1 run: FetchError: HTTP 520 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Airbus | workday | ⚠️ failing for 1 run: FetchError: HTTP 520 from ag.wd3.myworkdayjobs.com | 2026-11-07 | 13 |
+| BrowserStack | workday | ⚠️ failing for 1 run: FetchError: HTTP 520 from browserstack.wd3.myworkdayjobs.com | 2026-11-07 | 0 |
+| Philips | workday | ⚠️ failing for 1 run: FetchError: HTTP 520 from philips.wd3.myworkdayjobs.com | 2026-11-07 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-07 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
@@ -22,7 +27,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Cisco | workday | ✅ OK | 2026-11-07 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-07 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-07 | 0 |
-| Deutsche Bank | workday | ✅ OK | 2026-11-07 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-07 | 0 |
 | Google | custom | ✅ OK | 2026-11-07 | 3 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-07 | 0 |
@@ -34,7 +38,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Microsoft | eightfold | ✅ OK | 2026-11-07 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-07 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-07 | 1 |
-| NXP | workday | ✅ OK | 2026-11-07 | 2 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-07 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-07 | 0 |
 | Quadeye | custom | ✅ OK | 2026-11-07 | 3 |
@@ -54,7 +57,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Abbott | workday | ✅ OK | 2026-11-07 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-07 | 0 |
-| Airbus | workday | ✅ OK | 2026-11-07 | 13 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-07 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-07 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-07 | 0 |
@@ -64,7 +66,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Baxter | workday | ✅ OK | 2026-11-07 | 0 |
 | Bosch | smartrecruiters | ✅ OK | 2026-11-07 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-07 | 0 |
-| BrowserStack | workday | ✅ OK | 2026-11-07 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-07 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-07 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-07 | 0 |
@@ -126,7 +127,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-11-07 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-07 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-07 | 0 |
-| Philips | workday | ✅ OK | 2026-11-07 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-07 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-07 | 0 |
 | Postman | workday | ✅ OK | 2026-11-07 | 0 |
