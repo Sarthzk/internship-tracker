@@ -874,10 +874,10 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 22,
+    "consecutive_failures": 23,
     "failure_alerted": true,
     "last_count": 48,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",
     "last_success": "2026-11-07",
     "zero_since": null
   },
