@@ -2,13 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 160 OK · 3 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
+**163 companies tracked** · 163 OK · 0 failing · 11 not tracked · Last updated: 2026-11-07 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Capital One | workday | ⚠️ failing for 1 run: FetchError: HTTP 502 from capitalone.wd12.myworkdayjobs.com | 2026-11-07 | 0 |
-| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 502 from salesforce.wd12.myworkdayjobs.com | 2026-11-07 | 0 |
-| Postman | workday | ⚠️ failing for 1 run: FetchError: HTTP 401 from postman.wd108.myworkdayjobs.com | 2026-11-07 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-07 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
@@ -21,6 +18,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-11-07 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-07 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-07 | 0 |
+| Capital One | workday | ✅ OK | 2026-11-07 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-07 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-07 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-07 | 0 |
@@ -43,6 +41,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Qualcomm | eightfold | ✅ OK | 2026-11-07 | 2 |
 | Rippling | custom | ✅ OK | 2026-11-07 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-07 | 4 |
+| Salesforce | workday | ✅ OK | 2026-11-07 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-07 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-07 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-07 | 1 |
@@ -130,6 +129,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Philips | workday | ✅ OK | 2026-11-07 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-07 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-07 | 0 |
+| Postman | workday | ✅ OK | 2026-11-07 | 0 |
 | PTC | workday | ✅ OK | 2026-11-07 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-07 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-07 | 0 |
