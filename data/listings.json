@@ -1495,6 +1495,36 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Analog Devices",
+    "company_slug": "analog-devices",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-07T11:11:56.735965Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R267676",
+    "first_seen": "2026-11-07T11:10:43.166289Z",
+    "id": "workday:analog-devices:R267676",
+    "is_remote": false,
+    "last_seen": "2026-11-07",
+    "locations": [
+      "India, Bangalore, Nova"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Product Application Intern",
+    "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-06T07:10:42.631847Z",
     "company": "Ciena",
     "company_slug": "ciena",

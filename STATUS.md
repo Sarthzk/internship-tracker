@@ -11,7 +11,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Amazon | custom | ✅ OK | 2026-11-07 | 0 |
 | AMD | custom | ✅ OK | 2026-11-07 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-07 | 2 |
-| Analog Devices | workday | ✅ OK | 2026-11-07 | 0 |
+| Analog Devices | workday | ✅ OK | 2026-11-07 | 1 |
 | Apple | custom | ✅ OK | 2026-11-07 | 2 |
 | Applied Materials | workday | ✅ OK | 2026-11-07 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-07 | 0 |
