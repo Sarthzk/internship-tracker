@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**109 open internships** across 24 companies · Last updated: 2026-11-09 (IST)
+**98 open internships** across 24 companies · Last updated: 2026-11-09 (IST)
 
 ### Software Engineering (21)
 
@@ -104,7 +104,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 4d |
 | Eaton<br><sub>Industrial</sub> | Apprentice - Materials<br><sub>🎓 BE/ Diploma Mechanical</sub> | Pune, Maharashtra, IND, 411045 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239976322) | 12d |
 
-### Other (64)
+### Other (53)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -113,34 +113,25 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013358) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013359) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013360) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013361) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013362) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013363) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013364) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013365) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013366) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013367) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013368) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013371) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013372) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013373) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013374) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013375) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013376) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013752) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013753) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013754) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013755) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013756) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech degree</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013757) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013758) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013760) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013764) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013766) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013767) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013768) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013769) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013773) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013774) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013775) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013776) | 0d |
@@ -150,13 +141,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013782) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013783) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013784) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013788) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013790) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013791) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013796) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013797) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013798) | 0d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013799) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Commercial Development Program Intern | IND36-01-Bengaluru-Kalyani Platina, Magnolia | Summer | — | 2 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND36-01-Bengaluru-Kalyani-Platina-Magnolia/Commercial-Development-Program-Intern_R4049083-1) | 3d |
 | Nokia<br><sub>Big Tech</sub> | Student Intern - Research<br><sub>🎓 Ph.D. or MS Research program</sub> | India | 6 months | — | 6 mo | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39934) | 3d |
 | Airbus<br><sub>Industrial</sub> | FTM Intern | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390) | 4d |

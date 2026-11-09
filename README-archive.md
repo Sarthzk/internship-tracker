@@ -2,10 +2,21 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**22 closed** · Last updated: 2026-11-09 (IST)
+**33 closed** · Last updated: 2026-11-09 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013361) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013365) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013367) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013374) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013375) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013753) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013760) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013768) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013773) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013788) | 2026-11-09 | 2026-11-09 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013799) | 2026-11-09 | 2026-11-09 |
 | Microsoft<br><sub>Big Tech</sub> | Research Sciences INTERN | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556641091) | 2026-02-27 | 2026-11-09 |
 | Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 2026-11-09 | 2026-11-09 |
 | Airbus<br><sub>Industrial</sub> | Internship - Technical Data Support & Services<br><sub>🎓 BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data-Support---Services_JR10449171) | 2026-11-05 | 2026-11-09 |
