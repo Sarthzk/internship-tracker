@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 204 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 205 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Guidewire | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-09 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-09 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-09 | 0 |
