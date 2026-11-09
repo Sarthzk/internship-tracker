@@ -462,7 +462,7 @@
   },
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-11-09T13:50:43.254265Z",
     "company": "Microsoft",
     "company_slug": "microsoft",
     "date_posted": "2026-02-27",
@@ -483,10 +483,10 @@
     "locations": [
       "India, Multiple Locations, Multiple Locations"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "eightfold",
-    "status": "open",
+    "status": "closed",
     "title": "Research Sciences INTERN",
     "url": "https://apply.careers.microsoft.com/careers/job/1970393556641091"
   },
