@@ -1659,6 +1659,38 @@
     "company_slug": "cigna",
     "date_posted": null,
     "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-09T10:33:03.399044Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26013357",
+    "first_seen": "2026-11-09T10:31:03.368468Z",
+    "id": "workday:cigna:26013357",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Hyderabad, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "HIH - Co-Op/Intern (Non-US Only)",
+    "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013357"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Cigna",
+    "company_slug": "cigna",
+    "date_posted": null,
+    "enrichment": {
       "degree": "B.E./B.Tech",
       "duration_months": null,
       "eligible_batches": [
@@ -1856,6 +1888,38 @@
       "eligible_batches": [
         2027
       ],
+      "enriched_at": "2026-11-09T10:33:03.399044Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26013364",
+    "first_seen": "2026-11-09T10:31:03.368468Z",
+    "id": "workday:cigna:26013364",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Hyderabad, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "HIH - Co-Op/Intern (Non-US Only)",
+    "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013364"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Cigna",
+    "company_slug": "cigna",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.E./B.Tech",
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
       "enriched_at": "2026-11-09T07:32:08.858567Z",
       "model": "openai/gpt-oss-20b",
       "stipend": null,
@@ -1939,6 +2003,38 @@
     "status": "open",
     "title": "HIH - Co-Op/Intern (Non-US Only)",
     "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013367"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Cigna",
+    "company_slug": "cigna",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-09T10:33:03.399044Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": "Competitive, based on college tier",
+      "term": "unknown"
+    },
+    "external_id": "26013371",
+    "first_seen": "2026-11-09T10:31:03.368468Z",
+    "id": "workday:cigna:26013371",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Hyderabad, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "HIH - Co-Op/Intern (Non-US Only)",
+    "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013371"
   },
   {
     "category": "other",
@@ -2304,6 +2400,38 @@
       "eligible_batches": [
         2027
       ],
+      "enriched_at": "2026-11-09T10:33:03.399044Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26013773",
+    "first_seen": "2026-11-09T10:31:03.368468Z",
+    "id": "workday:cigna:26013773",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Hyderabad, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "HIH - Co-Op/Intern (Non-US Only)",
+    "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013773"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Cigna",
+    "company_slug": "cigna",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.E./B.Tech",
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
       "enriched_at": "2026-11-09T08:51:51.098875Z",
       "model": "openai/gpt-oss-20b",
       "stipend": null,
@@ -2323,6 +2451,38 @@
     "status": "open",
     "title": "HIH - Co-Op/Intern (Non-US Only)",
     "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013780"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Cigna",
+    "company_slug": "cigna",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-09T10:33:03.399044Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26013781",
+    "first_seen": "2026-11-09T10:31:03.368468Z",
+    "id": "workday:cigna:26013781",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Hyderabad, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "HIH - Co-Op/Intern (Non-US Only)",
+    "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013781"
   },
   {
     "category": "other",
@@ -2395,6 +2555,38 @@
     "company_slug": "cigna",
     "date_posted": null,
     "enrichment": {
+      "degree": "B.E./B.Tech",
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-09T10:33:03.399044Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26013791",
+    "first_seen": "2026-11-09T10:31:03.368468Z",
+    "id": "workday:cigna:26013791",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Hyderabad, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "HIH - Co-Op/Intern (Non-US Only)",
+    "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013791"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Cigna",
+    "company_slug": "cigna",
+    "date_posted": null,
+    "enrichment": {
       "degree": null,
       "duration_months": null,
       "eligible_batches": [
@@ -2451,6 +2643,38 @@
     "status": "open",
     "title": "HIH - Co-Op/Intern (Non-US Only)",
     "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013797"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Cigna",
+    "company_slug": "cigna",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.E./B.Tech",
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-09T10:33:03.399044Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26013798",
+    "first_seen": "2026-11-09T10:31:03.368468Z",
+    "id": "workday:cigna:26013798",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Hyderabad, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "HIH - Co-Op/Intern (Non-US Only)",
+    "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013798"
   },
   {
     "category": "other",

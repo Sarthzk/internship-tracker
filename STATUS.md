@@ -2,11 +2,12 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-09 (IST)
+**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-09 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 255 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Cisco | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-09 | 0 |
+| NXP | workday | ⚠️ failing for 256 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-09 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-09 | 0 |
@@ -20,7 +21,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BlackRock | workday | ✅ OK | 2026-11-09 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-09 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-09 | 0 |
-| Cisco | workday | ✅ OK | 2026-11-09 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-09 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-09 | 0 |
@@ -67,7 +67,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BrowserStack | workday | ✅ OK | 2026-11-09 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-09 | 1 |
 | Ciena | workday | ✅ OK | 2026-11-09 | 0 |
-| Cigna | workday | ✅ OK | 2026-11-09 | 26 |
+| Cigna | workday | ✅ OK | 2026-11-09 | 33 |
 | Citi | eightfold | ✅ OK | 2026-11-09 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-09 | 0 |
