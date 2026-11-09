@@ -1258,7 +1258,7 @@
   },
   {
     "category": "core",
-    "closed_at": null,
+    "closed_at": "2026-11-09T06:20:43.656072Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1279,16 +1279,16 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Internship - Technical Data Support & Services",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data-Support---Services_JR10449171"
   },
   {
     "category": "core",
-    "closed_at": null,
+    "closed_at": "2026-11-09T06:20:43.656072Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1309,16 +1309,16 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Technical Data Authoring Intern - Airframe",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Authoring-Intern---Airframe_JR10449374"
   },
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-11-09T06:20:43.656072Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1339,16 +1339,16 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Technical Data Analyst Intern",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449384"
   },
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-11-09T06:20:43.656072Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1369,16 +1369,16 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Technical Data Analyst Intern",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449386"
   },
   {
     "category": "core",
-    "closed_at": null,
+    "closed_at": "2026-11-09T06:20:43.656072Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1399,10 +1399,10 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Intern - Maintenance Engineering & Services",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449495"
   },

@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 230 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 231 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Shell | workday | ⚠️ failing for 1 run: ReadTimeout: | 2026-11-09 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-09 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-09 | 0 |
@@ -55,7 +55,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Abbott | workday | ✅ OK | 2026-11-09 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-09 | 0 |
-| Airbus | workday | ✅ OK | 2026-11-09 | 13 |
+| Airbus | workday | ✅ OK | 2026-11-09 | 8 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-09 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-09 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-09 | 0 |
