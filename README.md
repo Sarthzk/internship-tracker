@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**65 open internships** across 22 companies · Last updated: 2026-11-09 (IST)
+**66 open internships** across 23 companies · Last updated: 2026-11-09 (IST)
 
 ### Software Engineering (20)
 
@@ -109,10 +109,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Technical Data Authoring Intern - Airframe<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Authoring-Intern---Airframe_JR10449374) | 4d |
 | Eaton<br><sub>Industrial</sub> | Apprentice - Materials<br><sub>🎓 BE/ Diploma Mechanical</sub> | Pune, Maharashtra, IND, 411045 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239976322) | 12d |
 
-### Other (15)
+### Other (16)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Commercial Development Program Intern | IND36-01-Bengaluru-Kalyani Platina, Magnolia | Summer | — | 2 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND36-01-Bengaluru-Kalyani-Platina-Magnolia/Commercial-Development-Program-Intern_R4049083-1) | 3d |
 | Nokia<br><sub>Big Tech</sub> | Student Intern - Research<br><sub>🎓 Ph.D. or MS Research program</sub> | India | 6 months | — | 6 mo | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39934) | 3d |
 | Airbus<br><sub>Industrial</sub> | FTM Intern | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390) | 4d |

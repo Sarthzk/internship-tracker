@@ -1525,6 +1525,40 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Caterpillar",
+    "company_slug": "caterpillar",
+    "date_posted": "2026-11-09",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-09T04:51:47.916461Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0000400270",
+    "first_seen": "2026-11-09T04:50:40.089129Z",
+    "id": "workday:caterpillar:R0000400270",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Chennai, Tamil Nadu",
+      "Bangalore, Karnataka",
+      "Thiruvallur, Tamil Nadu",
+      "Bangalore, Karnataka",
+      "Thiruvallur, Tamil Nadu"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Students & Graduates Intern",
+    "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-06T07:10:42.631847Z",
     "company": "Ciena",
     "company_slug": "ciena",
