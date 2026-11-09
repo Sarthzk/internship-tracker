@@ -27,14 +27,13 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**99 open internships** across 25 companies · Last updated: 2026-11-10 (IST)
+**96 open internships** across 24 companies · Last updated: 2026-11-10 (IST)
 
-### Software Engineering (21)
+### Software Engineering (20)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | PayPal<br><sub>Fintech</sub> | Software Engineer Intern<br><sub>🎓 Bachelor’s degree in Computer Science or related field</sub> | Bangalore, Karnataka, India; Chennai, Tamil Nadu, India | — | 2028 | — | [Apply](https://paypal.eightfold.ai/careers/job/274923210258) | 1d |
-| GE HealthCare<br><sub>Industrial</sub> | Information Technology Development Program - Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | 24 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Information-Technology-Development-Program---Intern_R4049088-1) | 4d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 4d |
 | Airbus<br><sub>Industrial</sub> | Artificial\_Intelligence\_For\_Systems\_Engineering\_Intern<br><sub>🎓 MS/ Ph.D. in A.I./M.L.</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573) | 5d |
 | Juspay<br><sub>Fintech</sub> | Product Solution Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PSE02) | 12d |
@@ -104,7 +103,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 5d |
 | Eaton<br><sub>Industrial</sub> | Apprentice - Materials<br><sub>🎓 BE/ Diploma Mechanical</sub> | Pune, Maharashtra, IND, 411045 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239976322) | 13d |
 
-### Other (54)
+### Other (52)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -147,7 +146,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013797) | 1d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013798) | 1d |
 | Analog Devices<br><sub>Semiconductor</sub> | Product Application Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676) | 3d |
-| GE HealthCare<br><sub>Industrial</sub> | Commercial Development Program Intern | IND36-01-Bengaluru-Kalyani Platina, Magnolia | Summer | — | 2 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND36-01-Bengaluru-Kalyani-Platina-Magnolia/Commercial-Development-Program-Intern_R4049083-1) | 4d |
 | Nokia<br><sub>Big Tech</sub> | Student Intern - Research<br><sub>🎓 Ph.D. or MS Research program</sub> | India | 6 months | — | 6 mo | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39934) | 4d |
 | Airbus<br><sub>Industrial</sub> | FTM Intern | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390) | 5d |
 | Airbus<br><sub>Industrial</sub> | Internship- FTM MOC<br><sub>🎓 A.M.E / Bachelor / Master Degree</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695) | 5d |
@@ -157,7 +155,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | GE Vernova<br><sub>Industrial</sub> | DT Intern | Chennai | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2) | 5d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | College Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2) | 5d |
 | Juspay<br><sub>Fintech</sub> | BD - Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=B-I01) | 5d |
-| LSEG<br><sub>Finance</sub> | Intern<br><sub>🎓 CA, CPA, or a similar professional qualification</sub> | IND-Bangalore-TowerE,RMZ Infin | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/Intern_R0119252-1) | 5d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 6d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015382) | 8d |
 | Rubrik<br><sub>Big Tech</sub> | Industrial Trainee<br><sub>🎓 Chartered Accountancy (CA) qualification</sub> | Bangalore | — | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405) | 28d |

@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 305 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 306 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-09 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-09 | 0 |
@@ -88,7 +88,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Figma | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-09 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-09 | 4 |
+| GE HealthCare | workday | ✅ OK | 2026-11-09 | 2 |
 | GE Vernova | workday | ✅ OK | 2026-11-09 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-09 | 1 |
@@ -109,7 +109,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Juspay | custom | ✅ OK | 2026-11-09 | 5 |
 | Kong | ashby | ✅ OK | 2026-11-09 | 0 |
 | LaunchDarkly | greenhouse | ✅ OK | 2026-11-09 | 0 |
-| LSEG | workday | ✅ OK | 2026-11-09 | 1 |
+| LSEG | workday | ✅ OK | 2026-11-09 | 0 |
 | Meesho | lever | ✅ OK | 2026-11-09 | 0 |
 | Mindtickle | lever | ✅ OK | 2026-11-09 | 0 |
 | Mixpanel | greenhouse | ✅ OK | 2026-11-09 | 0 |

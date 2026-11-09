@@ -3358,7 +3358,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-09T19:10:44.552415Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": null,
@@ -3379,16 +3379,16 @@
     "locations": [
       "IND36-01-Bengaluru-Kalyani Platina, Magnolia"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Commercial Development Program Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND36-01-Bengaluru-Kalyani-Platina-Magnolia/Commercial-Development-Program-Intern_R4049083-1"
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-09T19:10:44.552415Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": null,
@@ -3409,10 +3409,10 @@
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Information Technology Development Program - Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Information-Technology-Development-Program---Intern_R4049088-1"
   },
@@ -3568,7 +3568,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-09T19:10:44.552415Z",
     "company": "LSEG",
     "company_slug": "lseg",
     "date_posted": null,
@@ -3589,10 +3589,10 @@
     "locations": [
       "IND-Bangalore-TowerE,RMZ Infin"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Intern",
     "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/Intern_R0119252-1"
   },
