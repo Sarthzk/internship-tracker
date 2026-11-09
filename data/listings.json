@@ -611,6 +611,39 @@
     "url": "https://apply.careers.microsoft.com/careers/job/1970393557043380"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "PayPal",
+    "company_slug": "paypal",
+    "date_posted": "2026-11-09",
+    "enrichment": {
+      "degree": "Bachelor’s degree in Computer Science or related field",
+      "duration_months": null,
+      "eligible_batches": [
+        2028
+      ],
+      "enriched_at": "2026-11-09T06:02:08.174877Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "274923210258",
+    "first_seen": "2026-11-09T06:01:16.530921Z",
+    "id": "eightfold:paypal:274923210258",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "Bangalore, Karnataka, India",
+      "Chennai, Tamil Nadu, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Software Engineer Intern",
+    "url": "https://paypal.eightfold.ai/careers/job/274923210258"
+  },
+  {
     "category": "hardware",
     "closed_at": null,
     "company": "Qualcomm",
@@ -1246,7 +1279,7 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -1276,7 +1309,7 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -1306,7 +1339,7 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -1336,7 +1369,7 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -1366,7 +1399,7 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",

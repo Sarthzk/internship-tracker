@@ -27,12 +27,13 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**66 open internships** across 23 companies · Last updated: 2026-11-09 (IST)
+**67 open internships** across 24 companies · Last updated: 2026-11-09 (IST)
 
-### Software Engineering (20)
+### Software Engineering (21)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| PayPal<br><sub>Fintech</sub> | Software Engineer Intern<br><sub>🎓 Bachelor’s degree in Computer Science or related field</sub> | Bangalore, Karnataka, India; Chennai, Tamil Nadu, India | — | 2028 | — | [Apply](https://paypal.eightfold.ai/careers/job/274923210258) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Information Technology Development Program - Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | 24 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Information-Technology-Development-Program---Intern_R4049088-1) | 3d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 3d |
 | Airbus<br><sub>Industrial</sub> | Artificial\_Intelligence\_For\_Systems\_Engineering\_Intern<br><sub>🎓 MS/ Ph.D. in A.I./M.L.</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573) | 4d |
