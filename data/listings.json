@@ -1528,7 +1528,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-07T18:50:42.860411Z",
+    "closed_at": null,
     "company": "Analog Devices",
     "company_slug": "analog-devices",
     "date_posted": null,
@@ -1545,14 +1545,14 @@
     "first_seen": "2026-11-07T11:10:43.166289Z",
     "id": "workday:analog-devices:R267676",
     "is_remote": false,
-    "last_seen": "2026-11-07",
+    "last_seen": "2026-11-09",
     "locations": [
       "India, Bangalore, Nova"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Product Application Intern",
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676"
   },
