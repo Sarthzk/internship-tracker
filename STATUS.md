@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-10 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-10 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 332 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
-| Citi | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from citi.eightfold.ai | 2026-11-09 | 0 |
+| NXP | workday | ⚠️ failing for 333 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-09 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-09 | 0 |
@@ -69,6 +68,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Caterpillar | workday | ✅ OK | 2026-11-09 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-09 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-09 | 38 |
+| Citi | eightfold | ✅ OK | 2026-11-09 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-09 | 0 |
 | Commvault | greenhouse | ✅ OK | 2026-11-09 | 0 |
