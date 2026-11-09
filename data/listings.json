@@ -3379,7 +3379,7 @@
     "locations": [
       "IND36-01-Bengaluru-Kalyani Platina, Magnolia"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3409,7 +3409,7 @@
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3589,7 +3589,7 @@
     "locations": [
       "IND-Bangalore-TowerE,RMZ Infin"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
