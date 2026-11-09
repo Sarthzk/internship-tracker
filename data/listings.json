@@ -1527,6 +1527,36 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695"
   },
   {
+    "category": "hardware",
+    "closed_at": null,
+    "company": "Analog Devices",
+    "company_slug": "analog-devices",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-09T16:21:36.680869Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R267594",
+    "first_seen": "2026-11-09T16:20:41.955746Z",
+    "id": "workday:analog-devices:R267594",
+    "is_remote": false,
+    "last_seen": "2026-11-09",
+    "locations": [
+      "India, Bangalore, Nova"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Analog Design Intern",
+    "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267594"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "Analog Devices",
