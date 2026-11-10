@@ -865,16 +865,16 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 74,
-    "last_error": null,
+    "last_error": "TimeoutError: no answer within 120s",
     "last_success": "2026-11-10",
     "zero_since": null
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 461,
+    "consecutive_failures": 462,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",
