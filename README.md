@@ -27,9 +27,9 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**97 open internships** across 25 companies · Last updated: 2026-11-10 (IST)
+**95 open internships** across 25 companies · Last updated: 2026-11-10 (IST)
 
-### Software Engineering (19)
+### Software Engineering (18)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -44,7 +44,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239705382) | 19d |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239452576) | 32d |
 | Hevo Data<br><sub>SaaS</sub> | Associate Software Development Engineer (SDE) Intern<br><sub>🎓 B Tech in Computer Science or equivalent</sub> | Bangalore, India | — | — | — | [Apply](https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a) | 50d |
-| Eaton<br><sub>Industrial</sub> | Apprentice IT SAP ECC | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687238812792) | 61d |
 | Google<br><sub>Big Tech</sub> | Software Engineering PhD Intern, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India; Pune, Maharashtra, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109976286780105414) | 64d |
 | NXP<br><sub>Semiconductor</sub> | Technical Internship 2027 | Bangalore; Noida | 2027 | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Bangalore/Technical-Internship-2027_R-10066434) | 64d |
 | Rubrik<br><sub>Big Tech</sub> | Software Engineer (CPD) - Winter Intern<br><sub>🎓 Bachelor’s or Master’s degree, preferably in Computer Scien…</sub> | Bangalore | Winter | 2027 | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537) | 65d |
@@ -93,14 +92,13 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Hevo Data<br><sub>SaaS</sub> | UX Design Intern | Bangalore, India | — | — | — | [Apply](https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee) | 125d |
 | Glance<br><sub>Startup</sub> | UX Design - Intern | Bengaluru | — | — | — | [Apply](https://job-boards.greenhouse.io/glance/jobs/7916115) | 155d |
 
-### Core Engineering (4)
+### Core Engineering (3)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537) | 5d |
 | Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449542) | 5d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 5d |
-| Eaton<br><sub>Industrial</sub> | Apprentice - Materials<br><sub>🎓 BE/ Diploma Mechanical</sub> | Pune, Maharashtra, IND, 411045 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239976322) | 13d |
 
 ### Other (54)
 

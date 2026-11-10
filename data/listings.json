@@ -312,7 +312,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-10T07:31:05.201535Z",
     "company": "Eaton",
     "company_slug": "eaton",
     "date_posted": "2026-09-10",
@@ -333,10 +333,10 @@
     "locations": [
       "Pune, Maharashtra, IND, 411014"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "eightfold",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice IT SAP ECC",
     "url": "https://eaton.eightfold.ai/careers/job/687238812792"
   },
@@ -402,7 +402,7 @@
   },
   {
     "category": "core",
-    "closed_at": null,
+    "closed_at": "2026-11-10T07:31:05.201535Z",
     "company": "Eaton",
     "company_slug": "eaton",
     "date_posted": "2026-10-28",
@@ -423,10 +423,10 @@
     "locations": [
       "Pune, Maharashtra, IND, 411045"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "eightfold",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice - Materials",
     "url": "https://eaton.eightfold.ai/careers/job/687239976322"
   },
@@ -1803,7 +1803,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -1867,7 +1867,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -1899,7 +1899,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -2347,7 +2347,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -2379,7 +2379,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -2443,7 +2443,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3147,7 +3147,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
