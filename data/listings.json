@@ -333,7 +333,7 @@
     "locations": [
       "Pune, Maharashtra, IND, 411014"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "eightfold",
     "status": "open",
@@ -423,7 +423,7 @@
     "locations": [
       "Pune, Maharashtra, IND, 411045"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "eightfold",
     "status": "open",
@@ -1867,7 +1867,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
