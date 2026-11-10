@@ -6,8 +6,8 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Nvidia | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-10 | 1 |
-| NXP | workday | ⚠️ failing for 466 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Marvell | workday | ⚠️ failing for 1 run: ReadTimeout: | 2026-11-10 | 5 |
+| NXP | workday | ⚠️ failing for 467 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-10 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-10 | 0 |
@@ -30,11 +30,11 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Intel | workday | ✅ OK | 2026-11-10 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-10 | 0 |
-| Marvell | workday | ✅ OK | 2026-11-10 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-10 | 0 |
 | Micron | workday | ✅ OK | 2026-11-10 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-10 | 4 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-10 | 0 |
+| Nvidia | workday | ✅ OK | 2026-11-10 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-10 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-10 | 1 |
 | Quadeye | custom | ✅ OK | 2026-11-10 | 3 |
