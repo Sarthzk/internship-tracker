@@ -863,6 +863,39 @@
   {
     "category": "swe",
     "closed_at": null,
+    "company": "Sigmoid",
+    "company_slug": "sigmoid",
+    "date_posted": "2026-11-10",
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": [
+        2026,
+        2027
+      ],
+      "enriched_at": "2026-11-10T10:33:23.708179Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": "25,000 per month for 6 months",
+      "term": "six_month"
+    },
+    "external_id": "8927991002",
+    "first_seen": "2026-11-10T10:31:36.306882Z",
+    "id": "greenhouse:sigmoid:8927991002",
+    "is_remote": false,
+    "last_seen": "2026-11-10",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "DE Intern + SDE Trainee - Off Campus Hiring 2026",
+    "url": "https://job-boards.greenhouse.io/sigmoid/jobs/8927991002"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
     "company": "Stripe",
     "company_slug": "stripe",
     "date_posted": "2026-07-10",

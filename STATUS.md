@@ -141,7 +141,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Sarvam AI | ashby | ✅ OK | 2026-11-10 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Shell | workday | ✅ OK | 2026-11-10 | 0 |
-| Sigmoid | greenhouse | ✅ OK | 2026-11-10 | 0 |
+| Sigmoid | greenhouse | ✅ OK | 2026-11-10 | 1 |
 | SigNoz | ashby | ✅ OK | 2026-11-10 | 0 |
 | Sprinklr | workday | ✅ OK | 2026-11-10 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-10 | 0 |
