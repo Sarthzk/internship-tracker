@@ -2485,7 +2485,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-10T11:31:02.926706Z",
     "company": "Cigna",
     "company_slug": "cigna",
     "date_posted": null,
@@ -2508,10 +2508,10 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "HIH - Co-Op/Intern (Non-US Only)",
     "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013758"
   },
@@ -3125,7 +3125,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-10T11:31:02.926706Z",
     "company": "Cigna",
     "company_slug": "cigna",
     "date_posted": null,
@@ -3148,10 +3148,10 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "HIH - Co-Op/Intern (Non-US Only)",
     "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013796"
   },
