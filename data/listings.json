@@ -2508,7 +2508,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3148,7 +3148,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3541,7 +3541,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-06T19:10:45.229504Z",
+    "closed_at": null,
     "company": "Hewlett Packard Enterprise",
     "company_slug": "hpe",
     "date_posted": null,
@@ -3558,14 +3558,14 @@
     "first_seen": "2026-11-05T10:10:45.207268Z",
     "id": "workday:hpe:1215489-2",
     "is_remote": false,
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-10",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "External Apprentice",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Apprentice_1215489-2"
   },
