@@ -697,7 +697,7 @@
     "locations": [
       "Hyderabad, Telangāna, India"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "eightfold",
     "status": "open",
@@ -821,7 +821,7 @@
     "locations": [
       "Bangalore"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "greenhouse",
     "status": "open",
