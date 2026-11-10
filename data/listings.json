@@ -676,7 +676,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-10T05:20:41.419950Z",
     "company": "Qualcomm",
     "company_slug": "qualcomm",
     "date_posted": "2026-09-15",
@@ -697,10 +697,10 @@
     "locations": [
       "Hyderabad, Telangāna, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "eightfold",
-    "status": "open",
+    "status": "closed",
     "title": "Interim Engineering Intern_2027_SW",
     "url": "https://careers.qualcomm.com/careers/job/446719785836"
   },
@@ -3897,6 +3897,36 @@
     "status": "closed",
     "title": "Intern",
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "S&P Global",
+    "company_slug": "sp-global",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-10T05:21:35.055148Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "332203-1",
+    "first_seen": "2026-11-10T05:20:41.419950Z",
+    "id": "workday:sp-global:332203-1",
+    "is_remote": false,
+    "last_seen": "2026-11-10",
+    "locations": [
+      "Hyderabad, Telangana"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice, Channels Client On-boarding Specialist",
+    "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1"
   },
   {
     "category": "swe",

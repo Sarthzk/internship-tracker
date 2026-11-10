@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 367 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 368 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-10 | 2 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-10 | 0 |
@@ -38,7 +38,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Oracle | oracle_hcm | ✅ OK | 2026-11-10 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-10 | 1 |
 | Quadeye | custom | ✅ OK | 2026-11-10 | 3 |
-| Qualcomm | eightfold | ✅ OK | 2026-11-10 | 2 |
+| Qualcomm | eightfold | ✅ OK | 2026-11-10 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-10 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-10 | 3 |
 | Salesforce | workday | ✅ OK | 2026-11-10 | 0 |
@@ -135,7 +135,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-10 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-10 | 0 |
+| S&P Global | workday | ✅ OK | 2026-11-10 | 1 |
 | Sabre | workday | ✅ OK | 2026-11-10 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-10 | 0 |
