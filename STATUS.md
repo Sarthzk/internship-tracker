@@ -6,8 +6,8 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Microsoft | eightfold | ⚠️ failing for 2 runs: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-10 | 4 |
-| NXP | workday | ⚠️ failing for 345 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 346 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-10 | 1 |
 | Adobe | phenom | ✅ OK | 2026-11-10 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-10 | 0 |
@@ -33,6 +33,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-10 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-10 | 0 |
 | Micron | workday | ✅ OK | 2026-11-10 | 0 |
+| Microsoft | eightfold | ✅ OK | 2026-11-10 | 4 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-10 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-10 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-10 | 0 |
@@ -96,7 +97,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Groww | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-10 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-10 | 2 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-10 | 1 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-10 | 0 |
 | HP | workday | ✅ OK | 2026-11-10 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-10 | 0 |
