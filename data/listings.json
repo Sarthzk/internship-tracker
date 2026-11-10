@@ -1094,23 +1094,23 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-04T19:40:44.080211Z",
+    "closed_at": null,
     "company": "Adobe",
     "company_slug": "adobe",
-    "date_posted": "2026-11-04",
+    "date_posted": "2026-11-10",
     "enrichment": null,
     "external_id": "R172424",
     "first_seen": "2026-11-04T05:50:42.360172Z",
     "id": "phenom:adobe:R172424",
     "is_remote": false,
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-10",
     "locations": [
       "Bangalore, Karnātaka, India"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "phenom",
-    "status": "closed",
+    "status": "open",
     "title": "2027 Intern - Research Intern",
     "url": "https://careers.adobe.com/us/en/job/R172424"
   },
@@ -3478,7 +3478,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-06T19:10:45.229504Z",
+    "closed_at": null,
     "company": "Hewlett Packard Enterprise",
     "company_slug": "hpe",
     "date_posted": null,
@@ -3495,14 +3495,14 @@
     "first_seen": "2026-11-05T10:31:00.799496Z",
     "id": "workday:hpe:1215487-1",
     "is_remote": false,
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-10",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "External Intern",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1"
   },
