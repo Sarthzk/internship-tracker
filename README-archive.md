@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**36 closed** · Last updated: 2026-11-10 (IST)
+**37 closed** · Last updated: 2026-11-10 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Rubrik<br><sub>Big Tech</sub> | Industrial Trainee<br><sub>🎓 Chartered Accountancy (CA) qualification</sub> | Bangalore | — | — | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405) | 2026-10-13 | 2026-11-10 |
 | GE HealthCare<br><sub>Industrial</sub> | Commercial Development Program Intern | IND36-01-Bengaluru-Kalyani Platina, Magnolia | Summer | — | 2 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND36-01-Bengaluru-Kalyani-Platina-Magnolia/Commercial-Development-Program-Intern_R4049083-1) | 2026-11-06 | 2026-11-10 |
 | GE HealthCare<br><sub>Industrial</sub> | Information Technology Development Program - Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | 24 mo | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Information-Technology-Development-Program---Intern_R4049088-1) | 2026-11-06 | 2026-11-10 |
 | LSEG<br><sub>Finance</sub> | Intern<br><sub>🎓 CA, CPA, or a similar professional qualification</sub> | IND-Bangalore-TowerE,RMZ Infin | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/Intern_R0119252-1) | 2026-11-05 | 2026-11-10 |

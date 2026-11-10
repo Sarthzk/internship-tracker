@@ -800,7 +800,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-10T05:01:16.707544Z",
     "company": "Rubrik",
     "company_slug": "rubrik",
     "date_posted": "2026-10-13",
@@ -821,10 +821,10 @@
     "locations": [
       "Bangalore"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "greenhouse",
-    "status": "open",
+    "status": "closed",
     "title": "Industrial Trainee",
     "url": "https://www.rubrik.com/company/careers/departments/job.8266405?gh_jid=8266405"
   },
