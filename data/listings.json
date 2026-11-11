@@ -10,7 +10,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:apple:200676908",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru, India"
     ],
@@ -32,7 +32,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:apple:200684719",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -54,7 +54,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:google:109375266236572358",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru, Karnataka, India",
       "Hyderabad, Telangana, India"
@@ -77,7 +77,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:google:109976286780105414",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru, Karnataka, India",
       "Hyderabad, Telangana, India",
@@ -145,7 +145,7 @@
     "first_seen": "2026-11-05T06:40:40.713522Z",
     "id": "custom:juspay:B-I01",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore"
     ],
@@ -167,7 +167,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:juspay:DEV-BE02",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore"
     ],
@@ -189,7 +189,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:juspay:DEV-BE04",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Mumbai"
     ],
@@ -211,7 +211,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:juspay:PDE01",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore"
     ],
@@ -233,7 +233,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:juspay:PSE02",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore"
     ],
@@ -255,7 +255,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:quadeye:199893000002318371",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Gurgaon, Haryana, India"
     ],
@@ -277,7 +277,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:quadeye:199893000002318430",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Gurgaon, Haryana, India"
     ],
@@ -299,7 +299,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "custom:quadeye:199893000002318440",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Gurgaon, Haryana, India"
     ],
@@ -631,7 +631,7 @@
     "first_seen": "2026-11-09T06:01:16.530921Z",
     "id": "eightfold:paypal:274923210258",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore, Karnataka, India",
       "Chennai, Tamil Nadu, India"
@@ -723,7 +723,7 @@
     "first_seen": "2026-11-03T06:01:17.396031Z",
     "id": "greenhouse:glance:7916115",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru"
     ],
@@ -755,7 +755,7 @@
     "first_seen": "2026-10-27T07:36:29.514766Z",
     "id": "greenhouse:rubrik:8166514",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore"
     ],
@@ -787,7 +787,7 @@
     "first_seen": "2026-11-03T04:40:40.226192Z",
     "id": "greenhouse:rubrik:8166537",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore"
     ],
@@ -849,7 +849,7 @@
     "first_seen": "2026-11-04T07:40:46.618761Z",
     "id": "greenhouse:rubrik:8345283",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore"
     ],
@@ -912,7 +912,7 @@
     "first_seen": "2026-10-27T07:36:29.514766Z",
     "id": "greenhouse:stripe:8031833",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru"
     ],
@@ -1084,7 +1084,7 @@
     "first_seen": "2026-11-04T13:01:16.346216Z",
     "id": "oracle_hcm:american-express:26016056",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Gurugram, HR, India"
     ],
@@ -1158,7 +1158,7 @@
     "first_seen": "2026-10-28T20:02:15.898496Z",
     "id": "phenom:adobe:R173016",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore, Karnātaka, India"
     ],
@@ -1188,7 +1188,7 @@
     "first_seen": "2026-11-04T21:01:18.095155Z",
     "id": "workday:airbus:JR10448021",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "New Delhi"
     ],
@@ -1218,7 +1218,7 @@
     "first_seen": "2026-11-04T21:01:18.095155Z",
     "id": "workday:airbus:JR10448073",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "New Delhi"
     ],
@@ -1248,7 +1248,7 @@
     "first_seen": "2026-11-04T21:01:18.095155Z",
     "id": "workday:airbus:JR10448390",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore Area"
     ],
@@ -1278,7 +1278,7 @@
     "first_seen": "2026-11-04T22:01:13.786203Z",
     "id": "workday:airbus:JR10449142",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore Area"
     ],
@@ -1458,7 +1458,7 @@
     "first_seen": "2026-11-04T21:01:18.095155Z",
     "id": "workday:airbus:JR10449537",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore Area"
     ],
@@ -1488,7 +1488,7 @@
     "first_seen": "2026-11-04T21:01:18.095155Z",
     "id": "workday:airbus:JR10449542",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore Area"
     ],
@@ -1518,7 +1518,7 @@
     "first_seen": "2026-11-04T21:01:18.095155Z",
     "id": "workday:airbus:JR10449573",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore Area"
     ],
@@ -1548,7 +1548,7 @@
     "first_seen": "2026-11-04T21:01:18.095155Z",
     "id": "workday:airbus:JR10449695",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore Area"
     ],
@@ -1578,7 +1578,7 @@
     "first_seen": "2026-11-09T16:20:41.955746Z",
     "id": "workday:analog-devices:R267594",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "India, Bangalore, Nova"
     ],
@@ -1608,7 +1608,7 @@
     "first_seen": "2026-11-07T11:10:43.166289Z",
     "id": "workday:analog-devices:R267676",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "India, Bangalore, Nova"
     ],
@@ -3680,7 +3680,7 @@
     "first_seen": "2026-10-29T09:10:42.406658Z",
     "id": "workday:marvell:2604253",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad"
     ],
@@ -3710,7 +3710,7 @@
     "first_seen": "2026-10-29T09:10:42.406658Z",
     "id": "workday:marvell:2604254",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad"
     ],
@@ -3740,7 +3740,7 @@
     "first_seen": "2026-10-29T09:10:42.406658Z",
     "id": "workday:marvell:2604255",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad"
     ],
@@ -3770,7 +3770,7 @@
     "first_seen": "2026-10-29T09:10:42.406658Z",
     "id": "workday:marvell:2604256",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad"
     ],
@@ -3800,7 +3800,7 @@
     "first_seen": "2026-10-29T09:10:42.406658Z",
     "id": "workday:marvell:2604257",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad"
     ],
@@ -3830,7 +3830,7 @@
     "first_seen": "2026-10-28T14:56:24.864120Z",
     "id": "workday:nvidia:JR2024423",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "India, Bengaluru"
     ],
@@ -3982,7 +3982,7 @@
     "first_seen": "2026-11-10T05:20:41.419950Z",
     "id": "workday:sp-global:332203-1",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, Telangana"
     ],
