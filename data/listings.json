@@ -1214,7 +1214,7 @@
     "locations": [
       "Bangalore, Karnātaka, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "phenom",
     "status": "open",
@@ -3534,7 +3534,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-11T19:10:43.746248Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": null,
@@ -3555,10 +3555,10 @@
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4039959-1"
   },
@@ -3595,7 +3595,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-11T19:10:43.746248Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": null,
@@ -3616,16 +3616,16 @@
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Software Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041234-1"
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-11T19:10:43.746248Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": null,
@@ -3646,10 +3646,10 @@
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Software Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1"
   },
@@ -3835,7 +3835,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-11T19:10:43.746248Z",
     "company": "Hewlett Packard Enterprise",
     "company_slug": "hpe",
     "date_posted": null,
@@ -3856,16 +3856,16 @@
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "External Intern",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1"
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-11T19:10:43.746248Z",
     "company": "Hewlett Packard Enterprise",
     "company_slug": "hpe",
     "date_posted": null,
@@ -3886,10 +3886,10 @@
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "External Apprentice",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Apprentice_1215489-2"
   },
