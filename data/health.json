@@ -352,7 +352,7 @@
   },
   {
     "company_slug": "cummins",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 81,
     "last_error": "returned 0 postings (previously 81)",
@@ -874,7 +874,7 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 487,
+    "consecutive_failures": 488,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",
