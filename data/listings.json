@@ -892,7 +892,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-11T13:11:12.029856Z",
     "company": "Sigmoid",
     "company_slug": "sigmoid",
     "date_posted": "2026-11-10",
@@ -916,10 +916,10 @@
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "greenhouse",
-    "status": "open",
+    "status": "closed",
     "title": "DE Intern + SDE Trainee - Off Campus Hiring 2026",
     "url": "https://job-boards.greenhouse.io/sigmoid/jobs/8927991002"
   },
@@ -1198,6 +1198,28 @@
     "status": "open",
     "title": "2027 Intern - Research PhD Intern",
     "url": "https://careers.adobe.com/us/en/job/R173016"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Adobe",
+    "company_slug": "adobe",
+    "date_posted": "2026-11-11",
+    "enrichment": null,
+    "external_id": "R173562",
+    "first_seen": "2026-11-11T13:11:12.029856Z",
+    "id": "phenom:adobe:R173562",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "Bangalore, Karnātaka, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "phenom",
+    "status": "open",
+    "title": "Adobe Intern FY27",
+    "url": "https://careers.adobe.com/us/en/job/R173562"
   },
   {
     "category": "other",
