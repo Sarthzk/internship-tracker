@@ -1097,7 +1097,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-11T00:50:42.495109Z",
     "company": "Nokia",
     "company_slug": "nokia",
     "date_posted": "2026-11-06",
@@ -1118,10 +1118,10 @@
     "locations": [
       "India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "oracle_hcm",
-    "status": "open",
+    "status": "closed",
     "title": "Student Intern - Research",
     "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39934"
   },
