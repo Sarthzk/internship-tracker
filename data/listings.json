@@ -1613,7 +1613,7 @@
   },
   {
     "category": "hardware",
-    "closed_at": null,
+    "closed_at": "2026-11-11T21:10:45.457297Z",
     "company": "Analog Devices",
     "company_slug": "analog-devices",
     "date_posted": null,
@@ -1634,16 +1634,16 @@
     "locations": [
       "India, Bangalore, Nova"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Analog Design Intern",
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267594"
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-11T21:10:45.457297Z",
     "company": "Analog Devices",
     "company_slug": "analog-devices",
     "date_posted": null,
@@ -1664,10 +1664,10 @@
     "locations": [
       "India, Bangalore, Nova"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Product Application Intern",
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676"
   },
