@@ -4324,6 +4324,37 @@
     "closed_at": null,
     "company": "S&P Global",
     "company_slug": "sp-global",
+    "date_posted": "2026-11-11",
+    "enrichment": {
+      "degree": "At least a bachelor's degree in any field or relevant discipline",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-11T13:41:36.967945Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "332023-1",
+    "first_seen": "2026-11-11T13:40:45.190080Z",
+    "id": "workday:sp-global:332023-1",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "Hyderabad, Telangana",
+      "IN - NOIDA CANDOR TECHSPACE SECTOR 62"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice, Order to Cash",
+    "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Order-to-Cash_332023-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "S&P Global",
+    "company_slug": "sp-global",
     "date_posted": null,
     "enrichment": {
       "degree": null,

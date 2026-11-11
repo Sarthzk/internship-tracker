@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-11 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-11 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 563 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
-| S&P Global | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-11 | 1 |
+| NXP | workday | ⚠️ failing for 564 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-11 | 2 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-11 | 0 |
@@ -136,6 +135,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-11 | 0 |
+| S&P Global | workday | ✅ OK | 2026-11-11 | 2 |
 | Sabre | workday | ✅ OK | 2026-11-11 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-11 | 0 |
