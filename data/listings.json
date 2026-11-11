@@ -461,6 +461,36 @@
     "url": "https://eaton.eightfold.ai/careers/job/687240066841"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Eaton",
+    "company_slug": "eaton",
+    "date_posted": "2026-11-11",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-11T10:51:58.934973Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "687240121118",
+    "first_seen": "2026-11-11T10:50:41.388369Z",
+    "id": "eightfold:eaton:687240121118",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "Pune, Maharashtra, IND, 411014"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Apprentice. IT. Development Program",
+    "url": "https://eaton.eightfold.ai/careers/job/687240121118"
+  },
+  {
     "category": "data_ml",
     "closed_at": "2026-11-09T13:50:43.254265Z",
     "company": "Microsoft",
