@@ -2,10 +2,16 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**80 closed** · Last updated: 2026-11-12 (IST)
+**86 closed** · Last updated: 2026-11-12 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Deutsche Bank<br><sub>Bank</sub> | IGTC Interns 2027<br><sub>🎓 PGPBA</sub> | Pune - Business Bay | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/IGTC-Interns-2027_R0452134) | 2026-11-11 | 2026-11-12 |
+| Deutsche Bank<br><sub>Bank</sub> | IGTC Interns 2027<br><sub>🎓 PGPBA</sub> | Pune - Business Bay | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/IGTC-Interns-2027_R0452193) | 2026-11-11 | 2026-11-12 |
+| Deutsche Bank<br><sub>Bank</sub> | IGTC Interns 2027<br><sub>🎓 PGPBA</sub> | Mumbai, Hazarimal Somani Marg | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Hazarimal-Somani-Marg/IGTC-Interns-2027_R0452271) | 2026-11-11 | 2026-11-12 |
+| Deutsche Bank<br><sub>Bank</sub> | IGTC Interns 2027<br><sub>🎓 PGPBA</sub> | Mumbai, Hazarimal Somani Marg | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Hazarimal-Somani-Marg/IGTC-Interns-2027_R0452276) | 2026-11-11 | 2026-11-12 |
+| Deutsche Bank<br><sub>Bank</sub> | IGTC Interns 2027<br><sub>🎓 PGPBA</sub> | Pune - Business Bay | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/IGTC-Interns-2027_R0452577) | 2026-11-11 | 2026-11-12 |
+| Salesforce<br><sub>Big Tech</sub> | Summer 2027 Intern - Software Engineer<br><sub>🎓 B.E/ B.Tech in Computer Science, Information Technology and…</sub> | India - Bangalore; India - Hyderabad | Summer 2027 | 2028 | — | [Apply](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) | 2026-11-11 | 2026-11-12 |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013368) | 2026-11-09 | 2026-11-11 |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013371) | 2026-11-09 | 2026-11-11 |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013372) | 2026-11-09 | 2026-11-11 |
