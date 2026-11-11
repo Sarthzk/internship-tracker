@@ -4265,6 +4265,39 @@
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Salesforce",
+    "company_slug": "salesforce",
+    "date_posted": "2026-11-11",
+    "enrichment": {
+      "degree": "B.E/ B.Tech in Computer Science, Information Technology and Circuit Branch",
+      "duration_months": null,
+      "eligible_batches": [
+        2028
+      ],
+      "enriched_at": "2026-11-11T11:32:41.922172Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "summer"
+    },
+    "external_id": "JR337715",
+    "first_seen": "2026-11-11T11:30:59.844496Z",
+    "id": "workday:salesforce:JR337715",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "India - Bangalore",
+      "India - Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Summer 2027 Intern - Software Engineer",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "S&P Global",

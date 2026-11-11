@@ -27,15 +27,16 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**71 open internships** across 26 companies · Last updated: 2026-11-11 (IST)
+**72 open internships** across 27 companies · Last updated: 2026-11-11 (IST)
 
-### Software Engineering (21)
+### Software Engineering (22)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240121118) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041234-1) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1) | 0d |
+| Salesforce<br><sub>Big Tech</sub> | Summer 2027 Intern - Software Engineer<br><sub>🎓 B.E/ B.Tech in Computer Science, Information Technology and…</sub> | India - Bangalore; India - Hyderabad | Summer 2027 | 2028 | — | [Apply](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) | 0d |
 | Sigmoid<br><sub>AI</sub> | DE Intern + SDE Trainee - Off Campus Hiring 2026 | Bengaluru | 6 months 2026 | 2026, 2027 | 6 mo | [Apply](https://job-boards.greenhouse.io/sigmoid/jobs/8927991002) | 1d |
 | PayPal<br><sub>Fintech</sub> | Software Engineer Intern<br><sub>🎓 Bachelor’s degree in Computer Science or related field</sub> | Bangalore, Karnataka, India; Chennai, Tamil Nadu, India | — | 2028 | — | [Apply](https://paypal.eightfold.ai/careers/job/274923210258) | 2d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 5d |
