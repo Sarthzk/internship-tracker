@@ -2,10 +2,14 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**75 closed** · Last updated: 2026-11-11 (IST)
+**79 closed** · Last updated: 2026-11-11 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013371) | 2026-11-09 | 2026-11-11 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013372) | 2026-11-09 | 2026-11-11 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013376) | 2026-11-09 | 2026-11-11 |
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013756) | 2026-11-09 | 2026-11-11 |
 | Sigmoid<br><sub>AI</sub> | DE Intern + SDE Trainee - Off Campus Hiring 2026 | Bengaluru | 6 months 2026 | 2026, 2027 | 6 mo | [Apply](https://job-boards.greenhouse.io/sigmoid/jobs/8927991002) | 2026-11-10 | 2026-11-11 |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013356) | 2026-11-09 | 2026-11-11 |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013358) | 2026-11-09 | 2026-11-11 |

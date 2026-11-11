@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**73 open internships** across 26 companies · Last updated: 2026-11-11 (IST)
+**69 open internships** across 26 companies · Last updated: 2026-11-11 (IST)
 
 ### Software Engineering (21)
 
@@ -102,7 +102,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537) | 6d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 6d |
 
-### Other (30)
+### Other (26)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -117,10 +117,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | S&P Global<br><sub>Finance</sub> | Apprentice, Channels Client On-boarding Specialist | Hyderabad, Telangana | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1) | 1d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013357) | 2d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013368) | 2d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013371) | 2d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013372) | 2d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013376) | 2d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013756) | 2d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013766) | 2d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013784) | 2d |
 | Analog Devices<br><sub>Semiconductor</sub> | Product Application Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676) | 4d |
