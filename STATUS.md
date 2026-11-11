@@ -2,11 +2,12 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-11 (IST)
+**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-11 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 491 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Deutsche Bank | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-11 | 0 |
+| NXP | workday | ⚠️ failing for 492 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-11 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-11 | 0 |
@@ -23,7 +24,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Cisco | workday | ✅ OK | 2026-11-11 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-11 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-11 | 0 |
-| Deutsche Bank | workday | ✅ OK | 2026-11-11 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-11 | 0 |
 | Google | custom | ✅ OK | 2026-11-11 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-11 | 0 |
@@ -75,7 +75,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Contentstack | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | CRED | lever | ✅ OK | 2026-11-11 | 0 |
-| Cummins | oracle_hcm | 🔍 verifying a drop in postings | 2026-11-11 | 0 |
+| Cummins | oracle_hcm | ✅ OK | 2026-11-11 | 0 |
 | Datadog | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Duolingo | greenhouse | ✅ OK | 2026-11-11 | 0 |
