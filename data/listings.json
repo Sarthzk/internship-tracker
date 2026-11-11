@@ -1804,7 +1804,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -2028,7 +2028,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -2316,7 +2316,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3084,7 +3084,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3116,7 +3116,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3318,6 +3318,36 @@
       "degree": "PGPBA",
       "duration_months": null,
       "eligible_batches": null,
+      "enriched_at": "2026-11-11T06:51:53.321997Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0452134",
+    "first_seen": "2026-11-11T06:50:44.397815Z",
+    "id": "workday:deutsche-bank:R0452134",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "Pune - Business Bay"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IGTC Interns 2027",
+    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/IGTC-Interns-2027_R0452134"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Deutsche Bank",
+    "company_slug": "deutsche-bank",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "PGPBA",
+      "duration_months": null,
+      "eligible_batches": null,
       "enriched_at": "2026-11-11T06:21:36.987767Z",
       "model": "openai/gpt-oss-20b",
       "stipend": null,
@@ -3367,6 +3397,36 @@
     "status": "open",
     "title": "IGTC Interns 2027",
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Hazarimal-Somani-Marg/IGTC-Interns-2027_R0452271"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Deutsche Bank",
+    "company_slug": "deutsche-bank",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "PGPBA",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-11T06:51:53.321997Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0452276",
+    "first_seen": "2026-11-11T06:50:44.397815Z",
+    "id": "workday:deutsche-bank:R0452276",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "Mumbai, Hazarimal Somani Marg"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IGTC Interns 2027",
+    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Hazarimal-Somani-Marg/IGTC-Interns-2027_R0452276"
   },
   {
     "category": "other",
