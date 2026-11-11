@@ -352,12 +352,12 @@
   },
   {
     "company_slug": "cummins",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 81,
-    "last_error": null,
+    "last_error": "returned 0 postings (previously 81)",
     "last_success": "2026-11-11",
-    "zero_since": null
+    "zero_since": "2026-11-11T01:01:13.129222Z"
   },
   {
     "company_slug": "databricks",
@@ -874,7 +874,7 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 485,
+    "consecutive_failures": 486,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",

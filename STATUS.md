@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 485 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 486 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-11 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-11 | 0 |
@@ -75,7 +75,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Contentstack | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | CRED | lever | ✅ OK | 2026-11-11 | 0 |
-| Cummins | oracle_hcm | ✅ OK | 2026-11-11 | 0 |
+| Cummins | oracle_hcm | 🔍 verifying a drop in postings | 2026-11-11 | 0 |
 | Datadog | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Duolingo | greenhouse | ✅ OK | 2026-11-11 | 0 |
