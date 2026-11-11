@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**57 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
+**56 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
 
 ### Software Engineering (18)
 
@@ -99,11 +99,10 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537) | 7d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 7d |
 
-### Other (17)
+### Other (16)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
-| Adobe<br><sub>Big Tech</sub> | Adobe Intern FY27 | Bangalore, Karnātaka, India | — | — | — | [Apply](https://careers.adobe.com/us/en/job/R173562) | 1d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Order to Cash<br><sub>🎓 At least a bachelor's degree in any field or relevant disci…</sub> | Hyderabad, Telangana; IN - NOIDA CANDOR TECHSPACE SECTOR 62 | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Order-to-Cash_332023-1) | 1d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Channels Client On-boarding Specialist | Hyderabad, Telangana | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1) | 2d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013357) | 3d |
