@@ -27,12 +27,14 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**79 open internships** across 26 companies · Last updated: 2026-11-11 (IST)
+**82 open internships** across 26 companies · Last updated: 2026-11-11 (IST)
 
-### Software Engineering (18)
+### Software Engineering (20)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041234-1) | 0d |
+| GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1) | 0d |
 | Sigmoid<br><sub>AI</sub> | DE Intern + SDE Trainee - Off Campus Hiring 2026 | Bengaluru | 6 months 2026 | 2026, 2027 | 6 mo | [Apply](https://job-boards.greenhouse.io/sigmoid/jobs/8927991002) | 1d |
 | PayPal<br><sub>Fintech</sub> | Software Engineer Intern<br><sub>🎓 Bachelor’s degree in Computer Science or related field</sub> | Bangalore, Karnataka, India; Chennai, Tamil Nadu, India | — | 2028 | — | [Apply](https://paypal.eightfold.ai/careers/job/274923210258) | 2d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 5d |
@@ -100,11 +102,12 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449542) | 6d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 6d |
 
-### Other (38)
+### Other (39)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 0d |
+| GE HealthCare<br><sub>Industrial</sub> | Intern<br><sub>🎓 B.Tech or M.Tech in Computer Science Engineering, AI/ML</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4039959-1) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013949) | 1d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Channels Client On-boarding Specialist | Hyderabad, Telangana | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1) | 1d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013356) | 2d |

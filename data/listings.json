@@ -3331,6 +3331,36 @@
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Mumbai-Nirlon-Knowledge-Park/Apprentice-Hiring-for-2026--2027_R0456794-1"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.Tech or M.Tech in Computer Science Engineering, AI/ML",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-11T05:51:49.522261Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4039959-1",
+    "first_seen": "2026-11-11T05:50:42.117629Z",
+    "id": "workday:ge-healthcare:R4039959-1",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4039959-1"
+  },
+  {
     "category": "swe",
     "closed_at": null,
     "company": "GE HealthCare",
@@ -3360,6 +3390,66 @@
     "status": "open",
     "title": "Software Engineer Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-11T05:51:49.522261Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4041234-1",
+    "first_seen": "2026-11-11T05:50:42.117629Z",
+    "id": "workday:ge-healthcare:R4041234-1",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Software Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041234-1"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-11T05:51:49.522261Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4041235-1",
+    "first_seen": "2026-11-11T05:50:42.117629Z",
+    "id": "workday:ge-healthcare:R4041235-1",
+    "is_remote": false,
+    "last_seen": "2026-11-11",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Software Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1"
   },
   {
     "category": "data_ml",
