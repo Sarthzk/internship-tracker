@@ -2,15 +2,16 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-11 (IST)
+**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-11 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 564 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 565 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| State Street | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-11 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-11 | 2 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-11 | 0 |
-| AMD | custom | ✅ OK | 2026-11-11 | 0 |
+| AMD | custom | 🔍 verifying a drop in postings | 2026-11-11 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-11 | 1 |
 | Analog Devices | workday | ✅ OK | 2026-11-11 | 2 |
 | Apple | custom | ✅ OK | 2026-11-11 | 2 |
@@ -145,7 +146,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | SigNoz | ashby | ✅ OK | 2026-11-11 | 0 |
 | Sprinklr | workday | ✅ OK | 2026-11-11 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-11 | 0 |
-| State Street | workday | ✅ OK | 2026-11-11 | 0 |
 | Stryker | workday | ✅ OK | 2026-11-11 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-11 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-11 | 0 |

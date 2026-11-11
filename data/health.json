@@ -64,12 +64,12 @@
   },
   {
     "company_slug": "amd",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 40,
-    "last_error": null,
+    "last_error": "returned only 13 postings (previously 40)",
     "last_success": "2026-11-11",
-    "zero_since": null
+    "zero_since": "2026-11-11T13:50:47.148528Z"
   },
   {
     "company_slug": "american-express",
@@ -874,7 +874,7 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 564,
+    "consecutive_failures": 565,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",
@@ -1189,10 +1189,10 @@
   },
   {
     "company_slug": "state-street",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 114,
-    "last_error": null,
+    "last_error": "FetchError: invalid JSON from community.workday.com",
     "last_success": "2026-11-11",
     "zero_since": null
   },
