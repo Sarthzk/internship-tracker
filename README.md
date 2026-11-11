@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**78 open internships** across 25 companies · Last updated: 2026-11-11 (IST)
+**79 open internships** across 26 companies · Last updated: 2026-11-11 (IST)
 
 ### Software Engineering (18)
 
@@ -100,10 +100,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449542) | 6d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 6d |
 
-### Other (37)
+### Other (38)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 0d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013949) | 1d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Channels Client On-boarding Specialist | Hyderabad, Telangana | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1) | 1d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013356) | 2d |
