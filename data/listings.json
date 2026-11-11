@@ -389,7 +389,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "eightfold:eaton:687239705382",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Pune, Maharashtra, IND, 411014"
     ],
@@ -449,7 +449,7 @@
     "first_seen": "2026-11-05T05:10:42.492368Z",
     "id": "eightfold:eaton:687240066841",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Pune, Maharashtra, IND, 411045"
     ],
@@ -882,7 +882,7 @@
     "first_seen": "2026-11-10T10:31:36.306882Z",
     "id": "greenhouse:sigmoid:8927991002",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru"
     ],
@@ -964,7 +964,7 @@
     "first_seen": "2026-11-03T11:50:41.088425Z",
     "id": "lever:hevo-data:433ffdef-3125-48ed-a131-52c697c321ee",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore, India"
     ],
@@ -994,7 +994,7 @@
     "first_seen": "2026-11-03T06:10:41.248990Z",
     "id": "lever:hevo-data:993a3ed3-3014-432f-b0f4-28d300d58d9a",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bangalore, India"
     ],
@@ -1118,7 +1118,7 @@
     "locations": [
       "India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "oracle_hcm",
     "status": "open",
@@ -1704,7 +1704,7 @@
     "first_seen": "2026-11-09T10:10:43.971610Z",
     "id": "workday:cigna:26013356",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -1736,7 +1736,7 @@
     "first_seen": "2026-11-09T10:31:03.368468Z",
     "id": "workday:cigna:26013357",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -1768,7 +1768,7 @@
     "first_seen": "2026-11-09T08:50:42.417720Z",
     "id": "workday:cigna:26013358",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -1800,7 +1800,7 @@
     "first_seen": "2026-11-09T07:31:01.172828Z",
     "id": "workday:cigna:26013359",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2024,7 +2024,7 @@
     "first_seen": "2026-11-09T07:31:01.172828Z",
     "id": "workday:cigna:26013366",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2088,7 +2088,7 @@
     "first_seen": "2026-11-09T10:50:42.301865Z",
     "id": "workday:cigna:26013368",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2120,7 +2120,7 @@
     "first_seen": "2026-11-09T10:31:03.368468Z",
     "id": "workday:cigna:26013371",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2152,7 +2152,7 @@
     "first_seen": "2026-11-09T11:31:01.393708Z",
     "id": "workday:cigna:26013372",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2280,7 +2280,7 @@
     "first_seen": "2026-11-09T10:10:43.971610Z",
     "id": "workday:cigna:26013376",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2312,7 +2312,7 @@
     "first_seen": "2026-11-09T10:10:43.971610Z",
     "id": "workday:cigna:26013752",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2440,7 +2440,7 @@
     "first_seen": "2026-11-09T08:50:42.417720Z",
     "id": "workday:cigna:26013756",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2568,7 +2568,7 @@
     "first_seen": "2026-11-09T11:31:01.393708Z",
     "id": "workday:cigna:26013764",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2600,7 +2600,7 @@
     "first_seen": "2026-11-09T10:50:42.301865Z",
     "id": "workday:cigna:26013766",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2696,7 +2696,7 @@
     "first_seen": "2026-11-09T10:50:42.301865Z",
     "id": "workday:cigna:26013769",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2792,7 +2792,7 @@
     "first_seen": "2026-11-09T10:50:42.301865Z",
     "id": "workday:cigna:26013775",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2856,7 +2856,7 @@
     "first_seen": "2026-11-09T10:50:42.301865Z",
     "id": "workday:cigna:26013777",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2888,7 +2888,7 @@
     "first_seen": "2026-11-09T08:50:42.417720Z",
     "id": "workday:cigna:26013780",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2920,7 +2920,7 @@
     "first_seen": "2026-11-09T10:31:03.368468Z",
     "id": "workday:cigna:26013781",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -2952,7 +2952,7 @@
     "first_seen": "2026-11-09T10:50:42.301865Z",
     "id": "workday:cigna:26013782",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -3016,7 +3016,7 @@
     "first_seen": "2026-11-09T10:50:42.301865Z",
     "id": "workday:cigna:26013784",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -3080,7 +3080,7 @@
     "first_seen": "2026-11-09T10:10:43.971610Z",
     "id": "workday:cigna:26013790",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -3112,7 +3112,7 @@
     "first_seen": "2026-11-09T10:31:03.368468Z",
     "id": "workday:cigna:26013791",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -3272,7 +3272,7 @@
     "first_seen": "2026-11-10T11:10:46.262982Z",
     "id": "workday:cigna:26013949",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Hyderabad, India"
     ],
@@ -3349,7 +3349,7 @@
     "first_seen": "2026-11-06T13:50:44.762750Z",
     "id": "workday:ge-healthcare:R4040613",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Krakow",
       "Bengaluru"
@@ -3380,7 +3380,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:ge-healthcare:R4043882-1",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
@@ -3500,7 +3500,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:ge-vernova:R5027950-2",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Chennai"
     ],
@@ -3530,7 +3530,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:hpe:1211843-2",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
@@ -3560,7 +3560,7 @@
     "first_seen": "2026-11-05T10:31:00.799496Z",
     "id": "workday:hpe:1215487-1",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
@@ -3590,7 +3590,7 @@
     "first_seen": "2026-11-05T10:10:45.207268Z",
     "id": "workday:hpe:1215489-2",
     "is_remote": false,
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
