@@ -3383,7 +3383,7 @@
     "locations": [
       "Pune - Business Bay"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3413,7 +3413,7 @@
     "locations": [
       "Pune - Business Bay"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3443,7 +3443,7 @@
     "locations": [
       "Mumbai, Hazarimal Somani Marg"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3473,7 +3473,7 @@
     "locations": [
       "Mumbai, Hazarimal Somani Marg"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3503,7 +3503,7 @@
     "locations": [
       "Pune - Business Bay"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -4312,7 +4312,7 @@
       "India - Bangalore",
       "India - Hyderabad"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
