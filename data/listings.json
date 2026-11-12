@@ -1178,6 +1178,29 @@
     "url": "https://careers.adobe.com/us/en/job/R172424"
   },
   {
+    "category": "product",
+    "closed_at": null,
+    "company": "Adobe",
+    "company_slug": "adobe",
+    "date_posted": "2026-11-12",
+    "enrichment": null,
+    "external_id": "R172738",
+    "first_seen": "2026-11-12T07:10:46.557385Z",
+    "id": "phenom:adobe:R172738",
+    "is_remote": false,
+    "last_seen": "2026-11-12",
+    "locations": [
+      "Bangalore, Karnātaka, India",
+      "Noida, Uttar Pradesh, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "phenom",
+    "status": "open",
+    "title": "2027 Intern - Product Design Intern",
+    "url": "https://careers.adobe.com/us/en/job/R172738"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "Adobe",
@@ -1201,23 +1224,23 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-11T19:31:01.606045Z",
+    "closed_at": null,
     "company": "Adobe",
     "company_slug": "adobe",
-    "date_posted": "2026-11-11",
+    "date_posted": "2026-11-12",
     "enrichment": null,
     "external_id": "R173562",
     "first_seen": "2026-11-11T13:11:12.029856Z",
     "id": "phenom:adobe:R173562",
     "is_remote": false,
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-12",
     "locations": [
       "Bangalore, Karnātaka, India"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "phenom",
-    "status": "closed",
+    "status": "open",
     "title": "Adobe Intern FY27",
     "url": "https://careers.adobe.com/us/en/job/R173562"
   },

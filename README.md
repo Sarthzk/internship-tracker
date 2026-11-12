@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**55 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
+**57 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
 
 ### Software Engineering (19)
 
@@ -82,10 +82,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Qualcomm<br><sub>Semiconductor</sub> | Interim Engineering Intern\_2027\_HW<br><sub>🎓 Masters, Bachelors: Electrical Engineering , VLSI , Embedde…</sub> | Bangalore, India; Hyderabad, Telangāna, India | 2027 | — | — | [Apply](https://careers.qualcomm.com/careers/job/446719784824) | 64d |
 | Google<br><sub>Big Tech</sub> | Silicon Engineering Intern, PhD, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109375266236572358) | 66d |
 
-### Product (5)
+### Product (6)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Adobe<br><sub>Big Tech</sub> | 2027 Intern - Product Design Intern | Bangalore, Karnātaka, India; Noida, Uttar Pradesh, India | 2027 | — | — | [Apply](https://careers.adobe.com/us/en/job/R172738) | 0d |
 | Rubrik<br><sub>Big Tech</sub> | Product Management Intern<br><sub>🎓 MBA/management program</sub> | Bangalore | — | 2027 | 2 mo | [Apply](https://www.rubrik.com/company/careers/departments/job.8345283?gh_jid=8345283) | 8d |
 | Juspay<br><sub>Fintech</sub> | Product Designer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PDE01) | 14d |
 | Microsoft<br><sub>Big Tech</sub> | Product Design INTERN | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556992502) | 63d |
@@ -98,10 +99,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 |---|---|---|---|---|---|---|---|
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 7d |
 
-### Other (16)
+### Other (17)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Adobe<br><sub>Big Tech</sub> | Adobe Intern FY27 | Bangalore, Karnātaka, India | — | — | — | [Apply](https://careers.adobe.com/us/en/job/R173562) | 0d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Order to Cash<br><sub>🎓 At least a bachelor's degree in any field or relevant disci…</sub> | Hyderabad, Telangana; IN - NOIDA CANDOR TECHSPACE SECTOR 62 | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Order-to-Cash_332023-1) | 1d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Channels Client On-boarding Specialist | Hyderabad, Telangana | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1) | 2d |
 | Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only) | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013357) | 3d |
