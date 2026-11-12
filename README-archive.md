@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**94 closed** · Last updated: 2026-11-12 (IST)
+**95 closed** · Last updated: 2026-11-12 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537) | 2026-11-05 | 2026-11-12 |
 | Hevo Data<br><sub>SaaS</sub> | UX Design Intern | Bangalore, India | — | — | — | [Apply](https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee) | 2026-07-08 | 2026-11-12 |
 | Analog Devices<br><sub>Semiconductor</sub> | Analog Design Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267594) | 2026-11-09 | 2026-11-12 |
 | Analog Devices<br><sub>Semiconductor</sub> | Product Application Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676) | 2026-11-07 | 2026-11-12 |

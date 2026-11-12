@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**56 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
+**55 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
 
 ### Software Engineering (19)
 
@@ -92,11 +92,10 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Microsoft<br><sub>Big Tech</sub> | Product Management INTERN<br><sub>🎓 Master of Business Administration (MBA)</sub> | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556978896) | 79d |
 | Glance<br><sub>Startup</sub> | UX Design - Intern | Bengaluru | — | — | — | [Apply](https://job-boards.greenhouse.io/glance/jobs/7916115) | 157d |
 
-### Core Engineering (2)
+### Core Engineering (1)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
-| Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537) | 7d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 7d |
 
 ### Other (16)

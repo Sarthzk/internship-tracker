@@ -1493,7 +1493,7 @@
   },
   {
     "category": "core",
-    "closed_at": null,
+    "closed_at": "2026-11-12T07:01:10.842864Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1514,10 +1514,10 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Internship - Technical Data",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537"
   },
