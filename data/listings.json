@@ -1130,7 +1130,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-12T19:10:48.923154Z",
     "company": "American Express",
     "company_slug": "american-express",
     "date_posted": "2026-11-04",
@@ -1151,10 +1151,10 @@
     "locations": [
       "Gurugram, HR, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "oracle_hcm",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice",
     "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26016056"
   },
@@ -3711,7 +3711,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-12T19:10:48.923154Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": null,
@@ -3732,10 +3732,10 @@
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Software Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1"
   },

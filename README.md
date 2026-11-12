@@ -27,14 +27,13 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**58 open internships** across 25 companies · Last updated: 2026-11-13 (IST)
+**56 open internships** across 25 companies · Last updated: 2026-11-13 (IST)
 
-### Software Engineering (20)
+### Software Engineering (19)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240121118) | 2d |
-| GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1) | 2d |
 | HP<br><sub>Big Tech</sub> | College Intern - Technical | Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India; Gurugram, Haryana, India | Summer | — | — | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1) | 2d |
 | PayPal<br><sub>Fintech</sub> | Software Engineer Intern<br><sub>🎓 Bachelor’s degree in Computer Science or related field</sub> | Bangalore, Karnataka, India; Chennai, Tamil Nadu, India | — | 2028 | — | [Apply](https://paypal.eightfold.ai/careers/job/274923210258) | 4d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 7d |
@@ -99,7 +98,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 |---|---|---|---|---|---|---|---|
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 8d |
 
-### Other (18)
+### Other (17)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -119,7 +118,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | College Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2) | 8d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1) | 8d |
 | Juspay<br><sub>Fintech</sub> | BD - Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=B-I01) | 8d |
-| American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 9d |
 | Rubrik<br><sub>Big Tech</sub> | ENG Project/ Program - Intern | Bangalore | — | 2027 | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8166514?gh_jid=8166514) | 68d |
 <!-- LISTINGS:END -->
 

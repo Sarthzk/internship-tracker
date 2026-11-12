@@ -2,10 +2,12 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**95 closed** · Last updated: 2026-11-13 (IST)
+**97 closed** · Last updated: 2026-11-13 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 2026-11-04 | 2026-11-13 |
+| GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1) | 2026-11-11 | 2026-11-13 |
 | Adobe<br><sub>Big Tech</sub> | 2027 Intern - Product Design Intern | Bangalore, Karnātaka, India; Noida, Uttar Pradesh, India | 2027 | — | — | [Apply](https://careers.adobe.com/us/en/job/R172738) | 2026-11-12 | 2026-11-12 |
 | Adobe<br><sub>Big Tech</sub> | Adobe Intern FY27 | Bangalore, Karnātaka, India | — | — | — | [Apply](https://careers.adobe.com/us/en/job/R173562) | 2026-11-12 | 2026-11-12 |
 | Airbus<br><sub>Industrial</sub> | Internship - Technical Data<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Technical-Data_JR10449537) | 2026-11-05 | 2026-11-12 |
