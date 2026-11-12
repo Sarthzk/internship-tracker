@@ -64,12 +64,12 @@
   },
   {
     "company_slug": "amd",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 57,
-    "last_error": null,
+    "last_error": "returned only 13 postings (previously 57)",
     "last_success": "2026-11-12",
-    "zero_since": null
+    "zero_since": "2026-11-12T06:01:08.649406Z"
   },
   {
     "company_slug": "american-express",
@@ -874,7 +874,7 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 659,
+    "consecutive_failures": 660,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",

@@ -3804,6 +3804,38 @@
     "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "HP",
+    "company_slug": "hp",
+    "date_posted": "2026-11-11",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-12T06:02:00.221533Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "summer"
+    },
+    "external_id": "3169164-1",
+    "first_seen": "2026-11-12T06:01:08.649406Z",
+    "id": "workday:hp:3169164-1",
+    "is_remote": false,
+    "last_seen": "2026-11-12",
+    "locations": [
+      "Bengaluru, Karnataka, India",
+      "Chennai, Tamil Nadu, India",
+      "Gurugram, Haryana, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "College Intern - Technical",
+    "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "Hewlett Packard Enterprise",
