@@ -311,6 +311,39 @@
     "url": "https://quadeye.zohorecruit.in/jobs/Careers/199893000002318440"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Citi",
+    "company_slug": "citi",
+    "date_posted": "2026-11-12",
+    "enrichment": {
+      "degree": "Bachelor's or Master's degree",
+      "duration_months": 2,
+      "eligible_batches": [
+        2026,
+        2027
+      ],
+      "enriched_at": "2026-11-12T12:21:37.344968Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "summer"
+    },
+    "external_id": "859038560823",
+    "first_seen": "2026-11-12T12:20:45.573211Z",
+    "id": "eightfold:citi:859038560823",
+    "is_remote": false,
+    "last_seen": "2026-11-12",
+    "locations": [
+      "MUMBAI, Mahārāshtra, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "eightfold",
+    "status": "open",
+    "title": "Banking - Commercial Banking, Summer Analyst, India – APAC, 2027",
+    "url": "https://citi.eightfold.ai/careers/job/859038560823"
+  },
+  {
     "category": "swe",
     "closed_at": "2026-11-10T07:31:05.201535Z",
     "company": "Eaton",
