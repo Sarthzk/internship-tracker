@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**58 open internships** across 25 companies · Last updated: 2026-11-12 (IST)
+**57 open internships** across 25 companies · Last updated: 2026-11-12 (IST)
 
 ### Software Engineering (20)
 
@@ -83,11 +83,10 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Qualcomm<br><sub>Semiconductor</sub> | Interim Engineering Intern\_2027\_HW<br><sub>🎓 Masters, Bachelors: Electrical Engineering , VLSI , Embedde…</sub> | Bangalore, India; Hyderabad, Telangāna, India | 2027 | — | — | [Apply](https://careers.qualcomm.com/careers/job/446719784824) | 64d |
 | Google<br><sub>Big Tech</sub> | Silicon Engineering Intern, PhD, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109375266236572358) | 66d |
 
-### Product (6)
+### Product (5)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
-| Adobe<br><sub>Big Tech</sub> | 2027 Intern - Product Design Intern | Bangalore, Karnātaka, India; Noida, Uttar Pradesh, India | 2027 | — | — | [Apply](https://careers.adobe.com/us/en/job/R172738) | 0d |
 | Rubrik<br><sub>Big Tech</sub> | Product Management Intern<br><sub>🎓 MBA/management program</sub> | Bangalore | — | 2027 | 2 mo | [Apply](https://www.rubrik.com/company/careers/departments/job.8345283?gh_jid=8345283) | 8d |
 | Juspay<br><sub>Fintech</sub> | Product Designer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PDE01) | 14d |
 | Microsoft<br><sub>Big Tech</sub> | Product Design INTERN | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556992502) | 63d |

@@ -1212,7 +1212,7 @@
   },
   {
     "category": "product",
-    "closed_at": null,
+    "closed_at": "2026-11-12T15:31:04.888890Z",
     "company": "Adobe",
     "company_slug": "adobe",
     "date_posted": "2026-11-12",
@@ -1226,10 +1226,10 @@
       "Bangalore, Karnātaka, India",
       "Noida, Uttar Pradesh, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "phenom",
-    "status": "open",
+    "status": "closed",
     "title": "2027 Intern - Product Design Intern",
     "url": "https://careers.adobe.com/us/en/job/R172738"
   },
