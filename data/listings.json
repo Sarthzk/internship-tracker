@@ -1151,7 +1151,7 @@
     "locations": [
       "Gurugram, HR, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "oracle_hcm",
     "status": "open",
@@ -3732,7 +3732,7 @@
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
