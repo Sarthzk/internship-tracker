@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 664 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 665 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-12 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-12 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-12 | 0 |
@@ -95,7 +95,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-12 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-12 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-12 | 0 |
-| Hevo Data | lever | ✅ OK | 2026-11-12 | 2 |
+| Hevo Data | lever | ✅ OK | 2026-11-12 | 1 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-12 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-12 | 0 |
 | HP | workday | ✅ OK | 2026-11-12 | 1 |

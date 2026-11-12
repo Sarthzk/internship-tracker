@@ -977,7 +977,7 @@
   },
   {
     "category": "product",
-    "closed_at": null,
+    "closed_at": "2026-11-12T06:50:42.925666Z",
     "company": "Hevo Data",
     "company_slug": "hevo-data",
     "date_posted": "2026-07-08",
@@ -998,10 +998,10 @@
     "locations": [
       "Bangalore, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "lever",
-    "status": "open",
+    "status": "closed",
     "title": "UX Design Intern",
     "url": "https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee"
   },

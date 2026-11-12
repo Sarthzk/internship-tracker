@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**57 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
+**56 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
 
 ### Software Engineering (19)
 
@@ -82,7 +82,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Qualcomm<br><sub>Semiconductor</sub> | Interim Engineering Intern\_2027\_HW<br><sub>🎓 Masters, Bachelors: Electrical Engineering , VLSI , Embedde…</sub> | Bangalore, India; Hyderabad, Telangāna, India | 2027 | — | — | [Apply](https://careers.qualcomm.com/careers/job/446719784824) | 64d |
 | Google<br><sub>Big Tech</sub> | Silicon Engineering Intern, PhD, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109375266236572358) | 66d |
 
-### Product (6)
+### Product (5)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -90,7 +90,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Juspay<br><sub>Fintech</sub> | Product Designer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PDE01) | 14d |
 | Microsoft<br><sub>Big Tech</sub> | Product Design INTERN | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556992502) | 63d |
 | Microsoft<br><sub>Big Tech</sub> | Product Management INTERN<br><sub>🎓 Master of Business Administration (MBA)</sub> | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556978896) | 79d |
-| Hevo Data<br><sub>SaaS</sub> | UX Design Intern | Bangalore, India | — | — | — | [Apply](https://jobs.lever.co/hevodata/433ffdef-3125-48ed-a131-52c697c321ee) | 127d |
 | Glance<br><sub>Startup</sub> | UX Design - Intern | Bengaluru | — | — | — | [Apply](https://job-boards.greenhouse.io/glance/jobs/7916115) | 157d |
 
 ### Core Engineering (2)
