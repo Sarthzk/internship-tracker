@@ -1224,7 +1224,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-12T09:30:58.820878Z",
     "company": "Adobe",
     "company_slug": "adobe",
     "date_posted": "2026-11-12",
@@ -1237,10 +1237,10 @@
     "locations": [
       "Bangalore, Karnātaka, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "phenom",
-    "status": "open",
+    "status": "closed",
     "title": "Adobe Intern FY27",
     "url": "https://careers.adobe.com/us/en/job/R173562"
   },
