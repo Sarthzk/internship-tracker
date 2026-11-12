@@ -3648,7 +3648,7 @@
   },
   {
     "category": "swe",
-    "closed_at": "2026-11-11T19:10:43.746248Z",
+    "closed_at": null,
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": null,
@@ -3665,14 +3665,14 @@
     "first_seen": "2026-11-11T05:50:42.117629Z",
     "id": "workday:ge-healthcare:R4041235-1",
     "is_remote": false,
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-12",
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Software Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1"
   },

@@ -27,13 +27,14 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**56 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
+**57 open internships** across 24 companies · Last updated: 2026-11-12 (IST)
 
-### Software Engineering (19)
+### Software Engineering (20)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240121118) | 1d |
+| GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1) | 1d |
 | HP<br><sub>Big Tech</sub> | College Intern - Technical | Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India; Gurugram, Haryana, India | Summer | — | — | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1) | 1d |
 | PayPal<br><sub>Fintech</sub> | Software Engineer Intern<br><sub>🎓 Bachelor’s degree in Computer Science or related field</sub> | Bangalore, Karnataka, India; Chennai, Tamil Nadu, India | — | 2028 | — | [Apply](https://paypal.eightfold.ai/careers/job/274923210258) | 3d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 6d |
