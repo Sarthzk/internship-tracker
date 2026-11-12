@@ -6,11 +6,11 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 723 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 724 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-12 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-12 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-12 | 0 |
-| AMD | custom | ✅ OK | 2026-11-12 | 0 |
+| AMD | custom | 🔍 verifying a drop in postings | 2026-11-12 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-12 | 1 |
 | Analog Devices | workday | ✅ OK | 2026-11-12 | 0 |
 | Apple | custom | ✅ OK | 2026-11-12 | 2 |
