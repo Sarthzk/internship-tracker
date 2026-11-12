@@ -2,7 +2,7 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**94 closed** · Last updated: 2026-11-12 (IST)
+**93 closed** · Last updated: 2026-11-12 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
@@ -12,7 +12,6 @@ Listings that are no longer on the company's career page. [Back to the open inte
 | GE HealthCare<br><sub>Industrial</sub> | Intern<br><sub>🎓 B.Tech or M.Tech in Computer Science Engineering, AI/ML</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4039959-1) | 2026-11-11 | 2026-11-12 |
 | GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041234-1) | 2026-11-11 | 2026-11-12 |
 | GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1) | 2026-11-11 | 2026-11-12 |
-| Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1) | 2026-11-05 | 2026-11-12 |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Apprentice<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Apprentice_1215489-2) | 2026-11-05 | 2026-11-12 |
 | Deutsche Bank<br><sub>Bank</sub> | IGTC Interns 2027<br><sub>🎓 PGPBA</sub> | Pune - Business Bay | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/IGTC-Interns-2027_R0452134) | 2026-11-11 | 2026-11-12 |
 | Deutsche Bank<br><sub>Bank</sub> | IGTC Interns 2027<br><sub>🎓 PGPBA</sub> | Pune - Business Bay | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/IGTC-Interns-2027_R0452193) | 2026-11-11 | 2026-11-12 |
