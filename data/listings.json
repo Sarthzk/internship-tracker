@@ -998,7 +998,7 @@
     "locations": [
       "Bangalore, India"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "lever",
     "status": "open",
@@ -3834,6 +3834,36 @@
     "status": "open",
     "title": "College Intern - Technical",
     "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Hewlett Packard Enterprise",
+    "company_slug": "hpe",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "PhD",
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-12T06:12:04.622568Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "1191423",
+    "first_seen": "2026-11-12T06:10:43.589728Z",
+    "id": "workday:hpe:1191423",
+    "is_remote": false,
+    "last_seen": "2026-11-12",
+    "locations": [
+      "Bengaluru, Karnātaka, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Ph D/Research Intern - AI Research Lab",
+    "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423"
   },
   {
     "category": "other",
