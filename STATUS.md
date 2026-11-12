@@ -2,11 +2,12 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-13 (IST)
+**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-13 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 748 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Cisco | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-12 | 0 |
+| NXP | workday | ⚠️ failing for 749 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-12 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-12 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-12 | 0 |
@@ -20,7 +21,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BlackRock | workday | ✅ OK | 2026-11-12 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-12 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-12 | 0 |
-| Cisco | workday | ✅ OK | 2026-11-12 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-12 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-12 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-12 | 0 |
