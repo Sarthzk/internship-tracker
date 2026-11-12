@@ -64,7 +64,7 @@
   },
   {
     "company_slug": "amd",
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "failure_alerted": true,
     "last_count": 56,
     "last_error": "returned only 13 postings (previously 56)",
@@ -874,7 +874,7 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 712,
+    "consecutive_failures": 713,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",
