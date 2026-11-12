@@ -2,11 +2,12 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-12 (IST)
+**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-12 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 625 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-11 | 4 |
+| NXP | workday | ⚠️ failing for 626 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-12 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-12 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-12 | 0 |
@@ -32,13 +33,12 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-12 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-12 | 0 |
 | Micron | workday | ✅ OK | 2026-11-12 | 0 |
-| Microsoft | eightfold | ✅ OK | 2026-11-11 | 4 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-12 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-12 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-12 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-12 | 1 |
 | Quadeye | custom | ✅ OK | 2026-11-12 | 3 |
-| Qualcomm | eightfold | ✅ OK | 2026-11-11 | 1 |
+| Qualcomm | eightfold | ✅ OK | 2026-11-12 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-12 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-12 | 3 |
 | Salesforce | workday | ✅ OK | 2026-11-12 | 0 |
