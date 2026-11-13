@@ -27,12 +27,13 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**57 open internships** across 26 companies · Last updated: 2026-11-13 (IST)
+**58 open internships** across 27 companies · Last updated: 2026-11-13 (IST)
 
-### Software Engineering (19)
+### Software Engineering (20)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Capital One<br><sub>Bank</sub> | Software Engineering Intern<br><sub>🎓 Bachelor's degree in Engineering or an Integrated Masters d…</sub> | Bangalore, In | Summer | 2027 | — | [Apply](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Bangalore-In/Software-Engineering-Intern_R1004749) | 0d |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240121118) | 2d |
 | HP<br><sub>Big Tech</sub> | College Intern - Technical | Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India; Gurugram, Haryana, India | Summer | — | — | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1) | 2d |
 | PayPal<br><sub>Fintech</sub> | Software Engineer Intern<br><sub>🎓 Bachelor’s degree in Computer Science or related field</sub> | Bangalore, Karnataka, India; Chennai, Tamil Nadu, India | — | 2028 | — | [Apply](https://paypal.eightfold.ai/careers/job/274923210258) | 4d |

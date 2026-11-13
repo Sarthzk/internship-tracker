@@ -1758,6 +1758,38 @@
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Capital One",
+    "company_slug": "capital-one",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor's degree in Engineering or an Integrated Masters degree",
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-13T11:32:16.879129Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "summer"
+    },
+    "external_id": "R1004749",
+    "first_seen": "2026-11-13T11:30:58.847649Z",
+    "id": "workday:capital-one:R1004749",
+    "is_remote": false,
+    "last_seen": "2026-11-13",
+    "locations": [
+      "Bangalore, In"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Software Engineering Intern",
+    "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Bangalore-In/Software-Engineering-Intern_R1004749"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "Caterpillar",
