@@ -3,8 +3,10 @@
 `POST https://{host}/wday/cxs/{tenant}/{site}/jobs` searches the board, 20 postings per page.
 We search for "intern" and, when the site offers an "India" location facet, ask the server for
 India only, so we never page through thousands of jobs. A posting with several locations only
-says "2 Locations" in the list, so those (and only those) get one detail request for the real
-locations and the start date.
+says "2 Locations" in the list, so those get one detail request for the real locations and the
+start date, but only when the title says internship: the search also matches job descriptions,
+so most hits are other roles that the filters drop anyway, and a detail request for each (one
+per second, per board) made large boards slower than the per-company time limit.
 
 The page limit is a safety net: if a board offers no location facet and has more matches than
 we are willing to page through, the fetch fails loudly instead of silently missing postings.
@@ -24,7 +26,7 @@ from tracker.fetchers.base import (
     post_json,
     register,
 )
-from tracker.filters import INDIA
+from tracker.filters import INDIA, is_internship
 from tracker.models import AtsType, Company, RawPosting
 
 PAGE_SIZE = 20  # Workday rejects larger limits
@@ -154,7 +156,11 @@ async def fetch(company: Company, client: httpx.AsyncClient) -> list[RawPosting]
         path = job["externalPath"]
         locations = [job["locationsText"]] if job.get("locationsText") else []
         date_posted = None
-        if len(locations) == 1 and _MULTI_LOCATION.fullmatch(locations[0].strip()):
+        if (
+            len(locations) == 1
+            and _MULTI_LOCATION.fullmatch(locations[0].strip())
+            and is_internship(job["title"])
+        ):
             info = await _detail(client, base, path)
             locations = _detail_locations(info) or locations
             date_posted = parse_iso_date(info.get("startDate"))

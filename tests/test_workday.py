@@ -181,6 +181,25 @@ async def test_multi_location_posting_gets_one_detail_request():
     assert "description" not in by_id["JR7"].model_dump()
 
 
+async def test_multi_location_posting_that_is_not_an_internship_gets_no_detail_request():
+    """The search also matches descriptions, so most hits are other roles: they are still
+    returned (the posting count stays stable) but are not worth a request each."""
+    other = job(7, title="Data Scientist", where="2 Locations")
+    senior = job(6, title="Senior Software Engineer Intern", where="3 Locations")
+    with respx.mock:
+        respx.post(SEARCH).mock(
+            side_effect=[
+                respx.MockResponse(200, json=page([job(9)], facets=SITE_FACETS)),
+                respx.MockResponse(200, json=page([other, senior, job(8)], facets=SITE_FACETS)),
+            ]
+        )
+        other_route = respx.get(f"{BASE}{other['externalPath']}").respond(200, json={})
+        senior_route = respx.get(f"{BASE}{senior['externalPath']}").respond(200, json={})
+        postings = await run_fetch()
+    assert other_route.call_count == 0 and senior_route.call_count == 0
+    assert {p.external_id for p in postings} == {"JR6", "JR7", "JR8"}
+
+
 async def test_detail_failure_fails_the_fetch():
     multi = job(7, where="3 Locations")
     with respx.mock:
