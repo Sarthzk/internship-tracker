@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**56 open internships** across 25 companies · Last updated: 2026-11-13 (IST)
+**57 open internships** across 26 companies · Last updated: 2026-11-13 (IST)
 
 ### Software Engineering (19)
 
@@ -98,10 +98,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 |---|---|---|---|---|---|---|---|
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 8d |
 
-### Other (17)
+### Other (18)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Caterpillar<br><sub>Industrial</sub> | CA / CMA Internship | Bangalore, Karnataka; Thiruvallur, Tamil Nadu; Chennai, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Bangalore-Karnataka/CA---CMA-Internship_R0000390980) | 0d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016514) | 1d |
 | Citi<br><sub>Bank</sub> | Banking - Commercial Banking, Summer Analyst, India – APAC, 2027<br><sub>🎓 Bachelor's or Master's degree</sub> | MUMBAI, Mahārāshtra, India | Summer 2027 | 2026, 2027 | 2 mo | [Apply](https://citi.eightfold.ai/careers/job/859038560823) | 1d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Order to Cash<br><sub>🎓 At least a bachelor's degree in any field or relevant disci…</sub> | Hyderabad, Telangana; IN - NOIDA CANDOR TECHSPACE SECTOR 62 | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Order-to-Cash_332023-1) | 2d |

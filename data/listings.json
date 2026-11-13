@@ -1759,6 +1759,38 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Caterpillar",
+    "company_slug": "caterpillar",
+    "date_posted": "2026-11-13",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-13T06:32:14.218968Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0000390980",
+    "first_seen": "2026-11-13T06:30:58.013932Z",
+    "id": "workday:caterpillar:R0000390980",
+    "is_remote": false,
+    "last_seen": "2026-11-13",
+    "locations": [
+      "Bangalore, Karnataka",
+      "Thiruvallur, Tamil Nadu",
+      "Chennai, Tamil Nadu"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "CA / CMA Internship",
+    "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Bangalore-Karnataka/CA---CMA-Internship_R0000390980"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-11T08:50:44.334736Z",
     "company": "Caterpillar",
     "company_slug": "caterpillar",
