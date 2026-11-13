@@ -6,10 +6,10 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Nvidia | workday | ⚠️ failing for 6 runs: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
-| NXP | workday | ⚠️ failing for 895 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Nvidia | workday | ⚠️ failing for 7 runs: FetchError: HTTP 502 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| NXP | workday | ⚠️ failing for 896 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | GE Vernova | workday | ⚠️ failing for 4 runs: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
-| Johnson Controls | workday | ⚠️ failing for 3 runs: ReadTimeout: | 2026-11-13 | 0 |
+| Johnson Controls | workday | ⚠️ failing for 4 runs: ReadTimeout: | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-13 | 0 |
