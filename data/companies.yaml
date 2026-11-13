@@ -978,8 +978,8 @@ companies:
     ats: workday
     ats_config: {host: nxp.wd3.myworkdayjobs.com, tenant: nxp, site: careers}
     careers_url: https://nxp.wd3.myworkdayjobs.com/careers
-    enabled: true
-    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29.'
+    enabled: false
+    notes: 'Workday board found 2026-10-29 by probing; has India postings. Cloud-checked 2026-10-29. Switched off 2026-11-14: the whole Workday tenant has answered HTTP 422/500 for every site name since 2026-11-07. Re-enable (enabled: true) when the board is back, or find the new board if NXP moved platforms.'
   - name: Cadence
     slug: cadence
     tier: 1
