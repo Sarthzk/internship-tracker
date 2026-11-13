@@ -2,13 +2,15 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 160 OK · 3 failing · 11 not tracked · Last updated: 2026-11-14 (IST)
+**163 companies tracked** · 158 OK · 5 failing · 11 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 889 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Nvidia | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
+| NXP | workday | ⚠️ failing for 890 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Qualcomm | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from qualcomm.eightfold.ai | 2026-11-13 | 1 |
 | GE Vernova | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
+| Johnson Controls | workday | ⚠️ failing for 1 run: ReadTimeout: | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-13 | 0 |
@@ -36,7 +38,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Micron | workday | ✅ OK | 2026-11-13 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-13 | 4 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-13 | 0 |
-| Nvidia | workday | ✅ OK | 2026-11-13 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-13 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-13 | 1 |
 | Quadeye | custom | ✅ OK | 2026-11-13 | 3 |
@@ -104,7 +105,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Invesco | workday | ✅ OK | 2026-11-13 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-13 | 0 |
 | JFrog | greenhouse | ✅ OK | 2026-11-13 | 0 |
-| Johnson Controls | workday | ✅ OK | 2026-11-13 | 0 |
 | Jump Trading | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Juspay | custom | ✅ OK | 2026-11-13 | 5 |
 | Kong | ashby | ✅ OK | 2026-11-13 | 0 |
