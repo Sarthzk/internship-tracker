@@ -2,13 +2,16 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 159 OK · 3 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
+**162 companies tracked** · 156 OK · 6 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Nvidia | workday | ⚠️ failing for 14 runs: FetchError: HTTP 502 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Cisco | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Nvidia | workday | ⚠️ failing for 15 runs: FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Visa | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Caterpillar | workday | ⚠️ failing for 4 runs: FetchError: HTTP 502 from cat.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Johnson Controls | workday | ⚠️ failing for 7 runs: ReadTimeout: | 2026-11-13 | 0 |
+| Johnson Controls | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from jci.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| S&P Global | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from spgi.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-13 | 0 |
@@ -22,7 +25,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BlackRock | workday | ✅ OK | 2026-11-13 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-13 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-13 | 0 |
-| Cisco | workday | ✅ OK | 2026-11-13 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-13 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-13 | 0 |
@@ -50,7 +52,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Tower Research Capital | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Twilio | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-13 | 0 |
-| Visa | workday | ✅ OK | 2026-11-13 | 0 |
 | Wells Fargo | workday | ✅ OK | 2026-11-13 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-13 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-13 | 0 |
@@ -134,7 +135,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-13 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-13 | 1 |
 | Sabre | workday | ✅ OK | 2026-11-13 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-13 | 0 |
