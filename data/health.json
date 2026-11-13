@@ -127,10 +127,10 @@
   },
   {
     "company_slug": "apple",
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "failure_alerted": true,
     "last_count": 101,
-    "last_error": "ReadTimeout: ",
+    "last_error": "TimeoutError: no answer within 120s",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -874,7 +874,7 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 786,
+    "consecutive_failures": 787,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",

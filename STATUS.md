@@ -6,8 +6,8 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Apple | custom | ⚠️ failing for 5 runs: ReadTimeout: | 2026-11-13 | 2 |
-| NXP | workday | ⚠️ failing for 786 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| Apple | custom | ⚠️ failing for 6 runs: TimeoutError: no answer within 120s | 2026-11-13 | 2 |
+| NXP | workday | ⚠️ failing for 787 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-13 | 0 |
