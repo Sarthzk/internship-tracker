@@ -1,7 +1,7 @@
 [
   {
     "company_slug": "abbott",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 39,
     "last_error": "FetchError: HTTP 521 from abbott.wd5.myworkdayjobs.com",
@@ -82,10 +82,10 @@
   },
   {
     "company_slug": "ameriprise-financial",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 14,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 521 from ameriprise.wd5.myworkdayjobs.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -244,7 +244,7 @@
   },
   {
     "company_slug": "caterpillar",
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "failure_alerted": true,
     "last_count": 75,
     "last_error": "FetchError: HTTP 521 from cat.wd5.myworkdayjobs.com",
@@ -253,25 +253,25 @@
   },
   {
     "company_slug": "ciena",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 7,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 521 from ciena.wd5.myworkdayjobs.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
   {
     "company_slug": "cigna",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 84,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 521 from cigna.wd5.myworkdayjobs.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
   {
     "company_slug": "cisco",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 125,
     "last_error": "FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com",
@@ -442,7 +442,7 @@
   },
   {
     "company_slug": "f5",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 18,
     "last_error": "FetchError: HTTP 521 from ffive.wd5.myworkdayjobs.com",
@@ -487,16 +487,16 @@
   },
   {
     "company_slug": "ge-healthcare",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 65,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 521 from gehc.wd5.myworkdayjobs.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
   {
     "company_slug": "ge-vernova",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 176,
     "last_error": "FetchError: HTTP 521 from gevernova.wd5.myworkdayjobs.com",
@@ -568,7 +568,7 @@
   },
   {
     "company_slug": "guidewire",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 21,
     "last_error": "FetchError: HTTP 521 from guidewire.wd5.myworkdayjobs.com",
@@ -604,7 +604,7 @@
   },
   {
     "company_slug": "hpe",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 188,
     "last_error": "FetchError: HTTP 521 from hpe.wd5.myworkdayjobs.com",
@@ -811,10 +811,10 @@
   },
   {
     "company_slug": "motorola-solutions",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 7,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 521 from motorolasolutions.wd5.myworkdayjobs.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -865,7 +865,7 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 17,
+    "consecutive_failures": 18,
     "failure_alerted": true,
     "last_count": 74,
     "last_error": "FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com",
@@ -1369,7 +1369,7 @@
   },
   {
     "company_slug": "visa",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 38,
     "last_error": "FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com",
@@ -1405,7 +1405,7 @@
   },
   {
     "company_slug": "workday",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 14,
     "last_error": "FetchError: HTTP 521 from workday.wd5.myworkdayjobs.com",
