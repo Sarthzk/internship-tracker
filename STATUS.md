@@ -2,16 +2,22 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 156 OK · 6 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
+**162 companies tracked** · 150 OK · 12 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Cisco | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Nvidia | workday | ⚠️ failing for 15 runs: FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Visa | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Caterpillar | workday | ⚠️ failing for 4 runs: FetchError: HTTP 502 from cat.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Cisco | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Nvidia | workday | ⚠️ failing for 16 runs: FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Visa | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Abbott | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from abbott.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Caterpillar | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from cat.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| F5 | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from ffive.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| GE Vernova | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from gevernova.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Guidewire | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from guidewire.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from hpe.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
 | Johnson Controls | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from jci.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | S&P Global | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from spgi.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Workday | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from workday.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-13 | 0 |
@@ -53,7 +59,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Twilio | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-13 | 0 |
 | Wells Fargo | workday | ✅ OK | 2026-11-13 | 0 |
-| Abbott | workday | ✅ OK | 2026-11-13 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Airbus | workday | ✅ OK | 2026-11-13 | 6 |
@@ -84,20 +89,16 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Elastic | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Equifax | workday | ✅ OK | 2026-11-13 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-13 | 0 |
-| F5 | workday | ✅ OK | 2026-11-13 | 0 |
 | Fidelity Investments | workday | ✅ OK | 2026-11-13 | 0 |
 | Figma | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-13 | 0 |
 | GE HealthCare | workday | ✅ OK | 2026-11-13 | 2 |
-| GE Vernova | workday | ✅ OK | 2026-11-13 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-13 | 1 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-13 | 0 |
-| Guidewire | workday | ✅ OK | 2026-11-13 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-13 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-13 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | HP | workday | ✅ OK | 2026-11-13 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-13 | 0 |
@@ -161,7 +162,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Vercel | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Wolters Kluwer | workday | ✅ OK | 2026-11-13 | 0 |
-| Workday | workday | ✅ OK | 2026-11-13 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Zebra Technologies | workday | ✅ OK | 2026-11-13 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-13 | 0 |
