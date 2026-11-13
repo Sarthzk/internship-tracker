@@ -6,6 +6,7 @@ Listings that are no longer on the company's career page. [Back to the open inte
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Capital One<br><sub>Bank</sub> | Software Engineering Intern<br><sub>🎓 Bachelor's degree in Engineering or an Integrated Masters d…</sub> | Bangalore, In | Summer | 2027 | — | [Apply](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Bangalore-In/Software-Engineering-Intern_R1004749) | 2026-11-13 | 2026-11-13 |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 2026-11-04 | 2026-11-13 |
 | GE HealthCare<br><sub>Industrial</sub> | Software Intern | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1) | 2026-11-11 | 2026-11-13 |
 | Adobe<br><sub>Big Tech</sub> | 2027 Intern - Product Design Intern | Bangalore, Karnātaka, India; Noida, Uttar Pradesh, India | 2027 | — | — | [Apply](https://careers.adobe.com/us/en/job/R172738) | 2026-11-12 | 2026-11-12 |
@@ -96,7 +97,6 @@ Listings that are no longer on the company's career page. [Back to the open inte
 | GE HealthCare<br><sub>Industrial</sub> | EID Intern<br><sub>🎓 Bachelors/technical program</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/EID-Intern_R4045415-1) | 2026-11-06 | 2026-11-08 |
 | Wells Fargo<br><sub>Bank</sub> | 2027 Technology Program Intern<br><sub>🎓 Bachelor's degree in engineering</sub> | Bengaluru, India; Hyderabad, India | Summer 2027 | 2028 | — | [Apply](https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386) | 2026-11-05 | 2026-11-08 |
 | Philips<br><sub>Industrial</sub> | Intern<br><sub>🎓 Architecture, Civil Engineering, etc.</sub> | Chennai (ex Madras) | 6 months | — | 6 mo | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822) | 2026-11-05 | 2026-11-07 |
-| Ciena<br><sub>Big Tech</sub> | C/C++/Python/Jana Intern | Gurugram | — | — | — | [Apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/C-C---Python-Jana-Intern_R031854) | 2026-11-05 | 2026-11-06 |
 | Google<br><sub>Big Tech</sub> | User Experience Design Intern, Summer 2027, YouTube UX | Bengaluru, Karnataka, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/78252225691820742) | 2026-10-28 | 2026-11-04 |
 | American Express<br><sub>Fintech</sub> | Apprentice | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26015791) | 2026-10-27 | 2026-11-04 |
 | Intel<br><sub>Semiconductor</sub> | Attraction Req : Intern<br><sub>🎓 Bachelor's degree / Masters in Computer Science/IT/Electron…</sub> | India, Bangalore | — | — | — | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777) | 2026-11-03 | 2026-11-03 |

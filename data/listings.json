@@ -1759,7 +1759,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-13T13:10:46.626533Z",
     "company": "Capital One",
     "company_slug": "capital-one",
     "date_posted": null,
@@ -1782,10 +1782,10 @@
     "locations": [
       "Bangalore, In"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Software Engineering Intern",
     "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Bangalore-In/Software-Engineering-Intern_R1004749"
   },
@@ -1857,7 +1857,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-06T07:10:42.631847Z",
+    "closed_at": null,
     "company": "Ciena",
     "company_slug": "ciena",
     "date_posted": null,
@@ -1874,14 +1874,14 @@
     "first_seen": "2026-11-05T06:50:42.824223Z",
     "id": "workday:ciena:R031854",
     "is_remote": false,
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-13",
     "locations": [
       "Gurugram"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "C/C++/Python/Jana Intern",
     "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/C-C---Python-Jana-Intern_R031854"
   },
