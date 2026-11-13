@@ -667,8 +667,8 @@
   },
   {
     "company_slug": "johnson-controls",
-    "consecutive_failures": 2,
-    "failure_alerted": false,
+    "consecutive_failures": 3,
+    "failure_alerted": true,
     "last_count": 54,
     "last_error": "ReadTimeout: ",
     "last_success": "2026-11-13",
@@ -865,16 +865,16 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 4,
+    "consecutive_failures": 5,
     "failure_alerted": true,
     "last_count": 74,
-    "last_error": "ReadTimeout: ",
+    "last_error": "TimeoutError: no answer within 120s",
     "last_success": "2026-11-13",
     "zero_since": null
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 893,
+    "consecutive_failures": 894,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",
