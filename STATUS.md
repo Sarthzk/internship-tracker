@@ -6,14 +6,15 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Apple | custom | ⚠️ failing for 1 run: ReadTimeout: | 2026-11-13 | 2 |
-| NXP | workday | ⚠️ failing for 877 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| NXP | workday | ⚠️ failing for 878 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| S&P Global | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-13 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-13 | 0 |
 | AMD | custom | ✅ OK | 2026-11-13 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-13 | 1 |
 | Analog Devices | workday | ✅ OK | 2026-11-13 | 0 |
+| Apple | custom | ✅ OK | 2026-11-13 | 2 |
 | Applied Materials | workday | ✅ OK | 2026-11-13 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-13 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-13 | 0 |
@@ -135,7 +136,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-13 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-13 | 2 |
 | Sabre | workday | ✅ OK | 2026-11-13 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-13 | 0 |
