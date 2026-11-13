@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 161 OK · 2 failing · 11 not tracked · Last updated: 2026-11-13 (IST)
+**163 companies tracked** · 162 OK · 1 failing · 11 not tracked · Last updated: 2026-11-13 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| NXP | workday | ⚠️ failing for 776 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
-| Johnson Controls | workday | ⚠️ failing for 1 run: FetchError: HTTP 502 from jci.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| NXP | workday | ⚠️ failing for 777 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-13 | 0 |
@@ -105,6 +104,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Invesco | workday | ✅ OK | 2026-11-13 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-13 | 0 |
 | JFrog | greenhouse | ✅ OK | 2026-11-13 | 0 |
+| Johnson Controls | workday | ✅ OK | 2026-11-13 | 0 |
 | Jump Trading | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Juspay | custom | ✅ OK | 2026-11-13 | 5 |
 | Kong | ashby | ✅ OK | 2026-11-13 | 0 |

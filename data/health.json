@@ -667,10 +667,10 @@
   },
   {
     "company_slug": "johnson-controls",
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 54,
-    "last_error": "FetchError: HTTP 502 from jci.wd5.myworkdayjobs.com",
+    "last_error": null,
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -874,7 +874,7 @@
   },
   {
     "company_slug": "nxp",
-    "consecutive_failures": 776,
+    "consecutive_failures": 777,
     "failure_alerted": true,
     "last_count": 48,
     "last_error": "FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com",
