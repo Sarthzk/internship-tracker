@@ -6,9 +6,9 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Nvidia | workday | ⚠️ failing for 12 runs: FetchError: HTTP 502 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Nvidia | workday | ⚠️ failing for 13 runs: FetchError: HTTP 502 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
 | Caterpillar | workday | ⚠️ failing for 3 runs: FetchError: HTTP 429 from cat.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Johnson Controls | workday | ⚠️ failing for 6 runs: FetchError: HTTP 502 from jci.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Johnson Controls | workday | ⚠️ failing for 7 runs: ReadTimeout: | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-13 | 0 |
