@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**98 closed** · Last updated: 2026-11-14 (IST)
+**99 closed** · Last updated: 2026-11-14 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| S&P Global<br><sub>Finance</sub> | Apprentice, Order to Cash<br><sub>🎓 At least a bachelor's degree in any field or relevant disci…</sub> | Hyderabad, Telangana; IN - NOIDA CANDOR TECHSPACE SECTOR 62 | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Order-to-Cash_332023-1) | 2026-11-11 | 2026-11-14 |
 | Ciena<br><sub>Big Tech</sub> | C/C++/Python/Jana Intern | Gurugram | — | — | — | [Apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/C-C---Python-Jana-Intern_R031854) | 2026-11-05 | 2026-11-13 |
 | Capital One<br><sub>Bank</sub> | Software Engineering Intern<br><sub>🎓 Bachelor's degree in Engineering or an Integrated Masters d…</sub> | Bangalore, In | Summer | 2027 | — | [Apply](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Bangalore-In/Software-Engineering-Intern_R1004749) | 2026-11-13 | 2026-11-13 |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 2026-11-04 | 2026-11-13 |
