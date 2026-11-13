@@ -2,14 +2,13 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**163 companies tracked** · 158 OK · 5 failing · 11 not tracked · Last updated: 2026-11-14 (IST)
+**163 companies tracked** · 159 OK · 4 failing · 11 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Nvidia | workday | ⚠️ failing for 5 runs: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
-| NXP | workday | ⚠️ failing for 894 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
-| Caterpillar | workday | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
-| GE Vernova | workday | ⚠️ failing for 3 runs: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
+| Nvidia | workday | ⚠️ failing for 6 runs: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
+| NXP | workday | ⚠️ failing for 895 runs: FetchError: HTTP 422 from nxp.wd3.myworkdayjobs.com | 2026-11-07 | 2 |
+| GE Vernova | workday | ⚠️ failing for 4 runs: TimeoutError: no answer within 120s | 2026-11-13 | 1 |
 | Johnson Controls | workday | ⚠️ failing for 3 runs: ReadTimeout: | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-13 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-13 | 0 |
@@ -68,6 +67,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Bosch | smartrecruiters | ✅ OK | 2026-11-13 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-13 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-13 | 0 |
+| Caterpillar | workday | ✅ OK | 2026-11-13 | 1 |
 | Ciena | workday | ✅ OK | 2026-11-13 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-13 | 3 |
 | Citi | eightfold | ✅ OK | 2026-11-13 | 1 |
