@@ -631,7 +631,7 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 111,
+    "consecutive_failures": 112,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1234,7 +1234,7 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 59,
+    "consecutive_failures": 60,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from community.workday.com",
