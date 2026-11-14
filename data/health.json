@@ -1234,10 +1234,10 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 64,
+    "consecutive_failures": 65,
     "failure_alerted": true,
     "last_count": 30,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
