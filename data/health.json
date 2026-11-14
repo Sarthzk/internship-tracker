@@ -64,7 +64,7 @@
   },
   {
     "company_slug": "amd",
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "failure_alerted": true,
     "last_count": 56,
     "last_error": "returned only 12 postings (previously 56)",
@@ -100,10 +100,10 @@
   },
   {
     "company_slug": "analog-devices",
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 13,
-    "last_error": "FetchError: HTTP 521 from analogdevices.wd1.myworkdayjobs.com",
+    "last_error": null,
     "last_success": "2026-11-14",
     "zero_since": null
   },
@@ -136,7 +136,7 @@
   },
   {
     "company_slug": "applied-materials",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 71,
     "last_error": "FetchError: HTTP 521 from amat.wd1.myworkdayjobs.com",
@@ -181,7 +181,7 @@
   },
   {
     "company_slug": "baxter",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 7,
     "last_error": "FetchError: HTTP 521 from baxter.wd1.myworkdayjobs.com",
@@ -190,7 +190,7 @@
   },
   {
     "company_slug": "blackrock",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 20,
     "last_error": "FetchError: HTTP 521 from blackrock.wd1.myworkdayjobs.com",
@@ -226,7 +226,7 @@
   },
   {
     "company_slug": "cadence",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 29,
     "last_error": "FetchError: HTTP 521 from cadence.wd1.myworkdayjobs.com",
@@ -271,7 +271,7 @@
   },
   {
     "company_slug": "cisco",
-    "consecutive_failures": 17,
+    "consecutive_failures": 18,
     "failure_alerted": true,
     "last_count": 125,
     "last_error": "FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com",
@@ -298,7 +298,7 @@
   },
   {
     "company_slug": "cohesity",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 8,
     "last_error": "FetchError: HTTP 521 from cohesity.wd5.myworkdayjobs.com",
@@ -424,7 +424,7 @@
   },
   {
     "company_slug": "equifax",
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "failure_alerted": true,
     "last_count": 18,
     "last_error": "FetchError: HTTP 521 from equifax.wd5.myworkdayjobs.com",
@@ -595,7 +595,7 @@
   },
   {
     "company_slug": "hp",
-    "consecutive_failures": 7,
+    "consecutive_failures": 8,
     "failure_alerted": true,
     "last_count": 39,
     "last_error": "FetchError: HTTP 521 from hp.wd5.myworkdayjobs.com",
@@ -631,8 +631,8 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 2,
-    "failure_alerted": false,
+    "consecutive_failures": 3,
+    "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: HTTP 521 from intel.wd1.myworkdayjobs.com",
     "last_success": "2026-11-14",
@@ -640,7 +640,7 @@
   },
   {
     "company_slug": "invesco",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 43,
     "last_error": "FetchError: HTTP 521 from invesco.wd1.myworkdayjobs.com",
@@ -667,7 +667,7 @@
   },
   {
     "company_slug": "johnson-controls",
-    "consecutive_failures": 15,
+    "consecutive_failures": 16,
     "failure_alerted": true,
     "last_count": 54,
     "last_error": "FetchError: HTTP 521 from jci.wd5.myworkdayjobs.com",
@@ -730,7 +730,7 @@
   },
   {
     "company_slug": "marvell",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 8,
     "last_error": "FetchError: HTTP 521 from marvell.wd1.myworkdayjobs.com",
@@ -739,7 +739,7 @@
   },
   {
     "company_slug": "mastercard",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 76,
     "last_error": "FetchError: HTTP 521 from mastercard.wd1.myworkdayjobs.com",
@@ -757,7 +757,7 @@
   },
   {
     "company_slug": "micron",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 332,
     "last_error": "FetchError: HTTP 521 from micron.wd1.myworkdayjobs.com",
@@ -847,7 +847,7 @@
   },
   {
     "company_slug": "northern-trust",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 46,
     "last_error": "FetchError: HTTP 521 from ntrs.wd1.myworkdayjobs.com",
@@ -865,7 +865,7 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 31,
+    "consecutive_failures": 32,
     "failure_alerted": true,
     "last_count": 74,
     "last_error": "FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com",
@@ -928,7 +928,7 @@
   },
   {
     "company_slug": "palo-alto-networks",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 57,
     "last_error": "FetchError: HTTP 521 from paloaltonetworks.wd5.myworkdayjobs.com",
@@ -991,10 +991,10 @@
   },
   {
     "company_slug": "ptc",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 9,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 521 from ptc.wd1.myworkdayjobs.com",
     "last_success": "2026-11-14",
     "zero_since": null
   },
@@ -1054,7 +1054,7 @@
   },
   {
     "company_slug": "rockwell-automation",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 16,
     "last_error": "FetchError: HTTP 521 from rockwellautomation.wd1.myworkdayjobs.com",
@@ -1162,7 +1162,7 @@
   },
   {
     "company_slug": "sp-global",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 58,
     "last_error": "FetchError: HTTP 521 from spgi.wd5.myworkdayjobs.com",
@@ -1171,7 +1171,7 @@
   },
   {
     "company_slug": "sprinklr",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 6,
     "last_error": "FetchError: HTTP 521 from sprinklr.wd1.myworkdayjobs.com",
@@ -1234,7 +1234,7 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: HTTP 521 from target.wd5.myworkdayjobs.com",
@@ -1270,7 +1270,7 @@
   },
   {
     "company_slug": "thomson-reuters",
-    "consecutive_failures": 7,
+    "consecutive_failures": 8,
     "failure_alerted": true,
     "last_count": 41,
     "last_error": "FetchError: HTTP 521 from thomsonreuters.wd5.myworkdayjobs.com",
@@ -1297,7 +1297,7 @@
   },
   {
     "company_slug": "transunion",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 17,
     "last_error": "FetchError: HTTP 521 from transunion.wd5.myworkdayjobs.com",
@@ -1306,7 +1306,7 @@
   },
   {
     "company_slug": "trimble",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 12,
     "last_error": "FetchError: HTTP 521 from trimble.wd1.myworkdayjobs.com",
@@ -1342,7 +1342,7 @@
   },
   {
     "company_slug": "unisys",
-    "consecutive_failures": 4,
+    "consecutive_failures": 5,
     "failure_alerted": true,
     "last_count": 27,
     "last_error": "FetchError: HTTP 521 from unisys.wd5.myworkdayjobs.com",
@@ -1369,7 +1369,7 @@
   },
   {
     "company_slug": "visa",
-    "consecutive_failures": 17,
+    "consecutive_failures": 18,
     "failure_alerted": true,
     "last_count": 38,
     "last_error": "FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com",
@@ -1387,7 +1387,7 @@
   },
   {
     "company_slug": "wells-fargo",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 75,
     "last_error": "FetchError: HTTP 521 from wf.wd1.myworkdayjobs.com",
