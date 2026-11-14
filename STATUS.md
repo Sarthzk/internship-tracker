@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-15 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-15 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Intel | workday | ⚠️ failing for 112 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
 | Target | workday | ⚠️ failing for 60 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-14 | 0 |
@@ -28,6 +27,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Goldman Sachs | custom | ✅ OK | 2026-11-14 | 0 |
 | Google | custom | ✅ OK | 2026-11-14 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-14 | 0 |
+| Intel | workday | ✅ OK | 2026-11-14 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-14 | 0 |
 | Marvell | workday | ✅ OK | 2026-11-14 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-14 | 0 |
