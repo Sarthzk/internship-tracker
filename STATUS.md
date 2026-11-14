@@ -2,46 +2,45 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 131 OK · 31 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
+**162 companies tracked** · 133 OK · 29 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Analog Devices | workday | ⚠️ failing for 87 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Applied Materials | workday | ⚠️ failing for 84 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| BlackRock | workday | ⚠️ failing for 89 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Cadence | workday | ⚠️ failing for 89 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Intel | workday | ⚠️ failing for 90 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Marvell | workday | ⚠️ failing for 89 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 5 |
-| Mastercard | workday | ⚠️ failing for 89 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Micron | workday | ⚠️ failing for 89 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Nvidia | workday | ⚠️ failing for 119 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 1 |
-| Wells Fargo | workday | ⚠️ failing for 89 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Applied Materials | workday | ⚠️ failing for 85 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| BlackRock | workday | ⚠️ failing for 90 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Cadence | workday | ⚠️ failing for 90 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Intel | workday | ⚠️ failing for 91 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Marvell | workday | ⚠️ failing for 90 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 5 |
+| Mastercard | workday | ⚠️ failing for 90 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Micron | workday | ⚠️ failing for 90 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Nvidia | workday | ⚠️ failing for 120 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 1 |
+| Wells Fargo | workday | ⚠️ failing for 90 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
 | Abbott | workday | ⚠️ failing for 53 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
 | Ameriprise Financial | workday | ⚠️ failing for 52 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
-| Baxter | workday | ⚠️ failing for 45 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Baxter | workday | ⚠️ failing for 46 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
 | Broadcom | workday | ⚠️ failing for 44 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
 | Caterpillar | workday | ⚠️ failing for 57 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 1 |
 | Cigna | workday | ⚠️ failing for 52 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 3 |
 | Fidelity Investments | workday | ⚠️ failing for 45 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
 | Hewlett Packard Enterprise | workday | ⚠️ failing for 53 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 3 |
-| HP | workday | ⚠️ failing for 51 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 1 |
-| Invesco | workday | ⚠️ failing for 45 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Johnson Controls | workday | ⚠️ failing for 59 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
-| Northern Trust | workday | ⚠️ failing for 45 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| PTC | workday | ⚠️ failing for 44 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Rockwell Automation | workday | ⚠️ failing for 45 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| S&P Global | workday | ⚠️ failing for 47 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 1 |
+| HP | workday | ⚠️ failing for 52 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 1 |
+| Invesco | workday | ⚠️ failing for 46 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Johnson Controls | workday | ⚠️ failing for 60 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
+| Northern Trust | workday | ⚠️ failing for 46 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Rockwell Automation | workday | ⚠️ failing for 46 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| S&P Global | workday | ⚠️ failing for 48 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 1 |
 | State Street | workday | ⚠️ failing for 44 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
 | Stryker | workday | ⚠️ failing for 45 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
-| Target | workday | ⚠️ failing for 49 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
-| Thomson Reuters | workday | ⚠️ failing for 51 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
-| US Bank | workday | ⚠️ failing for 43 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
+| Target | workday | ⚠️ failing for 50 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
+| Thomson Reuters | workday | ⚠️ failing for 52 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
+| US Bank | workday | ⚠️ failing for 44 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-14 | 0 |
 | Workday | workday | ⚠️ failing for 53 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-14 | 0 |
 | AMD | custom | ✅ OK | 2026-11-14 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-14 | 1 |
+| Analog Devices | workday | ✅ OK | 2026-11-14 | 0 |
 | Apple | custom | ✅ OK | 2026-11-14 | 2 |
 | Atlassian | custom | ✅ OK | 2026-11-14 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-14 | 0 |
@@ -138,6 +137,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-14 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-14 | 0 |
 | Postman | workday | ✅ OK | 2026-11-14 | 0 |
+| PTC | workday | ✅ OK | 2026-11-14 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-14 | 0 |
