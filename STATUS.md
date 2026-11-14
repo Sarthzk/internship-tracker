@@ -2,59 +2,61 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 119 OK · 43 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
+**162 companies tracked** · 116 OK · 46 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Applied Materials | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from amat.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| BlackRock | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from blackrock.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Cadence | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from cadence.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Cisco | workday | ⚠️ failing for 18 runs: FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Analog Devices | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from analogdevices.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Applied Materials | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from amat.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| BlackRock | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from blackrock.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Cadence | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from cadence.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Cisco | workday | ⚠️ failing for 19 runs: FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Cohesity | workday | ⚠️ failing for 4 runs: FetchError: HTTP 521 from cohesity.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Intel | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from intel.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Marvell | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from marvell.wd1.myworkdayjobs.com | 2026-11-14 | 5 |
-| Mastercard | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from mastercard.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Micron | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from micron.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Nvidia | workday | ⚠️ failing for 32 runs: FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Visa | workday | ⚠️ failing for 18 runs: FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Wells Fargo | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from wf.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Abbott | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from abbott.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Ameriprise Financial | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from ameriprise.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Intel | workday | ⚠️ failing for 4 runs: FetchError: HTTP 521 from intel.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Marvell | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from marvell.wd1.myworkdayjobs.com | 2026-11-14 | 5 |
+| Mastercard | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from mastercard.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Micron | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from micron.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Nvidia | workday | ⚠️ failing for 33 runs: FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Visa | workday | ⚠️ failing for 19 runs: FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Wells Fargo | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from wf.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Abbott | workday | ⚠️ failing for 10 runs: FetchError: HTTP 521 from abbott.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Ameriprise Financial | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from ameriprise.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Baxter | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from baxter.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Caterpillar | workday | ⚠️ failing for 13 runs: FetchError: HTTP 521 from cat.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Ciena | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from ciena.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Cigna | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from cigna.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
+| Broadcom | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from broadcom.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Caterpillar | workday | ⚠️ failing for 14 runs: FetchError: HTTP 521 from cat.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Ciena | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from ciena.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Cigna | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from cigna.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
 | Equifax | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from equifax.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| F5 | workday | ⚠️ failing for 4 runs: FetchError: HTTP 521 from ffive.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Fidelity Investments | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from fmr.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| GE HealthCare | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from gehc.wd5.myworkdayjobs.com | 2026-11-13 | 2 |
-| GE Vernova | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from gevernova.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Guidewire | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from guidewire.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Hewlett Packard Enterprise | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from hpe.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
+| F5 | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from ffive.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Fidelity Investments | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from fmr.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| GE HealthCare | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from gehc.wd5.myworkdayjobs.com | 2026-11-13 | 2 |
+| GE Vernova | workday | ⚠️ failing for 10 runs: FetchError: HTTP 521 from gevernova.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Guidewire | workday | ⚠️ failing for 10 runs: FetchError: HTTP 521 from guidewire.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 10 runs: FetchError: HTTP 521 from hpe.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
 | HP | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from hp.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
 | Invesco | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from invesco.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
 | Johnson Controls | workday | ⚠️ failing for 16 runs: FetchError: HTTP 521 from jci.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Motorola Solutions | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from motorolasolutions.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Motorola Solutions | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from motorolasolutions.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Northern Trust | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from ntrs.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
 | Palo Alto Networks | workday | ⚠️ failing for 4 runs: FetchError: HTTP 521 from paloaltonetworks.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | PTC | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from ptc.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
 | Rockwell Automation | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from rockwellautomation.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
 | S&P Global | workday | ⚠️ failing for 4 runs: FetchError: HTTP 521 from spgi.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Sabre | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from sabre.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Sprinklr | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from sprinklr.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
-| Stryker | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from stryker.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Sabre | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from sabre.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Sprinklr | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from sprinklr.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| State Street | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from statestreet.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
+| Stryker | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from stryker.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
 | Target | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from target.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Thomson Reuters | workday | ⚠️ failing for 8 runs: FetchError: HTTP 521 from thomsonreuters.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | TransUnion | workday | ⚠️ failing for 4 runs: FetchError: HTTP 521 from transunion.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Trimble | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from trimble.wd1.myworkdayjobs.com | 2026-11-14 | 0 |
 | Unisys | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from unisys.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Workday | workday | ⚠️ failing for 9 runs: FetchError: HTTP 521 from workday.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Workday | workday | ⚠️ failing for 10 runs: FetchError: HTTP 521 from workday.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-14 | 0 |
-| AMD | custom | 🔍 verifying a drop in postings | 2026-11-14 | 0 |
+| AMD | custom | ✅ OK | 2026-11-14 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-14 | 1 |
-| Analog Devices | workday | ✅ OK | 2026-11-14 | 0 |
 | Apple | custom | ✅ OK | 2026-11-14 | 2 |
 | Atlassian | custom | ✅ OK | 2026-11-14 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-14 | 0 |
@@ -90,7 +92,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | AQR Capital | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Atlan | ashby | ✅ OK | 2026-11-14 | 0 |
 | Bosch | smartrecruiters | ✅ OK | 2026-11-14 | 0 |
-| Broadcom | workday | ✅ OK | 2026-11-14 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-14 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-14 | 1 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-14 | 0 |
@@ -151,7 +152,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Sigmoid | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-14 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| State Street | workday | ✅ OK | 2026-11-14 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-14 | 0 |
 | Tekion | ashby | ✅ OK | 2026-11-14 | 0 |
