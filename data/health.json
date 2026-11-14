@@ -136,7 +136,7 @@
   },
   {
     "company_slug": "applied-materials",
-    "consecutive_failures": 90,
+    "consecutive_failures": 91,
     "failure_alerted": true,
     "last_count": 71,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -181,10 +181,10 @@
   },
   {
     "company_slug": "baxter",
-    "consecutive_failures": 48,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 7,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-14",
     "zero_since": null
   },
@@ -595,7 +595,7 @@
   },
   {
     "company_slug": "hp",
-    "consecutive_failures": 54,
+    "consecutive_failures": 55,
     "failure_alerted": true,
     "last_count": 39,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -631,7 +631,7 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 96,
+    "consecutive_failures": 97,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -739,7 +739,7 @@
   },
   {
     "company_slug": "mastercard",
-    "consecutive_failures": 95,
+    "consecutive_failures": 96,
     "failure_alerted": true,
     "last_count": 76,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -757,7 +757,7 @@
   },
   {
     "company_slug": "micron",
-    "consecutive_failures": 95,
+    "consecutive_failures": 96,
     "failure_alerted": true,
     "last_count": 332,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -766,10 +766,10 @@
   },
   {
     "company_slug": "microsoft",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 6,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from microsoft.eightfold.ai",
     "last_success": "2026-11-14",
     "zero_since": null
   },
@@ -865,7 +865,7 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 125,
+    "consecutive_failures": 126,
     "failure_alerted": true,
     "last_count": 74,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1234,7 +1234,7 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 52,
+    "consecutive_failures": 53,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1351,7 +1351,7 @@
   },
   {
     "company_slug": "us-bank",
-    "consecutive_failures": 46,
+    "consecutive_failures": 47,
     "failure_alerted": true,
     "last_count": 26,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1387,7 +1387,7 @@
   },
   {
     "company_slug": "wells-fargo",
-    "consecutive_failures": 95,
+    "consecutive_failures": 96,
     "failure_alerted": true,
     "last_count": 75,
     "last_error": "FetchError: invalid JSON from community.workday.com",
