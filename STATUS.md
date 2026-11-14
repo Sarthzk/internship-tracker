@@ -2,21 +2,20 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 151 OK · 11 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
+**162 companies tracked** · 152 OK · 10 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Applied Materials | workday | ⚠️ failing for 95 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Intel | workday | ⚠️ failing for 101 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Micron | workday | ⚠️ failing for 100 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Nvidia | workday | ⚠️ failing for 130 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
-| Wells Fargo | workday | ⚠️ failing for 100 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Applied Materials | workday | ⚠️ failing for 96 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Intel | workday | ⚠️ failing for 102 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Micron | workday | ⚠️ failing for 101 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Nvidia | workday | ⚠️ failing for 131 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
+| Wells Fargo | workday | ⚠️ failing for 101 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
 | Caterpillar | workday | ⚠️ failing for 63 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
 | Fidelity Investments | workday | ⚠️ failing for 51 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
 | Hewlett Packard Enterprise | workday | ⚠️ failing for 59 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 3 |
-| HP | workday | ⚠️ failing for 56 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
-| Target | workday | ⚠️ failing for 54 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
-| US Bank | workday | ⚠️ failing for 48 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| HP | workday | ⚠️ failing for 57 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
+| Target | workday | ⚠️ failing for 55 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-14 | 0 |
@@ -158,6 +157,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Trimble | workday | ✅ OK | 2026-11-14 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Unisys | workday | ✅ OK | 2026-11-14 | 0 |
+| US Bank | workday | ✅ OK | 2026-11-14 | 0 |
 | Vercel | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Wolters Kluwer | workday | ✅ OK | 2026-11-14 | 0 |
