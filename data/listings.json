@@ -4594,7 +4594,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-14T19:20:43.609525Z",
     "company": "S&P Global",
     "company_slug": "sp-global",
     "date_posted": null,
@@ -4615,10 +4615,10 @@
     "locations": [
       "Hyderabad, Telangana"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice, Channels Client On-boarding Specialist",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1"
   },

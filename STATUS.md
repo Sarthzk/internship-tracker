@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Target | workday | ⚠️ failing for 61 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
+| Target | workday | ⚠️ failing for 62 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-14 | 0 |
@@ -135,7 +135,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-14 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-14 | 1 |
+| S&P Global | workday | ✅ OK | 2026-11-14 | 0 |
 | Sabre | workday | ✅ OK | 2026-11-14 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-14 | 0 |
