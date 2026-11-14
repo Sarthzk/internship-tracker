@@ -100,7 +100,7 @@
   },
   {
     "company_slug": "analog-devices",
-    "consecutive_failures": 46,
+    "consecutive_failures": 47,
     "failure_alerted": true,
     "last_count": 13,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -136,7 +136,7 @@
   },
   {
     "company_slug": "applied-materials",
-    "consecutive_failures": 43,
+    "consecutive_failures": 44,
     "failure_alerted": true,
     "last_count": 71,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -181,7 +181,7 @@
   },
   {
     "company_slug": "baxter",
-    "consecutive_failures": 25,
+    "consecutive_failures": 26,
     "failure_alerted": true,
     "last_count": 7,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -190,7 +190,7 @@
   },
   {
     "company_slug": "blackrock",
-    "consecutive_failures": 48,
+    "consecutive_failures": 49,
     "failure_alerted": true,
     "last_count": 20,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -226,7 +226,7 @@
   },
   {
     "company_slug": "cadence",
-    "consecutive_failures": 48,
+    "consecutive_failures": 49,
     "failure_alerted": true,
     "last_count": 29,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -271,10 +271,10 @@
   },
   {
     "company_slug": "cisco",
-    "consecutive_failures": 64,
+    "consecutive_failures": 65,
     "failure_alerted": true,
     "last_count": 125,
-    "last_error": "FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -298,10 +298,10 @@
   },
   {
     "company_slug": "cohesity",
-    "consecutive_failures": 27,
+    "consecutive_failures": 28,
     "failure_alerted": true,
     "last_count": 8,
-    "last_error": "FetchError: HTTP 521 from cohesity.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -424,10 +424,10 @@
   },
   {
     "company_slug": "equifax",
-    "consecutive_failures": 29,
+    "consecutive_failures": 30,
     "failure_alerted": true,
     "last_count": 18,
-    "last_error": "FetchError: HTTP 521 from equifax.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -595,10 +595,10 @@
   },
   {
     "company_slug": "hp",
-    "consecutive_failures": 31,
+    "consecutive_failures": 32,
     "failure_alerted": true,
     "last_count": 39,
-    "last_error": "FetchError: HTTP 521 from hp.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -631,7 +631,7 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 49,
+    "consecutive_failures": 50,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -640,7 +640,7 @@
   },
   {
     "company_slug": "invesco",
-    "consecutive_failures": 25,
+    "consecutive_failures": 26,
     "failure_alerted": true,
     "last_count": 43,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -667,10 +667,10 @@
   },
   {
     "company_slug": "johnson-controls",
-    "consecutive_failures": 39,
+    "consecutive_failures": 40,
     "failure_alerted": true,
     "last_count": 54,
-    "last_error": "FetchError: HTTP 521 from jci.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -730,7 +730,7 @@
   },
   {
     "company_slug": "marvell",
-    "consecutive_failures": 48,
+    "consecutive_failures": 49,
     "failure_alerted": true,
     "last_count": 8,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -739,7 +739,7 @@
   },
   {
     "company_slug": "mastercard",
-    "consecutive_failures": 48,
+    "consecutive_failures": 49,
     "failure_alerted": true,
     "last_count": 76,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -757,7 +757,7 @@
   },
   {
     "company_slug": "micron",
-    "consecutive_failures": 48,
+    "consecutive_failures": 49,
     "failure_alerted": true,
     "last_count": 332,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -847,7 +847,7 @@
   },
   {
     "company_slug": "northern-trust",
-    "consecutive_failures": 25,
+    "consecutive_failures": 26,
     "failure_alerted": true,
     "last_count": 46,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -865,10 +865,10 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 78,
+    "consecutive_failures": 79,
     "failure_alerted": true,
     "last_count": 74,
-    "last_error": "FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -928,10 +928,10 @@
   },
   {
     "company_slug": "palo-alto-networks",
-    "consecutive_failures": 27,
+    "consecutive_failures": 28,
     "failure_alerted": true,
     "last_count": 57,
-    "last_error": "FetchError: HTTP 521 from paloaltonetworks.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -991,7 +991,7 @@
   },
   {
     "company_slug": "ptc",
-    "consecutive_failures": 24,
+    "consecutive_failures": 25,
     "failure_alerted": true,
     "last_count": 9,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -1054,7 +1054,7 @@
   },
   {
     "company_slug": "rockwell-automation",
-    "consecutive_failures": 25,
+    "consecutive_failures": 26,
     "failure_alerted": true,
     "last_count": 16,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -1162,16 +1162,16 @@
   },
   {
     "company_slug": "sp-global",
-    "consecutive_failures": 27,
+    "consecutive_failures": 28,
     "failure_alerted": true,
     "last_count": 58,
-    "last_error": "FetchError: HTTP 521 from spgi.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
   {
     "company_slug": "sprinklr",
-    "consecutive_failures": 48,
+    "consecutive_failures": 49,
     "failure_alerted": true,
     "last_count": 6,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -1234,10 +1234,10 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 29,
+    "consecutive_failures": 30,
     "failure_alerted": true,
     "last_count": 30,
-    "last_error": "FetchError: HTTP 521 from target.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -1270,10 +1270,10 @@
   },
   {
     "company_slug": "thomson-reuters",
-    "consecutive_failures": 31,
+    "consecutive_failures": 32,
     "failure_alerted": true,
     "last_count": 41,
-    "last_error": "FetchError: HTTP 521 from thomsonreuters.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -1297,16 +1297,16 @@
   },
   {
     "company_slug": "transunion",
-    "consecutive_failures": 27,
+    "consecutive_failures": 28,
     "failure_alerted": true,
     "last_count": 17,
-    "last_error": "FetchError: HTTP 521 from transunion.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
   {
     "company_slug": "trimble",
-    "consecutive_failures": 25,
+    "consecutive_failures": 26,
     "failure_alerted": true,
     "last_count": 12,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -1342,16 +1342,16 @@
   },
   {
     "company_slug": "unisys",
-    "consecutive_failures": 28,
+    "consecutive_failures": 29,
     "failure_alerted": true,
     "last_count": 27,
-    "last_error": "FetchError: HTTP 521 from unisys.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
   {
     "company_slug": "us-bank",
-    "consecutive_failures": 23,
+    "consecutive_failures": 24,
     "failure_alerted": true,
     "last_count": 26,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
@@ -1369,10 +1369,10 @@
   },
   {
     "company_slug": "visa",
-    "consecutive_failures": 64,
+    "consecutive_failures": 65,
     "failure_alerted": true,
     "last_count": 38,
-    "last_error": "FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com",
+    "last_error": "FetchError: invalid JSON from static.community.workday.com",
     "last_success": "2026-11-13",
     "zero_since": null
   },
@@ -1387,7 +1387,7 @@
   },
   {
     "company_slug": "wells-fargo",
-    "consecutive_failures": 48,
+    "consecutive_failures": 49,
     "failure_alerted": true,
     "last_count": 75,
     "last_error": "FetchError: invalid JSON from static.community.workday.com",
