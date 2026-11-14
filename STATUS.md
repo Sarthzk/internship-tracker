@@ -2,14 +2,13 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 158 OK · 4 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
+**162 companies tracked** · 159 OK · 3 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Intel | workday | ⚠️ failing for 109 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Intel | workday | ⚠️ failing for 110 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
 | Hewlett Packard Enterprise | workday | ⚠️ failing for 63 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 3 |
-| HP | workday | ⚠️ failing for 60 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
-| Target | workday | ⚠️ failing for 58 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
+| Target | workday | ⚠️ failing for 59 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-14 | 0 |
@@ -99,6 +98,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Guidewire | workday | ✅ OK | 2026-11-14 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-14 | 1 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-14 | 0 |
+| HP | workday | ✅ OK | 2026-11-14 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Invesco | workday | ✅ OK | 2026-11-14 | 0 |
