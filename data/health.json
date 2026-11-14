@@ -595,7 +595,7 @@
   },
   {
     "company_slug": "hp",
-    "consecutive_failures": 57,
+    "consecutive_failures": 58,
     "failure_alerted": true,
     "last_count": 39,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -631,7 +631,7 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 103,
+    "consecutive_failures": 104,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -865,7 +865,7 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 132,
+    "consecutive_failures": 133,
     "failure_alerted": true,
     "last_count": 74,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1234,7 +1234,7 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 55,
+    "consecutive_failures": 56,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1387,7 +1387,7 @@
   },
   {
     "company_slug": "wells-fargo",
-    "consecutive_failures": 102,
+    "consecutive_failures": 103,
     "failure_alerted": true,
     "last_count": 75,
     "last_error": "FetchError: invalid JSON from community.workday.com",
