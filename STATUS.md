@@ -2,25 +2,23 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 147 OK · 15 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
+**162 companies tracked** · 149 OK · 13 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Applied Materials | workday | ⚠️ failing for 91 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Intel | workday | ⚠️ failing for 97 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Mastercard | workday | ⚠️ failing for 96 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Micron | workday | ⚠️ failing for 96 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Applied Materials | workday | ⚠️ failing for 92 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Intel | workday | ⚠️ failing for 98 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Mastercard | workday | ⚠️ failing for 97 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Micron | workday | ⚠️ failing for 97 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-14 | 4 |
-| Nvidia | workday | ⚠️ failing for 126 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
-| Wells Fargo | workday | ⚠️ failing for 96 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Caterpillar | workday | ⚠️ failing for 60 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
-| Fidelity Investments | workday | ⚠️ failing for 48 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Hewlett Packard Enterprise | workday | ⚠️ failing for 56 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 3 |
+| Nvidia | workday | ⚠️ failing for 127 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
+| Wells Fargo | workday | ⚠️ failing for 97 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Caterpillar | workday | ⚠️ failing for 61 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
+| Fidelity Investments | workday | ⚠️ failing for 49 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 57 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 3 |
 | HP | workday | ⚠️ failing for 55 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
-| Stryker | workday | ⚠️ failing for 48 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
 | Target | workday | ⚠️ failing for 53 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
 | US Bank | workday | ⚠️ failing for 47 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Workday | workday | ⚠️ failing for 56 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-14 | 0 |
@@ -149,6 +147,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Sprinklr | workday | ✅ OK | 2026-11-14 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | State Street | workday | ✅ OK | 2026-11-14 | 0 |
+| Stryker | workday | ✅ OK | 2026-11-14 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-14 | 0 |
 | Tekion | ashby | ✅ OK | 2026-11-14 | 0 |
@@ -162,6 +161,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Vercel | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Wolters Kluwer | workday | ✅ OK | 2026-11-14 | 0 |
+| Workday | workday | ✅ OK | 2026-11-14 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Zebra Technologies | workday | ✅ OK | 2026-11-14 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-14 | 0 |
