@@ -6,8 +6,8 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Intel | workday | ⚠️ failing for 106 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Hewlett Packard Enterprise | workday | ⚠️ failing for 61 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 3 |
+| Intel | workday | ⚠️ failing for 107 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 62 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 3 |
 | HP | workday | ⚠️ failing for 59 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
 | Target | workday | ⚠️ failing for 57 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
