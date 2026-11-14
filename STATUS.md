@@ -6,35 +6,35 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Cisco | workday | ⚠️ failing for 12 runs: FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Cisco | workday | ⚠️ failing for 13 runs: FetchError: HTTP 521 from cisco.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Cohesity | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from cohesity.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Nvidia | workday | ⚠️ failing for 26 runs: FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Visa | workday | ⚠️ failing for 12 runs: FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Abbott | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from abbott.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Ameriprise Financial | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from ameriprise.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Caterpillar | workday | ⚠️ failing for 10 runs: FetchError: HTTP 521 from cat.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Ciena | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from ciena.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Cigna | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from cigna.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
+| Nvidia | workday | ⚠️ failing for 27 runs: FetchError: HTTP 521 from nvidia.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Visa | workday | ⚠️ failing for 13 runs: FetchError: HTTP 521 from visa.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Abbott | workday | ⚠️ failing for 7 runs: FetchError: HTTP 521 from abbott.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Ameriprise Financial | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from ameriprise.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Caterpillar | workday | ⚠️ failing for 11 runs: FetchError: HTTP 521 from cat.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Ciena | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from ciena.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Cigna | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from cigna.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
 | Equifax | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from equifax.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| F5 | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from ffive.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| GE HealthCare | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from gehc.wd5.myworkdayjobs.com | 2026-11-13 | 2 |
-| GE Vernova | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from gevernova.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
-| Guidewire | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from guidewire.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Hewlett Packard Enterprise | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from hpe.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
+| F5 | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from ffive.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| GE HealthCare | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from gehc.wd5.myworkdayjobs.com | 2026-11-13 | 2 |
+| GE Vernova | workday | ⚠️ failing for 7 runs: FetchError: HTTP 521 from gevernova.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
+| Guidewire | workday | ⚠️ failing for 7 runs: FetchError: HTTP 521 from guidewire.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 7 runs: FetchError: HTTP 521 from hpe.wd5.myworkdayjobs.com | 2026-11-13 | 3 |
 | HP | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from hp.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
 | Johnson Controls | workday | ⚠️ failing for 13 runs: FetchError: HTTP 521 from jci.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Motorola Solutions | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from motorolasolutions.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Motorola Solutions | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from motorolasolutions.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Palo Alto Networks | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from paloaltonetworks.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | S&P Global | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from spgi.wd5.myworkdayjobs.com | 2026-11-13 | 1 |
 | Target | workday | ⚠️ failing for 3 runs: FetchError: HTTP 521 from target.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Thomson Reuters | workday | ⚠️ failing for 5 runs: FetchError: HTTP 521 from thomsonreuters.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | TransUnion | workday | ⚠️ failing for 1 run: FetchError: HTTP 521 from transunion.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Unisys | workday | ⚠️ failing for 2 runs: FetchError: HTTP 521 from unisys.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
-| Workday | workday | ⚠️ failing for 6 runs: FetchError: HTTP 521 from workday.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
+| Workday | workday | ⚠️ failing for 7 runs: FetchError: HTTP 521 from workday.wd5.myworkdayjobs.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-14 | 0 |
-| AMD | custom | ✅ OK | 2026-11-14 | 0 |
+| AMD | custom | 🔍 verifying a drop in postings | 2026-11-14 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-14 | 1 |
 | Analog Devices | workday | ✅ OK | 2026-11-14 | 0 |
 | Apple | custom | ✅ OK | 2026-11-14 | 2 |
@@ -81,12 +81,12 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Atlan | ashby | ✅ OK | 2026-11-14 | 0 |
 | Baxter | workday | ✅ OK | 2026-11-14 | 0 |
 | Bosch | smartrecruiters | ✅ OK | 2026-11-14 | 0 |
-| Broadcom | workday | ✅ OK | 2026-11-13 | 0 |
+| Broadcom | workday | ✅ OK | 2026-11-14 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-14 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-14 | 1 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| Commvault | greenhouse | ✅ OK | 2026-11-13 | 0 |
+| Commvault | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Contentstack | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | CRED | lever | ✅ OK | 2026-11-14 | 0 |
@@ -94,10 +94,10 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Datadog | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Duolingo | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| Eaton | eightfold | ✅ OK | 2026-11-13 | 3 |
+| Eaton | eightfold | ✅ OK | 2026-11-14 | 3 |
 | Elastic | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| Ericsson | eightfold | ✅ OK | 2026-11-13 | 0 |
-| Fidelity Investments | workday | ✅ OK | 2026-11-13 | 0 |
+| Ericsson | eightfold | ✅ OK | 2026-11-14 | 0 |
+| Fidelity Investments | workday | ✅ OK | 2026-11-14 | 0 |
 | Figma | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-14 | 0 |
@@ -105,7 +105,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Glance | greenhouse | ✅ OK | 2026-11-14 | 1 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| Hevo Data | lever | ✅ OK | 2026-11-13 | 1 |
+| Hevo Data | lever | ✅ OK | 2026-11-14 | 1 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-14 | 0 |
@@ -116,19 +116,19 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Juspay | custom | ✅ OK | 2026-11-14 | 5 |
 | Kong | ashby | ✅ OK | 2026-11-14 | 0 |
 | LaunchDarkly | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| LSEG | workday | ✅ OK | 2026-11-13 | 0 |
+| LSEG | workday | ✅ OK | 2026-11-14 | 0 |
 | Meesho | lever | ✅ OK | 2026-11-14 | 0 |
 | Mindtickle | lever | ✅ OK | 2026-11-14 | 0 |
 | Mixpanel | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | MongoDB | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Navan | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | New Relic | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| Nokia | oracle_hcm | ✅ OK | 2026-11-13 | 0 |
+| Nokia | oracle_hcm | ✅ OK | 2026-11-14 | 0 |
 | Northern Trust | workday | ✅ OK | 2026-11-14 | 0 |
 | Notion | ashby | ✅ OK | 2026-11-14 | 0 |
 | Observe.AI | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Okta | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| onsemi | oracle_hcm | ✅ OK | 2026-11-13 | 0 |
+| onsemi | oracle_hcm | ✅ OK | 2026-11-14 | 0 |
 | OpenAI | ashby | ✅ OK | 2026-11-14 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-14 | 0 |
 | Philips | workday | ✅ OK | 2026-11-14 | 0 |
@@ -140,32 +140,32 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-14 | 0 |
-| Sabre | workday | ✅ OK | 2026-11-13 | 0 |
+| Sabre | workday | ✅ OK | 2026-11-14 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-14 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| Shell | workday | ✅ OK | 2026-11-13 | 0 |
-| Sigmoid | greenhouse | ✅ OK | 2026-11-13 | 0 |
+| Shell | workday | ✅ OK | 2026-11-14 | 0 |
+| Sigmoid | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-14 | 0 |
 | Sprinklr | workday | ✅ OK | 2026-11-14 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| State Street | workday | ✅ OK | 2026-11-13 | 0 |
-| Stryker | workday | ✅ OK | 2026-11-13 | 0 |
+| State Street | workday | ✅ OK | 2026-11-14 | 0 |
+| Stryker | workday | ✅ OK | 2026-11-14 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-14 | 0 |
-| Tekion | ashby | ✅ OK | 2026-11-13 | 0 |
+| Tekion | ashby | ✅ OK | 2026-11-14 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-14 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Trimble | workday | ✅ OK | 2026-11-14 | 0 |
-| Turing | greenhouse | ✅ OK | 2026-11-13 | 0 |
+| Turing | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | US Bank | workday | ✅ OK | 2026-11-14 | 0 |
 | Vercel | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-14 | 0 |
-| Wolters Kluwer | workday | ✅ OK | 2026-11-13 | 0 |
+| Wolters Kluwer | workday | ✅ OK | 2026-11-14 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Zebra Technologies | workday | ✅ OK | 2026-11-14 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-14 | 0 |
-| Zeta Global | greenhouse | ✅ OK | 2026-11-13 | 0 |
+| Zeta Global | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Zuora | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Arcesium | unknown | ⏸ not tracked | — | 0 |
