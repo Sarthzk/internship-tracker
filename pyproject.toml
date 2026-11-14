@@ -6,20 +6,20 @@ requires-python = ">=3.12,<3.13"
 dependencies = [
     "groq>=1.7.0",
     "httpx>=0.28.1",
-    "pydantic>=2.14.1",
+    "pydantic>=2.14.2",
     "pyyaml>=6.0.3",
 ]
 
 [dependency-groups]
 dev = [
-    "pytest>=9.1.1",
-    "pytest-asyncio>=1.4.0",
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.4.1.post1",
     "respx>=0.23.1",
-    "ruff>=0.17.1",
+    "ruff>=0.17.3",
 ]
 
 [build-system]
-requires = ["uv_build>=0.9.26,<0.10.0"]
+requires = ["uv_build>=0.13.6,<0.14.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
