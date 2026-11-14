@@ -136,7 +136,7 @@
   },
   {
     "company_slug": "applied-materials",
-    "consecutive_failures": 93,
+    "consecutive_failures": 94,
     "failure_alerted": true,
     "last_count": 71,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -595,7 +595,7 @@
   },
   {
     "company_slug": "hp",
-    "consecutive_failures": 55,
+    "consecutive_failures": 56,
     "failure_alerted": true,
     "last_count": 39,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -631,7 +631,7 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 99,
+    "consecutive_failures": 100,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -757,7 +757,7 @@
   },
   {
     "company_slug": "micron",
-    "consecutive_failures": 98,
+    "consecutive_failures": 99,
     "failure_alerted": true,
     "last_count": 332,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -865,7 +865,7 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 128,
+    "consecutive_failures": 129,
     "failure_alerted": true,
     "last_count": 74,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1234,7 +1234,7 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 53,
+    "consecutive_failures": 54,
     "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1351,7 +1351,7 @@
   },
   {
     "company_slug": "us-bank",
-    "consecutive_failures": 47,
+    "consecutive_failures": 48,
     "failure_alerted": true,
     "last_count": 26,
     "last_error": "FetchError: invalid JSON from community.workday.com",
@@ -1387,7 +1387,7 @@
   },
   {
     "company_slug": "wells-fargo",
-    "consecutive_failures": 98,
+    "consecutive_failures": 99,
     "failure_alerted": true,
     "last_count": 75,
     "last_error": "FetchError: invalid JSON from community.workday.com",
