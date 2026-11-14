@@ -2,15 +2,13 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 155 OK · 7 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
+**162 companies tracked** · 157 OK · 5 failing · 12 not tracked · Last updated: 2026-11-14 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Intel | workday | ⚠️ failing for 104 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Nvidia | workday | ⚠️ failing for 133 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
-| Wells Fargo | workday | ⚠️ failing for 103 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
-| Caterpillar | workday | ⚠️ failing for 64 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
-| Hewlett Packard Enterprise | workday | ⚠️ failing for 60 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 3 |
+| Intel | workday | ⚠️ failing for 105 runs: FetchError: invalid JSON from community.workday.com | 2026-11-14 | 0 |
+| Nvidia | workday | ⚠️ failing for 134 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 61 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 3 |
 | HP | workday | ⚠️ failing for 58 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 1 |
 | Target | workday | ⚠️ failing for 56 runs: FetchError: invalid JSON from community.workday.com | 2026-11-13 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-14 | 1 |
@@ -54,6 +52,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Twilio | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-14 | 0 |
 | Visa | workday | ✅ OK | 2026-11-14 | 0 |
+| Wells Fargo | workday | ✅ OK | 2026-11-14 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-14 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-14 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-14 | 0 |
@@ -68,6 +67,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Bosch | smartrecruiters | ✅ OK | 2026-11-14 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-14 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-14 | 0 |
+| Caterpillar | workday | ✅ OK | 2026-11-14 | 1 |
 | Ciena | workday | ✅ OK | 2026-11-14 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-14 | 3 |
 | Citi | eightfold | ✅ OK | 2026-11-14 | 1 |
