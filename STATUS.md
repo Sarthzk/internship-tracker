@@ -2,11 +2,14 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
+**162 companies tracked** · 158 OK · 4 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Capital One | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-15 | 0 |
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-15 | 4 |
+| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-15 | 0 |
+| Postman | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from postman.wd108.myworkdayjobs.com | 2026-11-15 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-15 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-15 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-15 | 0 |
@@ -19,7 +22,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-11-15 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-15 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-15 | 0 |
-| Capital One | workday | ✅ OK | 2026-11-15 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-15 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-15 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-15 | 0 |
@@ -40,7 +42,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Qualcomm | eightfold | ✅ OK | 2026-11-15 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-15 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-15 | 3 |
-| Salesforce | workday | ✅ OK | 2026-11-15 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-15 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-15 | 1 |
@@ -128,7 +129,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Philips | workday | ✅ OK | 2026-11-15 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-15 | 0 |
-| Postman | workday | ✅ OK | 2026-11-15 | 0 |
 | PTC | workday | ✅ OK | 2026-11-15 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-15 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-15 | 0 |
