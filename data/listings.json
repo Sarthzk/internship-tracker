@@ -1844,7 +1844,7 @@
       "Thiruvallur, Tamil Nadu",
       "Chennai, Tamil Nadu"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -1972,7 +1972,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -2836,7 +2836,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -3252,7 +3252,7 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
