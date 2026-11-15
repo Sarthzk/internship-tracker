@@ -1821,7 +1821,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-15T19:10:45.150749Z",
     "company": "Caterpillar",
     "company_slug": "caterpillar",
     "date_posted": "2026-11-13",
@@ -1844,10 +1844,10 @@
       "Thiruvallur, Tamil Nadu",
       "Chennai, Tamil Nadu"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "CA / CMA Internship",
     "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Bangalore-Karnataka/CA---CMA-Internship_R0000390980"
   },
@@ -1949,7 +1949,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-15T19:10:45.150749Z",
     "company": "Cigna",
     "company_slug": "cigna",
     "date_posted": null,
@@ -1972,10 +1972,10 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "HIH - Co-Op/Intern (Non-US Only)",
     "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013357"
   },
@@ -2813,7 +2813,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-15T19:10:45.150749Z",
     "company": "Cigna",
     "company_slug": "cigna",
     "date_posted": null,
@@ -2836,10 +2836,10 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "HIH - Co-Op/Intern (Non-US Only)",
     "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013766"
   },
@@ -3229,7 +3229,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-15T19:10:45.150749Z",
     "company": "Cigna",
     "company_slug": "cigna",
     "date_posted": null,
@@ -3252,10 +3252,10 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "HIH - Co-Op/Intern (Non-US Only)",
     "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013784"
   },

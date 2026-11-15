@@ -64,9 +64,9 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Bosch | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-15 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-15 | 0 |
-| Caterpillar | workday | ✅ OK | 2026-11-15 | 1 |
+| Caterpillar | workday | ✅ OK | 2026-11-15 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-15 | 0 |
-| Cigna | workday | ✅ OK | 2026-11-15 | 3 |
+| Cigna | workday | ✅ OK | 2026-11-15 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-15 | 1 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-15 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-15 | 0 |
