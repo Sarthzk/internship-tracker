@@ -456,7 +456,7 @@
     "locations": [
       "Pune, Maharashtra, IND, 411014"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "eightfold",
     "status": "open",
@@ -4042,6 +4042,36 @@
     "status": "open",
     "title": "Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4045953-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.Tech or M.Tech in Computer Science Engineering, AI/ML",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T05:31:53.596718Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4046240-1",
+    "first_seen": "2026-11-16T05:31:00.494697Z",
+    "id": "workday:ge-healthcare:R4046240-1",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Intern_R4046240-1"
   },
   {
     "category": "other",
