@@ -4885,7 +4885,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-16T21:20:42.765942Z",
     "company": "S&P Global",
     "company_slug": "sp-global",
     "date_posted": null,
@@ -4906,10 +4906,10 @@
     "locations": [
       "IN - HYDERABAD SKYVIEW"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/IN---HYDERABAD-SKYVIEW/Apprentice_329138-1"
   },

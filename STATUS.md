@@ -2,25 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 147 OK · 15 failing · 12 not tracked · Last updated: 2026-11-17 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-17 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Cohesity | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from cohesity.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
-| Airbus | workday | ⚠️ failing for 10 runs: FetchError: HTTP 429 from ag.wd3.myworkdayjobs.com | 2026-11-16 | 7 |
-| Baxter | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from baxter.wd1.myworkdayjobs.com | 2026-11-16 | 1 |
-| HP | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from hp.wd5.myworkdayjobs.com | 2026-11-16 | 1 |
-| Invesco | workday | ⚠️ failing for 28 runs: FetchError: HTTP 429 from invesco.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
-| Johnson Controls | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from jci.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
-| Northern Trust | workday | ⚠️ failing for 23 runs: FetchError: HTTP 429 from ntrs.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
-| Palo Alto Networks | workday | ⚠️ failing for 28 runs: FetchError: HTTP 429 from paloaltonetworks.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
-| Philips | workday | ⚠️ failing for 14 runs: FetchError: HTTP 429 from philips.wd3.myworkdayjobs.com | 2026-11-16 | 0 |
-| PTC | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from ptc.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
-| Rockwell Automation | workday | ⚠️ failing for 28 runs: FetchError: HTTP 429 from rockwellautomation.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
-| Target | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from target.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
-| Thomson Reuters | workday | ⚠️ failing for 14 runs: FetchError: HTTP 429 from thomsonreuters.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
-| Unisys | workday | ⚠️ failing for 28 runs: FetchError: HTTP 429 from unisys.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
-| US Bank | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from usbank.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-16 | 0 |
@@ -35,6 +20,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Cadence | workday | ✅ OK | 2026-11-16 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-16 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-16 | 0 |
+| Cohesity | workday | ✅ OK | 2026-11-16 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-16 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-16 | 0 |
@@ -67,12 +53,14 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Abbott | workday | ✅ OK | 2026-11-16 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Airbus | workday | ✅ OK | 2026-11-16 | 7 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-16 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-16 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Anyscale | ashby | ✅ OK | 2026-11-16 | 0 |
 | AQR Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Atlan | ashby | ✅ OK | 2026-11-16 | 0 |
+| Baxter | workday | ✅ OK | 2026-11-16 | 1 |
 | Bosch | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-16 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-16 | 0 |
@@ -109,10 +97,13 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Hevo Data | lever | ✅ OK | 2026-11-16 | 1 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-16 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| HP | workday | ✅ OK | 2026-11-16 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Invesco | workday | ✅ OK | 2026-11-16 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | JFrog | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Johnson Controls | workday | ✅ OK | 2026-11-16 | 0 |
 | Jump Trading | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Juspay | custom | ✅ OK | 2026-11-16 | 5 |
 | Kong | ashby | ✅ OK | 2026-11-16 | 0 |
@@ -126,19 +117,24 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Navan | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | New Relic | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Nokia | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
+| Northern Trust | workday | ✅ OK | 2026-11-16 | 0 |
 | Notion | ashby | ✅ OK | 2026-11-16 | 0 |
 | Observe.AI | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Okta | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | onsemi | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
 | OpenAI | ashby | ✅ OK | 2026-11-16 | 0 |
+| Palo Alto Networks | workday | ✅ OK | 2026-11-16 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-16 | 0 |
+| Philips | workday | ✅ OK | 2026-11-16 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-16 | 0 |
 | Postman | workday | ✅ OK | 2026-11-16 | 0 |
+| PTC | workday | ✅ OK | 2026-11-16 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-16 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-16 | 1 |
+| Rockwell Automation | workday | ✅ OK | 2026-11-16 | 0 |
+| S&P Global | workday | ✅ OK | 2026-11-16 | 0 |
 | Sabre | workday | ✅ OK | 2026-11-16 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-16 | 0 |
@@ -152,12 +148,16 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Stryker | workday | ✅ OK | 2026-11-16 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
+| Target | workday | ✅ OK | 2026-11-16 | 0 |
 | Tekion | ashby | ✅ OK | 2026-11-16 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-16 | 0 |
+| Thomson Reuters | workday | ✅ OK | 2026-11-16 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | TransUnion | workday | ✅ OK | 2026-11-16 | 0 |
 | Trimble | workday | ✅ OK | 2026-11-16 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Unisys | workday | ✅ OK | 2026-11-16 | 0 |
+| US Bank | workday | ✅ OK | 2026-11-16 | 0 |
 | Vercel | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Wolters Kluwer | workday | ✅ OK | 2026-11-16 | 0 |
