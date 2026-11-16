@@ -1,10 +1,10 @@
 [
   {
     "company_slug": "abbott",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 39,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from abbott.wd5.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -208,16 +208,16 @@
   },
   {
     "company_slug": "broadcom",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 8,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from broadcom.wd1.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
   {
     "company_slug": "browserstack",
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "failure_alerted": true,
     "last_count": 14,
     "last_error": "FetchError: HTTP 429 from browserstack.wd3.myworkdayjobs.com",
@@ -226,7 +226,7 @@
   },
   {
     "company_slug": "cadence",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 29,
     "last_error": "FetchError: HTTP 429 from cadence.wd1.myworkdayjobs.com",
@@ -262,10 +262,10 @@
   },
   {
     "company_slug": "cigna",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 84,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from cigna.wd5.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -631,7 +631,7 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 30,
     "last_error": "FetchError: HTTP 429 from intel.wd1.myworkdayjobs.com",
@@ -730,7 +730,7 @@
   },
   {
     "company_slug": "marvell",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 8,
     "last_error": "FetchError: HTTP 429 from marvell.wd1.myworkdayjobs.com",
@@ -811,7 +811,7 @@
   },
   {
     "company_slug": "motorola-solutions",
-    "consecutive_failures": 8,
+    "consecutive_failures": 9,
     "failure_alerted": true,
     "last_count": 7,
     "last_error": "FetchError: HTTP 429 from motorolasolutions.wd5.myworkdayjobs.com",
@@ -1072,7 +1072,7 @@
   },
   {
     "company_slug": "sabre",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 19,
     "last_error": "FetchError: HTTP 429 from sabre.wd1.myworkdayjobs.com",
@@ -1081,10 +1081,10 @@
   },
   {
     "company_slug": "salesforce",
-    "consecutive_failures": 5,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 55,
-    "last_error": "FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com",
+    "last_error": null,
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -1171,10 +1171,10 @@
   },
   {
     "company_slug": "sprinklr",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 6,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from sprinklr.wd1.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
