@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**58 open internships** across 23 companies · Last updated: 2026-11-16 (IST)
+**59 open internships** across 24 companies · Last updated: 2026-11-16 (IST)
 
 ### Software Engineering (20)
 
@@ -99,10 +99,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 |---|---|---|---|---|---|---|---|
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 11d |
 
-### Other (18)
+### Other (19)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Baxter<br><sub>Industrial</sub> | Apprentice | Bangalore, Karnataka | — | — | — | [Apply](https://baxter.wd1.myworkdayjobs.com/baxter/job/Bangalore-Karnataka/Apprentice_JR-213466) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Systems-Engineering-Intern_R4039429-1) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern---System-Diagnostic-Tools_R4039482-1) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4041292-1) | 0d |

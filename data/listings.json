@@ -1810,6 +1810,28 @@
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Baxter",
+    "company_slug": "baxter",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "JR-213466",
+    "first_seen": "2026-11-16T13:01:19.838150Z",
+    "id": "workday:baxter:JR-213466",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "Bangalore, Karnataka"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice",
+    "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Bangalore-Karnataka/Apprentice_JR-213466"
+  },
+  {
     "category": "swe",
     "closed_at": "2026-11-13T13:10:46.626533Z",
     "company": "Capital One",
