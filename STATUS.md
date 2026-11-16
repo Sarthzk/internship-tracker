@@ -2,11 +2,14 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
+**162 companies tracked** · 158 OK · 4 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
+| Capital One | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
+| Salesforce | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
+| Postman | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from postman.wd108.myworkdayjobs.com | 2026-11-16 | 0 |
+| Zebra Technologies | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from zebra.wd501.myworkdayjobs.com | 2026-11-16 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-16 | 0 |
@@ -19,7 +22,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-11-16 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-16 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-16 | 0 |
-| Capital One | workday | ✅ OK | 2026-11-16 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-16 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-16 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-16 | 0 |
@@ -128,7 +130,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Philips | workday | ✅ OK | 2026-11-16 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-16 | 0 |
-| Postman | workday | ✅ OK | 2026-11-16 | 0 |
 | PTC | workday | ✅ OK | 2026-11-16 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-16 | 0 |
@@ -163,7 +164,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wolters Kluwer | workday | ✅ OK | 2026-11-16 | 0 |
 | Workday | workday | ✅ OK | 2026-11-16 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-16 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-16 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-16 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-16 | 0 |
