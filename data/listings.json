@@ -135,6 +135,28 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/87534302853505734"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Google",
+    "company_slug": "google",
+    "date_posted": "2026-11-16",
+    "enrichment": null,
+    "external_id": "96299220855595718",
+    "first_seen": "2026-11-16T07:40:43.386328Z",
+    "id": "custom:google:96299220855595718",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "Bengaluru, Karnataka, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "custom",
+    "status": "open",
+    "title": "Forward Deployed Engineer Intern, 2027",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/96299220855595718"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "Juspay",
