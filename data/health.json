@@ -100,7 +100,7 @@
   },
   {
     "company_slug": "analog-devices",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 13,
     "last_error": "FetchError: HTTP 429 from analogdevices.wd1.myworkdayjobs.com",
@@ -136,7 +136,7 @@
   },
   {
     "company_slug": "applied-materials",
-    "consecutive_failures": 53,
+    "consecutive_failures": 54,
     "failure_alerted": true,
     "last_count": 71,
     "last_error": "FetchError: HTTP 429 from amat.wd1.myworkdayjobs.com",
@@ -190,7 +190,7 @@
   },
   {
     "company_slug": "blackrock",
-    "consecutive_failures": 21,
+    "consecutive_failures": 22,
     "failure_alerted": true,
     "last_count": 20,
     "last_error": "FetchError: HTTP 429 from blackrock.wd1.myworkdayjobs.com",
@@ -235,10 +235,10 @@
   },
   {
     "company_slug": "capital-one",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 14,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -739,7 +739,7 @@
   },
   {
     "company_slug": "mastercard",
-    "consecutive_failures": 4,
+    "consecutive_failures": 5,
     "failure_alerted": true,
     "last_count": 76,
     "last_error": "FetchError: HTTP 429 from mastercard.wd1.myworkdayjobs.com",
@@ -757,7 +757,7 @@
   },
   {
     "company_slug": "micron",
-    "consecutive_failures": 53,
+    "consecutive_failures": 54,
     "failure_alerted": true,
     "last_count": 332,
     "last_error": "FetchError: HTTP 429 from micron.wd1.myworkdayjobs.com",
@@ -847,7 +847,7 @@
   },
   {
     "company_slug": "northern-trust",
-    "consecutive_failures": 21,
+    "consecutive_failures": 22,
     "failure_alerted": true,
     "last_count": 46,
     "last_error": "FetchError: HTTP 429 from ntrs.wd1.myworkdayjobs.com",
@@ -991,7 +991,7 @@
   },
   {
     "company_slug": "ptc",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 9,
     "last_error": "FetchError: HTTP 429 from ptc.wd1.myworkdayjobs.com",
@@ -1351,7 +1351,7 @@
   },
   {
     "company_slug": "us-bank",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 26,
     "last_error": "FetchError: HTTP 429 from usbank.wd1.myworkdayjobs.com",
@@ -1387,10 +1387,10 @@
   },
   {
     "company_slug": "wells-fargo",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 73,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from wf.wd1.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
