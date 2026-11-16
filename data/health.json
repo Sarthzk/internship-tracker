@@ -271,7 +271,7 @@
   },
   {
     "company_slug": "cisco",
-    "consecutive_failures": 54,
+    "consecutive_failures": 55,
     "failure_alerted": true,
     "last_count": 125,
     "last_error": "FetchError: HTTP 429 from cisco.wd5.myworkdayjobs.com",
@@ -298,10 +298,10 @@
   },
   {
     "company_slug": "cohesity",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 8,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from cohesity.wd5.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -379,7 +379,7 @@
   },
   {
     "company_slug": "deutsche-bank",
-    "consecutive_failures": 54,
+    "consecutive_failures": 55,
     "failure_alerted": true,
     "last_count": 117,
     "last_error": "FetchError: HTTP 429 from db.wd3.myworkdayjobs.com",
@@ -424,7 +424,7 @@
   },
   {
     "company_slug": "equifax",
-    "consecutive_failures": 12,
+    "consecutive_failures": 13,
     "failure_alerted": true,
     "last_count": 18,
     "last_error": "FetchError: HTTP 429 from equifax.wd5.myworkdayjobs.com",
@@ -865,7 +865,7 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 22,
+    "consecutive_failures": 23,
     "failure_alerted": true,
     "last_count": 74,
     "last_error": "FetchError: HTTP 429 from nvidia.wd5.myworkdayjobs.com",
@@ -955,7 +955,7 @@
   },
   {
     "company_slug": "philips",
-    "consecutive_failures": 10,
+    "consecutive_failures": 11,
     "failure_alerted": true,
     "last_count": 37,
     "last_error": "FetchError: HTTP 429 from philips.wd3.myworkdayjobs.com",
@@ -1234,7 +1234,7 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 30,
     "last_error": "FetchError: HTTP 429 from target.wd5.myworkdayjobs.com",
@@ -1306,7 +1306,7 @@
   },
   {
     "company_slug": "trimble",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 12,
     "last_error": "FetchError: HTTP 429 from trimble.wd1.myworkdayjobs.com",
@@ -1369,7 +1369,7 @@
   },
   {
     "company_slug": "visa",
-    "consecutive_failures": 11,
+    "consecutive_failures": 12,
     "failure_alerted": true,
     "last_count": 38,
     "last_error": "FetchError: HTTP 429 from visa.wd5.myworkdayjobs.com",
