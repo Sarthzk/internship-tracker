@@ -12,6 +12,7 @@ from datetime import UTC, date, datetime
 
 import httpx
 
+from tracker.http import is_challenge
 from tracker.models import AtsType, Company, RawPosting
 
 FetchFn = Callable[[Company, httpx.AsyncClient], Awaitable[list[RawPosting]]]
@@ -46,8 +47,20 @@ def get_fetcher(company: Company) -> FetchFn | None:
     return FETCHERS.get(company.ats)
 
 
+class BlockedError(FetchError):
+    """The site's bot protection (a Cloudflare challenge) answered instead of the career site.
+
+    We do not retry, imitate a browser or try to solve it: the company is simply marked as
+    blocked until the protection lets us through again."""
+
+
+BLOCKED_MESSAGE = "blocked by site protection (Cloudflare challenge)"
+
+
 async def request_json(client: httpx.AsyncClient, method: str, url: str, **kwargs) -> object:
     response = await client.request(method, url, **kwargs)
+    if is_challenge(response):
+        raise BlockedError(BLOCKED_MESSAGE)
     if response.status_code != 200:
         raise FetchError(f"HTTP {response.status_code} from {response.url.host}")
     try:

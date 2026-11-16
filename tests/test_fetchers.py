@@ -86,3 +86,16 @@ async def test_http_error_raises_fetch_error():
 def test_registry_has_no_fetcher_for_unknown_ats():
     c = Company(name="Acme", slug="acme", tier=1, ats="unknown", ats_config={}, enabled=False)
     assert get_fetcher(c) is None
+
+
+async def test_a_cloudflare_challenge_becomes_a_blocked_error():
+    from tracker.fetchers.base import BlockedError, get_json
+
+    with respx.mock:
+        respx.get("https://jobs.example.com/api").respond(
+            429, headers={"cf-mitigated": "challenge"}, text="<html>Just a moment</html>"
+        )
+        async with make_client(delay=0, backoff=0) as client:
+            with pytest.raises(BlockedError, match="blocked by site protection") as info:
+                await get_json(client, "https://jobs.example.com/api")
+    assert isinstance(info.value, FetchError)  # an ordinary failure for health: nothing closes
