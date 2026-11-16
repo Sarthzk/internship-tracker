@@ -37,7 +37,7 @@
   },
   {
     "company_slug": "airbus",
-    "consecutive_failures": 9,
+    "consecutive_failures": 10,
     "failure_alerted": true,
     "last_count": 132,
     "last_error": "FetchError: HTTP 429 from ag.wd3.myworkdayjobs.com",
@@ -181,10 +181,10 @@
   },
   {
     "company_slug": "baxter",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 7,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from baxter.wd1.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -226,10 +226,10 @@
   },
   {
     "company_slug": "cadence",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 29,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from cadence.wd1.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -595,10 +595,10 @@
   },
   {
     "company_slug": "hp",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 39,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from hp.wd5.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -631,7 +631,7 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 30,
     "last_error": "FetchError: HTTP 429 from intel.wd1.myworkdayjobs.com",
@@ -640,7 +640,7 @@
   },
   {
     "company_slug": "invesco",
-    "consecutive_failures": 27,
+    "consecutive_failures": 28,
     "failure_alerted": true,
     "last_count": 43,
     "last_error": "FetchError: HTTP 429 from invesco.wd1.myworkdayjobs.com",
@@ -730,10 +730,10 @@
   },
   {
     "company_slug": "marvell",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 8,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from marvell.wd1.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -928,7 +928,7 @@
   },
   {
     "company_slug": "palo-alto-networks",
-    "consecutive_failures": 27,
+    "consecutive_failures": 28,
     "failure_alerted": true,
     "last_count": 57,
     "last_error": "FetchError: HTTP 429 from paloaltonetworks.wd5.myworkdayjobs.com",
@@ -1054,7 +1054,7 @@
   },
   {
     "company_slug": "rockwell-automation",
-    "consecutive_failures": 27,
+    "consecutive_failures": 28,
     "failure_alerted": true,
     "last_count": 16,
     "last_error": "FetchError: HTTP 429 from rockwellautomation.wd1.myworkdayjobs.com",
@@ -1081,10 +1081,10 @@
   },
   {
     "company_slug": "salesforce",
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 55,
-    "last_error": "FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com",
+    "last_error": null,
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -1270,7 +1270,7 @@
   },
   {
     "company_slug": "thomson-reuters",
-    "consecutive_failures": 13,
+    "consecutive_failures": 14,
     "failure_alerted": true,
     "last_count": 41,
     "last_error": "FetchError: HTTP 429 from thomsonreuters.wd5.myworkdayjobs.com",
@@ -1342,7 +1342,7 @@
   },
   {
     "company_slug": "unisys",
-    "consecutive_failures": 27,
+    "consecutive_failures": 28,
     "failure_alerted": true,
     "last_count": 27,
     "last_error": "FetchError: HTTP 429 from unisys.wd5.myworkdayjobs.com",
