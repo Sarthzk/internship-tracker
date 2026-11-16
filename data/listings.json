@@ -3714,6 +3714,66 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T05:11:33.586045Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4039429-1",
+    "first_seen": "2026-11-16T05:10:44.288236Z",
+    "id": "workday:ge-healthcare:R4039429-1",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Systems-Engineering-Intern_R4039429-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T05:11:33.586045Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4039482-1",
+    "first_seen": "2026-11-16T05:10:44.288236Z",
+    "id": "workday:ge-healthcare:R4039482-1",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern---System-Diagnostic-Tools_R4039482-1"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-11T19:10:43.746248Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
@@ -3834,6 +3894,36 @@
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Software-Intern_R4041235-1"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T05:11:33.586045Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4041292-1",
+    "first_seen": "2026-11-16T05:10:44.288236Z",
+    "id": "workday:ge-healthcare:R4041292-1",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4041292-1"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "GE HealthCare",
@@ -3892,6 +3982,66 @@
     "status": "closed",
     "title": "EID Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/EID-Intern_R4045415-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.Tech or M.Tech in Computer Science Engineering, AI/ML",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T05:11:33.586045Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4045952-1",
+    "first_seen": "2026-11-16T05:10:44.288236Z",
+    "id": "workday:ge-healthcare:R4045952-1",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4045952-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.Tech or M.Tech in Computer Science Engineering, AI/ML",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T05:11:33.586045Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4045953-1",
+    "first_seen": "2026-11-16T05:10:44.288236Z",
+    "id": "workday:ge-healthcare:R4045953-1",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "IND19-01-Bengaluru-EPIP 122 (Phase II)"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4045953-1"
   },
   {
     "category": "other",

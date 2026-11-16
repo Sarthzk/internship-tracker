@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Salesforce | workday | ⚠️ failing for 9 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
-| Postman | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from postman.wd108.myworkdayjobs.com | 2026-11-16 | 0 |
+| Salesforce | workday | ⚠️ failing for 10 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-16 | 0 |
@@ -88,7 +87,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Figma | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-16 | 2 |
+| GE HealthCare | workday | ✅ OK | 2026-11-16 | 7 |
 | GE Vernova | workday | ✅ OK | 2026-11-16 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-16 | 1 |
@@ -129,6 +128,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Philips | workday | ✅ OK | 2026-11-16 | 1 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-16 | 0 |
+| Postman | workday | ✅ OK | 2026-11-16 | 0 |
 | PTC | workday | ✅ OK | 2026-11-16 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-16 | 0 |
