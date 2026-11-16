@@ -5,13 +5,9 @@ from __future__ import annotations
 import zlib
 from datetime import datetime
 
-from tracker.models import Company, HealthRecord
+from tracker.models import Company
 
 RUN_INTERVAL_MINUTES = 10
-# A company that failed is tried again in the very next run, not at its next slot, for this many
-# failures in a row (about an hour). Beyond that it is left to its normal schedule, so a site that
-# is really down is not hammered every ten minutes.
-RETRY_SOON_FAILURES = 6
 
 
 def is_due(company: Company, now: datetime) -> bool:
@@ -26,12 +22,3 @@ def is_due(company: Company, now: datetime) -> bool:
         return True
     slot = (now.hour * 60 + now.minute) // RUN_INTERVAL_MINUTES
     return (slot + zlib.crc32(company.slug.encode())) % every == 0
-
-
-def retry_soon(record: HealthRecord | None) -> bool:
-    """True if the company's last fetch failed recently enough to be worth trying again now.
-
-    Sites that throttle shared addresses (Workday answers HTTP 429 to GitHub's runners about half
-    the time) succeed on a later attempt, so waiting 30-60 minutes for the next slot only delays
-    postings."""
-    return record is not None and 0 < record.consecutive_failures <= RETRY_SOON_FAILURES
