@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Capital One | workday | ⚠️ failing for 5 runs: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
-| Salesforce | workday | ⚠️ failing for 9 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-15 | 0 |
+| Deutsche Bank | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-16 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-16 | 0 |
@@ -20,10 +19,10 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-11-16 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-16 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-16 | 0 |
+| Capital One | workday | ✅ OK | 2026-11-16 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-16 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-16 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-16 | 0 |
-| Deutsche Bank | workday | ✅ OK | 2026-11-16 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-16 | 0 |
 | Google | custom | ✅ OK | 2026-11-16 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
@@ -41,6 +40,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Qualcomm | eightfold | ✅ OK | 2026-11-16 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-16 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-16 | 3 |
+| Salesforce | workday | ✅ OK | 2026-11-16 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-16 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-16 | 1 |
