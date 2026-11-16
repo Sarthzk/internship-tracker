@@ -235,7 +235,7 @@
   },
   {
     "company_slug": "capital-one",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 14,
     "last_error": "FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com",
@@ -982,7 +982,7 @@
   },
   {
     "company_slug": "postman",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 6,
     "last_error": "FetchError: HTTP 429 from postman.wd108.myworkdayjobs.com",
@@ -1081,7 +1081,7 @@
   },
   {
     "company_slug": "salesforce",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 55,
     "last_error": "FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com",
