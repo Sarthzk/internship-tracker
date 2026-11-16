@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Deutsche Bank | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-16 | 0 |
+| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-16 | 0 |
@@ -23,6 +23,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Cisco | workday | ✅ OK | 2026-11-16 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-16 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Deutsche Bank | workday | ✅ OK | 2026-11-16 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-16 | 0 |
 | Google | custom | ✅ OK | 2026-11-16 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
@@ -40,7 +41,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Qualcomm | eightfold | ✅ OK | 2026-11-16 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-16 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-16 | 3 |
-| Salesforce | workday | ✅ OK | 2026-11-16 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-16 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-16 | 1 |
