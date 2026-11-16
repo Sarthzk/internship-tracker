@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**53 open internships** across 24 companies · Last updated: 2026-11-16 (IST)
+**52 open internships** across 23 companies · Last updated: 2026-11-16 (IST)
 
 ### Software Engineering (21)
 
@@ -100,12 +100,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 |---|---|---|---|---|---|---|---|
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 11d |
 
-### Other (12)
+### Other (11)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016514) | 4d |
-| Citi<br><sub>Bank</sub> | Banking - Commercial Banking, Summer Analyst, India – APAC, 2027<br><sub>🎓 Bachelor's or Master's degree</sub> | MUMBAI, Mahārāshtra, India | Summer 2027 | 2026, 2027 | 2 mo | [Apply](https://citi.eightfold.ai/careers/job/859038560823) | 4d |
 | Airbus<br><sub>Industrial</sub> | FTM Intern | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390) | 11d |
 | Airbus<br><sub>Industrial</sub> | Internship- FTM MOC<br><sub>🎓 A.M.E / Bachelor / Master Degree</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695) | 11d |
 | Airbus<br><sub>Industrial</sub> | Internship\_ FSTD | New Delhi | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship--FSTD_JR10448021) | 11d |

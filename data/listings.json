@@ -312,7 +312,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-16T05:01:27.279985Z",
     "company": "Citi",
     "company_slug": "citi",
     "date_posted": "2026-11-12",
@@ -336,10 +336,10 @@
     "locations": [
       "MUMBAI, Mahārāshtra, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "eightfold",
-    "status": "open",
+    "status": "closed",
     "title": "Banking - Commercial Banking, Summer Analyst, India – APAC, 2027",
     "url": "https://citi.eightfold.ai/careers/job/859038560823"
   },
