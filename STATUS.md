@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Capital One | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
-| Salesforce | workday | ⚠️ failing for 6 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
+| Salesforce | workday | ⚠️ failing for 7 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-16 | 0 |
@@ -20,6 +19,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-11-16 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-16 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-16 | 0 |
+| Capital One | workday | ✅ OK | 2026-11-16 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-16 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-16 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-16 | 0 |
