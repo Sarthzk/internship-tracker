@@ -1815,7 +1815,15 @@
     "company": "Baxter",
     "company_slug": "baxter",
     "date_posted": null,
-    "enrichment": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T13:11:33.006813Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
     "external_id": "JR-213466",
     "first_seen": "2026-11-16T13:01:19.838150Z",
     "id": "workday:baxter:JR-213466",
