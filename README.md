@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**62 open internships** across 26 companies · Last updated: 2026-11-17 (IST)
+**61 open internships** across 25 companies · Last updated: 2026-11-17 (IST)
 
 ### Software Engineering (20)
 
@@ -101,7 +101,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 1d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 12d |
 
-### Other (20)
+### Other (19)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -114,7 +114,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | GE HealthCare<br><sub>Industrial</sub> | Intern<br><sub>🎓 B.Tech or M.Tech in Computer Science Engineering, AI/ML</sub> | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Intern_R4046240-1) | 1d |
 | S&P Global<br><sub>Finance</sub> | Apprentice<br><sub>🎓 B. Com / BBA OR Postgraduate /MBA (Finance as major Special…</sub> | IN - HYDERABAD SKYVIEW | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/IN---HYDERABAD-SKYVIEW/Apprentice_329138-1) | 1d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016514) | 5d |
-| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013368) | 8d |
 | Airbus<br><sub>Industrial</sub> | FTM Intern | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390) | 12d |
 | Airbus<br><sub>Industrial</sub> | Internship- FTM MOC<br><sub>🎓 A.M.E / Bachelor / Master Degree</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695) | 12d |
 | Airbus<br><sub>Industrial</sub> | Internship\_ FSTD | New Delhi | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship--FSTD_JR10448021) | 12d |

@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**106 closed** · Last updated: 2026-11-17 (IST)
+**107 closed** · Last updated: 2026-11-17 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Cigna<br><sub>Consumer</sub> | HIH - Co-Op/Intern (Non-US Only)<br><sub>🎓 B.E./B.Tech</sub> | Hyderabad, India | — | 2027 | — | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Hyderabad-India/HIH---Co-Op-Intern--Non-US-Only-_26013368) | 2026-11-09 | 2026-11-17 |
 | Philips<br><sub>Industrial</sub> | Apprentice Software Developer Trainee | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Apprentice-Software-Developer-Trainee_590165) | 2026-11-16 | 2026-11-16 |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239705711) | 2026-10-22 | 2026-11-16 |
 | Citi<br><sub>Bank</sub> | Banking - Commercial Banking, Summer Analyst, India – APAC, 2027<br><sub>🎓 Bachelor's or Master's degree</sub> | MUMBAI, Mahārāshtra, India | Summer 2027 | 2026, 2027 | 2 mo | [Apply](https://citi.eightfold.ai/careers/job/859038560823) | 2026-11-12 | 2026-11-16 |
