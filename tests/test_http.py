@@ -145,3 +145,76 @@ async def test_retry_after_header_still_wins(monkeypatch):
         async with make_client(delay=0, backoff=1.0) as client:
             await client.get(URL)
     assert [w for w in waits if w >= 1] == [7.0]
+
+
+async def test_workday_hosts_share_start_spacing_but_requests_may_overlap():
+    import asyncio
+    import itertools
+    import time
+
+    from tracker.http import PoliteTransport
+
+    starts: list[float] = []
+    inflight = 0
+    peak = 0
+
+    async def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal inflight, peak
+        starts.append(time.monotonic())
+        inflight += 1
+        peak = max(peak, inflight)
+        await asyncio.sleep(0.15)  # slower than the spacing, so requests must overlap
+        inflight -= 1
+        return httpx.Response(200, json={})
+
+    transport = PoliteTransport(
+        httpx.MockTransport(handler), delay=0, paced={"myworkdayjobs.com": 0.05}
+    )
+    async with httpx.AsyncClient(transport=transport) as client:
+        await asyncio.gather(
+            *(client.get(f"https://c{i}.wd{i}.myworkdayjobs.com/x") for i in range(6))
+        )
+    gaps = [b - a for a, b in itertools.pairwise(starts)]
+    assert all(g >= 0.04 for g in gaps), gaps  # starts are spaced across different hosts
+    assert peak > 1  # but a slow request does not hold up the others
+
+
+async def test_other_hosts_are_not_paced():
+    import asyncio
+    import time
+
+    from tracker.http import PoliteTransport
+
+    starts: list[float] = []
+
+    async def handler(request: httpx.Request) -> httpx.Response:
+        starts.append(time.monotonic())
+        return httpx.Response(200, json={})
+
+    transport = PoliteTransport(
+        httpx.MockTransport(handler), delay=0, paced={"myworkdayjobs.com": 0.5}
+    )
+    async with httpx.AsyncClient(transport=transport) as client:
+        await asyncio.gather(*(client.get(f"https://c{i}.example.com/x") for i in range(4)))
+    assert max(starts) - min(starts) < 0.3
+
+
+def test_pace_group():
+    from tracker.http import PACED_SUFFIXES, pace_group
+
+    assert pace_group("nvidia.wd5.myworkdayjobs.com", PACED_SUFFIXES) == "myworkdayjobs.com"
+    assert pace_group("boards-api.greenhouse.io", PACED_SUFFIXES) is None
+    assert pace_group("notmyworkdayjobs.com", PACED_SUFFIXES) is None
+
+
+async def test_tests_with_no_delay_are_never_paced():
+    import time
+
+    t = time.monotonic()
+    with respx.mock:
+        respx.get("https://a.wd1.myworkdayjobs.com/x").respond(200, json={})
+        respx.get("https://b.wd1.myworkdayjobs.com/x").respond(200, json={})
+        async with make_client(delay=0, backoff=0) as client:
+            await client.get("https://a.wd1.myworkdayjobs.com/x")
+            await client.get("https://b.wd1.myworkdayjobs.com/x")
+    assert time.monotonic() - t < 0.5

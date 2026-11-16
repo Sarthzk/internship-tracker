@@ -336,3 +336,52 @@ def test_channel_test_command_without_secrets_exits_cleanly(monkeypatch, capsys)
     monkeypatch.delenv("TELEGRAM_CHANNEL_ID", raising=False)
     assert main(["channel-test"]) == 2
     assert "not set" in capsys.readouterr().out
+
+
+async def test_platform_gate_limits_concurrency_and_queue_wait_is_not_timed(monkeypatch):
+    """Workday companies are fetched a few at a time. A company that waits for a free slot must
+    not time out just because the ones ahead of it were slow."""
+    import asyncio
+
+    from tracker import fetchers, main
+    from tracker.models import Company
+
+    running = 0
+    peak = 0
+
+    async def slow_fetch(company, client):
+        nonlocal running, peak
+        running += 1
+        peak = max(peak, running)
+        await asyncio.sleep(0.1)
+        running -= 1
+        return []
+
+    monkeypatch.setattr(fetchers, "get_fetcher", lambda company: slow_fetch)
+    companies = [
+        Company(
+            name=f"C{i}",
+            slug=f"c{i}",
+            tier=2,
+            ats="workday",
+            enabled=True,
+            ats_config={"host": "a.wd1.myworkdayjobs.com", "tenant": "t", "site": "s"},
+        )
+        for i in range(6)
+    ]
+    gate = asyncio.Semaphore(2)
+    # 6 companies x 0.1 s through 2 slots = 0.3 s in total: longer than the 0.25 s timeout, but
+    # each company only needs 0.1 s once it has a slot.
+    outcomes = await asyncio.gather(
+        *(main.fetch_company(c, None, timeout=0.25, gate=gate) for c in companies)
+    )
+    assert peak == 2
+    assert all(o.error is None for o in outcomes)
+
+
+def test_workday_is_gated():
+    from tracker import main
+    from tracker.models import AtsType
+
+    assert main.PLATFORM_CONCURRENCY[AtsType.workday] >= 1
+    assert AtsType.workday in main.make_gates()

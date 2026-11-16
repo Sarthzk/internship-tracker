@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import contextlib
 import logging
 import os
 import re
@@ -29,7 +30,15 @@ from tracker.health import (
 )
 from tracker.http import make_client
 from tracker.linkcheck import unexpected
-from tracker.models import Company, HealthRecord, Listing, RawPosting, Status, load_companies
+from tracker.models import (
+    AtsType,
+    Company,
+    HealthRecord,
+    Listing,
+    RawPosting,
+    Status,
+    load_companies,
+)
 from tracker.notify import (
     MAX_ALERT_MESSAGES,
     MAX_CHARS,
@@ -56,6 +65,10 @@ log = logging.getLogger(__name__)
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 GITHUB_API = "https://api.github.com"
 FETCH_TIMEOUT = 120.0  # seconds one company may take, including paging and retries
+# At most this many companies of a platform are fetched at once. The wait for a free slot does not
+# count against FETCH_TIMEOUT, so a long queue never makes the companies at its back time out.
+# Workday: its servers answer HTTP 429 to bursts (see tracker.http.PACED_SUFFIXES).
+PLATFORM_CONCURRENCY = {AtsType.workday: 3}
 
 
 @dataclass
@@ -79,8 +92,15 @@ class RunSummary:
         return sum(1 for li in self.merge.listings if li.status == "open")
 
 
+def make_gates() -> dict[AtsType, asyncio.Semaphore]:
+    return {ats: asyncio.Semaphore(n) for ats, n in PLATFORM_CONCURRENCY.items()}
+
+
 async def fetch_company(
-    company: Company, client: httpx.AsyncClient, timeout: float = FETCH_TIMEOUT
+    company: Company,
+    client: httpx.AsyncClient,
+    timeout: float = FETCH_TIMEOUT,
+    gate: asyncio.Semaphore | None = None,
 ) -> FetchOutcome:
     """Never raises: one company failing must not crash the run.
 
@@ -90,7 +110,8 @@ async def fetch_company(
     if fetch is None:
         return FetchOutcome(company, error=f"no fetcher for ats={company.ats}")
     try:
-        postings = await asyncio.wait_for(fetch(company, client), timeout)
+        async with gate or contextlib.nullcontext():
+            postings = await asyncio.wait_for(fetch(company, client), timeout)
         return FetchOutcome(company, postings=postings)
     except TimeoutError:
         return FetchOutcome(company, error=f"TimeoutError: no answer within {timeout:.0f}s")
@@ -150,7 +171,8 @@ async def run(
     now = now or datetime.now(UTC)
     enabled = [c for c in companies if c.enabled]
     due = [c for c in enabled if is_due(c, now)]  # the others are left untouched this run
-    outcomes = await asyncio.gather(*(fetch_company(c, client) for c in due))
+    gates = make_gates()
+    outcomes = await asyncio.gather(*(fetch_company(c, client, gate=gates.get(c.ats)) for c in due))
 
     listings_path, health_path = data_dir / "listings.json", data_dir / "health.json"
     existing = load_listings(listings_path)
@@ -441,7 +463,10 @@ async def _check_cli(slugs: list[str], data_dir: Path) -> int:
         print(f"unknown company slugs: {', '.join(unknown)}")
         return 2
     async with make_client() as client:
-        outcomes = await asyncio.gather(*(fetch_company(companies[s], client) for s in slugs))
+        gates = make_gates()
+        outcomes = await asyncio.gather(
+            *(fetch_company(companies[s], client, gate=gates.get(companies[s].ats)) for s in slugs)
+        )
     failed = 0
     for outcome in outcomes:
         c = outcome.company

@@ -128,3 +128,20 @@ def test_core_engineering_roles_are_not_excluded_at_industrial_companies():
             assert not any(
                 re.search(p, word, re.IGNORECASE) for p in by_slug[slug].exclude_titles
             ), slug
+
+
+def test_workday_companies_stay_under_the_per_run_request_budget():
+    """Workday answers HTTP 429 to any address that sends too many requests in a short while
+    (about 60-80 measured), and one run costs about 3.5 requests per company. A run that fetches
+    more than ~16 Workday companies at once gets most of them blocked."""
+    from datetime import UTC, datetime, timedelta
+
+    from tracker.schedule import is_due
+
+    workday = [c for c in load_companies(COMPANIES_YAML) if c.enabled and c.ats == "workday"]
+    start = datetime(2026, 11, 16, tzinfo=UTC)
+    worst = max(
+        sum(1 for c in workday if is_due(c, start + timedelta(minutes=10 * slot)))
+        for slot in range(144)
+    )
+    assert worst <= 16, worst
