@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**106 closed** · Last updated: 2026-11-16 (IST)
+**107 closed** · Last updated: 2026-11-16 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Philips<br><sub>Industrial</sub> | Apprentice Software Developer Trainee | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Apprentice-Software-Developer-Trainee_590165) | 2026-11-16 | 2026-11-16 |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687239705711) | 2026-10-22 | 2026-11-16 |
 | Citi<br><sub>Bank</sub> | Banking - Commercial Banking, Summer Analyst, India – APAC, 2027<br><sub>🎓 Bachelor's or Master's degree</sub> | MUMBAI, Mahārāshtra, India | Summer 2027 | 2026, 2027 | 2 mo | [Apply](https://citi.eightfold.ai/careers/job/859038560823) | 2026-11-12 | 2026-11-16 |
 | Caterpillar<br><sub>Industrial</sub> | CA / CMA Internship | Bangalore, Karnataka; Thiruvallur, Tamil Nadu; Chennai, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Bangalore-Karnataka/CA---CMA-Internship_R0000390980) | 2026-11-13 | 2026-11-16 |

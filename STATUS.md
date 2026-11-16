@@ -2,11 +2,13 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
+**162 companies tracked** · 159 OK · 3 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Capital One | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
+| Capital One | workday | ⚠️ failing for 3 runs: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
+| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
+| Postman | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from postman.wd108.myworkdayjobs.com | 2026-11-16 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-16 | 0 |
@@ -40,7 +42,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Qualcomm | eightfold | ✅ OK | 2026-11-16 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-16 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-16 | 3 |
-| Salesforce | workday | ✅ OK | 2026-11-16 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-16 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-16 | 1 |
@@ -125,10 +126,9 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-11-16 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-16 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-16 | 0 |
-| Philips | workday | ✅ OK | 2026-11-16 | 1 |
+| Philips | workday | ✅ OK | 2026-11-16 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-16 | 0 |
-| Postman | workday | ✅ OK | 2026-11-16 | 0 |
 | PTC | workday | ✅ OK | 2026-11-16 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-16 | 0 |
