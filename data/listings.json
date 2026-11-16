@@ -4463,7 +4463,15 @@
     "company": "LSEG",
     "company_slug": "lseg",
     "date_posted": null,
-    "enrichment": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T16:05:32.252368Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
     "external_id": "R0123245",
     "first_seen": "2026-11-16T14:50:41.842374Z",
     "id": "workday:lseg:R0123245",
