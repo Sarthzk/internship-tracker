@@ -2,36 +2,31 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 107 OK · 55 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
+**162 companies tracked** · 111 OK · 51 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
 | Analog Devices | workday | ⚠️ failing for 6 runs: FetchError: HTTP 429 from analogdevices.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Applied Materials | workday | ⚠️ failing for 50 runs: FetchError: HTTP 429 from amat.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | BlackRock | workday | ⚠️ failing for 18 runs: FetchError: HTTP 429 from blackrock.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
-| Cadence | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from cadence.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
+| Cadence | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from cadence.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Capital One | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
 | Cisco | workday | ⚠️ failing for 53 runs: FetchError: HTTP 429 from cisco.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Cohesity | workday | ⚠️ failing for 4 runs: FetchError: HTTP 429 from cohesity.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Deutsche Bank | workday | ⚠️ failing for 53 runs: FetchError: HTTP 429 from db.wd3.myworkdayjobs.com | 2026-11-16 | 0 |
-| Intel | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from intel.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
-| Marvell | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from marvell.wd1.myworkdayjobs.com | 2026-11-16 | 5 |
 | Mastercard | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from mastercard.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Micron | workday | ⚠️ failing for 50 runs: FetchError: HTTP 429 from micron.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-16 | 4 |
 | Nvidia | workday | ⚠️ failing for 21 runs: FetchError: HTTP 429 from nvidia.wd5.myworkdayjobs.com | 2026-11-16 | 1 |
-| Salesforce | workday | ⚠️ failing for 3 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
+| Salesforce | workday | ⚠️ failing for 4 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
 | Visa | workday | ⚠️ failing for 10 runs: FetchError: HTTP 429 from visa.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Wells Fargo | workday | ⚠️ failing for 7 runs: FetchError: HTTP 429 from wf.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
-| Abbott | workday | ⚠️ failing for 13 runs: FetchError: HTTP 429 from abbott.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Airbus | workday | ⚠️ failing for 7 runs: FetchError: HTTP 429 from ag.wd3.myworkdayjobs.com | 2026-11-16 | 7 |
 | Ameriprise Financial | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from ameriprise.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Baxter | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from baxter.wd1.myworkdayjobs.com | 2026-11-16 | 1 |
-| Broadcom | workday | ⚠️ failing for 26 runs: FetchError: HTTP 429 from broadcom.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
-| BrowserStack | workday | ⚠️ failing for 4 runs: FetchError: HTTP 429 from browserstack.wd3.myworkdayjobs.com | 2026-11-16 | 0 |
+| BrowserStack | workday | ⚠️ failing for 5 runs: FetchError: HTTP 429 from browserstack.wd3.myworkdayjobs.com | 2026-11-16 | 0 |
 | Caterpillar | workday | ⚠️ failing for 26 runs: FetchError: HTTP 429 from cat.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Ciena | workday | ⚠️ failing for 16 runs: FetchError: HTTP 429 from ciena.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
-| Cigna | workday | ⚠️ failing for 18 runs: FetchError: HTTP 429 from cigna.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Equifax | workday | ⚠️ failing for 12 runs: FetchError: HTTP 429 from equifax.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | F5 | workday | ⚠️ failing for 14 runs: FetchError: HTTP 429 from ffive.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Fidelity Investments | workday | ⚠️ failing for 7 runs: FetchError: HTTP 429 from fmr.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
@@ -43,7 +38,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Invesco | workday | ⚠️ failing for 25 runs: FetchError: HTTP 429 from invesco.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Johnson Controls | workday | ⚠️ failing for 24 runs: FetchError: HTTP 429 from jci.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | LSEG | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from lseg.wd3.myworkdayjobs.com | 2026-11-16 | 1 |
-| Motorola Solutions | workday | ⚠️ failing for 7 runs: FetchError: HTTP 429 from motorolasolutions.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
+| Motorola Solutions | workday | ⚠️ failing for 8 runs: FetchError: HTTP 429 from motorolasolutions.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Northern Trust | workday | ⚠️ failing for 19 runs: FetchError: HTTP 429 from ntrs.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Palo Alto Networks | workday | ⚠️ failing for 25 runs: FetchError: HTTP 429 from paloaltonetworks.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
 | Philips | workday | ⚠️ failing for 10 runs: FetchError: HTTP 429 from philips.wd3.myworkdayjobs.com | 2026-11-16 | 0 |
@@ -51,6 +46,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | PTC | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from ptc.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Rockwell Automation | workday | ⚠️ failing for 25 runs: FetchError: HTTP 429 from rockwellautomation.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | S&P Global | workday | ⚠️ failing for 3 runs: FetchError: HTTP 429 from spgi.wd5.myworkdayjobs.com | 2026-11-16 | 1 |
+| Sabre | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from sabre.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Shell | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from shell.wd3.myworkdayjobs.com | 2026-11-16 | 0 |
 | State Street | workday | ⚠️ failing for 14 runs: FetchError: HTTP 429 from statestreet.wd1.myworkdayjobs.com | 2026-11-16 | 0 |
 | Target | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from target.wd5.myworkdayjobs.com | 2026-11-16 | 0 |
@@ -73,7 +69,9 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Goldman Sachs | custom | ✅ OK | 2026-11-16 | 0 |
 | Google | custom | ✅ OK | 2026-11-16 | 3 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Intel | workday | ✅ OK | 2026-11-16 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
+| Marvell | workday | ✅ OK | 2026-11-16 | 5 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-16 | 0 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-16 | 1 |
@@ -88,6 +86,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Tower Research Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Twilio | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
+| Abbott | workday | ✅ OK | 2026-11-16 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-16 | 0 |
@@ -96,6 +95,8 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | AQR Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Atlan | ashby | ✅ OK | 2026-11-16 | 0 |
 | Bosch | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
+| Broadcom | workday | ✅ OK | 2026-11-16 | 0 |
+| Cigna | workday | ✅ OK | 2026-11-16 | 1 |
 | Citi | eightfold | ✅ OK | 2026-11-16 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-16 | 0 |
@@ -145,7 +146,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Pure Storage | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-16 | 0 |
-| Sabre | workday | ✅ OK | 2026-11-16 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-16 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-11-16 | 0 |
