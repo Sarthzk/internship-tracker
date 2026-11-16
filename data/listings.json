@@ -1631,6 +1631,28 @@
   },
   {
     "category": "core",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "JR10449517",
+    "first_seen": "2026-11-16T13:40:43.079388Z",
+    "id": "workday:airbus:JR10449517",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern - Maintenance Engineering & Services",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517"
+  },
+  {
+    "category": "core",
     "closed_at": "2026-11-12T07:01:10.842864Z",
     "company": "Airbus",
     "company_slug": "airbus",
