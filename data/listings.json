@@ -1635,7 +1635,15 @@
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
-    "enrichment": null,
+    "enrichment": {
+      "degree": "AME / degree level (or equivalent) in Engineering or a related discipline",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-16T14:11:35.562639Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
     "external_id": "JR10449517",
     "first_seen": "2026-11-16T13:40:43.079388Z",
     "id": "workday:airbus:JR10449517",
