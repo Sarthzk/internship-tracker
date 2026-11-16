@@ -6,9 +6,9 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Capital One | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-16 | 0 |
-| Salesforce | workday | ⚠️ failing for 3 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-15 | 0 |
-| Postman | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from postman.wd108.myworkdayjobs.com | 2026-11-16 | 0 |
+| Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-15 | 4 |
+| Salesforce | workday | ⚠️ failing for 4 runs: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-15 | 0 |
+| Postman | workday | ⚠️ failing for 2 runs: FetchError: HTTP 429 from postman.wd108.myworkdayjobs.com | 2026-11-16 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-16 | 0 |
@@ -21,6 +21,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-11-16 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-16 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-16 | 0 |
+| Capital One | workday | ✅ OK | 2026-11-16 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-16 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-16 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-16 | 0 |
@@ -33,13 +34,12 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-16 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-16 | 0 |
 | Micron | workday | ✅ OK | 2026-11-16 | 0 |
-| Microsoft | eightfold | ✅ OK | 2026-11-15 | 4 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-16 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-16 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-16 | 1 |
 | Quadeye | custom | ✅ OK | 2026-11-16 | 3 |
-| Qualcomm | eightfold | ✅ OK | 2026-11-15 | 1 |
+| Qualcomm | eightfold | ✅ OK | 2026-11-16 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-16 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-16 | 3 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
