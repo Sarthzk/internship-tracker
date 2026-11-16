@@ -385,3 +385,61 @@ def test_workday_is_gated():
 
     assert main.PLATFORM_CONCURRENCY[AtsType.workday] >= 1
     assert AtsType.workday in main.make_gates()
+
+
+async def test_rate_limited_companies_get_more_tries_in_the_same_run(monkeypatch):
+
+    from tracker import fetchers, main
+    from tracker.fetchers import FetchError
+    from tracker.models import Company
+
+    monkeypatch.setattr(main, "RATE_LIMIT_PAUSE", 0)
+    attempts: dict[str, int] = {}
+
+    async def flaky(company, client):
+        attempts[company.slug] = attempts.get(company.slug, 0) + 1
+        if company.slug == "limited" and attempts[company.slug] < 3:
+            raise FetchError("HTTP 429 from limited.example")
+        if company.slug == "broken":
+            raise FetchError("HTTP 500 from broken.example")
+        return []
+
+    monkeypatch.setattr(fetchers, "get_fetcher", lambda company: flaky)
+
+    def company(slug):
+        return Company(
+            name=slug,
+            slug=slug,
+            tier=2,
+            ats="greenhouse",
+            ats_config={"board_token": slug},
+            enabled=True,
+        )
+
+    outcomes = await main.fetch_all([company("fine"), company("limited"), company("broken")], None)
+    by = {o.company.slug: o for o in outcomes}
+    assert by["fine"].error is None and by["limited"].error is None  # rescued on the 3rd try
+    assert attempts == {"fine": 1, "limited": 3, "broken": 1}  # a real error is not retried
+    assert "500" in by["broken"].error
+
+
+async def test_rate_limit_retries_stop_after_the_configured_rounds(monkeypatch):
+    from tracker import fetchers, main
+    from tracker.fetchers import FetchError
+    from tracker.models import Company
+
+    monkeypatch.setattr(main, "RATE_LIMIT_PAUSE", 0)
+    calls = 0
+
+    async def always_limited(company, client):
+        nonlocal calls
+        calls += 1
+        raise FetchError("HTTP 429 from x.example")
+
+    monkeypatch.setattr(fetchers, "get_fetcher", lambda company: always_limited)
+    c = Company(
+        name="x", slug="x", tier=2, ats="greenhouse", ats_config={"board_token": "x"}, enabled=True
+    )
+    outcomes = await main.fetch_all([c], None)
+    assert calls == 1 + main.RATE_LIMIT_ROUNDS
+    assert "429" in outcomes[0].error  # still failing: the health record counts it as a failure

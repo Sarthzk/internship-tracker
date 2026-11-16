@@ -56,7 +56,7 @@ from tracker.notify import (
     plan_alerts,
     plan_health_alerts,
 )
-from tracker.schedule import is_due
+from tracker.schedule import is_due, retry_soon
 from tracker.storage import load_health, load_listings, save_health, save_listings
 from tracker.validate import MAX_TEXT, DataError, check_files, check_listings
 
@@ -69,6 +69,10 @@ FETCH_TIMEOUT = 120.0  # seconds one company may take, including paging and retr
 # count against FETCH_TIMEOUT, so a long queue never makes the companies at its back time out.
 # Workday: its servers answer HTTP 429 to bursts (see tracker.http.PACED_SUFFIXES).
 PLATFORM_CONCURRENCY = {AtsType.workday: 3}
+# A company answered with HTTP 429 ("too many requests") is tried again in the same run after a
+# pause: about half of such attempts succeed, so two more tries rescue most of them.
+RATE_LIMIT_PAUSE = 45.0
+RATE_LIMIT_ROUNDS = 2
 
 
 @dataclass
@@ -118,6 +122,35 @@ async def fetch_company(
     except Exception as exc:  # noqa: BLE001 - deliberately broad, see docstring
         # Message only: httpx errors can embed request URLs.
         return FetchOutcome(company, error=f"{type(exc).__name__}: {exc}"[:300])
+
+
+def is_rate_limited(outcome: FetchOutcome) -> bool:
+    return outcome.error is not None and "HTTP 429" in outcome.error
+
+
+async def fetch_all(due: Sequence[Company], client: httpx.AsyncClient) -> list[FetchOutcome]:
+    """Fetch every due company, then give the rate-limited ones a few more tries after a pause."""
+    gates = make_gates()
+    outcomes = list(
+        await asyncio.gather(*(fetch_company(c, client, gate=gates.get(c.ats)) for c in due))
+    )
+    for _ in range(RATE_LIMIT_ROUNDS):
+        limited = [i for i, o in enumerate(outcomes) if is_rate_limited(o)]
+        if not limited:
+            break
+        log.info(
+            "%d companies rate-limited, trying again in %.0f s", len(limited), RATE_LIMIT_PAUSE
+        )
+        await asyncio.sleep(RATE_LIMIT_PAUSE)
+        again = await asyncio.gather(
+            *(
+                fetch_company(outcomes[i].company, client, gate=gates.get(outcomes[i].company.ats))
+                for i in limited
+            )
+        )
+        for i, outcome in zip(limited, again, strict=True):
+            outcomes[i] = outcome
+    return outcomes
 
 
 def build_listings(company: Company, postings: list[RawPosting], now: datetime) -> list[Listing]:
@@ -170,13 +203,13 @@ async def run(
 ) -> RunSummary:
     now = now or datetime.now(UTC)
     enabled = [c for c in companies if c.enabled]
-    due = [c for c in enabled if is_due(c, now)]  # the others are left untouched this run
-    gates = make_gates()
-    outcomes = await asyncio.gather(*(fetch_company(c, client, gate=gates.get(c.ats)) for c in due))
-
     listings_path, health_path = data_dir / "listings.json", data_dir / "health.json"
-    existing = load_listings(listings_path)
     health = load_health(health_path)
+    # Due by schedule, or failed recently (tried again now); the others are left untouched.
+    due = [c for c in enabled if is_due(c, now) or retry_soon(health.get(c.slug))]
+    outcomes = await fetch_all(due, client)
+
+    existing = load_listings(listings_path)
     summary = RunSummary()
     fetched: dict[str, list[Listing]] = {}
     succeeded: dict[str, bool] = {}
