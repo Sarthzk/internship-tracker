@@ -2,172 +2,172 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
+**162 companies tracked** · 159 OK · 3 failing · 12 not tracked · Last updated: 2026-11-16 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Adobe | phenom | ✅ OK | 2026-11-15 | 1 |
-| AlphaGrep | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Amazon | custom | ✅ OK | 2026-11-15 | 0 |
-| AMD | custom | ✅ OK | 2026-11-15 | 0 |
-| American Express | oracle_hcm | ✅ OK | 2026-11-15 | 1 |
-| Analog Devices | workday | ✅ OK | 2026-11-15 | 0 |
-| Apple | custom | ✅ OK | 2026-11-15 | 2 |
-| Applied Materials | workday | ✅ OK | 2026-11-15 | 0 |
-| Atlassian | custom | ✅ OK | 2026-11-15 | 0 |
-| Barclays | custom | ✅ OK | 2026-11-15 | 0 |
-| BlackRock | workday | ✅ OK | 2026-11-15 | 0 |
-| Cadence | workday | ✅ OK | 2026-11-15 | 0 |
-| Capital One | workday | ✅ OK | 2026-11-15 | 0 |
-| Cisco | workday | ✅ OK | 2026-11-15 | 0 |
-| Cohesity | workday | ✅ OK | 2026-11-15 | 0 |
-| Databricks | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Deutsche Bank | workday | ✅ OK | 2026-11-15 | 0 |
-| Goldman Sachs | custom | ✅ OK | 2026-11-15 | 0 |
-| Google | custom | ✅ OK | 2026-11-15 | 2 |
-| Graviton Research Capital | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Intel | workday | ✅ OK | 2026-11-15 | 0 |
-| JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-15 | 0 |
-| Marvell | workday | ✅ OK | 2026-11-15 | 5 |
-| Mastercard | workday | ✅ OK | 2026-11-15 | 0 |
-| Micron | workday | ✅ OK | 2026-11-15 | 0 |
+| Capital One | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from capitalone.wd12.myworkdayjobs.com | 2026-11-15 | 0 |
+| Salesforce | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com | 2026-11-15 | 0 |
+| Postman | workday | ⚠️ failing for 1 run: FetchError: HTTP 429 from postman.wd108.myworkdayjobs.com | 2026-11-15 | 0 |
+| Adobe | phenom | ✅ OK | 2026-11-16 | 1 |
+| AlphaGrep | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Amazon | custom | ✅ OK | 2026-11-16 | 0 |
+| AMD | custom | ✅ OK | 2026-11-16 | 0 |
+| American Express | oracle_hcm | ✅ OK | 2026-11-16 | 1 |
+| Analog Devices | workday | ✅ OK | 2026-11-16 | 0 |
+| Apple | custom | ✅ OK | 2026-11-16 | 2 |
+| Applied Materials | workday | ✅ OK | 2026-11-16 | 0 |
+| Atlassian | custom | ✅ OK | 2026-11-16 | 0 |
+| Barclays | custom | ✅ OK | 2026-11-16 | 0 |
+| BlackRock | workday | ✅ OK | 2026-11-16 | 0 |
+| Cadence | workday | ✅ OK | 2026-11-16 | 0 |
+| Cisco | workday | ✅ OK | 2026-11-16 | 0 |
+| Cohesity | workday | ✅ OK | 2026-11-16 | 0 |
+| Databricks | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Deutsche Bank | workday | ✅ OK | 2026-11-16 | 0 |
+| Goldman Sachs | custom | ✅ OK | 2026-11-16 | 0 |
+| Google | custom | ✅ OK | 2026-11-16 | 2 |
+| Graviton Research Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Intel | workday | ✅ OK | 2026-11-16 | 0 |
+| JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
+| Marvell | workday | ✅ OK | 2026-11-16 | 5 |
+| Mastercard | workday | ✅ OK | 2026-11-16 | 0 |
+| Micron | workday | ✅ OK | 2026-11-16 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-15 | 4 |
-| Morgan Stanley | eightfold | ✅ OK | 2026-11-15 | 0 |
-| Nvidia | workday | ✅ OK | 2026-11-15 | 1 |
-| Oracle | oracle_hcm | ✅ OK | 2026-11-15 | 0 |
-| PayPal | eightfold | ✅ OK | 2026-11-15 | 1 |
-| Quadeye | custom | ✅ OK | 2026-11-15 | 3 |
+| Morgan Stanley | eightfold | ✅ OK | 2026-11-16 | 0 |
+| Nvidia | workday | ✅ OK | 2026-11-16 | 1 |
+| Oracle | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
+| PayPal | eightfold | ✅ OK | 2026-11-16 | 1 |
+| Quadeye | custom | ✅ OK | 2026-11-16 | 3 |
 | Qualcomm | eightfold | ✅ OK | 2026-11-15 | 1 |
-| Rippling | custom | ✅ OK | 2026-11-15 | 0 |
-| Rubrik | greenhouse | ✅ OK | 2026-11-15 | 3 |
-| Salesforce | workday | ✅ OK | 2026-11-15 | 0 |
-| ServiceNow | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
-| Snowflake | ashby | ✅ OK | 2026-11-15 | 0 |
-| Stripe | greenhouse | ✅ OK | 2026-11-15 | 1 |
-| Texas Instruments | oracle_hcm | ✅ OK | 2026-11-15 | 0 |
-| Tower Research Capital | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Twilio | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Uber | oracle_hcm | ✅ OK | 2026-11-15 | 0 |
-| Visa | workday | ✅ OK | 2026-11-15 | 0 |
-| Wells Fargo | workday | ✅ OK | 2026-11-15 | 0 |
+| Rippling | custom | ✅ OK | 2026-11-16 | 0 |
+| Rubrik | greenhouse | ✅ OK | 2026-11-16 | 3 |
+| ServiceNow | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
+| Snowflake | ashby | ✅ OK | 2026-11-16 | 0 |
+| Stripe | greenhouse | ✅ OK | 2026-11-16 | 1 |
+| Texas Instruments | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
+| Tower Research Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Twilio | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Uber | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
+| Visa | workday | ✅ OK | 2026-11-16 | 0 |
+| Wells Fargo | workday | ✅ OK | 2026-11-16 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-15 | 0 |
-| Agoda | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Airbnb | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Airbus | workday | ✅ OK | 2026-11-15 | 6 |
+| Agoda | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Airbnb | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Airbus | workday | ✅ OK | 2026-11-16 | 6 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-15 | 0 |
-| Amplitude | ashby | ✅ OK | 2026-11-15 | 0 |
-| Anthropic | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Anyscale | ashby | ✅ OK | 2026-11-15 | 0 |
-| AQR Capital | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Atlan | ashby | ✅ OK | 2026-11-15 | 0 |
-| Baxter | workday | ✅ OK | 2026-11-15 | 0 |
-| Bosch | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
+| Amplitude | ashby | ✅ OK | 2026-11-16 | 0 |
+| Anthropic | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Anyscale | ashby | ✅ OK | 2026-11-16 | 0 |
+| AQR Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Atlan | ashby | ✅ OK | 2026-11-16 | 0 |
+| Baxter | workday | ✅ OK | 2026-11-16 | 0 |
+| Bosch | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-15 | 0 |
-| BrowserStack | workday | ✅ OK | 2026-11-15 | 0 |
+| BrowserStack | workday | ✅ OK | 2026-11-16 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-15 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-15 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-15 | 0 |
-| Citi | eightfold | ✅ OK | 2026-11-15 | 1 |
-| Cockroach Labs | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Coinbase | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| Citi | eightfold | ✅ OK | 2026-11-16 | 1 |
+| Cockroach Labs | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Coinbase | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Commvault | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Contentstack | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Coursera | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| CRED | lever | ✅ OK | 2026-11-15 | 0 |
-| Cummins | oracle_hcm | ✅ OK | 2026-11-15 | 0 |
-| Datadog | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Druva | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Duolingo | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| Contentstack | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Coursera | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| CRED | lever | ✅ OK | 2026-11-16 | 0 |
+| Cummins | oracle_hcm | ✅ OK | 2026-11-16 | 0 |
+| Datadog | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Druva | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Duolingo | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Eaton | eightfold | ✅ OK | 2026-11-15 | 4 |
-| Elastic | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Equifax | workday | ✅ OK | 2026-11-15 | 0 |
+| Elastic | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Equifax | workday | ✅ OK | 2026-11-16 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-15 | 0 |
 | F5 | workday | ✅ OK | 2026-11-15 | 0 |
 | Fidelity Investments | workday | ✅ OK | 2026-11-15 | 0 |
-| Figma | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Fivetran | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Freshworks | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
+| Figma | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Fivetran | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Freshworks | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
 | GE HealthCare | workday | ✅ OK | 2026-11-15 | 2 |
 | GE Vernova | workday | ✅ OK | 2026-11-15 | 1 |
-| GitLab | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Glance | greenhouse | ✅ OK | 2026-11-15 | 1 |
-| Grafana Labs | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Groww | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| GitLab | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Glance | greenhouse | ✅ OK | 2026-11-16 | 1 |
+| Grafana Labs | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Groww | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-15 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-15 | 1 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-15 | 3 |
-| HighRadius | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| HP | workday | ✅ OK | 2026-11-15 | 1 |
-| IMC Trading | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| InMobi | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Invesco | workday | ✅ OK | 2026-11-15 | 0 |
-| Ixigo | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
-| JFrog | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Johnson Controls | workday | ✅ OK | 2026-11-15 | 0 |
-| Jump Trading | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Juspay | custom | ✅ OK | 2026-11-15 | 5 |
-| Kong | ashby | ✅ OK | 2026-11-15 | 0 |
-| LaunchDarkly | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| HighRadius | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| HP | workday | ✅ OK | 2026-11-16 | 1 |
+| IMC Trading | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| InMobi | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Invesco | workday | ✅ OK | 2026-11-16 | 0 |
+| Ixigo | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
+| JFrog | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Johnson Controls | workday | ✅ OK | 2026-11-16 | 0 |
+| Jump Trading | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Juspay | custom | ✅ OK | 2026-11-16 | 5 |
+| Kong | ashby | ✅ OK | 2026-11-16 | 0 |
+| LaunchDarkly | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | LSEG | workday | ✅ OK | 2026-11-15 | 0 |
-| Meesho | lever | ✅ OK | 2026-11-15 | 0 |
-| Mindtickle | lever | ✅ OK | 2026-11-15 | 0 |
-| Mixpanel | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| MongoDB | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| Meesho | lever | ✅ OK | 2026-11-16 | 0 |
+| Mindtickle | lever | ✅ OK | 2026-11-16 | 0 |
+| Mixpanel | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| MongoDB | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Motorola Solutions | workday | ✅ OK | 2026-11-15 | 0 |
-| Navan | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| New Relic | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| Navan | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| New Relic | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Nokia | oracle_hcm | ✅ OK | 2026-11-15 | 0 |
-| Northern Trust | workday | ✅ OK | 2026-11-15 | 0 |
-| Notion | ashby | ✅ OK | 2026-11-15 | 0 |
-| Observe.AI | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Okta | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| Northern Trust | workday | ✅ OK | 2026-11-16 | 0 |
+| Notion | ashby | ✅ OK | 2026-11-16 | 0 |
+| Observe.AI | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Okta | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | onsemi | oracle_hcm | ✅ OK | 2026-11-15 | 0 |
-| OpenAI | ashby | ✅ OK | 2026-11-15 | 0 |
-| Palo Alto Networks | workday | ✅ OK | 2026-11-15 | 0 |
-| Paytm | lever | ✅ OK | 2026-11-15 | 0 |
-| Philips | workday | ✅ OK | 2026-11-15 | 0 |
-| PhonePe | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
-| Plane | ashby | ✅ OK | 2026-11-15 | 0 |
-| Postman | workday | ✅ OK | 2026-11-15 | 0 |
-| PTC | workday | ✅ OK | 2026-11-15 | 0 |
-| Pure Storage | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Razorpay | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Roblox | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Rockwell Automation | workday | ✅ OK | 2026-11-15 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-15 | 0 |
+| OpenAI | ashby | ✅ OK | 2026-11-16 | 0 |
+| Palo Alto Networks | workday | ✅ OK | 2026-11-16 | 0 |
+| Paytm | lever | ✅ OK | 2026-11-16 | 0 |
+| Philips | workday | ✅ OK | 2026-11-16 | 0 |
+| PhonePe | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
+| Plane | ashby | ✅ OK | 2026-11-16 | 0 |
+| PTC | workday | ✅ OK | 2026-11-16 | 0 |
+| Pure Storage | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Razorpay | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Roblox | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Rockwell Automation | workday | ✅ OK | 2026-11-16 | 0 |
+| S&P Global | workday | ✅ OK | 2026-11-16 | 0 |
 | Sabre | workday | ✅ OK | 2026-11-15 | 0 |
-| Samsara | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Sarvam AI | ashby | ✅ OK | 2026-11-15 | 0 |
-| Scale AI | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| Samsara | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Sarvam AI | ashby | ✅ OK | 2026-11-16 | 0 |
+| Scale AI | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Shell | workday | ✅ OK | 2026-11-15 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| SigNoz | ashby | ✅ OK | 2026-11-15 | 0 |
-| Sprinklr | workday | ✅ OK | 2026-11-15 | 0 |
-| Squarepoint Capital | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| SigNoz | ashby | ✅ OK | 2026-11-16 | 0 |
+| Sprinklr | workday | ✅ OK | 2026-11-16 | 0 |
+| Squarepoint Capital | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | State Street | workday | ✅ OK | 2026-11-15 | 0 |
 | Stryker | workday | ✅ OK | 2026-11-15 | 0 |
-| Sumo Logic | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Swiggy | smartrecruiters | ✅ OK | 2026-11-15 | 0 |
-| Target | workday | ✅ OK | 2026-11-15 | 0 |
+| Sumo Logic | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Swiggy | smartrecruiters | ✅ OK | 2026-11-16 | 0 |
+| Target | workday | ✅ OK | 2026-11-16 | 0 |
 | Tekion | ashby | ✅ OK | 2026-11-15 | 0 |
-| Temporal | ashby | ✅ OK | 2026-11-15 | 0 |
-| Thomson Reuters | workday | ✅ OK | 2026-11-15 | 0 |
-| Toast | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| TransUnion | workday | ✅ OK | 2026-11-15 | 0 |
-| Trimble | workday | ✅ OK | 2026-11-15 | 0 |
+| Temporal | ashby | ✅ OK | 2026-11-16 | 0 |
+| Thomson Reuters | workday | ✅ OK | 2026-11-16 | 0 |
+| Toast | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| TransUnion | workday | ✅ OK | 2026-11-16 | 0 |
+| Trimble | workday | ✅ OK | 2026-11-16 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Unisys | workday | ✅ OK | 2026-11-15 | 0 |
-| US Bank | workday | ✅ OK | 2026-11-15 | 0 |
-| Vercel | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Waymo | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| Unisys | workday | ✅ OK | 2026-11-16 | 0 |
+| US Bank | workday | ✅ OK | 2026-11-16 | 0 |
+| Vercel | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Waymo | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Wolters Kluwer | workday | ✅ OK | 2026-11-15 | 0 |
 | Workday | workday | ✅ OK | 2026-11-15 | 0 |
-| WorldQuant | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-15 | 0 |
-| Zeta | lever | ✅ OK | 2026-11-15 | 0 |
+| WorldQuant | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-16 | 0 |
+| Zeta | lever | ✅ OK | 2026-11-16 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Zscaler | greenhouse | ✅ OK | 2026-11-15 | 0 |
-| Zuora | greenhouse | ✅ OK | 2026-11-15 | 0 |
+| Zscaler | greenhouse | ✅ OK | 2026-11-16 | 0 |
+| Zuora | greenhouse | ✅ OK | 2026-11-16 | 0 |
 | Arcesium | unknown | ⏸ not tracked | — | 0 |
 | D. E. Shaw | unknown | ⏸ not tracked | — | 0 |
 | Intuit | unknown | ⏸ not tracked | — | 0 |
