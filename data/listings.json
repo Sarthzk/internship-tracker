@@ -4460,6 +4460,28 @@
   {
     "category": "data_ml",
     "closed_at": null,
+    "company": "LSEG",
+    "company_slug": "lseg",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "R0123245",
+    "first_seen": "2026-11-16T14:50:41.842374Z",
+    "id": "workday:lseg:R0123245",
+    "is_remote": false,
+    "last_seen": "2026-11-16",
+    "locations": [
+      "IND-Bangalore-TowerE,RMZ Infin"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "AI/ML Intern",
+    "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/AI-ML-Intern_R0123245"
+  },
+  {
+    "category": "data_ml",
+    "closed_at": null,
     "company": "Marvell",
     "company_slug": "marvell",
     "date_posted": null,
