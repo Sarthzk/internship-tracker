@@ -37,7 +37,7 @@
   },
   {
     "company_slug": "airbus",
-    "consecutive_failures": 8,
+    "consecutive_failures": 9,
     "failure_alerted": true,
     "last_count": 132,
     "last_error": "FetchError: HTTP 429 from ag.wd3.myworkdayjobs.com",
@@ -181,8 +181,8 @@
   },
   {
     "company_slug": "baxter",
-    "consecutive_failures": 2,
-    "failure_alerted": false,
+    "consecutive_failures": 3,
+    "failure_alerted": true,
     "last_count": 7,
     "last_error": "FetchError: HTTP 429 from baxter.wd1.myworkdayjobs.com",
     "last_success": "2026-11-16",
@@ -226,7 +226,7 @@
   },
   {
     "company_slug": "cadence",
-    "consecutive_failures": 4,
+    "consecutive_failures": 5,
     "failure_alerted": true,
     "last_count": 29,
     "last_error": "FetchError: HTTP 429 from cadence.wd1.myworkdayjobs.com",
@@ -595,10 +595,10 @@
   },
   {
     "company_slug": "hp",
-    "consecutive_failures": 2,
+    "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 39,
-    "last_error": "FetchError: HTTP 429 from hp.wd5.myworkdayjobs.com",
+    "last_error": null,
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -631,8 +631,8 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 2,
-    "failure_alerted": false,
+    "consecutive_failures": 3,
+    "failure_alerted": true,
     "last_count": 30,
     "last_error": "FetchError: HTTP 429 from intel.wd1.myworkdayjobs.com",
     "last_success": "2026-11-16",
@@ -640,7 +640,7 @@
   },
   {
     "company_slug": "invesco",
-    "consecutive_failures": 26,
+    "consecutive_failures": 27,
     "failure_alerted": true,
     "last_count": 43,
     "last_error": "FetchError: HTTP 429 from invesco.wd1.myworkdayjobs.com",
@@ -730,10 +730,10 @@
   },
   {
     "company_slug": "marvell",
-    "consecutive_failures": 2,
+    "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 8,
-    "last_error": "FetchError: HTTP 429 from marvell.wd1.myworkdayjobs.com",
+    "last_error": null,
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -928,7 +928,7 @@
   },
   {
     "company_slug": "palo-alto-networks",
-    "consecutive_failures": 26,
+    "consecutive_failures": 27,
     "failure_alerted": true,
     "last_count": 57,
     "last_error": "FetchError: HTTP 429 from paloaltonetworks.wd5.myworkdayjobs.com",
@@ -1054,7 +1054,7 @@
   },
   {
     "company_slug": "rockwell-automation",
-    "consecutive_failures": 26,
+    "consecutive_failures": 27,
     "failure_alerted": true,
     "last_count": 16,
     "last_error": "FetchError: HTTP 429 from rockwellautomation.wd1.myworkdayjobs.com",
@@ -1081,10 +1081,10 @@
   },
   {
     "company_slug": "salesforce",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 55,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from salesforce.wd12.myworkdayjobs.com",
     "last_success": "2026-11-16",
     "zero_since": null
   },
@@ -1270,7 +1270,7 @@
   },
   {
     "company_slug": "thomson-reuters",
-    "consecutive_failures": 12,
+    "consecutive_failures": 13,
     "failure_alerted": true,
     "last_count": 41,
     "last_error": "FetchError: HTTP 429 from thomsonreuters.wd5.myworkdayjobs.com",
@@ -1297,7 +1297,7 @@
   },
   {
     "company_slug": "transunion",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 17,
     "last_error": "FetchError: HTTP 429 from transunion.wd5.myworkdayjobs.com",
@@ -1342,7 +1342,7 @@
   },
   {
     "company_slug": "unisys",
-    "consecutive_failures": 26,
+    "consecutive_failures": 27,
     "failure_alerted": true,
     "last_count": 27,
     "last_error": "FetchError: HTTP 429 from unisys.wd5.myworkdayjobs.com",
@@ -1423,10 +1423,10 @@
   },
   {
     "company_slug": "zebra-technologies",
-    "consecutive_failures": 2,
+    "consecutive_failures": 0,
     "failure_alerted": false,
     "last_count": 12,
-    "last_error": "FetchError: HTTP 429 from zebra.wd501.myworkdayjobs.com",
+    "last_error": null,
     "last_success": "2026-11-16",
     "zero_since": null
   },
