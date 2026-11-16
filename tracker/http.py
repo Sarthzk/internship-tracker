@@ -84,6 +84,11 @@ def _is_retryable(status_code: int) -> bool:
     return status_code == 429 or status_code >= 500
 
 
+def is_challenge(response: httpx.Response) -> bool:
+    """A Cloudflare bot challenge: waiting and asking again will not change the answer."""
+    return response.headers.get("cf-mitigated", "").strip().lower() == "challenge"
+
+
 def _retry_after(response: httpx.Response) -> float | None:
     value = response.headers.get("Retry-After", "").strip()
     return float(value) if value.isdigit() else None
@@ -150,7 +155,11 @@ class PoliteTransport(httpx.AsyncBaseTransport):
                     await asyncio.sleep(self._backoff * 2**attempt)
                     continue
                 self._mark(host)
-                if last_attempt or not _is_retryable(response.status_code):
+                if (
+                    last_attempt
+                    or is_challenge(response)
+                    or not _is_retryable(response.status_code)
+                ):
                     return _limited(response, self._max_bytes)
                 wait = _retry_after(response)
                 if wait is None:

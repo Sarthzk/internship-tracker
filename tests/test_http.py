@@ -218,3 +218,14 @@ async def test_tests_with_no_delay_are_never_paced():
             await client.get("https://a.wd1.myworkdayjobs.com/x")
             await client.get("https://b.wd1.myworkdayjobs.com/x")
     assert time.monotonic() - t < 0.5
+
+
+async def test_a_cloudflare_challenge_is_not_retried():
+    with respx.mock:
+        route = respx.get(URL).respond(
+            429, headers={"cf-mitigated": "challenge"}, text="<html>Just a moment</html>"
+        )
+        async with make_client(delay=0, backoff=0) as client:
+            resp = await client.get(URL)
+    assert resp.status_code == 429
+    assert route.call_count == 1  # a plain 429 would be tried three times

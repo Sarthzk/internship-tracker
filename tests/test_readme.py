@@ -258,6 +258,26 @@ def test_status_shows_a_dropped_posting_count_as_verifying_not_failing():
     assert "· 0 failing ·" in text and "⚠️" not in text
 
 
+def test_status_shows_site_protection_as_blocked_not_failing():
+    from tracker.models import HealthRecord
+    from tracker.readme import render_status
+
+    companies = [company("acme", "Acme"), company("zed", "Zed")]
+    health = {
+        "acme": HealthRecord(
+            company_slug="acme",
+            last_success=date(2026, 10, 28),
+            consecutive_failures=5,
+            last_error="BlockedError: blocked by site protection (Cloudflare challenge)",
+        ),
+        "zed": HealthRecord(company_slug="zed", last_success=date(2026, 10, 29)),
+    }
+    text = render_status(companies, health, [], NOW)
+    assert "🛡️ blocked by the site's bot protection, will retry" in text
+    assert "**2 companies tracked** · 1 OK · 0 failing · 1 blocked by site protection ·" in text
+    assert "⚠️" not in text
+
+
 def test_generate_writes_status_page_when_companies_exist(tmp_path: Path):
     data = tmp_path / "data"
     save_listings(data / "listings.json", [listing(1)])

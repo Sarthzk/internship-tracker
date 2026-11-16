@@ -212,6 +212,8 @@ def render_archive(
 
 
 STATUS_HEADER = "| Company | Platform | Status | Last success | Open internships |"
+BLOCKED_PREFIX = "BlockedError: "  # how a BlockedError is recorded in HealthRecord.last_error
+BLOCKED_RANK = 0.5  # sorts after failing, before OK; counted as tracked but not as failing
 
 
 def _status(company: Company, record: HealthRecord | None) -> tuple[int, str]:
@@ -222,6 +224,8 @@ def _status(company: Company, record: HealthRecord | None) -> tuple[int, str]:
         return 2, "⏳ waiting for the first run"
     if record.consecutive_failures and is_verifying_drop(record):
         return 1, "🔍 verifying a drop in postings"
+    if record.consecutive_failures and (record.last_error or "").startswith(BLOCKED_PREFIX):
+        return BLOCKED_RANK, "🛡️ blocked by the site's bot protection, will retry"
     if record.consecutive_failures:
         runs = _count(record.consecutive_failures, "run")
         reason = f": {cell(record.last_error)[:70]}" if record.last_error else ""
@@ -253,6 +257,9 @@ def render_status(
         )
     rows.sort(key=lambda row: row[0])
     ranks = Counter(key[0] for key, _ in rows)
+    blocked = ranks[BLOCKED_RANK]
+    tracked = ranks[0] + ranks[BLOCKED_RANK] + ranks[1] + ranks[2]
+    blocked_note = f" · {blocked} blocked by site protection" if blocked else ""
     lines = [
         "# Tracker status",
         "",
@@ -262,8 +269,8 @@ def render_status(
         ),
         "",
         (
-            f"**{ranks[0] + ranks[1] + ranks[2]} companies tracked** · {ranks[1]} OK · "
-            f"{ranks[0]} failing · {ranks[3]} not tracked "
+            f"**{tracked} companies tracked** · {ranks[1]} OK · "
+            f"{ranks[0]} failing{blocked_note} · {ranks[3]} not tracked "
             f"· Last updated: {_local(now).isoformat()} (IST)"
         ),
         "",

@@ -71,7 +71,7 @@ def _retry_after(exc: BaseException) -> float:
     """Seconds Groq asks us to wait (Retry-After header), within sane bounds."""
     try:
         wait = float(exc.response.headers.get("retry-after", ""))  # type: ignore[attr-defined]
-    except (AttributeError, TypeError, ValueError):
+    except AttributeError, TypeError, ValueError:
         wait = 10.0
     return min(max(wait, 1.0), MAX_RATE_LIMIT_WAIT)
 
