@@ -5065,6 +5065,36 @@
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "S&P Global",
+    "company_slug": "sp-global",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-17T13:04:27.098385Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "332888-1",
+    "first_seen": "2026-11-17T13:01:28.310708Z",
+    "id": "workday:sp-global:332888-1",
+    "is_remote": false,
+    "last_seen": "2026-11-17",
+    "locations": [
+      "Gurugram, Haryana"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice, Client Support",
+    "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Gurugram-Haryana/Apprentice--Client-Support_332888-1"
+  },
+  {
     "category": "swe",
     "closed_at": "2026-11-07T18:50:42.860411Z",
     "company": "Wells Fargo",
