@@ -937,7 +937,7 @@
   },
   {
     "company_slug": "paypal",
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "failure_alerted": true,
     "last_count": 1,
     "last_error": "returned 0 postings (previously 1)",
