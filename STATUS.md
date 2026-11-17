@@ -2,17 +2,17 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Apple | custom | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-17 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-17 | 0 |
 | AMD | custom | ✅ OK | 2026-11-17 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-17 | 1 |
 | Analog Devices | workday | ✅ OK | 2026-11-17 | 0 |
-| Apple | custom | ✅ OK | 2026-11-17 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-17 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-17 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-17 | 0 |
