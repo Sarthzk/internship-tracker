@@ -727,7 +727,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-17T01:40:41.085944Z",
     "company": "PayPal",
     "company_slug": "paypal",
     "date_posted": "2026-11-09",
@@ -751,10 +751,10 @@
       "Bangalore, Karnataka, India",
       "Chennai, Tamil Nadu, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "eightfold",
-    "status": "open",
+    "status": "closed",
     "title": "Software Engineer Intern",
     "url": "https://paypal.eightfold.ai/careers/job/274923210258"
   },

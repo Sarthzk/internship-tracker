@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**114 closed** · Last updated: 2026-11-17 (IST)
+**115 closed** · Last updated: 2026-11-17 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| PayPal<br><sub>Fintech</sub> | Software Engineer Intern<br><sub>🎓 Bachelor’s degree in Computer Science or related field</sub> | Bangalore, Karnataka, India; Chennai, Tamil Nadu, India | — | 2028 | — | [Apply](https://paypal.eightfold.ai/careers/job/274923210258) | 2026-11-09 | 2026-11-17 |
 | GE HealthCare<br><sub>Industrial</sub> | Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Systems-Engineering-Intern_R4039429-1) | 2026-11-16 | 2026-11-17 |
 | GE HealthCare<br><sub>Industrial</sub> | Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern---System-Diagnostic-Tools_R4039482-1) | 2026-11-16 | 2026-11-17 |
 | GE HealthCare<br><sub>Industrial</sub> | Intern | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Intern_R4041292-1) | 2026-11-16 | 2026-11-17 |
