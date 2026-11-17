@@ -267,6 +267,28 @@
     "url": "https://joinus.juspay.in/?jobId=PSE02"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Juspay",
+    "company_slug": "juspay",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "QE05",
+    "first_seen": "2026-11-17T13:20:43.066677Z",
+    "id": "custom:juspay:QE05",
+    "is_remote": false,
+    "last_seen": "2026-11-17",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "custom",
+    "status": "open",
+    "title": "Quality Engineer Intern",
+    "url": "https://joinus.juspay.in/?jobId=QE05"
+  },
+  {
     "category": "quant",
     "closed_at": null,
     "company": "Quadeye",
@@ -5063,6 +5085,36 @@
     "status": "closed",
     "title": "Apprentice, Channels Client On-boarding Specialist",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Channels-Client-On-boarding-Specialist_332203-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "S&P Global",
+    "company_slug": "sp-global",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor’s degree in Business, Finance, Economics, or Accounting",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-17T13:23:41.745838Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "332797-1",
+    "first_seen": "2026-11-17T13:20:43.066677Z",
+    "id": "workday:sp-global:332797-1",
+    "is_remote": false,
+    "last_seen": "2026-11-17",
+    "locations": [
+      "Mumbai, Maharastra"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice, Visible Alpha Client Support",
+    "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mumbai-Maharastra/Apprentice--Visible-Alpha-Client-Support_332797-1"
   },
   {
     "category": "other",

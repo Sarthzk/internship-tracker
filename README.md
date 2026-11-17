@@ -27,12 +27,13 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**52 open internships** across 21 companies · Last updated: 2026-11-17 (IST)
+**54 open internships** across 21 companies · Last updated: 2026-11-17 (IST)
 
-### Software Engineering (19)
+### Software Engineering (20)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Juspay<br><sub>Fintech</sub> | Quality Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=QE05) | 0d |
 | Google<br><sub>Big Tech</sub> | Forward Deployed Engineer Intern, 2027 | Bengaluru, Karnataka, India | 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/96299220855595718) | 1d |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240121118) | 6d |
 | HP<br><sub>Big Tech</sub> | College Intern - Technical | Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India; Gurugram, Haryana, India | Summer | — | — | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1) | 6d |
@@ -95,13 +96,14 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 1d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 12d |
 
-### Other (16)
+### Other (17)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | GE HealthCare<br><sub>Industrial</sub> | Operational Management Leadership Program Intern<br><sub>🎓 Bachelor’s degree in Engineering (Mechanical / Production)…</sub> | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Operational-Management-Leadership-Program-Intern_R4049562-1) | 0d |
 | S&P Global<br><sub>Finance</sub> | Apprentice OTC<br><sub>🎓 At least a bachelor's degree in any field or relevant disci…</sub> | Noida, Uttarpradesh | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Noida-Uttarpradesh/Apprentice-OTC_332029-1) | 0d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Client Support | Gurugram, Haryana | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Gurugram-Haryana/Apprentice--Client-Support_332888-1) | 0d |
+| S&P Global<br><sub>Finance</sub> | Apprentice, Visible Alpha Client Support<br><sub>🎓 Bachelor’s degree in Business, Finance, Economics, or Accou…</sub> | Mumbai, Maharastra | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mumbai-Maharastra/Apprentice--Visible-Alpha-Client-Support_332797-1) | 0d |
 | Baxter<br><sub>Industrial</sub> | Apprentice | Bangalore, Karnataka | — | — | — | [Apply](https://baxter.wd1.myworkdayjobs.com/baxter/job/Bangalore-Karnataka/Apprentice_JR-213466) | 1d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016514) | 5d |
 | GE HealthCare<br><sub>Industrial</sub> | EID Intern<br><sub>🎓 Bachelors/technical program</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/EID-Intern_R4045415-1) | 11d |
