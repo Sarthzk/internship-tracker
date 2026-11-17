@@ -35,7 +35,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-17 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-17 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-17 | 0 |
-| PayPal | eightfold | 🔍 verifying a drop in postings | 2026-11-17 | 1 |
+| PayPal | eightfold | ✅ OK | 2026-11-17 | 1 |
 | Quadeye | custom | ✅ OK | 2026-11-17 | 3 |
 | Qualcomm | eightfold | ✅ OK | 2026-11-17 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-17 | 0 |
