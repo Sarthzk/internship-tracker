@@ -937,12 +937,12 @@
   },
   {
     "company_slug": "paypal",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 1,
-    "last_error": null,
+    "last_error": "returned 0 postings (previously 1)",
     "last_success": "2026-11-17",
-    "zero_since": null
+    "zero_since": "2026-11-17T00:14:13.998153Z"
   },
   {
     "company_slug": "paytm",
