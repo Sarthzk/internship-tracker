@@ -23,7 +23,7 @@
   },
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-11-17T07:50:49.024953Z",
     "company": "Apple",
     "company_slug": "apple",
     "date_posted": "2026-09-20",
@@ -36,10 +36,10 @@
     "locations": [
       "Hyderabad, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "custom",
-    "status": "open",
+    "status": "closed",
     "title": "PhD Intern, Apple Ads (Machine Learning)",
     "url": "https://jobs.apple.com/en-in/details/200684719/phd-intern-apple-ads-machine-learning?team=SFTWR"
   },
@@ -667,7 +667,7 @@
   },
   {
     "category": "product",
-    "closed_at": null,
+    "closed_at": "2026-11-17T07:50:49.024953Z",
     "company": "Microsoft",
     "company_slug": "microsoft",
     "date_posted": "2026-09-10",
@@ -688,10 +688,10 @@
     "locations": [
       "India, Multiple Locations, Multiple Locations"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "eightfold",
-    "status": "open",
+    "status": "closed",
     "title": "Product Design INTERN",
     "url": "https://apply.careers.microsoft.com/careers/job/1970393556992502"
   },
