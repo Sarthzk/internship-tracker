@@ -6,12 +6,12 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| CRED | lever | ⚠️ failing for 3 runs: ReadTimeout: | 2026-11-17 | 0 |
-| Hevo Data | lever | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 1 |
-| Meesho | lever | ⚠️ failing for 3 runs: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
-| Mindtickle | lever | ⚠️ failing for 3 runs: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
-| Paytm | lever | ⚠️ failing for 3 runs: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
-| Zeta | lever | ⚠️ failing for 3 runs: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
+| CRED | lever | ⚠️ failing for 4 runs: ReadTimeout: | 2026-11-17 | 0 |
+| Hevo Data | lever | ⚠️ failing for 2 runs: TimeoutError: no answer within 120s | 2026-11-17 | 1 |
+| Meesho | lever | ⚠️ failing for 4 runs: FetchError: HTTP 500 from api.lever.co | 2026-11-17 | 0 |
+| Mindtickle | lever | ⚠️ failing for 4 runs: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
+| Paytm | lever | ⚠️ failing for 4 runs: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
+| Zeta | lever | ⚠️ failing for 4 runs: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-17 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-17 | 0 |
