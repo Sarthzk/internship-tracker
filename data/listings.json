@@ -5028,7 +5028,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-17T19:20:44.571877Z",
     "company": "S&P Global",
     "company_slug": "sp-global",
     "date_posted": null,
@@ -5049,10 +5049,10 @@
     "locations": [
       "Noida, Uttarpradesh"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice OTC",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Noida-Uttarpradesh/Apprentice-OTC_332029-1"
   },
