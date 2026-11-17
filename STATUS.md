@@ -2,12 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 1 failing · 1 blocked by site protection · 12 not tracked · Last updated: 2026-11-18 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-17 | 3 |
-| Capital One | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-17 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-17 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-17 | 0 |
@@ -20,6 +19,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-11-17 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-17 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-17 | 0 |
+| Capital One | workday | ✅ OK | 2026-11-17 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-17 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-17 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-17 | 0 |
