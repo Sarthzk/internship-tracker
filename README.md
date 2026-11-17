@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**52 open internships** across 22 companies · Last updated: 2026-11-17 (IST)
+**50 open internships** across 20 companies · Last updated: 2026-11-17 (IST)
 
 ### Software Engineering (19)
 
@@ -53,11 +53,10 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Quadeye<br><sub>Quant</sub> | Intern - Systems Engineer | Gurgaon, Haryana, India | — | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318430) | 141d |
 | NXP<br><sub>Semiconductor</sub> | Technical Internship (2026) | Noida; Bangalore | 2026 | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Noida/Internship----SoC--IP-Design---2024-_R-10052538) | 460d |
 
-### Data & ML (10)
+### Data & ML (8)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
-| LSEG<br><sub>Finance</sub> | AI/ML Intern | IND-Bangalore-TowerE,RMZ Infin | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/AI-ML-Intern_R0123245) | 1d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | Ph D/Research Intern - AI Research Lab<br><sub>🎓 PhD</sub> | Bengaluru, Karnātaka, India | 6 months | — | 6 mo | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) | 5d |
 | GE HealthCare<br><sub>Industrial</sub> | Research Intern - AI<br><sub>🎓 PhD in Computer Science / Data Sciences / AI</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Research-Intern---AI_R4043882-1) | 12d |
 | Marvell<br><sub>Semiconductor</sub> | Research Intern (PhD), AI-Scale Protocols & Simulation | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255) | 19d |
@@ -66,7 +65,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Nvidia<br><sub>Semiconductor</sub> | PhD Intern, AI ML in Wireless L1/L2 - Fall 2026<br><sub>🎓 PhD</sub> | India, Bengaluru | Fall 2026 | — | — | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423) | 20d |
 | Microsoft<br><sub>Big Tech</sub> | Applied Sciences INTERN | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556917519) | 22d |
 | Adobe<br><sub>Big Tech</sub> | 2027 Intern - Research PhD Intern | Bangalore, Karnātaka, India | 2027 | — | — | [Apply](https://careers.adobe.com/us/en/job/R173016) | 29d |
-| Apple<br><sub>Big Tech</sub> | PhD Intern, Machine Learning: MSI, Product Operations Team | Bengaluru, India | — | — | — | [Apply](https://jobs.apple.com/en-in/details/200676908/phd-intern-machine-learning-msi-product-operations-team?team=OPMFG) | 61d |
 
 ### Quant & Trading (1)
 

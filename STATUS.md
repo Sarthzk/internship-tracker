@@ -12,7 +12,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | AMD | custom | ✅ OK | 2026-11-17 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-17 | 1 |
 | Analog Devices | workday | ✅ OK | 2026-11-17 | 0 |
-| Apple | custom | ✅ OK | 2026-11-17 | 1 |
+| Apple | custom | ✅ OK | 2026-11-17 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-17 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-17 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-17 | 0 |
@@ -108,7 +108,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Juspay | custom | ✅ OK | 2026-11-17 | 5 |
 | Kong | ashby | ✅ OK | 2026-11-17 | 0 |
 | LaunchDarkly | greenhouse | ✅ OK | 2026-11-17 | 0 |
-| LSEG | workday | ✅ OK | 2026-11-17 | 1 |
+| LSEG | workday | ✅ OK | 2026-11-17 | 0 |
 | Meesho | lever | ✅ OK | 2026-11-17 | 0 |
 | Mindtickle | lever | ✅ OK | 2026-11-17 | 0 |
 | Mixpanel | greenhouse | ✅ OK | 2026-11-17 | 0 |

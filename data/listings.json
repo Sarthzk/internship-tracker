@@ -1,7 +1,7 @@
 [
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-11-17T09:50:45.493224Z",
     "company": "Apple",
     "company_slug": "apple",
     "date_posted": "2026-09-17",
@@ -14,10 +14,10 @@
     "locations": [
       "Bengaluru, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "custom",
-    "status": "open",
+    "status": "closed",
     "title": "PhD Intern, Machine Learning: MSI, Product Operations Team",
     "url": "https://jobs.apple.com/en-in/details/200676908/phd-intern-machine-learning-msi-product-operations-team?team=OPMFG"
   },
@@ -4489,7 +4489,7 @@
   },
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-11-17T09:50:45.493224Z",
     "company": "LSEG",
     "company_slug": "lseg",
     "date_posted": null,
@@ -4510,10 +4510,10 @@
     "locations": [
       "IND-Bangalore-TowerE,RMZ Infin"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "AI/ML Intern",
     "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/AI-ML-Intern_R0123245"
   },

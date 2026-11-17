@@ -2,10 +2,12 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**117 closed** · Last updated: 2026-11-17 (IST)
+**119 closed** · Last updated: 2026-11-17 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Apple<br><sub>Big Tech</sub> | PhD Intern, Machine Learning: MSI, Product Operations Team | Bengaluru, India | — | — | — | [Apply](https://jobs.apple.com/en-in/details/200676908/phd-intern-machine-learning-msi-product-operations-team?team=OPMFG) | 2026-09-17 | 2026-11-17 |
+| LSEG<br><sub>Finance</sub> | AI/ML Intern | IND-Bangalore-TowerE,RMZ Infin | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/AI-ML-Intern_R0123245) | 2026-11-16 | 2026-11-17 |
 | Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 2026-11-17 | 2026-11-17 |
 | Apple<br><sub>Big Tech</sub> | PhD Intern, Apple Ads (Machine Learning) | Hyderabad, India | — | — | — | [Apply](https://jobs.apple.com/en-in/details/200684719/phd-intern-apple-ads-machine-learning?team=SFTWR) | 2026-09-20 | 2026-11-17 |
 | Microsoft<br><sub>Big Tech</sub> | Product Design INTERN | India, Multiple Locations, Multiple Locations | — | — | — | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556992502) | 2026-09-10 | 2026-11-17 |
