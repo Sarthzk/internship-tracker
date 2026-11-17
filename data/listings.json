@@ -4881,6 +4881,36 @@
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Intern_590822"
   },
   {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Philips",
+    "company_slug": "philips",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-17T10:43:39.886038Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": "€[Min]–€[Max pay zone 2 / check local guidelines]",
+      "term": "unknown"
+    },
+    "external_id": "595706",
+    "first_seen": "2026-11-17T10:40:43.733286Z",
+    "id": "workday:philips:595706",
+    "is_remote": false,
+    "last_seen": "2026-11-17",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Jr AI Developer – Intern",
+    "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Jr-AI-Developer---Intern_595706"
+  },
+  {
     "category": "swe",
     "closed_at": "2026-11-11T18:50:44.604620Z",
     "company": "Salesforce",

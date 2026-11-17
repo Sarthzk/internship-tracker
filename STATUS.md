@@ -2,10 +2,15 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-17 (IST)
+**162 companies tracked** · 157 OK · 5 failing · 12 not tracked · Last updated: 2026-11-17 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| CRED | lever | ⚠️ failing for 1 run: ReadTimeout: | 2026-11-17 | 0 |
+| Meesho | lever | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
+| Mindtickle | lever | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
+| Paytm | lever | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
+| Zeta | lever | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-17 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-17 | 0 |
@@ -73,7 +78,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Commvault | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Contentstack | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-11-17 | 0 |
-| CRED | lever | ✅ OK | 2026-11-17 | 0 |
 | Cummins | oracle_hcm | ✅ OK | 2026-11-17 | 0 |
 | Datadog | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-17 | 0 |
@@ -109,8 +113,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Kong | ashby | ✅ OK | 2026-11-17 | 0 |
 | LaunchDarkly | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | LSEG | workday | ✅ OK | 2026-11-17 | 0 |
-| Meesho | lever | ✅ OK | 2026-11-17 | 0 |
-| Mindtickle | lever | ✅ OK | 2026-11-17 | 0 |
 | Mixpanel | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | MongoDB | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Motorola Solutions | workday | ✅ OK | 2026-11-17 | 0 |
@@ -124,8 +126,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | onsemi | oracle_hcm | ✅ OK | 2026-11-17 | 0 |
 | OpenAI | ashby | ✅ OK | 2026-11-17 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-17 | 0 |
-| Paytm | lever | ✅ OK | 2026-11-17 | 0 |
-| Philips | workday | ✅ OK | 2026-11-17 | 0 |
+| Philips | workday | ✅ OK | 2026-11-17 | 1 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-17 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-17 | 0 |
 | Postman | workday | ✅ OK | 2026-11-17 | 0 |
@@ -164,7 +165,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Workday | workday | ✅ OK | 2026-11-17 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Zebra Technologies | workday | ✅ OK | 2026-11-17 | 0 |
-| Zeta | lever | ✅ OK | 2026-11-17 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Zuora | greenhouse | ✅ OK | 2026-11-17 | 0 |
