@@ -4882,7 +4882,7 @@
   },
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-11-17T12:20:42.977678Z",
     "company": "Philips",
     "company_slug": "philips",
     "date_posted": null,
@@ -4903,10 +4903,10 @@
     "locations": [
       "Bangalore"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Jr AI Developer – Intern",
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Jr-AI-Developer---Intern_595706"
   },
@@ -5003,6 +5003,36 @@
     "status": "closed",
     "title": "Apprentice, Order to Cash",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Hyderabad-Telangana/Apprentice--Order-to-Cash_332023-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "S&P Global",
+    "company_slug": "sp-global",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "At least a bachelor's degree in any field or relevant discipline",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-17T12:23:41.568112Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "332029-1",
+    "first_seen": "2026-11-17T12:20:42.977678Z",
+    "id": "workday:sp-global:332029-1",
+    "is_remote": false,
+    "last_seen": "2026-11-17",
+    "locations": [
+      "Noida, Uttarpradesh"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice OTC",
+    "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Noida-Uttarpradesh/Apprentice-OTC_332029-1"
   },
   {
     "category": "other",

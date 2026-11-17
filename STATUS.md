@@ -125,7 +125,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-11-17 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-17 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-17 | 0 |
-| Philips | workday | ✅ OK | 2026-11-17 | 1 |
+| Philips | workday | ✅ OK | 2026-11-17 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-17 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-17 | 0 |
 | Postman | workday | ✅ OK | 2026-11-17 | 0 |
@@ -134,7 +134,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-17 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-17 | 0 |
+| S&P Global | workday | ✅ OK | 2026-11-17 | 1 |
 | Sabre | workday | ✅ OK | 2026-11-17 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-17 | 0 |
