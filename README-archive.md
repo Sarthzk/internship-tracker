@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**120 closed** · Last updated: 2026-11-18 (IST)
+**121 closed** · Last updated: 2026-11-18 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| GE HealthCare<br><sub>Industrial</sub> | EID Intern<br><sub>🎓 Bachelors/technical program</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/EID-Intern_R4045415-1) | 2026-11-06 | 2026-11-18 |
 | Philips<br><sub>Industrial</sub> | Jr AI Developer – Intern | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Jr-AI-Developer---Intern_595706) | 2026-11-17 | 2026-11-17 |
 | Apple<br><sub>Big Tech</sub> | PhD Intern, Machine Learning: MSI, Product Operations Team | Bengaluru, India | — | — | — | [Apply](https://jobs.apple.com/en-in/details/200676908/phd-intern-machine-learning-msi-product-operations-team?team=OPMFG) | 2026-09-17 | 2026-11-17 |
 | LSEG<br><sub>Finance</sub> | AI/ML Intern | IND-Bangalore-TowerE,RMZ Infin | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/AI-ML-Intern_R0123245) | 2026-11-16 | 2026-11-17 |
