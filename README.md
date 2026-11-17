@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**53 open internships** across 23 companies · Last updated: 2026-11-17 (IST)
+**52 open internships** across 22 companies · Last updated: 2026-11-17 (IST)
 
 ### Software Engineering (19)
 
@@ -97,11 +97,10 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 1d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 12d |
 
-### Other (15)
+### Other (14)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
-| Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 0d |
 | GE HealthCare<br><sub>Industrial</sub> | Operational Management Leadership Program Intern<br><sub>🎓 Bachelor’s degree in Engineering (Mechanical / Production)…</sub> | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Operational-Management-Leadership-Program-Intern_R4049562-1) | 0d |
 | Baxter<br><sub>Industrial</sub> | Apprentice | Bangalore, Karnataka | — | — | — | [Apply](https://baxter.wd1.myworkdayjobs.com/baxter/job/Bangalore-Karnataka/Apprentice_JR-213466) | 1d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016514) | 5d |
