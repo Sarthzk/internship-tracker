@@ -821,7 +821,7 @@
   },
   {
     "category": "product",
-    "closed_at": null,
+    "closed_at": "2026-11-17T06:40:44.731236Z",
     "company": "Glance",
     "company_slug": "glance",
     "date_posted": "2026-06-08",
@@ -842,10 +842,10 @@
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "greenhouse",
-    "status": "open",
+    "status": "closed",
     "title": "UX Design - Intern",
     "url": "https://job-boards.greenhouse.io/glance/jobs/7916115"
   },

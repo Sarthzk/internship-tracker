@@ -90,7 +90,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | GE HealthCare | workday | ✅ OK | 2026-11-17 | 4 |
 | GE Vernova | workday | ✅ OK | 2026-11-17 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-17 | 0 |
-| Glance | greenhouse | ✅ OK | 2026-11-17 | 1 |
+| Glance | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-17 | 0 |
