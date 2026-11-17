@@ -4218,6 +4218,36 @@
   {
     "category": "other",
     "closed_at": null,
+    "company": "GE HealthCare",
+    "company_slug": "ge-healthcare",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor’s degree in Engineering (Mechanical / Production) or equivalent",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-17T03:54:01.111316Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R4049562-1",
+    "first_seen": "2026-11-17T03:50:44.118304Z",
+    "id": "workday:ge-healthcare:R4049562-1",
+    "is_remote": false,
+    "last_seen": "2026-11-17",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Operational Management Leadership Program Intern",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Operational-Management-Leadership-Program-Intern_R4049562-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
     "company": "GE Vernova",
     "company_slug": "ge-vernova",
     "date_posted": null,

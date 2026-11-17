@@ -87,7 +87,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Figma | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-17 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-17 | 2 |
+| GE HealthCare | workday | ✅ OK | 2026-11-17 | 3 |
 | GE Vernova | workday | ✅ OK | 2026-11-17 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-17 | 1 |
