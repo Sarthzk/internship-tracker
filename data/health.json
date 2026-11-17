@@ -343,10 +343,10 @@
   },
   {
     "company_slug": "cred",
-    "consecutive_failures": 7,
+    "consecutive_failures": 8,
     "failure_alerted": true,
     "last_count": 13,
-    "last_error": "FetchError: HTTP 500 from api.lever.co",
+    "last_error": "FetchError: HTTP 503 from api.lever.co",
     "last_success": "2026-11-17",
     "zero_since": null
   },
@@ -577,10 +577,10 @@
   },
   {
     "company_slug": "hevo-data",
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "failure_alerted": true,
     "last_count": 41,
-    "last_error": "TimeoutError: no answer within 120s",
+    "last_error": "ReadTimeout: ",
     "last_success": "2026-11-17",
     "zero_since": null
   },
@@ -748,10 +748,10 @@
   },
   {
     "company_slug": "meesho",
-    "consecutive_failures": 7,
+    "consecutive_failures": 8,
     "failure_alerted": true,
     "last_count": 51,
-    "last_error": "FetchError: HTTP 500 from api.lever.co",
+    "last_error": "FetchError: HTTP 503 from api.lever.co",
     "last_success": "2026-11-17",
     "zero_since": null
   },
@@ -775,10 +775,10 @@
   },
   {
     "company_slug": "mindtickle",
-    "consecutive_failures": 7,
+    "consecutive_failures": 8,
     "failure_alerted": true,
     "last_count": 19,
-    "last_error": "TimeoutError: no answer within 120s",
+    "last_error": "FetchError: HTTP 500 from api.lever.co",
     "last_success": "2026-11-17",
     "zero_since": null
   },
@@ -946,10 +946,10 @@
   },
   {
     "company_slug": "paytm",
-    "consecutive_failures": 7,
+    "consecutive_failures": 8,
     "failure_alerted": true,
     "last_count": 200,
-    "last_error": "TimeoutError: no answer within 120s",
+    "last_error": "FetchError: HTTP 502 from api.lever.co",
     "last_success": "2026-11-17",
     "zero_since": null
   },
@@ -1432,10 +1432,10 @@
   },
   {
     "company_slug": "zeta",
-    "consecutive_failures": 7,
+    "consecutive_failures": 8,
     "failure_alerted": true,
     "last_count": 30,
-    "last_error": "FetchError: HTTP 502 from api.lever.co",
+    "last_error": "FetchError: HTTP 503 from api.lever.co",
     "last_success": "2026-11-17",
     "zero_since": null
   },
