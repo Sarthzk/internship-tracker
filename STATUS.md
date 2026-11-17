@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-17 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-17 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Hevo Data | lever | ⚠️ failing for 4 runs: ReadTimeout: | 2026-11-17 | 1 |
 | Adobe | phenom | ✅ OK | 2026-11-17 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-17 | 0 |
@@ -95,6 +94,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-17 | 0 |
+| Hevo Data | lever | ✅ OK | 2026-11-17 | 1 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-17 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-17 | 0 |
 | HP | workday | ✅ OK | 2026-11-17 | 1 |
