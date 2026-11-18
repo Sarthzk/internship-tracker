@@ -5249,6 +5249,36 @@
       "degree": null,
       "duration_months": 6,
       "eligible_batches": null,
+      "enriched_at": "2026-11-18T06:23:42.340555Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR103480",
+    "first_seen": "2026-11-18T06:20:45.037459Z",
+    "id": "workday:zebra-technologies:JR103480",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
       "enriched_at": "2026-11-18T06:04:12.633450Z",
       "model": "openai/gpt-oss-20b",
       "stipend": null,
