@@ -10,7 +10,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-18 | 0 |
 | AMD | custom | ✅ OK | 2026-11-18 | 0 |
-| American Express | oracle_hcm | ✅ OK | 2026-11-18 | 1 |
+| American Express | oracle_hcm | ✅ OK | 2026-11-18 | 3 |
 | Analog Devices | workday | ✅ OK | 2026-11-18 | 0 |
 | Apple | custom | ✅ OK | 2026-11-18 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-18 | 0 |
@@ -163,7 +163,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wolters Kluwer | workday | ✅ OK | 2026-11-18 | 0 |
 | Workday | workday | ✅ OK | 2026-11-18 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-18 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-18 | 4 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-18 | 7 |
 | Zeta | lever | ✅ OK | 2026-11-18 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-18 | 0 |

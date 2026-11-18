@@ -1264,6 +1264,66 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "American Express",
+    "company_slug": "american-express",
+    "date_posted": "2026-11-18",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T06:43:40.661094Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26016519",
+    "first_seen": "2026-11-18T06:40:42.718207Z",
+    "id": "oracle_hcm:american-express:26016519",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Gurugram, HR, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "oracle_hcm",
+    "status": "open",
+    "title": "Apprentice",
+    "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26016519"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "American Express",
+    "company_slug": "american-express",
+    "date_posted": "2026-11-18",
+    "enrichment": {
+      "degree": "Commerce, Finance, Accounting, Business, Economics or a related field",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T06:43:40.661094Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "26016522",
+    "first_seen": "2026-11-18T06:40:42.718207Z",
+    "id": "oracle_hcm:american-express:26016522",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Gurugram, HR, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "oracle_hcm",
+    "status": "open",
+    "title": "Apprentice",
+    "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26016522"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-11T00:50:42.495109Z",
     "company": "Nokia",
     "company_slug": "nokia",
@@ -5358,5 +5418,95 @@
     "status": "open",
     "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
     "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T06:43:40.661094Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR103862-1",
+    "first_seen": "2026-11-18T06:40:42.718207Z",
+    "id": "workday:zebra-technologies:JR103862-1",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T06:43:40.661094Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR103863",
+    "first_seen": "2026-11-18T06:40:42.718207Z",
+    "id": "workday:zebra-technologies:JR103863",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T06:43:40.661094Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR103864",
+    "first_seen": "2026-11-18T06:40:42.718207Z",
+    "id": "workday:zebra-technologies:JR103864",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864"
   }
 ]
