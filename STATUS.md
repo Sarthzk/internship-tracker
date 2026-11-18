@@ -2,12 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-17 | 3 |
-| LSEG | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-18 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-18 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-18 | 0 |
@@ -33,6 +31,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-18 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-18 | 0 |
 | Micron | workday | ✅ OK | 2026-11-18 | 0 |
+| Microsoft | eightfold | ✅ OK | 2026-11-18 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-18 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-18 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-18 | 0 |
@@ -109,6 +108,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Juspay | custom | ✅ OK | 2026-11-18 | 6 |
 | Kong | ashby | ✅ OK | 2026-11-18 | 0 |
 | LaunchDarkly | greenhouse | ✅ OK | 2026-11-18 | 0 |
+| LSEG | workday | ✅ OK | 2026-11-18 | 0 |
 | Meesho | lever | ✅ OK | 2026-11-18 | 0 |
 | Mindtickle | lever | ✅ OK | 2026-11-18 | 0 |
 | Mixpanel | greenhouse | ✅ OK | 2026-11-18 | 0 |
