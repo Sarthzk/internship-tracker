@@ -2,13 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 159 OK · 3 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Samsara | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
-| Squarepoint Capital | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
-| Toast | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-17 | 0 |
+| Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-17 | 3 |
 | Adobe | phenom | ✅ OK | 2026-11-18 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-18 | 0 |
@@ -34,13 +32,12 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-18 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-18 | 0 |
 | Micron | workday | ✅ OK | 2026-11-18 | 0 |
-| Microsoft | eightfold | ✅ OK | 2026-11-17 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-18 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-18 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-18 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-18 | 0 |
 | Quadeye | custom | ✅ OK | 2026-11-18 | 3 |
-| Qualcomm | eightfold | ✅ OK | 2026-11-17 | 1 |
+| Qualcomm | eightfold | ✅ OK | 2026-11-18 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-18 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-18 | 3 |
 | Salesforce | workday | ✅ OK | 2026-11-18 | 0 |
@@ -139,12 +136,14 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Rockwell Automation | workday | ✅ OK | 2026-11-18 | 0 |
 | S&P Global | workday | ✅ OK | 2026-11-18 | 3 |
 | Sabre | workday | ✅ OK | 2026-11-18 | 0 |
+| Samsara | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-18 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Shell | workday | ✅ OK | 2026-11-18 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-18 | 0 |
 | Sprinklr | workday | ✅ OK | 2026-11-18 | 0 |
+| Squarepoint Capital | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | State Street | workday | ✅ OK | 2026-11-18 | 0 |
 | Stryker | workday | ✅ OK | 2026-11-18 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-18 | 0 |
@@ -153,6 +152,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Tekion | ashby | ✅ OK | 2026-11-18 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-18 | 0 |
 | Thomson Reuters | workday | ✅ OK | 2026-11-18 | 0 |
+| Toast | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | TransUnion | workday | ✅ OK | 2026-11-18 | 0 |
 | Trimble | workday | ✅ OK | 2026-11-18 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-18 | 0 |
