@@ -27,9 +27,9 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**65 open internships** across 22 companies · Last updated: 2026-11-18 (IST)
+**67 open internships** across 22 companies · Last updated: 2026-11-18 (IST)
 
-### Software Engineering (27)
+### Software Engineering (29)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -37,6 +37,8 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103606) | 0d |
 | Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671) | 0d |
 | Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103704) | 0d |
+| Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778) | 0d |
+| Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering<br><sub>🎓 degree-seeking post-secondary educational institution</sub> | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859) | 0d |
 | Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103862-1) | 0d |
 | Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103863) | 0d |
 | Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103864) | 0d |

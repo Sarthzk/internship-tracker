@@ -5459,6 +5459,66 @@
       "degree": null,
       "duration_months": 6,
       "eligible_batches": null,
+      "enriched_at": "2026-11-18T07:04:17.316952Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR103778",
+    "first_seen": "2026-11-18T07:01:18.625944Z",
+    "id": "workday:zebra-technologies:JR103778",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103778"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "degree-seeking post-secondary educational institution",
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T07:04:17.316952Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR103859",
+    "first_seen": "2026-11-18T07:01:18.625944Z",
+    "id": "workday:zebra-technologies:JR103859",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103859"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
       "enriched_at": "2026-11-18T06:43:40.661094Z",
       "model": "openai/gpt-oss-20b",
       "stipend": null,

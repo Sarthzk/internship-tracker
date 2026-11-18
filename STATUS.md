@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Morgan Stanley | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from morganstanley.eightfold.ai | 2026-11-18 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-18 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-18 | 0 |
@@ -33,6 +32,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Mastercard | workday | ✅ OK | 2026-11-18 | 0 |
 | Micron | workday | ✅ OK | 2026-11-18 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-18 | 3 |
+| Morgan Stanley | eightfold | ✅ OK | 2026-11-18 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-18 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-18 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-18 | 0 |
@@ -163,7 +163,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wolters Kluwer | workday | ✅ OK | 2026-11-18 | 0 |
 | Workday | workday | ✅ OK | 2026-11-18 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-18 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-18 | 7 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-18 | 9 |
 | Zeta | lever | ✅ OK | 2026-11-18 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-18 | 0 |
