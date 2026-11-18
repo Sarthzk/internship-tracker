@@ -5327,6 +5327,36 @@
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Gurugram-Haryana/Apprentice--Client-Support_332888-1"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Stryker",
+    "company_slug": "stryker",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T08:13:58.026176Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R578197",
+    "first_seen": "2026-11-18T08:10:42.072730Z",
+    "id": "workday:stryker:R578197",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Gurugram, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Gurugram-India/Intern_R578197"
+  },
+  {
     "category": "swe",
     "closed_at": "2026-11-07T18:50:42.860411Z",
     "company": "Wells Fargo",

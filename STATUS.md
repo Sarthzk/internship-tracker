@@ -145,7 +145,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Sprinklr | workday | ✅ OK | 2026-11-18 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | State Street | workday | ✅ OK | 2026-11-18 | 0 |
-| Stryker | workday | ✅ OK | 2026-11-18 | 0 |
+| Stryker | workday | ✅ OK | 2026-11-18 | 1 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-18 | 0 |
 | Target | workday | ✅ OK | 2026-11-18 | 0 |
