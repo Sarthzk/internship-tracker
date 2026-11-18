@@ -4059,7 +4059,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-17T19:10:43.423959Z",
+    "closed_at": null,
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": null,
@@ -4076,14 +4076,14 @@
     "first_seen": "2026-11-06T09:10:40.918333Z",
     "id": "workday:ge-healthcare:R4045415-1",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "EID Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/EID-Intern_R4045415-1"
   },
@@ -4388,6 +4388,36 @@
     "status": "open",
     "title": "College Intern",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Hewlett Packard Enterprise",
+    "company_slug": "hpe",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T04:54:00.878043Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "1211844",
+    "first_seen": "2026-11-18T04:50:45.448080Z",
+    "id": "workday:hpe:1211844",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Bengaluru, Karnātaka, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Intern_1211844"
   },
   {
     "category": "other",

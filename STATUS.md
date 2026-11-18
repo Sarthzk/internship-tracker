@@ -2,18 +2,17 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-18 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Apple | custom | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-18 | 0 |
-| Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-18 | 3 |
 | Adobe | phenom | ✅ OK | 2026-11-18 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-18 | 0 |
 | AMD | custom | ✅ OK | 2026-11-18 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-18 | 1 |
 | Analog Devices | workday | ✅ OK | 2026-11-18 | 0 |
+| Apple | custom | ✅ OK | 2026-11-18 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-18 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-18 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-18 | 0 |
@@ -32,6 +31,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-18 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-18 | 0 |
 | Micron | workday | ✅ OK | 2026-11-18 | 0 |
+| Microsoft | eightfold | ✅ OK | 2026-11-18 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-18 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-18 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-18 | 0 |
@@ -87,7 +87,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Figma | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-18 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-18 | 3 |
+| GE HealthCare | workday | ✅ OK | 2026-11-18 | 4 |
 | GE Vernova | workday | ✅ OK | 2026-11-18 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-18 | 0 |
@@ -95,7 +95,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Groww | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-18 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-18 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-18 | 3 |
+| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-18 | 4 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | HP | workday | ✅ OK | 2026-11-18 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-18 | 0 |
