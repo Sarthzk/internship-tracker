@@ -466,7 +466,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "eightfold:eaton:687239705382",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Pune, Maharashtra, IND, 411014"
     ],
@@ -556,7 +556,7 @@
     "first_seen": "2026-11-05T05:10:42.492368Z",
     "id": "eightfold:eaton:687240066841",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Pune, Maharashtra, IND, 411045"
     ],
@@ -586,7 +586,7 @@
     "first_seen": "2026-11-11T10:50:41.388369Z",
     "id": "eightfold:eaton:687240121118",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Pune, Maharashtra, IND, 411014"
     ],
@@ -1131,7 +1131,7 @@
     "first_seen": "2026-11-03T06:10:41.248990Z",
     "id": "lever:hevo-data:993a3ed3-3014-432f-b0f4-28d300d58d9a",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Bangalore, India"
     ],
@@ -3925,7 +3925,7 @@
     "first_seen": "2026-11-06T13:50:44.762750Z",
     "id": "workday:ge-healthcare:R4040613",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Krakow",
       "Bengaluru"
@@ -4046,7 +4046,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:ge-healthcare:R4043882-1",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
@@ -4256,7 +4256,7 @@
     "first_seen": "2026-11-17T03:50:44.118304Z",
     "id": "workday:ge-healthcare:R4049562-1",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Bengaluru"
     ],
@@ -4286,7 +4286,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:ge-vernova:R5027950-2",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Chennai"
     ],
@@ -4348,7 +4348,7 @@
     "first_seen": "2026-11-12T06:10:43.589728Z",
     "id": "workday:hpe:1191423",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
@@ -4378,7 +4378,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:hpe:1211843-2",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
@@ -4408,7 +4408,7 @@
     "first_seen": "2026-11-05T10:31:00.799496Z",
     "id": "workday:hpe:1215487-1",
     "is_remote": false,
-    "last_seen": "2026-11-17",
+    "last_seen": "2026-11-18",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
