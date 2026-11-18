@@ -4601,7 +4601,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-03T13:20:44.023283Z",
+    "closed_at": null,
     "company": "Intel",
     "company_slug": "intel",
     "date_posted": null,
@@ -4618,14 +4618,14 @@
     "first_seen": "2026-11-03T09:50:42.245657Z",
     "id": "workday:intel:JR0279777",
     "is_remote": false,
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-18",
     "locations": [
       "India, Bangalore"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Attraction Req : Intern",
     "url": "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777"
   },
