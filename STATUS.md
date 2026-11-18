@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Apple | custom | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-18 | 0 |
+| Apple | custom | ⚠️ failing for 2 runs: TimeoutError: no answer within 120s | 2026-11-18 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-18 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-18 | 0 |
