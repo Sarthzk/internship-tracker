@@ -36,7 +36,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Nvidia | workday | ✅ OK | 2026-11-18 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-18 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-18 | 0 |
-| Quadeye | custom | ✅ OK | 2026-11-18 | 3 |
+| Quadeye | custom | ✅ OK | 2026-11-18 | 2 |
 | Qualcomm | eightfold | ✅ OK | 2026-11-18 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-18 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-18 | 3 |
