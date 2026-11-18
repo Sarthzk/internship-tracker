@@ -802,10 +802,10 @@
   },
   {
     "company_slug": "morgan-stanley",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 2,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 429 from morganstanley.eightfold.ai",
     "last_success": "2026-11-18",
     "zero_since": null
   },
