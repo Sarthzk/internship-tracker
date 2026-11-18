@@ -10,7 +10,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-18 | 0 |
 | AMD | custom | ✅ OK | 2026-11-18 | 0 |
-| American Express | oracle_hcm | ✅ OK | 2026-11-18 | 5 |
+| American Express | oracle_hcm | ✅ OK | 2026-11-18 | 4 |
 | Analog Devices | workday | ✅ OK | 2026-11-18 | 0 |
 | Apple | custom | ✅ OK | 2026-11-18 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-18 | 0 |
@@ -87,7 +87,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Figma | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-18 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-18 | 4 |
+| GE HealthCare | workday | ✅ OK | 2026-11-18 | 3 |
 | GE Vernova | workday | ✅ OK | 2026-11-18 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-18 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-18 | 0 |
