@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**121 closed** · Last updated: 2026-11-18 (IST)
+**122 closed** · Last updated: 2026-11-18 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Intel<br><sub>Semiconductor</sub> | Attraction Req : Intern<br><sub>🎓 Bachelor's degree / Masters in Computer Science/IT/Electron…</sub> | India, Bangalore | — | — | — | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777) | 2026-11-03 | 2026-11-18 |
 | Quadeye<br><sub>Quant</sub> | Intern - Software Developer (Product) | Gurgaon, Haryana, India | — | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318440) | 2026-08-11 | 2026-11-18 |
 | S&P Global<br><sub>Finance</sub> | Apprentice OTC<br><sub>🎓 At least a bachelor's degree in any field or relevant disci…</sub> | Noida, Uttarpradesh | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Noida-Uttarpradesh/Apprentice-OTC_332029-1) | 2026-11-17 | 2026-11-18 |
 | Philips<br><sub>Industrial</sub> | Jr AI Developer – Intern | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Jr-AI-Developer---Intern_595706) | 2026-11-17 | 2026-11-17 |
