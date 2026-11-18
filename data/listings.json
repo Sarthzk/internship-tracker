@@ -5023,6 +5023,36 @@
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Apprentice-Software-Developer-Trainee_590165"
   },
   {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Philips",
+    "company_slug": "philips",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-18T12:04:20.127423Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "590723",
+    "first_seen": "2026-11-18T12:01:21.493626Z",
+    "id": "workday:philips:590723",
+    "is_remote": false,
+    "last_seen": "2026-11-18",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern – Data Science and AI Engineering",
+    "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Intern---Data-Science-and-AI-Engineering_590723"
+  },
+  {
     "category": "other",
     "closed_at": "2026-11-06T19:20:42.406653Z",
     "company": "Philips",
