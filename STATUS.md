@@ -153,7 +153,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Temporal | ashby | ✅ OK | 2026-11-19 | 0 |
 | Thomson Reuters | workday | ✅ OK | 2026-11-19 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-19 | 0 |
-| TransUnion | workday | ✅ OK | 2026-11-19 | 0 |
+| TransUnion | workday | ✅ OK | 2026-11-19 | 1 |
 | Trimble | workday | ✅ OK | 2026-11-19 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Unisys | workday | ✅ OK | 2026-11-19 | 0 |

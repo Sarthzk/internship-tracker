@@ -5595,7 +5595,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-19T13:20:45.731682Z",
+    "closed_at": null,
     "company": "TransUnion",
     "company_slug": "transunion",
     "date_posted": null,
@@ -5616,10 +5616,10 @@
     "locations": [
       "Hyderabad"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Intern - Process Excellence",
     "url": "https://transunion.wd5.myworkdayjobs.com/TransUnion/job/Hyderabad/Intern---Process-Excellence_19043345"
   },
