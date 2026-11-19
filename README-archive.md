@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**125 closed** · Last updated: 2026-11-19 (IST)
+**126 closed** · Last updated: 2026-11-19 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| TransUnion<br><sub>Finance</sub> | Intern - Process Excellence<br><sub>🎓 Bachelor’s degree</sub> | Hyderabad | — | — | — | [Apply](https://transunion.wd5.myworkdayjobs.com/TransUnion/job/Hyderabad/Intern---Process-Excellence_19043345) | 2026-11-19 | 2026-11-19 |
 | Philips<br><sub>Industrial</sub> | Intern – Data Science and AI Engineering | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Intern---Data-Science-and-AI-Engineering_590723) | 2026-11-18 | 2026-11-19 |
 | Ciena<br><sub>Big Tech</sub> | Engineering Applications Developer\_Intern | Gurugram | — | — | — | [Apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/Engineering-Applications-Developer-Intern_R031737) | 2026-11-19 | 2026-11-19 |
 | Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 2026-11-19 | 2026-11-19 |
