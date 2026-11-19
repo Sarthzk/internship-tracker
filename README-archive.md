@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**124 closed** · Last updated: 2026-11-19 (IST)
+**125 closed** · Last updated: 2026-11-19 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Philips<br><sub>Industrial</sub> | Intern – Data Science and AI Engineering | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Intern---Data-Science-and-AI-Engineering_590723) | 2026-11-18 | 2026-11-19 |
 | Ciena<br><sub>Big Tech</sub> | Engineering Applications Developer\_Intern | Gurugram | — | — | — | [Apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/Engineering-Applications-Developer-Intern_R031737) | 2026-11-19 | 2026-11-19 |
 | Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 2026-11-19 | 2026-11-19 |
 | Airbus<br><sub>Industrial</sub> | Internship- FTM MOC<br><sub>🎓 A.M.E / Bachelor / Master Degree</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695) | 2026-11-05 | 2026-11-19 |

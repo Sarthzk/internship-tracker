@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**76 open internships** across 26 companies · Last updated: 2026-11-19 (IST)
+**75 open internships** across 25 companies · Last updated: 2026-11-19 (IST)
 
 ### Software Engineering (29)
 
@@ -63,12 +63,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Quadeye<br><sub>Quant</sub> | Intern - Systems Engineer | Gurgaon, Haryana, India | — | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318430) | 143d |
 | NXP<br><sub>Semiconductor</sub> | Technical Internship (2026) | Noida; Bangalore | 2026 | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Noida/Internship----SoC--IP-Design---2024-_R-10052538) | 462d |
 
-### Data & ML (10)
+### Data & ML (9)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | Airbus<br><sub>Industrial</sub> | Technical Data Analyst Intern<br><sub>🎓 AME/BTech (Aerospace/Mech)</sub> | Bangalore Area | — | — | 3 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449392) | 0d |
-| Philips<br><sub>Industrial</sub> | Intern – Data Science and AI Engineering | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Intern---Data-Science-and-AI-Engineering_590723) | 1d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | Ph D/Research Intern - AI Research Lab<br><sub>🎓 PhD</sub> | Bengaluru, Karnātaka, India | 6 months | — | 6 mo | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) | 7d |
 | GE HealthCare<br><sub>Industrial</sub> | Research Intern - AI<br><sub>🎓 PhD in Computer Science / Data Sciences / AI</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Research-Intern---AI_R4043882-1) | 14d |
 | Marvell<br><sub>Semiconductor</sub> | Research Intern (PhD), AI-Scale Protocols & Simulation | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255) | 21d |
