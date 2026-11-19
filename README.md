@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**67 open internships** across 23 companies · Last updated: 2026-11-19 (IST)
+**68 open internships** across 24 companies · Last updated: 2026-11-19 (IST)
 
 ### Software Engineering (28)
 
@@ -104,10 +104,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 3d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 14d |
 
-### Other (22)
+### Other (23)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 0d |
 | American Express<br><sub>Fintech</sub> | Apprentice | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016519) | 1d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Commerce, Finance, Accounting, Business, Economics or a rel…</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016522) | 1d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Commerce/Business Administration</sub> | Bengaluru, KA, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016754) | 1d |
