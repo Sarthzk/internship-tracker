@@ -66,7 +66,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BrowserStack | workday | ✅ OK | 2026-11-19 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-19 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-19 | 0 |
-| Cigna | workday | ✅ OK | 2026-11-19 | 0 |
+| Cigna | workday | ✅ OK | 2026-11-19 | 2 |
 | Citi | eightfold | ✅ OK | 2026-11-19 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-19 | 0 |
