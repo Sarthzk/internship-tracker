@@ -1143,6 +1143,28 @@
     "url": "https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Paytm",
+    "company_slug": "paytm",
+    "date_posted": "2026-11-19",
+    "enrichment": null,
+    "external_id": "0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8",
+    "first_seen": "2026-11-19T09:01:18.293436Z",
+    "id": "lever:paytm:0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8",
+    "is_remote": true,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Noida, Uttar Pradesh"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "lever",
+    "status": "open",
+    "title": "Backend - Intern ( SEA & Europe)",
+    "url": "https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8"
+  },
+  {
     "category": "other",
     "closed_at": "2026-11-10T19:10:44.122982Z",
     "company": "American Express",
