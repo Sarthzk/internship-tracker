@@ -1712,6 +1712,36 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449386"
   },
   {
+    "category": "data_ml",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "AME/BTech (Aerospace/Mech)",
+      "duration_months": 3,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-19T07:43:42.728565Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR10449392",
+    "first_seen": "2026-11-19T07:40:44.685358Z",
+    "id": "workday:airbus:JR10449392",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Technical Data Analyst Intern",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449392"
+  },
+  {
     "category": "core",
     "closed_at": "2026-11-09T06:20:43.656072Z",
     "company": "Airbus",
