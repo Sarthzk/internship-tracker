@@ -125,7 +125,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-11-19 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-19 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-19 | 0 |
-| Philips | workday | ✅ OK | 2026-11-19 | 0 |
+| Philips | workday | ✅ OK | 2026-11-19 | 1 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-19 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-19 | 0 |
 | Postman | workday | ✅ OK | 2026-11-19 | 0 |
@@ -163,7 +163,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wolters Kluwer | workday | ✅ OK | 2026-11-19 | 0 |
 | Workday | workday | ✅ OK | 2026-11-19 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-19 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-19 | 9 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-19 | 11 |
 | Zeta | lever | ✅ OK | 2026-11-19 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-19 | 0 |

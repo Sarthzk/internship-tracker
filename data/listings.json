@@ -1884,7 +1884,7 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -5024,7 +5024,7 @@
   },
   {
     "category": "data_ml",
-    "closed_at": "2026-11-18T19:20:43.860350Z",
+    "closed_at": null,
     "company": "Philips",
     "company_slug": "philips",
     "date_posted": null,
@@ -5041,14 +5041,14 @@
     "first_seen": "2026-11-18T12:01:21.493626Z",
     "id": "workday:philips:590723",
     "is_remote": false,
-    "last_seen": "2026-11-18",
+    "last_seen": "2026-11-19",
     "locations": [
       "Bangalore"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Intern – Data Science and AI Engineering",
     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Intern---Data-Science-and-AI-Engineering_590723"
   },
@@ -5420,6 +5420,36 @@
     "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "degree-seeking post-secondary educational institution",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-19T06:04:19.705220Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR103384",
+    "first_seen": "2026-11-19T06:01:21.607020Z",
+    "id": "workday:zebra-technologies:JR103384",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern support II-1",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-support-II-1_JR103384"
+  },
+  {
     "category": "swe",
     "closed_at": null,
     "company": "Zebra Technologies",
@@ -5508,6 +5538,36 @@
     "status": "open",
     "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
     "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103671"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "degree-seeking post-secondary educational institution",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-19T06:04:19.705220Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR103681",
+    "first_seen": "2026-11-19T06:01:21.607020Z",
+    "id": "workday:zebra-technologies:JR103681",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern support II-1",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-support-II-1_JR103681"
   },
   {
     "category": "swe",
