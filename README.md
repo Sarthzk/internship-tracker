@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**71 open internships** across 24 companies · Last updated: 2026-11-19 (IST)
+**72 open internships** across 24 companies · Last updated: 2026-11-19 (IST)
 
 ### Software Engineering (28)
 
@@ -105,10 +105,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 3d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 14d |
 
-### Other (25)
+### Other (26)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 0d |
 | Zebra Technologies<br><sub>Big Tech</sub> | Intern II | Bengaluru, India | — | — | — | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-II_JR103699) | 0d |
 | Zebra Technologies<br><sub>Big Tech</sub> | Intern support II-1<br><sub>🎓 degree-seeking post-secondary educational institution</sub> | Bengaluru, India | — | — | — | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-support-II-1_JR103384) | 0d |
 | Zebra Technologies<br><sub>Big Tech</sub> | Intern support II-1<br><sub>🎓 degree-seeking post-secondary educational institution</sub> | Bengaluru, India | — | — | — | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-support-II-1_JR103681) | 0d |
