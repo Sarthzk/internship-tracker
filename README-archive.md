@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**122 closed** · Last updated: 2026-11-19 (IST)
+**123 closed** · Last updated: 2026-11-19 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Airbus<br><sub>Industrial</sub> | Internship- FTM MOC<br><sub>🎓 A.M.E / Bachelor / Master Degree</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695) | 2026-11-05 | 2026-11-19 |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 2026-11-18 | 2026-11-19 |
 | GE HealthCare<br><sub>Industrial</sub> | EID Intern<br><sub>🎓 Bachelors/technical program</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/EID-Intern_R4045415-1) | 2026-11-06 | 2026-11-19 |
 | Intel<br><sub>Semiconductor</sub> | Attraction Req : Intern<br><sub>🎓 Bachelor's degree / Masters in Computer Science/IT/Electron…</sub> | India, Bangalore | — | — | — | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777) | 2026-11-03 | 2026-11-18 |

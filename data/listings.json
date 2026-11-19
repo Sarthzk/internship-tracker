@@ -1863,7 +1863,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-19T06:20:44.778212Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1884,10 +1884,10 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Internship- FTM MOC",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695"
   },
@@ -5429,6 +5429,36 @@
       "degree": "degree-seeking post-secondary educational institution",
       "duration_months": null,
       "eligible_batches": null,
+      "enriched_at": "2026-11-19T06:23:43.327192Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR103383",
+    "first_seen": "2026-11-19T06:20:44.778212Z",
+    "id": "workday:zebra-technologies:JR103383",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern-1",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-1_JR103383"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "degree-seeking post-secondary educational institution",
+      "duration_months": null,
+      "eligible_batches": null,
       "enriched_at": "2026-11-19T06:04:19.705220Z",
       "model": "openai/gpt-oss-20b",
       "stipend": null,
@@ -5568,6 +5598,36 @@
     "status": "open",
     "title": "Intern support II-1",
     "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-support-II-1_JR103681"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-19T06:23:43.327192Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR103699",
+    "first_seen": "2026-11-19T06:20:44.778212Z",
+    "id": "workday:zebra-technologies:JR103699",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern II",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/Intern-II_JR103699"
   },
   {
     "category": "swe",

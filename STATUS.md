@@ -53,7 +53,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Abbott | workday | ✅ OK | 2026-11-19 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-19 | 0 |
-| Airbus | workday | ✅ OK | 2026-11-19 | 7 |
+| Airbus | workday | ✅ OK | 2026-11-19 | 6 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-19 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-19 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-19 | 0 |
@@ -163,7 +163,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wolters Kluwer | workday | ✅ OK | 2026-11-19 | 0 |
 | Workday | workday | ✅ OK | 2026-11-19 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-19 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-19 | 11 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-19 | 13 |
 | Zeta | lever | ✅ OK | 2026-11-19 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-19 | 0 |
