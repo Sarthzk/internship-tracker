@@ -5594,6 +5594,36 @@
     "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Gurugram-India/Intern_R578197"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "TransUnion",
+    "company_slug": "transunion",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor’s degree",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-19T12:23:45.240078Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "19043345",
+    "first_seen": "2026-11-19T12:20:45.530208Z",
+    "id": "workday:transunion:19043345",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern - Process Excellence",
+    "url": "https://transunion.wd5.myworkdayjobs.com/TransUnion/job/Hyderabad/Intern---Process-Excellence_19043345"
+  },
+  {
     "category": "swe",
     "closed_at": "2026-11-07T18:50:42.860411Z",
     "company": "Wells Fargo",
