@@ -87,7 +87,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Figma | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-19 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-19 | 3 |
+| GE HealthCare | workday | ✅ OK | 2026-11-19 | 2 |
 | GE Vernova | workday | ✅ OK | 2026-11-19 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-19 | 0 |
@@ -95,7 +95,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Groww | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-19 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-19 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-19 | 6 |
+| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-19 | 4 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | HP | workday | ✅ OK | 2026-11-19 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-19 | 0 |
