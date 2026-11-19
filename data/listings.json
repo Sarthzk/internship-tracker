@@ -4690,6 +4690,37 @@
     "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/AI-ML-Intern_R0123245"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "LSEG",
+    "company_slug": "lseg",
+    "date_posted": "2026-11-19",
+    "enrichment": {
+      "degree": "Accounting, Finance, or a related field",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-19T07:34:13.374177Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0125102",
+    "first_seen": "2026-11-19T07:31:01.063123Z",
+    "id": "workday:lseg:R0125102",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Colombo, Sri Lanka",
+      "IND-Bangalore-A, RMZ Infinity"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern, Accounts Receivables",
+    "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Accounts-Receivables_R0125102"
+  },
+  {
     "category": "data_ml",
     "closed_at": null,
     "company": "Marvell",
