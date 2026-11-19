@@ -2110,6 +2110,36 @@
     "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Ciena",
+    "company_slug": "ciena",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-19T08:14:00.044546Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R031737",
+    "first_seen": "2026-11-19T08:10:47.358954Z",
+    "id": "workday:ciena:R031737",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Gurugram"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Engineering Applications Developer_Intern",
+    "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/Engineering-Applications-Developer-Intern_R031737"
+  },
+  {
     "category": "other",
     "closed_at": "2026-11-13T16:10:46.326013Z",
     "company": "Ciena",
