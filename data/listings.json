@@ -2133,7 +2133,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-19T10:10:45.769931Z",
     "company": "Ciena",
     "company_slug": "ciena",
     "date_posted": null,
@@ -2154,10 +2154,10 @@
     "locations": [
       "Gurugram"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Engineering Applications Developer_Intern",
     "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/Engineering-Applications-Developer-Intern_R031737"
   },
@@ -4680,6 +4680,36 @@
     "status": "open",
     "title": "External Intern",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215491-3"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Hewlett Packard Enterprise",
+    "company_slug": "hpe",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-19T10:14:04.276587Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "1215608-1",
+    "first_seen": "2026-11-19T10:10:45.769931Z",
+    "id": "workday:hpe:1215608-1",
+    "is_remote": false,
+    "last_seen": "2026-11-19",
+    "locations": [
+      "Bengaluru, Karnātaka, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "External Intern",
+    "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215608-1"
   },
   {
     "category": "other",

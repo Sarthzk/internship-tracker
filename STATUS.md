@@ -65,7 +65,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Broadcom | workday | ✅ OK | 2026-11-19 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-19 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-19 | 0 |
-| Ciena | workday | ✅ OK | 2026-11-19 | 1 |
+| Ciena | workday | ✅ OK | 2026-11-19 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-19 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-19 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-19 | 0 |
@@ -95,7 +95,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Groww | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-19 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-19 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-19 | 5 |
+| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-19 | 6 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-19 | 0 |
 | HP | workday | ✅ OK | 2026-11-19 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-19 | 0 |
