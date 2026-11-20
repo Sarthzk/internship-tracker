@@ -1977,7 +1977,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-20T12:40:48.025847Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1998,10 +1998,10 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Artificial_Intelligence_For_Systems_Engineering_Intern",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573"
   },

@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**132 closed** · Last updated: 2026-11-20 (IST)
+**133 closed** · Last updated: 2026-11-20 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Airbus<br><sub>Industrial</sub> | Artificial\_Intelligence\_For\_Systems\_Engineering\_Intern<br><sub>🎓 MS/ Ph.D. in A.I./M.L.</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573) | 2026-11-05 | 2026-11-20 |
 | Nvidia<br><sub>Semiconductor</sub> | ASIC Intern - Spring 2027 | India, Bengaluru; India, Hyderabad | Spring 2027 | — | — | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Intern---Spring-2027_JR2029883) | 2026-11-20 | 2026-11-20 |
 | Stryker<br><sub>Industrial</sub> | Intern | Gurugram, India | — | — | — | [Apply](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Gurugram-India/Intern_R578197) | 2026-11-18 | 2026-11-20 |
 | Eaton<br><sub>Industrial</sub> | Intern - Quality<br><sub>🎓 BE (Preferred Electrical , Electronics ,Mechanical,Producti…</sub> | Pune, Maharashtra, IND, 411045 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240066841) | 2026-11-05 | 2026-11-20 |
