@@ -1,5 +1,35 @@
 [
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "Sarvam AI",
+    "company_slug": "sarvam-ai",
+    "date_posted": "2026-11-20",
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-20T07:04:07.801209Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "0a5bf81d-3370-47e6-88f4-14aa5102ba72",
+    "first_seen": "2026-11-20T07:01:15.728963Z",
+    "id": "ashby:sarvam-ai:0a5bf81d-3370-47e6-88f4-14aa5102ba72",
+    "is_remote": false,
+    "last_seen": "2026-11-20",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "ashby",
+    "status": "open",
+    "title": "Product User Research, Intern",
+    "url": "https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72"
+  },
+  {
     "category": "data_ml",
     "closed_at": "2026-11-17T09:50:45.493224Z",
     "company": "Apple",
