@@ -27,9 +27,9 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**75 open internships** across 27 companies · Last updated: 2026-11-20 (IST)
+**76 open internships** across 27 companies · Last updated: 2026-11-20 (IST)
 
-### Software Engineering (29)
+### Software Engineering (30)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -59,6 +59,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Google<br><sub>Big Tech</sub> | Software Engineering PhD Intern, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India; Pune, Maharashtra, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109976286780105414) | 74d |
 | NXP<br><sub>Semiconductor</sub> | Technical Internship 2027 | Bangalore; Noida | 2027 | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Bangalore/Technical-Internship-2027_R-10066434) | 74d |
 | Rubrik<br><sub>Big Tech</sub> | Software Engineer (CPD) - Winter Intern<br><sub>🎓 Bachelor’s or Master’s degree, preferably in Computer Scien…</sub> | Bangalore | Winter | 2027 | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537) | 75d |
+| Rubrik<br><sub>Big Tech</sub> | Software Engineer - Winter Intern<br><sub>🎓 Bachelor’s or Master’s degree or equivalent in computer sci…</sub> | Bangalore | Winter | 2027 | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523) | 75d |
 | Stripe<br><sub>Fintech</sub> | Software Engineer, Intern<br><sub>🎓 Bachelor’s or Master’s degree in computer science, math, or…</sub> | Bengaluru | — | — | — | [Apply](https://stripe.com/jobs/search?gh_jid=8031833) | 133d |
 | Quadeye<br><sub>Quant</sub> | Intern - Systems Engineer | Gurgaon, Haryana, India | — | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318430) | 144d |
 | NXP<br><sub>Semiconductor</sub> | Technical Internship (2026) | Noida; Bangalore | 2026 | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Noida/Internship----SoC--IP-Design---2024-_R-10052538) | 463d |
