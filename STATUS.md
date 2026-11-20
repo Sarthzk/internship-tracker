@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Apple | custom | ⚠️ failing for 5 runs: ReadTimeout: | 2026-11-20 | 0 |
+| Apple | custom | ⚠️ failing for 6 runs: ReadTimeout: | 2026-11-20 | 0 |
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-20 | 3 |
 | Adobe | phenom | ✅ OK | 2026-11-20 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-20 | 0 |
