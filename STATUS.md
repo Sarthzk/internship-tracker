@@ -2,10 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-21 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-21 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Visa | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-20 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-20 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-20 | 0 |
@@ -48,7 +49,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Tower Research Capital | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Twilio | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-20 | 0 |
-| Visa | workday | ✅ OK | 2026-11-20 | 0 |
 | Wells Fargo | workday | ✅ OK | 2026-11-20 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-20 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-20 | 1 |
