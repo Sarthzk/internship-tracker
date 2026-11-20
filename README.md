@@ -27,9 +27,9 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**75 open internships** across 26 companies · Last updated: 2026-11-20 (IST)
+**76 open internships** across 27 companies · Last updated: 2026-11-20 (IST)
 
-### Software Engineering (29)
+### Software Engineering (30)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -62,6 +62,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Stripe<br><sub>Fintech</sub> | Software Engineer, Intern<br><sub>🎓 Bachelor’s or Master’s degree in computer science, math, or…</sub> | Bengaluru | — | — | — | [Apply](https://stripe.com/jobs/search?gh_jid=8031833) | 133d |
 | Quadeye<br><sub>Quant</sub> | Intern - Systems Engineer | Gurgaon, Haryana, India | — | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318430) | 144d |
 | NXP<br><sub>Semiconductor</sub> | Technical Internship (2026) | Noida; Bangalore | 2026 | — | — | [Apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Noida/Internship----SoC--IP-Design---2024-_R-10052538) | 463d |
+| Agoda<br><sub>Big Tech</sub> | Software Engineer Internship 2027 (6 months) - India-based, Gurgaon office<br><sub>🎓 Bachelor’s or Master’s Degree in Computer Science or a rela…</sub> | Gurgaon | 6 months 2027 | — | 6 mo | [Apply](https://job-boards.greenhouse.io/agoda/jobs/6323041) | 770d |
 
 ### Data & ML (9)
 
