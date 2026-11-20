@@ -2,12 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 0 failing · 2 blocked by site protection · 12 not tracked · Last updated: 2026-11-20 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-20 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Applied Materials | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-20 | 0 |
-| Sprinklr | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-20 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-20 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-20 | 0 |
@@ -15,6 +13,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | American Express | oracle_hcm | ✅ OK | 2026-11-20 | 5 |
 | Analog Devices | workday | ✅ OK | 2026-11-20 | 0 |
 | Apple | custom | ✅ OK | 2026-11-20 | 0 |
+| Applied Materials | workday | ✅ OK | 2026-11-20 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-20 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-20 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-20 | 0 |
@@ -79,7 +78,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Datadog | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Duolingo | greenhouse | ✅ OK | 2026-11-20 | 0 |
-| Eaton | eightfold | ✅ OK | 2026-11-20 | 3 |
+| Eaton | eightfold | ✅ OK | 2026-11-20 | 2 |
 | Elastic | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Equifax | workday | ✅ OK | 2026-11-20 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-20 | 0 |
@@ -143,6 +142,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Shell | workday | ✅ OK | 2026-11-20 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-20 | 0 |
+| Sprinklr | workday | ✅ OK | 2026-11-20 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | State Street | workday | ✅ OK | 2026-11-20 | 0 |
 | Stryker | workday | ✅ OK | 2026-11-20 | 1 |
