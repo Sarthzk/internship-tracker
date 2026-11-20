@@ -10,7 +10,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-20 | 0 |
 | AMD | custom | ✅ OK | 2026-11-20 | 0 |
-| American Express | oracle_hcm | ✅ OK | 2026-11-20 | 5 |
+| American Express | oracle_hcm | ✅ OK | 2026-11-20 | 4 |
 | Analog Devices | workday | ✅ OK | 2026-11-20 | 0 |
 | Apple | custom | ✅ OK | 2026-11-20 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-20 | 0 |
@@ -66,7 +66,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BrowserStack | workday | ✅ OK | 2026-11-20 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-20 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-20 | 0 |
-| Cigna | workday | ✅ OK | 2026-11-20 | 2 |
+| Cigna | workday | ✅ OK | 2026-11-20 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-20 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-20 | 0 |
@@ -95,7 +95,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Groww | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-20 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-20 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-20 | 4 |
+| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-20 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | HP | workday | ✅ OK | 2026-11-20 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-20 | 0 |
