@@ -5200,6 +5200,37 @@
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423"
   },
   {
+    "category": "hardware",
+    "closed_at": null,
+    "company": "Nvidia",
+    "company_slug": "nvidia",
+    "date_posted": "2026-11-20",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-20T11:43:45.682730Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR2029883",
+    "first_seen": "2026-11-20T11:40:48.783859Z",
+    "id": "workday:nvidia:JR2029883",
+    "is_remote": false,
+    "last_seen": "2026-11-20",
+    "locations": [
+      "India, Bengaluru",
+      "India, Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "ASIC Intern - Spring 2027",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Intern---Spring-2027_JR2029883"
+  },
+  {
     "category": "swe",
     "closed_at": null,
     "company": "NXP",
