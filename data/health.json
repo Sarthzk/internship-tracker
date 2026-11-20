@@ -181,7 +181,7 @@
   },
   {
     "company_slug": "baxter",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 7,
     "last_error": "returned 0 postings (previously 7)",
