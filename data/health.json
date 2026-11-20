@@ -127,7 +127,7 @@
   },
   {
     "company_slug": "apple",
-    "consecutive_failures": 6,
+    "consecutive_failures": 7,
     "failure_alerted": true,
     "last_count": 101,
     "last_error": "ReadTimeout: ",
