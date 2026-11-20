@@ -106,6 +106,9 @@ def test_classify_category(title, expected):
         ("Talent Acquisition Intern - IT Recruitment", False),
         ("HR Recruiter Intern, Engineering", False),
         ("Social Media Intern", False),
+        ("SDE I Intern , Amazon University Talent Acquisition", True),
+        ("Recruiter Intern, Amazon University Talent Acquisition", False),
+        ("Operations Intern, Amazon University Talent Acquisition", False),
     ],
 )
 def test_is_tech(title, expected):

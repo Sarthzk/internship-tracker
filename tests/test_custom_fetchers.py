@@ -204,3 +204,94 @@ async def test_goldman_unexpected_shape_raises(payload):
         respx.post(goldman.API).respond(200, json=payload)
         with pytest.raises(FetchError):
             await run(goldman, "goldman-sachs")
+
+
+# --- Amazon: pinned jobs (India student internships are missing from the search) ---
+
+PINNED_PAGE = (
+    '<meta property="og:title" content="SDE I Intern , Amazon University Talent Acquisition" />'
+    '<div class="association location-icon"><span aria-label="location" role="img"></span>'
+    '<ul class="association-content"><li>IND, KA, Bengaluru</li><li>IND, TS, Hyderabad</li>'
+    "<li>IND, New Delhi</li><li>IND, KA, Bengaluru</li></ul></div>"
+    '<a id="apply-button" class="btn" href="/applicant/jobs/10541345/apply">Apply now</a>'
+)
+PINNED_URL = "https://www.amazon.jobs/en/jobs/10541345"
+
+
+def pinned_company() -> Company:
+    return Company(
+        name="Amazon",
+        slug="amazon",
+        tier=1,
+        ats="custom",
+        ats_config={"pinned_job_ids": [10541345]},
+        enabled=True,
+    )
+
+
+async def run_pinned():
+    async with make_client(delay=0, backoff=0) as client:
+        return await amazon.fetch(pinned_company(), client)
+
+
+def empty_search():
+    respx.get(amazon.API).respond(200, json={"hits": 0, "jobs": []})
+
+
+async def test_amazon_reads_pinned_job_pages():
+    with respx.mock:
+        empty_search()
+        respx.get(PINNED_URL).respond(200, text=PINNED_PAGE)
+        [p] = await run_pinned()
+    assert p.external_id == "10541345" and p.source == "custom"
+    assert p.title == "SDE I Intern , Amazon University Talent Acquisition"
+    assert p.locations == ["Bengaluru, India", "Hyderabad, India", "New Delhi, India"]
+    assert p.url == PINNED_URL and p.date_posted is None
+
+
+async def test_amazon_pinned_job_that_search_already_found_is_not_fetched_twice():
+    with respx.mock:
+        respx.get(amazon.API).respond(
+            200, json={"hits": 1, "jobs": [amazon_job(1, id_icims="10541345")]}
+        )
+        page = respx.get(PINNED_URL).respond(200, text=PINNED_PAGE)
+        postings = await run_pinned()
+    assert [p.external_id for p in postings] == ["10541345"]
+    assert not page.called
+
+
+async def test_amazon_pinned_job_that_is_gone_or_closed_is_left_out():
+    with respx.mock:
+        empty_search()
+        respx.get(PINNED_URL).respond(404)
+        assert await run_pinned() == []
+    with respx.mock:
+        empty_search()
+        respx.get(PINNED_URL).respond(200, text=PINNED_PAGE.replace('id="apply-button"', ""))
+        assert await run_pinned() == []
+
+
+@pytest.mark.parametrize("status", [500, 403])
+async def test_amazon_pinned_page_errors_fail_the_fetch(status):
+    with respx.mock:
+        empty_search()
+        respx.get(PINNED_URL).respond(status)
+        with pytest.raises(FetchError):
+            await run_pinned()
+
+
+async def test_amazon_pinned_page_with_unexpected_shape_fails_the_fetch():
+    with respx.mock:
+        empty_search()
+        respx.get(PINNED_URL).respond(200, text="<html>maintenance</html>")
+        with pytest.raises(FetchError):
+            await run_pinned()
+
+
+async def test_amazon_pinned_challenge_is_blocked_not_retried():
+    with respx.mock:
+        empty_search()
+        route = respx.get(PINNED_URL).respond(429, headers={"cf-mitigated": "challenge"})
+        with pytest.raises(FetchError, match="blocked"):
+            await run_pinned()
+    assert route.call_count == 1

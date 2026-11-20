@@ -277,10 +277,16 @@ ALWAYS_NON_TECH = _words(
 )
 
 
+# Amazon's campus-hiring team name sits at the end of its student postings ("SDE I Intern, Amazon
+# University Talent Acquisition"); it says who hires, not what the job is.
+TEAM_NAMES = re.compile(r"\bamazon university talent acquisition\b", re.IGNORECASE)
+
+
 def is_tech(title: str) -> bool:
     """Tech keywords win over non-tech ones ("Software Engineer Intern, Finance Systems" is tech),
     except for ALWAYS_NON_TECH words. A title with neither (e.g. "Summer Analyst 2027") is kept as
     `other`."""
+    title = TEAM_NAMES.sub("", title)
     if ALWAYS_NON_TECH.search(title):
         return False
     return _tech_category(title) is not None or not NON_TECH.search(title)

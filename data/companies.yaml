@@ -40,11 +40,12 @@ companies:
     tier: 1
     tag: Big Tech
     ats: custom
-    ats_config: {}
+    ats_config:
+      pinned_job_ids: [10541345]
     link_hosts: [www.amazon.jobs]
     careers_url: https://www.amazon.jobs
     enabled: true
-    notes: 'Custom fetcher.'
+    notes: 'Custom fetcher. Search misses India student internships, so those job ids are pinned in ats_config (10541345: SDE I Intern 2027, found 2026-11-20).'
   - name: Apple
     slug: apple
     tier: 1
