@@ -5201,7 +5201,7 @@
   },
   {
     "category": "hardware",
-    "closed_at": null,
+    "closed_at": "2026-11-20T12:31:05.630170Z",
     "company": "Nvidia",
     "company_slug": "nvidia",
     "date_posted": "2026-11-20",
@@ -5223,10 +5223,10 @@
       "India, Bengaluru",
       "India, Hyderabad"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "ASIC Intern - Spring 2027",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Intern---Spring-2027_JR2029883"
   },
