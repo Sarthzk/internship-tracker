@@ -27,9 +27,9 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**75 open internships** across 27 companies · Last updated: 2026-11-20 (IST)
+**74 open internships** across 26 companies · Last updated: 2026-11-20 (IST)
 
-### Software Engineering (30)
+### Software Engineering (29)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -46,7 +46,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Juspay<br><sub>Fintech</sub> | Quality Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=QE05) | 3d |
 | Google<br><sub>Big Tech</sub> | Forward Deployed Engineer Intern, 2027 | Bengaluru, Karnataka, India | 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/96299220855595718) | 4d |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240121118) | 9d |
-| HP<br><sub>Big Tech</sub> | College Intern - Technical | Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India; Gurugram, Haryana, India | Summer | — | — | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1) | 9d |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 14d |
 | Juspay<br><sub>Fintech</sub> | Product Solution Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PSE02) | 22d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE02) | 22d |

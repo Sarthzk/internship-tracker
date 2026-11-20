@@ -97,7 +97,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Hevo Data | lever | ✅ OK | 2026-11-20 | 1 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-20 | 4 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-20 | 0 |
-| HP | workday | ✅ OK | 2026-11-20 | 1 |
+| HP | workday | ✅ OK | 2026-11-20 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Invesco | workday | ✅ OK | 2026-11-20 | 0 |
