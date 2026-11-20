@@ -5657,7 +5657,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-20T11:31:04.882105Z",
     "company": "Stryker",
     "company_slug": "stryker",
     "date_posted": null,
@@ -5678,10 +5678,10 @@
     "locations": [
       "Gurugram, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Intern",
     "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Gurugram-India/Intern_R578197"
   },
