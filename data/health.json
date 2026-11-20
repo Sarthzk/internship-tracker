@@ -181,12 +181,12 @@
   },
   {
     "company_slug": "baxter",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 7,
-    "last_error": null,
+    "last_error": "returned 0 postings (previously 7)",
     "last_success": "2026-11-20",
-    "zero_since": null
+    "zero_since": "2026-11-20T21:20:47.558083Z"
   },
   {
     "company_slug": "blackrock",
