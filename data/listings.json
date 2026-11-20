@@ -5749,6 +5749,36 @@
     "url": "https://wf.wd1.myworkdayjobs.com/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Technology-Program-Intern_R-557386"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Zebra Technologies",
+    "company_slug": "zebra-technologies",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-20T07:43:37.423502Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR103237",
+    "first_seen": "2026-11-20T07:40:44.171972Z",
+    "id": "workday:zebra-technologies:JR103237",
+    "is_remote": false,
+    "last_seen": "2026-11-20",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+    "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "Zebra Technologies",

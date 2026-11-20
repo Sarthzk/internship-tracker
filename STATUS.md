@@ -163,7 +163,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wolters Kluwer | workday | ✅ OK | 2026-11-20 | 0 |
 | Workday | workday | ✅ OK | 2026-11-20 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-20 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-20 | 13 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-20 | 14 |
 | Zeta | lever | ✅ OK | 2026-11-20 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-20 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-20 | 0 |
