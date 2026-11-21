@@ -153,7 +153,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Temporal | ashby | ✅ OK | 2026-11-21 | 0 |
 | Thomson Reuters | workday | ✅ OK | 2026-11-21 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-21 | 0 |
-| TransUnion | workday | ✅ OK | 2026-11-21 | 1 |
+| TransUnion | workday | ✅ OK | 2026-11-21 | 0 |
 | Trimble | workday | ✅ OK | 2026-11-21 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Unisys | workday | ✅ OK | 2026-11-21 | 0 |
@@ -163,7 +163,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wolters Kluwer | workday | ✅ OK | 2026-11-21 | 0 |
 | Workday | workday | ✅ OK | 2026-11-21 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-21 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-21 | 5 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-21 | 1 |
 | Zeta | lever | ✅ OK | 2026-11-21 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-21 | 0 |
