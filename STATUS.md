@@ -31,13 +31,13 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-21 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-21 | 0 |
 | Micron | workday | ✅ OK | 2026-11-21 | 0 |
-| Microsoft | eightfold | ✅ OK | 2026-11-20 | 3 |
+| Microsoft | eightfold | ✅ OK | 2026-11-21 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-21 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-21 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-21 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-21 | 0 |
 | Quadeye | custom | ✅ OK | 2026-11-21 | 2 |
-| Qualcomm | eightfold | ✅ OK | 2026-11-20 | 1 |
+| Qualcomm | eightfold | ✅ OK | 2026-11-21 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-21 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-21 | 4 |
 | Salesforce | workday | ✅ OK | 2026-11-21 | 0 |
