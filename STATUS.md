@@ -2,29 +2,13 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 143 OK · 19 failing · 12 not tracked · Last updated: 2026-11-21 (IST)
+**162 companies tracked** · 159 OK · 3 failing · 12 not tracked · Last updated: 2026-11-21 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Cohesity | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
 | Ameriprise Financial | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-11-21 | 0 |
-| Baxter | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 1 |
 | Caterpillar | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-11-21 | 0 |
-| Equifax | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| HP | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| Invesco | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| Johnson Controls | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| Northern Trust | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| Palo Alto Networks | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| PTC | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| Rockwell Automation | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| S&P Global | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 2 |
-| Target | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| Thomson Reuters | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| TransUnion | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 1 |
-| Trimble | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| Unisys | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
-| US Bank | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from static.community.workday.com | 2026-11-21 | 0 |
+| Target | workday | ⚠️ failing for 11 runs: FetchError: invalid JSON from community.workday.com | 2026-11-21 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-21 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-21 | 0 |
@@ -33,12 +17,13 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Analog Devices | workday | ✅ OK | 2026-11-21 | 0 |
 | Apple | custom | ✅ OK | 2026-11-21 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-21 | 0 |
-| Atlassian | custom | ✅ OK | 2026-11-21 | 0 |
+| Atlassian | custom | 🔍 verifying a drop in postings | 2026-11-21 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-21 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-21 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-21 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-21 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-21 | 0 |
+| Cohesity | workday | ✅ OK | 2026-11-21 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-21 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-21 | 0 |
@@ -77,6 +62,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Anyscale | ashby | ✅ OK | 2026-11-21 | 0 |
 | AQR Capital | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Atlan | ashby | ✅ OK | 2026-11-21 | 0 |
+| Baxter | workday | ✅ OK | 2026-11-21 | 1 |
 | Bosch | smartrecruiters | ✅ OK | 2026-11-21 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-21 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-21 | 0 |
@@ -95,6 +81,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Duolingo | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Eaton | eightfold | ✅ OK | 2026-11-21 | 2 |
 | Elastic | greenhouse | ✅ OK | 2026-11-21 | 0 |
+| Equifax | workday | ✅ OK | 2026-11-21 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-21 | 0 |
 | F5 | workday | ✅ OK | 2026-11-21 | 0 |
 | Fidelity Investments | workday | ✅ OK | 2026-11-21 | 0 |
@@ -111,10 +98,13 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Hevo Data | lever | ✅ OK | 2026-11-21 | 1 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-21 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-21 | 0 |
+| HP | workday | ✅ OK | 2026-11-21 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-21 | 0 |
+| Invesco | workday | ✅ OK | 2026-11-21 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-21 | 0 |
 | JFrog | greenhouse | ✅ OK | 2026-11-21 | 0 |
+| Johnson Controls | workday | ✅ OK | 2026-11-21 | 0 |
 | Jump Trading | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Juspay | custom | ✅ OK | 2026-11-21 | 6 |
 | Kong | ashby | ✅ OK | 2026-11-21 | 0 |
@@ -128,19 +118,24 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Navan | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | New Relic | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Nokia | oracle_hcm | ✅ OK | 2026-11-21 | 0 |
+| Northern Trust | workday | ✅ OK | 2026-11-21 | 0 |
 | Notion | ashby | ✅ OK | 2026-11-21 | 0 |
 | Observe.AI | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Okta | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | onsemi | oracle_hcm | ✅ OK | 2026-11-21 | 0 |
 | OpenAI | ashby | ✅ OK | 2026-11-21 | 0 |
+| Palo Alto Networks | workday | ✅ OK | 2026-11-21 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-21 | 0 |
 | Philips | workday | ✅ OK | 2026-11-21 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-21 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-21 | 0 |
 | Postman | workday | ✅ OK | 2026-11-21 | 0 |
+| PTC | workday | ✅ OK | 2026-11-21 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-21 | 0 |
+| Rockwell Automation | workday | ✅ OK | 2026-11-21 | 0 |
+| S&P Global | workday | ✅ OK | 2026-11-21 | 2 |
 | Sabre | workday | ✅ OK | 2026-11-21 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-21 | 1 |
@@ -156,8 +151,13 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-21 | 0 |
 | Tekion | ashby | ✅ OK | 2026-11-21 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-21 | 0 |
+| Thomson Reuters | workday | ✅ OK | 2026-11-21 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-21 | 0 |
+| TransUnion | workday | ✅ OK | 2026-11-21 | 1 |
+| Trimble | workday | ✅ OK | 2026-11-21 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-21 | 0 |
+| Unisys | workday | ✅ OK | 2026-11-21 | 0 |
+| US Bank | workday | ✅ OK | 2026-11-21 | 0 |
 | Vercel | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Wolters Kluwer | workday | ✅ OK | 2026-11-21 | 0 |
