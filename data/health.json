@@ -100,10 +100,10 @@
   },
   {
     "company_slug": "analog-devices",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 13,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -136,10 +136,10 @@
   },
   {
     "company_slug": "applied-materials",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 71,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -190,10 +190,10 @@
   },
   {
     "company_slug": "blackrock",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 20,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -217,10 +217,10 @@
   },
   {
     "company_slug": "browserstack",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 14,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -424,10 +424,10 @@
   },
   {
     "company_slug": "equifax",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 24,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -595,10 +595,10 @@
   },
   {
     "company_slug": "hp",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 39,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -631,19 +631,19 @@
   },
   {
     "company_slug": "intel",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 30,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
   {
     "company_slug": "invesco",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 43,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -667,10 +667,10 @@
   },
   {
     "company_slug": "johnson-controls",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 54,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -730,19 +730,19 @@
   },
   {
     "company_slug": "marvell",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 8,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
   {
     "company_slug": "mastercard",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 59,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -757,10 +757,10 @@
   },
   {
     "company_slug": "micron",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 332,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -847,10 +847,10 @@
   },
   {
     "company_slug": "northern-trust",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 42,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -865,10 +865,10 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 74,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -991,10 +991,10 @@
   },
   {
     "company_slug": "ptc",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 9,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -1171,10 +1171,10 @@
   },
   {
     "company_slug": "sprinklr",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 6,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -1234,10 +1234,10 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 23,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -1270,10 +1270,10 @@
   },
   {
     "company_slug": "thomson-reuters",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 41,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -1306,10 +1306,10 @@
   },
   {
     "company_slug": "trimble",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 12,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -1342,10 +1342,10 @@
   },
   {
     "company_slug": "unisys",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 27,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -1369,10 +1369,10 @@
   },
   {
     "company_slug": "visa",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 38,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
@@ -1387,10 +1387,10 @@
   },
   {
     "company_slug": "wells-fargo",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 59,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-21",
     "zero_since": null
   },
