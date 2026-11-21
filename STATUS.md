@@ -2,13 +2,12 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 159 OK · 3 failing · 12 not tracked · Last updated: 2026-11-21 (IST)
+**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-21 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| American Express | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 503 from egug.fa.us2.oraclecloud.com | 2026-11-21 | 4 |
-| JPMorgan Chase | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 503 from jpmc.fa.oraclecloud.com | 2026-11-21 | 0 |
-| Texas Instruments | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 503 from edbz.fa.us2.oraclecloud.com | 2026-11-21 | 0 |
+| American Express | oracle_hcm | ⚠️ failing for 3 runs: FetchError: HTTP 302 from egug.fa.us2.oraclecloud.com | 2026-11-21 | 4 |
+| JPMorgan Chase | oracle_hcm | ⚠️ failing for 3 runs: FetchError: HTTP 302 from jpmc.fa.oraclecloud.com | 2026-11-21 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-21 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-21 | 0 |
@@ -45,6 +44,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-21 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-21 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-21 | 1 |
+| Texas Instruments | oracle_hcm | ✅ OK | 2026-11-21 | 0 |
 | Tower Research Capital | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Twilio | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-21 | 0 |
