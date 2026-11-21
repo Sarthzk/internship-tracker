@@ -2,12 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 159 OK · 3 failing · 12 not tracked · Last updated: 2026-11-21 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-21 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Ameriprise Financial | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-11-21 | 0 |
-| Caterpillar | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-11-21 | 0 |
 | Target | workday | ⚠️ failing for 11 runs: FetchError: invalid JSON from community.workday.com | 2026-11-21 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-21 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-21 | 0 |
@@ -17,7 +15,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Analog Devices | workday | ✅ OK | 2026-11-21 | 0 |
 | Apple | custom | ✅ OK | 2026-11-21 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-21 | 0 |
-| Atlassian | custom | 🔍 verifying a drop in postings | 2026-11-21 | 0 |
+| Atlassian | custom | ✅ OK | 2026-11-21 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-21 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-21 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-21 | 0 |
@@ -57,6 +55,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Agoda | greenhouse | ✅ OK | 2026-11-21 | 1 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Airbus | workday | ✅ OK | 2026-11-21 | 6 |
+| Ameriprise Financial | workday | ✅ OK | 2026-11-21 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-21 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Anyscale | ashby | ✅ OK | 2026-11-21 | 0 |
@@ -66,6 +65,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Bosch | smartrecruiters | ✅ OK | 2026-11-21 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-21 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-21 | 0 |
+| Caterpillar | workday | ✅ OK | 2026-11-21 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-21 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-21 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-21 | 0 |
