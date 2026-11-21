@@ -1234,7 +1234,7 @@
   },
   {
     "company_slug": "target",
-    "consecutive_failures": 11,
+    "consecutive_failures": 12,
     "failure_alerted": true,
     "last_count": 23,
     "last_error": "FetchError: invalid JSON from community.workday.com",
