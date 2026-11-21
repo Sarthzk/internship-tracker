@@ -163,12 +163,12 @@
   },
   {
     "company_slug": "atlassian",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 235,
-    "last_error": null,
+    "last_error": "returned 0 postings (previously 235)",
     "last_success": "2026-11-21",
-    "zero_since": null
+    "zero_since": "2026-11-21T01:01:13.554203Z"
   },
   {
     "company_slug": "barclays",

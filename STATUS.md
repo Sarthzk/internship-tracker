@@ -14,7 +14,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Analog Devices | workday | ✅ OK | 2026-11-21 | 0 |
 | Apple | custom | ✅ OK | 2026-11-21 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-21 | 0 |
-| Atlassian | custom | ✅ OK | 2026-11-21 | 0 |
+| Atlassian | custom | 🔍 verifying a drop in postings | 2026-11-21 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-21 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-21 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-21 | 0 |
