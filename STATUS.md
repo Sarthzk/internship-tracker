@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Target | workday | ⚠️ failing for 13 runs: FetchError: invalid JSON from community.workday.com | 2026-11-21 | 0 |
+| Target | workday | ⚠️ failing for 14 runs: FetchError: invalid JSON from community.workday.com | 2026-11-21 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-21 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-21 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-21 | 0 |
