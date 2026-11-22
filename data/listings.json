@@ -5598,7 +5598,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-22T05:40:42.730084Z",
     "company": "S&P Global",
     "company_slug": "sp-global",
     "date_posted": null,
@@ -5619,10 +5619,10 @@
     "locations": [
       "Mumbai, Maharastra"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice, Visible Alpha Client Support",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mumbai-Maharastra/Apprentice--Visible-Alpha-Client-Support_332797-1"
   },

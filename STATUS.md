@@ -134,7 +134,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-22 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-22 | 2 |
+| S&P Global | workday | ✅ OK | 2026-11-22 | 1 |
 | Sabre | workday | ✅ OK | 2026-11-22 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-22 | 1 |
