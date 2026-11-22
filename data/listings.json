@@ -5628,7 +5628,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-22T19:20:44.294817Z",
     "company": "S&P Global",
     "company_slug": "sp-global",
     "date_posted": null,
@@ -5649,10 +5649,10 @@
     "locations": [
       "Ahmedabad, Gujarat"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice, Insurance Client Services",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Insurance-Client-Services_332883-1"
   },
@@ -5781,7 +5781,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-22T19:20:44.294817Z",
     "company": "Zebra Technologies",
     "company_slug": "zebra-technologies",
     "date_posted": null,
@@ -5802,10 +5802,10 @@
     "locations": [
       "Bengaluru, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
     "url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237"
   },

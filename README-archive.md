@@ -2,10 +2,12 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**155 closed** · Last updated: 2026-11-23 (IST)
+**157 closed** · Last updated: 2026-11-23 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| S&P Global<br><sub>Finance</sub> | Apprentice, Insurance Client Services<br><sub>🎓 Bachelor's degree in finance or equivalent</sub> | Ahmedabad, Gujarat | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Insurance-Client-Services_332883-1) | 2026-11-18 | 2026-11-23 |
+| Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103237) | 2026-11-20 | 2026-11-23 |
 | Agoda<br><sub>Big Tech</sub> | Software Engineer Internship 2027 (6 months) - India-based, Gurgaon office<br><sub>🎓 Bachelor’s or Master’s Degree in Computer Science or a rela…</sub> | Gurgaon | 6 months 2027 | — | 6 mo | [Apply](https://job-boards.greenhouse.io/agoda/jobs/6323041) | 2024-10-11 | 2026-11-22 |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Visible Alpha Client Support<br><sub>🎓 Bachelor’s degree in Business, Finance, Economics, or Accou…</sub> | Mumbai, Maharastra | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mumbai-Maharastra/Apprentice--Visible-Alpha-Client-Support_332797-1) | 2026-11-17 | 2026-11-22 |
 | TransUnion<br><sub>Finance</sub> | Intern - Process Excellence<br><sub>🎓 Bachelor’s degree</sub> | Hyderabad | — | — | — | [Apply](https://transunion.wd5.myworkdayjobs.com/TransUnion/job/Hyderabad/Intern---Process-Excellence_19043345) | 2026-11-19 | 2026-11-22 |

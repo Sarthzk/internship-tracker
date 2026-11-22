@@ -134,7 +134,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Razorpay | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-22 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-22 | 1 |
+| S&P Global | workday | ✅ OK | 2026-11-22 | 0 |
 | Sabre | workday | ✅ OK | 2026-11-22 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-22 | 1 |
@@ -163,7 +163,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wolters Kluwer | workday | ✅ OK | 2026-11-22 | 0 |
 | Workday | workday | ✅ OK | 2026-11-22 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-22 | 0 |
-| Zebra Technologies | workday | ✅ OK | 2026-11-22 | 1 |
+| Zebra Technologies | workday | ✅ OK | 2026-11-22 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-22 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-22 | 0 |
