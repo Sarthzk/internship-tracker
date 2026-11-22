@@ -873,7 +873,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-22T16:10:47.180968Z",
     "company": "Agoda",
     "company_slug": "agoda",
     "date_posted": "2024-10-11",
@@ -894,10 +894,10 @@
     "locations": [
       "Gurgaon"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "greenhouse",
-    "status": "open",
+    "status": "closed",
     "title": "Software Engineer Internship 2027 (6 months) - India-based, Gurgaon office",
     "url": "https://job-boards.greenhouse.io/agoda/jobs/6323041"
   },

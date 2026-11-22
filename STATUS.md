@@ -51,7 +51,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Visa | workday | ✅ OK | 2026-11-22 | 0 |
 | Wells Fargo | workday | ✅ OK | 2026-11-22 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-22 | 0 |
-| Agoda | greenhouse | ✅ OK | 2026-11-22 | 1 |
+| Agoda | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Airbus | workday | ✅ OK | 2026-11-22 | 6 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-22 | 0 |
