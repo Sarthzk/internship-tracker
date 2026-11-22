@@ -901,10 +901,10 @@
   },
   {
     "company_slug": "onsemi",
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "failure_alerted": false,
     "last_count": 30,
-    "last_error": "FetchError: HTTP 503 from hctz.fa.us2.oraclecloud.com",
+    "last_error": "FetchError: HTTP 302 from hctz.fa.us2.oraclecloud.com",
     "last_success": "2026-11-22",
     "zero_since": null
   },
