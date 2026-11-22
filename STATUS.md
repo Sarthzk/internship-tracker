@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-22 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-22 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| onsemi | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 302 from hctz.fa.us2.oraclecloud.com | 2026-11-22 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-22 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-22 | 0 |
@@ -122,6 +121,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Notion | ashby | ✅ OK | 2026-11-22 | 0 |
 | Observe.AI | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Okta | greenhouse | ✅ OK | 2026-11-22 | 0 |
+| onsemi | oracle_hcm | ✅ OK | 2026-11-22 | 0 |
 | OpenAI | ashby | ✅ OK | 2026-11-22 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-22 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-22 | 0 |
