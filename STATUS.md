@@ -2,10 +2,14 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-22 (IST)
+**162 companies tracked** · 158 OK · 0 failing · 4 blocked by site protection · 12 not tracked · Last updated: 2026-11-22 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Applied Materials | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-22 | 0 |
+| Intel | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-22 | 0 |
+| Marvell | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-22 | 5 |
+| Mastercard | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-22 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-22 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-22 | 0 |
@@ -13,7 +17,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | American Express | oracle_hcm | ✅ OK | 2026-11-22 | 4 |
 | Analog Devices | workday | ✅ OK | 2026-11-22 | 0 |
 | Apple | custom | ✅ OK | 2026-11-22 | 0 |
-| Applied Materials | workday | ✅ OK | 2026-11-22 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-22 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-22 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-22 | 0 |
@@ -26,10 +29,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Goldman Sachs | custom | ✅ OK | 2026-11-22 | 0 |
 | Google | custom | ✅ OK | 2026-11-22 | 3 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-22 | 0 |
-| Intel | workday | ✅ OK | 2026-11-22 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-22 | 0 |
-| Marvell | workday | ✅ OK | 2026-11-22 | 5 |
-| Mastercard | workday | ✅ OK | 2026-11-22 | 0 |
 | Micron | workday | ✅ OK | 2026-11-22 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-22 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-22 | 0 |
