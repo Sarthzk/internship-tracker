@@ -2,10 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-23 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-23 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from community.workday.com | 2026-11-22 | 3 |
 | Adobe | phenom | ✅ OK | 2026-11-22 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-22 | 0 |
@@ -95,7 +96,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Groww | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-22 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-22 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-22 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-22 | 0 |
 | HP | workday | ✅ OK | 2026-11-22 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-22 | 0 |
