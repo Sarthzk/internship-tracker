@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**157 closed** · Last updated: 2026-11-23 (IST)
+**158 closed** · Last updated: 2026-11-23 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Capital One<br><sub>Bank</sub> | Business Analyst Intern<br><sub>🎓 Bachelor's degree in Engineering or an Integrated Masters d…</sub> | Bangalore, In | — | 2027 | — | [Apply](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Bangalore-In/Business-Analyst-Intern_R1006392) | 2026-11-23 | 2026-11-23 |
 | Rubrik<br><sub>Big Tech</sub> | Software Engineer - Winter Intern<br><sub>🎓 Bachelor’s or Master’s degree or equivalent in computer sci…</sub> | Bangalore | Winter | 2027 | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523) | 2026-09-06 | 2026-11-23 |
 | GE HealthCare<br><sub>Industrial</sub> | Software Engineer Intern<br><sub>🎓 Bachelor or Master studies</sub> | Krakow; Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613) | 2026-11-06 | 2026-11-23 |
 | Airbus<br><sub>Industrial</sub> | FTM Intern | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390) | 2026-11-05 | 2026-11-23 |

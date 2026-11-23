@@ -2159,7 +2159,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-23T17:01:21.643960Z",
     "company": "Capital One",
     "company_slug": "capital-one",
     "date_posted": null,
@@ -2182,10 +2182,10 @@
     "locations": [
       "Bangalore, In"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Business Analyst Intern",
     "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Bangalore-In/Business-Analyst-Intern_R1006392"
   },

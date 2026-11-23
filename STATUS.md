@@ -18,7 +18,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Barclays | custom | ✅ OK | 2026-11-23 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-23 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-23 | 0 |
-| Capital One | workday | ✅ OK | 2026-11-23 | 1 |
+| Capital One | workday | ✅ OK | 2026-11-23 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-23 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-23 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-23 | 0 |
