@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-23 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-23 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Sprinklr | workday | ⚠️ failing for 1 run: RemoteProtocolError: peer closed connection without sending complete m | 2026-11-23 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-23 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-23 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-23 | 0 |
@@ -143,6 +142,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Shell | workday | ✅ OK | 2026-11-23 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-23 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-23 | 0 |
+| Sprinklr | workday | ✅ OK | 2026-11-23 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-23 | 0 |
 | State Street | workday | ✅ OK | 2026-11-23 | 0 |
 | Stryker | workday | ✅ OK | 2026-11-23 | 0 |
