@@ -4258,7 +4258,7 @@
       "Krakow",
       "Bengaluru"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -4866,6 +4866,38 @@
     "status": "closed",
     "title": "External Intern",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215608-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Hewlett Packard Enterprise",
+    "company_slug": "hpe",
+    "date_posted": "2026-11-23",
+    "enrichment": {
+      "degree": "MBA",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-23T12:54:00.392447Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "summer"
+    },
+    "external_id": "1215609-2",
+    "first_seen": "2026-11-23T12:50:45.186588Z",
+    "id": "workday:hpe:1215609-2",
+    "is_remote": false,
+    "last_seen": "2026-11-23",
+    "locations": [
+      "Bengaluru, Karnātaka, India",
+      "Chennai, Tamil Nadu",
+      "Bangalore, Karnataka"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "External Intern",
+    "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215609-2"
   },
   {
     "category": "other",
