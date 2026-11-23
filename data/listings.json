@@ -5628,7 +5628,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-22T19:20:44.294817Z",
+    "closed_at": null,
     "company": "S&P Global",
     "company_slug": "sp-global",
     "date_posted": null,
@@ -5645,14 +5645,14 @@
     "first_seen": "2026-11-17T18:40:47.574810Z",
     "id": "workday:sp-global:332883-1",
     "is_remote": false,
-    "last_seen": "2026-11-22",
+    "last_seen": "2026-11-23",
     "locations": [
       "Ahmedabad, Gujarat"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Apprentice, Insurance Client Services",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Insurance-Client-Services_332883-1"
   },
@@ -5718,7 +5718,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-21T19:20:46.907461Z",
+    "closed_at": null,
     "company": "TransUnion",
     "company_slug": "transunion",
     "date_posted": null,
@@ -5735,14 +5735,14 @@
     "first_seen": "2026-11-19T12:20:45.530208Z",
     "id": "workday:transunion:19043345",
     "is_remote": false,
-    "last_seen": "2026-11-21",
+    "last_seen": "2026-11-23",
     "locations": [
       "Hyderabad"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Intern - Process Excellence",
     "url": "https://transunion.wd5.myworkdayjobs.com/TransUnion/job/Hyderabad/Intern---Process-Excellence_19043345"
   },
