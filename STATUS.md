@@ -11,7 +11,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-23 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-23 | 0 |
 | AMD | custom | ✅ OK | 2026-11-23 | 0 |
-| American Express | oracle_hcm | ✅ OK | 2026-11-23 | 4 |
+| American Express | oracle_hcm | ✅ OK | 2026-11-23 | 3 |
 | Analog Devices | workday | ✅ OK | 2026-11-23 | 0 |
 | Apple | custom | ✅ OK | 2026-11-23 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-23 | 0 |
