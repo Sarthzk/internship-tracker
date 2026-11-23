@@ -4236,7 +4236,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-23T13:10:47.461100Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",
     "date_posted": "2026-11-06",
@@ -4258,10 +4258,10 @@
       "Krakow",
       "Bengaluru"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Software Engineer Intern",
     "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Software-Engineer-Intern_R4040613"
   },
