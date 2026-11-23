@@ -5172,10 +5172,10 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-11T09:10:41.746359Z",
+    "closed_at": null,
     "company": "Micron",
     "company_slug": "micron",
-    "date_posted": "2026-11-11",
+    "date_posted": "2026-11-23",
     "enrichment": {
       "degree": null,
       "duration_months": null,
@@ -5189,15 +5189,15 @@
     "first_seen": "2026-11-11T07:20:44.575675Z",
     "id": "workday:micron:JR108596",
     "is_remote": false,
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-23",
     "locations": [
       "Hyderabad - Phoenix Aquila, India",
       "Bengaluru, India"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Intern",
     "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Intern_JR108596"
   },
