@@ -39,7 +39,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Quadeye | custom | ✅ OK | 2026-11-23 | 2 |
 | Qualcomm | eightfold | ✅ OK | 2026-11-23 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-23 | 0 |
-| Rubrik | greenhouse | ✅ OK | 2026-11-23 | 4 |
+| Rubrik | greenhouse | ✅ OK | 2026-11-23 | 3 |
 | Salesforce | workday | ✅ OK | 2026-11-23 | 0 |
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-23 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-23 | 0 |

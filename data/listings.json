@@ -965,7 +965,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-23T14:20:48.611289Z",
     "company": "Rubrik",
     "company_slug": "rubrik",
     "date_posted": "2026-09-06",
@@ -988,10 +988,10 @@
     "locations": [
       "Bangalore"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "greenhouse",
-    "status": "open",
+    "status": "closed",
     "title": "Software Engineer - Winter Intern",
     "url": "https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523"
   },
