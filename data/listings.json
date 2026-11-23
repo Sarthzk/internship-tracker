@@ -1647,7 +1647,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-23T04:20:43.030854Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1668,10 +1668,10 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "FTM Intern",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/FTM-Intern_JR10448390"
   },
@@ -1827,7 +1827,7 @@
   },
   {
     "category": "data_ml",
-    "closed_at": null,
+    "closed_at": "2026-11-23T04:20:43.030854Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1848,10 +1848,10 @@
     "locations": [
       "Bangalore Area"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Technical Data Analyst Intern",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Technical-Data-Analyst-Intern_JR10449392"
   },
