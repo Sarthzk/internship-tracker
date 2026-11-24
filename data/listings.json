@@ -4956,7 +4956,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-20T19:10:46.443353Z",
+    "closed_at": null,
     "company": "Hewlett Packard Enterprise",
     "company_slug": "hpe",
     "date_posted": null,
@@ -4973,14 +4973,14 @@
     "first_seen": "2026-11-19T10:10:45.769931Z",
     "id": "workday:hpe:1215608-1",
     "is_remote": false,
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-24",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "External Intern",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215608-1"
   },
@@ -5009,7 +5009,7 @@
       "Chennai, Tamil Nadu",
       "Bangalore, Karnataka"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -5099,7 +5099,7 @@
     "locations": [
       "IND-Bangalore-TowerE,RMZ Infin"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "workday",
     "status": "open",
