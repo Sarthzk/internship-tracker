@@ -1617,7 +1617,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-24T08:20:46.672749Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1638,16 +1638,16 @@
     "locations": [
       "New Delhi"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Internship_ FSTD",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship--FSTD_JR10448021"
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-24T08:20:46.672749Z",
     "company": "Airbus",
     "company_slug": "airbus",
     "date_posted": null,
@@ -1668,10 +1668,10 @@
     "locations": [
       "New Delhi"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Internship_FSTD",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship-FSTD_JR10448073"
   },
@@ -5109,7 +5109,7 @@
     "notified": true,
     "source": "workday",
     "status": "open",
-    "title": "Research Intern, Physical AI and GPU (PhD)",
+    "title": "Research Intern, Physical AI and Robotics Systems (PhD)",
     "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253"
   },
   {

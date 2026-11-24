@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**54 open internships** across 25 companies · Last updated: 2026-11-24 (IST)
+**52 open internships** across 25 companies · Last updated: 2026-11-24 (IST)
 
 ### Software Engineering (16)
 
@@ -60,7 +60,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | GE HealthCare<br><sub>Industrial</sub> | Research Intern - AI<br><sub>🎓 PhD in Computer Science / Data Sciences / AI</sub> | IND19-01-Bengaluru-EPIP 122 (Phase II) | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Research-Intern---AI_R4043882-1) | 19d |
 | Marvell<br><sub>Semiconductor</sub> | Research Intern (PhD), AI-Scale Protocols & Simulation | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255) | 26d |
 | Marvell<br><sub>Semiconductor</sub> | Research Intern (PhD), Storage Systems for AI<br><sub>🎓 PhD, MS by Research, or MTech by Research program</sub> | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD---Storage-Systems-for-AI_2604256) | 26d |
-| Marvell<br><sub>Semiconductor</sub> | Research Intern, Physical AI and GPU (PhD) | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253) | 26d |
+| Marvell<br><sub>Semiconductor</sub> | Research Intern, Physical AI and Robotics Systems (PhD) | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253) | 26d |
 | Nvidia<br><sub>Semiconductor</sub> | PhD Intern, AI ML in Wireless L1/L2 - Fall 2026<br><sub>🎓 PhD</sub> | India, Bengaluru | Fall 2026 | — | — | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423) | 27d |
 | Adobe<br><sub>Big Tech</sub> | 2027 Intern - Research PhD Intern | Bangalore, Karnātaka, India | 2027 | — | — | [Apply](https://careers.adobe.com/us/en/job/R173016) | 36d |
 
@@ -93,7 +93,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 8d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 19d |
 
-### Other (20)
+### Other (18)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -110,8 +110,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | S&P Global<br><sub>Finance</sub> | Apprentice, Insurance Client Services<br><sub>🎓 Bachelor's degree in finance or equivalent</sub> | Ahmedabad, Gujarat | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Insurance-Client-Services_332883-1) | 6d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Visible Alpha Client Support<br><sub>🎓 Bachelor’s degree in Business, Finance, Economics, or Accou…</sub> | Mumbai, Maharastra | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mumbai-Maharastra/Apprentice--Visible-Alpha-Client-Support_332797-1) | 7d |
 | Baxter<br><sub>Industrial</sub> | Apprentice | Bangalore, Karnataka | — | — | — | [Apply](https://baxter.wd1.myworkdayjobs.com/baxter/job/Bangalore-Karnataka/Apprentice_JR-213466) | 8d |
-| Airbus<br><sub>Industrial</sub> | Internship\_ FSTD | New Delhi | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship--FSTD_JR10448021) | 19d |
-| Airbus<br><sub>Industrial</sub> | Internship\_FSTD | New Delhi | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/New-Delhi/Internship-FSTD_JR10448073) | 19d |
 | GE Vernova<br><sub>Industrial</sub> | DT Intern | Chennai | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2) | 19d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | College Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2) | 19d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1) | 19d |
