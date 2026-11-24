@@ -2149,7 +2149,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-24T11:20:49.266389Z",
     "company": "Baxter",
     "company_slug": "baxter",
     "date_posted": null,
@@ -2170,10 +2170,10 @@
     "locations": [
       "Bangalore, Karnataka"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice",
     "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Bangalore-Karnataka/Apprentice_JR-213466"
   },

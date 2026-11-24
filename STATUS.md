@@ -60,7 +60,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Anyscale | ashby | ✅ OK | 2026-11-24 | 0 |
 | AQR Capital | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Atlan | ashby | ✅ OK | 2026-11-24 | 0 |
-| Baxter | workday | ✅ OK | 2026-11-24 | 1 |
+| Baxter | workday | ✅ OK | 2026-11-24 | 0 |
 | Bosch | smartrecruiters | ✅ OK | 2026-11-24 | 0 |
 | Broadcom | workday | ✅ OK | 2026-11-24 | 0 |
 | BrowserStack | workday | ✅ OK | 2026-11-24 | 0 |
