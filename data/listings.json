@@ -4986,7 +4986,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-24T19:31:11.164499Z",
     "company": "Hewlett Packard Enterprise",
     "company_slug": "hpe",
     "date_posted": "2026-11-23",
@@ -5009,10 +5009,10 @@
       "Chennai, Tamil Nadu",
       "Bangalore, Karnataka"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "External Intern",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215609-2"
   },
