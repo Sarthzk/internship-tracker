@@ -5378,7 +5378,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-24T15:40:48.070087Z",
     "company": "Nvidia",
     "company_slug": "nvidia",
     "date_posted": null,
@@ -5399,10 +5399,10 @@
     "locations": [
       "India, Bengaluru"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "System Software Engineering Intern - Spring 2027",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineering-Intern---Spring-2027_JR2030374-1"
   },

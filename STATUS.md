@@ -33,7 +33,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Micron | workday | ✅ OK | 2026-11-24 | 1 |
 | Microsoft | eightfold | ✅ OK | 2026-11-24 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-24 | 0 |
-| Nvidia | workday | ✅ OK | 2026-11-24 | 2 |
+| Nvidia | workday | ✅ OK | 2026-11-24 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-24 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-24 | 0 |
 | Quadeye | custom | ✅ OK | 2026-11-24 | 2 |
