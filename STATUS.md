@@ -8,7 +8,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 |---|---|---|---|---|
 | Adobe | phenom | ✅ OK | 2026-11-24 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Amazon | custom | ✅ OK | 2026-11-24 | 0 |
+| Amazon | custom | ✅ OK | 2026-11-24 | 1 |
 | AMD | custom | ✅ OK | 2026-11-24 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-24 | 3 |
 | Analog Devices | workday | ✅ OK | 2026-11-24 | 0 |

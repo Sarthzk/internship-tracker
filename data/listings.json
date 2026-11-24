@@ -31,6 +31,36 @@
   },
   {
     "category": "data_ml",
+    "closed_at": null,
+    "company": "Amazon",
+    "company_slug": "amazon",
+    "date_posted": "2026-11-24",
+    "enrichment": {
+      "degree": "Computer Science, Engineering, Operations Research, or Process Control",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-24T05:13:59.966737Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "10443572",
+    "first_seen": "2026-11-24T05:10:45.987967Z",
+    "id": "custom:amazon:10443572",
+    "is_remote": false,
+    "last_seen": "2026-11-24",
+    "locations": [
+      "Chennai, Tamil Nadu, India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "custom",
+    "status": "open",
+    "title": "Data Scientist I 6M Intern",
+    "url": "https://www.amazon.jobs/en/jobs/10443572/data-scientist-i-6m-intern"
+  },
+  {
+    "category": "data_ml",
     "closed_at": "2026-11-17T09:50:45.493224Z",
     "company": "Apple",
     "company_slug": "apple",
