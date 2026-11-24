@@ -2,10 +2,38 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-25 (IST)
+**162 companies tracked** · 134 OK · 28 failing · 12 not tracked · Last updated: 2026-11-25 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Airbnb | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Anthropic | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Cockroach Labs | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Coinbase | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Contentstack | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Coursera | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Datadog | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Duolingo | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Figma | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Glance | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Grafana Labs | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| HighRadius | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| JFrog | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Jump Trading | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| LaunchDarkly | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Mixpanel | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| New Relic | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Observe.AI | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Roblox | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Samsara | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Scale AI | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Squarepoint Capital | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Sumo Logic | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Toast | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Vercel | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Waymo | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| WorldQuant | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
+| Zuora | greenhouse | ⚠️ failing for 1 run: TimeoutError: no answer within 120s | 2026-11-24 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-24 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-24 | 1 |
@@ -52,11 +80,9 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Wells Fargo | workday | ✅ OK | 2026-11-24 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-24 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Airbnb | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Airbus | workday | ✅ OK | 2026-11-24 | 2 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-24 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-24 | 0 |
-| Anthropic | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Anyscale | ashby | ✅ OK | 2026-11-24 | 0 |
 | AQR Capital | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Atlan | ashby | ✅ OK | 2026-11-24 | 0 |
@@ -68,58 +94,42 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Ciena | workday | ✅ OK | 2026-11-24 | 0 |
 | Cigna | workday | ✅ OK | 2026-11-24 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-24 | 0 |
-| Cockroach Labs | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Coinbase | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Commvault | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Contentstack | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Coursera | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | CRED | lever | ✅ OK | 2026-11-24 | 0 |
 | Cummins | oracle_hcm | ✅ OK | 2026-11-24 | 0 |
-| Datadog | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Duolingo | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Eaton | eightfold | ✅ OK | 2026-11-24 | 2 |
 | Elastic | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Equifax | workday | ✅ OK | 2026-11-24 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-24 | 0 |
 | F5 | workday | ✅ OK | 2026-11-24 | 0 |
 | Fidelity Investments | workday | ✅ OK | 2026-11-24 | 0 |
-| Figma | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-24 | 0 |
 | GE HealthCare | workday | ✅ OK | 2026-11-24 | 1 |
 | GE Vernova | workday | ✅ OK | 2026-11-24 | 1 |
 | GitLab | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Glance | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Grafana Labs | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-24 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-24 | 1 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-24 | 5 |
-| HighRadius | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | HP | workday | ✅ OK | 2026-11-24 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Invesco | workday | ✅ OK | 2026-11-24 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-24 | 0 |
-| JFrog | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Johnson Controls | workday | ✅ OK | 2026-11-24 | 0 |
-| Jump Trading | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Juspay | custom | ✅ OK | 2026-11-24 | 6 |
 | Kong | ashby | ✅ OK | 2026-11-24 | 0 |
-| LaunchDarkly | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | LSEG | workday | ✅ OK | 2026-11-24 | 1 |
 | Meesho | lever | ✅ OK | 2026-11-24 | 0 |
 | Mindtickle | lever | ✅ OK | 2026-11-24 | 0 |
-| Mixpanel | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | MongoDB | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Motorola Solutions | workday | ✅ OK | 2026-11-24 | 0 |
 | Navan | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| New Relic | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Nokia | oracle_hcm | ✅ OK | 2026-11-24 | 0 |
 | Northern Trust | workday | ✅ OK | 2026-11-24 | 0 |
 | Notion | ashby | ✅ OK | 2026-11-24 | 0 |
-| Observe.AI | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Okta | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | onsemi | oracle_hcm | ✅ OK | 2026-11-24 | 0 |
 | OpenAI | ashby | ✅ OK | 2026-11-24 | 0 |
@@ -132,42 +142,32 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | PTC | workday | ✅ OK | 2026-11-24 | 0 |
 | Pure Storage | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Roblox | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-24 | 0 |
 | S&P Global | workday | ✅ OK | 2026-11-24 | 2 |
 | Sabre | workday | ✅ OK | 2026-11-24 | 0 |
-| Samsara | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-24 | 1 |
-| Scale AI | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Shell | workday | ✅ OK | 2026-11-24 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-24 | 0 |
 | Sprinklr | workday | ✅ OK | 2026-11-24 | 0 |
-| Squarepoint Capital | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | State Street | workday | ✅ OK | 2026-11-24 | 0 |
 | Stryker | workday | ✅ OK | 2026-11-24 | 0 |
-| Sumo Logic | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-24 | 0 |
 | Target | workday | ✅ OK | 2026-11-24 | 0 |
 | Tekion | ashby | ✅ OK | 2026-11-24 | 0 |
 | Temporal | ashby | ✅ OK | 2026-11-24 | 0 |
 | Thomson Reuters | workday | ✅ OK | 2026-11-24 | 0 |
-| Toast | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | TransUnion | workday | ✅ OK | 2026-11-24 | 0 |
 | Trimble | workday | ✅ OK | 2026-11-24 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Unisys | workday | ✅ OK | 2026-11-24 | 0 |
 | US Bank | workday | ✅ OK | 2026-11-24 | 0 |
-| Vercel | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Waymo | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Wolters Kluwer | workday | ✅ OK | 2026-11-24 | 0 |
 | Workday | workday | ✅ OK | 2026-11-24 | 0 |
-| WorldQuant | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Zebra Technologies | workday | ✅ OK | 2026-11-24 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-24 | 0 |
 | Zeta Global | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Zscaler | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| Zuora | greenhouse | ✅ OK | 2026-11-24 | 0 |
 | Arcesium | unknown | ⏸ not tracked | — | 0 |
 | D. E. Shaw | unknown | ⏸ not tracked | — | 0 |
 | Intuit | unknown | ⏸ not tracked | — | 0 |
