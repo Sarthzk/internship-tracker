@@ -1288,6 +1288,28 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Paytm",
+    "company_slug": "paytm",
+    "date_posted": "2026-11-24",
+    "enrichment": null,
+    "external_id": "c8886602-f1b7-4c08-b181-f4d36b2d0e80",
+    "first_seen": "2026-11-24T10:10:44.520565Z",
+    "id": "lever:paytm:c8886602-f1b7-4c08-b181-f4d36b2d0e80",
+    "is_remote": false,
+    "last_seen": "2026-11-24",
+    "locations": [
+      "Noida, Uttar Pradesh"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "lever",
+    "status": "open",
+    "title": "Learning Experience Design Intern",
+    "url": "https://jobs.lever.co/paytm/c8886602-f1b7-4c08-b181-f4d36b2d0e80"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-10T19:10:44.122982Z",
     "company": "American Express",
     "company_slug": "american-express",
