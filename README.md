@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**53 open internships** across 25 companies · Last updated: 2026-11-24 (IST)
+**54 open internships** across 26 companies · Last updated: 2026-11-24 (IST)
 
 ### Software Engineering (16)
 
@@ -71,10 +71,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 |---|---|---|---|---|---|---|---|
 | Quadeye<br><sub>Quant</sub> | Intern - Quant Researcher | Gurgaon, Haryana, India | — | — | — | [Apply](https://quadeye.zohorecruit.in/jobs/Careers/199893000002318371) | 148d |
 
-### Hardware & Silicon (3)
+### Hardware & Silicon (4)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Cisco<br><sub>Big Tech</sub> | ASIC Engineer - Spring Internship hiring. | Bangalore, India; Pune, India | — | 2027 | — | [Apply](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/ASIC-Engineer---Spring-Internship-hiring_2032859-1) | 0d |
 | Marvell<br><sub>Semiconductor</sub> | Research Intern (PhD), FPGA & Silicon Prototyping<br><sub>🎓 PhD, MS by Research, or MTech by Research program</sub> | Hyderabad | — | — | — | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Hyderabad/Research-Intern--PhD----FPGA---Silicon-Prototyping_2604254) | 26d |
 | Qualcomm<br><sub>Semiconductor</sub> | Interim Engineering Intern\_2027\_HW<br><sub>🎓 Masters, Bachelors: Electrical Engineering , VLSI , Embedde…</sub> | Bangalore, India; Hyderabad, Telangāna, India | 2027 | — | — | [Apply](https://careers.qualcomm.com/careers/job/446719784824) | 76d |
 | Google<br><sub>Big Tech</sub> | Silicon Engineering Intern, PhD, Summer 2027 | Bengaluru, Karnataka, India; Hyderabad, Telangana, India | Summer 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/109375266236572358) | 78d |
