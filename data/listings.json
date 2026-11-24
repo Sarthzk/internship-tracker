@@ -5379,6 +5379,36 @@
   {
     "category": "swe",
     "closed_at": null,
+    "company": "Nvidia",
+    "company_slug": "nvidia",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Pursuing M. tech/BTech in Computer Science or E&C",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-24T14:43:42.210317Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "JR2030374-1",
+    "first_seen": "2026-11-24T14:40:45.809166Z",
+    "id": "workday:nvidia:JR2030374-1",
+    "is_remote": false,
+    "last_seen": "2026-11-24",
+    "locations": [
+      "India, Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "System Software Engineering Intern - Spring 2027",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineering-Intern---Spring-2027_JR2030374-1"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
     "company": "NXP",
     "company_slug": "nxp",
     "date_posted": "2025-08-14",
