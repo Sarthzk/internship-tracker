@@ -108,7 +108,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Juspay | custom | ✅ OK | 2026-11-24 | 6 |
 | Kong | ashby | ✅ OK | 2026-11-24 | 0 |
 | LaunchDarkly | greenhouse | ✅ OK | 2026-11-24 | 0 |
-| LSEG | workday | ✅ OK | 2026-11-24 | 1 |
+| LSEG | workday | ✅ OK | 2026-11-24 | 2 |
 | Meesho | lever | ✅ OK | 2026-11-24 | 0 |
 | Mindtickle | lever | ✅ OK | 2026-11-24 | 0 |
 | Mixpanel | greenhouse | ✅ OK | 2026-11-24 | 0 |

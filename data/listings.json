@@ -5023,6 +5023,36 @@
   },
   {
     "category": "data_ml",
+    "closed_at": null,
+    "company": "LSEG",
+    "company_slug": "lseg",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-24T09:34:19.712647Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0123143",
+    "first_seen": "2026-11-24T09:31:02.943857Z",
+    "id": "workday:lseg:R0123143",
+    "is_remote": false,
+    "last_seen": "2026-11-24",
+    "locations": [
+      "IND-Bangalore-TowerE,RMZ Infin"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "AI/ML Intern",
+    "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/IND-Bangalore-TowerERMZ-Infin/AI-ML-Intern_R0123143"
+  },
+  {
+    "category": "data_ml",
     "closed_at": "2026-11-17T09:50:45.493224Z",
     "company": "LSEG",
     "company_slug": "lseg",
