@@ -2,7 +2,7 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**159 closed** · Last updated: 2026-11-24 (IST)
+**158 closed** · Last updated: 2026-11-24 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
@@ -40,7 +40,6 @@ Listings that are no longer on the company's career page. [Back to the open inte
 | Paytm<br><sub>Fintech</sub> | Backend - Intern ( SEA & Europe) | Noida, Uttar Pradesh (Remote) | — | — | — | [Apply](https://jobs.lever.co/paytm/0a6e7022-caaf-4bc3-b6e9-d5dd90c44cf8) | 2026-11-19 | 2026-11-20 |
 | GE HealthCare<br><sub>Industrial</sub> | Operational Management Leadership Program Intern<br><sub>🎓 Bachelor’s degree in Engineering (Mechanical / Production)…</sub> | Bengaluru | — | — | — | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Bengaluru/Operational-Management-Leadership-Program-Intern_R4049562-1) | 2026-11-17 | 2026-11-20 |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Intern_1211844) | 2026-11-18 | 2026-11-20 |
-| Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215491-3) | 2026-11-18 | 2026-11-20 |
 | Philips<br><sub>Industrial</sub> | Intern – Data Science and AI Engineering | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Intern---Data-Science-and-AI-Engineering_590723) | 2026-11-18 | 2026-11-19 |
 | Ciena<br><sub>Big Tech</sub> | Engineering Applications Developer\_Intern | Gurugram | — | — | — | [Apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Gurugram/Engineering-Applications-Developer-Intern_R031737) | 2026-11-19 | 2026-11-19 |
 | Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 2026-11-19 | 2026-11-19 |
