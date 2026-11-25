@@ -27,12 +27,13 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**54 open internships** across 26 companies · Last updated: 2026-11-25 (IST)
+**58 open internships** across 26 companies · Last updated: 2026-11-25 (IST)
 
-### Software Engineering (17)
+### Software Engineering (18)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| GE Vernova<br><sub>Industrial</sub> | Digital Technology Intern | Hyderabad | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Digital-Technology-Intern_R5055951-1) | 0d |
 | GE Vernova<br><sub>Industrial</sub> | Software Engineering Intern | Hyderabad; Bengaluru | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Software-Engineering-Intern_R5050069-1) | 0d |
 | Philips<br><sub>Industrial</sub> | Engineering Intern – Software Engineering | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Engineering-Intern---Software-Engineering_594338) | 0d |
 | Juspay<br><sub>Fintech</sub> | Quality Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=QE05) | 8d |
@@ -95,11 +96,14 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 9d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 20d |
 
-### Other (18)
+### Other (21)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | GE Vernova<br><sub>Industrial</sub> | Co-Op Intern-6<br><sub>🎓 Bachelor's degree in CS, IT, or related STEM field</sub> | Bengaluru | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bengaluru/Co-Op-Intern-6_R5054938-1) | 0d |
+| GE Vernova<br><sub>Industrial</sub> | Grid Automation Intern<br><sub>🎓 B.Tech, M.Tech/M.E Final year student</sub> | Hyderabad | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Grid-Automation-Intern_R5058927-1) | 0d |
+| GE Vernova<br><sub>Industrial</sub> | Intern-1<br><sub>🎓 B.Tech, M.Tech/M.E Final year student</sub> | Hyderabad | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Intern-1_R5057073-1) | 0d |
+| GE Vernova<br><sub>Industrial</sub> | Power Systems Intern<br><sub>🎓 Master's degree from an accredited university in Power Syst…</sub> | Hyderabad; Bengaluru | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Power-Systems-Intern_R5049954-1) | 0d |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 1d |
 | Paytm<br><sub>Fintech</sub> | Learning Experience Design Intern | Noida, Uttar Pradesh | — | — | — | [Apply](https://jobs.lever.co/paytm/c8886602-f1b7-4c08-b181-f4d36b2d0e80) | 1d |
 | Micron<br><sub>Semiconductor</sub> | Intern | Hyderabad - Phoenix Aquila, India; Bengaluru, India | — | — | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Intern_JR108596) | 2d |

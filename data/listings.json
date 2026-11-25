@@ -4743,6 +4743,37 @@
     "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": "2026-11-25",
+    "enrichment": {
+      "degree": "Master's degree from an accredited university in Power Systems",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-25T13:14:07.805855Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5049954-1",
+    "first_seen": "2026-11-25T13:10:45.592849Z",
+    "id": "workday:ge-vernova:R5049954-1",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "Hyderabad",
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Power Systems Intern",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Power-Systems-Intern_R5049954-1"
+  },
+  {
     "category": "swe",
     "closed_at": null,
     "company": "GE Vernova",
@@ -4802,6 +4833,96 @@
     "status": "open",
     "title": "Co-Op Intern-6",
     "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bengaluru/Co-Op-Intern-6_R5054938-1"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-25T13:14:07.805855Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5055951-1",
+    "first_seen": "2026-11-25T13:10:45.592849Z",
+    "id": "workday:ge-vernova:R5055951-1",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Digital Technology Intern",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Digital-Technology-Intern_R5055951-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.Tech, M.Tech/M.E Final year student",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-25T13:14:07.805855Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5057073-1",
+    "first_seen": "2026-11-25T13:10:45.592849Z",
+    "id": "workday:ge-vernova:R5057073-1",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern-1",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Intern-1_R5057073-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.Tech, M.Tech/M.E Final year student",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-25T13:14:07.805855Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5058927-1",
+    "first_seen": "2026-11-25T13:10:45.592849Z",
+    "id": "workday:ge-vernova:R5058927-1",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Grid Automation Intern",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Grid-Automation-Intern_R5058927-1"
   },
   {
     "category": "swe",
