@@ -82,10 +82,10 @@
   },
   {
     "company_slug": "ameriprise-financial",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 20,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-25",
     "zero_since": null
   },
@@ -262,10 +262,10 @@
   },
   {
     "company_slug": "cigna",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 84,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-25",
     "zero_since": null
   },
@@ -442,10 +442,10 @@
   },
   {
     "company_slug": "f5",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 24,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-25",
     "zero_since": null
   },
@@ -568,10 +568,10 @@
   },
   {
     "company_slug": "guidewire",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 27,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-25",
     "zero_since": null
   },
@@ -604,10 +604,10 @@
   },
   {
     "company_slug": "hpe",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 188,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-25",
     "zero_since": null
   },
@@ -1207,10 +1207,10 @@
   },
   {
     "company_slug": "stryker",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 28,
-    "last_error": null,
+    "last_error": "BlockedError: blocked by site protection (Cloudflare challenge)",
     "last_success": "2026-11-25",
     "zero_since": null
   },
