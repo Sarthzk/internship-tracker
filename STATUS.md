@@ -78,7 +78,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Datadog | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Duolingo | greenhouse | ✅ OK | 2026-11-25 | 0 |
-| Eaton | eightfold | ✅ OK | 2026-11-25 | 2 |
+| Eaton | eightfold | ✅ OK | 2026-11-25 | 1 |
 | Elastic | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Equifax | workday | ✅ OK | 2026-11-25 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-25 | 0 |

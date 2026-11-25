@@ -629,7 +629,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-25T06:50:43.275554Z",
     "company": "Eaton",
     "company_slug": "eaton",
     "date_posted": "2026-11-11",
@@ -650,10 +650,10 @@
     "locations": [
       "Pune, Maharashtra, IND, 411014"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "eightfold",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice. IT. Development Program",
     "url": "https://eaton.eightfold.ai/careers/job/687240121118"
   },
