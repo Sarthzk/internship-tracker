@@ -4774,6 +4774,36 @@
     "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Software-Engineering-Intern_R5050069-1"
   },
   {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor's degree in CS, IT, or related STEM field",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-25T12:34:26.127954Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5054938-1",
+    "first_seen": "2026-11-25T12:31:04.480269Z",
+    "id": "workday:ge-vernova:R5054938-1",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Co-Op Intern-6",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bengaluru/Co-Op-Intern-6_R5054938-1"
+  },
+  {
     "category": "swe",
     "closed_at": "2026-11-20T13:40:51.474244Z",
     "company": "HP",
