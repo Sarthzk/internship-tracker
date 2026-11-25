@@ -1391,7 +1391,7 @@
     "locations": [
       "Gurugram, HR, India"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "oracle_hcm",
     "status": "open",
@@ -1511,7 +1511,7 @@
     "locations": [
       "Bengaluru, KA, India"
     ],
-    "missed_runs": 1,
+    "missed_runs": 2,
     "notified": true,
     "source": "oracle_hcm",
     "status": "open",
@@ -2146,6 +2146,28 @@
     "status": "closed",
     "title": "Product Application Intern",
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R267676"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Analog Devices",
+    "company_slug": "analog-devices",
+    "date_posted": null,
+    "enrichment": null,
+    "external_id": "R269139",
+    "first_seen": "2026-11-25T19:01:16.267622Z",
+    "id": "workday:analog-devices:R269139",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "India, Bangalore, Nova"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Product Application Intern",
+    "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R269139"
   },
   {
     "category": "other",
