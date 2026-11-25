@@ -4805,6 +4805,36 @@
     "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Software-Engineering-Intern_R5050069-1"
   },
   {
+    "category": "core",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-25T13:34:25.425744Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5053778-1",
+    "first_seen": "2026-11-25T13:31:03.353489Z",
+    "id": "workday:ge-vernova:R5053778-1",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern – Aero-Thermal Science",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bengaluru/Intern---Aero-Thermal-Science_R5053778-1"
+  },
+  {
     "category": "other",
     "closed_at": null,
     "company": "GE Vernova",
