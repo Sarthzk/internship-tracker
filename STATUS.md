@@ -10,8 +10,8 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-25 | 1 |
 | AMD | custom | ✅ OK | 2026-11-25 | 0 |
-| American Express | oracle_hcm | ✅ OK | 2026-11-25 | 4 |
-| Analog Devices | workday | ✅ OK | 2026-11-25 | 1 |
+| American Express | oracle_hcm | ✅ OK | 2026-11-25 | 2 |
+| Analog Devices | workday | ✅ OK | 2026-11-25 | 2 |
 | Apple | custom | ✅ OK | 2026-11-25 | 0 |
 | Applied Materials | workday | ✅ OK | 2026-11-25 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-25 | 0 |
@@ -95,7 +95,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Groww | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-25 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-25 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-25 | 5 |
+| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-25 | 4 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | HP | workday | ✅ OK | 2026-11-25 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-25 | 0 |

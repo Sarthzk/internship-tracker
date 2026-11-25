@@ -1370,7 +1370,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-25T19:10:45.739230Z",
     "company": "American Express",
     "company_slug": "american-express",
     "date_posted": "2026-11-24",
@@ -1391,10 +1391,10 @@
     "locations": [
       "Gurugram, HR, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "oracle_hcm",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice",
     "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26016056"
   },
@@ -1490,7 +1490,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-25T19:10:45.739230Z",
     "company": "American Express",
     "company_slug": "american-express",
     "date_posted": "2026-11-18",
@@ -1511,10 +1511,10 @@
     "locations": [
       "Bengaluru, KA, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "oracle_hcm",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice",
     "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26016754"
   },
@@ -2118,6 +2118,36 @@
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267594"
   },
   {
+    "category": "hardware",
+    "closed_at": null,
+    "company": "Analog Devices",
+    "company_slug": "analog-devices",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-25T19:14:04.326219Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R267604",
+    "first_seen": "2026-11-25T19:10:45.739230Z",
+    "id": "workday:analog-devices:R267604",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "India, Bangalore, Nova"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Analog Design Intern",
+    "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267604"
+  },
+  {
     "category": "other",
     "closed_at": "2026-11-11T21:10:45.457297Z",
     "company": "Analog Devices",
@@ -2162,7 +2192,7 @@
     "locations": [
       "India, Bangalore, Nova"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "workday",
     "status": "open",
@@ -5160,7 +5190,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-25T19:10:45.739230Z",
     "company": "Hewlett Packard Enterprise",
     "company_slug": "hpe",
     "date_posted": null,
@@ -5181,10 +5211,10 @@
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "External Intern",
     "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215491-3"
   },
