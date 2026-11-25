@@ -2,11 +2,12 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-25 (IST)
+**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-25 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
 | Microsoft | eightfold | ⚠️ failing for 3 runs: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-25 | 3 |
+| Oracle | oracle_hcm | ⚠️ failing for 1 run: FetchError: HTTP 502 from eeho.fa.us2.oraclecloud.com | 2026-11-25 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-25 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-25 | 1 |
@@ -34,7 +35,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Micron | workday | ✅ OK | 2026-11-25 | 1 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-25 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-25 | 1 |
-| Oracle | oracle_hcm | ✅ OK | 2026-11-25 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-25 | 0 |
 | Quadeye | custom | ✅ OK | 2026-11-25 | 2 |
 | Qualcomm | eightfold | ✅ OK | 2026-11-25 | 1 |
