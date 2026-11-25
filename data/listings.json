@@ -4744,6 +4744,37 @@
   },
   {
     "category": "swe",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": "2026-11-25",
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-25T12:14:08.857683Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5050069-1",
+    "first_seen": "2026-11-25T12:10:46.485183Z",
+    "id": "workday:ge-vernova:R5050069-1",
+    "is_remote": false,
+    "last_seen": "2026-11-25",
+    "locations": [
+      "Hyderabad",
+      "Bengaluru"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Software Engineering Intern",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Software-Engineering-Intern_R5050069-1"
+  },
+  {
+    "category": "swe",
     "closed_at": "2026-11-20T13:40:51.474244Z",
     "company": "HP",
     "company_slug": "hp",
