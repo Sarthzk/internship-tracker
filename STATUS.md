@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Microsoft | eightfold | ⚠️ failing for 3 runs: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-25 | 3 |
+| Intel | workday | ⚠️ failing for 1 run: RemoteProtocolError: peer closed connection without sending complete m | 2026-11-25 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-25 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-25 | 1 |
@@ -27,11 +27,11 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Goldman Sachs | custom | ✅ OK | 2026-11-25 | 0 |
 | Google | custom | ✅ OK | 2026-11-25 | 3 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-25 | 0 |
-| Intel | workday | ✅ OK | 2026-11-25 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-25 | 0 |
 | Marvell | workday | ✅ OK | 2026-11-25 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-25 | 0 |
 | Micron | workday | ✅ OK | 2026-11-25 | 1 |
+| Microsoft | eightfold | ✅ OK | 2026-11-25 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-25 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-25 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-25 | 0 |
