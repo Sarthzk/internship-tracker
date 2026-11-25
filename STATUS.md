@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-25 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-25 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Intel | workday | ⚠️ failing for 1 run: RemoteProtocolError: peer closed connection without sending complete m | 2026-11-25 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-25 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-25 | 1 |
@@ -27,6 +26,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Goldman Sachs | custom | ✅ OK | 2026-11-25 | 0 |
 | Google | custom | ✅ OK | 2026-11-25 | 3 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-25 | 0 |
+| Intel | workday | ✅ OK | 2026-11-25 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-25 | 0 |
 | Marvell | workday | ✅ OK | 2026-11-25 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-25 | 0 |
@@ -125,7 +125,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | OpenAI | ashby | ✅ OK | 2026-11-25 | 0 |
 | Palo Alto Networks | workday | ✅ OK | 2026-11-25 | 0 |
 | Paytm | lever | ✅ OK | 2026-11-25 | 1 |
-| Philips | workday | ✅ OK | 2026-11-25 | 1 |
+| Philips | workday | ✅ OK | 2026-11-25 | 0 |
 | PhonePe | smartrecruiters | ✅ OK | 2026-11-25 | 0 |
 | Plane | ashby | ✅ OK | 2026-11-25 | 0 |
 | Postman | workday | ✅ OK | 2026-11-25 | 0 |
