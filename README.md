@@ -27,16 +27,15 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**57 open internships** across 24 companies · Last updated: 2026-11-25 (IST)
+**56 open internships** across 24 companies · Last updated: 2026-11-25 (IST)
 
-### Software Engineering (16)
+### Software Engineering (15)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
 | GE Vernova<br><sub>Industrial</sub> | Digital Technology Intern | Hyderabad | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Digital-Technology-Intern_R5055951-1) | 0d |
 | GE Vernova<br><sub>Industrial</sub> | Software Engineering Intern | Hyderabad; Bengaluru | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Software-Engineering-Intern_R5050069-1) | 0d |
 | Juspay<br><sub>Fintech</sub> | Quality Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=QE05) | 8d |
-| Google<br><sub>Big Tech</sub> | Forward Deployed Engineer Intern, 2027 | Bengaluru, Karnataka, India | 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/96299220855595718) | 9d |
 | Juspay<br><sub>Fintech</sub> | Product Solution Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=PSE02) | 27d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE02) | 27d |
 | Juspay<br><sub>Fintech</sub> | Software Development Engineer Backend Intern | Mumbai | — | — | — | [Apply](https://joinus.juspay.in/?jobId=DEV-BE04) | 27d |

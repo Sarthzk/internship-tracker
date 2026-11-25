@@ -196,7 +196,7 @@
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-25T18:01:16.850046Z",
     "company": "Google",
     "company_slug": "google",
     "date_posted": "2026-11-16",
@@ -209,10 +209,10 @@
     "locations": [
       "Bengaluru, Karnataka, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "custom",
-    "status": "open",
+    "status": "closed",
     "title": "Forward Deployed Engineer Intern, 2027",
     "url": "https://www.google.com/about/careers/applications/jobs/results/96299220855595718"
   },

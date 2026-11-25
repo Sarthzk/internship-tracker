@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**166 closed** · Last updated: 2026-11-25 (IST)
+**167 closed** · Last updated: 2026-11-25 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Google<br><sub>Big Tech</sub> | Forward Deployed Engineer Intern, 2027 | Bengaluru, Karnataka, India | 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/96299220855595718) | 2026-11-16 | 2026-11-25 |
 | Philips<br><sub>Industrial</sub> | Engineering Intern – Software Engineering | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Engineering-Intern---Software-Engineering_594338) | 2026-11-25 | 2026-11-25 |
 | Stripe<br><sub>Fintech</sub> | Software Engineer, Intern<br><sub>🎓 Bachelor’s or Master’s degree in computer science, math, or…</sub> | Bengaluru | — | — | — | [Apply](https://stripe.com/jobs/search?gh_jid=8031833) | 2026-07-10 | 2026-11-25 |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240121118) | 2026-11-11 | 2026-11-25 |

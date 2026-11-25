@@ -24,7 +24,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Databricks | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-25 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-25 | 0 |
-| Google | custom | ✅ OK | 2026-11-25 | 3 |
+| Google | custom | ✅ OK | 2026-11-25 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Intel | workday | ✅ OK | 2026-11-25 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-25 | 0 |
