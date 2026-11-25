@@ -2,10 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 156 OK · 0 failing · 6 blocked by site protection · 12 not tracked · Last updated: 2026-11-25 (IST)
+**162 companies tracked** · 155 OK · 1 failing · 6 blocked by site protection · 12 not tracked · Last updated: 2026-11-25 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-25 | 3 |
 | Ameriprise Financial | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 0 |
 | Cigna | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 0 |
 | F5 | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 0 |
@@ -37,7 +38,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-25 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-25 | 0 |
 | Micron | workday | ✅ OK | 2026-11-25 | 1 |
-| Microsoft | eightfold | ✅ OK | 2026-11-25 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-25 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-25 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-25 | 0 |
