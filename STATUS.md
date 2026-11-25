@@ -2,17 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 155 OK · 1 failing · 6 blocked by site protection · 12 not tracked · Last updated: 2026-11-25 (IST)
+**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-25 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
 | Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-25 | 3 |
-| Ameriprise Financial | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 0 |
-| Cigna | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 0 |
-| F5 | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 0 |
-| Guidewire | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 0 |
-| Hewlett Packard Enterprise | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 5 |
-| Stryker | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-25 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-25 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-25 | 1 |
@@ -60,6 +54,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Agoda | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Airbus | workday | ✅ OK | 2026-11-25 | 2 |
+| Ameriprise Financial | workday | ✅ OK | 2026-11-25 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-25 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Anyscale | ashby | ✅ OK | 2026-11-25 | 0 |
@@ -71,6 +66,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BrowserStack | workday | ✅ OK | 2026-11-25 | 0 |
 | Caterpillar | workday | ✅ OK | 2026-11-25 | 0 |
 | Ciena | workday | ✅ OK | 2026-11-25 | 0 |
+| Cigna | workday | ✅ OK | 2026-11-25 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-25 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-25 | 0 |
@@ -86,6 +82,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Elastic | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Equifax | workday | ✅ OK | 2026-11-25 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-25 | 0 |
+| F5 | workday | ✅ OK | 2026-11-25 | 0 |
 | Fidelity Investments | workday | ✅ OK | 2026-11-25 | 0 |
 | Figma | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-25 | 0 |
@@ -96,7 +93,9 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Glance | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-25 | 0 |
+| Guidewire | workday | ✅ OK | 2026-11-25 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-25 | 1 |
+| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-25 | 5 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | HP | workday | ✅ OK | 2026-11-25 | 0 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-25 | 0 |
@@ -146,6 +145,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Sprinklr | workday | ✅ OK | 2026-11-25 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | State Street | workday | ✅ OK | 2026-11-25 | 0 |
+| Stryker | workday | ✅ OK | 2026-11-25 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-25 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-25 | 0 |
 | Target | workday | ✅ OK | 2026-11-25 | 0 |
