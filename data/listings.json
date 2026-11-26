@@ -526,7 +526,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "eightfold:eaton:687239705382",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Pune, Maharashtra, IND, 411014"
     ],
@@ -1253,7 +1253,7 @@
     "first_seen": "2026-11-03T06:10:41.248990Z",
     "id": "lever:hevo-data:993a3ed3-3014-432f-b0f4-28d300d58d9a",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Bangalore, India"
     ],
@@ -4543,7 +4543,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:ge-healthcare:R4043882-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "IND19-01-Bengaluru-EPIP 122 (Phase II)"
     ],
@@ -4783,7 +4783,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:ge-vernova:R5027950-2",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Chennai"
     ],
@@ -4813,7 +4813,7 @@
     "first_seen": "2026-11-25T13:10:45.592849Z",
     "id": "workday:ge-vernova:R5049954-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Hyderabad",
       "Bengaluru"
@@ -4844,7 +4844,7 @@
     "first_seen": "2026-11-25T12:10:46.485183Z",
     "id": "workday:ge-vernova:R5050069-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Hyderabad",
       "Bengaluru"
@@ -4875,7 +4875,7 @@
     "first_seen": "2026-11-25T13:31:03.353489Z",
     "id": "workday:ge-vernova:R5053778-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Bengaluru"
     ],
@@ -4905,7 +4905,7 @@
     "first_seen": "2026-11-25T12:31:04.480269Z",
     "id": "workday:ge-vernova:R5054938-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Bengaluru"
     ],
@@ -4935,7 +4935,7 @@
     "first_seen": "2026-11-25T13:10:45.592849Z",
     "id": "workday:ge-vernova:R5055951-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Hyderabad"
     ],
@@ -4965,7 +4965,7 @@
     "first_seen": "2026-11-25T13:10:45.592849Z",
     "id": "workday:ge-vernova:R5057073-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Hyderabad"
     ],
@@ -4995,7 +4995,7 @@
     "first_seen": "2026-11-25T13:10:45.592849Z",
     "id": "workday:ge-vernova:R5058927-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Hyderabad"
     ],
@@ -5057,7 +5057,7 @@
     "first_seen": "2026-11-12T06:10:43.589728Z",
     "id": "workday:hpe:1191423",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
@@ -5087,7 +5087,7 @@
     "first_seen": "2026-11-04T20:51:05.533083Z",
     "id": "workday:hpe:1211843-2",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
@@ -5147,7 +5147,7 @@
     "first_seen": "2026-11-05T10:31:00.799496Z",
     "id": "workday:hpe:1215487-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
@@ -5237,7 +5237,7 @@
     "first_seen": "2026-11-19T10:10:45.769931Z",
     "id": "workday:hpe:1215608-1",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Bengaluru, Karnātaka, India"
     ],
@@ -5419,7 +5419,7 @@
     "first_seen": "2026-11-19T07:31:01.063123Z",
     "id": "workday:lseg:R0125102",
     "is_remote": false,
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "locations": [
       "Colombo, Sri Lanka",
       "IND-Bangalore-A, RMZ Infinity"
