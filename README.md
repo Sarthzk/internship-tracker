@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**56 open internships** across 25 companies · Last updated: 2026-11-26 (IST)
+**58 open internships** across 25 companies · Last updated: 2026-11-26 (IST)
 
 ### Software Engineering (18)
 
@@ -92,10 +92,12 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 10d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 21d |
 
-### Other (18)
+### Other (20)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Airbus<br><sub>Industrial</sub> | Internship - Flight Physics<br><sub>🎓 Bachelors & Masters in aerospace engineering</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Flight-Physics_JR10449608) | 0d |
+| Airbus<br><sub>Industrial</sub> | System Design, modelling and Analysis : Internship | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/System-Design--modelling-and-Analysis---Internship_JR10447974) | 0d |
 | GE Vernova<br><sub>Industrial</sub> | Intern | Hyderabad | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Intern_R5058608-1) | 0d |
 | Zeta<br><sub>Fintech</sub> | Intern | Bangalore - WF | — | — | — | [Apply](https://jobs.lever.co/zeta/331526ff-cb2d-4b93-a812-ff37ebb7edc2) | 0d |
 | GE Vernova<br><sub>Industrial</sub> | Co-Op Intern-6<br><sub>🎓 Bachelor's degree in CS, IT, or related STEM field</sub> | Bengaluru | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bengaluru/Co-Op-Intern-6_R5054938-1) | 1d |

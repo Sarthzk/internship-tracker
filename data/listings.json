@@ -1701,6 +1701,36 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T10:43:46.767418Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10447974",
+    "first_seen": "2026-11-26T10:40:48.168189Z",
+    "id": "workday:airbus:JR10447974",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "System Design, modelling and Analysis : Internship",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/System-Design--modelling-and-Analysis---Internship_JR10447974"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-24T08:20:46.672749Z",
     "company": "Airbus",
     "company_slug": "airbus",
@@ -2118,6 +2148,36 @@
     "status": "closed",
     "title": "Artificial_Intelligence_For_Systems_Engineering_Intern",
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelors & Masters in aerospace engineering",
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T10:43:46.767418Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10449608",
+    "first_seen": "2026-11-26T10:40:48.168189Z",
+    "id": "workday:airbus:JR10449608",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship - Flight Physics",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Flight-Physics_JR10449608"
   },
   {
     "category": "swe",
