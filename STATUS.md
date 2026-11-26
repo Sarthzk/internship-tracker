@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 0 failing · 1 blocked by site protection · 12 not tracked · Last updated: 2026-11-27 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-27 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Cohesity | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-26 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-26 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-26 | 1 |
@@ -21,6 +20,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Cadence | workday | ✅ OK | 2026-11-26 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-26 | 0 |
 | Cisco | workday | ✅ OK | 2026-11-26 | 1 |
+| Cohesity | workday | ✅ OK | 2026-11-26 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-26 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-26 | 0 |
