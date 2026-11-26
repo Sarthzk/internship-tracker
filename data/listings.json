@@ -4983,6 +4983,36 @@
     "company_slug": "ge-vernova",
     "date_posted": null,
     "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T05:54:04.126118Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R5058608-1",
+    "first_seen": "2026-11-26T05:50:45.946202Z",
+    "id": "workday:ge-vernova:R5058608-1",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Hyderabad"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Intern",
+    "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Intern_R5058608-1"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "GE Vernova",
+    "company_slug": "ge-vernova",
+    "date_posted": null,
+    "enrichment": {
       "degree": "B.Tech, M.Tech/M.E Final year student",
       "duration_months": null,
       "eligible_batches": null,

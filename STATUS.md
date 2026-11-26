@@ -88,7 +88,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Fivetran | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-26 | 0 |
 | GE HealthCare | workday | ✅ OK | 2026-11-26 | 1 |
-| GE Vernova | workday | ✅ OK | 2026-11-26 | 8 |
+| GE Vernova | workday | ✅ OK | 2026-11-26 | 9 |
 | GitLab | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-26 | 0 |
