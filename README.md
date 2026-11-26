@@ -27,9 +27,9 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**63 open internships** across 27 companies · Last updated: 2026-11-26 (IST)
+**68 open internships** across 27 companies · Last updated: 2026-11-26 (IST)
 
-### Software Engineering (23)
+### Software Engineering (28)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -40,6 +40,11 @@ Term, Batch and Duration show "—" unless the posting states them.
 | HP<br><sub>Big Tech</sub> | College Intern - Technical | Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India; Pune, Maharashtra, India +1 more | Summer | — | — | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1) | 0d |
 | Johnson Controls<br><sub>Industrial</sub> | IT Intern | Bangalore-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286181) | 0d |
 | Johnson Controls<br><sub>Industrial</sub> | IT Intern | Bangalore-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286182) | 0d |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286317) | 0d |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286318-1) | 0d |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286319) | 0d |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286320) | 0d |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286321) | 0d |
 | Rubrik<br><sub>Big Tech</sub> | Software Engineer (UI) - Winter Intern<br><sub>🎓 Bachelor’s or Master’s degree in Computer Science or a rela…</sub> | Bangalore | Winter | 2027 | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157) | 0d |
 | GE Vernova<br><sub>Industrial</sub> | Digital Technology Intern | Hyderabad | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Digital-Technology-Intern_R5055951-1) | 1d |
 | GE Vernova<br><sub>Industrial</sub> | Software Engineering Intern | Hyderabad; Bengaluru | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Software-Engineering-Intern_R5050069-1) | 1d |

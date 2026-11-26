@@ -5644,6 +5644,156 @@
     "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286182"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Johnson Controls",
+    "company_slug": "johnson-controls",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor's degree in engineering, Information Systems, or equivalent.",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T12:23:46.957696Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "WD30286317",
+    "first_seen": "2026-11-26T12:20:45.561940Z",
+    "id": "workday:johnson-controls:WD30286317",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bengaluru-Karnataka-India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IT Intern",
+    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286317"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Johnson Controls",
+    "company_slug": "johnson-controls",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor's degree in engineering, Information Systems, or equivalent.",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T12:23:46.957696Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "WD30286318-1",
+    "first_seen": "2026-11-26T12:20:45.561940Z",
+    "id": "workday:johnson-controls:WD30286318-1",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bengaluru-Karnataka-India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IT Intern",
+    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286318-1"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Johnson Controls",
+    "company_slug": "johnson-controls",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor's degree in engineering, Information Systems, or equivalent.",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T12:23:46.957696Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "WD30286319",
+    "first_seen": "2026-11-26T12:20:45.561940Z",
+    "id": "workday:johnson-controls:WD30286319",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bengaluru-Karnataka-India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IT Intern",
+    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286319"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Johnson Controls",
+    "company_slug": "johnson-controls",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor's degree in engineering, Information Systems, or equivalent.",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T12:23:46.957696Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "WD30286320",
+    "first_seen": "2026-11-26T12:20:45.561940Z",
+    "id": "workday:johnson-controls:WD30286320",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bengaluru-Karnataka-India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IT Intern",
+    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286320"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Johnson Controls",
+    "company_slug": "johnson-controls",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor's degree in engineering, Information Systems, or equivalent.",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T12:23:46.957696Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "WD30286321",
+    "first_seen": "2026-11-26T12:20:45.561940Z",
+    "id": "workday:johnson-controls:WD30286321",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bengaluru-Karnataka-India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IT Intern",
+    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286321"
+  },
+  {
     "category": "other",
     "closed_at": "2026-11-09T19:10:44.552415Z",
     "company": "LSEG",
