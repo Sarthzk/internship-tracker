@@ -1121,6 +1121,38 @@
   },
   {
     "category": "swe",
+    "closed_at": null,
+    "company": "Rubrik",
+    "company_slug": "rubrik",
+    "date_posted": "2026-11-26",
+    "enrichment": {
+      "degree": "Bachelor’s or Master’s degree in Computer Science or a related field",
+      "duration_months": null,
+      "eligible_batches": [
+        2027
+      ],
+      "enriched_at": "2026-11-26T09:04:23.688086Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "winter"
+    },
+    "external_id": "8413157",
+    "first_seen": "2026-11-26T09:01:25.759311Z",
+    "id": "greenhouse:rubrik:8413157",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bangalore"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "greenhouse",
+    "status": "open",
+    "title": "Software Engineer (UI) - Winter Intern",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157"
+  },
+  {
+    "category": "swe",
     "closed_at": "2026-11-11T13:11:12.029856Z",
     "company": "Sigmoid",
     "company_slug": "sigmoid",
