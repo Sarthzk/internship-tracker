@@ -5371,6 +5371,66 @@
     "url": "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Intern_JR0279777"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Johnson Controls",
+    "company_slug": "johnson-controls",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T07:04:14.695446Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "WD30286181",
+    "first_seen": "2026-11-26T07:01:15.581491Z",
+    "id": "workday:johnson-controls:WD30286181",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bangalore-Karnataka-India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IT Intern",
+    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286181"
+  },
+  {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Johnson Controls",
+    "company_slug": "johnson-controls",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T07:04:14.695446Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "WD30286182",
+    "first_seen": "2026-11-26T07:01:15.581491Z",
+    "id": "workday:johnson-controls:WD30286182",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bangalore-Karnataka-India"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "IT Intern",
+    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286182"
+  },
+  {
     "category": "other",
     "closed_at": "2026-11-09T19:10:44.552415Z",
     "company": "LSEG",

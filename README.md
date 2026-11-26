@@ -27,12 +27,14 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**52 open internships** across 24 companies · Last updated: 2026-11-26 (IST)
+**54 open internships** across 25 companies · Last updated: 2026-11-26 (IST)
 
-### Software Engineering (14)
+### Software Engineering (16)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern | Bangalore-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286181) | 0d |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern | Bangalore-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286182) | 0d |
 | GE Vernova<br><sub>Industrial</sub> | Digital Technology Intern | Hyderabad | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Digital-Technology-Intern_R5055951-1) | 1d |
 | GE Vernova<br><sub>Industrial</sub> | Software Engineering Intern | Hyderabad; Bengaluru | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Software-Engineering-Intern_R5050069-1) | 1d |
 | Juspay<br><sub>Fintech</sub> | Quality Engineer Intern | Bangalore | — | — | — | [Apply](https://joinus.juspay.in/?jobId=QE05) | 9d |
