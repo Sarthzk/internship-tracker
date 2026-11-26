@@ -95,7 +95,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Groww | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Guidewire | workday | ✅ OK | 2026-11-26 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-26 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-26 | 4 |
+| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-26 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | HP | workday | ✅ OK | 2026-11-26 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-26 | 0 |
