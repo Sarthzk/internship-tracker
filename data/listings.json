@@ -1430,7 +1430,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-26T05:40:44.306515Z",
     "company": "American Express",
     "company_slug": "american-express",
     "date_posted": "2026-11-18",
@@ -1451,16 +1451,16 @@
     "locations": [
       "Gurugram, HR, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "oracle_hcm",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice",
     "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26016519"
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-26T05:40:44.306515Z",
     "company": "American Express",
     "company_slug": "american-express",
     "date_posted": "2026-11-18",
@@ -1481,10 +1481,10 @@
     "locations": [
       "Gurugram, HR, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "oracle_hcm",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice",
     "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26016522"
   },

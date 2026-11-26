@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**54 open internships** across 25 companies · Last updated: 2026-11-26 (IST)
+**52 open internships** across 24 companies · Last updated: 2026-11-26 (IST)
 
 ### Software Engineering (15)
 
@@ -95,7 +95,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 10d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 21d |
 
-### Other (18)
+### Other (16)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -108,8 +108,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Sarvam AI<br><sub>AI</sub> | Product User Research, Intern | Bengaluru | 6 months | — | 6 mo | [Apply](https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72) | 6d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215608-1) | 7d |
 | LSEG<br><sub>Finance</sub> | Intern, Accounts Receivables<br><sub>🎓 Accounting, Finance, or a related field</sub> | Colombo, Sri Lanka; IND-Bangalore-A, RMZ Infinity | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Accounts-Receivables_R0125102) | 7d |
-| American Express<br><sub>Fintech</sub> | Apprentice | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016519) | 8d |
-| American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Commerce, Finance, Accounting, Business, Economics or a rel…</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016522) | 8d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Insurance Client Services<br><sub>🎓 Bachelor's degree in finance or equivalent</sub> | Ahmedabad, Gujarat | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Insurance-Client-Services_332883-1) | 8d |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Visible Alpha Client Support<br><sub>🎓 Bachelor’s degree in Business, Finance, Economics, or Accou…</sub> | Mumbai, Maharastra | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mumbai-Maharastra/Apprentice--Visible-Alpha-Client-Support_332797-1) | 9d |
 | GE Vernova<br><sub>Industrial</sub> | DT Intern | Chennai | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2) | 21d |

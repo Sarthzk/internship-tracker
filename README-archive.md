@@ -2,10 +2,12 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**171 closed** · Last updated: 2026-11-26 (IST)
+**173 closed** · Last updated: 2026-11-26 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| American Express<br><sub>Fintech</sub> | Apprentice | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016519) | 2026-11-18 | 2026-11-26 |
+| American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Commerce, Finance, Accounting, Business, Economics or a rel…</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016522) | 2026-11-18 | 2026-11-26 |
 | Analog Devices<br><sub>Semiconductor</sub> | Product Application Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R269139) | 2026-11-26 | 2026-11-26 |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 2026-11-24 | 2026-11-26 |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Commerce/Business Administration</sub> | Bengaluru, KA, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016754) | 2026-11-18 | 2026-11-26 |
