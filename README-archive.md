@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**175 closed** · Last updated: 2026-11-27 (IST)
+**176 closed** · Last updated: 2026-11-27 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| S&P Global<br><sub>Finance</sub> | Apprentice, Insurance Client Services<br><sub>🎓 Bachelor's degree in finance or equivalent</sub> | Ahmedabad, Gujarat | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Insurance-Client-Services_332883-1) | 2026-11-18 | 2026-11-27 |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215608-1) | 2026-11-19 | 2026-11-27 |
 | Zebra Technologies<br><sub>Big Tech</sub> | 2027 (6 Month) Internship - (Bengaluru) Software Engineering | Bengaluru, India | 6 months 2027 | — | 6 mo | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Bengaluru-India/XMLNAME-2027--6-Month--Internship----Bengaluru--Software-Engineering_JR103480) | 2026-11-18 | 2026-11-26 |
 | Nvidia<br><sub>Semiconductor</sub> | System Software Engineering Intern - Spring 2027<br><sub>🎓 Pursuing M. tech/BTech in Computer Science or E&C</sub> | India, Bengaluru | Spring 2027 | — | — | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineering-Intern---Spring-2027_JR2030374-1) | 2026-11-24 | 2026-11-26 |

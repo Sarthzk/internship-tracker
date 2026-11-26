@@ -6644,7 +6644,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-26T19:20:41.170492Z",
     "company": "S&P Global",
     "company_slug": "sp-global",
     "date_posted": null,
@@ -6665,10 +6665,10 @@
     "locations": [
       "Ahmedabad, Gujarat"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Apprentice, Insurance Client Services",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Insurance-Client-Services_332883-1"
   },
