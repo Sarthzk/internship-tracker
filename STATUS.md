@@ -53,7 +53,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Abbott | workday | ✅ OK | 2026-11-26 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-26 | 0 |
-| Airbus | workday | ✅ OK | 2026-11-26 | 5 |
+| Airbus | workday | ✅ OK | 2026-11-26 | 6 |
 | Ameriprise Financial | workday | ✅ OK | 2026-11-26 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-26 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-26 | 0 |
@@ -97,7 +97,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Hevo Data | lever | ✅ OK | 2026-11-26 | 1 |
 | Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-26 | 4 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-26 | 0 |
-| HP | workday | ✅ OK | 2026-11-26 | 0 |
+| HP | workday | ✅ OK | 2026-11-26 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Invesco | workday | ✅ OK | 2026-11-26 | 0 |

@@ -2300,6 +2300,36 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--FTM-MOC_JR10449695"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "B.Tech / Mtech in Computer Science Engineering, BCA, MCA",
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T11:04:19.522051Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10454573",
+    "first_seen": "2026-11-26T11:01:18.541048Z",
+    "id": "workday:airbus:JR10454573",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Cyber Security Data Intern",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Cyber-Security-Data-Intern_JR10454573"
+  },
+  {
     "category": "hardware",
     "closed_at": "2026-11-11T21:10:45.457297Z",
     "company": "Analog Devices",
@@ -5250,10 +5280,10 @@
   },
   {
     "category": "swe",
-    "closed_at": "2026-11-20T13:40:51.474244Z",
+    "closed_at": null,
     "company": "HP",
     "company_slug": "hp",
-    "date_posted": "2026-11-11",
+    "date_posted": "2026-11-26",
     "enrichment": {
       "degree": null,
       "duration_months": null,
@@ -5267,16 +5297,17 @@
     "first_seen": "2026-11-12T06:01:08.649406Z",
     "id": "workday:hp:3169164-1",
     "is_remote": false,
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-26",
     "locations": [
       "Bengaluru, Karnataka, India",
       "Chennai, Tamil Nadu, India",
+      "Pune, Maharashtra, India",
       "Gurugram, Haryana, India"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "College Intern - Technical",
     "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1"
   },

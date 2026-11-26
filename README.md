@@ -27,15 +27,17 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**60 open internships** across 25 companies · Last updated: 2026-11-26 (IST)
+**62 open internships** across 26 companies · Last updated: 2026-11-26 (IST)
 
-### Software Engineering (20)
+### Software Engineering (22)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
+| Airbus<br><sub>Industrial</sub> | Cyber Security Data Intern<br><sub>🎓 B.Tech / Mtech in Computer Science Engineering, BCA, MCA</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Cyber-Security-Data-Intern_JR10454573) | 0d |
 | Airbus<br><sub>Industrial</sub> | Internship - Digital Security | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Digital-Security_JR10449628) | 0d |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program<br><sub>🎓 Bachelor’s degree in engineering, IT, or related field</sub> | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240496341) | 0d |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program<br><sub>🎓 Bachelor’s degree in engineering, IT, or related field</sub> | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240496622) | 0d |
+| HP<br><sub>Big Tech</sub> | College Intern - Technical | Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India; Pune, Maharashtra, India +1 more | Summer | — | — | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/College-Intern---Technical_3169164-1) | 0d |
 | Johnson Controls<br><sub>Industrial</sub> | IT Intern | Bangalore-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286181) | 0d |
 | Johnson Controls<br><sub>Industrial</sub> | IT Intern | Bangalore-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286182) | 0d |
 | Rubrik<br><sub>Big Tech</sub> | Software Engineer (UI) - Winter Intern<br><sub>🎓 Bachelor’s or Master’s degree in Computer Science or a rela…</sub> | Bangalore | Winter | 2027 | — | [Apply](https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157) | 0d |
