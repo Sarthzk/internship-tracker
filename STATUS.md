@@ -2,13 +2,11 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 159 OK · 0 failing · 3 blocked by site protection · 12 not tracked · Last updated: 2026-11-27 (IST)
+**162 companies tracked** · 161 OK · 0 failing · 1 blocked by site protection · 12 not tracked · Last updated: 2026-11-27 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Cisco | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-26 | 1 |
 | Cohesity | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-26 | 0 |
-| Nvidia | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-26 | 1 |
 | Adobe | phenom | ✅ OK | 2026-11-26 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-26 | 1 |
@@ -22,6 +20,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | BlackRock | workday | ✅ OK | 2026-11-26 | 0 |
 | Cadence | workday | ✅ OK | 2026-11-26 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-26 | 0 |
+| Cisco | workday | ✅ OK | 2026-11-26 | 1 |
 | Databricks | greenhouse | ✅ OK | 2026-11-26 | 0 |
 | Deutsche Bank | workday | ✅ OK | 2026-11-26 | 0 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-26 | 0 |
@@ -34,6 +33,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Micron | workday | ✅ OK | 2026-11-26 | 1 |
 | Microsoft | eightfold | ✅ OK | 2026-11-26 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-26 | 0 |
+| Nvidia | workday | ✅ OK | 2026-11-26 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-26 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-26 | 0 |
 | Quadeye | custom | ✅ OK | 2026-11-26 | 0 |
