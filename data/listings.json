@@ -350,7 +350,7 @@
   },
   {
     "category": "quant",
-    "closed_at": null,
+    "closed_at": "2026-11-26T06:31:06.824376Z",
     "company": "Quadeye",
     "company_slug": "quadeye",
     "date_posted": "2026-06-29",
@@ -363,16 +363,16 @@
     "locations": [
       "Gurgaon, Haryana, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "custom",
-    "status": "open",
+    "status": "closed",
     "title": "Intern - Quant Researcher",
     "url": "https://quadeye.zohorecruit.in/jobs/Careers/199893000002318371"
   },
   {
     "category": "swe",
-    "closed_at": null,
+    "closed_at": "2026-11-26T06:31:06.824376Z",
     "company": "Quadeye",
     "company_slug": "quadeye",
     "date_posted": "2026-06-29",
@@ -385,10 +385,10 @@
     "locations": [
       "Gurgaon, Haryana, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "custom",
-    "status": "open",
+    "status": "closed",
     "title": "Intern - Systems Engineer",
     "url": "https://quadeye.zohorecruit.in/jobs/Careers/199893000002318430"
   },
