@@ -2088,6 +2088,36 @@
     "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Artificial-Intelligence-For-Systems-Engineering-Intern_JR10449573"
   },
   {
+    "category": "swe",
+    "closed_at": null,
+    "company": "Airbus",
+    "company_slug": "airbus",
+    "date_posted": null,
+    "enrichment": {
+      "degree": null,
+      "duration_months": 6,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-26T07:23:45.605640Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "six_month"
+    },
+    "external_id": "JR10449628",
+    "first_seen": "2026-11-26T07:20:46.594307Z",
+    "id": "workday:airbus:JR10449628",
+    "is_remote": false,
+    "last_seen": "2026-11-26",
+    "locations": [
+      "Bangalore Area"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Internship - Digital Security",
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Digital-Security_JR10449628"
+  },
+  {
     "category": "other",
     "closed_at": "2026-11-19T06:20:44.778212Z",
     "company": "Airbus",
