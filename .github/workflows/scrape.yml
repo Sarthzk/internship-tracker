@@ -71,10 +71,13 @@ jobs:
           fi
           git commit -m "chore(data): update listings"
           # Retry: another push (a code change, a retry of this job) may have landed meanwhile.
+          # The alerts for these listings are already sent, so a lost push means the same alerts
+          # go out again next run. Hence `-X theirs`: in a rebase it keeps OUR (generated) files
+          # when a hunk conflicts, instead of failing and losing the "notified" marks.
           for attempt in 1 2 3; do
             if git push; then exit 0; fi
             echo "Push attempt $attempt failed; rebasing and retrying."
-            git pull --rebase || git rebase --abort || true
+            git pull --rebase -X theirs || git rebase --abort || true
             sleep $((attempt * 5))
           done
           exit 1

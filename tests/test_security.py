@@ -227,3 +227,69 @@ async def test_postings_with_a_url_in_the_title_or_location_are_dropped(tmp_path
         respx.get(LV).respond(200, json=[])
         await go(tmp_path)
     assert load_listings(tmp_path / "listings.json") == []
+
+
+def test_silent_notified_marks_do_not_use_up_the_channel_cap():
+    from datetime import UTC, datetime
+
+    from tracker.main import alerts_sent_since
+    from tracker.models import Listing
+
+    now = datetime(2026, 11, 27, 12, tzinfo=UTC)
+
+    def li(slug: str, n: int, first_seen: datetime, notified: bool = True) -> Listing:
+        return Listing(
+            id=f"greenhouse:{slug}:{n}",
+            company=slug,
+            company_slug=slug,
+            title="Software Engineer Intern",
+            category="swe",
+            locations=["Pune"],
+            is_remote=False,
+            url=f"https://job-boards.greenhouse.io/{slug}/jobs/{n}",
+            source="greenhouse",
+            external_id=str(n),
+            first_seen=first_seen,
+            last_seen=first_seen.date(),
+            notified=notified,
+        )
+
+    since = now - timedelta(hours=24)
+    first_fetch = [li("newco", n, now - timedelta(hours=3)) for n in range(15)]  # earlier run
+    real = [li("acme", 1, now - timedelta(hours=2)), li("acme", 2, now - timedelta(hours=1))]
+    waiting = [li("acme", 3, now, notified=False)]
+    old = [li("acme", 4, now - timedelta(hours=30))]
+    assert alerts_sent_since(first_fetch + real + waiting + old, since, set()) == 2
+    # This run's silent marks are excluded even when there are only a few of them.
+    small = [li("tiny", 1, now), li("tiny", 2, now)]
+    assert alerts_sent_since(real + small, since, {"greenhouse:tiny:1", "greenhouse:tiny:2"}) == 2
+
+
+def test_a_later_flood_from_one_company_still_counts_against_the_channel_cap():
+    from datetime import UTC, datetime
+
+    from tracker.main import alerts_sent_since
+    from tracker.models import Listing
+
+    now = datetime(2026, 11, 27, 12, tzinfo=UTC)
+
+    def li(n: int, first_seen: datetime) -> Listing:
+        return Listing(
+            id=f"greenhouse:acme:{n}",
+            company="Acme",
+            company_slug="acme",
+            title="Software Engineer Intern",
+            category="swe",
+            locations=["Pune"],
+            is_remote=False,
+            url=f"https://job-boards.greenhouse.io/acme/jobs/{n}",
+            source="greenhouse",
+            external_id=str(n),
+            first_seen=first_seen,
+            last_seen=first_seen.date(),
+            notified=True,
+        )
+
+    first_fetch = [li(n, now - timedelta(days=40)) for n in range(6)]  # long ago: not in window
+    flood = [li(n, now - timedelta(hours=1)) for n in range(10, 18)]  # 8 real alerts, one run
+    assert alerts_sent_since(first_fetch + flood, now - timedelta(hours=24), set()) == 8

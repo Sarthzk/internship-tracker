@@ -8,6 +8,7 @@ import contextlib
 import logging
 import os
 import re
+from collections import Counter
 from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field
 from datetime import UTC, datetime, timedelta
@@ -222,7 +223,33 @@ async def run(
 # A web address inside a title or location would turn into a live link on GitHub: never genuine.
 URL_IN_TEXT = re.compile(r"https?://|www\.", re.IGNORECASE)
 CHANNEL_DAILY_CAP = 30  # public channel alerts per 24 h; a flood beyond that goes to the owner
+BULK_FIRST_FETCH = 5  # a company's earliest batch this big is its first fetch, not alerts
 ENRICH_TIMEOUT = 150  # seconds for the whole step; whatever is done by then is kept
+
+
+def alerts_sent_since(listings: Sequence[Listing], since: datetime, silent: set[str]) -> int:
+    """How many listings were really announced since `since`, for the channel's daily cap.
+
+    `notified` is also set, without any alert, for a company's first fetch and for listings held
+    back as a site change, and those must not use up the cap. This run's are in `silent`. The
+    first-fetch batches of earlier runs are recognised as a company's earliest batch of
+    BULK_FIRST_FETCH or more listings first seen at the same moment. Later batches of that size
+    are real alerts (a flood) and do count."""
+    earliest: dict[str, datetime] = {}
+    for li in listings:
+        earliest[li.company_slug] = min(li.first_seen, earliest.get(li.company_slug, li.first_seen))
+    recent = [
+        li for li in listings if li.notified and li.first_seen >= since and li.id not in silent
+    ]
+    batch = Counter((li.company_slug, li.first_seen) for li in recent)
+    return sum(
+        1
+        for li in recent
+        if not (
+            li.first_seen == earliest[li.company_slug]
+            and batch[(li.company_slug, li.first_seen)] >= BULK_FIRST_FETCH
+        )
+    )
 
 
 async def _enrich(
@@ -278,12 +305,15 @@ async def _notify(
     listings = summary.merge.listings
     names = {c.slug: c.name for c in enabled}
 
+    silent: set[str] = set()  # marked notified without an alert: must not use up the channel cap
+
     # A company seen for the first time gets one summary instead of one message per listing.
     if first_fetch:
         counts = {names[s]: 0 for s in first_fetch}
         for li in listings:
             if li.company_slug in first_fetch and li.status == Status.open and not li.notified:
                 li.notified = True
+                silent.add(li.id)
                 counts[li.company] += 1
         if sender is not None and not await sender.send(format_tracking_started(counts)):
             log.warning("could not send the 'now tracking' summary")
@@ -292,6 +322,7 @@ async def _notify(
     churn = find_id_churn(summary.merge, first_fetch)
     if churn:
         held = {listing_id for ids, _ in churn.values() for listing_id in ids}
+        silent |= held
         for li in listings:
             if li.id in held:
                 li.notified = True
@@ -314,7 +345,7 @@ async def _notify(
     to_channel: list[Listing] = []
     if channel is not None:
         since = (now or datetime.now(UTC)) - timedelta(hours=24)
-        recent = sum(1 for li in listings if li.notified and li.first_seen >= since)
+        recent = alerts_sent_since(listings, since, silent)
         room = max(CHANNEL_DAILY_CAP - recent, 0)
         to_channel, pending = pending[:room], pending[room:]
         if pending:
