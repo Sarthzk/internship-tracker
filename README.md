@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**65 open internships** across 26 companies · Last updated: 2026-11-27 (IST)
+**64 open internships** across 25 companies · Last updated: 2026-11-27 (IST)
 
 ### Software Engineering (28)
 
@@ -101,7 +101,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 11d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 22d |
 
-### Other (18)
+### Other (17)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -117,7 +117,6 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Micron<br><sub>Semiconductor</sub> | Intern | Hyderabad - Phoenix Aquila, India; Bengaluru, India | — | — | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Intern_JR108596) | 4d |
 | Sarvam AI<br><sub>AI</sub> | Product User Research, Intern | Bengaluru | 6 months | — | 6 mo | [Apply](https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72) | 7d |
 | LSEG<br><sub>Finance</sub> | Intern, Accounts Receivables<br><sub>🎓 Accounting, Finance, or a related field</sub> | Colombo, Sri Lanka; IND-Bangalore-A, RMZ Infinity | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Accounts-Receivables_R0125102) | 8d |
-| S&P Global<br><sub>Finance</sub> | Apprentice, Visible Alpha Client Support<br><sub>🎓 Bachelor’s degree in Business, Finance, Economics, or Accou…</sub> | Mumbai, Maharastra | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mumbai-Maharastra/Apprentice--Visible-Alpha-Client-Support_332797-1) | 10d |
 | GE Vernova<br><sub>Industrial</sub> | DT Intern | Chennai | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2) | 22d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | College Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2) | 22d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1) | 22d |

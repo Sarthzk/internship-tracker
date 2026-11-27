@@ -2,10 +2,17 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-27 (IST)
+**162 companies tracked** · 155 OK · 0 failing · 7 blocked by site protection · 12 not tracked · Last updated: 2026-11-27 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Applied Materials | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
+| Intel | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
+| Wells Fargo | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
+| Invesco | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
+| Rockwell Automation | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
+| Sprinklr | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
+| Trimble | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-27 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-27 | 1 |
@@ -13,7 +20,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | American Express | oracle_hcm | ✅ OK | 2026-11-27 | 0 |
 | Analog Devices | workday | ✅ OK | 2026-11-27 | 1 |
 | Apple | custom | ✅ OK | 2026-11-27 | 0 |
-| Applied Materials | workday | ✅ OK | 2026-11-27 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-27 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-27 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-27 | 0 |
@@ -26,7 +32,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Goldman Sachs | custom | ✅ OK | 2026-11-27 | 0 |
 | Google | custom | ✅ OK | 2026-11-27 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-27 | 0 |
-| Intel | workday | ✅ OK | 2026-11-27 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-27 | 0 |
 | Marvell | workday | ✅ OK | 2026-11-27 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-27 | 0 |
@@ -49,7 +54,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Twilio | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-27 | 0 |
 | Visa | workday | ✅ OK | 2026-11-27 | 0 |
-| Wells Fargo | workday | ✅ OK | 2026-11-27 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-27 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-27 | 0 |
@@ -100,7 +104,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | HP | workday | ✅ OK | 2026-11-27 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-27 | 0 |
-| Invesco | workday | ✅ OK | 2026-11-27 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-27 | 0 |
 | JFrog | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Johnson Controls | workday | ✅ OK | 2026-11-27 | 7 |
@@ -133,8 +136,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Pure Storage | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-27 | 0 |
-| Rockwell Automation | workday | ✅ OK | 2026-11-27 | 0 |
-| S&P Global | workday | ✅ OK | 2026-11-27 | 1 |
+| S&P Global | workday | ✅ OK | 2026-11-27 | 0 |
 | Sabre | workday | ✅ OK | 2026-11-27 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-27 | 1 |
@@ -142,7 +144,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Shell | workday | ✅ OK | 2026-11-27 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-27 | 0 |
-| Sprinklr | workday | ✅ OK | 2026-11-27 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | State Street | workday | ✅ OK | 2026-11-27 | 0 |
 | Stryker | workday | ✅ OK | 2026-11-27 | 0 |
@@ -154,7 +155,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Thomson Reuters | workday | ✅ OK | 2026-11-27 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | TransUnion | workday | ✅ OK | 2026-11-27 | 0 |
-| Trimble | workday | ✅ OK | 2026-11-27 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Unisys | workday | ✅ OK | 2026-11-27 | 0 |
 | US Bank | workday | ✅ OK | 2026-11-27 | 0 |
