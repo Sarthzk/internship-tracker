@@ -2,10 +2,17 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**182 closed** · Last updated: 2026-11-28 (IST)
+**189 closed** · Last updated: 2026-11-28 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern | Bangalore-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286181) | 2026-11-26 | 2026-11-28 |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern | Bangalore-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bangalore-Karnataka-India/IT-Intern_WD30286182) | 2026-11-26 | 2026-11-28 |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286317) | 2026-11-26 | 2026-11-28 |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286318-1) | 2026-11-26 | 2026-11-28 |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286319) | 2026-11-26 | 2026-11-28 |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286320) | 2026-11-26 | 2026-11-28 |
+| Johnson Controls<br><sub>Industrial</sub> | IT Intern<br><sub>🎓 Bachelor's degree in engineering, Information Systems, or e…</sub> | Bengaluru-Karnataka-India | — | — | — | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286321) | 2026-11-26 | 2026-11-28 |
 | Philips<br><sub>Industrial</sub> | Apprentice Trainee (Software Developer Level 1) | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Apprentice-Trainee--Software-Developer-Level-1-_580297) | 2026-11-27 | 2026-11-27 |
 | Caterpillar<br><sub>Industrial</sub> | Students & Graduates Intern | Chennai, Tamil Nadu; Bangalore, Karnataka; Thiruvallur, Tamil Nadu | — | — | — | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270) | 2026-11-27 | 2026-11-27 |
 | Sarvam AI<br><sub>AI</sub> | Product User Research, Intern | Bengaluru | 6 months | — | 6 mo | [Apply](https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72) | 2026-11-20 | 2026-11-27 |

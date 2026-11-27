@@ -103,7 +103,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Invesco | workday | ✅ OK | 2026-11-27 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-27 | 0 |
 | JFrog | greenhouse | ✅ OK | 2026-11-27 | 0 |
-| Johnson Controls | workday | ✅ OK | 2026-11-27 | 7 |
+| Johnson Controls | workday | ✅ OK | 2026-11-27 | 0 |
 | Jump Trading | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Juspay | custom | ✅ OK | 2026-11-27 | 6 |
 | Kong | ashby | ✅ OK | 2026-11-27 | 0 |
