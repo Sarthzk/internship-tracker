@@ -2,13 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 159 OK · 0 failing · 3 blocked by site protection · 12 not tracked · Last updated: 2026-11-27 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-27 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Invesco | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
-| Rockwell Automation | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
-| Trimble | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-27 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-27 | 1 |
@@ -103,6 +100,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | HP | workday | ✅ OK | 2026-11-27 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | InMobi | greenhouse | ✅ OK | 2026-11-27 | 0 |
+| Invesco | workday | ✅ OK | 2026-11-27 | 0 |
 | Ixigo | smartrecruiters | ✅ OK | 2026-11-27 | 0 |
 | JFrog | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Johnson Controls | workday | ✅ OK | 2026-11-27 | 7 |
@@ -135,6 +133,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Pure Storage | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Razorpay | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Roblox | greenhouse | ✅ OK | 2026-11-27 | 0 |
+| Rockwell Automation | workday | ✅ OK | 2026-11-27 | 0 |
 | S&P Global | workday | ✅ OK | 2026-11-27 | 0 |
 | Sabre | workday | ✅ OK | 2026-11-27 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-27 | 0 |
@@ -155,6 +154,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Thomson Reuters | workday | ✅ OK | 2026-11-27 | 0 |
 | Toast | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | TransUnion | workday | ✅ OK | 2026-11-27 | 0 |
+| Trimble | workday | ✅ OK | 2026-11-27 | 0 |
 | Turing | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Unisys | workday | ✅ OK | 2026-11-27 | 0 |
 | US Bank | workday | ✅ OK | 2026-11-27 | 0 |
