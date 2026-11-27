@@ -4327,7 +4327,7 @@
   },
   {
     "category": "hardware",
-    "closed_at": null,
+    "closed_at": "2026-11-27T04:20:43.823124Z",
     "company": "Cisco",
     "company_slug": "cisco",
     "date_posted": "2026-11-24",
@@ -4351,10 +4351,10 @@
       "Bangalore, India",
       "Pune, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "ASIC Engineer - Spring Internship hiring.",
     "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/ASIC-Engineer---Spring-Internship-hiring_2032859-1"
   },
