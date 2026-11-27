@@ -4557,6 +4557,36 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "Deutsche Bank",
+    "company_slug": "deutsche-bank",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Bachelor’s degree or equivalent qualification",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-27T10:23:44.269784Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0456805",
+    "first_seen": "2026-11-27T10:20:46.427458Z",
+    "id": "workday:deutsche-bank:R0456805",
+    "is_remote": false,
+    "last_seen": "2026-11-27",
+    "locations": [
+      "Pune - Business Bay"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "BITs Interns Jan - June 2027",
+    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/BITs-Interns-Jan---June-2027_R0456805"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-16T21:31:02.038137Z",
     "company": "GE HealthCare",
     "company_slug": "ge-healthcare",

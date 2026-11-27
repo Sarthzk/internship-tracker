@@ -22,7 +22,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Cisco | workday | ✅ OK | 2026-11-27 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-27 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-27 | 0 |
-| Deutsche Bank | workday | ✅ OK | 2026-11-27 | 0 |
+| Deutsche Bank | workday | ✅ OK | 2026-11-27 | 1 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-27 | 0 |
 | Google | custom | ✅ OK | 2026-11-27 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-27 | 0 |
