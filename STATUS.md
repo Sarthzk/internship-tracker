@@ -6,7 +6,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Qualcomm | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from qualcomm.eightfold.ai | 2026-11-27 | 1 |
+| Microsoft | eightfold | ⚠️ failing for 1 run: FetchError: HTTP 429 from microsoft.eightfold.ai | 2026-11-27 | 3 |
 | Adobe | phenom | ✅ OK | 2026-11-27 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-27 | 1 |
@@ -32,12 +32,12 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Marvell | workday | ✅ OK | 2026-11-27 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-27 | 0 |
 | Micron | workday | ✅ OK | 2026-11-27 | 0 |
-| Microsoft | eightfold | ✅ OK | 2026-11-27 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-27 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-27 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-27 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-27 | 0 |
 | Quadeye | custom | ✅ OK | 2026-11-27 | 0 |
+| Qualcomm | eightfold | ✅ OK | 2026-11-27 | 1 |
 | Rippling | custom | ✅ OK | 2026-11-27 | 0 |
 | Rubrik | greenhouse | ✅ OK | 2026-11-27 | 4 |
 | Salesforce | workday | ✅ OK | 2026-11-27 | 0 |
