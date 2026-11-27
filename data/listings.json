@@ -2361,7 +2361,7 @@
   },
   {
     "category": "hardware",
-    "closed_at": null,
+    "closed_at": "2026-11-27T05:50:52.615147Z",
     "company": "Analog Devices",
     "company_slug": "analog-devices",
     "date_posted": null,
@@ -2382,10 +2382,10 @@
     "locations": [
       "India, Bangalore, Nova"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Analog Design Intern",
     "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267604"
   },
@@ -6066,7 +6066,7 @@
   },
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-27T05:50:52.615147Z",
     "company": "Micron",
     "company_slug": "micron",
     "date_posted": "2026-11-23",
@@ -6088,10 +6088,10 @@
       "Hyderabad - Phoenix Aquila, India",
       "Bengaluru, India"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "workday",
-    "status": "open",
+    "status": "closed",
     "title": "Intern",
     "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Intern_JR108596"
   },

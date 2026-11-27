@@ -2,24 +2,21 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 155 OK · 0 failing · 7 blocked by site protection · 12 not tracked · Last updated: 2026-11-27 (IST)
+**162 companies tracked** · 159 OK · 0 failing · 3 blocked by site protection · 12 not tracked · Last updated: 2026-11-27 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Applied Materials | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
-| Intel | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
-| Wells Fargo | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
 | Invesco | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
 | Rockwell Automation | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
-| Sprinklr | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
 | Trimble | workday | 🛡️ blocked by the site's bot protection, will retry | 2026-11-27 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-27 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-27 | 1 |
 | AMD | custom | ✅ OK | 2026-11-27 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-27 | 0 |
-| Analog Devices | workday | ✅ OK | 2026-11-27 | 1 |
+| Analog Devices | workday | ✅ OK | 2026-11-27 | 0 |
 | Apple | custom | ✅ OK | 2026-11-27 | 0 |
+| Applied Materials | workday | ✅ OK | 2026-11-27 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-27 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-27 | 0 |
 | BlackRock | workday | ✅ OK | 2026-11-27 | 0 |
@@ -32,10 +29,11 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Goldman Sachs | custom | ✅ OK | 2026-11-27 | 0 |
 | Google | custom | ✅ OK | 2026-11-27 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-27 | 0 |
+| Intel | workday | ✅ OK | 2026-11-27 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-27 | 0 |
 | Marvell | workday | ✅ OK | 2026-11-27 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-27 | 0 |
-| Micron | workday | ✅ OK | 2026-11-27 | 1 |
+| Micron | workday | ✅ OK | 2026-11-27 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-27 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-27 | 0 |
 | Nvidia | workday | ✅ OK | 2026-11-27 | 1 |
@@ -54,6 +52,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Twilio | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-27 | 0 |
 | Visa | workday | ✅ OK | 2026-11-27 | 0 |
+| Wells Fargo | workday | ✅ OK | 2026-11-27 | 0 |
 | Abbott | workday | ✅ OK | 2026-11-27 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-27 | 0 |
@@ -144,6 +143,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Shell | workday | ✅ OK | 2026-11-27 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-27 | 0 |
+| Sprinklr | workday | ✅ OK | 2026-11-27 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | State Street | workday | ✅ OK | 2026-11-27 | 0 |
 | Stryker | workday | ✅ OK | 2026-11-27 | 0 |
