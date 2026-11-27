@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**180 closed** · Last updated: 2026-11-27 (IST)
+**181 closed** · Last updated: 2026-11-27 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Philips<br><sub>Industrial</sub> | Software Intern | Chennai (ex Madras) | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Software-Intern_596114) | 2026-11-26 | 2026-11-27 |
 | Analog Devices<br><sub>Semiconductor</sub> | Analog Design Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267604) | 2026-11-26 | 2026-11-27 |
 | Micron<br><sub>Semiconductor</sub> | Intern | Hyderabad - Phoenix Aquila, India; Bengaluru, India | — | — | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Intern_JR108596) | 2026-11-23 | 2026-11-27 |
 | S&P Global<br><sub>Finance</sub> | Apprentice, Visible Alpha Client Support<br><sub>🎓 Bachelor’s degree in Business, Finance, Economics, or Accou…</sub> | Mumbai, Maharastra | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mumbai-Maharastra/Apprentice--Visible-Alpha-Client-Support_332797-1) | 2026-11-17 | 2026-11-27 |
