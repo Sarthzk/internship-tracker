@@ -2569,10 +2569,10 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-19T06:50:42.671242Z",
+    "closed_at": null,
     "company": "Caterpillar",
     "company_slug": "caterpillar",
-    "date_posted": "2026-11-19",
+    "date_posted": "2026-11-27",
     "enrichment": {
       "degree": null,
       "duration_months": null,
@@ -2586,7 +2586,7 @@
     "first_seen": "2026-11-09T04:50:40.089129Z",
     "id": "workday:caterpillar:R0000400270",
     "is_remote": false,
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-27",
     "locations": [
       "Chennai, Tamil Nadu",
       "Bangalore, Karnataka",
@@ -2594,10 +2594,10 @@
       "Bangalore, Karnataka",
       "Thiruvallur, Tamil Nadu"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Students & Graduates Intern",
     "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Chennai-Tamil-Nadu/Students---Graduates-Intern_R0000400270"
   },
