@@ -237,7 +237,25 @@ class HealthRecord(_Model):
     failure_alerted: bool = False
 
 
+class _UniqueKeyLoader(yaml.SafeLoader):
+    """SafeLoader that refuses a repeated key. Plain YAML keeps the last one and drops the
+    others without a word, which once hid a company's current note behind a stale one."""
+
+    def construct_mapping(self, node: yaml.MappingNode, deep: bool = False) -> dict:
+        seen = set()
+        for key_node, _ in node.value:
+            if key_node.tag == "tag:yaml.org,2002:merge":  # `<<: *anchor`, not a real key
+                continue
+            key = self.construct_object(key_node, deep=deep)
+            if key in seen:
+                raise yaml.constructor.ConstructorError(
+                    None, None, f"duplicate key {key!r}", key_node.start_mark
+                )
+            seen.add(key)
+        return super().construct_mapping(node, deep)
+
+
 def load_companies(path: Path) -> list[Company]:
     """Load and validate data/companies.yaml (a mapping with a `companies` list)."""
-    raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    raw = yaml.load(path.read_text(encoding="utf-8"), Loader=_UniqueKeyLoader) or {}
     return [Company.model_validate(entry) for entry in raw.get("companies") or []]

@@ -69,7 +69,9 @@ FETCH_TIMEOUT = 120.0  # seconds one company may take, including paging and retr
 # At most this many companies of a platform are fetched at once. The wait for a free slot does not
 # count against FETCH_TIMEOUT, so a long queue never makes the companies at its back time out.
 # Workday: its servers answer HTTP 429 to bursts (see tracker.http.PACED_SUFFIXES).
-PLATFORM_CONCURRENCY = {AtsType.workday: 3}
+# Eightfold: all its companies already share one request queue (tracker.http.SHARED_HOST_SUFFIXES),
+# so one at a time costs no time, and a company waiting in that queue no longer runs its timeout.
+PLATFORM_CONCURRENCY = {AtsType.workday: 3, AtsType.eightfold: 1}
 
 
 @dataclass
@@ -121,8 +123,16 @@ async def fetch_company(
         return FetchOutcome(company, error=f"{type(exc).__name__}: {exc}"[:300])
 
 
-def build_listings(company: Company, postings: list[RawPosting], now: datetime) -> list[Listing]:
-    """Filter to India tech internships and turn them into (not yet merged) Listings."""
+def build_listings(
+    company: Company,
+    postings: list[RawPosting],
+    now: datetime,
+    malformed: set[str] | None = None,
+) -> list[Listing]:
+    """Filter to India tech internships and turn them into (not yet merged) Listings.
+
+    The ids of postings dropped as malformed are added to `malformed` (if given): they are still
+    on the site, so the merge must not count them as gone."""
     listings: dict[str, Listing] = {}
     excluded = [re.compile(pattern, re.IGNORECASE) for pattern in company.exclude_titles]
     for posting in postings:
@@ -137,6 +147,8 @@ def build_listings(company: Company, postings: list[RawPosting], now: datetime) 
             len(text) > MAX_TEXT or URL_IN_TEXT.search(text) for text in texts
         ):
             log.warning("%s: dropped a malformed posting (%s)", company.slug, posting.external_id)
+            if malformed is not None:
+                malformed.add(Listing.make_id(posting.source, company.slug, posting.external_id))
             continue
         listing_id = Listing.make_id(posting.source, company.slug, posting.external_id)
         listings[listing_id] = Listing(
@@ -183,6 +195,7 @@ async def run(
     succeeded: dict[str, bool] = {}
     first_fetch: set[str] = set()  # companies fetched successfully for the very first time
     inline: dict[str, str] = {}  # descriptions that came with the job list (in memory only)
+    malformed: set[str] = set()  # on the site, but dropped as malformed: not "missing"
 
     for outcome in outcomes:
         slug = outcome.company.slug
@@ -194,7 +207,7 @@ async def run(
         if ok and (previous is None or previous.last_success is None):
             first_fetch.add(slug)
         if ok and outcome.postings is not None:
-            fetched[slug] = build_listings(outcome.company, outcome.postings, now)
+            fetched[slug] = build_listings(outcome.company, outcome.postings, now, malformed)
             for posting in outcome.postings:
                 if posting.description:
                     inline[Listing.make_id(posting.source, slug, posting.external_id)] = (
@@ -205,7 +218,7 @@ async def run(
             summary.failed[slug] = record.last_error or "unknown error"
             log.warning("%s: fetch failed: %s", slug, record.last_error)
 
-    summary.merge = merge(existing, fetched, succeeded, now)
+    summary.merge = merge(existing, fetched, succeeded, now, unchanged=malformed)
     summary.merge.listings = prune_closed(summary.merge.listings, now)
     errors, _ = check_listings(summary.merge.listings, {c.slug for c in companies})
     if errors:  # before anything is sent or saved

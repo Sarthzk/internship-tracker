@@ -91,6 +91,23 @@ async def test_unexpected_link_is_held_from_channel_and_readme_and_owner_told_on
     assert "Software Engineer Intern" in text and "acme-careers.example" not in text
 
 
+async def test_a_posting_that_turns_malformed_is_not_closed_as_missing(tmp_path):
+    old_health(tmp_path)
+    good = gh((1, "Software Engineer Intern", "https://job-boards.greenhouse.io/acme/jobs/1"))
+    bad = gh(
+        (1, "Software Engineer Intern " + "x" * 400, "https://job-boards.greenhouse.io/acme/jobs/1")
+    )
+    with respx.mock:
+        respx.get(LV).respond(200, json=[])
+        respx.get(GH).respond(200, json=good)
+        await go(tmp_path, now=T0)
+        respx.get(GH).respond(200, json=bad)  # same job, title now over the length limit
+        for n in range(1, 6):  # more than CLOSE_AFTER_MISSES runs
+            await go(tmp_path, now=T0 + timedelta(minutes=10 * n))
+    [only] = load_listings(tmp_path / "listings.json")
+    assert only.status == "open" and only.missed_runs == 0
+
+
 # --- floods and the kill switch ---
 
 

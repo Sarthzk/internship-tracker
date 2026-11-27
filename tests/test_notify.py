@@ -114,6 +114,29 @@ async def test_deliver_stops_at_first_failure():
     assert sender.sent == ["a"]
 
 
+async def test_deliver_skips_a_message_telegram_refuses_and_keeps_going():
+    class Refusing(FakeSender):
+        async def send(self, text: str) -> bool | None:
+            return None if text == "bad" else await super().send(text)
+
+    sender = Refusing()
+    alerts = [Alert("a", ["1"]), Alert("bad", ["2"]), Alert("c", ["3"])]
+    assert await deliver(sender, alerts, pause=0) == {"1", "3"}  # "2" stays un-notified
+    assert sender.sent == ["a", "c"]
+
+
+async def test_deliver_stops_when_telegram_refuses_message_after_message():
+    class RefuseAll(FakeSender):
+        async def send(self, text: str) -> bool | None:
+            self.sent.append(text)
+            return None
+
+    sender = RefuseAll()
+    alerts = [Alert(str(n), [str(n)]) for n in range(10)]
+    assert await deliver(sender, alerts, pause=0) == set()
+    assert len(sender.sent) == 3  # not ten calls every run when the chat id is wrong
+
+
 # --- health alerts ---
 
 NAMES = {"acme": "Acme"}
@@ -180,6 +203,18 @@ async def test_telegram_not_ok_body_counts_as_failure():
         respx.post(SEND_URL).respond(200, text="not json")
         async with make_client(delay=0, backoff=0) as client:
             assert await Telegram(client, TOKEN, CHAT).send("x") is False
+
+
+async def test_telegram_400_is_this_message_refused_other_errors_stop_the_queue():
+    with respx.mock:
+        respx.post(SEND_URL).respond(400, json={"ok": False, "description": "Bad Request"})
+        async with make_client(delay=0, backoff=0) as client:
+            assert await Telegram(client, TOKEN, CHAT).send("x") is None
+    for status in (401, 403, 500):
+        with respx.mock:
+            respx.post(SEND_URL).respond(status, json={"ok": False})
+            async with make_client(delay=0, backoff=0) as client:
+                assert await Telegram(client, TOKEN, CHAT).send("x") is False
 
 
 async def test_telegram_http_error_and_network_error_are_failures():

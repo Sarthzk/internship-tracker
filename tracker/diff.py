@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Collection
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 
@@ -38,11 +39,14 @@ def merge(
     now: datetime,
     *,
     close_after: int = CLOSE_AFTER_MISSES,
+    unchanged: Collection[str] = (),
 ) -> MergeResult:
     """`fetched_by_company` holds freshly built listings (already filtered) per company slug.
 
     Companies missing from `succeeded_by_company` were not fetched this run and are left alone.
     Companies whose fetch failed keep their listings untouched; their fetched list is ignored.
+    Listings in `unchanged` are on the site right now but could not be rebuilt (a malformed
+    title, say): they are left exactly as they are, not counted as missing.
     """
     today = now.date()
     by_id = {listing.id: listing.model_copy(deep=True) for listing in existing}
@@ -75,7 +79,7 @@ def merge(
             current.closed_at = None
 
         for listing in by_id.values():
-            if listing.company_slug != slug or listing.id in seen:
+            if listing.company_slug != slug or listing.id in seen or listing.id in unchanged:
                 continue
             if listing.status != Status.open:
                 continue

@@ -23,13 +23,17 @@ from tracker.readme import IST
 log = logging.getLogger(__name__)
 
 TELEGRAM_API = "https://api.telegram.org"
+MAX_REFUSED_IN_A_ROW = 3  # this many refusals in a row mean the problem is not one message
 COMBINE_AT = 5  # this many new listings at once -> a few combined messages instead of many
 MAX_CHARS = 3500  # Telegram allows 4096 characters per message
 FAILURE_ALERT_AFTER = 3  # consecutive failures before the owner is told
 
 
 class Sender(Protocol):
-    async def send(self, text: str) -> bool: ...
+    async def send(self, text: str) -> bool | None:
+        """True: sent. False: not sent, try again later (stop sending for now). None: Telegram
+        refused this one message (HTTP 400); a different message may still go through."""
+        ...
 
 
 class Telegram:
@@ -66,7 +70,7 @@ class Telegram:
             return None
         return cls(client, token, channel) if token and channel else None
 
-    async def send(self, text: str) -> bool:
+    async def send(self, text: str) -> bool | None:
         body = {
             "chat_id": self._chat_id,
             "text": text,
@@ -83,9 +87,10 @@ class Telegram:
             ok = response.status_code == 200 and response.json().get("ok") is True
         except ValueError:
             ok = False
-        if not ok:
-            log.warning("Telegram rejected the message: HTTP %d", response.status_code)
-        return ok
+        if ok:
+            return True
+        log.warning("Telegram rejected the message: HTTP %d", response.status_code)
+        return None if response.status_code == 400 else False
 
 
 @dataclass
@@ -162,14 +167,26 @@ async def deliver(sender: Sender, alerts: list[Alert], pause: float = 2.0) -> se
     """Send alerts in order; returns the listing ids delivered.
 
     Stops at the first failure so a down or rate-limited service isn't hammered; the remaining
-    listings stay un-notified and are retried on the next run.
+    listings stay un-notified and are retried on the next run. A message Telegram refuses on its
+    own (HTTP 400) is skipped, so one bad alert cannot block every alert behind it; it stays
+    un-notified too, and is tried again next run. After MAX_REFUSED_IN_A_ROW refusals in a row
+    it stops, as a wrong chat id would refuse every message.
     """
     delivered: set[str] = set()
+    refused = 0
     for n, alert in enumerate(alerts):
         if n and pause:
             await asyncio.sleep(pause)
-        if not await sender.send(alert.text):
+        result = await sender.send(alert.text)
+        if result is None:
+            refused += 1
+            log.warning("skipped an alert Telegram refused (%d listing(s))", len(alert.ids))
+            if refused >= MAX_REFUSED_IN_A_ROW:  # a wrong chat id refuses everything: stop early
+                break
+            continue
+        if not result:
             break
+        refused = 0
         delivered.update(alert.ids)
     return delivered
 

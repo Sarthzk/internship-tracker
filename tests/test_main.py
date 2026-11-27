@@ -385,3 +385,11 @@ def test_workday_is_gated():
 
     assert main.PLATFORM_CONCURRENCY[AtsType.workday] >= 1
     assert AtsType.workday in main.make_gates()
+
+
+def test_eightfold_companies_wait_for_a_slot_instead_of_running_their_timeout_in_the_queue():
+    from tracker import main
+    from tracker.models import AtsType
+
+    assert main.PLATFORM_CONCURRENCY[AtsType.eightfold] == 1
+    assert AtsType.eightfold in main.make_gates()

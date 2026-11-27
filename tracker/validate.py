@@ -6,6 +6,7 @@ from collections import Counter
 from collections.abc import Collection, Iterable
 from pathlib import Path
 
+import yaml
 from pydantic import ValidationError
 
 from tracker.models import HealthRecord, Listing, load_companies
@@ -56,7 +57,7 @@ def check_files(data_dir: Path) -> tuple[list[str], list[str]]:
     warnings: list[str] = []
     try:
         companies = load_companies(data_dir / "companies.yaml")
-    except (ValidationError, ValueError, OSError) as exc:
+    except (ValidationError, ValueError, OSError, yaml.YAMLError) as exc:
         return [f"companies.yaml: {type(exc).__name__}: {str(exc)[:200]}"], []
     slugs = {c.slug for c in companies}
     if len(slugs) != len(companies):

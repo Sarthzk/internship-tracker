@@ -49,6 +49,24 @@ def test_good_data_passes(tmp_path):
     assert check_files(tmp_path) == ([], [])
 
 
+def test_a_repeated_key_in_companies_yaml_is_reported_not_a_traceback(tmp_path):
+    write_good_data(tmp_path)
+    path = tmp_path / "companies.yaml"
+    path.write_text(
+        "companies:\n"
+        "  - name: Acme\n"
+        "    slug: acme\n"
+        "    tier: 1\n"
+        "    ats: greenhouse\n"
+        "    ats_config: {board_token: acme}\n"
+        "    notes: a\n"
+        "    notes: b\n",
+        encoding="utf-8",
+    )
+    errors, _ = check_files(tmp_path)
+    assert len(errors) == 1 and "duplicate key 'notes'" in errors[0]
+
+
 def test_listing_problems_are_errors_or_warnings():
     errors, warnings = check_listings(
         [
