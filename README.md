@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**64 open internships** across 23 companies · Last updated: 2026-11-27 (IST)
+**65 open internships** across 24 companies · Last updated: 2026-11-27 (IST)
 
 ### Software Engineering (27)
 
@@ -99,7 +99,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 11d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 22d |
 
-### Other (19)
+### Other (20)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -107,6 +107,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Deutsche Bank<br><sub>Bank</sub> | BITS Interns Jan - June 2027<br><sub>🎓 bachelor degree</sub> | Pune - Business Bay | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/BITS-Interns-Jan---June-2027_R0455693) | 0d |
 | Deutsche Bank<br><sub>Bank</sub> | BITs Interns Jan - June 2027<br><sub>🎓 Bachelor’s degree or equivalent qualification</sub> | Pune - Business Bay | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/BITs-Interns-Jan---June-2027_R0456805) | 0d |
 | Deutsche Bank<br><sub>Bank</sub> | BITs Interns Jan -June 2027 | Pune - Business Bay | 2027 | — | — | [Apply](https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/BITs-Interns-Jan--June-2027_R0456670) | 0d |
+| S&P Global<br><sub>Finance</sub> | Apprentice, Capital Markets Client Support<br><sub>🎓 Graduate</sub> | Ahmedabad, Gujarat | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Capital-Markets-Client-Support_333054-1) | 0d |
 | Airbus<br><sub>Industrial</sub> | Internship - Flight Physics<br><sub>🎓 Bachelors & Masters in aerospace engineering</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Flight-Physics_JR10449608) | 1d |
 | Airbus<br><sub>Industrial</sub> | System Design, modelling and Analysis : Internship | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/System-Design--modelling-and-Analysis---Internship_JR10447974) | 1d |
 | GE Vernova<br><sub>Industrial</sub> | Intern | Hyderabad | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Intern_R5058608-1) | 1d |

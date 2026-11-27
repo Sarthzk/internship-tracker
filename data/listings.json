@@ -6824,6 +6824,36 @@
   },
   {
     "category": "other",
+    "closed_at": null,
+    "company": "S&P Global",
+    "company_slug": "sp-global",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "Graduate",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-27T13:43:47.141732Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "333054-1",
+    "first_seen": "2026-11-27T13:40:47.339292Z",
+    "id": "workday:sp-global:333054-1",
+    "is_remote": false,
+    "last_seen": "2026-11-27",
+    "locations": [
+      "Ahmedabad, Gujarat"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "Apprentice, Capital Markets Client Support",
+    "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Ahmedabad-Gujarat/Apprentice--Capital-Markets-Client-Support_333054-1"
+  },
+  {
+    "category": "other",
     "closed_at": "2026-11-20T11:31:04.882105Z",
     "company": "Stryker",
     "company_slug": "stryker",
