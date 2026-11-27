@@ -1189,10 +1189,10 @@
   },
   {
     "company_slug": "state-street",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 137,
-    "last_error": null,
+    "last_error": "FetchError: invalid JSON from community.workday.com",
     "last_success": "2026-11-27",
     "zero_since": null
   },
