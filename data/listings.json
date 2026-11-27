@@ -22,7 +22,7 @@
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 0,
+    "missed_runs": 1,
     "notified": true,
     "source": "ashby",
     "status": "open",
@@ -4532,6 +4532,36 @@
     "status": "closed",
     "title": "IGTC Interns 2027",
     "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/IGTC-Interns-2027_R0452577"
+  },
+  {
+    "category": "other",
+    "closed_at": null,
+    "company": "Deutsche Bank",
+    "company_slug": "deutsche-bank",
+    "date_posted": null,
+    "enrichment": {
+      "degree": "bachelor degree",
+      "duration_months": null,
+      "eligible_batches": null,
+      "enriched_at": "2026-11-27T11:54:09.326365Z",
+      "model": "openai/gpt-oss-20b",
+      "stipend": null,
+      "term": "unknown"
+    },
+    "external_id": "R0455693",
+    "first_seen": "2026-11-27T11:50:46.225108Z",
+    "id": "workday:deutsche-bank:R0455693",
+    "is_remote": false,
+    "last_seen": "2026-11-27",
+    "locations": [
+      "Pune - Business Bay"
+    ],
+    "missed_runs": 0,
+    "notified": true,
+    "source": "workday",
+    "status": "open",
+    "title": "BITS Interns Jan - June 2027",
+    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Business-Bay/BITS-Interns-Jan---June-2027_R0455693"
   },
   {
     "category": "other",
