@@ -2,7 +2,7 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**180 closed** · Last updated: 2026-11-27 (IST)
+**179 closed** · Last updated: 2026-11-27 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
@@ -20,7 +20,6 @@ Listings that are no longer on the company's career page. [Back to the open inte
 | American Express<br><sub>Fintech</sub> | Apprentice | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016519) | 2026-11-18 | 2026-11-26 |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Commerce, Finance, Accounting, Business, Economics or a rel…</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016522) | 2026-11-18 | 2026-11-26 |
 | Analog Devices<br><sub>Semiconductor</sub> | Product Application Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Product-Application-Intern_R269139) | 2026-11-26 | 2026-11-26 |
-| American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Bachelor’s degree</sub> | Gurugram, HR, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016056) | 2026-11-24 | 2026-11-26 |
 | American Express<br><sub>Fintech</sub> | Apprentice<br><sub>🎓 Commerce/Business Administration</sub> | Bengaluru, KA, India | — | — | — | [Apply](https://careers.americanexpress.com/en/sites/CX_1/job/26016754) | 2026-11-18 | 2026-11-26 |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215491-3) | 2026-11-18 | 2026-11-26 |
 | Google<br><sub>Big Tech</sub> | Forward Deployed Engineer Intern, 2027 | Bengaluru, Karnataka, India | 2027 | — | — | [Apply](https://www.google.com/about/careers/applications/jobs/results/96299220855595718) | 2026-11-16 | 2026-11-25 |
