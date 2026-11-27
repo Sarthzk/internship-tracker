@@ -27,13 +27,12 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**65 open internships** across 24 companies · Last updated: 2026-11-27 (IST)
+**64 open internships** across 23 companies · Last updated: 2026-11-27 (IST)
 
-### Software Engineering (28)
+### Software Engineering (27)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
-| Philips<br><sub>Industrial</sub> | Apprentice Trainee (Software Developer Level 1) | Bangalore | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Apprentice-Trainee--Software-Developer-Level-1-_580297) | 0d |
 | Airbus<br><sub>Industrial</sub> | Cyber Security Data Intern<br><sub>🎓 B.Tech / Mtech in Computer Science Engineering, BCA, MCA</sub> | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Cyber-Security-Data-Intern_JR10454573) | 1d |
 | Airbus<br><sub>Industrial</sub> | Internship - Digital Security | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship---Digital-Security_JR10449628) | 1d |
 | Eaton<br><sub>Industrial</sub> | Apprentice. IT. Development Program<br><sub>🎓 Bachelor’s degree in engineering, IT, or related field</sub> | Pune, Maharashtra, IND, 411014 | — | — | — | [Apply](https://eaton.eightfold.ai/careers/job/687240496341) | 1d |
