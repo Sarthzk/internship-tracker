@@ -101,7 +101,6 @@ companies:
     careers_url: https://careers.oracle.com/en/sites/jobsearch
     enabled: true
     notes: 'Oracle HCM; host and site guessed from known Oracle tenant, found 2026-10-28; cloud-checked 2026-10-28.'
-    notes: 'Careers URL redirects to /en/sites/jobsearch, which may be Oracle HCM. Confirm in Phase 4.'
   - name: Intuit
     slug: intuit
     tier: 1
@@ -156,7 +155,6 @@ companies:
     careers_url: https://careers.amd.com
     enabled: true
     notes: 'Custom fetcher: iCIMS Jibe /api/jobs. Found 2026-10-28; cloud-checked 2026-10-28.'
-    notes: 'Uses iCIMS (internal-amd.icims.com), which has no fetcher. Decide in Phase 4.'
   - name: Texas Instruments
     slug: texas-instruments
     tier: 1
@@ -166,7 +164,6 @@ companies:
     careers_url: https://careers.ti.com/en/sites/CX
     enabled: true
     notes: 'Oracle HCM; found 2026-10-28; cloud-checked 2026-10-28.'
-    notes: 'Careers URL redirects to /en/sites/CX, which looks like Oracle HCM. Confirm in Phase 4.'
   - name: Cisco
     slug: cisco
     tier: 1
@@ -175,8 +172,7 @@ companies:
     ats_config: {host: cisco.wd5.myworkdayjobs.com, tenant: cisco, site: Cisco_Careers}
     careers_url: https://cisco.wd5.myworkdayjobs.com/Cisco_Careers
     enabled: true
-    notes: 'Workday (careers.cisco.com front end); found 2026-10-28; cloud-checked 2026-10-28.'
-    notes: 'Phenom signal (text mention only) in fingerprint report; confirm in Phase 4.'
+    notes: 'Workday (careers.cisco.com front end); found 2026-10-28; cloud-checked 2026-10-28. The fingerprint report also mentioned Phenom (text only).'
   - name: Walmart Global Tech
     slug: walmart-global-tech
     tier: 1
@@ -384,8 +380,7 @@ companies:
     link_hosts: [search.jobs.barclays]
     careers_url: https://search.jobs.barclays
     enabled: true
-    notes: 'Custom fetcher: Radancy TalentBrew results HTML. Found 2026-10-28; cloud-checked 2026-10-28.'
-    notes: 'Added 2026-10-27; checked in the Phase 4 browser pass.'
+    notes: 'Custom fetcher: Radancy TalentBrew results HTML. Found 2026-10-28; cloud-checked 2026-10-28. Added 2026-10-27; checked in the Phase 4 browser pass.'
   - name: Flipkart
     slug: flipkart
     tier: 2

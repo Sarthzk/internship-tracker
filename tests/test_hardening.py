@@ -222,6 +222,38 @@ async def test_stale_lookup_sends_no_gap_alert_and_no_recovery(monkeypatch, data
     assert sender.sent == []
 
 
+# --- malformed postings ---
+
+
+def test_a_malformed_posting_is_dropped_but_reported_as_still_on_the_site():
+    from tracker.main import build_listings
+    from tracker.models import Company, RawPosting
+
+    def posting(n: int, title: str) -> RawPosting:
+        return RawPosting(
+            company_slug="db",
+            source="workday",
+            external_id=str(n),
+            title=title,
+            locations=["Pune, India"],
+            url=f"https://db.example/{n}",
+        )
+
+    company = Company(
+        name="Db",
+        slug="db",
+        tier=1,
+        ats="greenhouse",
+        ats_config={"board_token": "db"},
+        enabled=True,
+    )
+    postings = [posting(1, "Software Engineer Intern"), posting(2, "Intern " + "x" * 400)]
+    malformed: set[str] = set()
+    built = build_listings(company, postings, T0, malformed)
+    assert [li.external_id for li in built] == ["1"]
+    assert malformed == {"workday:db:2"}
+
+
 # --- per-company exclude_titles ---
 
 

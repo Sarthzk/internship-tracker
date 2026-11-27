@@ -99,3 +99,12 @@ def test_date_posted_kept_when_fresh_has_none():
     old = listing("1", date_posted=date(2026, 10, 1))
     result = merge([old], {"acme": [listing("1")]}, {"acme": True}, T0)
     assert result.listings[0].date_posted == date(2026, 10, 1)
+
+
+def test_a_listing_on_the_site_but_unbuildable_is_not_counted_as_missing():
+    old = listing("1", missed_runs=2)
+    result = merge([old], {"acme": []}, {"acme": True}, T0, unchanged={old.id})
+    kept = result.listings[0]
+    assert kept.status is Status.open and kept.missed_runs == 2 and result.closed_ids == []
+    # Without the hint the same run is the third miss and closes it.
+    assert merge([old], {"acme": []}, {"acme": True}, T0).closed_ids == [old.id]

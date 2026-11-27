@@ -128,3 +128,35 @@ def test_core_engineering_roles_are_not_excluded_at_industrial_companies():
             assert not any(
                 re.search(p, word, re.IGNORECASE) for p in by_slug[slug].exclude_titles
             ), slug
+
+
+def test_a_repeated_key_in_companies_yaml_is_an_error_not_silently_dropped(tmp_path):
+    import pytest
+    import yaml
+
+    path = tmp_path / "companies.yaml"
+    path.write_text(
+        "companies:\n"
+        "  - {name: Acme, slug: acme, tier: 1, ats: greenhouse, ats_config: {board_token: acme}}\n"
+        "  - name: Beta\n"
+        "    slug: beta\n"
+        "    tier: 1\n"
+        "    ats: greenhouse\n"
+        "    ats_config: {board_token: beta}\n"
+        "    notes: first\n"
+        "    notes: second\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(yaml.YAMLError, match="duplicate key 'notes'"):
+        load_companies(path)
+
+
+def test_yaml_merge_keys_still_load(tmp_path):
+    path = tmp_path / "companies.yaml"
+    path.write_text(
+        "base: &base {tier: 1, ats: greenhouse}\n"
+        "companies:\n"
+        "  - {<<: *base, name: Acme, slug: acme, ats_config: {board_token: acme}}\n",
+        encoding="utf-8",
+    )
+    assert [c.slug for c in load_companies(path)] == ["acme"]
