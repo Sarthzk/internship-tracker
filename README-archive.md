@@ -2,10 +2,11 @@
 
 Listings that are no longer on the company's career page. [Back to the open internships](README.md).
 
-**179 closed** · Last updated: 2026-11-27 (IST)
+**180 closed** · Last updated: 2026-11-27 (IST)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Posted | Closed |
 |---|---|---|---|---|---|---|---|---|
+| Sarvam AI<br><sub>AI</sub> | Product User Research, Intern | Bengaluru | 6 months | — | 6 mo | [Apply](https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72) | 2026-11-20 | 2026-11-27 |
 | Philips<br><sub>Industrial</sub> | Software Intern | Chennai (ex Madras) | — | — | — | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Chennai-ex-Madras/Software-Intern_596114) | 2026-11-26 | 2026-11-27 |
 | Analog Devices<br><sub>Semiconductor</sub> | Analog Design Intern | India, Bangalore, Nova | — | — | — | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267604) | 2026-11-26 | 2026-11-27 |
 | Micron<br><sub>Semiconductor</sub> | Intern | Hyderabad - Phoenix Aquila, India; Bengaluru, India | — | — | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Phoenix-Aquila-India/Intern_JR108596) | 2026-11-23 | 2026-11-27 |

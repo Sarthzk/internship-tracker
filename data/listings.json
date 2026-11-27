@@ -1,7 +1,7 @@
 [
   {
     "category": "other",
-    "closed_at": null,
+    "closed_at": "2026-11-27T12:10:47.792370Z",
     "company": "Sarvam AI",
     "company_slug": "sarvam-ai",
     "date_posted": "2026-11-20",
@@ -22,10 +22,10 @@
     "locations": [
       "Bengaluru"
     ],
-    "missed_runs": 2,
+    "missed_runs": 3,
     "notified": true,
     "source": "ashby",
-    "status": "open",
+    "status": "closed",
     "title": "Product User Research, Intern",
     "url": "https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72"
   },

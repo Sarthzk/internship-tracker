@@ -137,7 +137,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | S&P Global | workday | ✅ OK | 2026-11-27 | 0 |
 | Sabre | workday | ✅ OK | 2026-11-27 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-27 | 0 |
-| Sarvam AI | ashby | ✅ OK | 2026-11-27 | 1 |
+| Sarvam AI | ashby | ✅ OK | 2026-11-27 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-11-27 | 0 |
 | Shell | workday | ✅ OK | 2026-11-27 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-27 | 0 |
