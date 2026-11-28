@@ -676,10 +676,10 @@
   },
   {
     "company_slug": "jpmorgan-chase",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 129,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 503 from jpmc.fa.oraclecloud.com",
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -1261,10 +1261,10 @@
   },
   {
     "company_slug": "texas-instruments",
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "failure_alerted": false,
     "last_count": 65,
-    "last_error": null,
+    "last_error": "FetchError: HTTP 503 from edbz.fa.us2.oraclecloud.com",
     "last_success": "2026-11-28",
     "zero_since": null
   },
