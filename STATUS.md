@@ -2,12 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 160 OK · 2 failing · 12 not tracked · Last updated: 2026-11-28 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-28 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| JPMorgan Chase | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 503 from jpmc.fa.oraclecloud.com | 2026-11-28 | 0 |
-| Texas Instruments | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 503 from edbz.fa.us2.oraclecloud.com | 2026-11-28 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-28 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-28 | 1 |
@@ -29,6 +27,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Google | custom | ✅ OK | 2026-11-28 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Intel | workday | ✅ OK | 2026-11-28 | 0 |
+| JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-28 | 0 |
 | Marvell | workday | ✅ OK | 2026-11-28 | 5 |
 | Mastercard | workday | ✅ OK | 2026-11-28 | 0 |
 | Micron | workday | ✅ OK | 2026-11-28 | 0 |
@@ -45,6 +44,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | ServiceNow | smartrecruiters | ✅ OK | 2026-11-28 | 0 |
 | Snowflake | ashby | ✅ OK | 2026-11-28 | 0 |
 | Stripe | greenhouse | ✅ OK | 2026-11-28 | 0 |
+| Texas Instruments | oracle_hcm | ✅ OK | 2026-11-28 | 0 |
 | Tower Research Capital | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Twilio | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-28 | 0 |
