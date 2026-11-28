@@ -2,11 +2,10 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-28 (IST)
+**162 companies tracked** · 162 OK · 0 failing · 12 not tracked · Last updated: 2026-11-28 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Cummins | oracle_hcm | ⚠️ failing for 1 run: FetchError: HTTP 503 from fa-espx-saasfaprod1.fa.ocs.oraclecloud.com | 2026-11-28 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-28 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-28 | 1 |
@@ -75,6 +74,7 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Contentstack | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Coursera | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | CRED | lever | ✅ OK | 2026-11-28 | 0 |
+| Cummins | oracle_hcm | ✅ OK | 2026-11-28 | 0 |
 | Datadog | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Druva | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Duolingo | greenhouse | ✅ OK | 2026-11-28 | 0 |
