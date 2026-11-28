@@ -1,10 +1,10 @@
 [
   {
     "company_slug": "abbott",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 31,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -82,10 +82,10 @@
   },
   {
     "company_slug": "ameriprise-financial",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 20,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -244,28 +244,28 @@
   },
   {
     "company_slug": "caterpillar",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 71,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
   {
     "company_slug": "ciena",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 7,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
   {
     "company_slug": "cigna",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 84,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -442,10 +442,10 @@
   },
   {
     "company_slug": "f5",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 24,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -487,19 +487,19 @@
   },
   {
     "company_slug": "ge-healthcare",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 65,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
   {
     "company_slug": "ge-vernova",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 212,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -568,10 +568,10 @@
   },
   {
     "company_slug": "guidewire",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 27,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -604,10 +604,10 @@
   },
   {
     "company_slug": "hpe",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 188,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -811,10 +811,10 @@
   },
   {
     "company_slug": "motorola-solutions",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 13,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -865,10 +865,10 @@
   },
   {
     "company_slug": "nvidia",
-    "consecutive_failures": 12,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 74,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
@@ -1405,10 +1405,10 @@
   },
   {
     "company_slug": "workday",
-    "consecutive_failures": 6,
-    "failure_alerted": true,
+    "consecutive_failures": 0,
+    "failure_alerted": false,
     "last_count": 8,
-    "last_error": "FetchError: invalid JSON from community.workday.com",
+    "last_error": null,
     "last_success": "2026-11-28",
     "zero_since": null
   },
