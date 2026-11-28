@@ -6794,7 +6794,7 @@
   },
   {
     "category": "other",
-    "closed_at": "2026-11-20T19:01:21.707173Z",
+    "closed_at": null,
     "company": "S&P Global",
     "company_slug": "sp-global",
     "date_posted": null,
@@ -6811,14 +6811,14 @@
     "first_seen": "2026-11-17T13:01:28.310708Z",
     "id": "workday:sp-global:332888-1",
     "is_remote": false,
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-28",
     "locations": [
       "Gurugram, Haryana"
     ],
-    "missed_runs": 3,
+    "missed_runs": 0,
     "notified": true,
     "source": "workday",
-    "status": "closed",
+    "status": "open",
     "title": "Apprentice, Client Support",
     "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Gurugram-Haryana/Apprentice--Client-Support_332888-1"
   },

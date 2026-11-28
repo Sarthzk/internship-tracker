@@ -27,7 +27,7 @@ Sorted newest first. **Age** is days since the company posted it (or since we fi
 Term, Batch and Duration show "—" unless the posting states them.
 
 <!-- LISTINGS:START -->
-**58 open internships** across 23 companies · Last updated: 2026-11-28 (IST)
+**59 open internships** across 23 companies · Last updated: 2026-11-28 (IST)
 
 ### Software Engineering (20)
 
@@ -92,7 +92,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | Airbus<br><sub>Industrial</sub> | Intern - Maintenance Engineering & Services<br><sub>🎓 AME / degree level (or equivalent) in Engineering or a rela…</sub> | Bangalore Area | — | — | — | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Intern---Maintenance-Engineering---Services_JR10449517) | 12d |
 | Airbus<br><sub>Industrial</sub> | Internship- Structures | Bangalore Area | 6 months | — | 6 mo | [Apply](https://ag.wd3.myworkdayjobs.com/Airbus/job/Bangalore-Area/Internship--Structures_JR10449142) | 23d |
 
-### Other (20)
+### Other (21)
 
 | Company | Role | Location | Term | Batch | Duration | Apply | Age |
 |---|---|---|---|---|---|---|---|
@@ -111,6 +111,7 @@ Term, Batch and Duration show "—" unless the posting states them.
 | GE Vernova<br><sub>Industrial</sub> | Power Systems Intern<br><sub>🎓 Master's degree from an accredited university in Power Syst…</sub> | Hyderabad; Bengaluru | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Hyderabad/Power-Systems-Intern_R5049954-1) | 3d |
 | Paytm<br><sub>Fintech</sub> | Learning Experience Design Intern | Noida, Uttar Pradesh | — | — | — | [Apply](https://jobs.lever.co/paytm/c8886602-f1b7-4c08-b181-f4d36b2d0e80) | 4d |
 | LSEG<br><sub>Finance</sub> | Intern, Accounts Receivables<br><sub>🎓 Accounting, Finance, or a related field</sub> | Colombo, Sri Lanka; IND-Bangalore-A, RMZ Infinity | — | — | — | [Apply](https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Accounts-Receivables_R0125102) | 9d |
+| S&P Global<br><sub>Finance</sub> | Apprentice, Client Support | Gurugram, Haryana | — | — | — | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Gurugram-Haryana/Apprentice--Client-Support_332888-1) | 11d |
 | GE Vernova<br><sub>Industrial</sub> | DT Intern | Chennai | — | — | — | [Apply](https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2) | 23d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | College Intern | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/College-Intern_1211843-2) | 23d |
 | Hewlett Packard Enterprise<br><sub>Big Tech</sub> | External Intern<br><sub>🎓 College/University Graduate</sub> | Bengaluru, Karnātaka, India | — | — | — | [Apply](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215487-1) | 23d |
