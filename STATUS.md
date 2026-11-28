@@ -6,31 +6,31 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| Cisco | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Cisco | workday | ⚠️ failing for 11 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
 | Cohesity | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Nvidia | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 1 |
-| Visa | workday | ⚠️ failing for 10 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Abbott | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Ameriprise Financial | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Caterpillar | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Ciena | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Cigna | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Nvidia | workday | ⚠️ failing for 11 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 1 |
+| Visa | workday | ⚠️ failing for 11 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Abbott | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Ameriprise Financial | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Caterpillar | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Ciena | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Cigna | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
 | Equifax | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| F5 | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| GE HealthCare | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 1 |
-| GE Vernova | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 9 |
-| Guidewire | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Hewlett Packard Enterprise | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 3 |
+| F5 | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| GE HealthCare | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 1 |
+| GE Vernova | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 9 |
+| Guidewire | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 3 |
 | HP | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 1 |
 | Johnson Controls | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Motorola Solutions | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Motorola Solutions | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
 | Palo Alto Networks | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
 | S&P Global | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 1 |
 | Target | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
 | Thomson Reuters | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
 | TransUnion | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
 | Unisys | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
-| Workday | workday | ⚠️ failing for 5 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
+| Workday | workday | ⚠️ failing for 6 runs: FetchError: invalid JSON from community.workday.com | 2026-11-28 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-28 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-28 | 1 |
