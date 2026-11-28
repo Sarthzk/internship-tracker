@@ -2,39 +2,63 @@
 
 Live health of every company the tracker watches, refreshed on each run. [Back to the open internships](README.md).
 
-**162 companies tracked** · 161 OK · 1 failing · 12 not tracked · Last updated: 2026-11-28 (IST)
+**162 companies tracked** · 126 OK · 36 failing · 12 not tracked · Last updated: 2026-11-28 (IST)
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
+| Analog Devices | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Applied Materials | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| BlackRock | workday | ⚠️ failing for 1 run: FetchError: HTTP 500 from blackrock.wd1.myworkdayjobs.com | 2026-11-28 | 0 |
+| Cadence | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Cisco | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Deutsche Bank | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 3 |
+| Intel | workday | ⚠️ failing for 1 run: FetchError: HTTP 500 from intel.wd1.myworkdayjobs.com | 2026-11-28 | 0 |
+| Marvell | workday | ⚠️ failing for 1 run: FetchError: HTTP 500 from marvell.wd1.myworkdayjobs.com | 2026-11-28 | 5 |
+| Mastercard | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Micron | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Nvidia | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 1 |
+| Visa | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Wells Fargo | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Abbott | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Ameriprise Financial | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Broadcom | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| BrowserStack | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Caterpillar | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Ciena | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Cigna | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| F5 | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Fidelity Investments | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| GE HealthCare | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 1 |
+| GE Vernova | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 9 |
+| Guidewire | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Hewlett Packard Enterprise | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 3 |
 | Johnson Controls | workday | ⚠️ failing for 1 run: FetchError: HTTP 502 from jci.wd5.myworkdayjobs.com | 2026-11-28 | 0 |
+| LSEG | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 1 |
+| Motorola Solutions | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Sabre | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Shell | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Sprinklr | workday | ⚠️ failing for 1 run: FetchError: HTTP 500 from sprinklr.wd1.myworkdayjobs.com | 2026-11-28 | 0 |
+| State Street | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Stryker | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Wolters Kluwer | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
+| Workday | workday | ⚠️ failing for 1 run: FetchError: invalid JSON from static.community.workday.com | 2026-11-28 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-28 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-28 | 1 |
 | AMD | custom | ✅ OK | 2026-11-28 | 0 |
 | American Express | oracle_hcm | ✅ OK | 2026-11-28 | 1 |
-| Analog Devices | workday | ✅ OK | 2026-11-28 | 0 |
 | Apple | custom | ✅ OK | 2026-11-28 | 0 |
-| Applied Materials | workday | ✅ OK | 2026-11-28 | 0 |
 | Atlassian | custom | ✅ OK | 2026-11-28 | 0 |
 | Barclays | custom | ✅ OK | 2026-11-28 | 0 |
-| BlackRock | workday | ✅ OK | 2026-11-28 | 0 |
-| Cadence | workday | ✅ OK | 2026-11-28 | 0 |
 | Capital One | workday | ✅ OK | 2026-11-28 | 0 |
-| Cisco | workday | ✅ OK | 2026-11-28 | 0 |
 | Cohesity | workday | ✅ OK | 2026-11-28 | 0 |
 | Databricks | greenhouse | ✅ OK | 2026-11-28 | 0 |
-| Deutsche Bank | workday | ✅ OK | 2026-11-28 | 3 |
 | Goldman Sachs | custom | ✅ OK | 2026-11-28 | 0 |
 | Google | custom | ✅ OK | 2026-11-28 | 2 |
 | Graviton Research Capital | greenhouse | ✅ OK | 2026-11-28 | 0 |
-| Intel | workday | ✅ OK | 2026-11-28 | 0 |
 | JPMorgan Chase | oracle_hcm | ✅ OK | 2026-11-28 | 0 |
-| Marvell | workday | ✅ OK | 2026-11-28 | 5 |
-| Mastercard | workday | ✅ OK | 2026-11-28 | 0 |
-| Micron | workday | ✅ OK | 2026-11-28 | 0 |
 | Microsoft | eightfold | ✅ OK | 2026-11-28 | 3 |
 | Morgan Stanley | eightfold | ✅ OK | 2026-11-28 | 0 |
-| Nvidia | workday | ✅ OK | 2026-11-28 | 1 |
 | Oracle | oracle_hcm | ✅ OK | 2026-11-28 | 0 |
 | PayPal | eightfold | ✅ OK | 2026-11-28 | 0 |
 | Quadeye | custom | ✅ OK | 2026-11-28 | 0 |
@@ -49,13 +73,9 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Tower Research Capital | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Twilio | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Uber | oracle_hcm | ✅ OK | 2026-11-28 | 0 |
-| Visa | workday | ✅ OK | 2026-11-28 | 0 |
-| Wells Fargo | workday | ✅ OK | 2026-11-28 | 0 |
-| Abbott | workday | ✅ OK | 2026-11-28 | 0 |
 | Agoda | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Airbnb | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Airbus | workday | ✅ OK | 2026-11-28 | 6 |
-| Ameriprise Financial | workday | ✅ OK | 2026-11-28 | 0 |
 | Amplitude | ashby | ✅ OK | 2026-11-28 | 0 |
 | Anthropic | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Anyscale | ashby | ✅ OK | 2026-11-28 | 0 |
@@ -63,11 +83,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Atlan | ashby | ✅ OK | 2026-11-28 | 0 |
 | Baxter | workday | ✅ OK | 2026-11-28 | 0 |
 | Bosch | smartrecruiters | ✅ OK | 2026-11-28 | 0 |
-| Broadcom | workday | ✅ OK | 2026-11-28 | 0 |
-| BrowserStack | workday | ✅ OK | 2026-11-28 | 0 |
-| Caterpillar | workday | ✅ OK | 2026-11-28 | 0 |
-| Ciena | workday | ✅ OK | 2026-11-28 | 0 |
-| Cigna | workday | ✅ OK | 2026-11-28 | 0 |
 | Citi | eightfold | ✅ OK | 2026-11-28 | 0 |
 | Cockroach Labs | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Coinbase | greenhouse | ✅ OK | 2026-11-28 | 0 |
@@ -83,20 +98,14 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Elastic | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Equifax | workday | ✅ OK | 2026-11-28 | 0 |
 | Ericsson | eightfold | ✅ OK | 2026-11-28 | 0 |
-| F5 | workday | ✅ OK | 2026-11-28 | 0 |
-| Fidelity Investments | workday | ✅ OK | 2026-11-28 | 0 |
 | Figma | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Fivetran | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Freshworks | smartrecruiters | ✅ OK | 2026-11-28 | 0 |
-| GE HealthCare | workday | ✅ OK | 2026-11-28 | 1 |
-| GE Vernova | workday | ✅ OK | 2026-11-28 | 9 |
 | GitLab | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Glance | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Grafana Labs | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Groww | greenhouse | ✅ OK | 2026-11-28 | 0 |
-| Guidewire | workday | ✅ OK | 2026-11-28 | 0 |
 | Hevo Data | lever | ✅ OK | 2026-11-28 | 1 |
-| Hewlett Packard Enterprise | workday | ✅ OK | 2026-11-28 | 3 |
 | HighRadius | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | HP | workday | ✅ OK | 2026-11-28 | 1 |
 | IMC Trading | greenhouse | ✅ OK | 2026-11-28 | 0 |
@@ -108,12 +117,10 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Juspay | custom | ✅ OK | 2026-11-28 | 6 |
 | Kong | ashby | ✅ OK | 2026-11-28 | 0 |
 | LaunchDarkly | greenhouse | ✅ OK | 2026-11-28 | 0 |
-| LSEG | workday | ✅ OK | 2026-11-28 | 1 |
 | Meesho | lever | ✅ OK | 2026-11-28 | 0 |
 | Mindtickle | lever | ✅ OK | 2026-11-28 | 0 |
 | Mixpanel | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | MongoDB | greenhouse | ✅ OK | 2026-11-28 | 0 |
-| Motorola Solutions | workday | ✅ OK | 2026-11-28 | 0 |
 | Navan | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | New Relic | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Nokia | oracle_hcm | ✅ OK | 2026-11-28 | 0 |
@@ -135,17 +142,12 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | Roblox | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Rockwell Automation | workday | ✅ OK | 2026-11-28 | 0 |
 | S&P Global | workday | ✅ OK | 2026-11-28 | 1 |
-| Sabre | workday | ✅ OK | 2026-11-28 | 0 |
 | Samsara | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Sarvam AI | ashby | ✅ OK | 2026-11-28 | 0 |
 | Scale AI | greenhouse | ✅ OK | 2026-11-28 | 0 |
-| Shell | workday | ✅ OK | 2026-11-28 | 0 |
 | Sigmoid | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | SigNoz | ashby | ✅ OK | 2026-11-28 | 0 |
-| Sprinklr | workday | ✅ OK | 2026-11-28 | 0 |
 | Squarepoint Capital | greenhouse | ✅ OK | 2026-11-28 | 0 |
-| State Street | workday | ✅ OK | 2026-11-28 | 0 |
-| Stryker | workday | ✅ OK | 2026-11-28 | 0 |
 | Sumo Logic | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Swiggy | smartrecruiters | ✅ OK | 2026-11-28 | 0 |
 | Target | workday | ✅ OK | 2026-11-28 | 0 |
@@ -160,8 +162,6 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 | US Bank | workday | ✅ OK | 2026-11-28 | 0 |
 | Vercel | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Waymo | greenhouse | ✅ OK | 2026-11-28 | 0 |
-| Wolters Kluwer | workday | ✅ OK | 2026-11-28 | 0 |
-| Workday | workday | ✅ OK | 2026-11-28 | 0 |
 | WorldQuant | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Zebra Technologies | workday | ✅ OK | 2026-11-28 | 0 |
 | Zeta | lever | ✅ OK | 2026-11-28 | 1 |
