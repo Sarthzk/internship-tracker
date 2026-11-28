@@ -6,8 +6,8 @@ Live health of every company the tracker watches, refreshed on each run. [Back t
 
 | Company | Platform | Status | Last success | Open internships |
 |---|---|---|---|---|
-| JPMorgan Chase | oracle_hcm | ⚠️ failing for 1 run: FetchError: HTTP 503 from jpmc.fa.oraclecloud.com | 2026-11-28 | 0 |
-| Texas Instruments | oracle_hcm | ⚠️ failing for 1 run: FetchError: HTTP 503 from edbz.fa.us2.oraclecloud.com | 2026-11-28 | 0 |
+| JPMorgan Chase | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 503 from jpmc.fa.oraclecloud.com | 2026-11-28 | 0 |
+| Texas Instruments | oracle_hcm | ⚠️ failing for 2 runs: FetchError: HTTP 503 from edbz.fa.us2.oraclecloud.com | 2026-11-28 | 0 |
 | Adobe | phenom | ✅ OK | 2026-11-28 | 1 |
 | AlphaGrep | greenhouse | ✅ OK | 2026-11-28 | 0 |
 | Amazon | custom | ✅ OK | 2026-11-28 | 1 |
